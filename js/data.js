@@ -38,6 +38,88 @@ const WordData = (function(){
     { key:"tri-",    label:"tri-",    meaning:"三つ",             color:"#B197FC" },
   ];
 
+  // 語根マスター
+  const ROOTS = [
+    { key:"-cap-",      label:"-cap-/-cept-",  meaning:"取る・つかむ",         color:"#FF6B9D" },
+    { key:"-cred-",     label:"-cred-",        meaning:"信じる",               color:"#C77DFF" },
+    { key:"-cur-",      label:"-cur-/-curs-",  meaning:"走る・流れる",         color:"#74C0FC" },
+    { key:"-dict-",     label:"-dict-",        meaning:"言う・告げる",         color:"#69DB7C" },
+    { key:"-duc-",      label:"-duc-/-duct-",  meaning:"導く・引く",           color:"#FFD43B" },
+    { key:"-fer-",      label:"-fer-",         meaning:"運ぶ・もたらす",       color:"#FFA94D" },
+    { key:"-grad-",     label:"-grad-/-gress-",meaning:"歩む・進む",           color:"#FF6B6B" },
+    { key:"-graph-",    label:"-graph-/-gram-",meaning:"書く・記録する",       color:"#CC5DE8" },
+    { key:"-grat-",     label:"-grat-",        meaning:"喜ぶ・感謝する",       color:"#339AF0" },
+    { key:"-here-",     label:"-here-/-hes-",  meaning:"くっつく",             color:"#51CF66" },
+    { key:"-ject-",     label:"-ject-",        meaning:"投げる",               color:"#FF8787" },
+    { key:"-jur-",      label:"-jur-/-jus-",   meaning:"誓う・法・正義",       color:"#F783AC" },
+    { key:"-labor-",    label:"-labor-",       meaning:"働く・努力する",       color:"#A9E34B" },
+    { key:"-lect-",     label:"-lect-/-leg-",  meaning:"選ぶ・集める・読む",   color:"#FFD43B" },
+    { key:"-liber-",    label:"-liber-",       meaning:"自由",                 color:"#B197FC" },
+    { key:"-lingu-",    label:"-lingu-",       meaning:"言語・舌",             color:"#63E6BE" },
+    { key:"-liter-",    label:"-liter-",       meaning:"文字・文学",           color:"#FF6B9D" },
+    { key:"-loc-",      label:"-loc-",         meaning:"場所",                 color:"#74C0FC" },
+    { key:"-log-",      label:"-log-/-logue-", meaning:"言葉・学問・論理",     color:"#C77DFF" },
+    { key:"-loqu-",     label:"-loqu-",        meaning:"話す",                 color:"#69DB7C" },
+    { key:"-luc-",      label:"-luc-/-lum-",   meaning:"光",                   color:"#FFA94D" },
+    { key:"-man-",      label:"-man-/-manu-",  meaning:"手",                   color:"#FF6B6B" },
+    { key:"-med-",      label:"-med-/-medi-",  meaning:"中間・医療",           color:"#CC5DE8" },
+    { key:"-mem-",      label:"-mem-",         meaning:"記憶する",             color:"#339AF0" },
+    { key:"-mit-",      label:"-mit-/-miss-",  meaning:"送る",                 color:"#51CF66" },
+    { key:"-mor-",      label:"-mor-/-mort-",  meaning:"死",                   color:"#FF8787" },
+    { key:"-mot-",      label:"-mot-/-mov-",   meaning:"動く",                 color:"#F783AC" },
+    { key:"-nat-",      label:"-nat-/-nasc-",  meaning:"生まれる",             color:"#A9E34B" },
+    { key:"-nom-",      label:"-nom-/-nym-",   meaning:"名前・法則",           color:"#FFD43B" },
+    { key:"-path-",     label:"-path-",        meaning:"感情・苦しみ",         color:"#B197FC" },
+    { key:"-ped-",      label:"-ped-/-pod-",   meaning:"足",                   color:"#63E6BE" },
+    { key:"-pend-",     label:"-pend-/-pens-", meaning:"ぶら下がる・支払う",   color:"#FF6B9D" },
+    { key:"-phil-",     label:"-phil-",        meaning:"愛する",               color:"#74C0FC" },
+    { key:"-phon-",     label:"-phon-",        meaning:"音・声",               color:"#C77DFF" },
+    { key:"-plic-",     label:"-plic-/-ply-",  meaning:"折る・重ねる",         color:"#69DB7C" },
+    { key:"-port-",     label:"-port-",        meaning:"運ぶ",                 color:"#FFA94D" },
+    { key:"-pos-",      label:"-pos-/-pon-",   meaning:"置く",                 color:"#FF6B6B" },
+    { key:"-press-",    label:"-press-",       meaning:"押す",                 color:"#CC5DE8" },
+    { key:"-prim-",     label:"-prim-/-princ-",meaning:"最初・主要な",         color:"#339AF0" },
+    { key:"-prob-",     label:"-prob-/-prov-", meaning:"証明する・試す",       color:"#51CF66" },
+    { key:"-put-",      label:"-put-",         meaning:"考える・計算する",     color:"#FF8787" },
+    { key:"-quer-",     label:"-quer-/-quest-",meaning:"求める・尋ねる",       color:"#F783AC" },
+    { key:"-reg-",      label:"-reg-/-rect-",  meaning:"支配する・導く",       color:"#A9E34B" },
+    { key:"-rog-",      label:"-rog-",         meaning:"尋ねる・求める",       color:"#FFD43B" },
+    { key:"-rupt-",     label:"-rupt-",        meaning:"壊す・破る",           color:"#B197FC" },
+    { key:"-sacr-",     label:"-sacr-/-sanct-",meaning:"神聖な",               color:"#63E6BE" },
+    { key:"-sci-",      label:"-sci-",         meaning:"知る",                 color:"#FF6B9D" },
+    { key:"-scop-",     label:"-scop-",        meaning:"見る・観察する",       color:"#74C0FC" },
+    { key:"-scrib-",    label:"-scrib-/-script-",meaning:"書く",               color:"#C77DFF" },
+    { key:"-sec-",      label:"-sec-/-sect-",  meaning:"切る",                 color:"#69DB7C" },
+    { key:"-sens-",     label:"-sens-/-sent-", meaning:"感じる",               color:"#FFA94D" },
+    { key:"-sequ-",     label:"-sequ-/-secut-",meaning:"従う・続く",           color:"#FF6B6B" },
+    { key:"-sign-",     label:"-sign-",        meaning:"印・合図",             color:"#CC5DE8" },
+    { key:"-simil-",    label:"-simil-/-simul-",meaning:"似ている",             color:"#339AF0" },
+    { key:"-sol-",      label:"-sol-",         meaning:"太陽・一人",           color:"#51CF66" },
+    { key:"-solv-",     label:"-solv-/-solu-", meaning:"解く・緩める",         color:"#FF8787" },
+    { key:"-soph-",     label:"-soph-",        meaning:"知恵・賢さ",           color:"#F783AC" },
+    { key:"-spect-",    label:"-spect-/-spic-",meaning:"見る",                 color:"#A9E34B" },
+    { key:"-spir-",     label:"-spir-",        meaning:"息をする・精神",       color:"#FFD43B" },
+    { key:"-string-",   label:"-string-/-strict-",meaning:"縛る・締める",      color:"#B197FC" },
+    { key:"-stru-",     label:"-stru-/-struct-",meaning:"積む・構造",          color:"#63E6BE" },
+    { key:"-tang-",     label:"-tang-/-tact-", meaning:"触れる",               color:"#FF6B9D" },
+    { key:"-tempor-",   label:"-tempor-",      meaning:"時間",                 color:"#74C0FC" },
+    { key:"-ten-",      label:"-ten-/-tain-",  meaning:"持つ・保つ",           color:"#C77DFF" },
+    { key:"-terr-",     label:"-terr-",        meaning:"土地・大地",           color:"#69DB7C" },
+    { key:"-the-",      label:"-the-/-theo-",  meaning:"神",                   color:"#FFA94D" },
+    { key:"-tract-",    label:"-tract-",       meaning:"引く",                 color:"#FF6B6B" },
+    { key:"-vac-",      label:"-vac-",         meaning:"空の",                 color:"#CC5DE8" },
+    { key:"-val-",      label:"-val-/-vail-",  meaning:"強い・価値がある",     color:"#339AF0" },
+    { key:"-ven-",      label:"-ven-/-vent-",  meaning:"来る",                 color:"#51CF66" },
+    { key:"-ver-",      label:"-ver-/-veri-",  meaning:"真実",                 color:"#FF8787" },
+    { key:"-vid-",      label:"-vid-/-vis-",   meaning:"見る",                 color:"#F783AC" },
+    { key:"-viv-",      label:"-viv-/-vit-",   meaning:"生きる",               color:"#A9E34B" },
+    { key:"-voc-",      label:"-voc-/-vok-",   meaning:"声・呼ぶ",             color:"#FFD43B" },
+    { key:"-scend-",    label:"-scend-/-scens-",meaning:"登る・上がる",        color:"#B197FC" },
+    { key:"-geo-",      label:"-geo-",         meaning:"地球・土地",           color:"#63E6BE" },
+    { key:"-anthropo-", label:"-anthropo-",    meaning:"人間",                 color:"#FF6B9D" },
+    { key:"-vert-",     label:"-vert-",        meaning:"向ける・回す",         color:"#74C0FC" },
+  ];
+
   // 接尾語マスター
   const SUFFIXES = [
     { key:"-tion",  label:"-tion/-sion", meaning:"行為・状態・結果",    color:"#FF6B9D" },
@@ -91,11 +173,13 @@ const WordData = (function(){
 
   let _byPrefix = null;
   let _bySuffix = null;
+  let _byRoot = null;
 
   function _buildIndex() {
     if (_byPrefix) return;
     _byPrefix = {};
     _bySuffix = {};
+    _byRoot = {};
     const raw = window.WORD_DATA_RAW || [];
     for (const w of raw) {
       if (w.prefix) {
@@ -117,6 +201,10 @@ const WordData = (function(){
         const sk6 = sk5 === "-ious" ? "-ous" : sk5;
         if (!_bySuffix[sk6]) _bySuffix[sk6] = [];
         _bySuffix[sk6].push(w);
+      }
+      if (w.root) {
+        if (!_byRoot[w.root]) _byRoot[w.root] = [];
+        _byRoot[w.root].push(w);
       }
     }
   }
@@ -157,6 +245,21 @@ const WordData = (function(){
     return getWordsBySuffix(suffix, level).length;
   }
 
+  function getWordsByRoot(root, level) {
+    _buildIndex();
+    let words = _byRoot[root] || [];
+    if (level !== undefined) words = words.filter(w => w.level <= level);
+    return words;
+  }
+
+  function getRootInfo(key) {
+    return ROOTS.find(r => r.key === key) || { key, label: key, meaning:"", color:"#74C0FC" };
+  }
+
+  function getRootWordCount(root, level) {
+    return getWordsByRoot(root, level).length;
+  }
+
   function getLevelName(level) {
     return LEVEL_NAMES[level] || "不明";
   }
@@ -194,13 +297,17 @@ const WordData = (function(){
   return {
     PREFIXES,
     SUFFIXES,
+    ROOTS,
     getWordsByPrefix,
     getWordsBySuffix,
+    getWordsByRoot,
     getAllWords,
     getPrefixInfo,
     getSuffixInfo,
+    getRootInfo,
     getPrefixWordCount,
     getSuffixWordCount,
+    getRootWordCount,
     getLevelName,
     getLevelTitle,
     getXpForLevel,

@@ -63,6 +63,7 @@
         tab.classList.add("active");
         $("prefix-grid").classList.toggle("hidden", selectedMode !== "prefix");
         $("suffix-grid").classList.toggle("hidden", selectedMode !== "suffix");
+        $("root-grid").classList.toggle("hidden", selectedMode !== "root");
         $("weak-section").classList.toggle("hidden", selectedMode !== "weak");
         selectedAffix = null;
         renderAffixGrid();
@@ -87,7 +88,9 @@
         const stat   = statsMap[`${mode}:${item.key}`];
         const count  = mode === "prefix"
           ? WordData.getPrefixWordCount(item.key, selectedLevel)
-          : WordData.getSuffixWordCount(item.key, selectedLevel);
+          : mode === "suffix"
+            ? WordData.getSuffixWordCount(item.key, selectedLevel)
+            : WordData.getRootWordCount(item.key, selectedLevel);
         if (count === 0) return;
 
         const btn = document.createElement("button");
@@ -121,6 +124,7 @@
 
     renderGrid("prefix-grid", WordData.PREFIXES, "prefix");
     renderGrid("suffix-grid", WordData.SUFFIXES, "suffix");
+    renderGrid("root-grid",   WordData.ROOTS,    "root");
 
     // スタートエリアを更新
     const existing = document.querySelector(".affix-start-area");
@@ -137,7 +141,9 @@
       <p class="selected-info">「<strong>${item.label}</strong>」を選択中 (${
         selectedMode === "prefix"
           ? WordData.getPrefixWordCount(item.key, selectedLevel)
-          : WordData.getSuffixWordCount(item.key, selectedLevel)
+          : selectedMode === "root"
+            ? WordData.getRootWordCount(item.key, selectedLevel)
+            : WordData.getSuffixWordCount(item.key, selectedLevel)
       }語)</p>
       <button class="btn-primary" id="btn-start-quiz">
         🚀 クイズを始める！
@@ -251,6 +257,11 @@
       $("etymology-prefix-tag").style.display = "";
       document.querySelector(".etymology-separator").style.display = "";
       $("etymology-root").textContent = q.word.suffix;
+    } else if (q.word.root) {
+      $("etymology-prefix-tag").textContent = q.word.root;
+      $("etymology-prefix-tag").style.display = "";
+      document.querySelector(".etymology-separator").style.display = "";
+      $("etymology-root").textContent = q.word.word;
     } else {
       $("etymology-prefix-tag").style.display = "none";
       document.querySelector(".etymology-separator").style.display = "none";

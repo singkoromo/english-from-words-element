@@ -108,6 +108,7 @@
         <div class="mode-tabs">
           <button class="mode-tab active" data-mode="prefix">接頭語</button>
           <button class="mode-tab" data-mode="suffix">接尾語</button>
+          <button class="mode-tab" data-mode="root">語根</button>
           <button class="mode-tab" data-mode="weak">苦手克服</button>
         </div>
 
@@ -118,6 +119,11 @@
 
         <!-- 接尾語一覧 -->
         <div id="suffix-grid" class="affix-grid hidden">
+          <!-- JS で生成 -->
+        </div>
+
+        <!-- 語根一覧 -->
+        <div id="root-grid" class="affix-grid hidden">
           <!-- JS で生成 -->
         </div>
 
@@ -396,8 +402,13 @@
   <!-- 単語データ（分割ファイル） -->
   <script src="js/data-prefix-1.js"></script>
   <script src="js/data-prefix-2.js"></script>
+  <script src="js/data-prefix-5.js"></script>
+  <script src="js/data-prefix-6.js"></script>
   <script src="js/data-suffix-1.js"></script>
   <script src="js/data-suffix-2.js"></script>
+  <script src="js/data-suffix-4.js"></script>
+  <script src="js/data-root-3.js"></script>
+  <script src="js/data-root-4.js"></script>
   <!-- コアロジック -->
   <script src="js/data.js"></script>
   <script src="js/storage.js"></script>

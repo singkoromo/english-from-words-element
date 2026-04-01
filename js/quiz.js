@@ -17,6 +17,8 @@ const Quiz = (function(){
       pool = WordData.getWordsByPrefix(affixKey, level);
     } else if (mode === "suffix") {
       pool = WordData.getWordsBySuffix(affixKey, level);
+    } else if (mode === "root") {
+      pool = WordData.getWordsByRoot(affixKey, level);
     } else if (mode === "weak") {
       // 苦手モード: 全レベルからランダム
       pool = WordData.getAllWords(level);

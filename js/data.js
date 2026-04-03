@@ -72,6 +72,52 @@ const WordData = (function(){
     { key:"-sion",  label:"-sion",       meaning:"行為・状態",          color:"#63E6BE" },
   ];
 
+  // 語根マスター
+  const ROOTS = [
+    { key:"-graph-",  label:"-graph-",  meaning:"書く・記録する",     color:"#FF6B9D" },
+    { key:"-port-",   label:"-port-",   meaning:"運ぶ・持つ",         color:"#C77DFF" },
+    { key:"-ject-",   label:"-ject-",   meaning:"投げる",             color:"#74C0FC" },
+    { key:"-duct-",   label:"-duct-",   meaning:"導く・引く",         color:"#69DB7C" },
+    { key:"-spec-",   label:"-spec-",   meaning:"見る・観察する",     color:"#FFD43B" },
+    { key:"-scrib-",  label:"-scrib-",  meaning:"書く",               color:"#FFA94D" },
+    { key:"-vert-",   label:"-vert-",   meaning:"向ける・変える",     color:"#FF6B6B" },
+    { key:"-dict-",   label:"-dict-",   meaning:"言う・述べる",       color:"#CC5DE8" },
+    { key:"-struct-", label:"-struct-", meaning:"構築する",           color:"#339AF0" },
+    { key:"-rupt-",   label:"-rupt-",   meaning:"破る・壊す",         color:"#51CF66" },
+    { key:"-cred-",   label:"-cred-",   meaning:"信じる",             color:"#FF8787" },
+    { key:"-aud-",    label:"-aud-",    meaning:"聞く",               color:"#F783AC" },
+    { key:"-vis-",    label:"-vis-",    meaning:"見る",               color:"#A9E34B" },
+    { key:"-sent-",   label:"-sent-",   meaning:"感じる・送る",       color:"#FFD43B" },
+    { key:"-ped-",    label:"-ped-",    meaning:"足・子供",           color:"#B197FC" },
+    { key:"-phil-",   label:"-phil-",   meaning:"愛する",             color:"#63E6BE" },
+    { key:"-phob-",   label:"-phob-",   meaning:"恐れる",             color:"#FF6B9D" },
+    { key:"-gen-",    label:"-gen-",    meaning:"生まれる・生み出す", color:"#74C0FC" },
+    { key:"-morph-",  label:"-morph-",  meaning:"形・形態",           color:"#C77DFF" },
+    { key:"-chron-",  label:"-chron-",  meaning:"時間",               color:"#69DB7C" },
+    { key:"-loc-",    label:"-loc-",    meaning:"場所",               color:"#FFD43B" },
+    { key:"-mot-",    label:"-mot-",    meaning:"動く・動かす",       color:"#FFA94D" },
+    { key:"-nat-",    label:"-nat-",    meaning:"生まれる・本来の",   color:"#FF6B6B" },
+    { key:"-nom-",    label:"-nom-",    meaning:"名前・法則",         color:"#CC5DE8" },
+    { key:"-pend-",   label:"-pend-",   meaning:"ぶら下がる・量る",   color:"#339AF0" },
+    { key:"-sci-",    label:"-sci-",    meaning:"知る・知識",         color:"#51CF66" },
+    { key:"-sign-",   label:"-sign-",   meaning:"印・示す",           color:"#FF8787" },
+    { key:"-sol-",    label:"-sol-",    meaning:"太陽・一人・慰める", color:"#F783AC" },
+    { key:"-tang-",   label:"-tang-",   meaning:"触れる・接触",       color:"#A9E34B" },
+    { key:"-tempor-", label:"-tempor-", meaning:"時間・時期",         color:"#FFD43B" },
+    { key:"-ten-",    label:"-ten-",    meaning:"保つ・持つ",         color:"#B197FC" },
+    { key:"-tort-",   label:"-tort-",   meaning:"ねじる・歪める",     color:"#63E6BE" },
+    { key:"-tract-",  label:"-tract-",  meaning:"引く",               color:"#FF6B9D" },
+  ];
+
+  // カテゴリマスター
+  const CATEGORIES = [
+    { key:"TOEFL",    label:"TOEFL/IELTS", meaning:"TOEFL・IELTS頻出語", color:"#339AF0" },
+    { key:"GRE",      label:"GRE/SAT",     meaning:"GRE・SAT頻出語",     color:"#CC5DE8" },
+    { key:"business", label:"ビジネス",    meaning:"ビジネス用語",       color:"#51CF66" },
+    { key:"academic", label:"学術",        meaning:"学術用語",           color:"#FFD43B" },
+    { key:"medical",  label:"医学",        meaning:"医学・医療用語",     color:"#FF6B6B" },
+  ];
+
   // レベル名
   const LEVEL_NAMES = ["初級", "中級", "上級", "マスター"];
   const LEVEL_TITLES = [
@@ -91,11 +137,15 @@ const WordData = (function(){
 
   let _byPrefix = null;
   let _bySuffix = null;
+  let _byRoot = null;
+  let _byCategory = null;
 
   function _buildIndex() {
     if (_byPrefix) return;
     _byPrefix = {};
     _bySuffix = {};
+    _byRoot = {};
+    _byCategory = {};
     const raw = window.WORD_DATA_RAW || [];
     for (const w of raw) {
       if (w.prefix) {
@@ -117,6 +167,14 @@ const WordData = (function(){
         const sk6 = sk5 === "-ious" ? "-ous" : sk5;
         if (!_bySuffix[sk6]) _bySuffix[sk6] = [];
         _bySuffix[sk6].push(w);
+      }
+      if (w.root) {
+        if (!_byRoot[w.root]) _byRoot[w.root] = [];
+        _byRoot[w.root].push(w);
+      }
+      if (w.category) {
+        if (!_byCategory[w.category]) _byCategory[w.category] = [];
+        _byCategory[w.category].push(w);
       }
     }
   }
@@ -157,6 +215,36 @@ const WordData = (function(){
     return getWordsBySuffix(suffix, level).length;
   }
 
+  function getWordsByRoot(root, level) {
+    _buildIndex();
+    let words = _byRoot[root] || [];
+    if (level !== undefined) words = words.filter(w => w.level <= level);
+    return words;
+  }
+
+  function getRootInfo(key) {
+    return ROOTS.find(r => r.key === key) || { key, label: key, meaning:"", color:"#74C0FC" };
+  }
+
+  function getRootWordCount(root, level) {
+    return getWordsByRoot(root, level).length;
+  }
+
+  function getWordsByCategory(category, level) {
+    _buildIndex();
+    let words = _byCategory[category] || [];
+    if (level !== undefined) words = words.filter(w => w.level <= level);
+    return words;
+  }
+
+  function getCategoryInfo(key) {
+    return CATEGORIES.find(c => c.key === key) || { key, label: key, meaning:"", color:"#FFA94D" };
+  }
+
+  function getCategoryWordCount(category, level) {
+    return getWordsByCategory(category, level).length;
+  }
+
   function getLevelName(level) {
     return LEVEL_NAMES[level] || "不明";
   }
@@ -194,6 +282,8 @@ const WordData = (function(){
   return {
     PREFIXES,
     SUFFIXES,
+    ROOTS,
+    CATEGORIES,
     getWordsByPrefix,
     getWordsBySuffix,
     getAllWords,
@@ -201,6 +291,12 @@ const WordData = (function(){
     getSuffixInfo,
     getPrefixWordCount,
     getSuffixWordCount,
+    getWordsByRoot,
+    getRootInfo,
+    getRootWordCount,
+    getWordsByCategory,
+    getCategoryInfo,
+    getCategoryWordCount,
     getLevelName,
     getLevelTitle,
     getXpForLevel,

@@ -87,6 +87,6 @@
   {word:"elucidation",   meaning:"解明・説明",                  etymology:"e（外に）+ lucid（明確な）+ ation（行為）",root:"-clar-",level:3},
   {word:"unclarity",     meaning:"不明確さ",                    etymology:"un（否定）+ clarity（明確さ）",          root:"-clar-", level:2},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

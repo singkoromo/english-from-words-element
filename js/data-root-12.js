@@ -87,6 +87,6 @@
   {word:"graceful",      meaning:"優雅な・品のある",             etymology:"grace（優雅さ）+ ful（〜に満ちた）",     root:"-grat-", level:1},
   {word:"gratification", meaning:"満足・喜び",                  etymology:"gratify（満足させる）+ ation（行為）",    root:"-grat-", level:2},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

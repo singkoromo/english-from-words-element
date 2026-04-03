@@ -105,6 +105,6 @@
   {word:"metaprogramming",meaning:"メタプログラミング",         etymology:"meta（超えて）+ programming（プログラミング）",prefix:"meta-",level:3},
   {word:"metaphorical",  meaning:"比喩的な",                   etymology:"meta（超えて）+ phorical（運ぶ）",          prefix:"meta-", level:2},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

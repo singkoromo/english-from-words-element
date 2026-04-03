@@ -58,6 +58,6 @@
   {word:"distribution",  meaning:"分配・流通",                   etymology:"dis（離れて）+ tribut（与える）+ ion",    category:"IELTS", level:1},
   {word:"domain",        meaning:"領域・ドメイン",                etymology:"domin（支配）+ ain（〜のもの）",          category:"IELTS", level:2},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

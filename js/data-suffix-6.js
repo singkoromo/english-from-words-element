@@ -87,6 +87,6 @@
   {word:"triarchy",      meaning:"三頭政治",                  etymology:"tri（三）+ archy（統治）",              suffix:"-archy", level:3},
   {word:"heptarchy",     meaning:"七王国時代（英国）",         etymology:"hepta（七）+ archy（統治）",            suffix:"-archy", level:3},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

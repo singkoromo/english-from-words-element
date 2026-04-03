@@ -83,6 +83,6 @@
   {word:"flush",         meaning:"赤くなる・勢いよく流す",         etymology:"flu（流れる）+ sh（勢い）",               root:"-flu-", level:1},
   {word:"fluvial",       meaning:"川の・河流の",                  etymology:"fluv（川・流れ）+ ial（〜の）",           root:"-flu-", level:3},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

@@ -58,6 +58,6 @@
   {word:"inference",     meaning:"推論・結論",                   etymology:"in（中に）+ fer（運ぶ）+ ence（状態）",   category:"Academic", level:2},
   {word:"interdisciplinary",meaning:"学際的な",                 etymology:"inter（間に）+ disciplinary（学問の）",   category:"Academic", level:2},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

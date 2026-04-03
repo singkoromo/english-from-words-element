@@ -82,6 +82,6 @@
   {word:"disjunctive",   meaning:"選択的な・分離の",             etymology:"dis（離れて）+ junctive（結合する）",      root:"-junct-", level:3},
   {word:"conjunctive",   meaning:"結合の・接続詞の",             etymology:"con（共に）+ junctive（結合する）",        root:"-junct-", level:3},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

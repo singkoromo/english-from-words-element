@@ -78,6 +78,6 @@
   {word:"literal-minded",meaning:"字義どおりにしか考えない",      etymology:"literal（文字通りの）+ minded（考える）", root:"-liter-", level:2},
   {word:"preliterate",   meaning:"文字以前の・無文字の",          etymology:"pre（前に）+ literate（読み書き）",       root:"-liter-", level:3},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

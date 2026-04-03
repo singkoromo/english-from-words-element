@@ -84,6 +84,6 @@
   {word:"cosmonaut",     meaning:"宇宙飛行士（ロシア）",        etymology:"cosmo（宇宙）+ naut（船乗り）",          root:"-cosm-", level:2},
   {word:"cosmogony",     meaning:"宇宙起源論",                  etymology:"cosmo（宇宙）+ gony（生成）",            root:"-cosm-", level:3},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

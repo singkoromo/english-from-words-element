@@ -89,6 +89,6 @@
   {word:"isogamy",       meaning:"同形配偶子生殖",             etymology:"iso（等しい）+ gamy（生殖）",            suffix:"-gamy", level:3},
   {word:"oogamy",        meaning:"卵配偶子生殖",              etymology:"oo（卵）+ gamy（生殖）",                suffix:"-gamy", level:3},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

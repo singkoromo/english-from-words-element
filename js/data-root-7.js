@@ -89,6 +89,6 @@
   {word:"brevi-",        meaning:"短い（複合語の要素）",       etymology:"brev（短い）→ 接頭語",                  root:"-brev-", level:3},
   {word:"brevilineal",   meaning:"短肢型の（体型）",           etymology:"brev（短い）+ lineal（線の）",           root:"-brev-", level:3},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

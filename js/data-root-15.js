@@ -79,6 +79,6 @@
   {word:"ominous",       meaning:"不吉な・縁起の悪い",            etymology:"omin（予兆）+ ous（〜な）",              root:"-min-", level:2},
   {word:"nominal",       meaning:"名目上の・わずかな",            etymology:"nomin（名前）+ al（〜の）",              root:"-min-", level:2},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

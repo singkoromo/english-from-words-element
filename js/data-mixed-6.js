@@ -58,6 +58,6 @@
   {word:"devious",       meaning:"遠回りの・策略的な",             etymology:"de（離れて）+ via（道）+ ous（〜な）",   category:"SAT", level:2},
   {word:"diligence",     meaning:"勤勉さ・熱心さ",               etymology:"dil（好む）+ ig（選ぶ）+ ence（状態）",   category:"SAT", level:1},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

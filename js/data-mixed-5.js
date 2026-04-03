@@ -58,6 +58,6 @@
   {word:"fecund",        meaning:"多産な・肥沃な",               etymology:"fec（生む）+ und（〜な）",               category:"GRE", level:3},
   {word:"felicitous",    meaning:"適切な・巧みな",               etymology:"felic（幸福な）+ ious（〜な）",           category:"GRE", level:3},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

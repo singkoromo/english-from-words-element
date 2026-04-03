@@ -57,6 +57,6 @@
   {word:"monitor",       meaning:"監視する・モニター",             etymology:"monit（警告する）+ or（人・もの）",       category:"TOEFL", level:1},
   {word:"necessitate",   meaning:"必要とする",                   etymology:"necess（必要）+ itate（する）",          category:"TOEFL", level:2},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

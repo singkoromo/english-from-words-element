@@ -57,6 +57,6 @@
   {word:"inventory",     meaning:"在庫・棚卸し",                etymology:"invent（発見する）+ ory（〜の場所）",      category:"Business", level:1},
   {word:"leverage",      meaning:"レバレッジ・影響力",            etymology:"lever（てこ）+ age（〜の効果）",          category:"Business", level:2},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

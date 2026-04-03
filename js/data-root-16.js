@@ -81,6 +81,6 @@
   {word:"neophyte",      meaning:"初心者・新入り",                etymology:"neo（新しい）+ phyte（育つもの）",        root:"-nov-", level:2},
   {word:"neonatal",      meaning:"新生児の",                     etymology:"neo（新しい）+ natal（出生の）",          root:"-nov-", level:2},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

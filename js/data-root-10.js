@@ -85,6 +85,6 @@
   {word:"inerrancy",     meaning:"無謬性",                      etymology:"in（否定）+ err（間違える）+ ancy（状態）",root:"-err-",level:3},
   {word:"knight-errant", meaning:"遍歴の騎士",                  etymology:"knight（騎士）+ errant（さまよう）",     root:"-err-", level:3},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

@@ -105,6 +105,6 @@
   {word:"ectotroph",       meaning:"外栄養の",                    etymology:"ecto（外側に）+ troph（栄養）",            prefix:"ecto-", level:3},
   {word:"ectospore",       meaning:"外生胞子",                    etymology:"ecto（外側に）+ spore（胞子）",            prefix:"ecto-", level:3},
   ];
-  if(typeof window !== 'undefined' && window.VOCAB_DATA) window.VOCAB_DATA.push(...d);
-  else if(typeof module !== 'undefined') module.exports = d;
+  if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
 })();

@@ -99,6 +99,12 @@
   {word:"voice",              meaning:"語り手の声・文体",           etymology:"vox（ラテン語：声）",                                    level:1},
   {word:"witticism",          meaning:"機知・気の利いた言葉",       etymology:"witty（気の利いた）+ ic（〜の）+ ism（状態）",           level:3},
   {word:"wordplay",           meaning:"語呂合わせ・洒落",           etymology:"word（言葉）+ play（遊び）",                             level:1},
+  {word:"aesthetic",          meaning:"美的な・審美的な",           etymology:"aesthesis（ギリシャ語：感覚・知覚）+ ic（〜の）",        level:2},
+  {word:"canvas",             meaning:"キャンバス・帆布",           etymology:"cannabis（ラテン語：麻）→ 麻の布",                        level:1},
+  {word:"encore",             meaning:"アンコール",                etymology:"encore（フランス語：もう一度）",                           level:1},
+  {word:"improvisation",      meaning:"即興演奏・即興",             etymology:"im（否定）+ provis（準備する）+ ation（行為）",           level:2},
+  {word:"panorama",           meaning:"パノラマ・全景",             etymology:"pan（全て）+ horama（眺め）",                            level:1},
+  {word:"silhouette",         meaning:"シルエット・輪郭",           etymology:"Silhouette（人名）→ 影絵",                               level:1},
   ];
   if(typeof window !== 'undefined'){
     if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];

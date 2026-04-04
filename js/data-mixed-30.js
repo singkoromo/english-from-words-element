@@ -92,6 +92,28 @@
   {word:"recession",          meaning:"景気後退",                  etymology:"re（後に）+ cess（進む）+ ion（行為）",                 level:2},
   {word:"stakeholder",        meaning:"ステークホルダー・利害関係者",etymology:"stake（賭け・支柱）+ holder（保有者）",                  level:2},
   {word:"venture capital",    meaning:"ベンチャーキャピタル",       etymology:"venture（冒険）+ capital（資本）",                       level:2},
+
+  /* ── 社会・文化（補充）20語 ── */
+  {word:"cohesion",           meaning:"結束・凝集性",              etymology:"co（共に）+ hes（くっつく）+ ion（行為）",               level:2},
+  {word:"commemorate",        meaning:"記念する・追悼する",         etymology:"com（共に）+ memor（記憶）+ ate（〜にする）",            level:2},
+  {word:"conglomerate",       meaning:"複合企業・集塊",            etymology:"con（共に）+ glomerat（球状に集める）+ e",               level:3},
+  {word:"cosmopolitan",       meaning:"国際的な・世界市民的な",     etymology:"cosmo（世界）+ politan（市民）",                         level:2},
+  {word:"demography",         meaning:"人口統計学",                etymology:"demo（人々）+ graphy（書く・学問）",                     level:2},
+  {word:"diaspora",           meaning:"ディアスポラ・離散",         etymology:"dia（散らばって）+ spora（種）← ギリシャ語",            level:3},
+  {word:"egalitarian",        meaning:"平等主義の",                etymology:"egal（等しい）+ arian（〜を信じる）",                    level:2},
+  {word:"emancipation",       meaning:"解放・独立",                etymology:"e（外に）+ mancip（手で握る）+ ation（行為）",           level:2},
+  {word:"ethnocentrism",      meaning:"自民族中心主義",            etymology:"ethno（民族）+ centr（中心）+ ism（主義）",             level:3},
+  {word:"gentrification",     meaning:"ジェントリフィケーション",   etymology:"gentry（上流階級）+ fic（〜にする）+ ation（行為）",     level:3},
+  {word:"globalization",      meaning:"グローバル化",              etymology:"global（地球的な）+ ize（〜にする）+ ation（行為）",     level:1},
+  {word:"hegemony",           meaning:"覇権・支配的地位",           etymology:"hegemon（ギリシャ語：指導者）+ y（状態）",               level:3},
+  {word:"indigenous",         meaning:"先住民の・固有の",           etymology:"indu（中に）+ gen（生まれる）+ ous（〜の）",            level:2},
+  {word:"marginalization",    meaning:"周辺化・排除",              etymology:"margin（余白）+ al（〜の）+ ize（〜にする）+ ation",    level:3},
+  {word:"multiculturalism",   meaning:"多文化主義",                etymology:"multi（多くの）+ cultural（文化的な）+ ism（主義）",     level:2},
+  {word:"nationalism",        meaning:"ナショナリズム・民族主義",   etymology:"nation（国家・民族）+ al（〜の）+ ism（主義）",          level:2},
+  {word:"patriarchy",         meaning:"家父長制・男性支配",         etymology:"patri（父）+ archy（支配）",                            level:2},
+  {word:"segregation",        meaning:"分離・人種差別的隔離",       etymology:"se（分離）+ greg（群れ）+ ation（行為）",               level:2},
+  {word:"solidarity",         meaning:"連帯・結束",                etymology:"solidar（固体の）+ ity（状態）",                         level:2},
+  {word:"stereotype",         meaning:"ステレオタイプ・固定観念",   etymology:"stereo（固体の）+ type（型）",                          level:1},
   ];
   if(typeof window !== 'undefined'){
     if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];

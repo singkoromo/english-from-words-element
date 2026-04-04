@@ -101,6 +101,10 @@
   {word:"prophecy",           meaning:"預言・予言",                etymology:"pro（前に）+ phetes（語る者）+ cy（行為）",              level:2},
   {word:"sacrament",          meaning:"秘跡・聖礼典",              etymology:"sacrament（ラテン語：誓い・神聖なもの）",               level:2},
   {word:"sanctity",           meaning:"神聖さ・不可侵性",           etymology:"sanct（聖なる）+ ity（状態）",                           level:2},
+  {word:"piety",              meaning:"敬虔さ・信心",              etymology:"pius（ラテン語：敬虔な）+ ety（状態）",                  level:2},
+  {word:"repentance",         meaning:"悔い改め・悔悛",            etymology:"re（再び）+ pent（苦しむ）+ ance（状態）",              level:2},
+  {word:"schism",             meaning:"分裂・教会分裂",            etymology:"skhisma（ギリシャ語：分割）",                           level:3},
+  {word:"taboo",              meaning:"タブー・禁忌",              etymology:"tabu（トンガ語：神聖な・禁じられた）",                   level:1},
   ];
   if(typeof window !== 'undefined'){
     if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];

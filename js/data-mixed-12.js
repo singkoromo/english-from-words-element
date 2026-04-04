@@ -109,6 +109,7 @@
   {word:"protocol",        meaning:"プロトコル・議定書",           etymology:"proto（最初の）+ col（粘着）→最初に貼り付けた記録",level:2},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

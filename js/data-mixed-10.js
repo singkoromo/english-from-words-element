@@ -107,6 +107,7 @@
   {word:"justify",         meaning:"正当化する・理由を示す",       etymology:"just（正しい）+ ify（する）",                 level:2},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

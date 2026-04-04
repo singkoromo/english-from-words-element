@@ -67,6 +67,7 @@
   {word:"circumscribe",    meaning:"制限する・囲む",              etymology:"circum（周囲を）+ scribe（書く）→周りに線を引く",root:"-scrib-",level:3},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

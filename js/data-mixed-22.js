@@ -95,6 +95,7 @@
   {word:"yield",           meaning:"利回り・産出する",            etymology:"yield（古英語：払う・実らせる）",               level:2},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

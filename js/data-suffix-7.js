@@ -86,6 +86,7 @@
   {word:"torment",         meaning:"苦痛・苦しめる",            etymology:"tor（ねじる）+ ment（行為）→ねじれる苦しみ", suffix:"-ment", level:2},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

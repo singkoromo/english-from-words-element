@@ -74,6 +74,7 @@
   {word:"unproven",        meaning:"証明されていない・未実証の",   etymology:"un（否定）+ proven（証明された）",             root:"-prob-", level:2},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

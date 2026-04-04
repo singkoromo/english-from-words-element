@@ -75,6 +75,7 @@
   {word:"solstice",        meaning:"至（夏至・冬至）",            etymology:"sol（太陽）+ stice（立つ）→太陽が止まる",     root:"-sol-", level:3},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

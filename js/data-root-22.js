@@ -68,6 +68,7 @@
   {word:"circumspect",     meaning:"慎重な・用心深い",            etymology:"circum（周りを）+ spect（見る）",             root:"-spec-", level:3},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

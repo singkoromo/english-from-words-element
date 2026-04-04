@@ -98,6 +98,7 @@
   {word:"well-being",      meaning:"幸福感・安寧",               etymology:"well（よく）+ being（存在すること）",          level:1},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

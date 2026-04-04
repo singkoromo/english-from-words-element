@@ -102,6 +102,7 @@
   {word:"appendix",        meaning:"付録・虫垂",                 etymology:"ap（〜に）+ pend（吊る）+ ix→付け加えた物",   root:"-pend-", level:2},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

@@ -98,6 +98,7 @@
   {word:"witness",         meaning:"証人・目撃者",               etymology:"wit（知る）+ ness（状態）",                   level:1},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

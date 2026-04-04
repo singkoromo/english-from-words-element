@@ -87,6 +87,7 @@
   {word:"outsource",      meaning:"外部委託する",              etymology:"out（外に）+ source（源泉）",                 prefix:"out-", level:1},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

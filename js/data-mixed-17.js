@@ -105,6 +105,7 @@
   {word:"extol",           meaning:"褒め称える",                 etymology:"ex（外に）+ tol（持ち上げる）",               level:3},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

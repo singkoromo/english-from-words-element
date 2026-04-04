@@ -74,6 +74,7 @@
   {word:"explorative",     meaning:"探索的な・調査の",           etymology:"explore（探検する）+ ative（〜の）",           root:"-plor-", level:2},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

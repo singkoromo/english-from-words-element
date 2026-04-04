@@ -105,6 +105,7 @@
   {word:"colonoscopy",     meaning:"結腸内視鏡検査",              etymology:"colon（結腸）+ scopy（見る）",                level:3},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

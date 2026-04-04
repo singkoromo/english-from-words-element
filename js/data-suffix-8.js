@@ -88,6 +88,7 @@
   {word:"wrathful",        meaning:"激怒した・怒り狂った",      etymology:"wrath（怒り）+ ful（満ちた）",               suffix:"-ful", level:2},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

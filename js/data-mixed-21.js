@@ -98,6 +98,7 @@
   {word:"webhook",         meaning:"ウェブフック",                 etymology:"web（ウェブ）+ hook（フック）",               level:2},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

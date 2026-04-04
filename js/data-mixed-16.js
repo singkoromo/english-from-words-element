@@ -109,6 +109,7 @@
   {word:"extraneous",      meaning:"無関係の・外来の",            etymology:"extra（外の）+ neous（〜な）",                level:3},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

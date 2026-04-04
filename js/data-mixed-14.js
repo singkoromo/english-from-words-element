@@ -110,6 +110,7 @@
   {word:"workflow",        meaning:"作業の流れ・ワークフロー",      etymology:"work（働く）+ flow（流れる）",                level:1},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

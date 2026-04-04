@@ -109,6 +109,7 @@
   {word:"ultraviolet",     meaning:"紫外線の",                  etymology:"ultra（超えた）+ violet（紫）",               level:1},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

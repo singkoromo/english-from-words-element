@@ -103,6 +103,7 @@
   {word:"xenophobia",      meaning:"外国人嫌悪",                 etymology:"xeno（外国人）+ phobia（恐怖）",               level:2},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

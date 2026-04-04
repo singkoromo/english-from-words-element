@@ -103,6 +103,7 @@
   {word:"maintain",        meaning:"維持する・主張する",          etymology:"main（手で）+ tain（保つ）",                  level:1},
   ];
   if(typeof window !== 'undefined'){
-    window.vocabData = (window.vocabData || []).concat(d);
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+  window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
   }
 })();

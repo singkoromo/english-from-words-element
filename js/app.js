@@ -1,6 +1,39 @@
 /**
  * app.js — メインアプリロジック
  */
+
+// ── 音声管理 ─────────────────────────────────
+const SoundManager = {
+  enabled: localStorage.getItem('soundEnabled') !== 'false',
+
+  speak(word) {
+    if (!this.enabled || !window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(word);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.9;
+    speechSynthesis.speak(utterance);
+  },
+
+  toggle() {
+    this.enabled = !this.enabled;
+    localStorage.setItem('soundEnabled', this.enabled);
+    _updateSoundButtons();
+    return this.enabled;
+  },
+};
+
+function _updateSoundButtons() {
+  const icon = SoundManager.enabled ? '🔊' : '🔇';
+  ['btn-sound-toggle', 'btn-sound-toggle-home'].forEach(id => {
+    const btn = document.getElementById(id);
+    if (btn) {
+      btn.textContent = icon;
+      btn.classList.toggle('sound-off', !SoundManager.enabled);
+    }
+  });
+}
+
 (async function(){
   // ── DB 初期化 ────────────────────────────────
   await Storage.init();
@@ -17,6 +50,9 @@
   setTimeout(() => {
     showScreen("screen-home");
     initHome();
+    _updateSoundButtons();
+    document.getElementById('btn-sound-toggle-home').onclick = () => SoundManager.toggle();
+    document.getElementById('btn-sound-toggle').onclick      = () => SoundManager.toggle();
   }, 1600);
 
   // ── 状態 ─────────────────────────────────────
@@ -279,6 +315,14 @@
     card.style.animation = "none";
     card.offsetHeight;
     card.style.animation = "";
+
+    // 単語クリック / ボタンで発音
+    const speakWord = () => SoundManager.speak(q.word.word);
+    $("question-word").onclick   = speakWord;
+    $("btn-speak-word").onclick  = speakWord;
+
+    // 自動発音（音声ONの場合）
+    setTimeout(() => SoundManager.speak(q.word.word), 400);
   }
 
   function handleAnswer(choiceIndex) {
@@ -297,6 +341,9 @@
       showCorrectEffect(res.xp);
       if (res.combo >= 3) showComboEffect(res.combo);
     }
+
+    // 正解表示時に発音（500ms後、エフェクトと重ならないよう遅延）
+    setTimeout(() => SoundManager.speak(res.explanation.word), 500);
 
     // 解説
     const panel = $("explanation-panel");

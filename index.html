@@ -44,6 +44,7 @@
         </div>
       </div>
       <div class="header-right">
+        <button class="icon-btn sound-toggle-btn" id="btn-sound-toggle-home" title="音声ON/OFF">🔊</button>
         <button class="icon-btn" id="btn-profile" title="プロフィール">👤</button>
         <button class="icon-btn" id="btn-settings" title="設定">⚙️</button>
       </div>
@@ -159,8 +160,11 @@
       <div class="quiz-header-info">
         <span class="quiz-mode-label" id="quiz-mode-label">pre-</span>
       </div>
-      <div class="quiz-progress-text">
-        <span id="quiz-current">1</span>/<span id="quiz-total">30</span>
+      <div class="quiz-header-right">
+        <div class="quiz-progress-text">
+          <span id="quiz-current">1</span>/<span id="quiz-total">30</span>
+        </div>
+        <button class="sound-toggle-btn quiz-sound-btn" id="btn-sound-toggle" title="音声ON/OFF">🔊</button>
       </div>
     </div>
 
@@ -194,7 +198,10 @@
     <div class="quiz-content">
       <div class="question-card" id="question-card">
         <div class="question-number" id="question-number">問題 1</div>
-        <div class="question-word" id="question-word">preview</div>
+        <div class="question-word-row">
+          <div class="question-word" id="question-word">preview</div>
+          <button class="speak-word-btn" id="btn-speak-word" title="発音を聞く">🔊</button>
+        </div>
         <div class="question-etymology" id="question-etymology">
           <span class="etymology-tag" id="etymology-prefix-tag">pre-</span>
           <span class="etymology-separator">+</span>

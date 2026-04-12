@@ -737,10 +737,53 @@ body {
   border-radius: var(--radius-full);
 }
 
-.question-hint {
-  font-size: 12px;
-  color: var(--text-secondary);
-  font-style: italic;
+/* --- ヒントボタン・表示エリア --- */
+.hint-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 4px 0 8px;
+}
+
+.btn-hint {
+  background: linear-gradient(135deg, var(--pink-pale), var(--purple-pale));
+  border: 2px solid var(--pink-light);
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--purple);
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-hint:active:not(:disabled) { transform: scale(0.95); }
+
+.btn-hint:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.hint-display {
+  display: none;
+  background: linear-gradient(135deg, #FFF9E6, #FFFDE0);
+  border: 2px solid #FFD43B;
+  border-radius: var(--radius-md);
+  padding: 10px 16px;
+  font-size: 13px;
+  color: #7C5C00;
+  text-align: center;
+  width: 100%;
+  animation: hintFadeIn 0.35s ease both;
+}
+
+.hint-display.show { display: block; }
+
+@keyframes hintFadeIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 /* --- 選択肢グリッド --- */

@@ -35,15 +35,16 @@ const Quiz = (function(){
       affixKey,
       level,
       questions,
-      current:   0,
-      score:     0,
-      combo:     0,
-      maxCombo:  0,
-      lives:     MAX_LIVES,
-      xpGained:  0,
-      wrong:     [],
-      startTime: Date.now(),
-      answered:  false,
+      current:    0,
+      score:      0,
+      combo:      0,
+      maxCombo:   0,
+      lives:      MAX_LIVES,
+      xpGained:   0,
+      wrong:      [],
+      startTime:  Date.now(),
+      answered:   false,
+      hintsUsed:  0,
     };
 
     return { ok: true, total: questions.length };
@@ -161,15 +162,21 @@ const Quiz = (function(){
       timeStr,
       timeMs:    elapsed,
       wrong:     _state.wrong,
-      accuracy:  _state.current > 0
-                   ? Math.round((_state.score / _state.current) * 100)
-                   : 0,
+      accuracy:   _state.current > 0
+                    ? Math.round((_state.score / _state.current) * 100)
+                    : 0,
+      hintsUsed:  _state.hintsUsed,
     };
+  }
+
+  // ── ヒント使用記録 ────────────────────────────
+  function useHint() {
+    if (_state) _state.hintsUsed++;
   }
 
   function isActive() { return _state !== null; }
 
   function reset() { _state = null; }
 
-  return { start, getCurrentQuestion, answer, next, getResult, isActive, reset };
+  return { start, getCurrentQuestion, answer, next, getResult, useHint, isActive, reset };
 })();

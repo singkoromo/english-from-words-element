@@ -293,8 +293,17 @@ function _updateSoundButtons() {
       $("etymology-root").textContent = q.word.word;
     }
 
-    // ヒント
-    $("question-hint").textContent = `ヒント: ${q.word.etymology}`;
+    // ヒントボタン初期化
+    const hintDisplay = $("hint-display");
+    const hintBtn     = $("btn-hint");
+    hintDisplay.classList.remove("show");
+    hintDisplay.innerHTML = `💡 ${q.word.etymology}`;
+    hintBtn.disabled = false;
+    hintBtn.onclick = () => {
+      Quiz.useHint();
+      hintDisplay.classList.add("show");
+      hintBtn.disabled = true;
+    };
 
     // 選択肢
     const choiceBtns = document.querySelectorAll(".choice-btn");

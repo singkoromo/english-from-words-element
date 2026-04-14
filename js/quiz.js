@@ -2,7 +2,7 @@
  * quiz.js — クイズエンジン
  */
 const Quiz = (function(){
-  const QUIZ_SIZE   = 30;
+  const QUIZ_SIZE   = 20;  // デフォルト問題数（上書き可能）
   const MAX_LIVES   = 3;
   const BASE_XP     = 10;   // 1問正解
   const COMBO_BONUS = [0, 0, 5, 10, 15, 20]; // コンボ数 → ボーナスXP
@@ -10,7 +10,10 @@ const Quiz = (function(){
   let _state = null;
 
   // ── クイズ開始 ───────────────────────────────
-  function start(mode, affixKey, level) {
+  // options: { quizSize: number }
+  function start(mode, affixKey, level, options = {}) {
+    const quizSize = options.quizSize || QUIZ_SIZE;
+
     // 問題プール取得
     let pool;
     if (mode === "prefix") {
@@ -18,7 +21,7 @@ const Quiz = (function(){
     } else if (mode === "suffix") {
       pool = WordData.getWordsBySuffix(affixKey, level);
     } else if (mode === "weak") {
-      // 苦手モード: 全レベルからランダム
+      // 苦手モード: 全レベルからランダム（startWithWords 推奨）
       pool = WordData.getAllWords(level);
     } else {
       pool = WordData.getAllWords(level);
@@ -28,23 +31,55 @@ const Quiz = (function(){
       return { error: "問題数が足りません（最低4問必要）" };
     }
 
-    const questions = _buildQuestions(pool, Math.min(QUIZ_SIZE, pool.length));
+    const questions = _buildQuestions(pool, Math.min(quizSize, pool.length));
 
     _state = {
       mode,
       affixKey,
       level,
       questions,
-      current:    0,
-      score:      0,
-      combo:      0,
-      maxCombo:   0,
-      lives:      MAX_LIVES,
-      xpGained:   0,
-      wrong:      [],
-      startTime:  Date.now(),
-      answered:   false,
-      hintsUsed:  0,
+      current:       0,
+      score:         0,
+      combo:         0,
+      maxCombo:      0,
+      lives:         MAX_LIVES,
+      xpGained:      0,
+      wrong:         [],
+      correct_words: [],  // 正解した単語（苦手リスト更新用）
+      startTime:     Date.now(),
+      answered:      false,
+      hintsUsed:     0,
+    };
+
+    return { ok: true, total: questions.length };
+  }
+
+  // ── 苦手単語リストから直接クイズ開始 ─────────
+  // wordPool: 単語オブジェクトの配列（Storage.getWeakWords() から取得した word フィールド）
+  function startWithWords(wordPool, quizSize) {
+    if (wordPool.length < 4) {
+      return { error: "苦手リストの単語が少なすぎます（最低4問必要）" };
+    }
+
+    const size = quizSize || QUIZ_SIZE;
+    const questions = _buildQuestions(wordPool, Math.min(size, wordPool.length));
+
+    _state = {
+      mode:          "weak",
+      affixKey:      "weak",
+      level:         -1,
+      questions,
+      current:       0,
+      score:         0,
+      combo:         0,
+      maxCombo:      0,
+      lives:         MAX_LIVES,
+      xpGained:      0,
+      wrong:         [],
+      correct_words: [],
+      startTime:     Date.now(),
+      answered:      false,
+      hintsUsed:     0,
     };
 
     return { ok: true, total: questions.length };
@@ -104,6 +139,7 @@ const Quiz = (function(){
       const bonusIdx = Math.min(_state.combo, COMBO_BONUS.length - 1);
       xp = BASE_XP + COMBO_BONUS[bonusIdx];
       _state.xpGained += xp;
+      _state.correct_words.push(q.word);  // 正解単語を記録
     } else {
       _state.combo = 0;
       _state.lives--;
@@ -129,6 +165,7 @@ const Quiz = (function(){
       etymology: word.etymology,
       prefix:    word.prefix || null,
       suffix:    word.suffix || null,
+      pos:       word.pos    || null,  // 品詞（設定されている場合）
     };
   }
 
@@ -151,21 +188,22 @@ const Quiz = (function(){
     const timeStr = `${mins}:${String(secs).padStart(2, "0")}`;
 
     return {
-      mode:      _state.mode,
-      affixKey:  _state.affixKey,
-      level:     _state.level,
-      correct:   _state.score,
-      total:     _state.current + (_state.answered ? 0 : 0), // 実際に回答した数
-      answered:  _state.current,
-      xpGained:  _state.xpGained,
-      maxCombo:  _state.maxCombo,
+      mode:          _state.mode,
+      affixKey:      _state.affixKey,
+      level:         _state.level,
+      correct:       _state.score,
+      total:         _state.current,
+      answered:      _state.current,
+      xpGained:      _state.xpGained,
+      maxCombo:      _state.maxCombo,
       timeStr,
-      timeMs:    elapsed,
-      wrong:     _state.wrong,
-      accuracy:   _state.current > 0
-                    ? Math.round((_state.score / _state.current) * 100)
-                    : 0,
-      hintsUsed:  _state.hintsUsed,
+      timeMs:        elapsed,
+      wrong:         _state.wrong,
+      correct_words: _state.correct_words,  // 苦手リスト更新に使用
+      accuracy:      _state.current > 0
+                       ? Math.round((_state.score / _state.current) * 100)
+                       : 0,
+      hintsUsed:     _state.hintsUsed,
     };
   }
 
@@ -178,5 +216,5 @@ const Quiz = (function(){
 
   function reset() { _state = null; }
 
-  return { start, getCurrentQuestion, answer, next, getResult, useHint, isActive, reset };
+  return { start, startWithWords, getCurrentQuestion, answer, next, getResult, useHint, isActive, reset };
 })();

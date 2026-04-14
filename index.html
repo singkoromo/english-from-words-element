@@ -112,6 +112,11 @@
           <button class="mode-tab" data-mode="weak">苦手克服</button>
         </div>
 
+        <!-- 問題数選択バー -->
+        <div class="quiz-count-bar" id="quiz-count-bar">
+          <!-- JS で生成 -->
+        </div>
+
         <!-- 接頭語一覧 -->
         <div id="prefix-grid" class="affix-grid">
           <!-- JS で生成 -->
@@ -125,7 +130,15 @@
         <!-- 苦手克服 -->
         <div id="weak-section" class="weak-section hidden">
           <div class="weak-info">
-            <p id="weak-info-text">学習データが蓄積されると、苦手な語根が表示されます。</p>
+            <div class="weak-count-display" id="weak-count-display" style="display:none">
+              <span>📚</span>
+              <span>苦手単語: <strong id="weak-word-count">0</strong>語</span>
+            </div>
+            <p id="weak-info-text">まだ苦手単語がありません。クイズで間違えた単語が自動で登録されます！</p>
+            <div class="weak-explain-box">
+              <p>❓ 間違えた単語が苦手リストに登録されます</p>
+              <p>✅ <strong>2回連続正解</strong>でリストから卒業！</p>
+            </div>
           </div>
           <button class="btn-primary" id="btn-start-weak" disabled>
             🔥 苦手克服クイズを始める
@@ -206,6 +219,10 @@
           <span class="etymology-tag" id="etymology-prefix-tag">pre-</span>
           <span class="etymology-separator">+</span>
           <span class="etymology-root" id="etymology-root">view</span>
+        </div>
+        <!-- 品詞タグ（posデータがある単語のみ表示） -->
+        <div class="question-pos" id="question-pos" style="display:none">
+          <span class="pos-tag" id="pos-tag"></span>
         </div>
       </div>
 

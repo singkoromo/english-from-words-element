@@ -1582,3 +1582,129 @@ body {
   body { background: linear-gradient(135deg, #F8F0FF 0%, #FFF0F6 100%); }
   .screen { max-width: 480px; margin: 0 auto; box-shadow: var(--shadow-lg); min-height: 100vh; }
 }
+
+/* ============================================
+   問題数選択バー
+   ============================================ */
+.quiz-count-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.qcb-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.qcb-btns {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.qcb-btn {
+  padding: 5px 12px;
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-full);
+  background: white;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.qcb-btn:active { transform: scale(0.94); }
+
+.qcb-btn.active {
+  border-color: var(--purple);
+  background: var(--purple-pale);
+  color: var(--purple);
+}
+
+/* ============================================
+   品詞タグ
+   ============================================ */
+.question-pos {
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+.pos-tag {
+  background: var(--mint-pale);
+  border: 1.5px solid var(--mint-light);
+  color: #2f9e44;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+}
+
+/* 解説パネル内インライン品詞表示 */
+.pos-inline {
+  display: inline-block;
+  background: var(--mint-pale);
+  border: 1px solid var(--mint-light);
+  color: #2f9e44;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: var(--radius-full);
+  vertical-align: middle;
+}
+
+/* 結果画面の間違い単語に品詞を表示 */
+.wrong-pos {
+  font-size: 11px;
+  font-weight: 700;
+  color: #2f9e44;
+  background: var(--mint-pale);
+  border: 1px solid var(--mint-light);
+  border-radius: var(--radius-full);
+  padding: 1px 7px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+/* ============================================
+   苦手克服セクション（拡張）
+   ============================================ */
+.weak-count-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+.weak-count-display strong {
+  color: var(--pink);
+  font-size: 20px;
+}
+
+.weak-explain-box {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: white;
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--yellow-light);
+  text-align: left;
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.weak-explain-box strong {
+  color: var(--pink);
+}

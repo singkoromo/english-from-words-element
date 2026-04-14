@@ -1,0 +1,246 @@
+/**
+ * data-prefix-13.js — 接頭語データ（epi-, meta-, sym-/syn-, dia-, cata-, endo-, exo-, ortho-, neo-, proto-, dys-, eu-, hydr-, psych-, neuro-, cardio-, hemo-）
+ * 形式: { word, meaning, etymology, prefix, level }
+ * level: 0=beginner 1=intermediate 2=advanced 3=master
+ */
+(function(){
+  var d = [
+
+  // ── epi-（上に・周りに・後に） ──────────────────
+  {word:"epidemic",          meaning:"流行病・伝染病",               etymology:"epi（広く）+ demos（人々）→人々に広がる",          prefix:"epi-",    level:1},
+  {word:"epicenter",         meaning:"震源地・中心点",               etymology:"epi（上に）+ center（中心）",                     prefix:"epi-",    level:1},
+  {word:"epitome",           meaning:"典型・縮図",                   etymology:"epi（上に）+ tome（切る）→削って作った要約",        prefix:"epi-",    level:2},
+  {word:"epilogue",          meaning:"後書き・エピローグ",           etymology:"epi（後に）+ logos（言葉）",                      prefix:"epi-",    level:1},
+  {word:"episode",           meaning:"エピソード・挿話",             etymology:"epi（加えて）+ hodos（道）",                      prefix:"epi-",    level:0},
+  {word:"epitaph",           meaning:"墓碑銘",                       etymology:"epi（上に）+ taphos（墓）",                       prefix:"epi-",    level:2},
+  {word:"epiphany",          meaning:"突然の悟り・啓示",             etymology:"epi（上に）+ phainein（現れる）",                  prefix:"epi-",    level:2},
+  {word:"epithet",           meaning:"称号・形容語句",               etymology:"epi（上に）+ tithenai（置く）",                   prefix:"epi-",    level:3},
+  {word:"epidermis",         meaning:"表皮",                         etymology:"epi（上に）+ dermis（皮膚）",                     prefix:"epi-",    level:2},
+  {word:"epigraph",          meaning:"碑文・引用句",                 etymology:"epi（上に）+ graphein（書く）",                   prefix:"epi-",    level:3},
+  {word:"epilepsy",          meaning:"てんかん",                     etymology:"epi（上に）+ lepsy（つかむ）→突然つかまれる",      prefix:"epi-",    level:2},
+  {word:"epistemology",      meaning:"認識論",                       etymology:"epi（上）+ episteme（知識）+ logy（学）",          prefix:"epi-",    level:3},
+  {word:"ephemeral",         meaning:"つかの間の・一時的な",         etymology:"epi（上で）+ hemera（日）→一日だけ生きる",          prefix:"epi-",    level:2},
+  {word:"epigenetics",       meaning:"エピジェネティクス",           etymology:"epi（上に加えて）+ genetics（遺伝学）",             prefix:"epi-",    level:3},
+  {word:"episcopal",         meaning:"主教制の・監督教会の",         etymology:"epi（上に）+ scopus（見る）→監督する",              prefix:"epi-",    level:3},
+  {word:"epigram",           meaning:"警句・エピグラム",             etymology:"epi（上に）+ gramma（書かれたもの）",              prefix:"epi-",    level:3},
+
+  // ── meta-（超えて・変化・後に） ──────────────────
+  {word:"metaphor",          meaning:"比喩・メタファー",             etymology:"meta（超えて）+ pherein（運ぶ）→意味を転送する",    prefix:"meta-",   level:1},
+  {word:"metabolism",        meaning:"代謝",                         etymology:"meta（変化）+ ballein（投げる）→物質を変換する",    prefix:"meta-",   level:1},
+  {word:"metamorphosis",     meaning:"変態・変容",                   etymology:"meta（変化）+ morphe（形）",                      prefix:"meta-",   level:2},
+  {word:"metaphysics",       meaning:"形而上学",                     etymology:"meta（超えて）+ physika（自然学）",                prefix:"meta-",   level:3},
+  {word:"metonymy",          meaning:"換喩・メトニミー",             etymology:"meta（変化）+ onoma（名前）",                     prefix:"meta-",   level:3},
+  {word:"metacognition",     meaning:"メタ認知",                     etymology:"meta（超えて）+ cognition（認知）",                prefix:"meta-",   level:2},
+  {word:"metadata",          meaning:"メタデータ",                   etymology:"meta（超えた）+ data（データ）→データについてのデータ", prefix:"meta-", level:1},
+  {word:"metamorphic",       meaning:"変成の",                       etymology:"meta（変化）+ morphe（形）+ ic（〜の）",           prefix:"meta-",   level:2},
+  {word:"metaverse",         meaning:"メタバース・仮想空間",         etymology:"meta（超えた）+ universe（世界）",                 prefix:"meta-",   level:1},
+  {word:"metastasis",        meaning:"転移",                         etymology:"meta（変化）+ stasis（立つ）→場所を変えて広がる",   prefix:"meta-",   level:3},
+  {word:"metathesis",        meaning:"音位転換",                     etymology:"meta（変化）+ thesis（置く）",                    prefix:"meta-",   level:3},
+  {word:"metafiction",       meaning:"メタフィクション",             etymology:"meta（超えた）+ fiction（物語）→物語について語る物語", prefix:"meta-", level:3},
+  {word:"metaphorical",      meaning:"比喩的な",                     etymology:"meta（超えて）+ pherein（運ぶ）+ al（〜の）",       prefix:"meta-",   level:2},
+  {word:"metabolize",        meaning:"代謝する",                     etymology:"meta（変化）+ ballein（投げる）+ ize（する）",      prefix:"meta-",   level:2},
+
+  // ── sym-/syn-（共に・一緒に） ──────────────────
+  {word:"symphony",          meaning:"交響曲",                       etymology:"sym（共に）+ phony（音）→音が合わさる",            prefix:"sym-",    level:1},
+  {word:"symbol",            meaning:"象徴・シンボル",               etymology:"sym（共に）+ ballein（投げる）→一緒に投げる",        prefix:"sym-",    level:0},
+  {word:"symbiosis",         meaning:"共生",                         etymology:"sym（共に）+ biosis（生活）",                     prefix:"sym-",    level:2},
+  {word:"sympathy",          meaning:"同情・共感",                   etymology:"sym（共に）+ pathos（感情）→感情を共にする",         prefix:"sym-",    level:1},
+  {word:"syntax",            meaning:"構文・統語論",                 etymology:"syn（共に）+ taxis（配列）→言葉を並べる規則",        prefix:"syn-",    level:2},
+  {word:"synthesis",         meaning:"統合・合成",                   etymology:"syn（共に）+ thesis（置く）→一緒に置いて組み立てる", prefix:"syn-",    level:1},
+  {word:"synonym",           meaning:"同義語",                       etymology:"syn（共に）+ onoma（名前）→同じ名前",               prefix:"syn-",    level:1},
+  {word:"synergy",           meaning:"相乗効果",                     etymology:"syn（共に）+ ergon（働き）→共に働く",               prefix:"syn-",    level:1},
+  {word:"synchronize",       meaning:"同期させる",                   etymology:"syn（共に）+ chronos（時間）→時間を合わせる",        prefix:"syn-",    level:1},
+  {word:"synagogue",         meaning:"ユダヤ教会堂",                 etymology:"syn（共に）+ agogos（集める）→集会所",              prefix:"syn-",    level:2},
+  {word:"syndrome",          meaning:"症候群",                       etymology:"syn（共に）+ dromos（走る）→一緒に走る症状",         prefix:"syn-",    level:1},
+  {word:"synapse",           meaning:"シナプス",                     etymology:"syn（共に）+ haptein（つかむ）→接触点",             prefix:"syn-",    level:2},
+  {word:"symmetry",          meaning:"対称性",                       etymology:"sym（共に）+ metron（測る）→同じ尺度",              prefix:"sym-",    level:1},
+  {word:"synthetic",         meaning:"合成の・人工の",               etymology:"syn（共に）+ tithenai（置く）→人工的に組み立てた",   prefix:"syn-",    level:1},
+  {word:"synopsis",          meaning:"概要・あらすじ",               etymology:"syn（共に）+ opsis（見る）→全体を見渡す",            prefix:"syn-",    level:2},
+  {word:"symbiotic",         meaning:"共生の",                       etymology:"sym（共に）+ biotic（生命の）",                    prefix:"sym-",    level:2},
+  {word:"sympathize",        meaning:"共感する",                     etymology:"sym（共に）+ pathos（感情）+ ize（する）",          prefix:"sym-",    level:1},
+  {word:"synchronous",       meaning:"同期の",                       etymology:"syn（共に）+ chronos（時間）+ ous（〜な）",          prefix:"syn-",    level:2},
+
+  // ── dia-（通り抜けて・間で） ──────────────────
+  {word:"diameter",          meaning:"直径",                         etymology:"dia（通り抜けて）+ metron（測る）",                prefix:"dia-",    level:1},
+  {word:"dialogue",          meaning:"対話・ダイアローグ",           etymology:"dia（間）+ logos（言葉）→言葉のやり取り",            prefix:"dia-",    level:0},
+  {word:"diagnosis",         meaning:"診断",                         etymology:"dia（通して）+ gnosis（知る）→完全に理解する",       prefix:"dia-",    level:1},
+  {word:"diagonal",          meaning:"対角線の",                     etymology:"dia（通り抜けて）+ gonia（角）",                   prefix:"dia-",    level:1},
+  {word:"diagram",           meaning:"図表・ダイアグラム",           etymology:"dia（通して）+ gram（書く）",                      prefix:"dia-",    level:0},
+  {word:"diaphragm",         meaning:"横隔膜・仕切り",               etymology:"dia（通して）+ phragma（仕切り）",                 prefix:"dia-",    level:2},
+  {word:"dialect",           meaning:"方言",                         etymology:"dia（間）+ lektos（語る）",                       prefix:"dia-",    level:1},
+  {word:"diaspora",          meaning:"離散・ディアスポラ",           etymology:"dia（散らして）+ speirein（まく）→散らばった民族",   prefix:"dia-",    level:2},
+  {word:"dialectic",         meaning:"弁証法",                       etymology:"dia（間）+ lektos（語る）→対話を通じた論理",         prefix:"dia-",    level:3},
+  {word:"diatribe",          meaning:"激しい批判・痛烈な非難",       etymology:"dia（通して）+ tribein（こする）→徹底的に論難する",   prefix:"dia-",    level:3},
+  {word:"diaphanous",        meaning:"透き通った・薄い",             etymology:"dia（通して）+ phainein（現れる）→光が透ける",        prefix:"dia-",    level:3},
+  {word:"diachronic",        meaning:"通時的な",                     etymology:"dia（通して）+ chronos（時間）→時間軸を通じて",      prefix:"dia-",    level:3},
+
+  // ── cata-（下に・完全に・逆に） ──────────────────
+  {word:"catalyst",          meaning:"触媒・きっかけ",               etymology:"cata（完全に）+ lysis（解放する）→反応を引き起こす", prefix:"cata-",   level:1},
+  {word:"catalog",           meaning:"目録・カタログ",               etymology:"cata（完全に）+ logos（言葉）→全部を言い並べる",     prefix:"cata-",   level:0},
+  {word:"catastrophe",       meaning:"大惨事・カタストロフ",         etymology:"cata（下に）+ strophe（回転）→急転直下",             prefix:"cata-",   level:1},
+  {word:"catapult",          meaning:"投石機・勢いよく投げる",       etymology:"cata（下に）+ pallein（振る）",                    prefix:"cata-",   level:2},
+  {word:"cataract",          meaning:"白内障・大きな滝",             etymology:"cata（下に）+ ractus（閉じる）→落ちてくる水",        prefix:"cata-",   level:2},
+  {word:"cataclysm",         meaning:"大変動・大洪水",               etymology:"cata（下に）+ clysmos（洗う）→すべてを洗い流す",     prefix:"cata-",   level:2},
+  {word:"catharsis",         meaning:"浄化・カタルシス",             etymology:"cata（完全に）+ hairein（取る）→感情を解放する",     prefix:"cata-",   level:2},
+  {word:"catacomb",          meaning:"地下墓所",                     etymology:"cata（下に）+ combe（谷）→地下の洞窟",              prefix:"cata-",   level:3},
+  {word:"catabolism",        meaning:"異化（代謝）",                 etymology:"cata（下に）+ ballein（投げる）→分解する代謝",       prefix:"cata-",   level:3},
+  {word:"categorical",       meaning:"断定的な・絶対的な",           etymology:"cata（完全に）+ agoreuein（語る）",                prefix:"cata-",   level:2},
+  {word:"catechism",         meaning:"教理問答",                     etymology:"cata（完全に）+ echein（響く）→問答で教える",        prefix:"cata-",   level:3},
+
+  // ── endo-（内に・内部へ） ──────────────────
+  {word:"endoscope",         meaning:"内視鏡",                       etymology:"endo（内に）+ scope（見る）→体内を見る器具",         prefix:"endo-",   level:2},
+  {word:"endocrine",         meaning:"内分泌の",                     etymology:"endo（内に）+ krinein（分ける）→体内で分泌する",     prefix:"endo-",   level:2},
+  {word:"endogenous",        meaning:"内因性の・内部で生じる",       etymology:"endo（内に）+ genes（生まれる）",                  prefix:"endo-",   level:3},
+  {word:"endemic",           meaning:"固有の・地方病の",             etymology:"en（内に）+ demos（人々）→ある地域固有の",           prefix:"endo-",   level:2},
+  {word:"endorphin",         meaning:"エンドルフィン",               etymology:"endo（内に）+ morphine（モルフィン）→体内モルフィン", prefix:"endo-",   level:2},
+  {word:"endothermic",       meaning:"吸熱の",                       etymology:"endo（内に）+ therme（熱）→熱を取り込む",           prefix:"endo-",   level:3},
+  {word:"endoplasm",         meaning:"内原形質",                     etymology:"endo（内に）+ plasma（形成物）",                   prefix:"endo-",   level:3},
+  {word:"endosymbiosis",     meaning:"細胞内共生",                   etymology:"endo（内に）+ symbiosis（共生）",                  prefix:"endo-",   level:3},
+  {word:"endothelium",       meaning:"内皮",                         etymology:"endo（内に）+ thelion（乳頭状）",                  prefix:"endo-",   level:3},
+  {word:"endurance",         meaning:"忍耐力・持久力",               etymology:"en（中に）+ durare（持続する）→内から耐え続ける",    prefix:"endo-",   level:1},
+
+  // ── exo-（外に・外部へ） ──────────────────
+  {word:"exotic",            meaning:"異国風の・珍しい",             etymology:"exo（外から）+ tikos（〜の）→外から来た",            prefix:"exo-",    level:1},
+  {word:"exodus",            meaning:"大脱出・出国",                 etymology:"exo（外へ）+ hodos（道）→外への道",                 prefix:"exo-",    level:2},
+  {word:"exoskeleton",       meaning:"外骨格",                       etymology:"exo（外に）+ skeleton（骨格）",                    prefix:"exo-",    level:2},
+  {word:"exosphere",         meaning:"外気圏",                       etymology:"exo（外に）+ sphere（圏）",                       prefix:"exo-",    level:3},
+  {word:"exogenous",         meaning:"外因性の",                     etymology:"exo（外から）+ genes（生まれる）",                  prefix:"exo-",    level:3},
+  {word:"exothermic",        meaning:"発熱の",                       etymology:"exo（外に）+ therme（熱）→熱を外に出す",            prefix:"exo-",    level:3},
+  {word:"exoplanet",         meaning:"系外惑星",                     etymology:"exo（外の）+ planet（惑星）→太陽系外の惑星",         prefix:"exo-",    level:2},
+  {word:"exorcism",          meaning:"悪魔払い",                     etymology:"exo（外へ）+ horkos（誓い）→悪霊を追い出す",         prefix:"exo-",    level:2},
+  {word:"exoticism",         meaning:"異国趣味・エキゾチシズム",     etymology:"exo（外から）+ ism（主義）",                       prefix:"exo-",    level:3},
+
+  // ── ortho-（まっすぐ・正しい） ──────────────────
+  {word:"orthodontist",      meaning:"歯科矯正医",                   etymology:"ortho（まっすぐ）+ odontos（歯）",                 prefix:"ortho-",  level:2},
+  {word:"orthopedic",        meaning:"整形外科の",                   etymology:"ortho（まっすぐ）+ paidos（子ども）→体を正す",       prefix:"ortho-",  level:2},
+  {word:"orthodox",          meaning:"正統の・正教会の",             etymology:"ortho（正しい）+ doxa（意見）",                    prefix:"ortho-",  level:2},
+  {word:"orthography",       meaning:"正書法・正字法",               etymology:"ortho（正しい）+ graphein（書く）",                prefix:"ortho-",  level:3},
+  {word:"orthogonal",        meaning:"直交する・互いに独立した",     etymology:"ortho（まっすぐ）+ gonia（角）→直角の",             prefix:"ortho-",  level:3},
+  {word:"orthodoxy",         meaning:"正統性・正統的見解",           etymology:"ortho（正しい）+ doxa（意見）+ y（状態）",          prefix:"ortho-",  level:3},
+  {word:"orthopraxy",        meaning:"正しい実践",                   etymology:"ortho（正しい）+ praxis（行為）",                  prefix:"ortho-",  level:3},
+  {word:"orthocenter",       meaning:"垂心（三角形の）",             etymology:"ortho（垂直）+ center（中心）",                    prefix:"ortho-",  level:3},
+
+  // ── neo-（新しい） ──────────────────
+  {word:"neoclassical",      meaning:"新古典主義の",                 etymology:"neo（新しい）+ classical（古典的）",                prefix:"neo-",    level:2},
+  {word:"neolithic",         meaning:"新石器時代の",                 etymology:"neo（新しい）+ lithos（石）",                      prefix:"neo-",    level:2},
+  {word:"neonatal",          meaning:"新生児の",                     etymology:"neo（新しい）+ natus（生まれた）",                  prefix:"neo-",    level:2},
+  {word:"neologism",         meaning:"新語・造語",                   etymology:"neo（新しい）+ logos（言葉）+ ism（もの）",          prefix:"neo-",    level:2},
+  {word:"neoconservative",   meaning:"新保守主義の",                 etymology:"neo（新しい）+ conservative（保守的）",             prefix:"neo-",    level:2},
+  {word:"neoliberal",        meaning:"新自由主義の",                 etymology:"neo（新しい）+ liberal（自由主義）",                prefix:"neo-",    level:2},
+  {word:"neocortex",         meaning:"新皮質",                       etymology:"neo（新しい）+ cortex（皮質）",                    prefix:"neo-",    level:3},
+  {word:"neocolonialism",    meaning:"新植民地主義",                 etymology:"neo（新しい）+ colonialism（植民地主義）",          prefix:"neo-",    level:3},
+  {word:"neorealism",        meaning:"ネオリアリズム",               etymology:"neo（新しい）+ realism（現実主義）",                prefix:"neo-",    level:3},
+  {word:"neonazism",         meaning:"ネオナチズム",                 etymology:"neo（新しい）+ nazism（ナチズム）",                 prefix:"neo-",    level:2},
+
+  // ── proto-（最初の・原始の） ──────────────────
+  {word:"prototype",         meaning:"試作品・原型",                 etymology:"proto（最初の）+ type（型）",                      prefix:"proto-",  level:1},
+  {word:"protocol",          meaning:"プロトコル・議定書",           etymology:"proto（最初の）+ kolla（膠）→最初に貼る書類",        prefix:"proto-",  level:1},
+  {word:"proton",            meaning:"陽子",                         etymology:"proto（最初の）+ on（粒子）→最初に発見された粒子",   prefix:"proto-",  level:2},
+  {word:"protagonist",       meaning:"主人公・主唱者",               etymology:"proto（最初の）+ agonist（競争者）",               prefix:"proto-",  level:1},
+  {word:"protoplasm",        meaning:"原形質",                       etymology:"proto（最初の）+ plasma（形成物）",                prefix:"proto-",  level:3},
+  {word:"protozoa",          meaning:"原生動物",                     etymology:"proto（最初の）+ zoa（動物）",                     prefix:"proto-",  level:2},
+  {word:"prototypical",      meaning:"典型的な",                     etymology:"proto（最初の）+ type（型）+ ical（〜の）",         prefix:"proto-",  level:2},
+  {word:"protocell",         meaning:"原始細胞",                     etymology:"proto（最初の）+ cell（細胞）",                    prefix:"proto-",  level:3},
+  {word:"protostar",         meaning:"原始星",                       etymology:"proto（最初の）+ star（星）→形成中の星",            prefix:"proto-",  level:3},
+  {word:"prototype-testing", meaning:"試作品テスト",                 etymology:"proto（最初の）+ type（型）+ testing（試験）",      prefix:"proto-",  level:1},
+
+  // ── dys-（悪い・困難な） ──────────────────
+  {word:"dysfunction",       meaning:"機能不全",                     etymology:"dys（悪い）+ function（機能）",                    prefix:"dys-",    level:1},
+  {word:"dyslexia",          meaning:"失読症・ディスレクシア",       etymology:"dys（困難）+ lexia（読むこと）",                    prefix:"dys-",    level:2},
+  {word:"dysphoria",         meaning:"不快感・気分不良",             etymology:"dys（悪い）+ phoria（感じ方）",                    prefix:"dys-",    level:2},
+  {word:"dystopia",          meaning:"ディストピア・暗黒郷",         etymology:"dys（悪い）+ topos（場所）→悪い場所",               prefix:"dys-",    level:1},
+  {word:"dysphasia",         meaning:"失語症",                       etymology:"dys（困難）+ phasia（話すこと）",                  prefix:"dys-",    level:3},
+  {word:"dyspepsia",         meaning:"消化不良",                     etymology:"dys（悪い）+ peptein（消化する）",                 prefix:"dys-",    level:3},
+  {word:"dysphonia",         meaning:"発声障害",                     etymology:"dys（困難）+ phone（声）",                        prefix:"dys-",    level:3},
+  {word:"dyspraxia",         meaning:"発達性協調運動障害",           etymology:"dys（困難）+ praxis（行為）",                      prefix:"dys-",    level:3},
+  {word:"dysfunctional",     meaning:"機能不全の・機能障害の",       etymology:"dys（悪い）+ functional（機能的）",                prefix:"dys-",    level:2},
+  {word:"dysrhythmia",       meaning:"不整脈",                       etymology:"dys（悪い）+ rhythmia（リズム）",                  prefix:"dys-",    level:3},
+  {word:"dysarthria",        meaning:"構音障害",                     etymology:"dys（困難）+ arthria（明瞭に話す）",               prefix:"dys-",    level:3},
+
+  // ── eu-（良い・本当の） ──────────────────
+  {word:"euphoria",          meaning:"幸福感・多幸感",               etymology:"eu（良い）+ phoria（感じ方）",                     prefix:"eu-",     level:1},
+  {word:"euphemism",         meaning:"婉曲表現",                     etymology:"eu（良い）+ pheme（言葉）→良い言葉で言い換える",     prefix:"eu-",     level:2},
+  {word:"euthanasia",        meaning:"安楽死",                       etymology:"eu（良い）+ thanatos（死）→良い死",                prefix:"eu-",     level:2},
+  {word:"eugenics",          meaning:"優生学",                       etymology:"eu（良い）+ genos（生まれ）→良い生まれ",            prefix:"eu-",     level:2},
+  {word:"euphony",           meaning:"快音・語感の良さ",             etymology:"eu（良い）+ phone（音）→聞こえの良い音",             prefix:"eu-",     level:3},
+  {word:"eukaryote",         meaning:"真核生物",                     etymology:"eu（本当の）+ karyon（核）→真の核を持つ生物",        prefix:"eu-",     level:3},
+  {word:"eulogy",            meaning:"追悼の辞・賛辞",               etymology:"eu（良い）+ logos（言葉）→良い言葉",                prefix:"eu-",     level:2},
+  {word:"eudaimonia",        meaning:"幸福（アリストテレス哲学）",   etymology:"eu（良い）+ daimon（精霊）→良い精霊に守られた状態",  prefix:"eu-",     level:3},
+  {word:"eutrophication",    meaning:"富栄養化",                     etymology:"eu（良い）+ trophe（栄養）+ ication（化）",         prefix:"eu-",     level:3},
+  {word:"eucharist",         meaning:"聖餐式",                       etymology:"eu（良い）+ charis（感謝）→感謝の祈り",             prefix:"eu-",     level:3},
+  {word:"eureka",            meaning:"分かった！・発見の叫び",       etymology:"eu（良い）+ heureka（見つけた）",                   prefix:"eu-",     level:2},
+  {word:"eurhythmy",         meaning:"リズム体操・調和のとれた動き", etymology:"eu（良い）+ rhythmos（リズム）",                    prefix:"eu-",     level:3},
+
+  // ── hydr-（水） ──────────────────
+  {word:"hydrogen",          meaning:"水素",                         etymology:"hydr（水）+ gen（生む）→水を生む元素",              prefix:"hydr-",   level:1},
+  {word:"hydrology",         meaning:"水文学",                       etymology:"hydr（水）+ logy（学）",                          prefix:"hydr-",   level:2},
+  {word:"hydraulic",         meaning:"水圧の・油圧の",               etymology:"hydr（水）+ aulos（管）→管を通る水の力",             prefix:"hydr-",   level:2},
+  {word:"hydration",         meaning:"水分補給・水和",               etymology:"hydr（水）+ ation（作用）",                       prefix:"hydr-",   level:1},
+  {word:"hydroelectric",     meaning:"水力発電の",                   etymology:"hydr（水）+ electric（電気の）",                   prefix:"hydr-",   level:2},
+  {word:"hydrophobia",       meaning:"水恐怖症・狂犬病",             etymology:"hydr（水）+ phobia（恐怖）",                       prefix:"hydr-",   level:2},
+  {word:"hydrodynamics",     meaning:"流体力学",                     etymology:"hydr（水）+ dynamics（力学）",                     prefix:"hydr-",   level:3},
+  {word:"hydrothermal",      meaning:"熱水の",                       etymology:"hydr（水）+ thermal（熱の）",                     prefix:"hydr-",   level:3},
+  {word:"hydrocarbon",       meaning:"炭化水素",                     etymology:"hydr（水素）+ carbon（炭素）",                     prefix:"hydr-",   level:2},
+  {word:"hydroponics",       meaning:"水耕栽培",                     etymology:"hydr（水）+ ponics（仕事）",                       prefix:"hydr-",   level:2},
+  {word:"hydrosphere",       meaning:"水圏",                         etymology:"hydr（水）+ sphere（圏）",                        prefix:"hydr-",   level:3},
+  {word:"dehydrate",         meaning:"脱水する",                     etymology:"de（除く）+ hydr（水）+ ate（する）",               prefix:"hydr-",   level:1},
+  {word:"hydrophilic",       meaning:"親水性の",                     etymology:"hydr（水）+ philic（好む）",                       prefix:"hydr-",   level:3},
+  {word:"hydrophobic",       meaning:"疎水性の",                     etymology:"hydr（水）+ phobic（嫌う）",                       prefix:"hydr-",   level:3},
+
+  // ── psych-（心・精神） ──────────────────
+  {word:"psychology",        meaning:"心理学",                       etymology:"psych（魂・心）+ logy（学）",                      prefix:"psych-",  level:0},
+  {word:"psychotherapy",     meaning:"心理療法",                     etymology:"psych（心）+ therapy（治療）",                     prefix:"psych-",  level:1},
+  {word:"psychosis",         meaning:"精神病",                       etymology:"psych（心）+ osis（状態）",                       prefix:"psych-",  level:2},
+  {word:"psychosomatic",     meaning:"心身症の",                     etymology:"psych（心）+ somatic（体の）",                     prefix:"psych-",  level:2},
+  {word:"psychedelic",       meaning:"幻覚性の",                     etymology:"psych（心）+ delos（明らか）→心を明らかにする",      prefix:"psych-",  level:2},
+  {word:"psychoanalysis",    meaning:"精神分析",                     etymology:"psych（心）+ analysis（分析）",                    prefix:"psych-",  level:2},
+  {word:"psychopathic",      meaning:"精神病質の",                   etymology:"psych（心）+ pathos（苦しみ）",                    prefix:"psych-",  level:3},
+  {word:"psyche",            meaning:"心理・精神・魂",               etymology:"psych（魂）→魂そのもの",                          prefix:"psych-",  level:2},
+  {word:"psychological",     meaning:"心理的な",                     etymology:"psych（心）+ logy（学）+ ical（〜の）",             prefix:"psych-",  level:1},
+  {word:"psychiatry",        meaning:"精神医学",                     etymology:"psych（心）+ iatry（治療）",                       prefix:"psych-",  level:2},
+  {word:"psycholinguistics", meaning:"心理言語学",                   etymology:"psych（心）+ linguistics（言語学）",               prefix:"psych-",  level:3},
+  {word:"psychomotor",       meaning:"精神運動の",                   etymology:"psych（心）+ motor（動く）",                       prefix:"psych-",  level:3},
+
+  // ── neuro-（神経） ──────────────────
+  {word:"neuroscience",      meaning:"神経科学",                     etymology:"neuro（神経）+ science（科学）",                   prefix:"neuro-",  level:1},
+  {word:"neurology",         meaning:"神経学",                       etymology:"neuro（神経）+ logy（学）",                       prefix:"neuro-",  level:2},
+  {word:"neurosis",          meaning:"神経症",                       etymology:"neuro（神経）+ osis（状態）",                     prefix:"neuro-",  level:2},
+  {word:"neurotransmitter",  meaning:"神経伝達物質",                 etymology:"neuro（神経）+ transmitter（伝達物）",             prefix:"neuro-",  level:2},
+  {word:"neuroplasticity",   meaning:"神経可塑性",                   etymology:"neuro（神経）+ plasticity（可塑性）",              prefix:"neuro-",  level:3},
+  {word:"neuropathology",    meaning:"神経病理学",                   etymology:"neuro（神経）+ pathology（病理学）",               prefix:"neuro-",  level:3},
+  {word:"neurotoxin",        meaning:"神経毒",                       etymology:"neuro（神経）+ toxin（毒）",                       prefix:"neuro-",  level:3},
+  {word:"neuroanatomy",      meaning:"神経解剖学",                   etymology:"neuro（神経）+ anatomy（解剖学）",                 prefix:"neuro-",  level:3},
+  {word:"neurodegenerative", meaning:"神経変性の",                   etymology:"neuro（神経）+ degenerative（退化性の）",          prefix:"neuro-",  level:3},
+  {word:"neuroendocrine",    meaning:"神経内分泌の",                 etymology:"neuro（神経）+ endocrine（内分泌の）",             prefix:"neuro-",  level:3},
+  {word:"neuropeptide",      meaning:"神経ペプチド",                 etymology:"neuro（神経）+ peptide（ペプチド）",               prefix:"neuro-",  level:3},
+
+  // ── cardio-（心臓） ──────────────────
+  {word:"cardiovascular",    meaning:"心臓血管の",                   etymology:"cardio（心臓）+ vascular（血管の）",               prefix:"cardio-", level:2},
+  {word:"cardiologist",      meaning:"心臓専門医",                   etymology:"cardio（心臓）+ logy（学）+ ist（者）",             prefix:"cardio-", level:2},
+  {word:"cardiogram",        meaning:"心電図",                       etymology:"cardio（心臓）+ gram（記録）",                     prefix:"cardio-", level:2},
+  {word:"cardiopulmonary",   meaning:"心肺の",                       etymology:"cardio（心臓）+ pulmonary（肺の）",                prefix:"cardio-", level:3},
+  {word:"cardiomyopathy",    meaning:"心筋症",                       etymology:"cardio（心臓）+ myo（筋肉）+ pathy（病気）",        prefix:"cardio-", level:3},
+  {word:"cardiogenic",       meaning:"心臓性の",                     etymology:"cardio（心臓）+ genic（生じる）",                  prefix:"cardio-", level:3},
+  {word:"cardiology",        meaning:"心臓学",                       etymology:"cardio（心臓）+ logy（学）",                       prefix:"cardio-", level:2},
+  {word:"cardiac",           meaning:"心臓の",                       etymology:"cardi（心臓）+ ac（〜の）",                        prefix:"cardio-", level:1},
+  {word:"tachycardia",       meaning:"頻脈",                         etymology:"tachy（速い）+ cardia（心臓）→速い心拍",            prefix:"cardio-", level:3},
+  {word:"bradycardia",       meaning:"徐脈",                         etymology:"brady（遅い）+ cardia（心臓）→遅い心拍",            prefix:"cardio-", level:3},
+
+  // ── hemo-（血） ──────────────────
+  {word:"hemoglobin",        meaning:"ヘモグロビン",                 etymology:"hemo（血）+ globin（球状タンパク）",                prefix:"hemo-",   level:2},
+  {word:"hemorrhage",        meaning:"出血",                         etymology:"hemo（血）+ rhage（激しく出る）",                  prefix:"hemo-",   level:2},
+  {word:"hemophilia",        meaning:"血友病",                       etymology:"hemo（血）+ philia（好む）→血が止まらない病",        prefix:"hemo-",   level:2},
+  {word:"hematology",        meaning:"血液学",                       etymology:"hemo（血）+ logy（学）",                          prefix:"hemo-",   level:3},
+  {word:"hemostasis",        meaning:"止血",                         etymology:"hemo（血）+ stasis（停止）",                      prefix:"hemo-",   level:3},
+  {word:"hemodialysis",      meaning:"血液透析",                     etymology:"hemo（血）+ dialysis（透析）",                     prefix:"hemo-",   level:3},
+  {word:"hemodynamics",      meaning:"血行動態学",                   etymology:"hemo（血）+ dynamics（力学）",                     prefix:"hemo-",   level:3},
+  {word:"hemolysis",         meaning:"溶血",                         etymology:"hemo（血）+ lysis（溶かす）",                      prefix:"hemo-",   level:3},
+  {word:"hemorrhoid",        meaning:"痔",                           etymology:"hemo（血）+ rhoid（流れ）→血が流れるもの",          prefix:"hemo-",   level:2},
+  {word:"hemopoiesis",       meaning:"造血",                         etymology:"hemo（血）+ poiesis（作ること）",                  prefix:"hemo-",   level:3},
+
+  ];
+  if(typeof window !== 'undefined'){
+    if(!window.WORD_DATA_RAW) window.WORD_DATA_RAW=[];
+    window.WORD_DATA_RAW=window.WORD_DATA_RAW.concat(d);
+  }
+})();

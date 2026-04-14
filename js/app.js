@@ -469,6 +469,14 @@ function _updateSoundButtons() {
     if (!res.isCorrect) panel.classList.add("wrong-panel");
     panel.style.display = "block";
 
+    // 解説パネル表示後、「次の問題」ボタンが見える位置に自動スクロール
+    requestAnimationFrame(() => {
+      const nextBtn = $("btn-next");
+      if (nextBtn) {
+        nextBtn.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    });
+
     $("quiz-score").textContent = Quiz.getCurrentQuestion()?.xpGained || 0;
     $("combo-count").textContent = res.combo;
     $("combo-display").classList.toggle("active", res.combo >= 2);

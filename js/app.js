@@ -492,6 +492,7 @@ function _updateSoundButtons() {
   }
 
   $("btn-next").onclick = () => {
+    window.scrollTo({ top: 0, behavior: "instant" });
     const { done } = Quiz.next();
     if (done) {
       showResult();

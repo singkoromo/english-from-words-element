@@ -81,12 +81,26 @@ body {
    スプラッシュスクリーン
    ============================================ */
 #screen-splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh; /* モバイルのアドレスバー対応 */
+  min-height: 0;  /* .screen の min-height: 100vh を打ち消す */
   background: linear-gradient(160deg, #FF6B9D 0%, #C77DFF 60%, #74C0FC 100%);
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 0.4s ease;
 }
 #screen-splash.active { display: flex; }
+#screen-splash.splash-fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
 
 .splash-content {
   text-align: center;

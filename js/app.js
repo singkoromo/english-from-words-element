@@ -41,30 +41,36 @@ function _updateSoundButtons() {
 
   // ── 画面管理 ─────────────────────────────────
   function showScreen(id) {
-    document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
+    // スプラッシュは fixed オーバーレイとして独立管理するため除外
+    document.querySelectorAll(".screen").forEach(s => {
+      if (s.id !== 'screen-splash') s.classList.remove("active");
+    });
     const el = document.getElementById(id);
     if (el) el.classList.add("active");
     window.scrollTo(0, 0);
   }
 
   // スプラッシュ → ホーム
-  // 初回訪問のみ1600msスプラッシュを表示。2回目以降はDB初期化後すぐにホームへ。
-  const isFirstVisit = !localStorage.getItem('etymology_visited');
-  if (isFirstVisit) localStorage.setItem('etymology_visited', '1');
+  // スプラッシュは毎回2秒表示。その間にホームを裏側でセットアップし、
+  // 2秒後にフェードアウト → display:none でコンテンツが最上部に現れる。
+  const _splashEl = document.getElementById('screen-splash');
 
-  const _goHome = () => {
-    showScreen("screen-home");
-    initHome();
-    _updateSoundButtons();
-    document.getElementById('btn-sound-toggle-home').onclick = () => SoundManager.toggle();
-    document.getElementById('btn-sound-toggle').onclick      = () => SoundManager.toggle();
-  };
+  // ホーム画面をスプラッシュの裏側で即座にセットアップ
+  showScreen("screen-home");
+  initHome();
+  _updateSoundButtons();
+  document.getElementById('btn-sound-toggle-home').onclick = () => SoundManager.toggle();
+  document.getElementById('btn-sound-toggle').onclick      = () => SoundManager.toggle();
 
-  if (isFirstVisit) {
-    setTimeout(_goHome, 1600);
-  } else {
-    _goHome();
-  }
+  // 2秒後にスプラッシュをフェードアウト → 完全非表示
+  setTimeout(() => {
+    if (_splashEl) {
+      _splashEl.classList.add('splash-fade-out');       // opacity: 0 へ
+      setTimeout(() => {
+        _splashEl.classList.remove('active', 'splash-fade-out'); // display: none へ
+      }, 420); // CSS transition (0.4s) + 余裕
+    }
+  }, 2000);
 
   // ── 状態 ─────────────────────────────────────
   let selectedLevel  = profile.selectedLevel || 0;

@@ -190,7 +190,7 @@ const Storage = (function(){
     }
   }
 
-  // 正解した単語の連続正解数を更新し、2回連続正解でリストから卒業
+  // 正解した単語の連続正解数を更新し、2回連続正解で卒業フラグを立てる
   async function updateWeakWordStreaks(correctWordObjs) {
     for (const word of correctWordObjs) {
       const key = word.word;
@@ -198,12 +198,12 @@ const Storage = (function(){
       if (existing) {
         existing.correctStreak = (existing.correctStreak || 0) + 1;
         existing.updatedAt     = new Date().toISOString();
-        if (existing.correctStreak >= 2) {
-          // 2回連続正解 → 苦手リストから卒業
-          await _delete(STORE_WEAK_WORDS, key);
-        } else {
-          await _put(STORE_WEAK_WORDS, existing);
+        if (existing.correctStreak >= 2 && !existing.graduated) {
+          // 2回連続正解 → 卒業フラグ（削除せず履歴として保持）
+          existing.graduated   = true;
+          existing.graduatedAt = new Date().toISOString();
         }
+        await _put(STORE_WEAK_WORDS, existing);
       }
     }
   }
@@ -212,9 +212,20 @@ const Storage = (function(){
     return _getAll(STORE_WEAK_WORDS);
   }
 
-  async function getWeakWordCount() {
+  // 苦手克服クイズ用：未卒業のみ
+  async function getActiveWeakWords() {
     const all = await getWeakWords();
+    return all.filter(w => !w.graduated);
+  }
+
+  async function getWeakWordCount() {
+    const all = await getActiveWeakWords();
     return all.length;
+  }
+
+  // マイページリストから手動削除
+  async function deleteWeakWord(key) {
+    return _delete(STORE_WEAK_WORDS, key);
   }
 
   // ── バッジ管理 ───────────────────────────────
@@ -296,7 +307,9 @@ const Storage = (function(){
     addWeakWords,
     updateWeakWordStreaks,
     getWeakWords,
+    getActiveWeakWords,
     getWeakWordCount,
+    deleteWeakWord,
     checkAndAwardBadges,
     getBadgeDefs,
     getDailyChallengeStatus,

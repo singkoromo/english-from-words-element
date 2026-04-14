@@ -75,6 +75,9 @@ function _updateSoundButtons() {
   // ── 状態 ─────────────────────────────────────
   let selectedLevel  = profile.selectedLevel || 0;
   let selectedMode   = "prefix";
+  // 間違えた単語リストの状態
+  let _wwlState = { filter: "active", sort: "recent", page: 1 };
+  const WWL_PAGE_SIZE = 20;
   let selectedAffix  = null;   // { mode, key, label }
   // 問題数（0 = 全問）。localStorageで永続化
   let selectedQuizCount = parseInt(localStorage.getItem('quizQuestionCount') || '20', 10);
@@ -232,7 +235,7 @@ function _updateSoundButtons() {
 
   // ── 苦手克服セクション ────────────────────────
   async function renderWeakSection() {
-    const weakEntries = await Storage.getWeakWords();
+    const weakEntries = await Storage.getActiveWeakWords();  // 未卒業のみ
     const count       = weakEntries.length;
     const infoEl      = $("weak-info-text");
     const startBtn    = $("btn-start-weak");
@@ -254,7 +257,7 @@ function _updateSoundButtons() {
 
   // 苦手克服クイズ起動
   async function startWeakModeQuiz() {
-    const weakEntries = await Storage.getWeakWords();
+    const weakEntries = await Storage.getActiveWeakWords();  // 未卒業のみ
     const wordPool    = weakEntries.map(e => e.word);
 
     if (wordPool.length < 4) {
@@ -687,6 +690,192 @@ function _updateSoundButtons() {
         <span class="badge-name">${b.name}</span>
       </div>
     `).join("");
+
+    // 間違えた単語リスト
+    _wwlState.page = 1; // ページはリセット、フィルタ/ソートは維持
+    await renderWrongWordsList();
+
+    // フィルタタブ
+    document.querySelectorAll(".wwl-filter-btn").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.filter === _wwlState.filter);
+      btn.onclick = async () => {
+        _wwlState.filter = btn.dataset.filter;
+        _wwlState.page   = 1;
+        document.querySelectorAll(".wwl-filter-btn").forEach(b =>
+          b.classList.toggle("active", b.dataset.filter === _wwlState.filter)
+        );
+        await renderWrongWordsList();
+      };
+    });
+
+    // ソート
+    const sortSel = $("wwl-sort");
+    if (sortSel) {
+      sortSel.value    = _wwlState.sort;
+      sortSel.onchange = async () => {
+        _wwlState.sort = sortSel.value;
+        _wwlState.page = 1;
+        await renderWrongWordsList();
+      };
+    }
+
+    // 苦手克服へのボタン
+    const gotoWeakBtn = $("btn-goto-weak-from-profile");
+    if (gotoWeakBtn) {
+      gotoWeakBtn.onclick = () => {
+        showScreen("screen-home");
+        // 苦手克服タブを選択
+        document.querySelectorAll(".mode-tab").forEach(t => {
+          const isWeak = t.dataset.mode === "weak";
+          t.classList.toggle("active", isWeak);
+        });
+        selectedMode = "weak";
+        $("prefix-grid").classList.add("hidden");
+        $("suffix-grid").classList.add("hidden");
+        $("weak-section").classList.remove("hidden");
+        renderWeakSection();
+      };
+    }
+  }
+
+  // ── 間違えた単語リスト描画 ────────────────────
+  async function renderWrongWordsList() {
+    const listEl = $("wwl-list");
+    if (!listEl) return;
+
+    const allWords = await Storage.getWeakWords();
+
+    // フィルタ別カウントをバッジに反映
+    const activeCount    = allWords.filter(e => !e.graduated).length;
+    const graduatedCount = allWords.filter(e => e.graduated).length;
+    const badge = $("wwl-count-badge");
+    if (badge) badge.textContent = `未卒業 ${activeCount}語 / 卒業済み ${graduatedCount}語`;
+
+    // 苦手克服ボタン表示切り替え
+    const gotoWeakArea = $("wwl-goto-weak");
+    if (gotoWeakArea) gotoWeakArea.style.display = activeCount >= 4 ? "block" : "none";
+
+    // フィルタ適用
+    let filtered;
+    if (_wwlState.filter === "active") {
+      filtered = allWords.filter(e => !e.graduated);
+    } else if (_wwlState.filter === "graduated") {
+      filtered = allWords.filter(e => e.graduated);
+    } else {
+      filtered = allWords.slice();
+    }
+
+    // ソート適用
+    if (_wwlState.sort === "wrong") {
+      filtered.sort((a, b) => (b.wrongCount || 0) - (a.wrongCount || 0));
+    } else {
+      filtered.sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
+    }
+
+    const total   = filtered.length;
+    const showing = _wwlState.page * WWL_PAGE_SIZE;
+    const visible = filtered.slice(0, showing);
+
+    // 0件メッセージ
+    if (total === 0) {
+      const emptyMsg = {
+        active:    "まだ間違えた単語はありません。\nクイズに挑戦してみよう！",
+        graduated: "卒業済みの単語はまだありません。",
+        all:       "まだ間違えた単語はありません。\nクイズに挑戦してみよう！",
+      };
+      listEl.innerHTML = `<p class="wwl-empty">${emptyMsg[_wwlState.filter].replace("\n","<br>")}</p>`;
+      const mc = $("wwl-more-container");
+      if (mc) mc.style.display = "none";
+      return;
+    }
+
+    // リスト描画
+    listEl.innerHTML = visible.map(entry => {
+      const w = entry.word;
+      if (!w) return "";
+      const isGraduated = !!entry.graduated;
+
+      const statusBadge = isGraduated
+        ? `<span class="wwl-graduated-badge">🎓 卒業済み</span>`
+        : `<span class="wwl-streak-dots" title="連続正解 ${entry.correctStreak || 0}/2">${
+            ["○○","●○","●●"][Math.min(entry.correctStreak || 0, 2)]
+          }</span>`;
+
+      const exHtml = w.example
+        ? `<div class="wwl-example">
+             <div class="wwl-example-en">${_escHtml(w.example)}</div>
+             ${w.exampleJa ? `<div class="wwl-example-ja">${_escHtml(w.exampleJa)}</div>` : ""}
+           </div>`
+        : "";
+
+      return `
+        <div class="wwl-item${isGraduated ? " wwl-graduated" : ""}" data-key="${_escHtml(entry.wordKey)}">
+          <div class="wwl-item-header">
+            <div class="wwl-item-top">
+              <span class="wwl-word">${_escHtml(w.word)}</span>
+              ${w.pos ? `<span class="wwl-pos">${_escHtml(w.pos)}</span>` : ""}
+              ${statusBadge}
+              <span class="wwl-wrong-count">❌${entry.wrongCount || 0}</span>
+            </div>
+            <div class="wwl-item-bottom">
+              <span class="wwl-meaning">${_escHtml(w.meaning)}</span>
+              <div class="wwl-item-btns">
+                <button class="wwl-delete-btn" data-key="${_escHtml(entry.wordKey)}" title="リストから削除">🗑️</button>
+                <span class="wwl-expand-icon">▼</span>
+              </div>
+            </div>
+          </div>
+          <div class="wwl-item-body">
+            <div class="wwl-etymology">📖 ${_escHtml(w.etymology || "")}</div>
+            ${exHtml}
+          </div>
+        </div>`;
+    }).join("");
+
+    // タップで展開
+    listEl.querySelectorAll(".wwl-item-header").forEach(header => {
+      header.addEventListener("click", e => {
+        if (e.target.closest(".wwl-delete-btn")) return;
+        const item = header.closest(".wwl-item");
+        item.classList.toggle("wwl-open");
+      });
+    });
+
+    // 削除ボタン
+    listEl.querySelectorAll(".wwl-delete-btn").forEach(btn => {
+      btn.addEventListener("click", async e => {
+        e.stopPropagation();
+        await Storage.deleteWeakWord(btn.dataset.key);
+        _wwlState.page = 1;
+        await renderWrongWordsList();
+      });
+    });
+
+    // もっと見るボタン
+    const mc = $("wwl-more-container");
+    if (mc) {
+      if (showing < total) {
+        mc.style.display = "block";
+        const moreBtn = $("wwl-more-btn");
+        if (moreBtn) {
+          moreBtn.textContent = `もっと見る（残り ${total - showing} 語）`;
+          moreBtn.onclick = async () => {
+            _wwlState.page++;
+            await renderWrongWordsList();
+          };
+        }
+      } else {
+        mc.style.display = "none";
+      }
+    }
+  }
+
+  function _escHtml(str) {
+    return String(str || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
   }
 
   // ── データリセット ───────────────────────────

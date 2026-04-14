@@ -384,6 +384,40 @@
         </div>
       </div>
 
+      <!-- 間違えた単語リスト -->
+      <div class="wrong-words-card">
+        <div class="wwl-header-row">
+          <h3>間違えた単語 📋</h3>
+          <span class="wwl-count-badge" id="wwl-count-badge">読み込み中…</span>
+        </div>
+
+        <div class="wwl-controls">
+          <div class="wwl-filter-tabs" id="wwl-filter-tabs">
+            <button class="wwl-filter-btn active" data-filter="active">未卒業</button>
+            <button class="wwl-filter-btn" data-filter="graduated">卒業済み</button>
+            <button class="wwl-filter-btn" data-filter="all">すべて</button>
+          </div>
+          <select class="wwl-sort-select" id="wwl-sort">
+            <option value="recent">新しい順</option>
+            <option value="wrong">間違い多い順</option>
+          </select>
+        </div>
+
+        <div id="wwl-list">
+          <p class="wwl-empty">読み込み中…</p>
+        </div>
+
+        <div id="wwl-more-container" style="display:none">
+          <button class="btn-secondary wwl-more-btn" id="wwl-more-btn">もっと見る</button>
+        </div>
+
+        <div class="wwl-goto-weak" id="wwl-goto-weak" style="display:none">
+          <button class="btn-secondary wwl-goto-weak-btn" id="btn-goto-weak-from-profile">
+            🔥 苦手克服クイズを始める
+          </button>
+        </div>
+      </div>
+
       <!-- リセットボタン -->
       <button class="btn-danger" id="btn-reset-data">⚠️ 学習データをリセット</button>
     </div>

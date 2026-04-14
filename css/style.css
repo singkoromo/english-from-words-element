@@ -1812,3 +1812,274 @@ body {
     font-size: 10px;
   }
 }
+
+/* ============================================
+   間違えた単語リスト（マイページ）
+   ============================================ */
+.wrong-words-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 16px;
+}
+
+.wwl-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  gap: 8px;
+}
+
+.wwl-header-row h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.wwl-count-badge {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--pink);
+  background: var(--pink-pale);
+  border-radius: var(--radius-full);
+  padding: 3px 10px;
+  white-space: nowrap;
+}
+
+/* フィルタ・ソートコントロール */
+.wwl-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.wwl-filter-tabs {
+  display: flex;
+  gap: 4px;
+  flex: 1;
+}
+
+.wwl-filter-btn {
+  flex: 1;
+  padding: 6px 4px;
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition);
+  min-width: 0;
+}
+
+.wwl-filter-btn.active {
+  background: var(--pink);
+  border-color: var(--pink);
+  color: var(--white);
+  box-shadow: var(--shadow-pink);
+}
+
+.wwl-sort-select {
+  padding: 6px 8px;
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  color: var(--text-secondary);
+  background: var(--white);
+  cursor: pointer;
+  outline: none;
+}
+
+/* リストアイテム */
+.wwl-item {
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  margin-bottom: 8px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.wwl-item.wwl-graduated {
+  border-color: var(--mint-light);
+  background: var(--mint-pale);
+}
+
+.wwl-item.wwl-open {
+  border-color: var(--pink-light);
+}
+
+.wwl-item-header {
+  padding: 10px 12px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wwl-item-header:active { background: var(--gray-50); }
+
+.wwl-item-top {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+
+.wwl-word {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.wwl-pos {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--purple);
+  background: var(--purple-pale);
+  border-radius: var(--radius-full);
+  padding: 1px 7px;
+}
+
+.wwl-graduated-badge {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--mint);
+  background: var(--mint-pale);
+  border: 1px solid var(--mint-light);
+  border-radius: var(--radius-full);
+  padding: 1px 7px;
+}
+
+.wwl-streak-dots {
+  font-size: 11px;
+  color: var(--orange);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.wwl-wrong-count {
+  font-size: 11px;
+  color: var(--coral);
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.wwl-item-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.wwl-meaning {
+  font-size: 13px;
+  color: var(--text-secondary);
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.wwl-item-btns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.wwl-delete-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: var(--radius-sm);
+  opacity: 0.5;
+  transition: opacity 0.2s;
+  line-height: 1;
+}
+.wwl-delete-btn:hover,
+.wwl-delete-btn:active { opacity: 1; }
+
+.wwl-expand-icon {
+  font-size: 11px;
+  color: var(--gray-400);
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.wwl-item.wwl-open .wwl-expand-icon { transform: rotate(180deg); }
+
+/* 展開パネル（CSS max-height アニメーション） */
+.wwl-item-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+  background: var(--gray-50);
+  border-top: 0px solid var(--gray-200);
+}
+
+.wwl-item.wwl-open .wwl-item-body {
+  grid-template-rows: 1fr;
+  border-top-width: 1px;
+}
+
+.wwl-item-body > * {
+  overflow: hidden;
+}
+
+.wwl-etymology {
+  font-size: 12px;
+  color: var(--text-secondary);
+  padding: 10px 12px 6px;
+  line-height: 1.5;
+}
+
+.wwl-example {
+  padding: 4px 12px 10px;
+}
+
+.wwl-example-en {
+  font-size: 12px;
+  color: var(--text-primary);
+  font-style: italic;
+  margin-bottom: 2px;
+  line-height: 1.5;
+}
+
+.wwl-example-ja {
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* 0件メッセージ */
+.wwl-empty {
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 24px 16px;
+  line-height: 1.7;
+}
+
+/* もっと見るボタン */
+.wwl-more-btn {
+  width: 100%;
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+/* 苦手克服へのリンク */
+.wwl-goto-weak {
+  margin-top: 12px;
+}
+
+.wwl-goto-weak-btn {
+  width: 100%;
+  font-size: 14px;
+}

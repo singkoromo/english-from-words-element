@@ -48,13 +48,23 @@ function _updateSoundButtons() {
   }
 
   // スプラッシュ → ホーム
-  setTimeout(() => {
+  // 初回訪問のみ1600msスプラッシュを表示。2回目以降はDB初期化後すぐにホームへ。
+  const isFirstVisit = !localStorage.getItem('etymology_visited');
+  if (isFirstVisit) localStorage.setItem('etymology_visited', '1');
+
+  const _goHome = () => {
     showScreen("screen-home");
     initHome();
     _updateSoundButtons();
     document.getElementById('btn-sound-toggle-home').onclick = () => SoundManager.toggle();
     document.getElementById('btn-sound-toggle').onclick      = () => SoundManager.toggle();
-  }, 1600);
+  };
+
+  if (isFirstVisit) {
+    setTimeout(_goHome, 1600);
+  } else {
+    _goHome();
+  }
 
   // ── 状態 ─────────────────────────────────────
   let selectedLevel  = profile.selectedLevel || 0;

@@ -44,6 +44,7 @@ function _updateSoundButtons() {
     document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
     const el = document.getElementById(id);
     if (el) el.classList.add("active");
+    window.scrollTo(0, 0);
   }
 
   // スプラッシュ → ホーム
@@ -430,6 +431,21 @@ function _updateSoundButtons() {
     }
     $("explanation-breakdown").innerHTML = breakdownHTML;
 
+    // 用例表示（example データがある場合のみ）
+    const exBox = $("example-box");
+    const exEn  = $("example-en");
+    const exJa  = $("example-ja");
+    if (exBox && exEn && exJa && res.explanation.example) {
+      // 対象単語をハイライト
+      const word = res.explanation.word;
+      const re   = new RegExp(`(${word})`, "gi");
+      exEn.innerHTML = res.explanation.example.replace(re, `<span class="example-highlight">$1</span>`);
+      exJa.textContent = res.explanation.exampleJa;
+      exBox.style.display = "block";
+    } else if (exBox) {
+      exBox.style.display = "none";
+    }
+
     panel.classList.add("show");
     if (!res.isCorrect) panel.classList.add("wrong-panel");
     panel.style.display = "block";
@@ -541,14 +557,23 @@ function _updateSoundButtons() {
     const wrongSection = $("wrong-answers-section");
     const wrongList    = $("wrong-list");
     if (res.wrong.length > 0) {
-      wrongList.innerHTML = res.wrong.map(w => `
-        <div class="wrong-item">
-          <span class="wrong-word">${w.word}</span>
-          ${w.pos ? `<span class="wrong-pos">${w.pos}</span>` : ""}
-          <span class="wrong-meaning">${w.meaning}</span>
-          <span class="wrong-etymology">${w.etymology}</span>
-        </div>
-      `).join("");
+      wrongList.innerHTML = res.wrong.map(w => {
+        const re = new RegExp(`(${w.word})`, "gi");
+        const exHtml = w.example
+          ? `<div class="wrong-example">
+               <span class="wrong-example-en">${w.example.replace(re, `<span class="example-highlight">$1</span>`)}</span>
+               <span class="wrong-example-ja">${w.exampleJa}</span>
+             </div>`
+          : "";
+        return `
+          <div class="wrong-item">
+            <span class="wrong-word">${w.word}</span>
+            ${w.pos ? `<span class="wrong-pos">${w.pos}</span>` : ""}
+            <span class="wrong-meaning">${w.meaning}</span>
+            <span class="wrong-etymology">${w.etymology}</span>
+            ${exHtml}
+          </div>`;
+      }).join("");
       wrongSection.style.display = "block";
     } else {
       wrongSection.style.display = "none";

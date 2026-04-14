@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="theme-color" content="#FF6B9D">
   <meta name="description" content="語源で英単語を楽しく覚えよう！接頭語・接尾語から学ぶ英単語学習アプリ">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -245,6 +245,12 @@
         <div class="explanation-correct-icon" id="explanation-icon">✅</div>
         <div class="explanation-text" id="explanation-text"></div>
         <div class="explanation-breakdown" id="explanation-breakdown"></div>
+        <!-- 用例（例文データがある単語のみ表示） -->
+        <div class="example-box" id="example-box" style="display:none">
+          <div class="example-label">📝 例文</div>
+          <div class="example-en" id="example-en"></div>
+          <div class="example-ja" id="example-ja"></div>
+        </div>
         <button class="btn-next" id="btn-next">次の問題 →</button>
       </div>
     </div>
@@ -524,6 +530,8 @@
   <script src="js/data-mixed-36.js"></script>
   <script src="js/data-mixed-37.js"></script>
   <script src="js/data-mixed-38.js"></script>
+  <!-- 用例データ -->
+  <script src="js/examples.js"></script>
   <!-- コアロジック -->
   <script src="js/data.js"></script>
   <script src="js/storage.js"></script>

@@ -1,7 +1,7 @@
 /**
  * sw.js — Service Worker（オフライン対応）
  */
-const CACHE_NAME = "etymology-v10";
+const CACHE_NAME = "etymology-v11";
 const ASSETS = [
   "/",
   "/index.html",
@@ -10,8 +10,6 @@ const ASSETS = [
   "/js/data-prefix-2.js",
   "/js/data-suffix-1.js",
   "/js/data-suffix-2.js",
-  "/js/examples-generated-1.js",
-  "/js/examples-generated-2.js",
   "/js/examples.js",
   "/js/data.js",
   "/js/storage.js",

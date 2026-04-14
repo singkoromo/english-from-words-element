@@ -44,6 +44,7 @@ function _updateSoundButtons() {
     document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
     const el = document.getElementById(id);
     if (el) el.classList.add("active");
+    window.scrollTo(0, 0);
   }
 
   // スプラッシュ → ホーム
@@ -59,6 +60,8 @@ function _updateSoundButtons() {
   let selectedLevel  = profile.selectedLevel || 0;
   let selectedMode   = "prefix";
   let selectedAffix  = null;   // { mode, key, label }
+  // 問題数（0 = 全問）。localStorageで永続化
+  let selectedQuizCount = parseInt(localStorage.getItem('quizQuestionCount') || '20', 10);
   const $ = id => document.getElementById(id);
 
   // ── ホーム画面 ────────────────────────────────
@@ -106,8 +109,33 @@ function _updateSoundButtons() {
       };
     });
 
+    // 問題数バー
+    renderQuizCountBar();
+
     renderAffixGrid();
     await renderDailyChallenge();
+  }
+
+  // ── 問題数選択バー ────────────────────────────
+  function renderQuizCountBar() {
+    const bar = $("quiz-count-bar");
+    if (!bar) return;
+    const options = [10, 20, 30, 50, 0];
+    const labels  = { 10:"10問", 20:"20問", 30:"30問", 50:"50問", 0:"全問" };
+    bar.innerHTML =
+      `<span class="qcb-label">問題数</span><div class="qcb-btns">` +
+      options.map(n =>
+        `<button class="qcb-btn${selectedQuizCount === n ? ' active' : ''}" data-count="${n}">${labels[n]}</button>`
+      ).join("") +
+      `</div>`;
+    bar.querySelectorAll(".qcb-btn").forEach(btn => {
+      btn.onclick = () => {
+        selectedQuizCount = parseInt(btn.dataset.count, 10);
+        localStorage.setItem("quizQuestionCount", selectedQuizCount);
+        bar.querySelectorAll(".qcb-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+      };
+    });
   }
 
   // 語根グリッド描画
@@ -186,26 +214,48 @@ function _updateSoundButtons() {
     $("btn-start-quiz").onclick = () => startQuiz(selectedMode, item.key, item.label);
   }
 
+  // ── 苦手克服セクション ────────────────────────
   async function renderWeakSection() {
-    const weakList = await Storage.getWeakAffixes(
-      selectedMode === "weak" ? "prefix" : selectedMode, 5
-    );
-    const infoEl = $("weak-info-text");
-    const startBtn = $("btn-start-weak");
-    if (weakList.length === 0) {
-      infoEl.textContent = "まだデータがありません。クイズをやって実力を測ろう！";
-      startBtn.disabled = true;
+    const weakEntries = await Storage.getWeakWords();
+    const count       = weakEntries.length;
+    const infoEl      = $("weak-info-text");
+    const startBtn    = $("btn-start-weak");
+    const countDisp   = $("weak-count-display");
+
+    if (count === 0) {
+      infoEl.textContent = "まだ苦手単語がありません。クイズで間違えた単語が自動で登録されます！";
+      startBtn.disabled  = true;
+      if (countDisp) countDisp.style.display = "none";
     } else {
-      infoEl.innerHTML = weakList.map(s => {
-        const pct = Math.round((s.correct / s.total) * 100);
-        return `<strong>${s.affixKey}</strong>: ${pct}% (${s.total}問)`;
-      }).join(" / ");
-      startBtn.disabled = false;
-      startBtn.onclick = () => {
-        const worst = weakList[0];
-        startQuiz(worst.mode, worst.affixKey, worst.affixKey);
-      };
+      const countEl = $("weak-word-count");
+      if (countEl) countEl.textContent = count;
+      if (countDisp) countDisp.style.display = "flex";
+      infoEl.textContent = "苦手な単語をまとめて練習しよう！";
+      startBtn.disabled  = false;
+      startBtn.onclick   = () => startWeakModeQuiz();
     }
+  }
+
+  // 苦手克服クイズ起動
+  async function startWeakModeQuiz() {
+    const weakEntries = await Storage.getWeakWords();
+    const wordPool    = weakEntries.map(e => e.word);
+
+    if (wordPool.length < 4) {
+      alert("苦手リストの単語が少なすぎます（最低4問必要）。クイズに挑戦して苦手単語を増やしましょう！");
+      return;
+    }
+
+    const quizSize = selectedQuizCount === 0 ? 99999 : selectedQuizCount;
+    const result   = Quiz.startWithWords(wordPool, quizSize);
+    if (result.error) {
+      alert(result.error);
+      return;
+    }
+    _isDaily = false;
+    showScreen("screen-quiz");
+    $("quiz-mode-label").textContent = "苦手克服";
+    renderQuestion();
   }
 
   async function renderDailyChallenge() {
@@ -233,9 +283,10 @@ function _updateSoundButtons() {
     }
   }
 
-  // ── クイズ起動 ────────────────────────────────
+  // ── クイズ起動（接頭語/接尾語/デイリー） ─────
   function startQuiz(mode, affixKey, label, isDaily = false) {
-    const result = Quiz.start(mode, affixKey, selectedLevel);
+    const quizSize = selectedQuizCount === 0 ? 99999 : selectedQuizCount;
+    const result   = Quiz.start(mode, affixKey, selectedLevel, { quizSize });
     if (result.error) {
       alert(result.error);
       return;
@@ -291,6 +342,18 @@ function _updateSoundButtons() {
       $("etymology-prefix-tag").style.display = "none";
       document.querySelector(".etymology-separator").style.display = "none";
       $("etymology-root").textContent = q.word.word;
+    }
+
+    // 品詞表示（posフィールドがある場合のみ）
+    const posEl  = $("question-pos");
+    const posTag = $("pos-tag");
+    if (posEl && posTag) {
+      if (q.word.pos) {
+        posTag.textContent     = q.word.pos;
+        posEl.style.display    = "flex";
+      } else {
+        posEl.style.display    = "none";
+      }
     }
 
     // ヒントボタン初期化
@@ -360,8 +423,29 @@ function _updateSoundButtons() {
     $("explanation-text").textContent = res.isCorrect
       ? `正解！「${res.explanation.meaning}」`
       : `不正解…正解は「${res.explanation.meaning}」`;
-    $("explanation-breakdown").innerHTML =
-      `<strong>語源:</strong> ${res.explanation.etymology}`;
+
+    // 語源 + 品詞（posがある場合）を解説パネルに表示
+    let breakdownHTML = `<strong>語源:</strong> ${res.explanation.etymology}`;
+    if (res.explanation.pos) {
+      breakdownHTML += ` &nbsp;·&nbsp; <strong>品詞:</strong> <span class="pos-inline">${res.explanation.pos}</span>`;
+    }
+    $("explanation-breakdown").innerHTML = breakdownHTML;
+
+    // 用例表示（example データがある場合のみ）
+    const exBox = $("example-box");
+    const exEn  = $("example-en");
+    const exJa  = $("example-ja");
+    if (exBox && exEn && exJa && res.explanation.example) {
+      // 対象単語をハイライト
+      const word = res.explanation.word;
+      const re   = new RegExp(`(${word})`, "gi");
+      exEn.innerHTML = res.explanation.example.replace(re, `<span class="example-highlight">$1</span>`);
+      exJa.textContent = res.explanation.exampleJa;
+      exBox.style.display = "block";
+    } else if (exBox) {
+      exBox.style.display = "none";
+    }
+
     panel.classList.add("show");
     if (!res.isCorrect) panel.classList.add("wrong-panel");
     panel.style.display = "block";
@@ -421,6 +505,14 @@ function _updateSoundButtons() {
 
     if (_isDaily) await Storage.completeDailyChallenge();
 
+    // 苦手単語リスト更新（間違えた単語を追加、正解した苦手単語のストリーク更新）
+    if (res.wrong && res.wrong.length > 0) {
+      await Storage.addWeakWords(res.wrong);
+    }
+    if (res.correct_words && res.correct_words.length > 0) {
+      await Storage.updateWeakWordStreaks(res.correct_words);
+    }
+
     // DB保存・XP加算
     const prevProfile = await Storage.getProfile();
     const prevLvInfo  = WordData.calcUserLevel(prevProfile.totalXp);
@@ -465,13 +557,23 @@ function _updateSoundButtons() {
     const wrongSection = $("wrong-answers-section");
     const wrongList    = $("wrong-list");
     if (res.wrong.length > 0) {
-      wrongList.innerHTML = res.wrong.map(w => `
-        <div class="wrong-item">
-          <span class="wrong-word">${w.word}</span>
-          <span class="wrong-meaning">${w.meaning}</span>
-          <span class="wrong-etymology">${w.etymology}</span>
-        </div>
-      `).join("");
+      wrongList.innerHTML = res.wrong.map(w => {
+        const re = new RegExp(`(${w.word})`, "gi");
+        const exHtml = w.example
+          ? `<div class="wrong-example">
+               <span class="wrong-example-en">${w.example.replace(re, `<span class="example-highlight">$1</span>`)}</span>
+               <span class="wrong-example-ja">${w.exampleJa}</span>
+             </div>`
+          : "";
+        return `
+          <div class="wrong-item">
+            <span class="wrong-word">${w.word}</span>
+            ${w.pos ? `<span class="wrong-pos">${w.pos}</span>` : ""}
+            <span class="wrong-meaning">${w.meaning}</span>
+            <span class="wrong-etymology">${w.etymology}</span>
+            ${exHtml}
+          </div>`;
+      }).join("");
       wrongSection.style.display = "block";
     } else {
       wrongSection.style.display = "none";
@@ -479,11 +581,14 @@ function _updateSoundButtons() {
 
     // ボタン
     $("btn-retry").onclick = () => {
-      if (res.mode && res.affixKey) {
+      if (res.mode && res.affixKey && res.mode !== "weak") {
         const label = res.mode === "prefix"
           ? WordData.getPrefixInfo(res.affixKey).label
           : WordData.getSuffixInfo(res.affixKey).label;
         startQuiz(res.mode, res.affixKey, label);
+      } else {
+        // 苦手克服モードの再挑戦
+        startWeakModeQuiz();
       }
     };
     $("btn-home-from-result").onclick = () => {

@@ -265,7 +265,13 @@ const WordData = (function(){
     _byRoot = {};
     _byCategory = {};
     const raw = window.WORD_DATA_RAW || [];
+    const examples = window.WORD_EXAMPLES || {};
     for (const w of raw) {
+      // 用例データをマージ
+      if (examples[w.word]) {
+        w.example   = examples[w.word].example;
+        w.exampleJa = examples[w.word].exampleJa;
+      }
       if (w.prefix) {
         if (!_byPrefix[w.prefix]) _byPrefix[w.prefix] = [];
         _byPrefix[w.prefix].push(w);

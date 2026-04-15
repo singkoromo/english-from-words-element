@@ -1230,6 +1230,316 @@
         { phrase: "conceive a plan",       desc: "計画を立案する" },
         { phrase: "immaculately conceived", desc: "無原罪の御宿り（宗教用語）" }
       ]
+    },
+
+    // ── dicere / dictus系 ─────────────────────────────────────────────────────
+    "predict": {
+      origin: "ラテン語 praedicere（前もって言う）< prae-（前に）+ dicere（言う）。dicere は印欧語根 *deik-（指し示す）に由来し、indicate（指し示す）・diction（言い回し）とも同根。「起こる前に言い当てる」が原義で、科学的予測から日常的な「見当をつける」まで幅広く使われる。\n\npredictable（予測可能な）の反意語 unpredictable は「次の手が読めないほど変化が激しい」ことを強調する際によく使われる。predict the weather（天気を予測する）は気象学の基本動詞。",
+      derivatives: [
+        { word: "prediction",    desc: "予測・予言（名詞）" },
+        { word: "predictable",   desc: "予測可能な（形容詞）" },
+        { word: "unpredictable", desc: "予測不可能な（形容詞）" },
+        { word: "predictably",   desc: "案の定・予測通りに（副詞）" }
+      ],
+      family: [
+        { word: "contradict", desc: "矛盾する（contra-: 逆のことを言う）" },
+        { word: "indicate",   desc: "示す（in-: 〜を指し示す）" },
+        { word: "dictate",    desc: "命令する・口述する（dicere 強意形）" },
+        { word: "verdict",    desc: "評決（vere+dictum: 真実の言葉）" },
+        { word: "diction",    desc: "言い回し・話し方（dicere の名詞）" },
+        { word: "dedicate",   desc: "捧げる・専念する（de+dicare）" }
+      ],
+      compounds: [
+        { phrase: "predict the future",  desc: "未来を予測する" },
+        { phrase: "weather prediction",  desc: "天気予報" },
+        { phrase: "beyond prediction",   desc: "予測の範囲を超えて" }
+      ]
+    },
+
+    "contradict": {
+      origin: "ラテン語 contradicere（逆のことを言う）< contra-（反対に・逆に）+ dicere（言う）。「相手の言葉に正反対の言葉を向ける」が原義で、「矛盾する・否定する」に使われる。\n\ncontradiction in terms（言葉の矛盾）は「それ自体が自己矛盾した表現」を指す成句で、"a deafening silence"（耳をつんざく沈黙）のような矛盾語法（oxymoron）を指す場合にも使われる。self-contradiction（自己矛盾）もよく使われる。",
+      derivatives: [
+        { word: "contradiction",   desc: "矛盾・否定（名詞）" },
+        { word: "contradictory",   desc: "矛盾する・相反する（形容詞）" },
+        { word: "contradictorily", desc: "矛盾して（副詞）" }
+      ],
+      family: [
+        { word: "predict",  desc: "予測する（prae-: 前もって言う）" },
+        { word: "indicate", desc: "示す（in-: 〜を指し示す）" },
+        { word: "dictate",  desc: "命令する・口述する" },
+        { word: "verdict",  desc: "評決（真実の言葉）" },
+        { word: "diction",  desc: "言い回し・話し方" }
+      ],
+      compounds: [
+        { phrase: "contradict oneself",      desc: "自己矛盾する" },
+        { phrase: "contradiction in terms",  desc: "言葉の矛盾・矛盾語法" },
+        { phrase: "self-contradiction",      desc: "自己矛盾" }
+      ]
+    },
+
+    "indicate": {
+      origin: "ラテン語 indicāre（指し示す・告知する）< in-（〜に向けて）+ dicāre（指定する）< dicere（言う）の派生形。「指で方向を示して言う」が原義で、「示す・表示する・示唆する・（医療上）適応がある」全般に使われる。\n\nindicator（指標・指示器・ウインカー）は「示すもの」。indication（兆候・証拠）は医療でも "There is no indication of infection."（感染の兆候はない）のように使われる。",
+      derivatives: [
+        { word: "indication",  desc: "兆候・証拠・指示（名詞）" },
+        { word: "indicator",   desc: "指標・指示器・ウインカー（名詞）" },
+        { word: "indicative",  desc: "示す・（文法）直説法の（形容詞）" }
+      ],
+      family: [
+        { word: "predict",    desc: "予測する（prae-: 前もって言う）" },
+        { word: "contradict", desc: "矛盾する（contra-: 逆のことを言う）" },
+        { word: "dictate",    desc: "命令する・口述する" },
+        { word: "verdict",    desc: "評決（真実の言葉）" },
+        { word: "dedicate",   desc: "捧げる（de+dicare）" },
+        { word: "index",      desc: "索引・指数（indicāre と同根）" }
+      ],
+      compounds: [
+        { phrase: "indicate a direction", desc: "方向を示す" },
+        { phrase: "economic indicator",   desc: "経済指標" },
+        { phrase: "turn indicator",       desc: "方向指示器・ウインカー" }
+      ]
+    },
+
+    "dictate": {
+      origin: "ラテン語 dictāre（繰り返し言う・命令する）< dicere（言う）の強意・反復形。「はっきりと繰り返し言う」→「書き取らせる口述」と「絶対的な命令」の両義を持つ。\n\n名詞 dictate は「命令・要求」で、the dictates of conscience（良心の命令）のように哲学的文脈でも使われる。dictator（独裁者）は「言葉が絶対的に従われる者」で、dictatorship（独裁政治）はその体制を指す。",
+      derivatives: [
+        { word: "dictation",    desc: "口述・書き取り・ディクテーション（名詞）" },
+        { word: "dictator",     desc: "独裁者（名詞）" },
+        { word: "dictatorship", desc: "独裁政治・独裁政権（名詞）" },
+        { word: "dictatorial",  desc: "独裁的な・横柄な（形容詞）" }
+      ],
+      family: [
+        { word: "predict",    desc: "予測する（prae-: 前もって言う）" },
+        { word: "contradict", desc: "矛盾する（contra-: 逆のことを言う）" },
+        { word: "indicate",   desc: "示す（in-: 〜を指し示す）" },
+        { word: "verdict",    desc: "評決（真実の言葉）" },
+        { word: "addict",     desc: "中毒者（ad+dicere: 〜に言い渡された）" },
+        { word: "diction",    desc: "言い回し・話し方" }
+      ],
+      compounds: [
+        { phrase: "dictate to",     desc: "〜に命令する・〜に書き取らせる" },
+        { phrase: "dictate terms",  desc: "条件を一方的に押しつける" },
+        { phrase: "take dictation", desc: "口述を書き取る" }
+      ]
+    },
+
+    "verdict": {
+      origin: "中世ラテン語 veredictum（真実の言葉）< ラテン語 vērus（真実の）+ dictum（言われたこと）< dicere（言う）。「陪審員が真実として言い渡したこと」が原義で、法廷用語として「評決・裁定」を意味する。\n\nvērus（真実の）は verify（確認する）・very（まさに）とも同根。法廷外でも「the verdict of history（歴史の審判）」「the popular verdict（世論の審判）」のように「最終的な判断」を指す表現に転用される。",
+      derivatives: [
+        { word: "veredict", desc: "（古語）= verdict" }
+      ],
+      family: [
+        { word: "predict",    desc: "予測する（prae-: 前もって言う）" },
+        { word: "contradict", desc: "矛盾する（contra-: 逆のことを言う）" },
+        { word: "indicate",   desc: "示す（in-: 〜を指し示す）" },
+        { word: "dictate",    desc: "命令する・口述する" },
+        { word: "verify",     desc: "確認する（vērus: 真実の）" },
+        { word: "diction",    desc: "言い回し・話し方" }
+      ],
+      compounds: [
+        { phrase: "reach a verdict",        desc: "評決に至る" },
+        { phrase: "not guilty verdict",     desc: "無罪評決" },
+        { phrase: "the verdict of history", desc: "歴史の審判" }
+      ]
+    },
+
+    // ── scribere / scriptus系 ─────────────────────────────────────────────────
+    "subscribe": {
+      origin: "ラテン語 subscribere（下に書く）< sub-（下に）+ scribere（書く）。古来、契約書・嘆願書の「下部に署名する」行為を指した。署名することで同意・支持を示すことから「定期購読する・サービスに加入する・賛同する」に広がった。\n\nsubscription（購読料・定期契約）は今日のサブスクリプションサービスのベース概念。subscript（下付き文字）は数式の H₂O の「2」のように、文字の「下に書かれた」ものを指す。",
+      derivatives: [
+        { word: "subscription", desc: "定期購読・サブスクリプション（名詞）" },
+        { word: "subscriber",   desc: "購読者・加入者（名詞）" },
+        { word: "subscript",    desc: "下付き文字（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "prescribe",   desc: "処方する（prae-: 前もって書く）" },
+        { word: "manuscript",  desc: "手稿・原稿（manus+scriptus: 手で書かれた）" },
+        { word: "transcript",  desc: "文字起こし（trans-: 書き写す）" },
+        { word: "describe",    desc: "描写する（de-: 書き記す）" },
+        { word: "inscribe",    desc: "刻み込む（in-: 中に書く）" },
+        { word: "scripture",   desc: "聖典・聖書（scribere の名詞）" }
+      ],
+      compounds: [
+        { phrase: "subscribe to",          desc: "〜を購読する・〜に賛同する" },
+        { phrase: "monthly subscription",  desc: "月額サブスクリプション" },
+        { phrase: "email subscriber",      desc: "メール登録者" }
+      ]
+    },
+
+    "prescribe": {
+      origin: "ラテン語 praescribere（前もって書く・あらかじめ定める）< prae-（前に・先に）+ scribere（書く）。「医師が処方箋に前もって薬名を書く」行為から「処方する」の医療用語として定着した。\n\nprescription（処方箋）と over-the-counter（処方箋不要）は対になる概念。規則・手順を「前もって書いて定める」意味でも使われる（prescribed procedure: 規定の手順）。prescriptive（規範的な）は linguistics（言語学）で記述的 descriptive と対比される重要概念。",
+      derivatives: [
+        { word: "prescription",  desc: "処方箋・処方薬・規定（名詞）" },
+        { word: "prescribed",    desc: "規定の・処方された（形容詞）" },
+        { word: "prescriptive",  desc: "規範的な（形容詞）" }
+      ],
+      family: [
+        { word: "subscribe",  desc: "定期購読する（sub-: 下に書く）" },
+        { word: "manuscript", desc: "手稿・原稿（手で書かれた）" },
+        { word: "transcript", desc: "文字起こし（trans-: 書き写す）" },
+        { word: "describe",   desc: "描写する（de-: 書き記す）" },
+        { word: "inscribe",   desc: "刻み込む（in-: 中に書く）" }
+      ],
+      compounds: [
+        { phrase: "prescribe medication", desc: "薬を処方する" },
+        { phrase: "prescription drug",    desc: "処方薬" },
+        { phrase: "as prescribed",        desc: "規定通りに・処方通りに" }
+      ]
+    },
+
+    "manuscript": {
+      origin: "中世ラテン語 manuscriptus（手で書かれた）< manus（手）+ scriptus（書かれた）< scribere（書く）の完了分詞。印刷術発明（15世紀）以前、すべての書物は職人が手書きで複写した写本（manuscript）だった。manus は manual（手動の）・manufacture（製造）・manicure（爪の手入れ）にも含まれる。\n\n現代では出版・投稿前の「原稿」を指す。manuscript submission（原稿投稿）は学術・文学の場で使われる。また中世写本は羊皮紙に書かれ、図書館で貴重資料として保存されている。",
+      derivatives: [
+        { word: "script",      desc: "台本・筆記体（scriptus 由来）" },
+        { word: "scripture",   desc: "聖典・聖書（scribere の名詞）" }
+      ],
+      family: [
+        { word: "subscribe",  desc: "購読する（sub-: 下に書く）" },
+        { word: "prescribe",  desc: "処方する（prae-: 前もって書く）" },
+        { word: "transcript", desc: "文字起こし・成績証明書（書き写す）" },
+        { word: "describe",   desc: "描写する（de-: 書き記す）" },
+        { word: "manual",     desc: "手動の（manus: 手）" },
+        { word: "manufacture", desc: "製造する（manus+facere: 手で作る）" }
+      ],
+      compounds: [
+        { phrase: "submit a manuscript",   desc: "原稿を投稿する" },
+        { phrase: "medieval manuscript",   desc: "中世写本" },
+        { phrase: "manuscript review",     desc: "査読（学術出版）" }
+      ]
+    },
+
+    "transcript": {
+      origin: "ラテン語 transcriptum（書き写したもの）< trans-（向こう側へ・別の形に）+ scribere（書く）の完了分詞。「音声・会話・映像の内容を文字として書き写す」行為を指す。\n\n大学の「成績証明書（transcript）」は学業履歴を紙に「書き写したもの」。transcribe（文字起こしする）は動詞形。transcription（転写・翻字）は音楽（楽譜の編曲）・言語学（音声の記号化）・生物学（DNA→RNAの転写）でも使われる。",
+      derivatives: [
+        { word: "transcribe",      desc: "文字起こしする・転写する（動詞）" },
+        { word: "transcription",   desc: "文字起こし・転写・翻字（名詞）" },
+        { word: "transcriptionist", desc: "文字起こし業者（名詞）" }
+      ],
+      family: [
+        { word: "subscribe",  desc: "購読する（sub-: 下に書く）" },
+        { word: "prescribe",  desc: "処方する（prae-: 前もって書く）" },
+        { word: "manuscript", desc: "手稿・原稿（手で書かれた）" },
+        { word: "describe",   desc: "描写する（de-: 書き記す）" },
+        { word: "inscribe",   desc: "刻み込む（in-: 中に書く）" },
+        { word: "transport",  desc: "輸送する（trans-: 向こう側へ）" }
+      ],
+      compounds: [
+        { phrase: "official transcript",     desc: "公式成績証明書" },
+        { phrase: "transcript of a speech",  desc: "演説の書き起こし" },
+        { phrase: "court transcript",        desc: "法廷記録" }
+      ]
+    },
+
+    // ── ferre / latum系 ──────────────────────────────────────────────────────
+    "refer": {
+      origin: "ラテン語 referre（持ち帰る・言及する）< re-（戻って）+ ferre（運ぶ・持つ）。ferre は印欧語根 *bher-（運ぶ）に由来し、英語の bear（耐える・産む）とも深く同根。「元の情報へ持ち帰る」→「参照する・言及する・委ねる」に展開した。\n\nreferee（審判）は「判断を委ねられた人」。reference（参考文献・推薦状）は「参照されるもの」。referendum（国民投票）は「民に戻して決めさせるもの」で、re-ferre の直接の名詞形。",
+      derivatives: [
+        { word: "reference",  desc: "参照・参考文献・推薦状（名詞）" },
+        { word: "referral",   desc: "紹介・紹介状・委託（名詞）" },
+        { word: "referee",    desc: "審判・査読者（名詞）" },
+        { word: "referendum", desc: "国民投票（名詞）" }
+      ],
+      family: [
+        { word: "offer",    desc: "申し出る（ob-: 〜に向けて持つ）" },
+        { word: "suffer",   desc: "苦しむ（sub-: 下から耐えて持つ）" },
+        { word: "infer",    desc: "推論する（in-: 中へ導く）" },
+        { word: "differ",   desc: "異なる（dis-: 別方向へ持つ）" },
+        { word: "transfer", desc: "移転する（trans-: 向こうへ運ぶ）" },
+        { word: "prefer",   desc: "好む（pre-: 先に持ち出す）" },
+        { word: "confer",   desc: "協議する・授与する（con-: 共に持ち寄る）" }
+      ],
+      compounds: [
+        { phrase: "refer to",           desc: "〜を参照する・〜に言及する" },
+        { phrase: "with reference to",  desc: "〜に関して（書き言葉）" },
+        { phrase: "letter of reference", desc: "推薦状" }
+      ]
+    },
+
+    "offer": {
+      origin: "ラテン語 offerre（〜に向けて持ってくる・差し出す）< ob-（〜に向けて）+ ferre（運ぶ・持つ）。「相手の方へ物を運んでくる」→「申し出る・提供する・奉納する」に発展した。古英語には offrian（神に捧げる）として早くから入り、宗教的な献納から商業的な提供まで広がった。\n\noffer は名詞・動詞両用で、job offer（内定）、make an offer（申し出る）、on offer（販売中・提供中）は頻出表現。",
+      derivatives: [
+        { word: "offering",   desc: "供え物・贈り物・申し出（名詞）" },
+        { word: "offertory",  desc: "（宗教）献金・奉納（名詞）" }
+      ],
+      family: [
+        { word: "refer",    desc: "参照する（re-: 持ち帰る）" },
+        { word: "suffer",   desc: "苦しむ（sub-: 下から耐えて持つ）" },
+        { word: "infer",    desc: "推論する（in-: 中へ導く）" },
+        { word: "differ",   desc: "異なる（dis-: 別方向へ持つ）" },
+        { word: "transfer", desc: "移転する（trans-: 向こうへ運ぶ）" },
+        { word: "confer",   desc: "協議する・授与する（con-: 共に）" }
+      ],
+      compounds: [
+        { phrase: "job offer",       desc: "内定・求人オファー" },
+        { phrase: "make an offer",   desc: "申し出る・値段を提示する" },
+        { phrase: "on offer",        desc: "販売中・提供中・特価で" }
+      ]
+    },
+
+    "suffer": {
+      origin: "ラテン語 sufferre（下から耐えて運ぶ）< sub-（下から・耐えて）+ ferre（運ぶ・持つ）。「重い荷を下から支えて持ちこたえる」が原義で、「苦難を耐える・苦しむ・（損害を）被る」に特化した。\n\nsuffer from（〜に苦しむ）は病気・問題について広く使われる重要表現。insufferable（耐えられないほど不愉快な）は強い否定形。"He doesn't suffer fools gladly."（愚か者を容赦しない）は慣用句として使われる。",
+      derivatives: [
+        { word: "suffering",     desc: "苦しみ・苦難（名詞）" },
+        { word: "sufferer",      desc: "患者・被害者・苦しむ人（名詞）" },
+        { word: "insufferable",  desc: "耐えられないほど不愉快な（形容詞）" }
+      ],
+      family: [
+        { word: "refer",    desc: "参照する（re-: 持ち帰る）" },
+        { word: "offer",    desc: "申し出る（ob-: 向けて持つ）" },
+        { word: "infer",    desc: "推論する（in-: 中へ導く）" },
+        { word: "differ",   desc: "異なる（dis-: 別方向へ持つ）" },
+        { word: "transfer", desc: "移転する（trans-: 向こうへ運ぶ）" }
+      ],
+      compounds: [
+        { phrase: "suffer from",         desc: "〜に苦しむ・〜を患っている" },
+        { phrase: "suffer consequences", desc: "結果を被る" },
+        { phrase: "suffer in silence",   desc: "黙って苦しむ" }
+      ]
+    },
+
+    "infer": {
+      origin: "ラテン語 inferre（中へ運び込む・論理的に導く）< in-（中へ）+ ferre（運ぶ・持つ）。「前提という素材を論理の中へ運び込んで結論を導く」が原義で、「推論する・推察する」に特化した学術的な動詞。\n\nimply（暗示する）としばしば混同されるが、infer は「受け手が推論する」行為、imply は「送り手が示唆する」行為という使い分けが正しい。inference engine（推論エンジン）はAI・論理プログラミングの基盤概念。",
+      derivatives: [
+        { word: "inference",    desc: "推論・推察（名詞）" },
+        { word: "inferential",  desc: "推論的な（形容詞）" },
+        { word: "inferable",    desc: "推論可能な（形容詞）" }
+      ],
+      family: [
+        { word: "refer",    desc: "参照する（re-: 持ち帰る）" },
+        { word: "offer",    desc: "申し出る（ob-: 向けて持つ）" },
+        { word: "suffer",   desc: "苦しむ（sub-: 下から耐えて）" },
+        { word: "differ",   desc: "異なる（dis-: 別方向へ持つ）" },
+        { word: "transfer", desc: "移転する（trans-: 向こうへ運ぶ）" },
+        { word: "prefer",   desc: "好む（pre-: 先に持ち出す）" }
+      ],
+      compounds: [
+        { phrase: "infer from",         desc: "〜から推論する" },
+        { phrase: "logical inference",  desc: "論理的推論" },
+        { phrase: "inference engine",   desc: "推論エンジン（AI用語）" }
+      ]
+    },
+
+    "differ": {
+      origin: "ラテン語 differre（バラバラな方向へ運ぶ・引き延ばす）< dis-（バラバラに）+ ferre（運ぶ）。「それぞれ別の方向へ持っていく」→「異なる・差異がある」に。dis- には「分散」と「遅延」の両義があり、defer（延期する）はこの遅延義を引き継いだ同根語。\n\ndifference（差異）・different（異なる）・differential（差動の・微分の）と語族が豊富。agree to differ（意見の相違を認めて折り合う）は重要な慣用句。",
+      derivatives: [
+        { word: "difference",     desc: "差異・違い（名詞）" },
+        { word: "different",      desc: "異なる（形容詞）" },
+        { word: "differently",    desc: "異なって（副詞）" },
+        { word: "differential",   desc: "差動の・微分の（形容詞・名詞）" },
+        { word: "differentiate",  desc: "区別する・微分する（動詞）" }
+      ],
+      family: [
+        { word: "refer",    desc: "参照する（re-: 持ち帰る）" },
+        { word: "offer",    desc: "申し出る（ob-: 向けて持つ）" },
+        { word: "suffer",   desc: "苦しむ（sub-: 下から耐えて）" },
+        { word: "infer",    desc: "推論する（in-: 中へ導く）" },
+        { word: "defer",    desc: "延期する・従う（dis-: 引き延ばす）" },
+        { word: "transfer", desc: "移転する（trans-: 向こうへ運ぶ）" }
+      ],
+      compounds: [
+        { phrase: "differ from",    desc: "〜と異なる" },
+        { phrase: "agree to differ", desc: "意見の相違を認めて折り合う" },
+        { phrase: "make a difference", desc: "違いをもたらす・重要である" }
+      ]
     }
 
   };

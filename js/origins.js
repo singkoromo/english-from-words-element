@@ -20388,6 +20388,514 @@
         { phrase: "deploy software",      desc: "ソフトウェアを展開する" },
         { phrase: "deploy resources",     desc: "資源を投入する" }
       ]
+    },
+
+    "employ": {
+      origin: "フランス語 employer（使う・雇う）< ラテン語 implicare（巻き込む・従事させる）< im-（中に）+ plicare（折る）。「雇用する・使用する」が原義。apply（適用する）・deploy（展開する）・imply（示唆する）と同根の plicare を共有し、「仕事の中に巻き込む・従事させる」というイメージを持つ。\n\n英語には15世紀に採用され、「労働力・技術・手段を使う」の意味で定着。経済・労働・日常語で employ staff（スタッフを雇う）・employ a strategy（戦略を使う）のように「雇用する」と「手段として使う」の二義で機能する基本動詞として幅広く使われる。\n\n現代英語では self-employed（自営業の）・full-time employment（正規雇用）のような労働市場用語と、employ various techniques（様々な技術を活用する）という「使用する」の意味が並立して日常・ビジネスで頻用される。",
+      derivatives: [
+        { word: "employee",    desc: "従業員（名詞）" },
+        { word: "employer",    desc: "雇用者・使用者（名詞）" },
+        { word: "employment",  desc: "雇用・就業（名詞）" }
+      ],
+      family: [
+        { word: "deploy",   desc: "展開する（dis+plicare）" },
+        { word: "apply",    desc: "適用する（ad+plicare）" },
+        { word: "imply",    desc: "示唆する（im+plicare）" }
+      ],
+      compounds: [
+        { phrase: "self-employed",       desc: "自営業の" },
+        { phrase: "full-time employment", desc: "正規雇用" },
+        { phrase: "employ a strategy",   desc: "戦略を使う" }
+      ]
+    },
+
+    "complicate": {
+      origin: "ラテン語 complicare（共に折り重ねる）< com-（共に）+ plicare（折る）+ -ate（動詞接尾辞）。「複雑にする・こじらせる」が原義。apply（適用する）・imply（示唆する）・duplicate（複製する）と同根の plicare を共有し、「多くの層を折り重ねて絡み合わせる」というイメージを持つ。\n\n英語には17世紀に採用され、「シンプルなものを入り組んだものにする」の意味で定着。日常語・医学・法律で complicate matters（事態を複雑にする）・complicate a procedure（手順をこじらせる）のように「元来の単純さを失わせる」行為を示す動詞として機能する。\n\n現代英語では complicate things（物事を複雑にする）・unnecessarily complicated（不必要に複雑な）のように日常会話で頻用され、医学では complication（合併症）という派生語が「治療・手術後の副次的問題」を指す不可欠な専門語として機能する。",
+      derivatives: [
+        { word: "complication",    desc: "複雑化・合併症（名詞）" },
+        { word: "complicated",     desc: "複雑な・こじれた（形容詞）" },
+        { word: "uncomplicated",   desc: "単純な・複雑でない（形容詞）" }
+      ],
+      family: [
+        { word: "duplicate",  desc: "複製する（duo+plicare）" },
+        { word: "replicate",  desc: "繰り返す（re+plicare）" },
+        { word: "imply",      desc: "示唆する（im+plicare）" }
+      ],
+      compounds: [
+        { phrase: "medical complication", desc: "医療合併症" },
+        { phrase: "complicate matters",   desc: "事態を複雑にする" },
+        { phrase: "overly complicated",   desc: "過度に複雑な" }
+      ]
+    },
+
+    "session": {
+      origin: "ラテン語 sessio（座ること・会合）< sedere（座る）+ -ion（名詞接尾辞）。「会議・セッション・授業時間」が原義。sedentary（座りがちな）・reside（居住する）・president（大統領）と同根の sedere を共有し、「特定の目的のために人々が座り集まる」というイメージを持つ。\n\n英語には14世紀に採用され、「裁判・議会・委員会が審議のため集まること・その期間」の意味で定着。法律・政治・教育で parliamentary session（議会会期）・therapy session（セラピーセッション）・recording session（レコーディングセッション）のように様々な「集まりの時間」を指す汎用語として機能する。\n\n現代英語では training session（トレーニングセッション）・Q&A session（質疑応答の時間）・login session（ログインセッション）のようにスポーツ・教育・IT の三分野で広く使われ、computing では「ユーザーがシステムと接続している時間単位」という重要技術語としても機能する。",
+      derivatives: [
+        { word: "sessional",  desc: "会期の・セッションの（形容詞）" }
+      ],
+      family: [
+        { word: "sedentary",  desc: "座りがちな（sedere）" },
+        { word: "reside",     desc: "居住する（re+sedere）" },
+        { word: "president",  desc: "大統領・議長（prae+sedere）" }
+      ],
+      compounds: [
+        { phrase: "parliamentary session",  desc: "議会会期" },
+        { phrase: "therapy session",        desc: "セラピーセッション" },
+        { phrase: "login session",          desc: "ログインセッション（IT）" }
+      ]
+    },
+
+    "sedentary": {
+      origin: "ラテン語 sedentarius（座っている）< sedere（座る）+ -ary（形容詞接尾辞）。「座りがちな・定住性の・活動量が少ない」が原義。session（会合）・reside（居住する）・president（大統領）・settle（定住する）と同根の sedere を共有する。\n\n英語には17世紀に採用され、「あまり動かない・定住的な」の意味で定着。生物学では「定住性の（移住しない）」種を指し、現代医学では sedentary lifestyle（座りがちなライフスタイル）が健康問題の主因として頻繁に言及される重要語となっている。\n\n現代英語では sedentary work（デスクワーク）・sedentary behavior（座位行動）・sedentary job（座り仕事）のように公衆衛生・職業医学・健康増進の文脈で特に重要性が増しており、「身体活動の欠如が健康に及ぼすリスク」を示す代表語として機能する。",
+      derivatives: [
+        { word: "sedentariness",  desc: "座りがちな状態（名詞）" }
+      ],
+      family: [
+        { word: "session",   desc: "会合・セッション（sedere）" },
+        { word: "reside",    desc: "居住する（re+sedere）" },
+        { word: "settle",    desc: "定住する・解決する（sedere）" }
+      ],
+      compounds: [
+        { phrase: "sedentary lifestyle",  desc: "座りがちなライフスタイル" },
+        { phrase: "sedentary work",       desc: "デスクワーク" },
+        { phrase: "sedentary behavior",   desc: "座位行動" }
+      ]
+    },
+
+    "reside": {
+      origin: "ラテン語 residere（留まって座る・定住する）< re-（後に・留まって）+ sedere（座る）。「居住する・（性質・権限が）〜に存する」が原義。session（会合）・sedentary（座りがちな）・president（大統領）・settle（定住する）と同根の sedere を共有する。\n\n英語には15世紀に採用され、「ある場所を恒常的な住居とする」の意味で定着。法律・行政で reside in…（〜に居住する）・resident status（居住資格）・residence permit（居住許可）のように「居住の事実・権利」を示す重要語として機能する。\n\n現代英語では reside in a country（ある国に居住する）・power resides in…（権力は〜に存する）という法律・政治の定型表現と、the problem resides in…（問題は〜にある）という「存在・所在」を示す比喩的用法も広く使われる。",
+      derivatives: [
+        { word: "resident",   desc: "居住者・住民（名詞・形容詞）" },
+        { word: "residence",  desc: "居住地・邸宅（名詞）" },
+        { word: "residential", desc: "住宅の・居住用の（形容詞）" }
+      ],
+      family: [
+        { word: "session",    desc: "会合（sedere）" },
+        { word: "sedentary",  desc: "座りがちな（sedere）" },
+        { word: "president",  desc: "大統領（prae+sedere）" }
+      ],
+      compounds: [
+        { phrase: "reside in a country",  desc: "ある国に居住する" },
+        { phrase: "residence permit",     desc: "居住許可" },
+        { phrase: "residential area",     desc: "住宅地" }
+      ]
+    },
+
+    "president": {
+      origin: "ラテン語 praesidens（前に座る者・議長）< prae-（前に）+ sedere（座る）+ -ent（名詞・形容詞接尾辞）。「座長・大統領・学長」が原義。session（会合）・reside（居住する）・sedentary（座りがちな）と同根の sedere を共有し、「全員の前に座って指導する」というイメージを持つ。\n\n英語には14世紀に「会議の議長」として採用され、17世紀に「国家元首」という意味で定着。政治・教育・ビジネスで President of the United States（米国大統領）・president of the company（会社の社長）・university president（大学学長）のように様々な組織の最高責任者を指す語として機能する。\n\n現代英語では presidential election（大統領選挙）・vice president（副大統領・副社長）・president-elect（次期大統領）のような政治・企業語彙の核心語として機能し、アメリカ英語では CEO より president の称号が正式とされる場合も多い。",
+      derivatives: [
+        { word: "presidential",   desc: "大統領の・社長の（形容詞）" },
+        { word: "presidency",     desc: "大統領職・任期（名詞）" },
+        { word: "vice president", desc: "副大統領・副社長（名詞）" }
+      ],
+      family: [
+        { word: "reside",    desc: "居住する（re+sedere）" },
+        { word: "session",   desc: "会合（sedere）" },
+        { word: "sedentary", desc: "座りがちな（sedere）" }
+      ],
+      compounds: [
+        { phrase: "presidential election",  desc: "大統領選挙" },
+        { phrase: "vice president",         desc: "副大統領・副社長" },
+        { phrase: "president-elect",        desc: "次期大統領" }
+      ]
+    },
+
+    "happiness": {
+      origin: "古ノルド語 happ（運・幸運）+ -y（形容詞接尾辞）+ -ness（名詞接尾辞）。「幸福・幸せな状態」が原義。happy（幸せな）・happen（起こる）・haphazard（でたらめな）と同根の happ を共有し、もとは「運がよい状態」を指した語が「主観的な満足感・喜び」へと意味が発展した。\n\n英語には14世紀に採用され、「幸せな感情状態」の意味で定着。哲学・心理学・日常語で pursuit of happiness（幸福の追求）・happiness index（幸福度指数）のように人間の根本的な目標を示す語として機能し、米国独立宣言の「Life, Liberty and the pursuit of Happiness」により英語圏で特別な地位を得た語でもある。\n\n現代英語では happiness research（幸福研究）・workplace happiness（職場の幸福感）・gross national happiness（国民総幸福量）のように政策・経済・心理学の分野で「測定・増進すべき社会的指標」として広く研究・活用される語となっている。",
+      derivatives: [
+        { word: "happy",      desc: "幸せな（形容詞）" },
+        { word: "happily",    desc: "幸せに（副詞）" },
+        { word: "unhappiness", desc: "不幸（否定形）" }
+      ],
+      family: [
+        { word: "happen",    desc: "起こる（happ由来）" },
+        { word: "haphazard", desc: "でたらめな（happ+hazard）" },
+        { word: "mishap",    desc: "不運・事故（mis+happ）" }
+      ],
+      compounds: [
+        { phrase: "pursuit of happiness",    desc: "幸福の追求" },
+        { phrase: "happiness index",         desc: "幸福度指数" },
+        { phrase: "gross national happiness", desc: "国民総幸福量" }
+      ]
+    },
+
+    "kindness": {
+      origin: "古英語 gecynde（生まれ持った性質）< cynn（親族・種類）+ -ness（名詞接尾辞）。「親切・思いやり」が原義。kind（親切な・種類）・kin（親族）・kindergarten（幼稚園）と同根で、もとは「自分の種族・仲間に示す生まれ持った親しみ」を意味した語が、より普遍的な「他者への思いやり」へと意味が拡大した。\n\n英語には13世紀に採用され、「他者の利益を考えた親切な行為・資質」の意味で定着。倫理学・日常語・ポジティブ心理学で act of kindness（親切な行為）・kindness matters（親切は大切）のように「徳の根本的な表れ」として機能する語となっている。\n\n現代英語では random act of kindness（ランダムな親切行為、見知らぬ人への無償の親切）・kindness culture（親切を重視する文化）のように社会運動・組織文化でも使われ、「人間の道徳的本性の発露」を示す語として哲学・宗教・心理学で普遍的に重要視される。",
+      derivatives: [
+        { word: "kind",       desc: "親切な・種類（形容詞・名詞）" },
+        { word: "unkindness", desc: "不親切（否定形）" },
+        { word: "kindly",     desc: "親切に・どうか（副詞）" }
+      ],
+      family: [
+        { word: "kin",         desc: "親族・仲間（cynn）" },
+        { word: "kindergarten", desc: "幼稚園（ドイツ語 Kind+Garten）" },
+        { word: "mankind",     desc: "人類（man+cynn）" }
+      ],
+      compounds: [
+        { phrase: "act of kindness",         desc: "親切な行為" },
+        { phrase: "random act of kindness",  desc: "見知らぬ人への無償の親切" },
+        { phrase: "kindness culture",        desc: "親切を重視する文化" }
+      ]
+    },
+
+    "friendship": {
+      origin: "古英語 freond（愛する者・友）< freon（愛する）+ -ship（状態・関係を示す名詞接尾辞）。「友情・友人関係」が原義。friend（友人）・free（自由な）と遠い語源的関連を持ち、古英語では freond は「愛する者」を広く指した。-ship は状態・技術・地位を示す生産的接尾辞で、friendship・membership・authorship などを作る。\n\n英語には古英語期から使われ、「二人以上の人間の間の相互的な好意・信頼・支援の関係」の意味で定着。心理学・社会学・日常語で form a friendship（友情を築く）・lasting friendship（長続きする友情）のように人間の社会的絆の核心語として機能する。\n\n現代英語では friendship group（友人グループ）・online friendship（オンラインの友情）・friendship circle（友達の輪）のように社会的つながりを表す語として使われ、「SNS 時代における友情の質」をめぐる社会的議論でも中心語として機能する。",
+      derivatives: [
+        { word: "friend",    desc: "友人（名詞）" },
+        { word: "friendly",  desc: "友好的な（形容詞）" },
+        { word: "unfriendly", desc: "友好的でない（否定形）" }
+      ],
+      family: [
+        { word: "membership",    desc: "会員資格（member+-ship）" },
+        { word: "fellowship",    desc: "交わり・奨学金（fellow+-ship）" },
+        { word: "relationship",  desc: "関係（relate+-ship）" }
+      ],
+      compounds: [
+        { phrase: "form a friendship",   desc: "友情を築く" },
+        { phrase: "lasting friendship",  desc: "長続きする友情" },
+        { phrase: "online friendship",   desc: "オンラインの友情" }
+      ]
+    },
+
+    "hospitality": {
+      origin: "ラテン語 hospitalitas（客を迎える資質）< hospes（客・主人）+ -ality（性質を示す名詞接尾辞）。「おもてなし・歓待」が原義。hospital（病院）・host（主人）・hostel（ホステル）・guest（客）と同根の hospes を共有し、「見知らぬ者を家に迎える文化的義務」というイメージを持つ。\n\n英語には14世紀に採用され、「客を温かく迎えもてなすこと」の意味で定着。旅行・ビジネス・文化で hospitality industry（接客業）・warm hospitality（温かいおもてなし）のように使われ、ホテル・飲食・観光業の総称として hospitality industry / sector が産業分類の標準語となっている。\n\n現代英語では corporate hospitality（企業接待）・hospitality management（ホスピタリティ・マネジメント）のようにビジネス・教育で重要語として機能し、日本語「おもてなし」との概念的対応でも注目される語となっている。",
+      derivatives: [
+        { word: "hospitable",     desc: "歓待する・もてなしのよい（形容詞）" },
+        { word: "inhospitable",   desc: "不親切な・荒涼とした（否定形）" }
+      ],
+      family: [
+        { word: "hospital",  desc: "病院（hospes）" },
+        { word: "host",      desc: "主人・司会者（hospes）" },
+        { word: "guest",     desc: "客（hospes の対語）" }
+      ],
+      compounds: [
+        { phrase: "hospitality industry",    desc: "接客業" },
+        { phrase: "corporate hospitality",   desc: "企業接待" },
+        { phrase: "warm hospitality",        desc: "温かいおもてなし" }
+      ]
+    },
+
+    "fellowship": {
+      origin: "古英語 feolaga（財産を共同で持つ者）< fé（財産・家畜）+ lag（置く）+ -ship（状態・関係）。「仲間意識・交わり・奨学金・研究員職」が原義。follow（ついていく）との語源的接点は浅く、むしろ「財を共同で持つ仲間」が「仲間・同志」へと意味発展した。\n\n英語には古英語期から使われ、中世の宗教・騎士団の「同志的絆」から、近代大学の「研究員・奨学金」まで意味が広がった。学術・宗教・日常語で fellowship award（フェローシップ奨学金）・fellowship of believers（信者の交わり）・sense of fellowship（仲間意識）のように使われる。\n\n現代英語では research fellowship（研究フェローシップ）・postdoctoral fellowship（博士研究員職）のように大学・研究機関での「給付型研究職」を指す学術語として特に重要で、宗教的文脈でも「共同体の絆」を指す語として機能する。",
+      derivatives: [
+        { word: "fellow",  desc: "仲間・研究員（名詞）" }
+      ],
+      family: [
+        { word: "friendship",    desc: "友情（friend+-ship）" },
+        { word: "membership",    desc: "会員資格（member+-ship）" },
+        { word: "scholarship",   desc: "奨学金・学識（scholar+-ship）" }
+      ],
+      compounds: [
+        { phrase: "research fellowship",      desc: "研究フェローシップ" },
+        { phrase: "fellowship award",         desc: "フェローシップ奨学金" },
+        { phrase: "sense of fellowship",      desc: "仲間意識" }
+      ]
+    },
+
+    "membership": {
+      origin: "英語 member（成員）< ラテン語 membrum（肢体・一部）+ -ship（状態・資格を示す接尾辞）。「会員資格・加入・メンバーシップ」が原義。member（メンバー）・membrane（膜）と同根の membrum を含み、「体の一部として組み込まれた状態」というイメージから「組織の一員」へと意味が発展した。\n\n英語には17世紀に採用され、「組織・クラブ・協会の成員であること・その資格」の意味で定着。ビジネス・政治・社会で membership card（会員証）・club membership（クラブ会員資格）・EU membership（EU 加盟）のように「帰属・資格・特権」を示す重要語として機能する。\n\n現代英語ではサブスクリプション経済の発展とともに membership fee（会費）・premium membership（プレミアム会員）・membership model（会員制モデル）のようなビジネスモデルを示す語として特に重要性が増しており、streaming services での membership が新たな標準語となっている。",
+      derivatives: [
+        { word: "member",    desc: "成員・メンバー（名詞）" },
+        { word: "non-member", desc: "非会員（否定形）" }
+      ],
+      family: [
+        { word: "fellowship",    desc: "仲間意識・フェローシップ（fellow+-ship）" },
+        { word: "citizenship",   desc: "市民権（citizen+-ship）" },
+        { word: "scholarship",   desc: "奨学金（scholar+-ship）" }
+      ],
+      compounds: [
+        { phrase: "membership card",    desc: "会員証" },
+        { phrase: "membership fee",     desc: "会費" },
+        { phrase: "premium membership", desc: "プレミアム会員" }
+      ]
+    },
+
+    "authorship": {
+      origin: "ラテン語 auctor（創造者・著者・権威）< augere（増やす・成長させる）+ -ship（状態・資格を示す接尾辞）。「著者であること・作者の地位」が原義。author（著者）・authority（権威）・authentic（本物の）・auction（競売）と同根の augere を共有し、「何かを作り出す・権威ある者の地位」というイメージを持つ。\n\n英語には15世紀に採用され、「ある作品の著者であること・そこに伴う権利と責任」の意味で定着。法律・出版・学術で establish authorship（著者性を確立する）・authorship dispute（著者争い）・joint authorship（共同著作）のように知的財産権の核心語として機能する。\n\n現代英語では AI 生成コンテンツの普及とともに authorship attribution（著者帰属の確認）・question of authorship（著者性の問題）が新たに重要な法律・倫理問題として浮上し、authorship の概念自体が問い直されている。",
+      derivatives: [
+        { word: "author",    desc: "著者・作家（名詞・動詞）" },
+        { word: "coauthor",  desc: "共著者（名詞）" }
+      ],
+      family: [
+        { word: "authority",   desc: "権威・当局（augere）" },
+        { word: "authentic",   desc: "本物の（augere）" },
+        { word: "augment",     desc: "増大させる（augere）" }
+      ],
+      compounds: [
+        { phrase: "joint authorship",     desc: "共同著作" },
+        { phrase: "authorship dispute",   desc: "著者争い" },
+        { phrase: "authorship attribution", desc: "著者帰属の確認" }
+      ]
+    },
+
+    "apprenticeship": {
+      origin: "古フランス語 apprendre（学ぶ・教える）< ラテン語 apprehendere（つかむ・習得する）< ad-（〜に）+ prehendere（つかむ）+ -ship（状態・期間を示す接尾辞）。「見習い期間・徒弟制度」が原義。apprehend（逮捕する・理解する）・comprehend（理解する）と同根の prehendere を含む。\n\n英語には14世紀に採用され、「親方のもとで一定期間修業し技術を習得する制度・その期間」の意味で定着。職業教育・経済・法律で serve an apprenticeship（徒弟として修業する）・apprenticeship program（見習いプログラム）のように職業訓練の重要語として機能する。\n\n現代英語ではドイツ・イギリスの職業訓練制度への注目を背景に apprenticeship scheme（見習い制度）・earn while you learn（働きながら学ぶ）というコンセプトの語として教育政策で重要性が増しており、formal apprenticeship（正式な徒弟契約）がスキル不足解消の政策ツールとして再評価されている。",
+      derivatives: [
+        { word: "apprentice",  desc: "見習い・徒弟（名詞・動詞）" }
+      ],
+      family: [
+        { word: "apprehend",   desc: "逮捕する・理解する（ad+prehendere）" },
+        { word: "comprehend",  desc: "理解する（com+prehendere）" },
+        { word: "fellowship",  desc: "研究員職（-ship共有）" }
+      ],
+      compounds: [
+        { phrase: "serve an apprenticeship",  desc: "徒弟として修業する" },
+        { phrase: "apprenticeship program",   desc: "見習いプログラム" },
+        { phrase: "formal apprenticeship",    desc: "正式な徒弟契約" }
+      ]
+    },
+
+    "parent": {
+      origin: "ラテン語 parens（生む者・親）< parere（生む・現れる）+ -ent（名詞接尾辞）。「親・保護者」が原義。apparent（明らかな）・transparent（透明な）と同根の parere を共有し、「子を生み出し現れさせる者」というイメージを持つ。\n\n英語には14世紀に採用され、「子を産んだ・育てた人・親」の意味で定着。法律・心理学・日常語で single parent（一人親）・parent company（親会社）・parental guidance（親の指導）のように使われ、生物学的な親と法的・社会的な親の両方を指す語として機能する。\n\n現代英語では parent company（親会社）・parent organization（親組織）という「管理・所有する上位組織」の意味でも頻用され、親が子どもの生活に深く関与する helicopter parent（過保護な親）・parent-teacher conference（保護者面談）のような表現でも使われる。",
+      derivatives: [
+        { word: "parental",    desc: "親の（形容詞）" },
+        { word: "parenthood",  desc: "親であること（名詞）" },
+        { word: "parenting",   desc: "子育て（名詞）" }
+      ],
+      family: [
+        { word: "apparent",     desc: "明らかな（ad+parere）" },
+        { word: "transparent",  desc: "透明な（trans+parere）" },
+        { word: "appear",       desc: "現れる（parere）" }
+      ],
+      compounds: [
+        { phrase: "single parent",           desc: "一人親" },
+        { phrase: "parent company",          desc: "親会社" },
+        { phrase: "helicopter parent",       desc: "過保護な親" }
+      ]
+    },
+
+    "parental": {
+      origin: "ラテン語 parens（親）< parere（生む）+ -al（形容詞接尾辞）。「親の・親に関する」が原義。parent（親）・apparent（明らかな）・transparent（透明な）と同根の parere を共有する。\n\n英語には17世紀に採用され、「親に固有の義務・感情・権利に関わる」の意味で定着。法律・心理学・教育で parental rights（親権）・parental leave（育児休暇）・parental guidance（親の指導）のように「親としての権利と責任」を示す形容詞として頻用される。\n\n現代英語では parental leave（育児休暇）が労働政策・ジェンダー平等の重要キーワードとして確立しており、parental control（保護者制限機能）はデジタル・メディア分野でも「未成年者のコンテンツアクセスを管理する機能」を指す IT 用語として定着している。",
+      derivatives: [
+        { word: "parentally",    desc: "親として（副詞）" },
+        { word: "non-parental",  desc: "親以外の（形容詞）" }
+      ],
+      family: [
+        { word: "parent",       desc: "親（parere）" },
+        { word: "apparent",     desc: "明らかな（ad+parere）" },
+        { word: "transparent",  desc: "透明な（trans+parere）" }
+      ],
+      compounds: [
+        { phrase: "parental rights",    desc: "親権" },
+        { phrase: "parental leave",     desc: "育児休暇" },
+        { phrase: "parental control",   desc: "保護者制限機能" }
+      ]
+    },
+
+    "thermometer": {
+      origin: "ギリシャ語 thermos（熱・温かい）+ metron（測る）+ -er（器具を示す接尾辞）。「温度計」が原義。thermal（熱の）・thermos（魔法瓶）・diameter（直径）・parameter（パラメータ）と同根の要素を共有し、「熱を測る器具」という構造的に透明な合成語。\n\n英語には17世紀、ガリレオの原型温度計の後継器具の発展とともに採用。物理学・医学・気象学で clinical thermometer（体温計）・room thermometer（室温計）のように温度測定の基本語として機能し、比喩的に「社会的熱気・感情の高まりを示す指標」としても使われる。\n\n現代英語では mercury thermometer（水銀体温計）・digital thermometer（デジタル体温計）・infrared thermometer（赤外線体温計）のように技術の進化に伴い様々な型の温度計を指す語として使われ、COVID-19 パンデミック以降は非接触式体温計の普及で日常語としての重要性が増した。",
+      derivatives: [
+        { word: "thermometric",   desc: "温度計の（形容詞）" },
+        { word: "thermometry",    desc: "温度測定法（名詞）" }
+      ],
+      family: [
+        { word: "thermal",    desc: "熱の・温熱の（thermos）" },
+        { word: "thermostat", desc: "サーモスタット（thermos+statos）" },
+        { word: "parameter",  desc: "パラメータ（para+metron）" }
+      ],
+      compounds: [
+        { phrase: "clinical thermometer",   desc: "体温計" },
+        { phrase: "digital thermometer",    desc: "デジタル体温計" },
+        { phrase: "infrared thermometer",   desc: "赤外線体温計" }
+      ]
+    },
+
+    "barometer": {
+      origin: "ギリシャ語 baros（重さ・気圧）+ metron（測る）+ -er（器具を示す接尾辞）。「気圧計・測定指標」が原義。thermometer（温度計）・diameter（直径）・parameter（パラメータ）と同根の metron を共有し、「大気の重さ＝気圧を測る器具」という構造的に透明な合成語。17世紀にトリチェリーが気圧計を発明したことで定着した語。\n\n英語には17世紀に採用され、「大気圧を測る器具」の意味で定着。後に「状況や感情の変化を敏感に反映する指標」という比喩的意味でも広く使われるようになった。経済・政治・気象学で economic barometer（経済指標）・barometer of public opinion（世論の指標）のように「変化を先読みする指標」を示す語として機能する。\n\n現代英語では confidence barometer（信頼感指標）・barometer of success（成功の指標）のように「測定・指標」という比喩的意味での使用が特に一般的で、気象予報から離れた社会的・経済的文脈での用例が際立って多い。",
+      derivatives: [
+        { word: "barometric",  desc: "気圧の・気圧計の（形容詞）" },
+        { word: "barometry",   desc: "気圧測定法（名詞）" }
+      ],
+      family: [
+        { word: "thermometer",  desc: "温度計（thermos+metron）" },
+        { word: "parameter",    desc: "パラメータ（para+metron）" },
+        { word: "diameter",     desc: "直径（dia+metron）" }
+      ],
+      compounds: [
+        { phrase: "barometric pressure",    desc: "気圧" },
+        { phrase: "economic barometer",     desc: "経済指標" },
+        { phrase: "barometer of opinion",   desc: "世論の指標" }
+      ]
+    },
+
+    "metric": {
+      origin: "ギリシャ語 metron（測る・尺度）+ -ic（形容詞接尾辞）。「測定の・メートル法の・指標」が原義。meter（メートル・測る）・diameter（直径）・parameter（パラメータ）・thermometer（温度計）と同根の metron を共有し、「測定に関わるすべて」を包括する語として機能する。\n\n英語には19世紀にメートル法の普及とともに採用され、「メートル法の・詩の韻律の」という意味で定着。20世紀後半のデータ分析・ビジネス分野の発展で key metric（主要指標）・performance metric（業績指標）という「測定可能な成果基準」の意味が加わり、現在はデジタルビジネスの核心語となっている。\n\n現代英語ではデータサイエンス・マーケティング・経営で vanity metric（見た目だけの指標）・core metric（核心指標）・metric dashboard（指標ダッシュボード）のように「数値で測定・追跡される成果」を示す語として特に重要性が増している。",
+      derivatives: [
+        { word: "metrics",    desc: "指標群・測定基準（名詞複数）" },
+        { word: "metrical",   desc: "韻律の（形容詞）" },
+        { word: "metricate",  desc: "メートル法に移行する（動詞）" }
+      ],
+      family: [
+        { word: "thermometer",  desc: "温度計（thermos+metron）" },
+        { word: "parameter",    desc: "パラメータ（para+metron）" },
+        { word: "geometry",     desc: "幾何学（ge+metron）" }
+      ],
+      compounds: [
+        { phrase: "key metric",          desc: "主要指標" },
+        { phrase: "performance metric",  desc: "業績指標" },
+        { phrase: "vanity metric",       desc: "見た目だけの指標" }
+      ]
+    },
+
+    "cacophony": {
+      origin: "ギリシャ語 kakophonia（悪い音）< kakos（悪い・劣った）+ phone（音・声）+ -y（名詞接尾辞）。「不協和音・不快な騒音」が原義。euphony（悦耳な音、eu+phone）・telephone（電話）・microphone（マイク）と同根の phone を共有し、euphony の対義語として音の「良否」を対比する語として機能する。\n\n英語には17世紀に採用され、「耳障りな・不協和音の混乱」の意味で定着。音楽・文学・日常語で cacophony of sounds（不快な音の混乱）・cacophony of voices（騒然とした声）のように「多くの不快な音が混在する状態」を表す語として機能し、美的評価と音響分析の両方で使われる。\n\n現代英語では cacophony of opinions（意見の騒然たる混乱）のように「混乱した状態」を指す比喩的使用も一般化しており、euphony との対比で音の質・美的価値を議論する際の核心語として機能する。",
+      derivatives: [
+        { word: "cacophonous",  desc: "不協和音の・耳障りな（形容詞）" }
+      ],
+      family: [
+        { word: "euphony",    desc: "悦耳な音（eu+phone）" },
+        { word: "telephone",  desc: "電話（tele+phone）" },
+        { word: "phonetic",   desc: "音声の（phone）" }
+      ],
+      compounds: [
+        { phrase: "cacophony of sounds",   desc: "不快な音の混乱" },
+        { phrase: "cacophony of voices",   desc: "騒然とした声" },
+        { phrase: "cacophony of opinions", desc: "意見の騒然たる混乱" }
+      ]
+    },
+
+    "euphony": {
+      origin: "ギリシャ語 euphonia（良い音・心地よい音）< eu-（良い・よく）+ phone（音・声）+ -y（名詞接尾辞）。「悦耳な音・音の美しさ」が原義。cacophony（不協和音、kakos+phone）・telephone（電話）・phonetic（音声の）と同根の phone を共有し、「美しく耳に快い音の質」を指す語。\n\n英語には17世紀に採用され、「言語・音楽における心地よい音の組み合わせ」の意味で定着。言語学・文学・音楽で euphony in poetry（詩における音の美しさ）・euphony of language（言語の音の美しさ）のように「音の審美性」を論じる際の核心語として機能する。\n\n現代英語では cacophony との対比で音の質を評価する学術語として使われるほか、brand naming（ブランド命名）・poetry analysis（詩の分析）でも重要語として機能し、「発音しやすく耳に心地よい語・名前」を選ぶ際の判断基準を指す語としても使われる。",
+      derivatives: [
+        { word: "euphonious",   desc: "悦耳な・音が美しい（形容詞）" },
+        { word: "euphoniously", desc: "悦耳に（副詞）" }
+      ],
+      family: [
+        { word: "cacophony",  desc: "不協和音（kakos+phone）" },
+        { word: "telephone",  desc: "電話（tele+phone）" },
+        { word: "symphony",   desc: "交響曲（syn+phone）" }
+      ],
+      compounds: [
+        { phrase: "euphony of language",  desc: "言語の音の美しさ" },
+        { phrase: "euphony in poetry",    desc: "詩における音の美しさ" }
+      ]
+    },
+
+    "progeny": {
+      origin: "ラテン語 progenies（子孫・一族）< pro-（前に・先に）+ gignere（生む・生み出す）+ -y（名詞接尾辞）。「子孫・後裔・産物」が原義。generate（生み出す）・genetics（遺伝学）・genius（天才）と同根の gignere を共有し、「前の世代から生み出されてくるもの」というイメージを持つ。\n\n英語には14世紀に採用され、「生物学的・文化的な子孫・派生物」の意味で定着。生物学・文学・日常語で produce offspring and progeny（子孫を産み育てる）・the progeny of…（〜の産物・影響を受けたもの）のように「ある原因から生み出されたもの」を指す語として使われる。\n\n現代英語では literary progeny（文学的後継者）・intellectual progeny（知的後継者・影響を受けた著作）のように「ある思想・作品から生まれた後継物」を指す比喩的用法も広く使われ、生物学から文化・思想の継承まで広い文脈で機能する語となっている。",
+      derivatives: [
+        { word: "progenitor",  desc: "祖先・元祖・先駆者（名詞）" }
+      ],
+      family: [
+        { word: "generate",  desc: "生み出す（gignere）" },
+        { word: "genetics",  desc: "遺伝学（gignere）" },
+        { word: "genius",    desc: "天才（gignere）" }
+      ],
+      compounds: [
+        { phrase: "literary progeny",      desc: "文学的後継者" },
+        { phrase: "intellectual progeny",  desc: "知的後継・影響を受けた著作" }
+      ]
+    },
+
+    "telegraph": {
+      origin: "ギリシャ語 tele-（遠く）+ graphein（書く・送る）。「遠くへ書いて送る装置＝電信・電報」が原義。telephone（電話）・television（テレビ）・photograph（写真）・paragraph（段落）と同根の要素を共有し、19世紀の通信革命を象徴する語。\n\n英語には19世紀初頭に採用され、電線を通じて長距離に符号を送信する装置・通信手段として定着。通信・歴史・ジャーナリズムで telegraph operator（電信士）・telegraph message（電報）のように近代通信史の核心語として機能する。\n\n現代英語では telegraph 自体は歴史語になりつつあるが、telegraphic（電報のような・簡潔な）という形容詞形は「短く要点だけ伝える」という意味で生き続けており、The Daily Telegraph のような英国の大手新聞名にも残り、ジャーナリズム・メディア史の重要語として機能する。",
+      derivatives: [
+        { word: "telegraphic",  desc: "電報の・簡潔な（形容詞）" },
+        { word: "telegraphy",   desc: "電信術（名詞）" }
+      ],
+      family: [
+        { word: "telephone",   desc: "電話（tele+phone）" },
+        { word: "television",  desc: "テレビ（tele+visio）" },
+        { word: "photograph",  desc: "写真（phos+graphein）" }
+      ],
+      compounds: [
+        { phrase: "telegraph operator",  desc: "電信士" },
+        { phrase: "telegraph message",   desc: "電報メッセージ" },
+        { phrase: "telegraphic style",   desc: "簡潔な文体" }
+      ]
+    },
+
+    "perform": {
+      origin: "古フランス語 parfournir（完全に遂げる）< par-（完全に）+ fournir（達成する・提供する）。後に ラテン語 per-（通して・完全に）+ forma（形・形式）との混交で「形の通りに実行する」というイメージが加わった。「実行する・演じる・機能する」が原義。\n\n英語には14世紀に採用され、「約束・義務・技術を実際に実行・遂行する」の意味で定着。芸術・ビジネス・機械で perform a task（課題を遂行する）・perform surgery（手術を行う）・high-performing team（高業績チーム）のように幅広く使われる基本動詞として機能する。\n\n現代英語では performance（業績・演技）という派生語が経営・教育・芸術で特に重要で、high performance（高業績）・performance review（業績評価）・performance art（パフォーマンスアート）のように多様な文脈で核心語として機能する。",
+      derivatives: [
+        { word: "performance",  desc: "業績・演技・公演（名詞）" },
+        { word: "performer",    desc: "演者・実行者（名詞）" },
+        { word: "performing",   desc: "実演の・業績の（形容詞）" }
+      ],
+      family: [
+        { word: "reform",     desc: "改革する（re+forma）" },
+        { word: "transform",  desc: "変革する（trans+forma）" },
+        { word: "conform",    desc: "従う（con+forma）" }
+      ],
+      compounds: [
+        { phrase: "perform a task",       desc: "課題を遂行する" },
+        { phrase: "performance review",   desc: "業績評価" },
+        { phrase: "high-performing",      desc: "高業績の" }
+      ]
+    },
+
+    "obligation": {
+      origin: "ラテン語 obligatio（縛ること・義務）< ob-（〜に向けて）+ ligare（縛る・結ぶ）+ -ion（名詞接尾辞）。「義務・債務・責任」が原義。oblige（義務づける）・obligate（強制する）・ligament（靭帯）・religion（宗教、re+ligare）と同根の ligare を共有し、「縛られた状態・拘束」というイメージを持つ。\n\n英語には14世紀に採用され、「法的・道徳的に果たさなければならない義務・責任」の意味で定着。法律・倫理学・外交で fulfill an obligation（義務を果たす）・legal obligation（法的義務）・moral obligation（道徳的義務）のように「拘束的な責任」を示す重要語として機能する。\n\n現代英語では sense of obligation（義務感）・obligation to…（〜への義務）のように法律・日常語の両方で頻用され、financial obligation（財務上の義務）・treaty obligation（条約義務）のような専門的文脈でも必須語として機能する。",
+      derivatives: [
+        { word: "oblige",      desc: "義務づける・恩を施す（動詞）" },
+        { word: "obligatory",  desc: "義務的な・必須の（形容詞）" },
+        { word: "obligated",   desc: "義務を負った（形容詞）" }
+      ],
+      family: [
+        { word: "ligament",  desc: "靭帯（ligare）" },
+        { word: "religion",  desc: "宗教（re+ligare）" },
+        { word: "ally",      desc: "同盟国（ad+ligare）" }
+      ],
+      compounds: [
+        { phrase: "legal obligation",    desc: "法的義務" },
+        { phrase: "moral obligation",    desc: "道徳的義務" },
+        { phrase: "fulfill an obligation", desc: "義務を果たす" }
+      ]
+    },
+
+    "urban": {
+      origin: "ラテン語 urbanus（都市の・洗練された）< urbs（都市・城壁都市）+ -an（形容詞接尾辞）。「都市の・都会的な」が原義。suburb（郊外）・suburban（郊外の）と同根の urbs を共有し、古代ローマでは「城壁に囲まれた文明都市」を指した語が「都市・洗練された文化」を示す語へと発展した。\n\n英語には16世紀に採用され、「都市・市街地に関わる」の意味で定着。地理学・社会政策・文化で urban planning（都市計画）・urban development（都市開発）・urban lifestyle（都市的生活様式）のように現代の都市問題・政策を論じる際の核心語として機能する。\n\n現代英語では urban sprawl（都市スプロール現象）・urban renewal（都市再開発）・urban culture（都市文化）のように地理・政策・文化の多分野で使われ、rural（農村の）との対義語ペアとして都市と農村の格差・違いを論じる際の基本語として機能する。",
+      derivatives: [
+        { word: "urbanize",    desc: "都市化する（動詞）" },
+        { word: "urbanization", desc: "都市化（名詞）" },
+        { word: "urbane",      desc: "洗練された・礼儀正しい（形容詞）" }
+      ],
+      family: [
+        { word: "suburb",     desc: "郊外（sub+urbs）" },
+        { word: "suburban",   desc: "郊外の（sub+urbs）" },
+        { word: "urbanite",   desc: "都市住民（urbs）" }
+      ],
+      compounds: [
+        { phrase: "urban planning",    desc: "都市計画" },
+        { phrase: "urban sprawl",      desc: "都市スプロール現象" },
+        { phrase: "urban renewal",     desc: "都市再開発" }
+      ]
+    },
+
+    "rural": {
+      origin: "ラテン語 ruralis（田舎の）< rus（田舎・農地）+ -al（形容詞接尾辞）。「農村の・田舎の」が原義。rustic（田舎風の）と同根の rus を共有し、古代ローマでは「農地・農村地帯」を意味した語が英語で「都市に対する農村地帯」を指す語として定着した。\n\n英語には15世紀に採用され、「都市から離れた農村・自然環境に関わる」の意味で定着。地理学・政策・社会学で rural area（農村地域）・rural development（農村開発）・rural community（農村コミュニティ）のように都市計画・社会政策の対語として機能する重要語。\n\n現代英語では rural-urban divide（農村・都市格差）・rural poverty（農村の貧困）・rural broadband（農村部の広帯域通信）のように社会格差・インフラ政策で頻用され、urban（都市の）との対義語ペアとして社会経済分析の基本語として機能する。",
+      derivatives: [
+        { word: "rurally",    desc: "農村的に（副詞）" },
+        { word: "ruralize",   desc: "農村化する（動詞）" }
+      ],
+      family: [
+        { word: "rustic",  desc: "田舎風の・素朴な（rus）" },
+        { word: "urban",   desc: "都市の（対義語）" }
+      ],
+      compounds: [
+        { phrase: "rural area",          desc: "農村地域" },
+        { phrase: "rural development",   desc: "農村開発" },
+        { phrase: "rural-urban divide",  desc: "農村・都市格差" }
+      ]
+    },
+
+    "aggression": {
+      origin: "ラテン語 aggressio（攻撃・接近）< ad-（〜に向けて）+ gradi（歩く・進む）+ -ion（名詞接尾辞）。「攻撃・侵略・攻撃性」が原義。aggressive（攻撃的な）・congress（議会）・progress（進歩）・digress（話がそれる）と同根の gradi を共有し、「誰かに向かって踏み込む」というイメージを持つ。\n\n英語には17世紀に採用され、「他者・国家への攻撃・侵略行為」の意味で定着。国際法・心理学・日常語で act of aggression（侵略行為）・verbal aggression（言語的攻撃）・passive aggression（受動的攻撃性）のように様々な攻撃的行為を指す語として機能する。\n\n現代英語では passive-aggressive（受動的攻撃的な）という複合形容詞が心理学・日常語で頻用され、cyber aggression（サイバー攻撃）・microaggression（マイクロアグレッション、日常的な差別的言動）のように新しい複合語も生産的に形成されている。",
+      derivatives: [
+        { word: "aggressive",    desc: "攻撃的な・積極的な（形容詞）" },
+        { word: "aggressor",     desc: "攻撃者・侵略者（名詞）" },
+        { word: "aggressively",  desc: "攻撃的に（副詞）" }
+      ],
+      family: [
+        { word: "progress",   desc: "進歩（pro+gradi）" },
+        { word: "congress",   desc: "議会（con+gradi）" },
+        { word: "digress",    desc: "話がそれる（di+gradi）" }
+      ],
+      compounds: [
+        { phrase: "act of aggression",  desc: "侵略行為" },
+        { phrase: "passive aggression", desc: "受動的攻撃性" },
+        { phrase: "microaggression",    desc: "マイクロアグレッション" }
+      ]
     }
 
   };

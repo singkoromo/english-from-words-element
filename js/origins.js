@@ -5986,6 +5986,345 @@
         { phrase: "exact copy",       desc: "完全なコピー・寸分たがわぬ複写" },
         { phrase: "exact change",     desc: "ぴったりのお釣り・端数なしの支払い" }
       ]
+    },
+
+    // ── clud / clus系（閉じる・含む）──
+    "include": {
+      origin: "ラテン語 includere（中に閉じ込める）< in-（中に）+ claudere（閉じる・塞ぐ）。「ある境界の中に閉じ込める＝含める」というのが語源的なイメージ。\n\n15世紀の英語に入り「〜を含む・〜を一員として含める」という動詞として定着。現代では最も高頻度の英語動詞の一つで、including（〜を含めて）は文書・スピーチで非常によく使われる前置詞句。\n\n語根 clud- / clos- は conclude（結論を出す＝閉じる）、exclude（除外する＝外に閉め出す）、preclude（あらかじめ閉め出す＝妨げる）、disclose（明らかにする＝閉じたものを開く）など、含める・閉じる・開くというさまざまな方向性の語を形成する。",
+      derivatives: [
+        { word: "inclusion",    desc: "包含・包括・インクルージョン（名詞）" },
+        { word: "inclusive",    desc: "包括的な・すべてを含む（形容詞）" },
+        { word: "including",    desc: "〜を含めて（前置詞句）" }
+      ],
+      family: [
+        { word: "exclude",      desc: "除外する（ex- 外へ + claudere）" },
+        { word: "conclude",     desc: "結論を出す（con- + claudere）" },
+        { word: "preclude",     desc: "妨げる（prae- 前に + claudere）" },
+        { word: "disclose",     desc: "明らかにする（dis- + claudere）" },
+        { word: "close",        desc: "閉じる（claudere の英語形）" }
+      ],
+      compounds: [
+        { phrase: "included in",      desc: "〜に含まれている" },
+        { phrase: "inclusive of tax", desc: "税込みで" }
+      ]
+    },
+
+    "exclude": {
+      origin: "ラテン語 excludere（外に閉め出す）< ex-（外へ）+ claudere（閉じる）。「境界の外側に閉め出す＝含めない・締め出す」というのが語源の核心。\n\n15世紀に英語に入り「〜を除外する・〜を排除する・〜を含まない」という動詞として定着。社会的文脈では social exclusion（社会的排除）という概念が重要で、貧困・差別・障害などにより社会参加が阻まれる状態を指す。\n\nexclusive（独占的な・高級な）は「特定の人だけに限定された」というニュアンスを持ち、exclusive club（会員制クラブ）、exclusive deal（独占契約）のようにビジネス・マーケティングでも重要語。",
+      derivatives: [
+        { word: "exclusion",    desc: "除外・排除・社会的排除（名詞）" },
+        { word: "exclusive",    desc: "独占的な・限定的な・高級な（形容詞）" },
+        { word: "exclusively",  desc: "もっぱら・独占的に（副詞）" }
+      ],
+      family: [
+        { word: "include",      desc: "含める（in- + claudere）" },
+        { word: "conclude",     desc: "結論を出す（con- + claudere）" },
+        { word: "preclude",     desc: "妨げる（prae- + claudere）" },
+        { word: "close",        desc: "閉じる（claudere から）" }
+      ],
+      compounds: [
+        { phrase: "exclusive access",    desc: "独占的なアクセス・限定公開" },
+        { phrase: "mutually exclusive",  desc: "相互排他的な・両立しない" }
+      ]
+    },
+
+    "conclude": {
+      origin: "ラテン語 concludere（完全に閉じる・結論をつける）< con-（完全に）+ claudere（閉じる）。「議論・審議を完全に閉じる＝最終的な判断を下す」というのが語源のイメージ。\n\n14世紀の英語に入り「結論を出す・終える・締結する」という動詞として定着。To conclude,（結論として）は論文・スピーチで重要な移行表現。また conclude a treaty / deal（条約・契約を締結する）のように「正式に閉じる・合意に達する」という意味でも使われる。\n\n三段論法（syllogism）では「前提から結論（conclusion）を導く」という論理的操作を指し、哲学・法律論において重要な概念語でもある。",
+      derivatives: [
+        { word: "conclusion",   desc: "結論・締結・終わり（名詞）" },
+        { word: "conclusive",   desc: "決定的な・結論的な（形容詞）" },
+        { word: "inclusive",    desc: "決定的に・最終的に（副詞）" }
+      ],
+      family: [
+        { word: "include",      desc: "含める（in- + claudere）" },
+        { word: "exclude",      desc: "除外する（ex- + claudere）" },
+        { word: "preclude",     desc: "妨げる（prae- + claudere）" }
+      ],
+      compounds: [
+        { phrase: "to conclude",          desc: "結論として・最後に" },
+        { phrase: "conclusive evidence",  desc: "決定的証拠" }
+      ]
+    },
+
+    // ── serv系（守る・仕える）──
+    "observe": {
+      origin: "ラテン語 observare（注意深く見守る・守る）< ob-（向かって）+ servare（守る・見張る）。「守るために注意深く見る」というのが語源の原義。\n\n14世紀の英語に入り「（1）観察する・目撃する」と「（2）規則・習慣を守る・遵守する」という二つの主要な意味で使われる。科学では「自然現象を注意深く観察する」という empirical observation（観察）が知識の基礎とされる。\n\nobservatory（天文台・気象台）は「観察のための場所」であり、observance（規則・儀式の遵守）は「守ること」という意味で使われる。",
+      derivatives: [
+        { word: "observation",   desc: "観察・観測・所見（名詞）" },
+        { word: "observer",      desc: "観察者・監視員・オブザーバー" },
+        { word: "observatory",   desc: "天文台・気象台・観測所" }
+      ],
+      family: [
+        { word: "preserve",      desc: "保護する・保存する（prae- + servare）" },
+        { word: "reserve",       desc: "確保する・予約する（re- + servare）" },
+        { word: "deserve",       desc: "〜に値する（de- + servire 仕える）" },
+        { word: "conserve",      desc: "保全する（con- + servare）" }
+      ],
+      compounds: [
+        { phrase: "under observation", desc: "観察下に・監視下に" },
+        { phrase: "observe a rule",    desc: "規則を守る・遵守する" }
+      ]
+    },
+
+    "preserve": {
+      origin: "ラテン語 praeservare（前もって守る）< prae-（前に・あらかじめ）+ servare（守る・保全する）。「将来のために今守る・維持する」というのが語源。\n\n14世紀の英語に入り「（1）食品を保存する・（2）環境・文化を保護する・維持する」という動詞として使われる。食品加工では preserve（ジャム・漬物など保存食）という名詞にもなる。\n\n環境保護の文脈では nature preserve / nature preserve（自然保護区）として使われる。文化保護では preserve a language / tradition（言語・伝統を維持する）のように、失われそうなものを守るという文脈で頻用される。",
+      derivatives: [
+        { word: "preservation",   desc: "保存・保護・維持（名詞）" },
+        { word: "preservative",   desc: "防腐剤・保存料（名詞・形容詞）" },
+        { word: "preservationist", desc: "保存主義者・文化財保護活動家" }
+      ],
+      family: [
+        { word: "observe",        desc: "観察する・守る（ob- + servare）" },
+        { word: "reserve",        desc: "確保する（re- + servare）" },
+        { word: "conserve",       desc: "保全する（con- + servare）" },
+        { word: "serve",          desc: "仕える・提供する（servire）" }
+      ],
+      compounds: [
+        { phrase: "preserve the environment", desc: "環境を保護する" },
+        { phrase: "nature preserve",          desc: "自然保護区" }
+      ]
+    },
+
+    "deserve": {
+      origin: "ラテン語 deservire（完全に仕える・十分に奉仕する）< de-（完全に）+ servire（仕える・奉仕する）。「十分に仕えたのだから当然の報いを受ける資格がある」というのが語源的なニュアンス。\n\n13世紀の英語に入り「〜に値する・〜を受けるに足る」という動詞として定着。you deserve it（あなたはそれを受けるに値する＝当然の報いだ）は日常英語での頻出表現。肯定的文脈（You deserve a break.）にも否定的文脈（He got what he deserved.）にも使われる。\n\ndesert（功績・当然の報い）という名詞形も「just deserts（正当な報い）」という慣用句で使われる。",
+      derivatives: [
+        { word: "deserving",     desc: "〜に値する・それだけの資格のある（形容詞）" },
+        { word: "undeserving",   desc: "〜に値しない（un- + deserving）" }
+      ],
+      family: [
+        { word: "observe",       desc: "観察する（ob- + servare）" },
+        { word: "preserve",      desc: "保護する（prae- + servare）" },
+        { word: "reserve",       desc: "確保する・予約する（re- + servare）" },
+        { word: "service",       desc: "サービス・奉仕（servitium）" }
+      ],
+      compounds: [
+        { phrase: "deserve a break",    desc: "休憩を取るに値する・休んで当然だ" },
+        { phrase: "get what you deserve", desc: "当然の報いを受ける" }
+      ]
+    },
+
+    "reserve": {
+      origin: "ラテン語 reservare（後のために取っておく）< re-（後ろへ・再び）+ servare（守る・取っておく）。「将来のためにある状態に保って守っておく」というのが語源的な意味。\n\n14世紀の英語に入り「（座席・宿泊を）予約する・（資源を）確保しておく・遠慮がちな態度」という多義語として定着。a reserve of water（水の備蓄）、nature reserve（自然保護区）、in reserve（備えとして）のように使われる。\n\n形容詞 reserved は「控えめな・内気な（感情を外に出さない）」という意味でも使われ、"a reserved person"（物静かな人）のように言う。",
+      derivatives: [
+        { word: "reservation",   desc: "予約・留保・懸念（名詞）" },
+        { word: "reserved",      desc: "予約済みの・控えめな（形容詞）" }
+      ],
+      family: [
+        { word: "observe",       desc: "観察する（ob- + servare）" },
+        { word: "preserve",      desc: "保護する（prae- + servare）" },
+        { word: "deserve",       desc: "〜に値する（de- + servire）" }
+      ],
+      compounds: [
+        { phrase: "make a reservation",  desc: "予約をする" },
+        { phrase: "in reserve",          desc: "備えとして・予備として" },
+        { phrase: "nature reserve",      desc: "自然保護区" }
+      ]
+    },
+
+    // ── solv / solu系（解く・解放する）──
+    "solve": {
+      origin: "ラテン語 solvere（解く・解放する・支払う）< se-（離して）+ luere（洗う・解放する）。「縛られたものを解き放す」というのが語源のイメージ。「問題を解く」「債務を支払う（解消する）」「謎を解明する」という三方向の意味を古代からもっていた。\n\n15世紀に英語に入り「問題を解く・謎を解明する」という動詞として定着。solve a problem（問題を解く）、solve a crime（犯罪を解決する）のように使われる。\n\n語根 solv- は resolve（解決する・再度解く）、dissolve（溶かす・解消する）、absolve（免罪する）、solution（解決策・溶液）など重要語を多数形成する。",
+      derivatives: [
+        { word: "solution",     desc: "解決策・解答・溶液（名詞）" },
+        { word: "solvable",     desc: "解決可能な（形容詞）" },
+        { word: "insoluble",    desc: "解けない・不溶性の（in- + solvere）" }
+      ],
+      family: [
+        { word: "resolve",      desc: "解決する・決意する（re- + solvere）" },
+        { word: "dissolve",     desc: "溶かす・解散する（dis- + solvere）" },
+        { word: "absolve",      desc: "免罪する（ab- + solvere）" },
+        { word: "absolute",     desc: "絶対的な（absolutus 解き放たれた）" }
+      ],
+      compounds: [
+        { phrase: "solve a problem",   desc: "問題を解決する" },
+        { phrase: "problem-solving",   desc: "問題解決（複合名詞・形容詞）" }
+      ]
+    },
+
+    "resolve": {
+      origin: "ラテン語 resolvere（再び解く・完全に解く）< re-（再び・強調）+ solvere（解く）。「しっかりと解き切る＝問題を決定的に片付ける」というのが語源的な強調ニュアンス。\n\n14世紀の英語に入り「（1）問題・紛争を解決する（2）決意する（3）音楽で和音を解決（緊張を解消）する」という多義語として使われる。New Year's resolution（新年の抱負）は「決意したこと」という名詞形での有名な用例。\n\nresolute（断固とした）という形容詞は「一度決めたことを解き放たない＝ぶれない」という意味で、リーダーシップ・政治の文脈で重要語。",
+      derivatives: [
+        { word: "resolution",   desc: "解決・決議・決意・解像度（名詞）" },
+        { word: "resolute",     desc: "断固とした・決然たる（形容詞）" },
+        { word: "resolutely",   desc: "断固として・毅然と（副詞）" }
+      ],
+      family: [
+        { word: "solve",        desc: "解く（solvere）" },
+        { word: "dissolve",     desc: "溶かす・解散する（dis- + solvere）" },
+        { word: "absolve",      desc: "免罪する（ab- + solvere）" }
+      ],
+      compounds: [
+        { phrase: "resolve a conflict",   desc: "紛争を解決する" },
+        { phrase: "New Year's resolution", desc: "新年の抱負" },
+        { phrase: "screen resolution",    desc: "画面解像度" }
+      ]
+    },
+
+    "dissolve": {
+      origin: "ラテン語 dissolvere（バラバラに解く）< dis-（離散・分離）+ solvere（解く）。「結びついていたものを完全にバラバラにして解く」という語源のイメージは、固体が液体に溶ける物理現象と組織・関係が解散する社会現象の両方を正確に捉えている。\n\n15世紀に英語に入り「（1）液体に溶かす（2）議会・会社・婚姻を解散・解消する」という二つの主要な意味で使われる。\n\n映画・映像技術では dissolve（オーバーラップしながら場面が変わる手法）という編集技法としても定着している。",
+      derivatives: [
+        { word: "dissolution",  desc: "解散・溶解・解体（名詞）" },
+        { word: "soluble",      desc: "水に溶ける・解決できる（形容詞）" }
+      ],
+      family: [
+        { word: "solve",        desc: "解く（solvere）" },
+        { word: "resolve",      desc: "解決する（re- + solvere）" },
+        { word: "absolve",      desc: "免罪する（ab- + solvere）" }
+      ],
+      compounds: [
+        { phrase: "dissolve in water",    desc: "水に溶ける" },
+        { phrase: "dissolve parliament",  desc: "議会を解散する" }
+      ]
+    },
+
+    // ── sist系（立つ・留まる）──
+    "resist": {
+      origin: "ラテン語 resistere（立ちはだかる・抵抗する）< re-（反対に）+ sistere（立たせる・止まらせる）。sistere は stāre（立つ）の使役形で、「反対方向に立たせる＝抵抗する」というのが語源。\n\n14世紀の英語に入り「抵抗する・反抗する・我慢する」という動詞として定着。resist temptation（誘惑に抗う）、resist change（変化に抵抗する）のように使われる。"I can't resist it."（我慢できない）は日常英語の頻出表現。\n\n語根 sist- は assist（傍らで立つ＝補助する）、consist（共に立つ＝成り立つ）、persist（しつこく立ち続ける＝根気よく続ける）、insist（中に立ち続ける＝主張する）など多くの基本動詞を形成する。",
+      derivatives: [
+        { word: "resistance",    desc: "抵抗・抵抗力・レジスタンス（名詞）" },
+        { word: "resistant",     desc: "抵抗力のある・耐性のある（形容詞）" },
+        { word: "irresistible",  desc: "抗しがたい・抗えない（ir- + resistible）" }
+      ],
+      family: [
+        { word: "assist",       desc: "補助する・援助する（ad- + sistere）" },
+        { word: "consist",      desc: "〜から成り立つ（con- + sistere）" },
+        { word: "persist",      desc: "根気よく続ける（per- + sistere）" },
+        { word: "insist",       desc: "主張する（in- + sistere）" }
+      ],
+      compounds: [
+        { phrase: "antibiotic resistance",  desc: "抗生物質耐性" },
+        { phrase: "resistance movement",    desc: "抵抗運動・レジスタンス" }
+      ]
+    },
+
+    "assist": {
+      origin: "ラテン語 assistere（傍らに立つ）< ad-（傍に・〜へ）+ sistere（立たせる）。「誰かの傍らに立って助ける」という語源のイメージが「援助する」の意味の基盤。\n\n15世紀に英語に入り「援助する・補助する・助力する」という動詞として定着。assist with（〜を手伝う）、assist in（〜において助ける）が基本的な使い方。\n\nスポーツでは assist（アシスト＝他の選手の得点に貢献したプレー）という名詞で使われ、バスケットボール・アイスホッケー・サッカーなどで重要な統計指標。IT では virtual assistant（AIアシスタント）のように人工知能の支援機能を指す語としても定着している。",
+      derivatives: [
+        { word: "assistant",    desc: "助手・アシスタント（名詞・形容詞）" },
+        { word: "assistance",   desc: "援助・支援・補助（名詞）" }
+      ],
+      family: [
+        { word: "resist",       desc: "抵抗する（re- + sistere）" },
+        { word: "consist",      desc: "成り立つ（con- + sistere）" },
+        { word: "persist",      desc: "続ける（per- + sistere）" },
+        { word: "insist",       desc: "主張する（in- + sistere）" }
+      ],
+      compounds: [
+        { phrase: "teaching assistant",  desc: "ティーチングアシスタント（TA）" },
+        { phrase: "virtual assistant",   desc: "AIアシスタント・仮想アシスタント" }
+      ]
+    },
+
+    "persist": {
+      origin: "ラテン語 persistere（ずっと立ち続ける）< per-（通して・継続して）+ sistere（立たせる）。「途中で止まることなく立ち続ける＝諦めずに続ける」というのが語源的な意味。\n\n16世紀の英語に入り「（困難の中でも）根気よく続ける・しつこく続く」という動詞として定着。positive な文脈では「諦めずに努力し続ける」という粘り強さを表し、negative な文脈では「問題が解決しない・症状が続く」という持続を指す。\n\nif the problem persists（問題が続く場合は）のように IT・医療の取扱説明書でも頻出表現。",
+      derivatives: [
+        { word: "persistent",    desc: "根気強い・しつこい・継続する（形容詞）" },
+        { word: "persistence",   desc: "粘り強さ・根気・持続性（名詞）" },
+        { word: "persistently",  desc: "根気よく・執拗に（副詞）" }
+      ],
+      family: [
+        { word: "resist",        desc: "抵抗する（re- + sistere）" },
+        { word: "assist",        desc: "補助する（ad- + sistere）" },
+        { word: "consist",       desc: "成り立つ（con- + sistere）" },
+        { word: "insist",        desc: "主張する（in- + sistere）" }
+      ],
+      compounds: [
+        { phrase: "persist in doing",  desc: "〜し続ける・諦めずに続ける" },
+        { phrase: "persistent effort", desc: "粘り強い努力" }
+      ]
+    },
+
+    "insist": {
+      origin: "ラテン語 insistere（〜の上に立ち続ける・固執する）< in-（上に・中に）+ sistere（立たせる）。「ある立場の上から動かない＝強く主張する」というのが語源。\n\n16世紀の英語に入り「〜を主張する・〜を要求する・〜を断言する」という動詞として定着。insist on doing（〜することを主張する）、insist that SV（〜と断言する）が主要な構文。\n\n他者の意見に関わらず自分の立場を維持するという強さと頑固さの両面を持ち、"She insisted on paying."（彼女は自分が払うと言い張った）のように意志の強さを表す。",
+      derivatives: [
+        { word: "insistence",   desc: "主張・強要・固執（名詞）" },
+        { word: "insistent",    desc: "主張し続ける・しつこい（形容詞）" }
+      ],
+      family: [
+        { word: "resist",       desc: "抵抗する（re- + sistere）" },
+        { word: "assist",       desc: "補助する（ad- + sistere）" },
+        { word: "persist",      desc: "続ける（per- + sistere）" },
+        { word: "consist",      desc: "成り立つ（con- + sistere）" }
+      ],
+      compounds: [
+        { phrase: "insist on",    desc: "〜を強く主張する・要求する" },
+        { phrase: "insist that",  desc: "〜と断言する・〜だと言い張る" }
+      ]
+    },
+
+    // ── spec / spect系（見る）──
+    "specific": {
+      origin: "ラテン語 specificus（種を作る・特定の種に属する）< species（種類・外見）+ facere（作る）。species は speciēs < specere（見る）に由来し、「見た目の違いによって区別された種類」というのが原義。\n\n17世紀に英語に入り「特定の・明確な・具体的な」という形容詞として定着。be specific（具体的に言う）、specific details（具体的な詳細）のように、曖昧さを排して明確に特定する文脈で使われる。ビジネス・科学・法律などあらゆる分野で基本語として機能している。\n\nspecification（仕様書・スペック）は製品や建物の設計・要件を具体的に記述した文書で、IT・建設業界では必須語。",
+      derivatives: [
+        { word: "specifically",    desc: "具体的に・特に・明確に（副詞）" },
+        { word: "specification",   desc: "仕様・スペック・明細書（名詞）" },
+        { word: "specify",         desc: "具体的に述べる・明記する（動詞）" }
+      ],
+      family: [
+        { word: "species",         desc: "種（生物分類）・種類（specere）" },
+        { word: "speculate",       desc: "推測する・投機する（specula 見張り台）" },
+        { word: "spectacle",       desc: "壮観・見世物（spectaculum）" },
+        { word: "inspect",         desc: "調査する（in- + specere）" }
+      ],
+      compounds: [
+        { phrase: "be specific",      desc: "具体的に言う・明確にする" },
+        { phrase: "technical spec",   desc: "技術仕様書（略語）" }
+      ]
+    },
+
+    "species": {
+      origin: "ラテン語 species（外観・種類・種）< specere（見る）。「目で見て区別できる形・種類」というのが原義で、哲学では「類（genus）の下位区分」を指す用語として使われた。\n\n17世紀にカール・リンネが生物の二名法（binomial nomenclature）を確立し（1753年）、species は「生物分類の基本単位」という現在の科学的意味に特化した。同じ種の個体は互いに交配して生殖能力のある子孫を残せるという定義が基本。\n\nダーウィンの主著『種の起源（On the Origin of Species, 1859年）』は生物学史上最大の転換点の一つで、species という語の意味・重みを根本から変えた。",
+      derivatives: [
+        { word: "speciation",    desc: "種の形成・種分化（生物学用語）" }
+      ],
+      family: [
+        { word: "specific",      desc: "特定の・具体的な（species + facere）" },
+        { word: "speculate",     desc: "推測する（specula 見張り台）" },
+        { word: "special",       desc: "特別な（specialis 特定の種の）" },
+        { word: "inspect",       desc: "調査する（in- + specere）" }
+      ],
+      compounds: [
+        { phrase: "endangered species",  desc: "絶滅危惧種" },
+        { phrase: "invasive species",    desc: "侵略的外来種" }
+      ]
+    },
+
+    "speculate": {
+      origin: "ラテン語 speculari（見張る・観察する）< specula（見張り台）< specere（見る）。「高い場所から遠くを見渡す」という視覚的なイメージが「先を見越して推測する」という意味につながった。\n\n16世紀の英語に入り「（証拠なしに）推測する・思索する」という哲学的な意味と、「将来の利益を見越して投機する」という金融的な意味の両方で使われる。\n\nspeculation（投機・推測）、speculative（投機的な・思弁的な）という派生語も重要で、speculative fiction（思弁的フィクション＝SFや fantasy の総称）のような文学批評語としても使われる。",
+      derivatives: [
+        { word: "speculation",    desc: "推測・思弁・投機（名詞）" },
+        { word: "speculative",    desc: "推測的な・投機的な・思弁的な（形容詞）" },
+        { word: "speculator",     desc: "投機家・相場師" }
+      ],
+      family: [
+        { word: "specific",      desc: "特定の（species + facere）" },
+        { word: "species",       desc: "種（specere）" },
+        { word: "spectacle",     desc: "壮観・見世物（spectaculum）" },
+        { word: "inspect",       desc: "調査する（in- + specere）" }
+      ],
+      compounds: [
+        { phrase: "mere speculation",      desc: "単なる憶測・根拠のない推測" },
+        { phrase: "speculative investment", desc: "投機的投資" }
+      ]
+    },
+
+    "spectacle": {
+      origin: "ラテン語 spectaculum（見世物・見るべきもの）< spectare（じっくり見る）< specere（見る）。「多くの人が集まって見る」という共同観賞のイメージが語源にある。\n\n15世紀に英語に入り「壮大な見世物・印象的な光景・眼鏡（spectacles）」という意味で使われる。複数形 spectacles は眼鏡を指す格式ある表現（日常語は glasses）。\n\nmake a spectacle of oneself（みっともない姿をさらす＝見世物になる）は重要なイディオム。spectacular（壮観な・印象的な）という形容詞も頻用される。",
+      derivatives: [
+        { word: "spectacular",    desc: "壮観な・目を見張る（形容詞）" },
+        { word: "spectator",      desc: "観客・見物人（spectare + -or）" },
+        { word: "spectacles",     desc: "眼鏡（複数形で「見る道具」）" }
+      ],
+      family: [
+        { word: "specific",      desc: "特定の（species + facere）" },
+        { word: "speculate",     desc: "推測する（specula）" },
+        { word: "inspect",       desc: "調査する（in- + specere）" },
+        { word: "respect",       desc: "尊重・尊敬（re- + specere）" }
+      ],
+      compounds: [
+        { phrase: "make a spectacle",     desc: "見世物になる・みっともない姿をさらす" },
+        { phrase: "spectacular view",     desc: "壮観な眺め" }
+      ]
     }
 
   };

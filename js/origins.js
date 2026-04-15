@@ -18543,6 +18543,337 @@
         { phrase: "commercially viable", desc: "商業的に成り立つ" },
         { phrase: "viable solution",     desc: "実現可能な解決策" }
       ]
+    },
+
+    // ── Batch 41 ──────────────────────────────────────────────────────────
+
+    "peripheral": {
+      origin: "ギリシャ語 peripheres（周りを持つ）< peri-（周りに）+ pherein（運ぶ・持つ）+ -al（形容詞接尾辞）。「周囲・外縁を持つ」が原義。periphery（周辺）・metaphor（比喩）と同根の pherein を含む。\n\n英語には15世紀に採用され、「周辺の・二次的な・末梢の」の意味で定着。解剖学では「末梢神経」（peripheral nervous system）・コンピュータ科学では「周辺機器」（peripheral device）・政治学では「中心から外れた地域」として使われる多義語。\n\n現代英語では peripheral vision（周辺視野）・peripheral device（周辺機器）・peripheral issue（副次的な問題）のように医学・技術・政治の場で幅広く使われる。",
+      derivatives: [
+        { word: "periphery",     desc: "周辺・外縁（名詞）" },
+        { word: "peripherally",  desc: "周辺的に・間接的に（副詞）" }
+      ],
+      family: [
+        { word: "metaphor",  desc: "比喩・メタファー（meta+pherein）" },
+        { word: "euphoria",  desc: "多幸感（eu+pherein）" }
+      ],
+      compounds: [
+        { phrase: "peripheral vision",  desc: "周辺視野" },
+        { phrase: "peripheral device",  desc: "周辺機器（コンピュータ）" },
+        { phrase: "peripheral issue",   desc: "副次的な問題" }
+      ]
+    },
+
+    "simultaneous": {
+      origin: "ラテン語 simul（同時に・一緒に）+ -taneous（傾向を示す形容詞接尾辞）。「同じ時間に起こる」が原義。simulate（模擬する）・similar（似た）と同根の simul を含む語。\n\n英語には17世紀に採用され、「同時の・同時発生的な」の意味で定着。数学では「連立方程式」（simultaneous equations）・通訳では「同時通訳」（simultaneous interpretation）・コンピュータ科学では「同時処理」として重要な用語。\n\n現代英語では simultaneous translation（同時通訳）・simultaneous events（同時発生の出来事）・run simultaneously（同時に走る）のように数学・通訳・技術の場で幅広く使われる。",
+      derivatives: [
+        { word: "simultaneously",  desc: "同時に（副詞）" },
+        { word: "simultaneity",    desc: "同時性（名詞）" }
+      ],
+      family: [
+        { word: "simulate",   desc: "模擬する（similis）" },
+        { word: "assimilate", desc: "同化する（ad+similis）" },
+        { word: "similar",    desc: "似た（similis）" }
+      ],
+      compounds: [
+        { phrase: "simultaneous translation",  desc: "同時通訳" },
+        { phrase: "run simultaneously",        desc: "同時に動く・並行して行う" },
+        { phrase: "simultaneous equations",    desc: "連立方程式" }
+      ]
+    },
+
+    "temporal": {
+      origin: "ラテン語 temporalis（時間の・世俗の）< tempus（時間・季節・こめかみ）+ -alis（形容詞接尾辞）。「時間に関する」が原義で、「永遠」（eternal）と対照される「時間的・一時的」という意味を持つ。\n\n英語には14世紀に採用され、「時間の・一時的な・俗世間の」の意味で定着。宗教では「精神的・霊的（spiritual）」の対概念として「世俗的・俗世間の（temporal power）」を指し、文法では「時制に関する」（temporal clause）、解剖学では「側頭部の」（temporal lobe）として使われる多義語。\n\n現代英語では temporal order（時間的順序）・temporal lobe（側頭葉）・temporal power（世俗権力）のように文法・医学・宗教・哲学で幅広く使われる。",
+      derivatives: [
+        { word: "temporarily",  desc: "一時的に・仮に（副詞）" },
+        { word: "temporary",    desc: "一時的な・仮の（形容詞）" }
+      ],
+      family: [
+        { word: "temporary",    desc: "一時的な（temporarius）" },
+        { word: "contemporary", desc: "同時代の（con+tempus）" },
+        { word: "temperature",  desc: "温度（temperare）" }
+      ],
+      compounds: [
+        { phrase: "temporal order",  desc: "時間的順序" },
+        { phrase: "temporal lobe",   desc: "側頭葉（脳の部位）" },
+        { phrase: "temporal power",  desc: "世俗権力（精神権力に対して）" }
+      ]
+    },
+
+    "spatial": {
+      origin: "ラテン語 spatium（空間・広がり・距離）+ -alis（形容詞接尾辞）。「空間に関する・空間的な」が原義。space（空間）・spacious（広々とした）と同根の spatium を含む。\n\n英語には17世紀に採用され、「空間の・空間的な」の意味で定着。数学・地理学・認知科学・建築学で「空間的配置・位置関係」を指す重要な形容詞として使われ、spatial reasoning（空間推論）・spatial data（空間データ）として現代の地理情報システムでも重要。\n\n現代英語では spatial awareness（空間認識）・spatial data（空間データ）・spatial reasoning（空間的推論）のように認知科学・地理・建築の場で幅広く使われる。",
+      derivatives: [
+        { word: "spatially",  desc: "空間的に（副詞）" }
+      ],
+      family: [
+        { word: "space",     desc: "空間（spatium）" },
+        { word: "spacious",  desc: "広々とした（spatiosus）" }
+      ],
+      compounds: [
+        { phrase: "spatial awareness",   desc: "空間認識・空間把握能力" },
+        { phrase: "spatial data",        desc: "空間データ（GIS等）" },
+        { phrase: "spatial reasoning",   desc: "空間的推論" }
+      ]
+    },
+
+    "nominal": {
+      origin: "ラテン語 nominalis（名前に関する）< nomen（名前・名称）+ -alis（形容詞接尾辞）。「名前に関する・名目上の」が原義。nominate（指名する）・noun（名詞）・denomination（宗派・額面）と同根の nomen を含む。\n\n英語には15世紀に採用され、「名目上の・わずかな・名詞的な」の多義的な意味で定着。経済学では「名目価格」（nominal price）対「実質価格」（real price）・文法では「名詞的な」・航空用語では「標準的な・正常な」という意味で使われる重要な多義語。\n\n現代英語では nominal fee（名目上の料金・わずかな料金）・nominal GDP（名目GDP）・nominal value（名目価値）のように経済・法律・日常で幅広く使われる。",
+      derivatives: [
+        { word: "nominally",  desc: "名目上は・表向きは（副詞）" }
+      ],
+      family: [
+        { word: "nominate",    desc: "指名する（nomen）" },
+        { word: "noun",        desc: "名詞（nomen の転）" },
+        { word: "denomination", desc: "宗派・額面（de+nomen）" },
+        { word: "surname",     desc: "苗字（sur+nomen）" }
+      ],
+      compounds: [
+        { phrase: "nominal fee",    desc: "名目上の（わずかな）料金" },
+        { phrase: "nominal GDP",    desc: "名目GDP" },
+        { phrase: "nominal value",  desc: "名目価値・額面価格" }
+      ]
+    },
+
+    "neutral": {
+      origin: "ラテン語 neutralis（どちらでもない）< neuter（どちらでもない）< ne（否定）+ uter（どちらか一方）+ -al（形容詞接尾辞）。「どちらの側にも属さない」が原義。\n\n英語には15世紀に採用され、「中立の・偏らない・中性の」の意味で定着。政治では「中立国」（neutral nation）・化学では「pH7の中性」（neutral pH）・電気では「中性線」（neutral wire）・文法では「中性（gender）」として使われる多義語。\n\n現代英語では remain neutral（中立を保つ）・politically neutral（政治的に中立な）・neutral color（無彩色・ニュートラルカラー）のように政治・科学・日常で幅広く使われる。",
+      derivatives: [
+        { word: "neutrality",    desc: "中立性・中立（名詞）" },
+        { word: "neutralize",    desc: "中和する・無効にする（動詞）" },
+        { word: "neutrally",     desc: "中立に・公平に（副詞）" }
+      ],
+      family: [
+        { word: "neuter",   desc: "中性の・去勢する（neuter）" },
+        { word: "neither",  desc: "どちらでも〜ない（ne+uter の転）" }
+      ],
+      compounds: [
+        { phrase: "remain neutral",      desc: "中立を保つ" },
+        { phrase: "politically neutral", desc: "政治的に中立な" },
+        { phrase: "net neutrality",      desc: "ネット中立性（インターネット原則）" }
+      ]
+    },
+
+    "global": {
+      origin: "ラテン語 globus（球・丸いもの）+ -al（形容詞接尾辞）。「球（地球）に関する・地球全体の」が原義。globe（地球儀・球）と同根の globus を含む。\n\n英語には17世紀に採用され、「全地球的な・世界規模の」の意味で定着。20世紀後半のグローバル化（globalization）の波とともに国際政治・経済・文化の最重要キーワードとなり、現代では global warming（地球温暖化）・global economy（世界経済）のように幅広く使われる。\n\n現代英語では global warming（地球温暖化）・global economy（世界経済）・think globally（地球規模で考える）のように環境・経済・政治で必須の語彙。",
+      derivatives: [
+        { word: "globally",        desc: "地球規模で・世界的に（副詞）" },
+        { word: "globalization",   desc: "グローバル化（名詞）" },
+        { word: "globalize",       desc: "グローバル化する（動詞）" }
+      ],
+      family: [
+        { word: "globe",     desc: "地球儀・球（globus）" },
+        { word: "globular",  desc: "球形の（globulus）" }
+      ],
+      compounds: [
+        { phrase: "global warming",    desc: "地球温暖化" },
+        { phrase: "global economy",    desc: "世界経済" },
+        { phrase: "global village",    desc: "地球村（マクルーハンの概念）" }
+      ]
+    },
+
+    "digital": {
+      origin: "ラテン語 digitalis（指に関する）< digitus（指・足の指）+ -al（形容詞接尾辞）。「指に関する」が原義。古代の計算は指（digitus）を使ったことから、「数字」→「データを数値で表す」の意味が生まれた。\n\n英語には17世紀に「指の」の意味で採用され、20世紀にコンピュータ技術で「数字・データで表されるアナログ対立概念」として重要語となった。デジタル革命（digital revolution）・デジタルトランスフォーメーション（DX）とともに現代の最重要語の一つ。\n\n現代英語では digital transformation（デジタル変革）・digital divide（デジタル格差）・digital literacy（デジタルリテラシー）のように技術・社会・教育で不可欠な語彙。",
+      derivatives: [
+        { word: "digitally",   desc: "デジタルで・数値的に（副詞）" },
+        { word: "digitize",    desc: "デジタル化する（動詞）" },
+        { word: "digitization", desc: "デジタル化（名詞）" }
+      ],
+      family: [
+        { word: "digit",    desc: "数字・指（digitus）" },
+        { word: "prestige", desc: "名声（prae+digitare の転）" }
+      ],
+      compounds: [
+        { phrase: "digital transformation", desc: "デジタル変革（DX）" },
+        { phrase: "digital divide",         desc: "デジタル格差" },
+        { phrase: "digital literacy",       desc: "デジタルリテラシー" }
+      ]
+    },
+
+    "biological": {
+      origin: "ギリシャ語 bios（命・生き方）+ logos（言葉・学問）+ -ikos（形容詞）+ -al（英語形容詞接尾辞）。「生命に関する学問の」が原義。biography（伝記）・biosphere（生物圏）と同根の bios を含む。\n\n英語には19世紀に採用され、「生物の・生物学的な」の意味で定着。生物学（biology）の発展とともに科学の核心語となり、現代では biological diversity（生物多様性）・biological clock（体内時計）・biological warfare（生物兵器）など多様な文脈で使われる。\n\n現代英語では biological diversity（生物多様性）・biological clock（体内時計・生物時計）・biological parents（生みの親）のように科学・日常・医療で幅広く使われる。",
+      derivatives: [
+        { word: "biologically",  desc: "生物学的に（副詞）" },
+        { word: "biology",       desc: "生物学（bios+logos）" }
+      ],
+      family: [
+        { word: "biography",  desc: "伝記（bios+graphia）" },
+        { word: "biosphere",  desc: "生物圏（bios+sphaira）" },
+        { word: "antibiotic", desc: "抗生物質（anti+bios）" }
+      ],
+      compounds: [
+        { phrase: "biological diversity",  desc: "生物多様性" },
+        { phrase: "biological clock",      desc: "体内時計・生物時計" },
+        { phrase: "biological parents",    desc: "生みの親・実親" }
+      ]
+    },
+
+    "individual": {
+      origin: "ラテン語 individuus（分割できない）< in-（否定）+ dividuus（分割可能な）< dividere（分ける）+ -al（形容詞接尾辞）。「これ以上分割できない・単一の」が原義。divide（分ける）・division（分割）と同根の dividere を含む。\n\n英語には15世紀に採用され、「個人の・個別の・単一の」の形容詞と「個人」の名詞として定着。啓蒙思想・自由主義の「個人の権利と自律性」の概念の核心語として西洋政治哲学で重要な役割を果たしてきた。\n\n現代英語では individual rights（個人の権利）・individual approach（個別のアプローチ）・individual responsibility（個人の責任）のように政治・教育・法律で幅広く使われる。",
+      derivatives: [
+        { word: "individually",    desc: "個別に・それぞれ（副詞）" },
+        { word: "individualism",   desc: "個人主義（名詞）" },
+        { word: "individuality",   desc: "個性・個人性（名詞）" }
+      ],
+      family: [
+        { word: "divide",    desc: "分ける（dividere）" },
+        { word: "division",  desc: "分割・部門（divisio）" },
+        { word: "dividend",  desc: "配当金（dividere）" }
+      ],
+      compounds: [
+        { phrase: "individual rights",       desc: "個人の権利" },
+        { phrase: "individual approach",     desc: "個別のアプローチ" },
+        { phrase: "individual responsibility", desc: "個人の責任" }
+      ]
+    },
+
+    "professional": {
+      origin: "ラテン語 professio（公開の申告・職業の宣言）< profiteri（公に述べる・職業として認める）< pro-（公の場で）+ fateri（認める・告白する）+ -al（形容詞接尾辞）。「公に認められた職業の」が原義。professor（教授）・profess（公言する）と同根。\n\n英語には16世紀に採用され、「職業の・専門家の・プロの」の意味で定着。宗教では「誓願を立てた修道士」・医療では「規範に従う専門家」・スポーツでは「報酬を得てプレーする」という文脈で使われてきた。\n\n現代英語では professional development（専門能力開発）・professional ethics（職業倫理）・a true professional（本物のプロ）のように職業・教育・倫理の場で幅広く使われる。",
+      derivatives: [
+        { word: "professionally",   desc: "専門的に・職業的に（副詞）" },
+        { word: "professionalism",  desc: "プロ意識・専門性（名詞）" },
+        { word: "profession",       desc: "専門職・職業（名詞）" }
+      ],
+      family: [
+        { word: "professor",  desc: "教授・熟練者（professio）" },
+        { word: "profess",    desc: "公言する・信仰を告白する（profiteri）" },
+        { word: "confess",    desc: "告白する・懺悔する（con+fateri）" }
+      ],
+      compounds: [
+        { phrase: "professional development",  desc: "専門能力開発" },
+        { phrase: "professional ethics",       desc: "職業倫理" },
+        { phrase: "professional conduct",      desc: "職業的な行動規範" }
+      ]
+    },
+
+    "environmental": {
+      origin: "古フランス語 environner（取り囲む）< environ（周囲）< en-（中に）+ viron（周回・旋回）< virer（回る・向きを変える）+ -ment（名詞）+ -al（形容詞接尾辞）。「周囲を取り囲むものの」が原義。\n\n英語には19世紀に採用され、「環境の・環境上の」の意味で定着。20世紀後半の環境運動（1960〜70年代）とともに environmental protection（環境保護）・environmental impact（環境への影響）として政治・科学の核心語となった。\n\n現代英語では environmental protection（環境保護）・environmental impact（環境への影響）・environmental justice（環境正義）のように環境・政策・法律で不可欠な語彙。",
+      derivatives: [
+        { word: "environment",       desc: "環境（名詞）" },
+        { word: "environmentally",   desc: "環境的に・環境の観点から（副詞）" },
+        { word: "environmentalist",  desc: "環境保護活動家（名詞）" }
+      ],
+      family: [
+        { word: "environment", desc: "環境（environ+ment）" },
+        { word: "environ",     desc: "取り囲む（古フランス語）" }
+      ],
+      compounds: [
+        { phrase: "environmental protection",  desc: "環境保護" },
+        { phrase: "environmental impact",      desc: "環境への影響" },
+        { phrase: "environmental justice",     desc: "環境正義" }
+      ]
+    },
+
+    "commercial": {
+      origin: "ラテン語 commercium（商取引・交易）< com-（共に）+ merx（商品・市場）+ -alis（形容詞接尾辞）。「商品を共に交換する」が原義。merchant（商人）・market（市場）と同根の merx を含む。\n\n英語には16世紀に採用され、「商業の・商業的な・テレビCMの」の意味で定着。当初は貿易・商業の形容詞として使われ、20世紀にラジオ・テレビの広告（commercial）を指す名詞としても使われるようになった。\n\n現代英語では commercial success（商業的成功）・commercial real estate（商業用不動産）・TV commercial（テレビCM）のようにビジネス・メディア・法律で幅広く使われる。",
+      derivatives: [
+        { word: "commercially",   desc: "商業的に・営利目的で（副詞）" },
+        { word: "commercialize",  desc: "商業化する（動詞）" },
+        { word: "commerce",       desc: "商業・貿易（名詞）" }
+      ],
+      family: [
+        { word: "merchant",    desc: "商人（mercator）" },
+        { word: "market",      desc: "市場（mercatus）" },
+        { word: "merchandise", desc: "商品（mercator）" },
+        { word: "merit",       desc: "価値・功績（merere）" }
+      ],
+      compounds: [
+        { phrase: "commercial success",      desc: "商業的成功" },
+        { phrase: "commercial real estate",  desc: "商業用不動産" },
+        { phrase: "TV commercial",           desc: "テレビCM" }
+      ]
+    },
+
+    "technological": {
+      origin: "ギリシャ語 techne（技術・工芸・art）+ logos（言葉・学問）+ -ikos（形容詞）+ -al（英語形容詞接尾辞）。「技術・工芸に関する学問の」が原義。technique（技術）・architect（建築家）と同根の techne を含む。\n\n英語には19世紀に採用され、「技術的な・テクノロジーの」の意味で定着。産業革命・情報革命・デジタル革命を経て、現代では technological innovation（技術革新）・technological advancement（技術進歩）として最重要語の一つとなっている。\n\n現代英語では technological innovation（技術革新）・technological advancement（技術進歩）・technological literacy（技術的リテラシー）のように工学・政策・教育で不可欠な語彙。",
+      derivatives: [
+        { word: "technologically",  desc: "技術的に（副詞）" },
+        { word: "technology",       desc: "テクノロジー・科学技術（名詞）" }
+      ],
+      family: [
+        { word: "technique",   desc: "技術・手法（techne）" },
+        { word: "technical",   desc: "技術的な（techne）" },
+        { word: "architect",   desc: "建築家（archi+techton）" },
+        { word: "polytechnic", desc: "工科（poly+techne）" }
+      ],
+      compounds: [
+        { phrase: "technological innovation",  desc: "技術革新" },
+        { phrase: "technological advancement", desc: "技術進歩" },
+        { phrase: "cutting-edge technology",   desc: "最先端技術" }
+      ]
+    },
+
+    "analytical": {
+      origin: "ギリシャ語 analytikos（解析できる）< analyein（解きほぐす・分解する）< ana-（上に・戻して）+ lyein（解放する・解く）+ -ikos（形容詞）+ -al（英語接尾辞）。「分解して調べる」が原義。analyze（分析する）・catalyst（触媒）と同根の lyein を含む。\n\n英語には17世紀に採用され、「分析的な・解析的な・論理的に分解する」の意味で定着。数学（analytic geometry：解析幾何学）・哲学（analytic philosophy：分析哲学）・心理学（psychoanalytic：精神分析的）など多様な学問分野で使われる重要な形容詞。\n\n現代英語では analytical thinking（分析的思考）・analytical skill（分析能力）・analytical chemistry（分析化学）のように学術・ビジネス・科学で幅広く使われる。",
+      derivatives: [
+        { word: "analytically",  desc: "分析的に・解析的に（副詞）" },
+        { word: "analytics",     desc: "分析学・データ分析（名詞）" }
+      ],
+      family: [
+        { word: "analyze",    desc: "分析する（ana+lyein）" },
+        { word: "paralyze",   desc: "麻痺させる（para+lyein）" },
+        { word: "catalyst",   desc: "触媒（kata+lyein）" }
+      ],
+      compounds: [
+        { phrase: "analytical thinking", desc: "分析的思考" },
+        { phrase: "analytical skill",    desc: "分析能力" },
+        { phrase: "data analytics",      desc: "データ分析・データサイエンス" }
+      ]
+    },
+
+    "theoretical": {
+      origin: "ギリシャ語 theoretikos（観察する・思索する）< theorein（観察する・熟考する）< thea（見ること）+ horan（見る）+ -ikos（形容詞）+ -al（英語接尾辞）。「観察・思索に基づく」が原義。theory（理論）・theater（劇場）と同根の thea を含む。\n\n英語には17世紀に採用され、「理論上の・理論的な・実践でなく理論に基づく」の意味で定着。科学・哲学・教育の文脈で「仮説・抽象的な枠組みに基づく」という意味で、practical（実践的）と対照的に使われる重要な概念語。\n\n現代英語では theoretical framework（理論的枠組み）・theoretical physics（理論物理学）・in theory（理論上は）のように学術・科学・哲学で幅広く使われる。",
+      derivatives: [
+        { word: "theoretically",  desc: "理論的には・理論上（副詞）" },
+        { word: "theorist",       desc: "理論家（名詞）" },
+        { word: "theory",         desc: "理論・学説（名詞）" }
+      ],
+      family: [
+        { word: "theory",    desc: "理論（theoria）" },
+        { word: "theater",   desc: "劇場（theatron）" },
+        { word: "theology",  desc: "神学（theos+logos）" }
+      ],
+      compounds: [
+        { phrase: "theoretical framework",  desc: "理論的枠組み" },
+        { phrase: "theoretical physics",    desc: "理論物理学" },
+        { phrase: "in theory",              desc: "理論上は・理屈では" }
+      ]
+    },
+
+    "practical": {
+      origin: "ギリシャ語 praktikos（行動できる・実践に適した）< prattein（行う・実践する）+ -ikos（形容詞）+ -al（英語接尾辞）。「行動・実践に関する」が原義。practice（実践）・pragmatic（実用的な）と同根の prattein を含む。\n\n英語には15世紀に採用され、「実用的な・実際の・現実的な」の意味で定着。theoretical（理論的）の対義語として機能し、practical application（実際の応用）・practical skills（実践的スキル）のように「現実の場で役立つ」という含意を持つ語として幅広く使われる。\n\n現代英語では practical skills（実践的スキル）・in practice（実際には）・practical advice（実用的なアドバイス）のような学術・職業・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "practically",  desc: "実際的に・ほぼ（副詞）" },
+        { word: "practicality", desc: "実用性・現実性（名詞）" },
+        { word: "impractical",  desc: "非現実的な・実用的でない（形容詞）" }
+      ],
+      family: [
+        { word: "practice",  desc: "練習・実践（praxis）" },
+        { word: "pragmatic", desc: "実用主義の（pragma）" },
+        { word: "malpractice", desc: "医療過誤・不正行為（mal+practice）" }
+      ],
+      compounds: [
+        { phrase: "practical skills",    desc: "実践的スキル" },
+        { phrase: "practical advice",    desc: "実用的なアドバイス" },
+        { phrase: "in practice",         desc: "実際には・実践では" }
+      ]
+    },
+
+    "geographical": {
+      origin: "ギリシャ語 geographia（地球の記述）< ge（地球・大地）+ graphein（書く・描く）+ -ikos（形容詞）+ -al（英語接尾辞）。「地球を記述する学問の」が原義。geometry（幾何学）・geology（地質学）と同根の ge を含む。\n\n英語には16世紀に採用され、「地理的な・地理の」の意味で定着。地理学・国際関係・ビジネスで「特定の地域・場所に関わる」という意味で広く使われ、geographical location（地理的位置）・geographical diversity（地域的多様性）のように重要な形容詞として機能する。\n\n現代英語では geographical location（地理的位置）・geographical diversity（地域的多様性）・geographical boundaries（地理的境界）のように地理・国際関係・ビジネスで幅広く使われる。",
+      derivatives: [
+        { word: "geographically",  desc: "地理的に（副詞）" },
+        { word: "geography",       desc: "地理学（名詞）" },
+        { word: "geographer",      desc: "地理学者（名詞）" }
+      ],
+      family: [
+        { word: "geometry",   desc: "幾何学（ge+metria）" },
+        { word: "geology",    desc: "地質学（ge+logos）" },
+        { word: "geopolitics", desc: "地政学（ge+polis）" }
+      ],
+      compounds: [
+        { phrase: "geographical location",  desc: "地理的位置" },
+        { phrase: "geographical diversity", desc: "地域的多様性" },
+        { phrase: "geopolitical boundaries", desc: "地政学的境界" }
+      ]
     }
 
   };

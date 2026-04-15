@@ -14512,6 +14512,474 @@
         { phrase: "profound knowledge",  desc: "深い知識" },
         { phrase: "profound changes",    desc: "根本的な変化" }
       ]
+    },
+
+    // ── Batch 31 ──────────────────────────────────────────────────────────
+
+    // trib系
+    "tribute": {
+      origin: "ラテン語 tributum（部族への支払い・貢ぎ物）< tribuere（分け与える・部族に割り当てる）< tribus（部族）。「部族への割り当てとして支払うもの」という字義から「貢物・賛辞・賛意の表現」という意味が発展した。\n\n13世紀にフランス語 tribute を経て英語に入り、tribute（貢物・賛辞・敬意の表れ）として定着。古代では「支配者への定期的な支払い」を指したが、現代では「故人や偉業への賞賛・感謝の言葉・行為」という意味が主流。\n\n現代英語では pay tribute to（～に敬意を表する）・a tribute concert（トリビュートコンサート）・a fitting tribute（ふさわしい賛辞）のように使われ、\"tribute band\"（特定のバンドの曲だけを演奏するバンド）という現代的な用法もある。",
+      derivatives: [
+        { word: "tributary",  desc: "支流・朝貢の（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "attribute",    desc: "帰する・特性（ad-+tribuere）" },
+        { word: "contribute",   desc: "貢献する（con-+tribuere）" },
+        { word: "distribute",   desc: "分配する（dis-+tribuere）" },
+        { word: "retribution",  desc: "報い・天罰（re-+tribuere）" }
+      ],
+      compounds: [
+        { phrase: "pay tribute to",   desc: "～に敬意を表する" },
+        { phrase: "tribute concert",  desc: "トリビュートコンサート" },
+        { phrase: "as a tribute",     desc: "敬意の表れとして" }
+      ]
+    },
+
+    "attribute": {
+      origin: "ラテン語 attributum（割り当てられたもの）< attribuere（割り当てる）< ad-（～に）+ tribuere（与える・割り当てる）< tribus（部族）。「特定のものに割り当てられた特性」という字義から「帰する・特性・属性」という意味が発展した。\n\n14世紀にフランス語 attribut を経て英語に入り、attribute（帰する・特性・属性）として定着。動詞「～に帰する・原因とする（attribute success to hard work）」と名詞「特性・属性（positive attributes）」の両用法がある。\n\n現代英語では attribute A to B（A の原因を B に帰する）・personal attributes（個人の資質）・attribute-based access control（属性に基づくアクセス制御、IT）のように使われる多用途な語。",
+      derivatives: [
+        { word: "attribution",   desc: "帰属・帰因（名詞）" },
+        { word: "attributable",  desc: "～に帰することができる（形容詞）" }
+      ],
+      family: [
+        { word: "tribute",      desc: "貢物・賛辞（tribuere）" },
+        { word: "contribute",   desc: "貢献する（con-）" },
+        { word: "distribute",   desc: "分配する（dis-）" },
+        { word: "retribution",  desc: "報い（re-）" }
+      ],
+      compounds: [
+        { phrase: "attribute to",       desc: "～に帰する・原因を求める" },
+        { phrase: "personal attributes",desc: "個人の特性・資質" },
+        { phrase: "key attribute",      desc: "主要な特性" }
+      ]
+    },
+
+    "contribute": {
+      origin: "ラテン語 contribuere（共に与える・集めて寄付する）< con-（共に）+ tribuere（与える・割り当てる）< tribus（部族）。「みんなで共に与え合う」という字義から「貢献する・寄付する・一因となる」という意味が発展した。\n\n14世紀に英語に入り、contribute（貢献する・寄付する・投稿する）として定着。金銭的な「寄付」、時間・労力の「貢献」、雑誌への「投稿」、そして結果への「一因となる（contribute to）」という多様な意味をもつ。\n\n現代英語では contribute to a project（プロジェクトに貢献する）・make a contribution（貢献する・寄付する）・contribute an article（記事を投稿する）のように日常・社会・学術の文脈で頻出する重要語。",
+      derivatives: [
+        { word: "contribution",  desc: "貢献・寄付・投稿（名詞）" },
+        { word: "contributor",   desc: "貢献者・寄付者・投稿者（名詞）" }
+      ],
+      family: [
+        { word: "tribute",    desc: "貢物・賛辞（tribuere）" },
+        { word: "attribute",  desc: "帰する・特性（ad-）" },
+        { word: "distribute", desc: "分配する（dis-）" }
+      ],
+      compounds: [
+        { phrase: "contribute to",        desc: "～に貢献する・一因となる" },
+        { phrase: "make a contribution",  desc: "貢献する・寄付する" },
+        { phrase: "key contributor",      desc: "主要な貢献者" }
+      ]
+    },
+
+    "distribute": {
+      origin: "ラテン語 distribuere（分けて与える・分配する）< dis-（離れて）+ tribuere（与える・割り当てる）< tribus（部族）。「それぞれに分けて割り当てる」という字義から「配布する・流通させる・分散させる」という意味が発展した。\n\n14世紀に英語に入り、distribute（分配する・配布する・流通させる）として定着。商業では「商品の流通・配送」として、コンピュータ科学では「分散処理（distributed system）」として、統計では「分布（distribution）」として重要な語。\n\n現代英語では distribute leaflets（チラシを配る）・income distribution（所得分配）・distributed computing（分散コンピューティング）のように多様な文脈で使われる。",
+      derivatives: [
+        { word: "distribution",  desc: "分配・流通・分布（名詞）" },
+        { word: "distributor",   desc: "配給業者・ディストリビューター（名詞）" }
+      ],
+      family: [
+        { word: "tribute",     desc: "貢物・賛辞（tribuere）" },
+        { word: "attribute",   desc: "帰する・特性（ad-）" },
+        { word: "contribute",  desc: "貢献する（con-）" }
+      ],
+      compounds: [
+        { phrase: "income distribution",     desc: "所得分配" },
+        { phrase: "distributed system",      desc: "分散システム（IT）" },
+        { phrase: "distribution channel",    desc: "流通チャンネル" }
+      ]
+    },
+
+    "retribution": {
+      origin: "ラテン語 retributio（取り戻すこと・報い）< retribuere（返し与える・報いる）< re-（戻して）+ tribuere（与える）。「行った行為に応じて返し与えられるもの」という字義で、特に「悪に対する応報・天罰」を意味する。\n\n14世紀に英語に入り、retribution（応報・天罰・報復）として定着。宗教的には「神による応報」、法律・道徳的には「行為への相応の制裁」として使われる。現代では「正義の名による報復」という意味で頻出。\n\n現代英語では fear retribution（応報を恐れる）・retributive justice（応報的正義）・divine retribution（天罰）のように使われ、revenge（個人的な復讐）と区別されるやや格式高い語として機能する。",
+      derivatives: [
+        { word: "retributive",  desc: "応報的な（形容詞）" }
+      ],
+      family: [
+        { word: "tribute",    desc: "貢物・賛辞（tribuere）" },
+        { word: "attribute",  desc: "帰する（ad-）" },
+        { word: "contribute", desc: "貢献する（con-）" },
+        { word: "distribute", desc: "分配する（dis-）" }
+      ],
+      compounds: [
+        { phrase: "divine retribution",    desc: "天罰" },
+        { phrase: "retributive justice",   desc: "応報的正義" },
+        { phrase: "fear retribution",      desc: "応報・報復を恐れる" }
+      ]
+    },
+
+    // termin系
+    "determine": {
+      origin: "ラテン語 determinare（境界を定める・決定する）< de-（完全に）+ terminare（境界を決める）< terminus（終わり・境界）。「境界を完全に決めてしまう」という字義から「決める・断定する・決意する」という意味が発展した。\n\n13世紀にフランス語 determiner を経て英語に入り、determine（決定する・判明する・決意する）として定着。科学的な「特定・測定（determine the cause）」、意思的な「決意する（be determined to）」、法律的な「裁定する」という三つの主要な意味をもつ。\n\n現代英語では determined（断固とした）という形容詞が特に頻出し、\"She was determined to succeed\"（彼女は成功を固く決意していた）のように使われる。",
+      derivatives: [
+        { word: "determination",  desc: "決意・決定・測定（名詞）" },
+        { word: "determined",     desc: "断固とした・決意した（形容詞）" },
+        { word: "indeterminate",  desc: "不確定な（形容詞）" }
+      ],
+      family: [
+        { word: "terminate",    desc: "終わらせる（terminate）" },
+        { word: "terminal",     desc: "末期の・ターミナル（terminus）" },
+        { word: "exterminate",  desc: "根絶する（ex-）" }
+      ],
+      compounds: [
+        { phrase: "be determined to",  desc: "～しようと決意する" },
+        { phrase: "determine the cause",desc: "原因を突き止める" },
+        { phrase: "self-determination", desc: "自決・自己決定" }
+      ]
+    },
+
+    "terminate": {
+      origin: "ラテン語 terminare（境界を決める・終わらせる）< terminus（終わり・境界標）。「境界点で終わりにする」という字義から「終了する・契約を打ち切る・解雇する」という意味が発展した。\n\n15世紀に英語に入り、terminate（終了させる・終わる）として定着。契約・雇用・妊娠・コンピュータプログラムの「終了」に幅広く使われるが、特に雇用関係の「解雇（terminate someone's employment）」という用法が重要。\n\n現代英語では terminate a contract（契約を終了する）・terminate an employee（従業員を解雇する）・terminate a pregnancy（妊娠を中絶する）のような文脈で使われ、SF では \"The Terminator\"（ターミネーター）として広く知られる語。",
+      derivatives: [
+        { word: "termination",  desc: "終了・解雇・解約（名詞）" },
+        { word: "terminal",     desc: "末期の・ターミナル（形容詞・名詞）" }
+      ],
+      family: [
+        { word: "determine",    desc: "決定する（de-）" },
+        { word: "exterminate",  desc: "根絶する（ex-）" },
+        { word: "term",         desc: "用語・期間・条件（terminus）" }
+      ],
+      compounds: [
+        { phrase: "terminate a contract", desc: "契約を終了する" },
+        { phrase: "termination letter",   desc: "解雇通知書" },
+        { phrase: "terminal illness",     desc: "末期疾患" }
+      ]
+    },
+
+    "exterminate": {
+      origin: "ラテン語 exterminare（境界の外に追い払う・根絶する）< ex-（外に）+ terminus（境界）+ -are（動詞語尾）。「境界の外に追いやって完全に排除する」という字義から「根絶する・絶滅させる」という意味が発展した。\n\n15世紀に英語に入り、exterminate（根絶する・絶滅させる）として定着。害虫駆除・民族・種の「根絶」という意味で使われ、genocide（ジェノサイド）の文脈でも登場する重い語。\n\n現代英語では exterminate pests（害虫を駆除する）・exterminate a population（人口を絶滅させる）のように使われ、英国の SF 番組 \"Doctor Who\" の悪役ダーレクのセリフ \"Exterminate!\" でも有名。",
+      derivatives: [
+        { word: "extermination",  desc: "根絶・殲滅（名詞）" },
+        { word: "exterminator",   desc: "害虫駆除業者（名詞）" }
+      ],
+      family: [
+        { word: "determine",  desc: "決定する（de-）" },
+        { word: "terminate",  desc: "終了させる（terminus）" },
+        { word: "terminal",   desc: "末期の（terminus）" }
+      ],
+      compounds: [
+        { phrase: "exterminate pests",    desc: "害虫を駆除する" },
+        { phrase: "extermination camp",   desc: "絶滅収容所" },
+        { phrase: "pest exterminator",    desc: "害虫駆除業者" }
+      ]
+    },
+
+    // grad系残り
+    "gradual": {
+      origin: "ラテン語 gradualis（段階に関する）< gradus（段・一歩・階段）< gradi（歩く）。「一歩一歩段階を踏んでいる」という字義から「徐々に・段階的な」という意味が発展した。grade・graduate・degrade などと同根。\n\n15世紀に英語に入り、gradual（段階的な・徐々の）として定着。sudden・abrupt（突然の）の反義語として、ゆっくりとした変化・発展・悪化を表す形容詞として幅広く使われる。\n\n現代英語では a gradual improvement（徐々の改善）・gradual change（段階的な変化）・gradually increase（徐々に増加する）のように使われ、\"gradually\"（徐々に）という副詞形が特に頻出する。",
+      derivatives: [
+        { word: "gradually",  desc: "徐々に・段階的に（副詞）" }
+      ],
+      family: [
+        { word: "grade",      desc: "段階・成績（gradus）" },
+        { word: "graduate",   desc: "卒業する（gradus）" },
+        { word: "degrade",    desc: "格下げする（de-+gradus）" },
+        { word: "upgrade",    desc: "格上げする（up+gradus）" }
+      ],
+      compounds: [
+        { phrase: "gradual change",       desc: "段階的な変化" },
+        { phrase: "gradual improvement",  desc: "徐々の改善" },
+        { phrase: "gradual decline",      desc: "漸進的な低下" }
+      ]
+    },
+
+    "degrade": {
+      origin: "ラテン語 degradare（等級を下げる）< de-（下に）+ gradus（段・等級）< gradi（歩く）。「階段を下りる・等級を下げる」という字義から「品位を落とす・劣化させる・分解する」という意味が発展した。\n\n14世紀に英語に入り、degrade（品位を落とす・格下げする・劣化する）として定着。人の「品位・尊厳を傷つける（degrade someone）」、物質の「化学的劣化・分解（biodegrade）」、職位の「格下げ（demote / degrade in rank）」という三文脈で使われる多義語。\n\n現代英語では degrading treatment（品位を傷つける扱い）・biodegrade（生物分解する）・degrade the quality（品質を低下させる）のように使われる。biodegradable（生物分解可能な）という形容詞は環境の文脈で最重要語の一つ。",
+      derivatives: [
+        { word: "degradation",    desc: "劣化・品位の低下・分解（名詞）" },
+        { word: "degrading",      desc: "品位を傷つける（形容詞）" },
+        { word: "biodegradable",  desc: "生物分解可能な（形容詞）" }
+      ],
+      family: [
+        { word: "grade",    desc: "段階・等級（gradus）" },
+        { word: "gradual",  desc: "段階的な（gradus）" },
+        { word: "upgrade",  desc: "格上げする（up+gradus）" }
+      ],
+      compounds: [
+        { phrase: "degrading treatment",  desc: "品位を傷つける扱い" },
+        { phrase: "soil degradation",     desc: "土壌劣化" },
+        { phrase: "biodegradable waste",  desc: "生物分解可能な廃棄物" }
+      ]
+    },
+
+    // tain/ten系残り
+    "attain": {
+      origin: "ラテン語 attingere（接触する・到達する）< ad-（～に）+ tangere（触れる）。tangere は「触れる」を意味し、tangible・contact・contagious などと同根。「目標に触れる・到達する」という字義から「達成する・獲得する」という意味が発展した。\n\n13世紀にフランス語 ataindre を経て英語に入り、attain（達成する・到達する）として定着。achieve と近い意味だが、attain は「高い目標・理想に到達する」というニュアンスが強い格調高い語。\n\n現代英語では attain a goal（目標を達成する）・attain perfection（完璧に達する）・attain the age of（～歳に達する）のように使われ、attainment（達成・獲得）という名詞形も重要。educational attainment（学力・学歴）は教育政策の重要語。",
+      derivatives: [
+        { word: "attainment",   desc: "達成・習得・学歴（名詞）" },
+        { word: "attainable",   desc: "達成可能な（形容詞）" },
+        { word: "unattainable", desc: "達成不可能な（形容詞）" }
+      ],
+      family: [
+        { word: "contain",  desc: "含む（con-+tenere）" },
+        { word: "retain",   desc: "保つ（re-+tenere）" },
+        { word: "obtain",   desc: "得る（ob-+tenere）" },
+        { word: "tangible", desc: "触れられる（tangere）" }
+      ],
+      compounds: [
+        { phrase: "attain a goal",          desc: "目標を達成する" },
+        { phrase: "educational attainment", desc: "学力・学歴" },
+        { phrase: "attain perfection",      desc: "完璧に達する" }
+      ]
+    },
+
+    // pel/puls系残り
+    "propel": {
+      origin: "ラテン語 propellere（前に押す・推進する）< pro-（前に）+ pellere（押す・駆り立てる）。「前方に押し出す」という字義から「推進する・動かす・駆り立てる」という意味が発展した。compel・expel・repel などと同根。\n\n16世紀に英語に入り、propel（推進する・前進させる）として定着。物理的な「推進（propel a boat）」と比喩的な「駆り立てる（propelled by ambition）」の両方で使われる。propeller（プロペラ）という重要な派生語をもつ。\n\n現代英語では propel a rocket（ロケットを推進する）・propelled by curiosity（好奇心に駆られた）・jet-propelled（ジェット推進の）のように使われ、「propelled by」という形で動機・力の表現に頻出する語。",
+      derivatives: [
+        { word: "propeller",   desc: "プロペラ・推進器（名詞）" },
+        { word: "propulsion",  desc: "推進・推進力（名詞）" }
+      ],
+      family: [
+        { word: "compel",  desc: "強いる（com-）" },
+        { word: "expel",   desc: "追放する（ex-）" },
+        { word: "repel",   desc: "跳ね返す（re-）" },
+        { word: "impulse", desc: "衝動（in-+puls）" }
+      ],
+      compounds: [
+        { phrase: "propel forward",     desc: "前進させる・推進する" },
+        { phrase: "jet-propelled",      desc: "ジェット推進の" },
+        { phrase: "propelled by ambition",desc: "野心に駆られた" }
+      ]
+    },
+
+    "dispel": {
+      origin: "ラテン語 dispellere（散らす・追い払う）< dis-（離れて・ばらばらに）+ pellere（押す・駆り立てる）。「ばらばらにして追い払う」という字義から「（疑い・恐怖・霧などを）払拭する」という意味が発展した。\n\n14世紀に英語に入り、dispel（払拭する・一掃する）として定着。疑い・不安・誤解・霧・暗闇など「漂っているもの」を「ばらばらに追い散らす」という意味で使われる。\n\n現代英語では dispel a myth（誤解を払拭する）・dispel fears（恐怖を払拭する）・dispel rumors（デマを一掃する）のように使われる。\"dispel the myth that\"（～という俗説を否定する）という表現が科学的説明でよく登場する。",
+      derivatives: [
+        { word: "dispellable",  desc: "払拭できる（形容詞）" }
+      ],
+      family: [
+        { word: "propel",  desc: "推進する（pro-）" },
+        { word: "compel",  desc: "強いる（com-）" },
+        { word: "expel",   desc: "追放する（ex-）" },
+        { word: "repel",   desc: "跳ね返す（re-）" }
+      ],
+      compounds: [
+        { phrase: "dispel a myth",    desc: "俗説・誤解を払拭する" },
+        { phrase: "dispel fears",     desc: "恐怖を払拭する" },
+        { phrase: "dispel rumors",    desc: "デマを一掃する" }
+      ]
+    },
+
+    // sist系残り
+    "exist": {
+      origin: "ラテン語 existere（外に出て立つ・現れる）< ex-（外に）+ sistere（立つ・止まる）。「外に出て明確に立っている・存在が明らかである」という字義から「存在する・実在する」という意味が発展した。\n\n13世紀に英語に入り、exist（存在する・生きている・実在する）として定着。哲学では「存在（existence）」の問題が中核で、デカルトの \"Cogito, ergo sum\"（我思う、ゆえに我あり）は存在の証明として有名。\n\n現代英語では do unicorns exist?（ユニコーンは存在するか）・barely exist（かろうじて生存する）・existential crisis（実存的危機）のように使われ、existentialism（実存主義）という哲学流派の名称にもなっている。",
+      derivatives: [
+        { word: "existence",    desc: "存在・実在（名詞）" },
+        { word: "existing",     desc: "現存する・既存の（形容詞）" },
+        { word: "existential",  desc: "存在の・実存的な（形容詞）" }
+      ],
+      family: [
+        { word: "assist",   desc: "援助する（ad-+sistere）" },
+        { word: "insist",   desc: "主張する（in-+sistere）" },
+        { word: "persist",  desc: "粘り強く続ける（per-+sistere）" },
+        { word: "resist",   desc: "抵抗する（re-+sistere）" }
+      ],
+      compounds: [
+        { phrase: "come into existence",  desc: "存在するようになる・誕生する" },
+        { phrase: "existential crisis",   desc: "実存的危機" },
+        { phrase: "cease to exist",       desc: "存在しなくなる・消滅する" }
+      ]
+    },
+
+    "subsist": {
+      origin: "ラテン語 subsistere（下で立つ・持ちこたえる）< sub-（下に・下から）+ sistere（立つ・止まる）。「下から支えられて何とか持ちこたえる」という字義から「生き延びる・細々と存在する」という意味が発展した。\n\n15世紀に英語に入り、subsist（生き延びる・細々と生活する）として定着。「かろうじて生存する」という意味が中心で、subsist on（～で生きながらえる）という形が特に多い。subsistence（生存・最低限の生活）という名詞形が重要。\n\n現代英語では subsist on minimal food（わずかな食料で生き延びる）・subsistence farming（自給農業）・subsistence wage（最低賃金・生活保障賃金）のように経済学・社会政策の文脈で重要な語族を形成する。",
+      derivatives: [
+        { word: "subsistence",   desc: "生存・最低限の生活（名詞）" },
+        { word: "subsistence-level",desc: "生存ギリギリの（形容詞）" }
+      ],
+      family: [
+        { word: "exist",    desc: "存在する（ex-+sistere）" },
+        { word: "insist",   desc: "主張する（in-）" },
+        { word: "persist",  desc: "粘り強く続ける（per-）" },
+        { word: "resist",   desc: "抵抗する（re-）" }
+      ],
+      compounds: [
+        { phrase: "subsistence farming",  desc: "自給農業" },
+        { phrase: "subsistence wage",     desc: "生存賃金・最低生活賃金" },
+        { phrase: "subsist on",           desc: "～で生き延びる" }
+      ]
+    },
+
+    // hend/prehend系
+    "comprehend": {
+      origin: "ラテン語 comprehendere（完全に掴む・理解する）< com-（完全に）+ prehendere（掴む・捕まえる）。「知識・意味を完全に掴み取る」という字義から「理解する・把握する」という意味が発展した。また「包含する」という意味でも使われる。\n\n13世紀にフランス語 comprendre を経て英語に入り、comprehend（理解する・包含する）として定着。understand より格調高い語で、「内容を完全に把握・理解する」という意味。comprehension（理解力・読解）という名詞形が英語テストで重要。\n\n現代英語では difficult to comprehend（理解しにくい）・comprehend the situation（状況を把握する）・reading comprehension（読解力）のように使われ、comprehensive（包括的な）という重要な形容詞と語族を形成する。",
+      derivatives: [
+        { word: "comprehension",   desc: "理解・把握・読解（名詞）" },
+        { word: "comprehensive",   desc: "包括的な・総合的な（形容詞）" },
+        { word: "incomprehensible",desc: "理解不可能な（形容詞）" }
+      ],
+      family: [
+        { word: "apprehend",  desc: "逮捕する・理解する（ap-）" },
+        { word: "prehensile", desc: "ものを掴める（prehendere）" }
+      ],
+      compounds: [
+        { phrase: "reading comprehension",  desc: "読解力" },
+        { phrase: "comprehensive plan",     desc: "包括的な計画" },
+        { phrase: "beyond comprehension",   desc: "理解を超えた" }
+      ]
+    },
+
+    "apprehend": {
+      origin: "ラテン語 apprehendere（引き寄せて掴む）< ad-（～に向けて）+ prehendere（掴む・捕まえる）。「引き寄せて捕まえる」という字義から「逮捕する・理解する・不安に思う」という三つの意味が発展した。\n\n14世紀に英語に入り、apprehend（逮捕する・理解する・懸念する）として定着。法律では「犯人を逮捕する」、認知では「理解する」、感情では「不安を感じる」という三意で使われる珍しい多義語。\n\n現代英語では apprehend a suspect（容疑者を逮捕する）・apprehend the danger（危険を察知する）・feel apprehensive（不安を感じる）のように使われ、apprehensive（不安な）という形容詞が日常でよく使われる。",
+      derivatives: [
+        { word: "apprehension",   desc: "逮捕・理解・不安（名詞）" },
+        { word: "apprehensive",   desc: "不安な・心配している（形容詞）" }
+      ],
+      family: [
+        { word: "comprehend",  desc: "理解する・包含する（com-）" },
+        { word: "prehensile",  desc: "ものを掴める（prehendere）" }
+      ],
+      compounds: [
+        { phrase: "apprehend a suspect",  desc: "容疑者を逮捕する" },
+        { phrase: "feel apprehensive",    desc: "不安に感じる" },
+        { phrase: "with apprehension",    desc: "不安を抱いて" }
+      ]
+    },
+
+    // clud/clos系残り
+    "disclose": {
+      origin: "ラテン語 disclaudere（閉じていたものを開ける）< dis-（離れて・取り除いて）+ claudere（閉じる）。「閉じていたものを開いて明らかにする」という字義から「公開する・開示する・漏らす」という意味が発展した。\n\n14世紀に英語に入り、disclose（開示する・公開する・漏らす）として定着。法律・ビジネス・ジャーナリズムの文脈で「情報を明かす・公開する」という意味で特に重要。disclosure（情報開示）という名詞形が金融・法律の重要語。\n\n現代英語では disclose information（情報を開示する）・full disclosure（完全な情報開示）・non-disclosure agreement（NDA・秘密保持契約）のように使われる。\"disclose or not to disclose\"（開示するか否か）は企業倫理の核心問題。",
+      derivatives: [
+        { word: "disclosure",     desc: "情報開示・暴露（名詞）" },
+        { word: "non-disclosure", desc: "秘密保持（名詞）" }
+      ],
+      family: [
+        { word: "close",    desc: "閉じる（claudere）" },
+        { word: "include",  desc: "含む（in-+claudere）" },
+        { word: "exclude",  desc: "除外する（ex-+claudere）" },
+        { word: "enclose",  desc: "封入する（en-+claudere）" }
+      ],
+      compounds: [
+        { phrase: "full disclosure",           desc: "完全情報開示" },
+        { phrase: "non-disclosure agreement",  desc: "秘密保持契約（NDA）" },
+        { phrase: "disclose information",      desc: "情報を開示する" }
+      ]
+    },
+
+    "enclose": {
+      origin: "ラテン語 includere（中に閉じ込める）< in-+claudere を経て、古フランス語 enclore（囲む）< en-（中に）+ claudere（閉じる）。「周囲を閉じて中に入れる・囲む」という字義から「封入する・囲む」という意味が発展した。\n\n14世紀に英語に入り、enclose（封入する・囲む）として定着。手紙に書類を「同封する（enclose a document）」、土地を「囲う（enclose a field）」という主要な意味で使われる。歴史的には「囲い込み（enclosure movement）」が英国農業史の重要な概念。\n\n現代英語では please find enclosed（同封書類をご確認ください）・enclose a garden（庭を囲む）・enclosed space（密閉された空間）のように使われる。enclosed (同封の) は手紙・メールの常套句。",
+      derivatives: [
+        { word: "enclosure",  desc: "囲い・同封書類・囲い込み（名詞）" }
+      ],
+      family: [
+        { word: "close",     desc: "閉じる（claudere）" },
+        { word: "include",   desc: "含む（in-）" },
+        { word: "exclude",   desc: "除外する（ex-）" },
+        { word: "disclose",  desc: "開示する（dis-）" }
+      ],
+      compounds: [
+        { phrase: "please find enclosed",  desc: "同封書類をご確認ください" },
+        { phrase: "enclosed space",        desc: "密閉された空間" },
+        { phrase: "enclosed area",         desc: "囲まれた区域" }
+      ]
+    },
+
+    // 重要語
+    "inevitable": {
+      origin: "ラテン語 inevitabilis（避けることができない）< in-（否定）+ evitabilis（避けられる）< evitare（避ける）< e-（離れて）+ vitare（避ける）。「どうやっても避けることができない」という字義から「不可避の・必然的な」という意味が発展した。\n\n15世紀に英語に入り、inevitable（避けられない・必然的な）として定着。歴史的変化・老化・死・結果について「どうにもならない必然性」を表す語として使われ、\"the inevitable\"（必然的なもの・避けがたい運命）という名詞的用法もある。\n\n現代英語では an inevitable conclusion（避けられない結論）・it was inevitable（それは必然だった）・delay the inevitable（必然を遅らせる）のように哲学・日常・政治の文脈で使われる重要語。",
+      derivatives: [
+        { word: "inevitably",  desc: "必然的に・不可避に（副詞）" },
+        { word: "inevitability",desc: "不可避性・必然性（名詞）" }
+      ],
+      family: [
+        { word: "avoid",   desc: "避ける（vitare）" },
+        { word: "vital",   desc: "生命の・不可欠な（vita）" },
+        { word: "evade",   desc: "回避する（e-+vadere）" }
+      ],
+      compounds: [
+        { phrase: "delay the inevitable",  desc: "必然を先延ばしにする" },
+        { phrase: "inevitable outcome",    desc: "必然的な結果" },
+        { phrase: "it was inevitable",     desc: "それは必然だった" }
+      ]
+    },
+
+    "controversial": {
+      origin: "ラテン語 controversia（論争・反論）< contro-（反対・逆に）+ versus（向いた）< vertere（向く）。「反対方向に向かって議論が展開される事柄」という字義から「論争的な・物議を醸す」という意味が発展した。\n\n17世紀に英語に入り、controversial（論争的な・物議を醸す）として定着。「どちらの立場の人にも強い意見がある」という意味で、科学・政治・倫理の文脈で重要な形容詞として機能する。\n\n現代英語では controversial decision（物議を醸す決定）・highly controversial（非常に論争的な）・controversial figure（物議を醸す人物）のように使われ、controversy（論争）という名詞形とともに政治・メディアの文脈で最頻出語の一つ。",
+      derivatives: [
+        { word: "controversy",       desc: "論争・物議（名詞）" },
+        { word: "controversially",   desc: "論争的に（副詞）" },
+        { word: "uncontroversial",   desc: "論争を招かない（形容詞）" }
+      ],
+      family: [
+        { word: "convert",    desc: "変換する（vertere）" },
+        { word: "revert",     desc: "元に戻る（re-）" },
+        { word: "divert",     desc: "転換する（di-）" },
+        { word: "subvert",    desc: "転覆する（sub-）" }
+      ],
+      compounds: [
+        { phrase: "controversial issue",    desc: "論争的な問題" },
+        { phrase: "spark controversy",      desc: "論争を引き起こす" },
+        { phrase: "highly controversial",   desc: "非常に物議を醸す" }
+      ]
+    },
+
+    "deteriorate": {
+      origin: "ラテン語 deteriorare（悪化させる）< deterior（より悪い）< detrimentum（損害）に関連する比較級形容詞。「より悪い状態になる」という字義から「劣化する・悪化する」という意味が発展した。\n\n17世紀に英語に入り、deteriorate（劣化する・悪化する）として定着。健康・状況・関係・物質が「徐々に悪くなる」プロセスを表す語で、gradual（段階的な）変化とともに使われることが多い。\n\n現代英語では the patient's condition deteriorated（患者の状態が悪化した）・deteriorating relations（悪化する関係）・material deterioration（材料の劣化）のように医学・外交・材料科学で頻出。",
+      derivatives: [
+        { word: "deterioration",   desc: "劣化・悪化（名詞）" },
+        { word: "deteriorating",   desc: "悪化しつつある（形容詞）" }
+      ],
+      family: [
+        { word: "degrade",    desc: "格下げする・劣化する（de-）" },
+        { word: "decay",      desc: "腐る・衰える（cadere）" }
+      ],
+      compounds: [
+        { phrase: "condition deteriorated", desc: "状態が悪化した" },
+        { phrase: "prevent deterioration", desc: "劣化を防ぐ" },
+        { phrase: "rapid deterioration",   desc: "急速な悪化" }
+      ]
+    },
+
+    "negligent": {
+      origin: "ラテン語 negligens（怠慢な・無関心な）< neglegere（軽視する・怠る）< neg-（否定）+ legere（選ぶ・読む）の現在分詞。「注意を払うことを怠る」という字義から「怠慢な・不注意な」という意味が発展した。neglect と同根。\n\n14世紀に英語に入り、negligent（怠慢な・不注意な）として定着。法律では「注意義務違反（negligent behavior）」として、「故意ではないが相当の注意を怠った行為」を指す重要な法的概念。\n\n現代英語では negligent in one's duties（職務を怠る）・criminally negligent（刑事的に過失がある）・medical negligence（医療過失）のように主に法律・責任の文脈で使われる語。negligence（過失・怠慢）という名詞形が特に法律・保険分野で重要。",
+      derivatives: [
+        { word: "negligence",   desc: "過失・怠慢（名詞）" },
+        { word: "negligently",  desc: "怠慢に・不注意に（副詞）" }
+      ],
+      family: [
+        { word: "neglect",    desc: "怠る・放置する（neg-+legere）" },
+        { word: "eligible",   desc: "資格のある（legere）" },
+        { word: "select",     desc: "選ぶ（legere）" },
+        { word: "intellect",  desc: "知性（legere）" }
+      ],
+      compounds: [
+        { phrase: "medical negligence",    desc: "医療過失" },
+        { phrase: "criminal negligence",   desc: "刑事過失" },
+        { phrase: "gross negligence",      desc: "重大な過失" }
+      ]
+    },
+
+    "prosperity": {
+      origin: "ラテン語 prosperitas（繁栄・成功）< prosperus（好都合な・繁栄した）< pro-（前に・有利に）+ spes（希望）に関連する語。「前に望んだことが叶っている状態」という字義から「繁栄・富・成功」という意味が発展した。\n\n13世紀にフランス語 prosperite を経て英語に入り、prosperity（繁栄・豊かさ・成功）として定着。経済的・物質的な「豊かさ」だけでなく、全般的な「うまくいっている状態」を表す語として使われる。\n\n現代英語では economic prosperity（経済的繁栄）・peace and prosperity（平和と繁栄）・a period of prosperity（繁栄の時代）のように使われ、prosperous（繁栄した・豊かな）という形容詞とともに政治・経済の文脈で頻出する。",
+      derivatives: [
+        { word: "prosper",    desc: "繁栄する・成功する（動詞）" },
+        { word: "prosperous", desc: "繁栄した・豊かな（形容詞）" }
+      ],
+      family: [
+        { word: "prospect",  desc: "見通し・展望（pro-+specere）" }
+      ],
+      compounds: [
+        { phrase: "economic prosperity",  desc: "経済的繁栄" },
+        { phrase: "peace and prosperity", desc: "平和と繁栄" },
+        { phrase: "road to prosperity",   desc: "繁栄への道" }
+      ]
+    },
+
+    "innuendo": {
+      origin: "ラテン語 innuendo（暗示することで・つまり）< innuere（内側に向けてうなずく・暗示する）< in-（中に）+ nuere（うなずく・示す）。法律文書で「これは（名誉毀損として）意味するところ」という括弧書き注記として使われた。\n\n17世紀に英語に入り、innuendo（当てこすり・遠回しな中傷・ほのめかし）として定着。直接的に言わずに「それとなく示す」ことで相手の評判を傷つける表現手段を指し、特に性的・侮辱的なほのめかしに使われる。\n\n現代英語では sexual innuendo（性的なほのめかし）・loaded with innuendo（当てこすりに満ちた）・political innuendo（政治的な中傷）のように使われ、巧妙な言い回しで相手を貶める修辞的戦略を表す語として重要。",
+      derivatives: [
+        { word: "innuendos",  desc: "innuendo の複数形" }
+      ],
+      family: [
+        { word: "nuance",    desc: "ニュアンス・わずかな違い（nuere）" },
+        { word: "insinuate", desc: "それとなく示す・うまくもぐり込む（in-+sinuare）" }
+      ],
+      compounds: [
+        { phrase: "sexual innuendo",     desc: "性的なほのめかし" },
+        { phrase: "by innuendo",         desc: "当てこすりで・遠回しに" },
+        { phrase: "full of innuendo",    desc: "当てこすりに満ちた" }
+      ]
     }
 
   };

@@ -10717,6 +10717,482 @@
         { phrase: "turn of the century", desc: "世紀の変わり目" },
         { phrase: "century-old",        desc: "100年以上の歴史を持つ" }
       ]
+    },
+
+    // Batch 23: just/jur系・domin系・leg/loy系・prim系・clud/clus残り・curs/curr残り・culp系・mater/patri系・supreme・legislate
+
+    "justice": {
+      origin: "ラテン語 justitia（正義・公正）< justus（公正な）< jus（法・権利）。字義は「法に基づく正しさ → 正義・司法」。\n\n13世紀に英語に入り justice（正義・裁判・判事）として定着。justice system（司法制度）、social justice（社会的正義）、Justice of the Supreme Court（最高裁判事）のように使われる。miscarriage of justice（冤罪・司法の誤り）は重要な慣用表現。\n\njus 系: justify（正当化する）、jurisdiction（管轄）、jury（陪審団）、injure（傷つける）、judge（裁判官）、judicial（司法の）、unjust（不公正な）。",
+      derivatives: [
+        { word: "unjust",    desc: "不公正な・不当な（形容詞）" },
+        { word: "unjustly",  desc: "不当に（副詞）" }
+      ],
+      family: [
+        { word: "justify",      desc: "正当化する（justus + facere）" },
+        { word: "jurisdiction", desc: "管轄（jus + dicere）" },
+        { word: "jury",         desc: "陪審団（jurare）" },
+        { word: "fairness",     desc: "公平さ（fair）" }
+      ],
+      compounds: [
+        { phrase: "social justice",          desc: "社会的正義" },
+        { phrase: "miscarriage of justice",  desc: "冤罪・司法の誤り" },
+        { phrase: "justice system",          desc: "司法制度" }
+      ]
+    },
+
+    "justify": {
+      origin: "ラテン語 justificare（正当化する）< justus（公正な）+ facere（作る）。字義は「正しく作る → 正当化する・理由を示す」。\n\n15世紀に英語に入り justify（正当化する・弁明する）として定着。justify a decision（決定を正当化する）、the end justifies the means（目的は手段を正当化する）のように使われる。印刷・DTP では justify（テキストを両端揃えにする）という意味もある。\n\njus 系: justice（正義）、jurisdiction（管轄）、jury（陪審団）、injure（傷つける）。facere 系: effect（結果）、efficient（効率的な）、manufacture（製造する）。",
+      derivatives: [
+        { word: "justification",  desc: "正当化・弁明（名詞）" },
+        { word: "justified",      desc: "正当化された・正当な（形容詞）" },
+        { word: "unjustified",    desc: "正当化されていない（形容詞）" }
+      ],
+      family: [
+        { word: "justice",      desc: "正義（justus）" },
+        { word: "rationalize",  desc: "合理化する（ratio）" },
+        { word: "vindicate",    desc: "正当性を証明する（vindicare）" }
+      ],
+      compounds: [
+        { phrase: "justify a decision",   desc: "決定を正当化する" },
+        { phrase: "unjustified claim",    desc: "根拠のない主張" },
+        { phrase: "right-justify text",   desc: "テキストを右揃えにする" }
+      ]
+    },
+
+    "jurisdiction": {
+      origin: "ラテン語 jurisdictio（法の宣言・管轄権）< jus（法）+ dicere（言う・宣言する）。字義は「法を宣言する権限 → 管轄権・司法権」。\n\n15世紀に英語に入り jurisdiction（管轄権・司法管轄区域）として定着。under the jurisdiction of（～の管轄下）、fall within someone's jurisdiction（誰かの管轄に入る）のように法律・行政文書で使われる。\n\njus 系: justice（正義）、justify（正当化する）、jury（陪審団）、injure（傷つける）。dicere 系: diction（語法）、dictate（口述する）、predict（予言する）、verdict（評決）。",
+      derivatives: [
+        { word: "jurisdictional",  desc: "管轄上の（形容詞）" }
+      ],
+      family: [
+        { word: "justice",   desc: "正義・司法（justus）" },
+        { word: "justify",   desc: "正当化する（justus + facere）" },
+        { word: "authority", desc: "権威・権限（auctor）" },
+        { word: "domain",    desc: "領域・管轄（dominus）" }
+      ],
+      compounds: [
+        { phrase: "under jurisdiction",      desc: "～の管轄下にある" },
+        { phrase: "federal jurisdiction",    desc: "連邦管轄権" },
+        { phrase: "jurisdictional dispute",  desc: "管轄権紛争" }
+      ]
+    },
+
+    "jury": {
+      origin: "ラテン語 jurata（誓いを立てた者たち）< jurare（誓う）< jus（法・権利）。字義は「法の名のもとに誓った者たち → 陪審員」。\n\n14世紀に英語に入り jury（陪審団）として定着。trial by jury（陪審裁判）、jury duty（陪審義務）のように使われる。grand jury（大陪審：起訴の可否を決定する）、hung jury（評決が出ない陪審団）が重要。perjure oneself（偽証する：per- + jurare = 完全に誓いを裏切る）は同根。\n\njus 系: justice（正義）、justify（正当化する）、jurisdiction（管轄）、injure（傷つける）、perjury（偽証）。",
+      derivatives: [
+        { word: "juror",   desc: "陪審員（名詞）" },
+        { word: "jurors",  desc: "陪審員の複数形（名詞）" }
+      ],
+      family: [
+        { word: "justice",  desc: "正義・司法（justus）" },
+        { word: "judge",    desc: "裁判官（judicare）" },
+        { word: "verdict",  desc: "評決（vere dictum）" },
+        { word: "panel",    desc: "委員会・審査員グループ" }
+      ],
+      compounds: [
+        { phrase: "trial by jury",  desc: "陪審裁判" },
+        { phrase: "jury duty",      desc: "陪審義務" },
+        { phrase: "grand jury",     desc: "大陪審（起訴決定機関）" }
+      ]
+    },
+
+    "injure": {
+      origin: "ラテン語 injuria（不法・損害）< in-（否定）+ jus（法・権利）。字義は「法に反すること・不当な行為 → 傷つける」。\n\n15世紀に英語に入り injure（傷つける・侵害する）として定着。injure someone（人を傷つける）、injure one's reputation（評判を傷つける）のように使われる。injury（怪我・損傷）はスポーツ・医療・法律で頻出語。sports injury（スポーツ障害）、personal injury（身体的損害）が重要。\n\njus 系: justice（正義）、justify（正当化する）、jurisdiction（管轄）、jury（陪審団）。in-（否定）系: unjust（不公正な）、unjustified（不当な）。",
+      derivatives: [
+        { word: "injury",    desc: "怪我・損傷・損害（名詞）" },
+        { word: "injured",   desc: "怪我をした・損害を受けた（形容詞）" },
+        { word: "injurious", desc: "有害な・傷つける（形容詞）" }
+      ],
+      family: [
+        { word: "justice",  desc: "正義（justus）" },
+        { word: "harm",     desc: "害・傷（hearm）" },
+        { word: "wound",    desc: "傷・負傷（wund）" },
+        { word: "damage",   desc: "損害（damnum）" }
+      ],
+      compounds: [
+        { phrase: "injure oneself",     desc: "けがをする" },
+        { phrase: "personal injury",    desc: "身体的損害（法律）" },
+        { phrase: "injury prevention",  desc: "けが予防" }
+      ]
+    },
+
+    "dominate": {
+      origin: "ラテン語 dominari（支配する）< dominus（主人・主）。dominus は domus（家）の主人から来ており、「家の主 → 支配者」という意味。\n\n15世紀に英語に入り dominate（支配する・優位に立つ）として定着。dominate the market（市場を支配する）、dominate the conversation（会話を独占する）のように使われる。生物学では dominant species（優位な種）が生態系を支配するという意味でも使われる。\n\ndominus 系: dominant（支配的な）、dominion（支配・領土）、domain（領域）、indomitable（屈しない）。domus（家）系: domestic（家庭の）、dome（ドーム：屋根）。",
+      derivatives: [
+        { word: "dominant",    desc: "支配的な・優位な（形容詞）" },
+        { word: "dominance",   desc: "支配・優位（名詞）" },
+        { word: "domination",  desc: "支配・制圧（名詞）" }
+      ],
+      family: [
+        { word: "dominant",   desc: "支配的な（dominans）" },
+        { word: "dominion",   desc: "支配・領土（dominium）" },
+        { word: "domain",     desc: "領域（dominium）" },
+        { word: "control",    desc: "支配・制御（controlare）" }
+      ],
+      compounds: [
+        { phrase: "dominate the market",       desc: "市場を支配する" },
+        { phrase: "dominate a conversation",   desc: "会話を独占する" },
+        { phrase: "dominant position",         desc: "支配的な立場" }
+      ]
+    },
+
+    "dominant": {
+      origin: "ラテン語 dominans（支配している）< dominari（支配する）< dominus（主人）。字義は「支配している → 優位な・支配的な」。\n\n16世紀に英語に入り dominant（支配的な・優位な）として定着。dominant culture（支配的な文化）のように使われる。遺伝学では dominant allele（優性アレル）として、ある形質が現れやすい遺伝子型を指す。音楽では dominant（属音：スケールの5番目の音）という意味もある。\n\ndominus 系: dominate（支配する）、dominion（支配・領土）、domain（領域）、indomitable（屈しない）。",
+      derivatives: [
+        { word: "dominance",    desc: "支配・優位（名詞）" },
+        { word: "dominantly",   desc: "支配的に・主に（副詞）" }
+      ],
+      family: [
+        { word: "dominate",  desc: "支配する（dominari）" },
+        { word: "dominion",  desc: "支配・領土（dominium）" },
+        { word: "domain",    desc: "領域（dominium）" },
+        { word: "superior",  desc: "優れた（superus）" }
+      ],
+      compounds: [
+        { phrase: "dominant species",  desc: "優位な種（生態学）" },
+        { phrase: "dominant culture",  desc: "支配的な文化" },
+        { phrase: "market dominant",   desc: "市場支配的な" }
+      ]
+    },
+
+    "dominion": {
+      origin: "ラテン語 dominium（所有権・支配）< dominus（主人・主）。字義は「主人の権限 → 支配権・統治領域」。\n\n14世紀に英語に入り dominion（支配・領土・自治領）として定着。under the dominion of（～の支配下）、Dominion of Canada（カナダ自治領）のように使われる。英国連邦の「ドミニオン」（自治領：完全な主権を持つ独立国）は歴史的に重要な概念。\n\ndominus 系: dominate（支配する）、dominant（支配的な）、domain（領域）、indomitable（屈しない）。",
+      derivatives: [
+        { word: "dominions",  desc: "支配領域の複数形（名詞）" }
+      ],
+      family: [
+        { word: "dominate",   desc: "支配する（dominari）" },
+        { word: "domain",     desc: "領域（dominium）" },
+        { word: "territory",  desc: "領土（terra：土地）" },
+        { word: "sovereignty", desc: "主権（superanus）" }
+      ],
+      compounds: [
+        { phrase: "under the dominion of",  desc: "～の支配下に" },
+        { phrase: "British Dominion",       desc: "英国自治領" },
+        { phrase: "world dominion",         desc: "世界支配" }
+      ]
+    },
+
+    "domain": {
+      origin: "ラテン語 dominium（所有権・領地）< dominus（主人）。フランス語 domaine を経て英語に入った。字義は「主人の所有する土地 → 領域・専門分野」。\n\n15世紀に英語に入り domain（領域・専門分野・ドメイン）として定着。public domain（パブリックドメイン：著作権が消滅した領域）、domain of expertise（専門分野）、internet domain name（インターネットドメイン名）のように幅広く使われる。\n\ndominus 系: dominate（支配する）、dominant（支配的な）、dominion（支配・領土）、domestic（家庭の：domus）。",
+      derivatives: [
+        { word: "subdomain",  desc: "サブドメイン（名詞）" }
+      ],
+      family: [
+        { word: "dominate",   desc: "支配する（dominari）" },
+        { word: "dominion",   desc: "支配・領土（dominium）" },
+        { word: "territory",  desc: "領土（terra）" },
+        { word: "sphere",     desc: "領域・球（sphaera）" }
+      ],
+      compounds: [
+        { phrase: "public domain",       desc: "パブリックドメイン（著作権消滅）" },
+        { phrase: "domain name",         desc: "ドメイン名（インターネット）" },
+        { phrase: "domain of expertise", desc: "専門分野" }
+      ]
+    },
+
+    "loyal": {
+      origin: "ラテン語 legalis（法の・合法的な）< lex（法）。古フランス語 loial（法に従った・誠実な）を経て英語に入った。字義は「法に従った → 誠実な・忠実な」。\n\n16世紀に英語に入り loyal（忠実な・誠実な）として定着。loyal customer（常連客）、loyal supporter（熱心な支持者）のように使われる。法に従うことから「組織・人への誠実さ」という意味になった経緯が興味深い。\n\nlex 系: legal（法的な）、legitimate（合法的な）、legislation（立法）、loyalty（忠誠心）。royal（王の）は別語源（rex = king）なので混同注意。",
+      derivatives: [
+        { word: "loyalty",   desc: "忠誠心・誠実さ（名詞）" },
+        { word: "loyally",   desc: "忠実に（副詞）" },
+        { word: "loyalist",  desc: "忠誠派・王党派（名詞）" }
+      ],
+      family: [
+        { word: "legal",      desc: "法的な（lex）" },
+        { word: "legitimate", desc: "合法的な（legitimus）" },
+        { word: "faithful",   desc: "誠実な（fides）" },
+        { word: "devoted",    desc: "献身的な（devovere）" }
+      ],
+      compounds: [
+        { phrase: "loyal customer",  desc: "常連客・リピーター" },
+        { phrase: "loyal supporter", desc: "熱心な支持者" },
+        { phrase: "brand loyalty",   desc: "ブランドロイヤルティ" }
+      ]
+    },
+
+    "loyalty": {
+      origin: "loyal（忠実な）に名詞化接尾辞 -ty を付けた語。ラテン語 legalis（法の）< lex（法）から、古フランス語 loial（誠実な）を経て英語に入った。字義は「誠実な状態・忠誠心」。\n\n14世紀に英語に入り loyalty（忠誠心・誠実さ）として定着。brand loyalty（ブランドへの忠誠心）、loyalty program（ポイントプログラム：英）、loyalty card（ポイントカード）のように現代のマーケティングでも重要語。\n\nlex 系: loyal（忠実な）、legal（法的な）、legitimate（合法的な）。royalty（王権・印税）は別語源（rex：王）なので混同しないこと。",
+      derivatives: [
+        { word: "loyal",       desc: "忠実な（形容詞）" },
+        { word: "loyalist",    desc: "忠誠派（名詞）" },
+        { word: "disloyalty",  desc: "不誠実・背信（名詞）" }
+      ],
+      family: [
+        { word: "loyal",      desc: "忠実な（lex）" },
+        { word: "allegiance", desc: "忠誠（liege：主君）" },
+        { word: "devotion",   desc: "献身（devovere）" }
+      ],
+      compounds: [
+        { phrase: "brand loyalty",    desc: "ブランドロイヤルティ" },
+        { phrase: "loyalty card",     desc: "ポイントカード" },
+        { phrase: "customer loyalty", desc: "顧客ロイヤルティ" }
+      ]
+    },
+
+    "primary": {
+      origin: "ラテン語 primarius（第一の・主要な）< primus（最初の・第一の）。字義は「最初の → 主要な・基本的な」。\n\n15世紀に英語に入り primary（主要な・基本的な・小学校の）として定着。primary school（小学校）、primary source（一次資料）、primary election（予備選挙）のように使われる。primary colors（原色）はデザイン・美術の必須語彙。\n\nprimus 系: prime（最盛期・第一の）、primitive（原始的な）、premier（首相・第一の）、supreme（最高の）。",
+      derivatives: [
+        { word: "primarily",  desc: "主として・まず（副詞）" },
+        { word: "primacy",    desc: "第一位・首位（名詞）" }
+      ],
+      family: [
+        { word: "prime",      desc: "最高の・最盛期（primus）" },
+        { word: "primitive",  desc: "原始的な（primus）" },
+        { word: "principal",  desc: "主要な・校長（primus）" },
+        { word: "fundamental", desc: "基本的な（fundamentum）" }
+      ],
+      compounds: [
+        { phrase: "primary school",    desc: "小学校" },
+        { phrase: "primary source",    desc: "一次資料・一次文献" },
+        { phrase: "primary election",  desc: "予備選挙" }
+      ]
+    },
+
+    "prime": {
+      origin: "ラテン語 primus（最初の・最上の）。字義は「最初の・最高の」。名詞（in one's prime: 最盛期に）、形容詞（prime minister: 首相）、動詞（prime a pump: ポンプに呼び水をする）の三用がある。\n\n14世紀に英語に入り prime（最初の・最高の・最盛期）として定着。prime minister（首相）、prime time（プライムタイム：視聴率最高の時間帯）、prime number（素数：1と自身以外で割り切れない最初の種類の数）のように使われる。\n\nprimus 系: primary（主要な）、primitive（原始的な）、premier（首相・最高の）、supreme（最高の）。prima facie（一見して：ラテン語のまま英語で使われる）も重要。",
+      derivatives: [
+        { word: "primarily",  desc: "主として（副詞）" },
+        { word: "primer",     desc: "入門書・下地塗料（名詞）" },
+        { word: "primal",     desc: "原始的な・根源的な（形容詞）" },
+        { word: "premier",    desc: "首相・最高の（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "primary",    desc: "主要な（primarius）" },
+        { word: "primitive",  desc: "原始的な（primitivus）" },
+        { word: "supreme",    desc: "最高の（supremus）" }
+      ],
+      compounds: [
+        { phrase: "prime minister",  desc: "首相" },
+        { phrase: "prime time",      desc: "プライムタイム" },
+        { phrase: "prime number",    desc: "素数" }
+      ]
+    },
+
+    "primitive": {
+      origin: "ラテン語 primitivus（最初の・原始の）< primus（最初の）。字義は「最初の種類の → 原始的な・初期の」。\n\n15世紀に英語に入り primitive（原始的な・未発達な・初期の）として定着。primitive society（原始社会）、primitive instinct（原始的な本能）のように使われる。数学では primitive function（原始関数：積分の逆）として使われる。文化人類学では「原始的」という表現は現在不適切とされ、indigenous（先住民の）などが好まれる。\n\nprimus 系: primary（主要な）、prime（最高の）、premier（首相）、supreme（最高の）。",
+      derivatives: [
+        { word: "primitively",   desc: "原始的に（副詞）" },
+        { word: "primitivism",   desc: "原始主義（名詞）" }
+      ],
+      family: [
+        { word: "primary",   desc: "主要な・基本的な（primarius）" },
+        { word: "prime",     desc: "最高の・最盛期（primus）" },
+        { word: "archaic",   desc: "古風な（arkhaios）" },
+        { word: "ancient",   desc: "古代の（ante：前）" }
+      ],
+      compounds: [
+        { phrase: "primitive society",    desc: "原始社会" },
+        { phrase: "primitive technology", desc: "原始的な技術" },
+        { phrase: "primitive instinct",   desc: "原始的な本能" }
+      ]
+    },
+
+    "preclude": {
+      origin: "ラテン語 praecludere（前もって閉じる・阻む）< prae-（前に）+ claudere（閉じる）。字義は「前もって閉じておく → 妨げる・不可能にする」。\n\n16世紀に英語に入り preclude（妨げる・不可能にする・排除する）として定着。preclude the possibility（可能性を排除する）、preclude someone from doing（誰かが～するのを妨げる）のように使われる。格式ある語で、prevent より強い「完全に不可能にする」というニュアンスがある。\n\nclaudere 系: conclude（結論を出す）、include（含む）、exclude（除外する）、seclusion（隔離）。prae-（前に）系: predict（予言する）、prevent（防ぐ）、previous（以前の）。",
+      derivatives: [
+        { word: "preclusion",   desc: "排除・阻止（名詞）" },
+        { word: "preclusive",   desc: "排除する・阻止する（形容詞）" }
+      ],
+      family: [
+        { word: "prevent",    desc: "防ぐ（prae- + venire）" },
+        { word: "exclude",    desc: "除外する（ex- + claudere）" },
+        { word: "eliminate",  desc: "取り除く（e- + limen）" }
+      ],
+      compounds: [
+        { phrase: "preclude the possibility",  desc: "可能性を排除する" },
+        { phrase: "preclude access",           desc: "アクセスを阻む" },
+        { phrase: "preclude participation",    desc: "参加を妨げる" }
+      ]
+    },
+
+    "seclusion": {
+      origin: "ラテン語 seclusio（切り離す・隔離）< se-（離れて）+ claudere（閉じる）。字義は「閉じて切り離す → 隔離・孤立」。\n\n17世紀に英語に入り seclusion（孤立・隠遁・孤独）として定着。live in seclusion（隠遁生活を送る）、in the seclusion of one's home（自宅の静かな孤独の中で）のように使われる。secluded（人里離れた・隠れた）が形容詞として重要。\n\nclaudere 系: conclude（結論を出す）、include（含む）、exclude（除外する）、preclude（妨げる）。se-（離れて）系: separate（分ける）、secrete（分泌する）、segregate（分離する）。",
+      derivatives: [
+        { word: "secluded",   desc: "人里離れた・隔絶された（形容詞）" },
+        { word: "seclusive",  desc: "孤立しがちな（形容詞）" }
+      ],
+      family: [
+        { word: "isolation",  desc: "隔離・孤立（insula）" },
+        { word: "solitude",   desc: "孤独・一人でいること（solus）" },
+        { word: "preclude",   desc: "妨げる（prae- + claudere）" }
+      ],
+      compounds: [
+        { phrase: "live in seclusion",   desc: "隠遁生活を送る" },
+        { phrase: "secluded location",   desc: "人里離れた場所" },
+        { phrase: "in seclusion",        desc: "孤独に・隔絶されて" }
+      ]
+    },
+
+    "discourse": {
+      origin: "ラテン語 discursus（走り回り・論議）< dis-（方々に）+ currere（走る）。字義は「あちこちに走る → 論じ回る → 言説・談話」。\n\n16世紀に英語に入り discourse（言説・談話・論文）として定着。academic discourse（学術的言説）、political discourse（政治的言説）のように使われる。フーコーなどの社会理論では discourse（言説）は「社会が特定の主題をどう語るか」という権力と知識の体系を指す重要な概念。\n\ncurrere 系: current（流れ）、curriculum（カリキュラム：走る経路）、occur（起こる）、recur（再発する）、course（経路）。",
+      derivatives: [
+        { word: "discursive",   desc: "散漫な・話題を転々とする（形容詞）" },
+        { word: "discursively",  desc: "散漫に（副詞）" }
+      ],
+      family: [
+        { word: "current",     desc: "流れ・現在の（currere）" },
+        { word: "course",      desc: "経路・講座（cursus）" },
+        { word: "dialogue",    desc: "対話（dia- + logos）" },
+        { word: "narrative",   desc: "物語・語り（narrare）" }
+      ],
+      compounds: [
+        { phrase: "academic discourse",   desc: "学術的言説" },
+        { phrase: "political discourse",  desc: "政治的言説" },
+        { phrase: "public discourse",     desc: "公共の議論" }
+      ]
+    },
+
+    "course": {
+      origin: "ラテン語 cursus（走り・行程・経路）< currere（走る）。字義は「走ること・走った経路」で、「コース・課程・一連の事柄」という多義語になった。\n\n13世紀に英語に入り course（コース・進路・講座・一品料理）として定着。course of action（行動方針）、university course（大学の授業）、main course（メインコース：料理）のように幅広く使われる。of course（もちろん：当然の経路として）は英語で最も頻繁な表現のひとつ。\n\ncurrere 系: current（流れ・現在の）、curriculum（カリキュラム）、occur（起こる）、recur（再発する）、discourse（言説）。",
+      derivatives: [
+        { word: "coursework",  desc: "課題・コースの学習活動（名詞）" }
+      ],
+      family: [
+        { word: "current",    desc: "流れ・現在の（currere）" },
+        { word: "curriculum", desc: "カリキュラム（currere）" },
+        { word: "discourse",  desc: "言説（dis- + currere）" }
+      ],
+      compounds: [
+        { phrase: "of course",         desc: "もちろん・当然" },
+        { phrase: "course of action",  desc: "行動方針" },
+        { phrase: "main course",       desc: "メインコース（料理）" }
+      ]
+    },
+
+    "recourse": {
+      origin: "ラテン語 recursus（逃げ帰ること・後退）< re-（後ろに）+ currere（走る）。字義は「後ろに走り戻る → 頼み事のために帰る → 手段として頼ること」。\n\n15世紀に英語に入り recourse（手段・頼ること）として定着。have recourse to（～に頼る）、without recourse（頼みなしに：法律用語で手形の無担保裏書）のように使われる。as a last resort と同義的に使われることが多い。\n\ncurrere 系: current（流れ）、course（経路）、discourse（言説）、curriculum（カリキュラム）、occur（起こる）。re-（後ろに）系: return（戻る）、reverse（逆にする）、recall（思い出す）。",
+      derivatives: [
+        { word: "recourses",  desc: "手段の複数形（名詞）" }
+      ],
+      family: [
+        { word: "course",     desc: "経路・経緯（cursus）" },
+        { word: "resource",   desc: "資源・手段（re- + source）" },
+        { word: "resort",     desc: "頼ること・リゾート（re- + sortir）" }
+      ],
+      compounds: [
+        { phrase: "have recourse to",   desc: "～に頼る・訴える" },
+        { phrase: "without recourse",   desc: "頼みなしに（法律）" },
+        { phrase: "as a last recourse", desc: "最後の手段として" }
+      ]
+    },
+
+    "culpable": {
+      origin: "ラテン語 culpabilis（責めるべき・有罪の）< culpa（過ち・罪）。字義は「責める価値がある → 有罪の・落ち度がある」。\n\n14世紀に英語に入り culpable（有罪の・落ち度のある）として定着。culpable negligence（過失：culpable homicide とも）のように法律・倫理文書で使われる格式語。mea culpa（私の過ち：カトリックの祈りの言葉）はラテン語のまま「認罪・謝罪」の意味で英語でも使われる。\n\nculpa 系: culprit（犯人）、exculpate（無罪にする）、inculpate（罪を着せる）。",
+      derivatives: [
+        { word: "culpability",  desc: "有罪性・責任（名詞）" },
+        { word: "culpably",     desc: "責めに値する形で（副詞）" },
+        { word: "exculpate",    desc: "無罪にする（ex- + culpa）" }
+      ],
+      family: [
+        { word: "culprit",     desc: "犯人（culpa）" },
+        { word: "blameworthy", desc: "非難に値する" },
+        { word: "liable",      desc: "責任がある（ligare）" },
+        { word: "guilty",      desc: "有罪の（gylt）" }
+      ],
+      compounds: [
+        { phrase: "culpable negligence",  desc: "過失（法律）" },
+        { phrase: "culpable homicide",    desc: "過失致死（法律）" },
+        { phrase: "mea culpa",            desc: "私の誤り・謝罪（ラテン語）" }
+      ]
+    },
+
+    "culprit": {
+      origin: "英米法廷用語 culprit は Anglo-French の culpable（有罪の）+ prist/prit（用意できている）から来た法廷での略称。被告が罪状を否認すると、検察官が「有罪であり、証明の用意がある」と応答した言葉が縮まって culprit（犯人）となった。\n\n17世紀に英語に入り culprit（犯人・原因者）として定着。the culprit was caught（犯人が捕まった）、the culprit of the problem（問題の原因）のように使われる。比喩的に「問題の原因」という意味でも使われる（Sugar is the culprit for obesity: 砂糖が肥満の原因だ）。\n\nculpa 系: culpable（有罪の）、exculpate（無罪にする）。",
+      derivatives: [
+        { word: "culprits",  desc: "犯人の複数形（名詞）" }
+      ],
+      family: [
+        { word: "culpable",    desc: "有罪の（culpa）" },
+        { word: "criminal",    desc: "犯罪者（crimen）" },
+        { word: "perpetrator", desc: "実行者（perpetrare）" },
+        { word: "offender",    desc: "違反者（offendere）" }
+      ],
+      compounds: [
+        { phrase: "identify the culprit",  desc: "犯人を特定する" },
+        { phrase: "the real culprit",      desc: "真の犯人・真の原因" },
+        { phrase: "culprit caught",        desc: "犯人逮捕" }
+      ]
+    },
+
+    "paternal": {
+      origin: "ラテン語 paternalis（父の・父方の）< pater（父）。字義は「父に属する・父方の」。\n\n16世紀に英語に入り paternal（父の・父方の・父親らしい）として定着。paternal grandparents（父方の祖父母）、paternal instinct（父性本能）のように使われる。paternalistic（父親的な：上位の者が子どもに接するように過保護に扱う）は否定的なニュアンスを持つ。\n\npater 系: patron（庇護者：父のような存在）、patriot（愛国者：父の国を愛する）、patriarch（家父長）、expatriate（国外在住者：父の国を出た者）。maternal（母方の）と対比して使われる。",
+      derivatives: [
+        { word: "paternally",     desc: "父親として・父方で（副詞）" },
+        { word: "paternalism",    desc: "温情主義・家父長的支配（名詞）" },
+        { word: "paternalistic",  desc: "父権的な・温情主義的な（形容詞）" }
+      ],
+      family: [
+        { word: "maternal",   desc: "母の・母方の（mater）" },
+        { word: "patriarch",  desc: "家父長（pater + arkhein）" },
+        { word: "patron",     desc: "庇護者（pater）" },
+        { word: "patriot",    desc: "愛国者（pater）" }
+      ],
+      compounds: [
+        { phrase: "paternal grandparents",  desc: "父方の祖父母" },
+        { phrase: "paternal instinct",      desc: "父性本能" },
+        { phrase: "paternal side",          desc: "父方" }
+      ]
+    },
+
+    "maternal": {
+      origin: "ラテン語 maternalis（母の・母方の）< mater（母）。字義は「母に属する・母方の」。\n\n16世紀に英語に入り maternal（母の・母方の・母性の）として定着。maternal instinct（母性本能）、maternal grandparents（母方の祖父母）のように使われる。maternity（母性・産休：maternity leave）が重要な派生語。\n\nmater 系: maternity（母性）、matriarch（家母長）、matrix（子宮→母体→行列：数学）、alma mater（母校：ラテン語で「育ての母」）。maternal と paternal は対比で使われる。",
+      derivatives: [
+        { word: "maternity",    desc: "母性・産休（名詞）" },
+        { word: "maternally",   desc: "母親として・母方で（副詞）" }
+      ],
+      family: [
+        { word: "paternal",    desc: "父の・父方の（pater）" },
+        { word: "matriarch",   desc: "家母長・女家長（mater）" },
+        { word: "matrix",      desc: "母体・行列（mater）" },
+        { word: "alma mater",  desc: "母校（ラテン語）" }
+      ],
+      compounds: [
+        { phrase: "maternal instinct",     desc: "母性本能" },
+        { phrase: "maternity leave",       desc: "産休・育児休暇" },
+        { phrase: "maternal grandparents", desc: "母方の祖父母" }
+      ]
+    },
+
+    "supreme": {
+      origin: "ラテン語 supremus（最高の）< superus（高い）< super（上に）。字義は「最も上にある → 最高の・至上の」。\n\n15世紀に英語に入り supreme（最高の・最上位の）として定着。Supreme Court（最高裁判所）、supreme power（最高権力）のように使われる。supremacy（覇権・至上性）は geopolitics や国内政治で重要語。Air supremacy（制空権）のように軍事でも使われる。\n\nsuper 系: superior（優れた）、superlative（最上の）、supernatural（超自然の）、supervise（監督する）。primus 系: primary（主要な）、prime（最高の）、premier（首相）との意味的関連。",
+      derivatives: [
+        { word: "supremacy",    desc: "覇権・至上性（名詞）" },
+        { word: "supremely",    desc: "最高に・この上なく（副詞）" },
+        { word: "supremacist",  desc: "優越主義者（名詞）" }
+      ],
+      family: [
+        { word: "primary",   desc: "主要な（primus）" },
+        { word: "prime",     desc: "最高の（primus）" },
+        { word: "superior",  desc: "優れた（superus）" },
+        { word: "paramount", desc: "最重要の・最高位の" }
+      ],
+      compounds: [
+        { phrase: "Supreme Court",  desc: "最高裁判所" },
+        { phrase: "air supremacy",  desc: "制空権（軍事）" },
+        { phrase: "supreme authority", desc: "最高権力" }
+      ]
+    },
+
+    "legislate": {
+      origin: "ラテン語 legis latio（法の提出・立法）< lex（法）の属格 legis + latus（運ばれた）< ferre（運ぶ）。字義は「法を提出する・立法する」。\n\n17世紀に英語に入り legislate（立法する・法律で規制する）として定着。legislate against discrimination（差別を法律で禁止する）、legislate for change（変革を法律で定める）のように使われる。legislation（法律・立法）、legislature（立法機関）が重要な派生語。\n\nlex 系: legal（法的な）、legitimate（合法的な）、loyal（忠実な）。ferre 系: transfer（移転する）、prefer（好む）、confer（授与する）。",
+      derivatives: [
+        { word: "legislation",   desc: "法律・立法（名詞）" },
+        { word: "legislative",   desc: "立法の（形容詞）" },
+        { word: "legislature",   desc: "立法機関・議会（名詞）" },
+        { word: "legislator",    desc: "立法者・議員（名詞）" }
+      ],
+      family: [
+        { word: "legal",      desc: "法的な（lex）" },
+        { word: "law",        desc: "法律（lagu）" },
+        { word: "regulate",   desc: "規制する（regula）" },
+        { word: "statute",    desc: "法令（statutum）" }
+      ],
+      compounds: [
+        { phrase: "legislate against",  desc: "～を法律で禁じる" },
+        { phrase: "enact legislation",  desc: "立法する・法律を制定する" },
+        { phrase: "legislative body",   desc: "立法機関" }
+      ]
     }
 
   };

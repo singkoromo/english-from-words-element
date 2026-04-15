@@ -16539,6 +16539,428 @@
         { phrase: "long-term commitment",   desc: "長期的な責任・専念" },
         { phrase: "commitment to quality",  desc: "品質へのこだわり" }
       ]
+    },
+
+    // ── Batch 36 ──────────────────────────────────────────────────────────
+
+    "negotiate": {
+      origin: "ラテン語 negotiare（商売をする・取引する）< negotium（商売・仕事・多忙）< nec-（否定）+ otium（余暇・閑暇）。「余暇のない状態＝仕事・商取引」が原義で、古代ローマで商人の活動を指した。\n\n英語には16世紀に採用され、「交渉する・取り決める」の意味で定着。外交・ビジネス・労働組合の文脈で「双方が合意に至るためのコミュニケーション」を指す核心語となった。\n\n現代英語では negotiate a deal（取引を交渉する）・salary negotiation（給与交渉）・negotiate a peace treaty（平和条約を交渉する）のように外交・ビジネス・法律で幅広く使われる。",
+      derivatives: [
+        { word: "negotiation",  desc: "交渉・協議（名詞）" },
+        { word: "negotiator",   desc: "交渉人・ネゴシエーター（名詞）" },
+        { word: "negotiable",   desc: "交渉の余地がある・譲渡可能な（形容詞）" }
+      ],
+      family: [
+        { word: "otium",     desc: "余暇（ラテン語、詩作・哲学の時間）" },
+        { word: "nonchalant", desc: "無関心な（non+chaloir＝気にかけない）" }
+      ],
+      compounds: [
+        { phrase: "negotiate a deal",   desc: "取引を交渉する" },
+        { phrase: "salary negotiation", desc: "給与交渉" },
+        { phrase: "non-negotiable",     desc: "交渉の余地がない" }
+      ]
+    },
+
+    "calculate": {
+      origin: "ラテン語 calculare（小石で計算する）< calculus（小石・算盤の石）< calx（石灰石）+ -ate（動詞化接尾辞）。古代ローマで算盤に小石を使って計算したことから「計算する」の意味が生まれた。calculus（微積分）も同語源。\n\n英語には16世紀に採用され、「計算する・推定する・意図する」の意味で定着。17世紀にライプニッツ・ニュートンが微積分学（calculus）を発展させ、数学用語としても重要となった。\n\n現代英語では calculate the risk（リスクを計算する）・calculated move（計算された行動）・miscalculate（計算を誤る）のように数学・戦略・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "calculation",  desc: "計算・算定・策略（名詞）" },
+        { word: "calculator",   desc: "計算機（名詞）" },
+        { word: "calculus",     desc: "微積分学・結石（名詞）" },
+        { word: "miscalculate", desc: "計算を誤る（動詞）" }
+      ],
+      family: [
+        { word: "calcium",   desc: "カルシウム（calx）" },
+        { word: "chalk",     desc: "チョーク（calx の英語転）" }
+      ],
+      compounds: [
+        { phrase: "calculate the risk",   desc: "リスクを計算する" },
+        { phrase: "calculated move",      desc: "計算された行動" },
+        { phrase: "cost calculation",     desc: "費用計算" }
+      ]
+    },
+
+    "stipulate": {
+      origin: "ラテン語 stipulari（厳格に取り決める・保証させる）< stipula（わらの茎）。古代ローマの契約儀式で、両者がわらの茎を折って合意の証とする慣習から「正式に条件を取り決める」の意味が生まれた。\n\n英語には17世紀に採用され、「条件として規定する・明記する」の意味で定着。法律・契約の文脈で「契約・合意の特定条件を明確に定める」という専門的用法が中心だったが、現代では学術・ビジネスでも広く使われる。\n\n現代英語では stipulate the conditions（条件を明記する）・as stipulated（規定された通りに）・contract stipulation（契約条項）のように法律・契約・学術の場で使われる。",
+      derivatives: [
+        { word: "stipulation",  desc: "条件・規定・明記（名詞）" }
+      ],
+      family: [
+        { word: "specify",    desc: "明記する（species+facere）" },
+        { word: "proviso",    desc: "条件付き条項（providere）" }
+      ],
+      compounds: [
+        { phrase: "stipulate the conditions",  desc: "条件を明記する" },
+        { phrase: "as stipulated",             desc: "規定された通りに" },
+        { phrase: "contract stipulation",      desc: "契約条項" }
+      ]
+    },
+
+    "circulate": {
+      origin: "ラテン語 circulare（円を描く・周回する）< circulus（小さな円）< circus（円・輪）< ギリシャ語 kirkos（輪）+ -ate（動詞化接尾辞）。「円を描いて回る」が原義。\n\n英語には17世紀に採用され、「循環する・回覧する・流通する」の意味で定着。血液循環（circulation of blood）の発見（ウィリアム・ハーヴェイ，1628年）とともに医学的文脈で重要語となり、その後お金・情報・商品の流通にも広く使われるようになった。\n\n現代英語では circulate a memo（メモを回覧する）・blood circulation（血液循環）・circulation of money（お金の流通）のように医学・経済・コミュニケーションで幅広く使われる。",
+      derivatives: [
+        { word: "circulation",  desc: "循環・流通・発行部数（名詞）" },
+        { word: "circular",     desc: "円形の・回覧状（形容詞・名詞）" }
+      ],
+      family: [
+        { word: "circle",    desc: "円・仲間（circulus）" },
+        { word: "circuit",   desc: "回路・周回コース（circuitus）" },
+        { word: "circus",    desc: "サーカス・円形競技場（circus）" }
+      ],
+      compounds: [
+        { phrase: "blood circulation",  desc: "血液循環" },
+        { phrase: "circulate a memo",   desc: "メモを回覧する" },
+        { phrase: "in circulation",     desc: "流通している・発行されている" }
+      ]
+    },
+
+    "originate": {
+      origin: "ラテン語 oriri（昇る・始まる・生じる）< origo（起源・始まり）< oriri の名詞形 + -ate（動詞化接尾辞）。「(太陽が)昇る・始まりから生じる」が原義。orient（東・方向づける）・abort（中断する）とも同根。\n\n英語には17世紀に採用され、「始まる・起源を持つ・生み出す」の意味で定着。語源を「オリジン」と呼ぶように、「物事がどこから始まったか」を指す重要語として歴史・科学・文化研究で広く使われる。\n\n現代英語では originate from（〜に起源を持つ）・the idea originated with（アイデアは〜から生まれた）・original thinking（独創的な思考）のように研究・学術・日常で幅広く使われる。",
+      derivatives: [
+        { word: "origin",      desc: "起源・出自（名詞）" },
+        { word: "original",    desc: "元の・独創的な（形容詞）" },
+        { word: "originality", desc: "独創性・オリジナリティ（名詞）" },
+        { word: "originator",  desc: "創始者・発案者（名詞）" }
+      ],
+      family: [
+        { word: "orient",   desc: "東方・方向づける（oriri）" },
+        { word: "abort",    desc: "中断する（ab+oriri）" },
+        { word: "horizon",  desc: "地平線（oriri の転）" }
+      ],
+      compounds: [
+        { phrase: "originate from",      desc: "〜に起源を持つ・〜から始まる" },
+        { phrase: "country of origin",   desc: "原産国・出身国" },
+        { phrase: "original thinking",   desc: "独創的な思考" }
+      ]
+    },
+
+    "designate": {
+      origin: "ラテン語 designare（印をつける・指定する・設計する）< de-（完全に）+ signare（印をつける）< signum（印・記号・信号）+ -ate（動詞化接尾辞）。「特定の印をつけて指名する」が原義。sign（印）・signal（信号）・significant（重要な）と同根の signum を含む。\n\n英語には15世紀に採用され、「指定する・任命する・指名する」の意味で定着。法律・政府・都市計画で「特定の役割・用途のために正式に指定する」という意味で使われ、president-designate（大統領指名者）のように「就任前の指名」を示す形でも使われる。\n\n現代英語では designate an area（地域を指定する）・designated driver（ノンアルコールの運転担当者）・president-designate（大統領就任予定者）のように公式・法律の文脈で広く使われる。",
+      derivatives: [
+        { word: "designation",  desc: "指定・名称・任命（名詞）" },
+        { word: "designated",   desc: "指定された（形容詞）" }
+      ],
+      family: [
+        { word: "sign",      desc: "印・署名する（signum）" },
+        { word: "signal",    desc: "信号（signum）" },
+        { word: "signature", desc: "署名（signare）" },
+        { word: "assign",    desc: "割り当てる（ad+signare）" }
+      ],
+      compounds: [
+        { phrase: "designated driver",  desc: "飲酒しない指定運転者" },
+        { phrase: "UNESCO-designated",  desc: "ユネスコ指定の" },
+        { phrase: "designate an area",  desc: "区域を指定する" }
+      ]
+    },
+
+    "contaminate": {
+      origin: "ラテン語 contaminare（汚す・混ぜ物をする）< contamen（接触による汚染）< con-（共に）+ tamen < tangere（触れる）の転 + -ate（動詞化接尾辞）。「触れることで汚す」が原義。tangible（触れられる）・contact（接触）と同根の tangere を含む。\n\n英語には16世紀に採用され、「汚染する・不純物を混入する・堕落させる」の意味で定着。核汚染（nuclear contamination）・食品汚染（food contamination）・水質汚染など環境・公衆衛生の重要語として20世紀以降特に使われるようになった。\n\n現代英語では contaminate the water supply（水道を汚染する）・cross-contamination（交差汚染）・contaminated site（汚染された場所）のように環境・医学・食品衛生の場で広く使われる。",
+      derivatives: [
+        { word: "contamination",  desc: "汚染・混入（名詞）" },
+        { word: "contaminant",    desc: "汚染物質（名詞）" },
+        { word: "decontaminate",  desc: "除染する（動詞）" }
+      ],
+      family: [
+        { word: "tangible",  desc: "触れられる・具体的な（tangere）" },
+        { word: "contact",   desc: "接触・連絡（con+tangere）" },
+        { word: "contagious", desc: "伝染性の（con+tangere）" }
+      ],
+      compounds: [
+        { phrase: "cross-contamination",    desc: "交差汚染" },
+        { phrase: "contaminated site",      desc: "汚染された場所" },
+        { phrase: "nuclear contamination",  desc: "核汚染" }
+      ]
+    },
+
+    "accommodate": {
+      origin: "ラテン語 accommodare（適合させる・都合をつける）< ad-（〜へ）+ commodare（便宜を図る）< commodus（便利な・適した）< com-（共に）+ modus（尺度・方法）+ -ate（動詞化接尾辞）。「共通の尺度に合わせる・適合させる」が原義。\n\n英語には16世紀に採用され、「宿泊させる・適応させる・収容する・融通をきかせる」の多義的な意味で定着。ホテル・交通機関の「宿泊・輸送収容」から、障害者への「合理的配慮」（reasonable accommodation）まで幅広い文脈で使われる。\n\n現代英語では accommodate guests（客を泊める）・reasonable accommodation（合理的配慮）・accommodate different needs（様々なニーズに対応する）のように旅行・法律・ビジネスで広く使われる。",
+      derivatives: [
+        { word: "accommodation",   desc: "宿泊施設・適応・配慮（名詞）" },
+        { word: "accommodating",   desc: "融通のきく・気さくな（形容詞）" }
+      ],
+      family: [
+        { word: "commodity",  desc: "商品・必需品（commodus）" },
+        { word: "mode",       desc: "方法・様式（modus）" },
+        { word: "moderate",   desc: "適度な・穏健な（modus）" }
+      ],
+      compounds: [
+        { phrase: "reasonable accommodation",    desc: "合理的配慮（障害者支援）" },
+        { phrase: "accommodate different needs", desc: "様々なニーズに対応する" },
+        { phrase: "overnight accommodation",     desc: "一泊宿泊施設" }
+      ]
+    },
+
+    "consolidate": {
+      origin: "ラテン語 consolidare（固める・強化する）< con-（共に・完全に）+ solidare（固める）< solidus（固体の・堅固な）+ -ate（動詞化接尾辞）。「完全に固める・一体化する」が原義。solid（固体）・soldier（兵士）と同根。\n\n英語には16世紀に採用され、「統合する・固める・強化する」の意味で定着。財務（debt consolidation：債務統合）・企業合併（corporate consolidation）・権力の強化（consolidate power）など多様な文脈で使われる重要語。\n\n現代英語では consolidate power（権力を強化する）・debt consolidation（債務統合）・consolidate gains（獲得した成果を固める）のように政治・財務・日常で広く使われる。",
+      derivatives: [
+        { word: "consolidation",  desc: "統合・強化・固定（名詞）" },
+        { word: "consolidated",   desc: "統合された・連結された（形容詞）" }
+      ],
+      family: [
+        { word: "solid",    desc: "固体・堅固な（solidus）" },
+        { word: "solidity", desc: "堅固さ・確固さ（soliditas）" },
+        { word: "soldier",  desc: "兵士（soldarius：金貨（solidus）で雇われる人）" }
+      ],
+      compounds: [
+        { phrase: "consolidate power",  desc: "権力を固める・強化する" },
+        { phrase: "debt consolidation", desc: "債務統合・ローン一本化" },
+        { phrase: "consolidate gains",  desc: "成果を固める" }
+      ]
+    },
+
+    "devastate": {
+      origin: "ラテン語 devastare（荒廃させる）< de-（完全に）+ vastare（荒廃させる・放棄する）< vastus（空虚な・広大な・荒廃した）+ -ate（動詞化接尾辞）。「完全に荒廃させる」が原義。\n\n英語には17世紀に採用され、「壊滅させる・荒廃させる・精神的に打ちのめす」の意味で定着。戦争・災害・個人的な損失など「完全な破壊・消滅」を表す強い語として使われ、devastating（壊滅的な）は最上級の否定的評価にも使われる。\n\n現代英語では devastate a community（コミュニティを壊滅させる）・economically devastating（経済的に壊滅的な）・feel devastated（打ちのめされた気持ちになる）のように広く使われる。",
+      derivatives: [
+        { word: "devastating",   desc: "壊滅的な・衝撃的な（形容詞）" },
+        { word: "devastation",   desc: "荒廃・壊滅・深刻なダメージ（名詞）" },
+        { word: "devastatingly", desc: "壊滅的に・非常に（副詞）" }
+      ],
+      family: [
+        { word: "vast",   desc: "広大な・莫大な（vastus）" },
+        { word: "waste",  desc: "廃棄物・荒廃する（vastus の転）" }
+      ],
+      compounds: [
+        { phrase: "feel devastated",        desc: "打ちのめされる" },
+        { phrase: "devastating earthquake", desc: "壊滅的な地震" },
+        { phrase: "cause devastation",      desc: "荒廃をもたらす" }
+      ]
+    },
+
+    "validate": {
+      origin: "ラテン語 validus（強い・有効な）< valere（強い・元気である）+ -ate（動詞化接尾辞）。「有効で強いと確認する」が原義。valor（勇気）・value（価値）・prevail（打ち勝つ）と同根の valere を含む。\n\n英語には17世紀に採用され、「有効性を確認する・承認する・実証する」の意味で定着。法律では「契約の有効性確認」・コンピュータ科学では「入力データの検証」・心理学では「感情や経験の承認」など多様な文脈で使われる。\n\n現代英語では validate the data（データを検証する）・validate someone's feelings（誰かの感情を認める）・parking validation（駐車料金の割引確認）のように技術・心理・日常で幅広く使われる。",
+      derivatives: [
+        { word: "validation",  desc: "検証・承認・有効化（名詞）" },
+        { word: "valid",       desc: "有効な・妥当な（形容詞）" },
+        { word: "invalid",     desc: "無効の・病人（形容詞・名詞）" }
+      ],
+      family: [
+        { word: "value",    desc: "価値（valere）" },
+        { word: "valor",    desc: "勇気・武勇（valere）" },
+        { word: "prevail",  desc: "打ち勝つ・普及する（pre+valere）" },
+        { word: "avail",    desc: "役立つ・利用する（ad+valere）" }
+      ],
+      compounds: [
+        { phrase: "validate the data",       desc: "データを検証する" },
+        { phrase: "validate feelings",       desc: "感情を認める・共感する" },
+        { phrase: "parking validation",      desc: "駐車料金の割引証明" }
+      ]
+    },
+
+    "investigate": {
+      origin: "ラテン語 investigare（足跡をたどる・調査する）< in-（〜の中に）+ vestigare（足跡を追う）< vestigium（足跡・痕跡）+ -ate（動詞化接尾辞）。「足跡を追って事実を突き止める」が原義。vestige（痕跡）と同根。\n\n英語には16世紀に採用され、「調査する・捜査する・研究する」の意味で定着。警察・ジャーナリズム・科学研究など「真実を発見するために系統的に調べる」プロセスを指す重要語として広く使われる。\n\n現代英語では investigate a crime（犯罪を捜査する）・investigative journalism（調査報道）・investigate a phenomenon（現象を研究する）のように法律・メディア・科学で幅広く使われる。",
+      derivatives: [
+        { word: "investigation",   desc: "調査・捜査・研究（名詞）" },
+        { word: "investigator",    desc: "調査員・捜査官（名詞）" },
+        { word: "investigative",   desc: "調査の・探偵の（形容詞）" }
+      ],
+      family: [
+        { word: "vestige",   desc: "痕跡・なごり（vestigium）" }
+      ],
+      compounds: [
+        { phrase: "investigate a crime",       desc: "犯罪を捜査する" },
+        { phrase: "investigative journalism",  desc: "調査報道" },
+        { phrase: "launch an investigation",   desc: "調査を開始する" }
+      ]
+    },
+
+    "integrate": {
+      origin: "ラテン語 integrare（完全にする・更新する）< integer（手をつけられていない・完全な）< in-（否定）+ tangere（触れる）+ -ate（動詞化接尾辞）。「完全な状態に戻す・統合して完全にする」が原義。integrity（誠実さ）と同根。\n\n英語には17世紀に採用され、「統合する・融合させる・差別撤廃を進める」の意味で定着。数学では「積分する」（integrate a function）、社会では人種統合（racial integration）、技術では「システムを統合する」という意味で重要語となった。\n\n現代英語では integrate different systems（異なるシステムを統合する）・racial integration（人種統合）・integrate into society（社会に溶け込む）のように技術・社会・数学で幅広く使われる。",
+      derivatives: [
+        { word: "integration",   desc: "統合・積分・融合（名詞）" },
+        { word: "integral",      desc: "不可欠な・積分の（形容詞）" },
+        { word: "disintegrate",  desc: "崩壊する・分解する（動詞）" }
+      ],
+      family: [
+        { word: "integrity",  desc: "誠実さ・完全性（integer）" },
+        { word: "integer",    desc: "整数（数学）（integer）" },
+        { word: "entire",     desc: "全体の・すべての（integer の転）" }
+      ],
+      compounds: [
+        { phrase: "racial integration",     desc: "人種統合" },
+        { phrase: "integrate into society", desc: "社会に溶け込む" },
+        { phrase: "system integration",     desc: "システム統合" }
+      ]
+    },
+
+    "acknowledge": {
+      origin: "古英語 oncnawan（認識する）+ ラテン語由来の -ledge（知識）の合成語として中英語期に形成。さらに ac-（〜に向かって）+ cnawan（知る）+ -ledge（知識の状態）と分析できる。「知っていると相手に向かって示す」が原義。\n\n英語には15世紀に採用され、「認める・承認する・感謝を示す・受領の確認をする」の意味で定着。法律では「正式に承認する」、礼儀では「挨拶を返す」、書簡では「受領確認」という多様な用法を持つ。\n\n現代英語では acknowledge a mistake（間違いを認める）・acknowledge receipt（受領を確認する）・acknowledgments（（書物の）謝辞）のように法律・学術・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "acknowledgment",   desc: "承認・感謝・受領確認（名詞）" }
+      ],
+      family: [
+        { word: "know",       desc: "知る（cnawan）" },
+        { word: "knowledge",  desc: "知識（cnawan+ledge）" },
+        { word: "recognize",  desc: "認識する（re+cognoscere）" }
+      ],
+      compounds: [
+        { phrase: "acknowledge a mistake",  desc: "間違いを認める" },
+        { phrase: "acknowledge receipt",    desc: "受領を確認する" },
+        { phrase: "acknowledgments",        desc: "（書物の）謝辞" }
+      ]
+    },
+
+    "initiative": {
+      origin: "ラテン語 initiativus（始まりに関する）< initiare（始める・入門させる）< initium（始まり・入門）< inire（中に入る）< in-（中に）+ ire（行く）+ -ive（形容詞接尾辞）。「入り口へ踏み込む行動」が原義。initial（最初の）と同根。\n\n英語には18世紀に採用され、「主導権・率先・自発性・法律制定の発議」の意味で定着。現代のビジネス・政治・外交で「誰かが最初に行動を起こすこと」を指す重要語となり、self-initiative（自主性）・initiative-taking（率先した行動）などと使われる。\n\n現代英語では take the initiative（主導権を取る）・peace initiative（平和への取り組み）・show initiative（率先して動く）のように政治・ビジネス・教育で幅広く使われる。",
+      derivatives: [
+        { word: "initial",     desc: "最初の・頭文字（形容詞・名詞）" },
+        { word: "initiate",    desc: "開始する・入門させる（動詞）" },
+        { word: "initiation",  desc: "開始・入門・入会式（名詞）" }
+      ],
+      family: [
+        { word: "issue",    desc: "問題・発行する（exire の転）" },
+        { word: "exit",     desc: "出口・退場する（exire）" },
+        { word: "ambition", desc: "野望（amb+ire）" }
+      ],
+      compounds: [
+        { phrase: "take the initiative",  desc: "主導権を取る・率先する" },
+        { phrase: "peace initiative",     desc: "平和への取り組み・和平提案" },
+        { phrase: "show initiative",      desc: "率先して行動する" }
+      ]
+    },
+
+    "equilibrium": {
+      origin: "ラテン語 aequilibrium（釣り合い・平衡）< aequus（等しい・平らな）+ libra（てんびん座・はかり）+ -ium（名詞接尾辞）。「等しい重さのはかり」が原義で、天秤の両皿が釣り合った状態を指す。\n\n英語には17世紀に採用され、物理学・経済学・化学の「平衡状態」を指す用語として定着した。経済学では市場の均衡（market equilibrium）、化学では化学平衡（chemical equilibrium）、心理学では精神的均衡（psychological equilibrium）として重要。\n\n現代英語では maintain equilibrium（均衡を保つ）・economic equilibrium（経済的均衡）・disturb the equilibrium（均衡を乱す）のように科学・経済・日常で幅広く使われる。",
+      derivatives: [
+        { word: "equilibrate",  desc: "平衡させる・均衡を保つ（動詞）" },
+        { word: "disequilibrium", desc: "不均衡・不安定（名詞）" }
+      ],
+      family: [
+        { word: "equal",    desc: "等しい（aequus）" },
+        { word: "equator",  desc: "赤道（aequator）" },
+        { word: "libra",    desc: "てんびん座・はかり（libra）" },
+        { word: "liberate", desc: "解放する（liber＝自由な）" }
+      ],
+      compounds: [
+        { phrase: "maintain equilibrium",    desc: "均衡を保つ" },
+        { phrase: "market equilibrium",      desc: "市場均衡（経済学）" },
+        { phrase: "disturb the equilibrium", desc: "均衡を乱す" }
+      ]
+    },
+
+    "momentum": {
+      origin: "ラテン語 momentum（運動・きっかけ・推進力）< movere（動かす）+ -mentum（名詞接尾辞）。「動かすもの・運動の量」が原義。motion（運動）・move（動く）と同根の movere を含む。\n\n英語には17世紀に物理学用語（運動量＝質量×速度）として採用され、18世紀以降に「勢い・はずみ」という比喩的意味に広がった。政治・スポーツ・社会運動の「加速する勢い」を指す語として広く使われるようになった。\n\n現代英語では gain momentum（勢いを増す）・maintain momentum（勢いを維持する）・momentum of change（変化の勢い）のように物理学・政治・ビジネスで幅広く使われる。",
+      derivatives: [
+        { word: "momentous",  desc: "重大な・歴史的な（形容詞）" },
+        { word: "moment",     desc: "瞬間・モーメント（名詞）" }
+      ],
+      family: [
+        { word: "motion",   desc: "動き・運動（movere）" },
+        { word: "emotion",  desc: "感情（e+movere）" },
+        { word: "promote",  desc: "昇進・推進（pro+movere）" },
+        { word: "remove",   desc: "取り除く（re+movere）" }
+      ],
+      compounds: [
+        { phrase: "gain momentum",     desc: "勢いを増す" },
+        { phrase: "lose momentum",     desc: "勢いを失う" },
+        { phrase: "build momentum",    desc: "勢いを積み上げる" }
+      ]
+    },
+
+    "paradox": {
+      origin: "ギリシャ語 paradoxon（予想に反するもの）< para-（反対に・超えて）+ doxa（意見・考え・評判）< dokein（思う・信じる）。「一般的な意見・期待に反するもの」が原義。\n\nラテン語 paradoxum を経て英語には16世紀に採用され、「逆説・矛盾しているように見えるが真実を含む命題」の意味で定着。論理学・哲学・文学で重要な修辞・思考の概念として使われてきた。\n\n現代英語では the paradox of choice（選択のパラドックス）・a living paradox（矛盾した存在）・paradoxically（逆説的に）のように哲学・社会科学・日常で幅広く使われる。",
+      derivatives: [
+        { word: "paradoxical",   desc: "逆説的な・矛盾した（形容詞）" },
+        { word: "paradoxically", desc: "逆説的に（副詞）" }
+      ],
+      family: [
+        { word: "orthodox",  desc: "正統的な（orthos+doxa）" },
+        { word: "dogma",     desc: "教義・ドグマ（dokein）" },
+        { word: "paradigm",  desc: "範例・パラダイム（para+deiknynai）" }
+      ],
+      compounds: [
+        { phrase: "the paradox of choice",  desc: "選択のパラドックス" },
+        { phrase: "a living paradox",       desc: "矛盾した・逆説的な存在" },
+        { phrase: "moral paradox",          desc: "道徳的逆説" }
+      ]
+    },
+
+    "rhetoric": {
+      origin: "ギリシャ語 rhetorike（話す技術）< rheter（弁士・雄弁家）< rhema（言葉）< rhein（流れる・語る）+ -ic（形容詞・名詞接尾辞）。「弁士の技術・説得のための話し方」が原義。\n\n古代ギリシャの三学科（文法・弁証法・修辞学）の一つとして発展し、アリストテレスの『弁論術』で体系化された。英語には14世紀に採用され、「修辞学・説得の技術」として始まり、現代では「実質のない美辞麗句・政治的言説」という否定的含意でも広く使われる。\n\n現代英語では political rhetoric（政治的言説）・empty rhetoric（中身のない美辞麗句）・the rhetoric of change（変革の語り口）のように政治・学術・批評の場で広く使われる。",
+      derivatives: [
+        { word: "rhetorical",   desc: "修辞的な・答えを求めない（形容詞）" },
+        { word: "rhetorically", desc: "修辞的に（副詞）" },
+        { word: "rhetorician",  desc: "修辞学者・弁論家（名詞）" }
+      ],
+      family: [
+        { word: "rhyme",  desc: "韻・押韻する（rhein の転）" }
+      ],
+      compounds: [
+        { phrase: "political rhetoric",   desc: "政治的言説・演説の語り口" },
+        { phrase: "empty rhetoric",       desc: "中身のない美辞麗句" },
+        { phrase: "rhetorical question",  desc: "修辞疑問（答えを求めない問い）" }
+      ]
+    },
+
+    "narrative": {
+      origin: "ラテン語 narrativus（叙述の）< narrare（語る・述べる）< gnarus（知っている・通じた）< gnoscere（知る）+ -ive（形容詞接尾辞）。「知ったことを語る」が原義。recognize（認識する）・cognitive（認知的な）と同根の gnoscere を含む。\n\n英語には16世紀に採用され、「物語・叙述・ナラティブ」の意味で定着。20世紀後半の物語論（narratology）・政治学での「支配的な語り口」（dominant narrative）・医学での「病いの語り」（illness narrative）など多様な文脈で重要語となった。\n\n現代英語では master narrative（支配的な物語・大きな物語）・shape the narrative（物語・言説を形成する）・personal narrative（個人の物語）のように文学・政治・社会科学で幅広く使われる。",
+      derivatives: [
+        { word: "narrator",   desc: "語り手・ナレーター（名詞）" },
+        { word: "narrate",    desc: "語る・ナレーションをする（動詞）" },
+        { word: "narration",  desc: "叙述・ナレーション（名詞）" }
+      ],
+      family: [
+        { word: "cognition",   desc: "認知（gnoscere）" },
+        { word: "recognize",   desc: "認識する（re+gnoscere）" },
+        { word: "ignore",      desc: "無視する（in+gnarus）" }
+      ],
+      compounds: [
+        { phrase: "master narrative",    desc: "支配的な物語・メタナラティブ" },
+        { phrase: "shape the narrative", desc: "言説・物語を形成する" },
+        { phrase: "personal narrative",  desc: "個人の物語・経験談" }
+      ]
+    },
+
+    "exaggerate": {
+      origin: "ラテン語 exaggerare（山積みにする・誇大にする）< ex-（外に・超えて）+ aggerare（積み上げる）< agger（堤防・土手）< ad-（〜へ）+ gerere（運ぶ・積む）+ -ate（動詞化接尾辞）。「積み上げたものをさらに超えて大きくする」が原義。\n\n英語には16世紀に採用され、「誇張する・大げさに言う」の意味で定着。修辞学では「誇張法」（hyperbole）と並んで重要な技巧で、日常では「事実より大げさに述べる」行動を指す。\n\n現代英語では exaggerate the problem（問題を誇張する）・without exaggeration（誇張なしに）・greatly exaggerated（大いに誇張された）のように日常・修辞・論議の場で幅広く使われる。",
+      derivatives: [
+        { word: "exaggeration",  desc: "誇張・大げさな表現（名詞）" },
+        { word: "exaggerated",   desc: "誇張した・大げさな（形容詞）" }
+      ],
+      family: [
+        { word: "aggregate",  desc: "集合・集積する（ad+gregare）" },
+        { word: "suggest",    desc: "提案する（sub+gerere）" },
+        { word: "gesture",    desc: "身振り（gestus＝gerere の過去分詞）" }
+      ],
+      compounds: [
+        { phrase: "without exaggeration",   desc: "誇張なしに" },
+        { phrase: "greatly exaggerated",    desc: "大いに誇張された" },
+        { phrase: "exaggerate the problem", desc: "問題を誇張する" }
+      ]
+    },
+
+    "perpetuate": {
+      origin: "ラテン語 perpetuare（永続させる）< perpetuus（途切れない・永続的な）< per-（通じて・完全に）+ petere（求める・向かう）+ -ate（動詞化接尾辞）。「完全に途切れることなく続ける」が原義。\n\n英語には17世紀に採用され、「永続させる・不朽にする・（悪習を）存続させる」の意味で定着。文化・伝統・ステレオタイプ・不公正の「継続・温存」を指す語として社会科学・倫理学で特に重要視されている。\n\n現代英語では perpetuate a stereotype（ステレオタイプを強化する）・perpetuate inequality（不平等を温存する）・perpetuate a myth（神話を存続させる）のように社会・倫理・日常の文脈で広く使われる。",
+      derivatives: [
+        { word: "perpetual",    desc: "永続的な・絶え間ない（形容詞）" },
+        { word: "perpetually",  desc: "永続的に・絶え間なく（副詞）" },
+        { word: "perpetuity",   desc: "永続性・永久（名詞）" }
+      ],
+      family: [
+        { word: "compete",   desc: "競争する（com+petere）" },
+        { word: "appetite",  desc: "食欲・欲求（ad+petere）" },
+        { word: "petition",  desc: "請願・嘆願（petitio）" },
+        { word: "repeat",    desc: "繰り返す（re+petere）" }
+      ],
+      compounds: [
+        { phrase: "perpetuate a stereotype",  desc: "ステレオタイプを強化・温存する" },
+        { phrase: "perpetuate inequality",    desc: "不平等を温存する" },
+        { phrase: "in perpetuity",            desc: "永遠に・永続的に" }
+      ]
+    },
+
+    "confiscate": {
+      origin: "ラテン語 confiscare（国庫に没収する）< con-（共に）+ fiscus（皇帝の金庫・財務省の籠）+ -ate（動詞化接尾辞）。「国家の金庫に入れる＝官に没収する」が原義。fiscal（財政の）と同根の fiscus を含む。\n\n英語には16世紀に採用され、「（権力者が）没収する・押収する」の意味で定着。政府・警察・学校の文脈で「法的権限によって所有物を取り上げる」行為を指す。\n\n現代英語では confiscate property（財産を没収する）・confiscated goods（押収品）・the phone was confiscated（携帯電話が没収された）のように法律・行政・日常の場で使われる。",
+      derivatives: [
+        { word: "confiscation",  desc: "没収・押収（名詞）" }
+      ],
+      family: [
+        { word: "fiscal",   desc: "財政の・会計年度の（fiscus）" },
+        { word: "finance",  desc: "財政・融資（finis の転）" }
+      ],
+      compounds: [
+        { phrase: "confiscate property",   desc: "財産を没収する" },
+        { phrase: "confiscated goods",     desc: "押収品・没収された物品" }
+      ]
     }
 
   };

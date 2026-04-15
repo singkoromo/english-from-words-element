@@ -4868,6 +4868,423 @@
         { phrase: "by analogy",         desc: "類推によって・アナロジーとして" },
         { phrase: "draw an analogy",    desc: "比較する・アナロジーを引く" }
       ]
+    },
+
+    // ── lex / leg系（法・読む）──
+    "legal": {
+      origin: "ラテン語 legalis（法律に関する）< lex / legis（法律）。lex はローマの成文法を指し、「言語化・文書化されたルール」というニュアンスを持つ。同根の legislature（立法機関）、legitimate（合法的な）、privilege（特権 < privata lex 個人的な法）もこの語幹を共有する。\n\n14世紀に英語に入り「法律上の・合法の」という形容詞として定着。対義語の illegal は接頭辞 il-（in-の変形、否定）を付けたもの。legal advice（法的助言）、legal proceedings（法的手続き）など法律・ビジネスの核心語となっている。\n\n語根 leg- は legislate（立法する）、legitimate（合法化する）など動詞派生語も多く、現代の法律・政治語彙を広く支えている。",
+      derivatives: [
+        { word: "legally",      desc: "法的に・合法的に（副詞）" },
+        { word: "legality",     desc: "合法性・適法性" },
+        { word: "legalize",     desc: "合法化する" },
+        { word: "illegal",      desc: "違法な（il- + legal）" }
+      ],
+      family: [
+        { word: "legislature",  desc: "立法機関（lex + latus 運ばれた）" },
+        { word: "legitimate",   desc: "合法的な・正当な（legitimatus）" },
+        { word: "delegate",     desc: "代表者・委任する（de- + legare 送る）" },
+        { word: "privilege",    desc: "特権（privata lex 個人の法）" }
+      ],
+      compounds: [
+        { phrase: "legal advice",      desc: "法的助言・弁護士への相談" },
+        { phrase: "legal proceedings", desc: "法的手続き・訴訟" }
+      ]
+    },
+
+    "delegate": {
+      origin: "ラテン語 delegare（代理として送り出す）< de-（下に・完全に）+ legare（使者として送る・遺贈する）。legare はラテン語 lex（法律）とも関連し、「法的な権限を持って送り出す」という意味合いを持つ。\n\n名詞「代表者・代議員」と動詞「委任する・権限を委ねる」の両方で使われる。英語には16世紀に入り、外交・政治・経営の文脈で「自分の代わりに行動する権限を人に与える」という意味で頻用されるようになった。\n\nマネジメントでは delegation of authority（権限委譲）が重要なリーダーシップスキルとして注目される。上司がすべてを抱え込むのではなく、適切な権限を委ねることで組織の効率が上がるという考え方である。",
+      derivatives: [
+        { word: "delegation",    desc: "代表団・権限委譲（名詞）" },
+        { word: "delegator",     desc: "委任者・権限を委ねる人" }
+      ],
+      family: [
+        { word: "legal",         desc: "法的な（lex 法律）" },
+        { word: "legislature",   desc: "立法機関" },
+        { word: "relay",         desc: "リレー・中継（re- + layer < legare）" },
+        { word: "legacy",        desc: "遺産・遺産（legatum 遺贈されたもの）" }
+      ],
+      compounds: [
+        { phrase: "delegate authority",   desc: "権限を委ねる・委任する" },
+        { phrase: "delegation of tasks",  desc: "業務の委任・タスク委譲" }
+      ]
+    },
+
+    "legitimate": {
+      origin: "ラテン語 legitimatus（法律に従った）< legitimus（合法的な）< lex / legis（法律）。中世では「正式な婚姻から生まれた子」を指す法律用語として使われており、嫡出子と庶子を区別する文脈で重要な語だった。\n\n16世紀の英語に入り、「法律・規則・道理に合った・正統な」という意味に広がった。legitimate government（正統な政府）のように政治的権威の正当性を問う文脈や、legitimate concern（もっともな懸念）のように「根拠のある・正当な」という日常的な意味でも使われる。\n\n動詞 legitimize / legitimize は「合法化する・正当化する」を意味し、さまざまな社会的・政治的議論で登場する。",
+      derivatives: [
+        { word: "legitimately",  desc: "合法的に・正当に（副詞）" },
+        { word: "legitimacy",    desc: "合法性・正当性（名詞）" },
+        { word: "legitimize",    desc: "正当化する・合法化する" }
+      ],
+      family: [
+        { word: "legal",         desc: "法的な（lex + -al）" },
+        { word: "illegal",       desc: "違法な（il- + legal）" },
+        { word: "delegate",      desc: "委任する（de- + legare）" },
+        { word: "privilege",     desc: "特権（privata lex）" }
+      ],
+      compounds: [
+        { phrase: "legitimate concern",   desc: "もっともな懸念・正当な心配" },
+        { phrase: "legitimate authority", desc: "正当な権威・合法的な権力" }
+      ]
+    },
+
+    // ── cred系（信じる）──
+    "credit": {
+      origin: "ラテン語 creditum（貸し付けたもの）< credere（信じる・信用して貸す）。credere は「心を委ねる」を原義とし、「信頼に基づいて価値を前渡しする」という金融の本質を語源に含む。\n\n14世紀の英語に入り、当初は「信用・信頼」の意味で使われ、やがて「借金・信用取引・クレジット」の金融用語に特化した。現代では映画のエンドクレジット（出演者名一覧）、学校の単位（credit）、功績・名誉（take credit for）など多義的に使われる。\n\n語根 cred- はcredible（信頼できる）、incredible（信じられない）、credential（資格証明書）、creed（信条）を形成し、「信じる」という概念を英語語彙の幅広い領域に広めた。",
+      derivatives: [
+        { word: "creditor",    desc: "債権者・貸し手（credit + -or）" },
+        { word: "credible",    desc: "信頼できる・信憑性のある（形容詞）" },
+        { word: "credential",  desc: "資格証明・信任状（credentialis）" },
+        { word: "accredit",    desc: "認定する・資格を与える（ad- + credit）" }
+      ],
+      family: [
+        { word: "incredible",  desc: "信じられない（in- + credibilis）" },
+        { word: "creed",       desc: "信条・信念の表明（credo）" },
+        { word: "credo",       desc: "信条・信念（ラテン語「私は信じる」）" }
+      ],
+      compounds: [
+        { phrase: "take credit for",  desc: "〜の功績を自分のものにする" },
+        { phrase: "credit card",      desc: "クレジットカード" },
+        { phrase: "on credit",        desc: "ツケで・信用払いで" }
+      ]
+    },
+
+    "incredible": {
+      origin: "ラテン語 incredibilis（信じることができない）< in-（否定）+ credibilis（信じられる）< credere（信じる）。元来「あまりにも非常識で信じられない」という否定的な意味を持っていたが、英語では強意表現として「素晴らしい・驚異的な」という肯定的な意味にも転用された。\n\n16世紀の英語に入り、最初は「信じがたい」という字義通りの意味で使われた。現代口語では "That's incredible!"（すごい！）のように驚きや感嘆を表す強調語として頻用される。意味の軽量化（semantic bleaching）の典型例でもある。\n\n副詞 incredibly は「信じられないほど・とても」という強調副詞として書き言葉・話し言葉双方に頻出する。",
+      derivatives: [
+        { word: "incredibly",    desc: "信じられないほど・とても（副詞）" },
+        { word: "incredulous",   desc: "懐疑的な・信じない（形容詞）" },
+        { word: "incredulity",   desc: "懐疑・信じないこと（名詞）" }
+      ],
+      family: [
+        { word: "credit",        desc: "信用・クレジット（credere）" },
+        { word: "credible",      desc: "信頼できる・信憑性のある" },
+        { word: "creed",         desc: "信条（credo）" }
+      ],
+      compounds: [
+        { phrase: "incredible speed",    desc: "信じられないほどの速さ" },
+        { phrase: "simply incredible",   desc: "本当に信じられない・素晴らしい" }
+      ]
+    },
+
+    "creed": {
+      origin: "ラテン語 credo（私は信じる）< credere（信じる）の一人称現在形。キリスト教の信仰告白文「Credo（使徒信条）」はラテン語「私は信じる」の一語で始まることから、宗教的な信仰の表明を creed と呼ぶようになった。\n\n古英語 creda を経て中世英語に定着。当初はキリスト教の信仰箇条を指したが、やがて「個人・組織が信奉する基本的な信念・信条」という広い意味に拡張された。"our company creed（社是・行動指針）" のような非宗教的な文脈でも使われる。\n\ncolor, race, or creed（肌の色・人種・信条を問わず）は差別禁止の文脈でよく使われる定型句。",
+      derivatives: [
+        { word: "credo",       desc: "信条・行動指針（ラテン語の原形）" }
+      ],
+      family: [
+        { word: "credit",      desc: "信用・クレジット（credere）" },
+        { word: "credible",    desc: "信頼できる（credibilis）" },
+        { word: "incredible",  desc: "信じられない（in- + credibilis）" },
+        { word: "accredit",    desc: "認定する（ad- + credere）" }
+      ],
+      compounds: [
+        { phrase: "regardless of creed",   desc: "信条に関係なく" },
+        { phrase: "political creed",       desc: "政治的信条・政治的信念" }
+      ]
+    },
+
+    // ── rump / rupt系（破れる・壊れる）──
+    "interrupt": {
+      origin: "ラテン語 interrumpere（間に割り込んで切る）< inter-（間に）+ rumpere（壊す・切る）。rumpere の過去分詞 ruptus が英語の接尾辞 -rupt として多くの語に受け継がれている。\n\n14世紀の英語に入り「話・行動・プロセスの途中に割り込んで妨げる」という動詞として定着。日常会話でもビジネスでも頻用される基本動詞である。コンピュータ科学では割り込み信号（interrupt signal）として、CPU に優先処理を要求する重要な概念にもなっている。\n\n語根 rupt- は corrupt（腐敗した）、erupt（噴出する）、abrupt（唐突な）、disrupt（混乱させる）、bankrupt（破産した）など多くの重要語を形成する。",
+      derivatives: [
+        { word: "interruption",  desc: "妨害・中断（名詞）" },
+        { word: "interrupted",   desc: "中断された・途切れた（形容詞）" },
+        { word: "interruptive",  desc: "中断的な・妨害する傾向のある" }
+      ],
+      family: [
+        { word: "corrupt",    desc: "腐敗した（com- + ruptus）" },
+        { word: "erupt",      desc: "噴出する（e- 外へ + rumpere）" },
+        { word: "abrupt",     desc: "唐突な（ab- 離れて + ruptus）" },
+        { word: "disrupt",    desc: "混乱させる（dis- + rumpere）" },
+        { word: "rupture",    desc: "破裂・断絶（ruptura）" }
+      ],
+      compounds: [
+        { phrase: "without interruption", desc: "中断なく・ぶっ通しで" },
+        { phrase: "interrupt a meeting",  desc: "会議に割り込む・会議を中断する" }
+      ]
+    },
+
+    "corrupt": {
+      origin: "ラテン語 corrumpere（完全に壊す）< com-（完全に）+ rumpere（壊す）の過去分詞 corruptus。「完全に破壊された・腐敗した」という意味が語源で、道徳的・物質的な両面の「腐敗」を包含する。\n\n14世紀に英語に入り、政治・倫理の文脈では「汚職・堕落した」、データ・ファイルの文脈では「破損した・壊れた」という意味で使われる。\n\n権力は腐敗する（Power tends to corrupt）という格言はアクトン卿の言葉として有名で、政治哲学の基本命題の一つになっている。",
+      derivatives: [
+        { word: "corruption",    desc: "腐敗・汚職・データ破損（名詞）" },
+        { word: "corruptible",   desc: "腐敗しやすい・買収できる（形容詞）" },
+        { word: "incorruptible", desc: "清廉な・腐敗しない（形容詞）" }
+      ],
+      family: [
+        { word: "interrupt",  desc: "中断する（inter- + rumpere）" },
+        { word: "erupt",      desc: "噴出する（e- + rumpere）" },
+        { word: "disrupt",    desc: "混乱させる（dis- + rumpere）" },
+        { word: "abrupt",     desc: "唐突な（ab- + ruptus）" }
+      ],
+      compounds: [
+        { phrase: "corrupt official",  desc: "腐敗した役人・汚職役人" },
+        { phrase: "file corruption",   desc: "ファイル破損（IT用語）" }
+      ]
+    },
+
+    "erupt": {
+      origin: "ラテン語 erumpere（外に向かって破裂する）< e- / ex-（外へ）+ rumpere（壊す・破裂する）。火山が地表を「破り」溶岩を噴き出すイメージが語源の核心にある。\n\n17世紀に英語に入り、火山の噴火を指す最も一般的な動詞として定着。転じて「感情・騒乱・笑いなどが突然爆発的に起こる」という比喩にも使われる。erupt in laughter（笑いが爆発する）、violence erupted（暴力が勃発した）のように。\n\n名詞 eruption は火山噴火のほか「皮膚発疹（rash）」の医学用語にもなっている。",
+      derivatives: [
+        { word: "eruption",    desc: "噴火・爆発・発疹（名詞）" },
+        { word: "eruptive",    desc: "噴火性の・突発的な（形容詞）" }
+      ],
+      family: [
+        { word: "interrupt",   desc: "中断する（inter- + rumpere）" },
+        { word: "corrupt",     desc: "腐敗した（com- + rumpere）" },
+        { word: "disrupt",     desc: "混乱させる（dis- + rumpere）" },
+        { word: "abrupt",      desc: "唐突な（ab- + ruptus）" }
+      ],
+      compounds: [
+        { phrase: "volcanic eruption",  desc: "火山噴火" },
+        { phrase: "erupt in anger",     desc: "怒りが爆発する" }
+      ]
+    },
+
+    "disrupt": {
+      origin: "ラテン語 disrumpere（引き裂いてバラバラにする）< dis-（離散・分離）+ rumpere（壊す）。「まとまっていたものを分断する」というイメージが語源にある。\n\n17世紀に英語に入り「秩序・計画・進行を乱す」という動詞として定着。近年は IT・ビジネス分野で disrupt an industry（既存産業を破壊的に変革する）という意味で特に注目され、disruption（ディスラプション）はイノベーション理論の核心概念の一つになっている。\n\nクレイトン・クリステンセンの「破壊的イノベーション（disruptive innovation）」理論（1997年）は、低コスト・低品質から市場参入し既存企業を駆逐する現象を分析したもので、スタートアップ・VC業界の標準語彙になった。",
+      derivatives: [
+        { word: "disruption",   desc: "混乱・中断・ディスラプション（名詞）" },
+        { word: "disruptive",   desc: "破壊的な・混乱を引き起こす（形容詞）" },
+        { word: "disruptor",    desc: "破壊者・変革者" }
+      ],
+      family: [
+        { word: "interrupt",    desc: "中断する（inter- + rumpere）" },
+        { word: "corrupt",      desc: "腐敗した（com- + rumpere）" },
+        { word: "erupt",        desc: "噴出する（e- + rumpere）" },
+        { word: "abrupt",       desc: "唐突な（ab- + ruptus）" }
+      ],
+      compounds: [
+        { phrase: "disruptive innovation", desc: "破壊的イノベーション" },
+        { phrase: "disrupt the market",    desc: "市場を破壊的に変革する" }
+      ]
+    },
+
+    "abrupt": {
+      origin: "ラテン語 abruptus（引き離されたもの）< ab-（離れて）+ rumpere（壊す）の過去分詞。崖や断崖のように「突然切れ落ちた」という地形描写から転じて「唐突な・予告なしの」という意味になった。\n\n17世紀の英語に入り、「突然の・ぶっきらぼうな・急峻な」という形容詞として使われる。an abrupt end（突然の終わり）、an abrupt manner（ぶっきらぼうな態度）のように、予期しない断絶を表現する際に用いる。\n\n副詞 abruptly はスピーチや叙述の中で「話が突然変わる」「行動が唐突に起きる」状況を端的に伝える。",
+      derivatives: [
+        { word: "abruptly",    desc: "突然・唐突に（副詞）" },
+        { word: "abruptness",  desc: "唐突さ・ぶっきらぼうさ（名詞）" }
+      ],
+      family: [
+        { word: "interrupt",   desc: "中断する（inter- + rumpere）" },
+        { word: "corrupt",     desc: "腐敗した（com- + rumpere）" },
+        { word: "erupt",       desc: "噴出する（e- + rumpere）" },
+        { word: "disrupt",     desc: "混乱させる（dis- + rumpere）" }
+      ],
+      compounds: [
+        { phrase: "an abrupt end",      desc: "突然の終わり・唐突な幕切れ" },
+        { phrase: "come to an abrupt halt", desc: "突然停止する" }
+      ]
+    },
+
+    // ── gen系（生まれる・種族）──
+    "generate": {
+      origin: "ラテン語 generare（産み出す・生殖する）< genus（種族・種類・出自）。genus は「生まれ・種族」を意味し、インド・ヨーロッパ語根 *gen-（産む・生まれる）に由来する。英語の kin（親族）、kind（種類）とも遠縁にある。\n\n17世紀の英語に入り「生み出す・発生させる」という動詞として定着。電力を generate（発電する）、アイデアを generate（生み出す）のように物理的・抽象的両方の「生成」を表す汎用動詞である。現代では AI が text/image を generate するという文脈でも核心語となっている。\n\n語根 gen- は genre（種類）、genuine（本物の）、generous（気前のよい）、gene（遺伝子）、gender（性別）など非常に多くの英語語彙を形成する最重要語根の一つ。",
+      derivatives: [
+        { word: "generation",   desc: "世代・産出・発電（名詞）" },
+        { word: "generator",    desc: "発電機・生成するもの" },
+        { word: "generative",   desc: "生成的な・産出能力のある（形容詞）" }
+      ],
+      family: [
+        { word: "genuine",      desc: "本物の・真正な（genuinus 生まれながらの）" },
+        { word: "generous",     desc: "気前のよい（generosus 高貴な出自の）" },
+        { word: "gene",         desc: "遺伝子（genos 出自・種族）" },
+        { word: "gender",       desc: "性別（genus の変形）" },
+        { word: "genre",        desc: "ジャンル・種類（フランス語 genre < genus）" }
+      ],
+      compounds: [
+        { phrase: "generate revenue",    desc: "収益を生み出す" },
+        { phrase: "generate electricity", desc: "電力を発電する" },
+        { phrase: "next generation",     desc: "次世代" }
+      ]
+    },
+
+    "genuine": {
+      origin: "ラテン語 genuinus（生まれながらの・本来の）< genu（膝）またはgenus（出自）に由来する説が並立する。有力な解釈は、古代ローマで父親が自分の子と認めるとき「膝の上に乗せた」習慣に由来するというもの（genu 膝の上のもの＝正式に認められた子）。\n\n16世紀の英語に入り「本物の・真正な・偽りのない」という意味に定着。a genuine signature（本物の署名）、a genuine effort（本気の努力）のように、模造や偽りに対して「オリジナル・真実のもの」を指す。\n\n人の性格に使うときは「誠実な・裏表のない」というニュアンスが加わり、she's a genuine person（彼女は誠実な人だ）のように使われる。",
+      derivatives: [
+        { word: "genuinely",   desc: "本当に・心から・偽りなく（副詞）" },
+        { word: "genuineness", desc: "真正さ・誠実さ（名詞）" }
+      ],
+      family: [
+        { word: "generate",    desc: "生み出す（generare）" },
+        { word: "generous",    desc: "気前のよい（generosus）" },
+        { word: "gene",        desc: "遺伝子（genos）" },
+        { word: "genre",       desc: "ジャンル（genus）" }
+      ],
+      compounds: [
+        { phrase: "genuine interest",  desc: "本物の関心・心からの興味" },
+        { phrase: "genuine article",   desc: "本物・真物" }
+      ]
+    },
+
+    "generous": {
+      origin: "ラテン語 generosus（高貴な出自の・気高い）< genus（出自・種族）。古代では「高貴な家柄から生まれた人は自然と気前がよい」という貴族的な価値観と結びついており、「出自の良さ」が「気前の良さ」へと意味が転じた。\n\n16世紀に英語に入り、当初は「高貴な出自の」という意味で使われたが、17世紀以降は「気前がよい・惜しみなく与える・寛大な」という現代的な意味が中心となった。\n\na generous donation（惜しみない寄付）、a generous interpretation（寛大な解釈）のように物質的・精神的両面の「太っ腹さ」を表す。",
+      derivatives: [
+        { word: "generously",   desc: "気前よく・惜しみなく（副詞）" },
+        { word: "generosity",   desc: "気前のよさ・寛大さ（名詞）" }
+      ],
+      family: [
+        { word: "generate",    desc: "生み出す（generare）" },
+        { word: "genuine",     desc: "本物の（genuinus）" },
+        { word: "genre",       desc: "ジャンル（genus）" },
+        { word: "gentle",      desc: "温和な（gentilis 家柄のよい）" }
+      ],
+      compounds: [
+        { phrase: "generous offer",    desc: "気前のよい申し出・好条件の提案" },
+        { phrase: "generous portion",  desc: "たっぷりの量・多めの量" }
+      ]
+    },
+
+    "genre": {
+      origin: "フランス語 genre（種類・様式）< ラテン語 genus（種族・種類）。genus はインド・ヨーロッパ語根 *gen-（産む・生まれる）に由来し、「同じ出自から生まれたものの分類」というのが語源的な意味である。\n\n英語には18世紀に入り、文学・音楽・映画などの「様式・ジャンル」を指す語として定着。悲劇・喜劇・叙事詩という古典的な genre の区分に始まり、現代ではファンタジー、SF、ロマンスなど細分化されたジャンルを指す。\n\n絵画では 17〜18世紀のオランダ・フランドルで発展した「日常生活を描く絵画様式（genre painting）」を指す美術用語でもある。",
+      derivatives: [
+        { word: "subgenre",    desc: "サブジャンル・下位ジャンル" }
+      ],
+      family: [
+        { word: "generate",    desc: "生み出す（generare）" },
+        { word: "genuine",     desc: "本物の（genuinus）" },
+        { word: "generous",    desc: "気前のよい（generosus）" },
+        { word: "gender",      desc: "性別（genus の変形）" },
+        { word: "general",     desc: "一般的な・全体の（generalis 種族全体の）" }
+      ],
+      compounds: [
+        { phrase: "genre fiction",    desc: "大衆向けジャンル小説（SF・ミステリなど）" },
+        { phrase: "genre painting",   desc: "風俗画・日常生活を描く絵画" }
+      ]
+    },
+
+    // ── path系（感じる・病気）──
+    "sympathy": {
+      origin: "ギリシャ語 sympatheia（共に感じること）< sym-（共に）+ pathos（感情・苦しみ・感受）。sym- は syn- の変形で「同じ・共に」を意味し、pathos は「感じる・苦しむ」という動詞 paschein に由来する。\n\n16世紀の英語に入り「他者の苦しみを共に感じる・同情・共感」という意味で定着。empathy（感情移入）との違いは微妙で、sympathy は「外から理解して同情する」、empathy は「相手の感情の中に入り込む」というニュアンスがある。\n\n音楽・物理では「共鳴（sympathetic vibration）」を意味し、一方の弦が振動すると同じ音程の弦が自然に鳴り出す現象を指す。",
+      derivatives: [
+        { word: "sympathize",    desc: "同情する・共感する" },
+        { word: "sympathetic",   desc: "同情的な・理解ある（形容詞）" },
+        { word: "sympathetically", desc: "同情的に・好意をもって（副詞）" }
+      ],
+      family: [
+        { word: "empathy",     desc: "感情移入・共感（em- 中に + pathos）" },
+        { word: "apathy",      desc: "無関心・無感動（a- 無 + pathos）" },
+        { word: "pathology",   desc: "病理学（pathos 病 + logos）" },
+        { word: "antipathy",   desc: "反感・嫌悪（anti- 反対 + pathos）" }
+      ],
+      compounds: [
+        { phrase: "express sympathy",      desc: "同情を表す・お悔やみを申し上げる" },
+        { phrase: "sympathetic vibration", desc: "共鳴・共振（物理）" }
+      ]
+    },
+
+    "empathy": {
+      origin: "ギリシャ語 empatheia（熱中・情熱）< em- / en-（中に）+ pathos（感情・感受）。ドイツ語 Einfühlung（感情移入）の翻訳語として20世紀初頭に英語 empathy が造られた。心理学・美学の用語として「他者の感情の中に自分を投影して理解する能力」を指す。\n\n1909年にエドワード・ティチェナーが英訳語として empathy を採用して以降、20世紀後半には心理学・教育・医療・リーダーシップ論で最重要概念の一つになった。sympathy（同情）との違いとして、empathy は「相手の靴を履く（put yourself in someone's shoes）」という体験的理解を強調する。\n\n神経科学では共感に関わる「ミラーニューロン」の発見（1990年代）が empathy の生物学的基盤として注目されている。",
+      derivatives: [
+        { word: "empathize",    desc: "感情移入する・共感する" },
+        { word: "empathetic",   desc: "共感力のある・感情移入できる（形容詞）" }
+      ],
+      family: [
+        { word: "sympathy",    desc: "同情・共感（sym- + pathos）" },
+        { word: "apathy",      desc: "無関心（a- + pathos）" },
+        { word: "pathology",   desc: "病理学（pathos 病 + logos）" },
+        { word: "telepathy",   desc: "テレパシー（tele- 遠く + pathos）" }
+      ],
+      compounds: [
+        { phrase: "show empathy",     desc: "共感を示す" },
+        { phrase: "empathy gap",      desc: "共感のギャップ（感情状態の違いで理解が難しい現象）" }
+      ]
+    },
+
+    "apathy": {
+      origin: "ギリシャ語 apatheia（感情の欠如・無感動）< a-（否定・無）+ pathos（感情・感受）。古代ギリシャのストア哲学では「情動に左右されない平静な精神状態（アパテイア）」を理想とし、肯定的な概念として使われていた。\n\nラテン語 apathia を経て17世紀の英語に入ると、哲学的な平静という意味は失われ「感情や関心が欠如した状態・無気力・無関心」という否定的な意味に転じた。voter apathy（有権者の政治的無関心）、apathy about social issues（社会問題への無関心）のように使われる。\n\n現代の心理・医療では apathy はうつ病・認知症の症状として臨床的に評価される概念でもある。",
+      derivatives: [
+        { word: "apathetic",    desc: "無関心な・無気力な（形容詞）" },
+        { word: "apathetically", desc: "無関心に・無気力に（副詞）" }
+      ],
+      family: [
+        { word: "sympathy",    desc: "同情・共感（sym- + pathos）" },
+        { word: "empathy",     desc: "感情移入（em- + pathos）" },
+        { word: "antipathy",   desc: "反感・嫌悪（anti- + pathos）" },
+        { word: "pathology",   desc: "病理学（pathos 病 + logos）" }
+      ],
+      compounds: [
+        { phrase: "voter apathy",      desc: "有権者の政治的無関心" },
+        { phrase: "political apathy",  desc: "政治的無関心・無力感" }
+      ]
+    },
+
+    "pathology": {
+      origin: "ギリシャ語 pathos（苦しみ・病・感情）+ logos（学問）から成る医学用語。16世紀頃に「病気の原因・性質・発症メカニズムを研究する医学の分野」として確立した。\n\n病理学（pathology）は臨床医学の基礎を成し、組織を顕微鏡で調べる組織病理学（histopathology）や、死因を調べる法医病理学（forensic pathology）などに分化している。\n\n比喩的には「社会の病理（social pathology）」「組織の病理」のように「機能不全・異常な状態」を指す用語としても広く使われる。",
+      derivatives: [
+        { word: "pathologist",   desc: "病理学者（病理解剖を行う医師）" },
+        { word: "pathological",  desc: "病理学的な・病的な（形容詞）" },
+        { word: "pathologically", desc: "病理学的に・病的に（副詞）" }
+      ],
+      family: [
+        { word: "sympathy",     desc: "同情（sym- + pathos）" },
+        { word: "empathy",      desc: "共感（em- + pathos）" },
+        { word: "apathy",       desc: "無関心（a- + pathos）" },
+        { word: "psychology",   desc: "心理学（psychē + logos）" }
+      ],
+      compounds: [
+        { phrase: "forensic pathology",  desc: "法医病理学" },
+        { phrase: "social pathology",    desc: "社会病理（社会的な機能不全）" }
+      ]
+    },
+
+    // ── nov系（新しい）──
+    "novel": {
+      origin: "ラテン語 novellus（新しい・若い）< novus（新しい）の縮小形。英語には二つの意味で入った。形容詞「斬新な・これまでにない」は15世紀、名詞「長編小説」はイタリア語 novella（短い物語・新しいこと）を経て16〜17世紀に定着した。\n\n小説ジャンルとしての novel は18世紀のイギリスで確立し、ダニエル・デフォー『ロビンソン・クルーソー』（1719年）が英語最初の近代小説の一つとされる。散文で書かれ、内面描写を重視し、現実的な状況を描く長編物語という形式が novel の特徴。\n\n形容詞としては a novel approach（斬新なアプローチ）のように、ビジネス・学術文書でも頻繁に使われる。",
+      derivatives: [
+        { word: "novelist",    desc: "小説家・長編作家" },
+        { word: "novelty",     desc: "目新しさ・珍しいもの・ノベルティ（名詞）" },
+        { word: "novella",     desc: "中編小説（イタリア語借用）" }
+      ],
+      family: [
+        { word: "innovate",    desc: "革新する（in- + novus）" },
+        { word: "renovate",    desc: "改修する・刷新する（re- + novus）" },
+        { word: "novice",      desc: "初心者・見習い（novus 新しい人）" },
+        { word: "new",         desc: "新しい（novus と同じ印欧語根 *newo-）" }
+      ],
+      compounds: [
+        { phrase: "graphic novel",  desc: "グラフィックノベル・マンガ的長編物語" },
+        { phrase: "novel approach", desc: "斬新なアプローチ・新しい方法" }
+      ]
+    },
+
+    "innovation": {
+      origin: "ラテン語 innovare（新しくする）< in-（中に）+ novare（新しくする）< novus（新しい）の名詞形 innovatio。「既存のものを一新する・新しいものを導入する」という意味が語源にある。\n\n15世紀に英語に入り当初は「変化・刷新」という中立的な語だったが、産業革命以降は「技術的・社会的な新しい価値の創出」という肯定的な意味が主流になった。現代ではシュンペーターの「創造的破壊（creative destruction）」理論と結びつき、経済成長の原動力として語られる核心概念である。\n\nopen innovation（オープンイノベーション）、disruptive innovation（破壊的イノベーション）など複合語も多い。",
+      derivatives: [
+        { word: "innovate",      desc: "革新する・新機軸を打ち出す（動詞）" },
+        { word: "innovative",    desc: "革新的な・斬新な（形容詞）" },
+        { word: "innovator",     desc: "革新者・イノベーター" }
+      ],
+      family: [
+        { word: "novel",         desc: "斬新な・小説（novellus）" },
+        { word: "novice",        desc: "初心者（novus 新しい人）" },
+        { word: "renovate",      desc: "改修する（re- + novus）" },
+        { word: "new",           desc: "新しい（同じ語根 *newo-）" }
+      ],
+      compounds: [
+        { phrase: "drive innovation",      desc: "イノベーションを推進する" },
+        { phrase: "open innovation",       desc: "オープンイノベーション" },
+        { phrase: "culture of innovation", desc: "イノベーション文化・革新を重んじる組織風土" }
+      ]
+    },
+
+    "novice": {
+      origin: "ラテン語 novicius（新入りの・初めての）< novus（新しい）。修道院用語として「見習い修道士（まだ誓願を立てていない修行中の修道士）」を指したのが語源で、13世紀頃のフランス語経由で英語に入った。\n\n宗教的な文脈から転じて「特定の分野での初心者・経験の浅い人」という意味で一般化した。beginner よりもやや格式があり、「まだ基礎を学んでいる段階」という具体的なニュアンスを持つ。a novice programmer（プログラミング初心者）、a novice driver（ペーパードライバーに近い初心者）のように使う。\n\nIT の初心者向けリソースでは novice-level tutorial（初心者向けチュートリアル）のように使われる。",
+      derivatives: [
+        { word: "novitiate",  desc: "見習い期間・修道院の試験期間" }
+      ],
+      family: [
+        { word: "novel",      desc: "斬新な・小説（novellus）" },
+        { word: "innovate",   desc: "革新する（in- + novus）" },
+        { word: "renovate",   desc: "改修する（re- + novus）" },
+        { word: "new",        desc: "新しい（同じ語根）" }
+      ],
+      compounds: [
+        { phrase: "complete novice",   desc: "全くの初心者・全くの素人" },
+        { phrase: "novice level",      desc: "初心者レベル・初級" }
+      ]
     }
 
   };

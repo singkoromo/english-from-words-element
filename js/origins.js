@@ -24956,6 +24956,512 @@
         { phrase: "beneath dignity",      desc: "品位に欠ける" },
         { phrase: "lurk beneath",         desc: "〜の下に潜む" }
       ]
+    },
+
+    "care": {
+      origin: "古英語 caru（悲嘆・心配）< ゲルマン語根 *karo（嘆き・心配）。「深く心を向けること・心配すること」が原義で、careful（注意深い）・careless（不注意な）・carefree（のびのびした）という語族を形成する。\n\n英語には古英語期から「心を痛める・心配する」の意で使われ、中世以降に「面倒を見る・大切にする」という積極的な意味が広まった。healthcare（医療）・care home（介護施設）のように社会サービスの語彙として20世紀に重要となった。\n\n現代英語ではhealthcare（医療）・take care of（世話をする）・don't care（気にしない）のように、医療・日常・感情の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "careful",   desc: "注意深い（形容詞）" },
+        { word: "careless",  desc: "不注意な（形容詞）" },
+        { word: "caregiver", desc: "介護者・保護者（名詞）" }
+      ],
+      family: [
+        { word: "concern",  desc: "心配・関心（con+cernere）" },
+        { word: "tend",     desc: "世話をする（tendere）" },
+        { word: "nurse",    desc: "看護する（nutrire）" }
+      ],
+      compounds: [
+        { phrase: "healthcare",    desc: "医療・ヘルスケア" },
+        { phrase: "take care of",  desc: "世話をする・面倒を見る" },
+        { phrase: "palliative care", desc: "緩和ケア" }
+      ]
+    },
+
+    "carry": {
+      origin: "アングロ・ノルマン語 carier（運ぶ・乗り物で運ぶ）< ラテン語 carrum（荷車）< ガリア語 *carros（荷車）。car（車）・cargo（積み荷）・chariot（戦車）と同根で、「乗り物や体を使って物を運ぶ」が原義。\n\n英語には14世紀に採用され、「荷物を運ぶ」の物理的意味が先行した。carry out（実行する）・carry on（続ける）・carry weight（重みがある）のような慣用句が発展し、英語の最頻出語の一つとなった。\n\n現代英語ではcarry out a plan（計画を実行する）・carry the team（チームを支える）・aircraft carrier（航空母艦）のように、行動・支援・輸送の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "carrier",   desc: "運搬者・航空母艦・保菌者（名詞）" },
+        { word: "carriage",  desc: "馬車・姿勢（名詞）" }
+      ],
+      family: [
+        { word: "car",      desc: "車（carrum）" },
+        { word: "cargo",    desc: "積み荷（carrum）" },
+        { word: "chariot",  desc: "戦車（carrus）" }
+      ],
+      compounds: [
+        { phrase: "carry out",        desc: "実行する" },
+        { phrase: "aircraft carrier", desc: "航空母艦" },
+        { phrase: "carry the weight", desc: "重荷を担う・重要性を持つ" }
+      ]
+    },
+
+    "cause": {
+      origin: "ラテン語 causa（原因・理由・訴訟）。「事物が生じる根本的な理由」が原義で、accuse（告発する）・excuse（弁明する）・because（なぜなら）・causal（因果の）と同語族を形成する重要な語根。\n\n英語には13世紀にフランス語 cause を経て採用され、法律・哲学・医学の語彙として「原因・訴訟・大義」の三つの意味で定着した。cause and effect（因果関係）がアリストテレス以来の哲学的概念として英語文化に定着している。\n\n現代英語ではcause and effect（因果関係）・root cause（根本原因）・fight for a cause（大義のために戦う）のように、論理・医学・社会運動の核心語として機能する語である。",
+      derivatives: [
+        { word: "causal",    desc: "因果の・原因となる（形容詞）" },
+        { word: "causation", desc: "因果関係・原因（名詞）" }
+      ],
+      family: [
+        { word: "accuse",   desc: "告発する（ad+causa）" },
+        { word: "excuse",   desc: "言い訳する（ex+causa）" },
+        { word: "because",  desc: "なぜなら（by+causa）" }
+      ],
+      compounds: [
+        { phrase: "cause and effect", desc: "因果関係" },
+        { phrase: "root cause",       desc: "根本原因" },
+        { phrase: "lost cause",       desc: "見込みのない戦い・報われない努力" }
+      ]
+    },
+
+    "certain": {
+      origin: "ラテン語 certus（決まった・確実な）< cernere（区別する・判断する）< 語根 *krei-（選別する・区別する）。concern（懸念）・discern（識別する）・decree（法令）と同根で、「疑いなく区別・判断できる」が原義。\n\n英語には13世紀にフランス語 certain を経て採用され、「疑う余地のない・特定の」の意味で定着した。make certain（確かめる）・for certain（確実に）・certain people（ある人々）のように多義的な使い方が発展した。\n\n現代英語ではcertain facts（確かな事実）・make certain of（〜を確かめる）・a certain degree of（ある程度の）のように、確実性・特定化・程度表現の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "certainly",  desc: "確かに・もちろん（副詞）" },
+        { word: "certainty",  desc: "確実性・確信（名詞）" },
+        { word: "uncertain",  desc: "不確かな（否定形）" }
+      ],
+      family: [
+        { word: "discern",   desc: "識別する（dis+cernere）" },
+        { word: "concern",   desc: "懸念・関わる（con+cernere）" },
+        { word: "decree",    desc: "法令・定める（de+cernere）" }
+      ],
+      compounds: [
+        { phrase: "make certain",     desc: "確かめる" },
+        { phrase: "for certain",      desc: "確実に・間違いなく" },
+        { phrase: "certain degree",   desc: "ある程度" }
+      ]
+    },
+
+    "chance": {
+      origin: "古フランス語 cheance（起きること）< 後期ラテン語 cadentia（落ちること・偶然の出来事）< cadere（落ちる）。case（場合）・accident（事故）・occasion（機会）と同根で、「サイコロが落ちて決まるような偶然の出来事」が原義。\n\n英語には13世紀に採用され、「偶然性・機会・リスク」の三つの意味が共存している。by chance（偶然に）・take a chance（賭けてみる）・chance encounter（偶然の出会い）のように日常英語に深く組み込まれた語となった。\n\n現代英語ではgive it a chance（試してみる）・fat chance（ほぼ不可能）・chance of rain（降水確率）のように、確率・機会・冒険の多様な文脈で機能する名詞・動詞である。",
+      derivatives: [
+        { word: "chancy",    desc: "危険な・不確かな（形容詞）" }
+      ],
+      family: [
+        { word: "accident",  desc: "事故（ad+cadere）" },
+        { word: "occasion",  desc: "機会（ob+cadere）" },
+        { word: "case",      desc: "場合・事例（cadere）" }
+      ],
+      compounds: [
+        { phrase: "by chance",       desc: "偶然に" },
+        { phrase: "take a chance",   desc: "賭けに出る・試みる" },
+        { phrase: "chance encounter", desc: "偶然の出会い" }
+      ]
+    },
+
+    "change": {
+      origin: "古フランス語 changer（交換する・変える）< ラテン語 cambiare（交換する）< ケルト語 *kamb-（曲がる・変わる）。exchange（交換する）・interchange（相互交換）と同根で、「一つのものを別のものに置き換える」が原義。\n\n英語には13世紀に採用され、物理的な「交換・両替」の意味が先行し、14世紀以降に「変化する・変える」の一般的意味が主流となった。climate change（気候変動）・change management（変革管理）のように現代の最重要語彙の一つとなっている。\n\n現代英語ではclimate change（気候変動）・change of heart（心変わり）・embrace change（変化を受け入れる）のように、環境・心理・組織の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "changeable",   desc: "変わりやすい（形容詞）" },
+        { word: "unchangeable", desc: "不変の（否定形）" },
+        { word: "exchange",     desc: "交換する（ex+cambiare）" }
+      ],
+      family: [
+        { word: "exchange",    desc: "交換する（ex+change）" },
+        { word: "interchange", desc: "相互交換（inter+change）" },
+        { word: "transform",   desc: "変容させる（trans+forma）" }
+      ],
+      compounds: [
+        { phrase: "climate change",   desc: "気候変動" },
+        { phrase: "change of heart",  desc: "心変わり" },
+        { phrase: "spare change",     desc: "小銭・おつり" }
+      ]
+    },
+
+    "charge": {
+      origin: "古フランス語 chargier（荷を積む・請求する）< ラテン語 carrus（荷車）< ガリア語 *carros（荷車）。carry（運ぶ）・cargo（積み荷）・car（車）と同根で、「荷車に重く積み込む・その責任を担わせる」が原義。\n\n英語には13世紀に採用され、「荷を積む→費用・料金・責任を課す→攻撃する・充電する」と多義的に発展した英語の最も多義な語の一つ。charge a battery（電池を充電する）・charge with a crime（犯罪で告発する）・take charge（指揮を執る）。\n\n現代英語ではfree of charge（無料で）・charge with a crime（犯罪で告発する）・take charge（指揮を執る）のように、財務・法律・電気・指揮の多様な文脈で機能する多義語である。",
+      derivatives: [
+        { word: "charged",   desc: "充電された・感情が高ぶった（形容詞）" },
+        { word: "overcharge", desc: "過大請求する（動詞）" }
+      ],
+      family: [
+        { word: "cargo",    desc: "積み荷（carrus）" },
+        { word: "carry",    desc: "運ぶ（carrus）" },
+        { word: "car",      desc: "車（carrus）" }
+      ],
+      compounds: [
+        { phrase: "free of charge",    desc: "無料で" },
+        { phrase: "take charge",       desc: "指揮を執る・担当する" },
+        { phrase: "charge with crime", desc: "犯罪で告発する" }
+      ]
+    },
+
+    "chief": {
+      origin: "古フランス語 chief（頭・首長）< ラテン語 caput（頭・最高点）。chapter（章）・captain（長）・capital（首都・資本）・achieve（達成する）と同根で、「集団の頭・最高位の人」が原義。\n\n英語には13世紀に「部族・集団の最高指導者」の意味で採用され、14世紀以降に「主な・最も重要な」の形容詞としても使われるようになった。chief executive officer（CEO）・chief complaint（主訴）のように現代の組織・医療語彙として重要となった。\n\n現代英語ではCEO（最高経営責任者）・chief concern（主な懸念事項）・chief of staff（参謀長・首席補佐官）のように、組織・軍事・医療の指導者・主要なものを表す語として機能する。",
+      derivatives: [
+        { word: "chiefly",   desc: "主に・主として（副詞）" },
+        { word: "chieftain", desc: "族長・リーダー（名詞）" }
+      ],
+      family: [
+        { word: "capital",  desc: "首都・資本（caput）" },
+        { word: "captain",  desc: "長・船長（caput）" },
+        { word: "chapter",  desc: "章（caput）" }
+      ],
+      compounds: [
+        { phrase: "chief executive officer", desc: "最高経営責任者（CEO）" },
+        { phrase: "chief of staff",          desc: "参謀長・首席補佐官" },
+        { phrase: "in chief",                desc: "主任の・最高位の（接尾辞）" }
+      ]
+    },
+
+    "choose": {
+      origin: "古英語 ceosan（選ぶ）< ゲルマン語根 *keus-（試す・選ぶ）< インド・ヨーロッパ語根 *geus-（味わう・試す）。taste（味わう）・disgust（嫌悪）・choice（選択）と同根で、「試して味わって選ぶ」が原義。\n\n英語には古英語期から使われる基本語彙で、choose-chose-chosen という不規則変化が特徴。freedom of choice（選択の自由）・Hobson's choice（選択の余地のない選択）のような慣用表現が定着し、選択の哲学的・倫理的重要性を反映する語である。\n\n現代英語ではchoose a career（職業を選ぶ）・freedom of choice（選択の自由）・pick and choose（えり好みする）のように、意思決定・倫理・日常の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "choice",   desc: "選択・選択肢（名詞）" },
+        { word: "choosy",   desc: "好みがうるさい（形容詞）" }
+      ],
+      family: [
+        { word: "taste",    desc: "味わう・味覚（*geus-）" },
+        { word: "disgust",  desc: "嫌悪（dis+*geus-）" },
+        { word: "select",   desc: "選ぶ（se+legere）" }
+      ],
+      compounds: [
+        { phrase: "freedom of choice",  desc: "選択の自由" },
+        { phrase: "pick and choose",    desc: "えり好みする" },
+        { phrase: "Hobson's choice",    desc: "選択の余地のない選択" }
+      ]
+    },
+
+    "clash": {
+      origin: "擬音語起源（clash）。金属同士がぶつかる「ガシャン」という衝突音が語源で、crash（衝突する）・clang（金属音）・clatter（がたがた音）と同じ擬音語グループに属する。\n\n英語には16世紀に「金属が激しくぶつかる音・衝突」の意味で採用され、17世紀以降に「意見・利害・軍隊が衝突する」の一般的意味が広まった。culture clash（文化の衝突）・schedule clash（スケジュールの重複）のように現代語彙として多方面に使われる。\n\n現代英語ではculture clash（文化の衝突）・clash of interests（利害の衝突）・schedule clash（スケジュールの重複）のように、文化・政治・日常の対立を表す語として機能する。",
+      derivatives: [
+        { word: "clashing",  desc: "衝突している・色が合わない（形容詞）" }
+      ],
+      family: [
+        { word: "conflict",  desc: "衝突・紛争（con+fligere）" },
+        { word: "crash",     desc: "衝突する（擬音語）" },
+        { word: "collide",   desc: "衝突する（col+laedere）" }
+      ],
+      compounds: [
+        { phrase: "culture clash",      desc: "文化の衝突" },
+        { phrase: "clash of interests", desc: "利害の衝突" },
+        { phrase: "clash of titans",    desc: "巨人の衝突" }
+      ]
+    },
+
+    "clear": {
+      origin: "古フランス語 cler（明るい・明確な）< ラテン語 clarus（明るい・著名な）。clarify（明確にする）・declare（宣言する）・clarity（明瞭さ）と同根で、「光が遮られずに見える・疑いなく明確な」が原義。\n\n英語には13世紀に採用され、「光学的な明るさ」から「論理的な明確さ」「障害の除去」まで多義的に発展した最頻出語の一つ。clear a room（部屋を片付ける）・clear one's throat（咳払いをする）・in the clear（疑いが晴れた）のような慣用表現が豊富。\n\n現代英語ではclear instructions（明確な指示）・clear a debt（借金を完済する）・crystal clear（完全に明白な）のように、視覚・論理・障害除去の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "clearly",   desc: "明らかに・明確に（副詞）" },
+        { word: "clarity",   desc: "明瞭さ・明確さ（名詞）" },
+        { word: "clarify",   desc: "明確にする（clarus）" }
+      ],
+      family: [
+        { word: "declare",   desc: "宣言する（de+clarus）" },
+        { word: "clarify",   desc: "明確にする（clarus）" },
+        { word: "illuminate", desc: "照らす（lumen）" }
+      ],
+      compounds: [
+        { phrase: "crystal clear",    desc: "完全に明白な" },
+        { phrase: "clear the air",    desc: "誤解を解く・空気を清める" },
+        { phrase: "in the clear",     desc: "疑いが晴れた・安全な" }
+      ]
+    },
+
+    "close": {
+      origin: "ラテン語 claudere（閉じる・締める）< 語根 *kleu-（閉じる・鍵をかける）。include（含む）・exclude（除外する）・conclude（結論を出す）・disclose（暴露する）と同根で、「開いているものを閉じる」が原義。\n\n英語には13世紀にフランス語 clos を経て採用され、動詞（閉じる）・形容詞（近い）・副詞（接近して）・名詞（閉鎖）と多品詞で機能する。close-knit（結束が固い）・come close（接近する）のような多くの慣用表現が発展した。\n\n現代英語ではclose a deal（取引をまとめる）・close-knit community（結束の固い共同体）・a close call（間一髪の経験）のように、商取引・社会・危険の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "closure",    desc: "閉鎖・終結・心の区切り（名詞）" },
+        { word: "disclose",   desc: "開示する（dis+claudere）" },
+        { word: "enclose",    desc: "囲む・同封する（en+claudere）" }
+      ],
+      family: [
+        { word: "include",   desc: "含む（in+claudere）" },
+        { word: "exclude",   desc: "除外する（ex+claudere）" },
+        { word: "conclude",  desc: "結論を出す（con+claudere）" }
+      ],
+      compounds: [
+        { phrase: "close a deal",      desc: "取引をまとめる" },
+        { phrase: "a close call",      desc: "間一髪の経験" },
+        { phrase: "close-knit",        desc: "結束の固い" }
+      ]
+    },
+
+    "cluster": {
+      origin: "古英語 clyster / cluster（房・群れ）< 語根 *klus-（群れる）。「同種のものが自然に集まってできた塊・房」が原義で、grape cluster（ブドウの房）・star cluster（星団）という視覚的なイメージから来る語。\n\n英語には古英語期から使われ、17世紀以降に科学・統計・コンピューター科学の専門語彙として発展した。cluster analysis（クラスター分析）・cluster bomb（集束爆弾）・cluster of symptoms（症状群）のように現代語彙に広く使われる。\n\n現代英語ではcluster of cases（症例の集積）・star cluster（星団）・cluster analysis（クラスター分析）のように、医学・天文学・統計の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "clustered",  desc: "密集した・群れをなした（形容詞）" }
+      ],
+      family: [
+        { word: "bunch",   desc: "束・群れ（古英語）" },
+        { word: "group",   desc: "グループ・集団（古フランス語）" },
+        { word: "swarm",   desc: "群れ（古英語）" }
+      ],
+      compounds: [
+        { phrase: "cluster analysis",   desc: "クラスター分析" },
+        { phrase: "cluster of cases",   desc: "症例の集積" },
+        { phrase: "industry cluster",   desc: "産業集積・クラスター" }
+      ]
+    },
+
+    "code": {
+      origin: "ラテン語 codex / caudex（木の幹・書き板・法典）< 「木の幹を割って作った書き板」が原義。「法典→記号システム」へと意味が発展した語で、codec（コーデック）・codify（体系化する）と同語族。\n\n英語には14世紀に「法典・規則の体系」の意味で採用され、19世紀以降に「電信暗号・信号システム」の意味が広まった。20世紀のコンピューター革命でsource code（ソースコード）・programming code（プログラムコード）が核心語となった。\n\n現代英語ではsource code（ソースコード）・dress code（服装規定）・bar code（バーコード）のように、技術・社会規範・通信の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "codify",   desc: "法典化する・体系化する（動詞）" },
+        { word: "encode",   desc: "符号化する（en+code）" },
+        { word: "decode",   desc: "解読する（de+code）" }
+      ],
+      family: [
+        { word: "codex",   desc: "古代の写本・法典（codex）" },
+        { word: "codec",   desc: "コーデック（code+decode）" },
+        { word: "cipher",  desc: "暗号（アラビア語起源）" }
+      ],
+      compounds: [
+        { phrase: "source code",  desc: "ソースコード" },
+        { phrase: "dress code",   desc: "服装規定" },
+        { phrase: "bar code",     desc: "バーコード" }
+      ]
+    },
+
+    "collapse": {
+      origin: "ラテン語 collapsus（共に落ちた）< com-（共に）+ labi（滑る・落ちる）。elapse（経過する）・lapse（過ち・経過する）・relapse（再発する）と同根で、「支えが外れて一斉に崩れ落ちる」が原義。\n\n英語には17世紀に採用され、「建物・体・組織・市場が突然崩れる」の意味で使われた。economic collapse（経済崩壊）・cardiovascular collapse（心血管虚脱）・political collapse（政治的崩壊）のように多方面の語彙として重要となった。\n\n現代英語ではthe bridge collapsed（橋が崩落した）・collapse of the economy（経済の崩壊）・collapse from exhaustion（疲労で倒れる）のように、建築・経済・医療の危機的状況を表す語として機能する。",
+      derivatives: [
+        { word: "collapsed",   desc: "崩壊した・倒れた（形容詞）" },
+        { word: "collapsible", desc: "折りたたみできる（形容詞）" }
+      ],
+      family: [
+        { word: "lapse",   desc: "過ち・経過する（labi）" },
+        { word: "relapse", desc: "再発する（re+labi）" },
+        { word: "elapse",  desc: "経過する（e+labi）" }
+      ],
+      compounds: [
+        { phrase: "economic collapse",    desc: "経済崩壊" },
+        { phrase: "structural collapse",  desc: "構造的崩壊" },
+        { phrase: "collapse under pressure", desc: "圧力に負けて崩れる" }
+      ]
+    },
+
+    "combine": {
+      origin: "ラテン語 combinare（二つを合わせる）< com-（共に）+ bini（二つずつ）< bis（二度）+ 語根 *dwo-（二）。binary（二進法）・combination（組み合わせ）と同根で、「二つを合わせる」が原義だが一般に「複数のものを一緒にする」に拡張した。\n\n英語には15世紀にフランス語 combiner を経て採用され、「異なる要素を混ぜ合わせる・融合させる」の意味で化学・料理・ビジネスの語彙として発展した。combined effort（合同の努力）・combine harvester（コンバイン）が重要語彙となった。\n\n現代英語ではcombine efforts（力を合わせる）・combine harvester（コンバイン収穫機）・chemical combination（化学結合）のように、協力・農業・科学の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "combination",  desc: "組み合わせ・結合（名詞）" },
+        { word: "combined",     desc: "合同の・連合した（形容詞）" }
+      ],
+      family: [
+        { word: "binary",  desc: "二進法の（bis）" },
+        { word: "double",  desc: "二倍の（duplex）" },
+        { word: "dual",    desc: "二重の（dualis）" }
+      ],
+      compounds: [
+        { phrase: "combine harvester", desc: "コンバイン収穫機" },
+        { phrase: "combine efforts",   desc: "力を合わせる" },
+        { phrase: "in combination",    desc: "組み合わせて" }
+      ]
+    },
+
+    "complex": {
+      origin: "ラテン語 complexus（絡み合った）< com-（共に）+ plectere（編む・絡める）。comply（従う）・perplex（当惑させる）・implicate（巻き込む）と同根で、「いくつかの要素が絡み合った・簡単に解けない」が原義。\n\n英語には17世紀に採用され、形容詞「複雑な」、名詞「複合体・集合住宅・心理的強迫観念」と多品詞で機能する。inferiority complex（劣等感）が心理学用語として20世紀に重要語となり、apartment complex（集合住宅）も現代語彙として定着した。\n\n現代英語ではcomplex problem（複雑な問題）・inferiority complex（劣等感）・apartment complex（集合住宅）のように、心理・建築・論理の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "complexity",   desc: "複雑さ（名詞）" },
+        { word: "complicated",  desc: "複雑な（plicare から）" }
+      ],
+      family: [
+        { word: "perplex",     desc: "当惑させる（per+plectere）" },
+        { word: "implicate",   desc: "巻き込む（im+plicare）" },
+        { word: "complicate",  desc: "複雑にする（com+plicare）" }
+      ],
+      compounds: [
+        { phrase: "inferiority complex", desc: "劣等感・劣等コンプレックス" },
+        { phrase: "apartment complex",   desc: "集合住宅・アパート群" },
+        { phrase: "complex problem",     desc: "複雑な問題" }
+      ]
+    },
+
+    "confirm": {
+      origin: "ラテン語 confirmare（強化する・確認する）< com-（完全に）+ firmare（固める）< firmus（固い・安定した）。firm（固い・確固とした）・affirm（断言する）・infirm（虚弱な）と同根で、「完全に固めて疑いを除く」が原義。\n\n英語には14世紀にフランス語 confirmer を経て採用され、宗教的な「堅信式」の意味が先行した。17世紀以降に「事実・予約・決定を確認する」の一般的意味が広まり、confirmation（確認・堅信式）という重要語族が発展した。\n\n現代英語ではconfirm a booking（予約を確認する）・confirmation email（確認メール）・confirmed case（確認された症例）のように、予約・通信・医学の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "confirmation", desc: "確認・承認・堅信式（名詞）" },
+        { word: "confirmed",    desc: "確認された・根付いた（形容詞）" }
+      ],
+      family: [
+        { word: "firm",    desc: "固い・確固とした（firmus）" },
+        { word: "affirm",  desc: "断言する（ad+firmare）" },
+        { word: "infirm",  desc: "虚弱な・病弱な（in+firmus）" }
+      ],
+      compounds: [
+        { phrase: "confirm a booking",    desc: "予約を確認する" },
+        { phrase: "confirmation email",   desc: "確認メール" },
+        { phrase: "confirmed case",       desc: "確認された症例" }
+      ]
+    },
+
+    "confront": {
+      origin: "フランス語 confronter（向き合わせる）< 中世ラテン語 confrontare（額を向き合わせる）< com-（共に）+ frons（額・正面）。front（正面）・frontier（国境・フロンティア）・affront（侮辱する）と同根で、「正面から向き合う」が原義。\n\n英語には17世紀に採用され、「困難・反対者・真実と正面から対峙する」の意味で定着した。confront one's fears（恐れと向き合う）が心理療法の語彙として重要となり、confront injustice（不正義に立ち向かう）が社会運動の語彙となった。\n\n現代英語ではconfront the problem（問題に向き合う）・confrontation with reality（現実との対峙）・armed confrontation（武力対立）のように、心理・社会・軍事の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "confrontation",   desc: "対立・正面衝突（名詞）" },
+        { word: "confrontational", desc: "対立的な・挑戦的な（形容詞）" }
+      ],
+      family: [
+        { word: "front",     desc: "正面・フロント（frons）" },
+        { word: "frontier",  desc: "国境・開拓地（frons）" },
+        { word: "affront",   desc: "侮辱する（ad+frons）" }
+      ],
+      compounds: [
+        { phrase: "confront the truth",  desc: "真実と向き合う" },
+        { phrase: "armed confrontation", desc: "武力対立" },
+        { phrase: "avoid confrontation", desc: "対立を避ける" }
+      ]
+    },
+
+    "connect": {
+      origin: "ラテン語 connectere（結びつける）< com-（共に）+ nectere（結ぶ・編む）。nexus（繋がり）・annex（別館・併合する）・network（ネットワーク）と同根で、「二つ以上のものを結び合わせる」が原義。\n\n英語には15世紀にラテン語から直接採用され、「物理的な接続・論理的な関連付け・人間関係の構築」の三つの意味で発展した。connect the dots（点と点を結ぶ・関連性を見出す）という慣用表現が現代ビジネス・教育語彙として定着した。\n\n現代英語ではconnect to the internet（インターネットに接続する）・connect the dots（点と点を結ぶ）・interpersonal connection（人間的つながり）のように、技術・論理・人間関係の核心語として機能する。",
+      derivatives: [
+        { word: "connection",   desc: "接続・関連・つながり（名詞）" },
+        { word: "disconnect",   desc: "切断する・隔たり（動詞/名詞）" },
+        { word: "interconnect", desc: "相互接続する（動詞）" }
+      ],
+      family: [
+        { word: "nexus",   desc: "繋がり・絆（nectere）" },
+        { word: "annex",   desc: "別館・併合する（ad+nectere）" },
+        { word: "net",     desc: "網・ネット（nectere から）" }
+      ],
+      compounds: [
+        { phrase: "connect the dots",     desc: "点と点を結ぶ・関連性を見出す" },
+        { phrase: "personal connection",  desc: "人間的つながり" },
+        { phrase: "connect to internet",  desc: "インターネットに接続する" }
+      ]
+    },
+
+    "consider": {
+      origin: "ラテン語 considerare（星を観察する・慎重に検討する）< com-（共に）+ sidus（星）。desire（欲望する）・sidereal（星の）と同根で、「星（天体）を観察するように慎重に見つめて考える」が原義。\n\n英語には14世紀にフランス語 considerer を経て採用され、「慎重に考慮する・〜と見なす・配慮する」の三つの意味が発展した。consider it done（引き受けた）・all things considered（様々な点を考慮すると）のような慣用表現が定着した。\n\n現代英語ではconsider the options（選択肢を検討する）・be considered as（〜とみなされる）・all things considered（全体的に見ると）のように、思考・評価・配慮の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "consideration",  desc: "考慮・配慮・報酬（名詞）" },
+        { word: "considerable",   desc: "かなりの・重要な（形容詞）" },
+        { word: "inconsiderate",  desc: "思いやりのない（否定形）" }
+      ],
+      family: [
+        { word: "desire",    desc: "欲望する（de+sidus）" },
+        { word: "sidereal",  desc: "星の・恒星の（sidus）" }
+      ],
+      compounds: [
+        { phrase: "consider the options",  desc: "選択肢を検討する" },
+        { phrase: "all things considered", desc: "全体的に見ると" },
+        { phrase: "under consideration",   desc: "検討中の" }
+      ]
+    },
+
+    "contain": {
+      origin: "ラテン語 continere（一緒に保持する・閉じ込める）< com-（共に）+ tenere（保つ・持つ）。content（内容物）・continent（大陸・自制する）・sustain（持続する）・maintain（維持する）と同根で、「中に保ち封じ込める」が原義。\n\n英語には14世紀にフランス語 contenir を経て採用され、「物理的に内部に持つ」の意味が先行した。disease containment（感染封じ込め）・contain costs（コストを抑える）・self-contained（自己完結した）のように現代では幅広い語彙に発展した。\n\n現代英語ではcontain a virus（ウイルスを封じ込める）・self-contained unit（自己完結したユニット）・contain one's anger（怒りを抑える）のように、医学・感情・組織の文脈で機能する語である。",
+      derivatives: [
+        { word: "container",   desc: "容器・コンテナ（名詞）" },
+        { word: "containment", desc: "封じ込め・抑制（名詞）" }
+      ],
+      family: [
+        { word: "content",   desc: "内容・満足した（tenere）" },
+        { word: "sustain",   desc: "持続する（sub+tenere）" },
+        { word: "maintain",  desc: "維持する（manu+tenere）" }
+      ],
+      compounds: [
+        { phrase: "containment policy",  desc: "封じ込め政策" },
+        { phrase: "shipping container",  desc: "輸送用コンテナ" },
+        { phrase: "contain the spread",  desc: "拡大を封じ込める" }
+      ]
+    },
+
+    "context": {
+      origin: "ラテン語 contextus（結びつき・文脈）< contextere（編み合わせる・結ぶ）< com-（共に）+ texere（織る・編む）。text（テキスト）・textile（織物）・texture（質感）と同根で、「言葉が織りなされた周辺の状況」が原義。\n\n英語には15世紀に「文の前後関係・文脈」の言語学的意味で採用され、20世紀以降に「状況・背景・脈絡」の一般的意味が重要となった。in context（文脈の中で）・out of context（文脈を無視して）という表現が現代コミュニケーションの核心語となった。\n\n現代英語ではin context（文脈の中で）・take out of context（前後の脈絡なしに引用する）・historical context（歴史的文脈）のように、言語・歴史・社会の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "contextual",   desc: "文脈に関する（形容詞）" },
+        { word: "contextualize", desc: "文脈に置く（動詞）" }
+      ],
+      family: [
+        { word: "text",     desc: "文章・テキスト（texere）" },
+        { word: "textile",  desc: "織物（texere）" },
+        { word: "texture",  desc: "質感・構造（texere）" }
+      ],
+      compounds: [
+        { phrase: "in context",            desc: "文脈の中で" },
+        { phrase: "out of context",        desc: "文脈を無視した引用" },
+        { phrase: "historical context",    desc: "歴史的文脈" }
+      ]
+    },
+
+    "contrast": {
+      origin: "イタリア語 contrasto（対立）< 後期ラテン語 contrastare（反対側に立つ）< contra-（反対に）+ stare（立つ）。「二つのものが向き合って立つ・対比を形成する」が原義。\n\n英語には17世紀に美術批評用語として採用され、「明暗・色彩・特質の対比」を表した。18世紀以降に論理・文学・日常の語彙として一般化し、by contrast（対照的に）・in stark contrast（著しい対比で）という表現が重要な議論・文章の接続詞として定着した。\n\n現代英語ではin contrast to（〜とは対照的に）・high contrast image（高コントラスト画像）・stark contrast（著しい違い）のように、論理・視覚・比較の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "contrasting",  desc: "対照的な（形容詞）" }
+      ],
+      family: [
+        { word: "compare",    desc: "比較する（com+par）" },
+        { word: "opposite",   desc: "反対の（ob+positum）" },
+        { word: "contrary",   desc: "反対の（contra）" }
+      ],
+      compounds: [
+        { phrase: "in contrast to",   desc: "〜とは対照的に" },
+        { phrase: "stark contrast",   desc: "著しい対比" },
+        { phrase: "by contrast",      desc: "対照的に" }
+      ]
+    },
+
+    "convince": {
+      origin: "ラテン語 convincere（完全に証明する・打ち負かす）< com-（完全に）+ vincere（征服する・勝つ）。victory（勝利）・evict（立ち退かせる）・convict（有罪にする）と同根で、「証拠や議論で完全に打ち負かして真実を認めさせる」が原義。\n\n英語には16世紀に採用され、「説得する・納得させる」の意味で定着した。convince と persuade は同義に使われることが多いが、convince は知的・論理的な説得を、persuade は感情的・実際行動に向けた説得をやや強調する傾向がある。\n\n現代英語ではconvince someone of the truth（真実を納得させる）・be convinced（確信している）・self-convinced（自己説得した）のように、論理・信念・説得の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "convincing",    desc: "説得力のある（形容詞）" },
+        { word: "unconvincing",  desc: "説得力のない（否定形）" }
+      ],
+      family: [
+        { word: "victory",  desc: "勝利（vincere）" },
+        { word: "convict",  desc: "有罪にする（con+vincere）" },
+        { word: "evict",    desc: "立ち退かせる（e+vincere）" }
+      ],
+      compounds: [
+        { phrase: "convince someone",   desc: "〜を説得する・納得させる" },
+        { phrase: "be convinced",       desc: "確信している" },
+        { phrase: "convincing argument", desc: "説得力のある議論" }
+      ]
+    },
+
+    "cope": {
+      origin: "中英語 copen（とっくみ合う・対処する）< 古フランス語 couper（打つ・切る）< cope（外套・衣）の変形。「困難に立ち向かい対処する」が原義で、当初は物理的な戦いを指したが、後に比喩的な「状況への対処」に変化した。\n\n英語には14世紀に採用され、cope with（〜に対処する）という自動詞的用法が英語で特に発展した。心理学・ストレス研究でcoping mechanism（コーピングメカニズム）・coping strategy（対処戦略）が重要語彙となった。\n\n現代英語ではcope with stress（ストレスに対処する）・coping mechanism（対処機構）・not able to cope（対処できない）のように、心理・社会・日常の困難への対処を表す語として機能する。",
+      derivatives: [
+        { word: "coping",    desc: "対処・コーピング（名詞/形容詞）" }
+      ],
+      family: [
+        { word: "deal with",  desc: "対処する（古英語）" },
+        { word: "manage",     desc: "何とかする・管理する（manus）" },
+        { word: "handle",     desc: "取り扱う（古英語）" }
+      ],
+      compounds: [
+        { phrase: "cope with stress",    desc: "ストレスに対処する" },
+        { phrase: "coping mechanism",    desc: "対処機構・コーピング" },
+        { phrase: "unable to cope",      desc: "対処できない" }
+      ]
+    },
+
+    "corner": {
+      origin: "アングロ・ノルマン語 cornere（角・隅）< ラテン語 cornu（角・突き出た先端）。horn（角・ホルン）・unicorn（一角獣）・cornucopia（豊饒の角）と同根で、「突き出た先端・角ばった点」が原義。\n\n英語には13世紀に採用され、「物理的な角・隅」の意味が先行した。corner the market（市場を独占する）・corner someone（人を追い詰める）のような比喩的意味が17世紀以降に発展し、経済・スポーツ・日常語彙として多方面に定着した。\n\n現代英語ではturn a corner（曲がり角を曲がる・難局を乗り越える）・corner the market（市場を独占する）・cut corners（手を抜く）のように、地理・経済・比喩の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "cornerstone",  desc: "礎石・根幹（名詞）" },
+        { word: "cornered",     desc: "追い詰められた（形容詞）" }
+      ],
+      family: [
+        { word: "horn",       desc: "角・ホルン（cornu）" },
+        { word: "unicorn",    desc: "一角獣（uni+cornu）" },
+        { word: "cornucopia", desc: "豊饒の角（cornu+copia）" }
+      ],
+      compounds: [
+        { phrase: "turn a corner",    desc: "曲がり角を曲がる・難局を乗り越える" },
+        { phrase: "corner the market", desc: "市場を独占する" },
+        { phrase: "cut corners",      desc: "手を抜く・近道をする" }
+      ]
+    },
+
+    "couple": {
+      origin: "古フランス語 cople（対・ペア）< ラテン語 copula（絆・繋ぎ）< co-（共に）+ apere（繋ぐ）。copulate（交尾する）・copula（繋辞）・cooperate（協力する）の語根 cop- と関連し、「二つのものを繋ぎ合わせた一対」が原義。\n\n英語には13世紀に採用され、「夫婦・ペア・数個」の意味で定着した。couple of（2〜3の）という口語表現が広まり、married couple（夫婦）・couple with（〜と合わせる）のような用法が発展した。\n\n現代英語ではmarried couple（夫婦）・a couple of days（2〜3日）・couple with a problem（問題と合わさる）のように、パートナーシップ・少数・組み合わせの多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "coupling",   desc: "連結・カップリング（名詞）" },
+        { word: "uncouple",   desc: "切り離す（動詞）" }
+      ],
+      family: [
+        { word: "copula",    desc: "繋辞（文法）（copula）" },
+        { word: "cooperate", desc: "協力する（co+operare）" },
+        { word: "copulate",  desc: "交尾する（copula）" }
+      ],
+      compounds: [
+        { phrase: "married couple",    desc: "夫婦・既婚カップル" },
+        { phrase: "a couple of",       desc: "2〜3の・少数の" },
+        { phrase: "couple together",   desc: "連結する・組み合わせる" }
+      ]
     }
 
   };

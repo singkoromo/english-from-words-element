@@ -19872,6 +19872,522 @@
         { phrase: "testify before Congress", desc: "議会で証言する" },
         { phrase: "testify to the truth",  desc: "真実を証言する" }
       ]
+    },
+
+    "contest": {
+      origin: "ラテン語 contestari（共に証言する・法廷で争う）< con-（共に）+ testis（証人）+ -ari（動詞接尾辞）。「争う・異議を申し立てる・競技」が原義。testify（証言する）・testimony（証言）・attest（証明する）と同根の testis を共有し、「双方が証人として立ち争う」というイメージを持つ。\n\n英語には15世紀に採用され、「法的に争う・競争する・コンテスト」という意味で定着。法律・スポーツ・日常語で contest a decision（決定に異議を申し立てる）・enter a contest（競技に参加する）のように使われる多義語として機能する。\n\n現代英語では beauty contest（美容コンテスト）・writing contest（文章コンテスト）のような「競技」の意味と、contest the results（結果に異議を唱える）という「異議申立て」の意味が並立して頻用される。",
+      derivatives: [
+        { word: "contestant",   desc: "競技参加者・争う者（名詞）" },
+        { word: "contestation", desc: "争い・異議（名詞）" },
+        { word: "contested",    desc: "争われた・競合する（形容詞）" }
+      ],
+      family: [
+        { word: "testify",   desc: "証言する（testis）" },
+        { word: "testimony", desc: "証言（testis）" },
+        { word: "protest",   desc: "抗議する（pro+testis）" }
+      ],
+      compounds: [
+        { phrase: "beauty contest",      desc: "美容コンテスト" },
+        { phrase: "contest a decision",  desc: "決定に異議を申し立てる" },
+        { phrase: "enter a contest",     desc: "競技に参加する" }
+      ]
+    },
+
+    "protest": {
+      origin: "ラテン語 protestari（公に証言する）< pro-（前に・公に）+ testis（証人）。「公然と反対の意思を示す・抗議」が原義。testify（証言する）・contest（争う）・attest（証明する）と同根の testis を共有し、「皆の前で証人として立つ」というイメージを持つ。\n\n英語には15世紀に採用され、「公式の反対表明・抗議行動」の意味で定着。政治・法律・社会運動で protest against…（〜に抗議する）・peaceful protest（平和的抗議）のように社会変革の語彙として頻用される。\n\n現代英語では street protest（街頭抗議）・protest march（抗議デモ行進）のように民主主義的表現の核心語として機能し、under protest（不本意ながら）・Protestant（プロテスタント、プロ+証言者）という表現でも歴史的・宗教的背景を持つ重要語として使われる。",
+      derivatives: [
+        { word: "protester",     desc: "抗議者・デモ参加者（名詞）" },
+        { word: "protestation",  desc: "強い抗議・断言（名詞）" },
+        { word: "Protestant",    desc: "プロテスタント（宗教）" }
+      ],
+      family: [
+        { word: "testify",  desc: "証言する（testis）" },
+        { word: "contest",  desc: "争う・競技（con+testis）" },
+        { word: "attest",   desc: "証明する（ad+testis）" }
+      ],
+      compounds: [
+        { phrase: "peaceful protest",  desc: "平和的抗議" },
+        { phrase: "street protest",    desc: "街頭抗議" },
+        { phrase: "under protest",     desc: "不本意ながら" }
+      ]
+    },
+
+    "detest": {
+      origin: "ラテン語 detestari（呪って追い払う・激しく嫌う）< de-（強意）+ testis（証人・証言）。「ひどく嫌う・憎む」が原義。contest（争う）・testify（証言する）と同根の testis を含み、もとは「神々を証人として呼び出して呪い、拒絶する」という宗教的行為を指した語。\n\n英語には16世紀に採用され、「強烈な嫌悪感」の意味で定着。日常語・文学で detest violence（暴力を強く嫌う）・detest the idea（考えを酷く嫌う）のように「好きではない」を大幅に超えた強い嫌悪を表す語として機能する。\n\n現代英語では I absolutely detest…（〜が大嫌いだ）という強調表現が一般的で、hate・loathe・despise との類義語として「嫌悪の強度」を使い分ける際の中間〜上位の感情語として位置づけられる。",
+      derivatives: [
+        { word: "detestable",  desc: "大嫌いな・嫌悪すべき（形容詞）" },
+        { word: "detestation", desc: "強烈な嫌悪（名詞）" },
+        { word: "detestably",  desc: "嫌悪すべきほど（副詞）" }
+      ],
+      family: [
+        { word: "testify",   desc: "証言する（testis）" },
+        { word: "contest",   desc: "争う（con+testis）" },
+        { word: "protest",   desc: "抗議する（pro+testis）" }
+      ],
+      compounds: [
+        { phrase: "detest violence",    desc: "暴力を強く嫌う" },
+        { phrase: "utterly detest",     desc: "全く大嫌いだ" }
+      ]
+    },
+
+    "attest": {
+      origin: "ラテン語 attestari（証人として示す）< ad-（〜に向けて）+ testis（証人）。「証明する・証言する・（の証拠となる）」が原義。testify（証言する）・testimony（証言）・contest（争う）と同根の testis を共有し、「証人として指し示す」というイメージを持つ。\n\n英語には16世紀に採用され、「正式に証明する・証拠となる」の意味で法律・学術で定着。法律・医療・教育で attest to the fact（事実を証明する）・notarized attestation（公証された証明）のように公式な証明行為を示す動詞として機能する。\n\n現代英語では attested by records（記録によって証明された）・attest to someone's character（人物を保証する）のように法律・学術・日常語で使われ、well-attested（十分に記録・証明された）という形で言語学でも語の使用例が充分に記録されていることを示す専門語として機能する。",
+      derivatives: [
+        { word: "attestation",  desc: "証明・証言（名詞）" },
+        { word: "attested",     desc: "証明された（形容詞）" }
+      ],
+      family: [
+        { word: "testify",   desc: "証言する（testis）" },
+        { word: "testimony", desc: "証言（testis）" },
+        { word: "contest",   desc: "争う（con+testis）" }
+      ],
+      compounds: [
+        { phrase: "attest to the fact",   desc: "事実を証明する" },
+        { phrase: "well-attested",        desc: "十分に証明された" },
+        { phrase: "attested document",    desc: "証明された文書" }
+      ]
+    },
+
+    "probable": {
+      origin: "ラテン語 probabilis（証明できる・もっともらしい）< probare（試す・証明する・良しとする）< probus（誠実な・良い）+ -able（可能を示す形容詞接尾辞）。「ありそうな・確からしい」が原義。prove（証明する）・approve（承認する）・probe（調べる）と同根の probare を共有する。\n\n英語には14世紀に採用され、「起こりそうな・信頼できる根拠がある」の意味で定着。統計・法律・日常語で probable cause（相当な理由）・probable outcome（ありそうな結果）のように「確実ではないが十分な根拠がある」という可能性の程度を示す重要語として機能する。\n\n現代英語では probable explanation（もっともらしい説明）・most probable（最も確からしい）のように使われ、法律用語の probable cause（相当な理由、令状発行の根拠）はアメリカ法律・警察用語の中核語として確立している。",
+      derivatives: [
+        { word: "probably",      desc: "おそらく（副詞）" },
+        { word: "probability",   desc: "確率・可能性（名詞）" },
+        { word: "improbable",    desc: "ありそうにない（否定形）" }
+      ],
+      family: [
+        { word: "prove",   desc: "証明する（probare）" },
+        { word: "approve", desc: "承認する（ad+probare）" },
+        { word: "probe",   desc: "調べる・探査（probare）" }
+      ],
+      compounds: [
+        { phrase: "probable cause",    desc: "相当な理由（法律）" },
+        { phrase: "probable outcome",  desc: "ありそうな結果" },
+        { phrase: "on the probable",   desc: "おそらく〜だろう" }
+      ]
+    },
+
+    "curate": {
+      origin: "ラテン語 curatus（世話をされた・管理された）< cura（世話・配慮・管理）+ -ate（動詞・名詞接尾辞）。「選別して整える・学芸員・副牧師」が原義。cure（治す）・curious（好奇心旺盛な）・accurate（正確な）・security（安全）と同根の cura を共有し、「注意深く世話をする」というイメージを持つ。\n\n英語には中世に副牧師（教区を担当する聖職者）を指す語として入り、20世紀後半から「展示・コレクションを選別・整理する」という美術館・博物館用語として再定着。デジタル時代にはコンテンツキュレーション（情報の選別・整理）という意味でも広く使われるようになった。\n\n現代英語では curate an exhibition（展示を企画する）・curated content（厳選されたコンテンツ）・curated list（選りすぐりのリスト）のようにメディア・文化・デジタルマーケティングで重要語として機能する。",
+      derivatives: [
+        { word: "curator",    desc: "学芸員・キュレーター（名詞）" },
+        { word: "curation",   desc: "キュレーション・選別（名詞）" },
+        { word: "curated",    desc: "厳選された（形容詞）" }
+      ],
+      family: [
+        { word: "cure",      desc: "治す・療法（cura）" },
+        { word: "curious",   desc: "好奇心旺盛な（cura）" },
+        { word: "accurate",  desc: "正確な（ad+cura）" }
+      ],
+      compounds: [
+        { phrase: "curated content",  desc: "厳選されたコンテンツ" },
+        { phrase: "curate an exhibition", desc: "展示を企画する" },
+        { phrase: "curated list",     desc: "選りすぐりのリスト" }
+      ]
+    },
+
+    "curator": {
+      origin: "ラテン語 curator（世話人・管理者）< curare（世話をする・管理する）< cura（世話・配慮）+ -or（行為者接尾辞）。「学芸員・管理者・後見人」が原義。curate（厳選する）・cure（治す）・accurate（正確な）と同根の cura を共有する。\n\n英語には16世紀に法律・宗教の「後見人・管理者」として採用され、19世紀以降は博物館・美術館の「コレクション担当者」という意味で定着。文化・教育・デジタルメディアで museum curator（美術館学芸員）・content curator（コンテンツキュレーター）のように「選別・解説・提示の専門家」を指す語として機能する。\n\n現代英語ではソーシャルメディア・情報管理の文脈で data curator（データキュレーター）という用法も定着し、「大量の情報から価値あるものを選び整理する専門的スキル」を持つ人を指す語として重要性が増している。",
+      derivatives: [
+        { word: "curatorial",  desc: "学芸員の・キュレーターの（形容詞）" },
+        { word: "curatorship", desc: "学芸員の職・期間（名詞）" }
+      ],
+      family: [
+        { word: "curate",    desc: "厳選する・副牧師（cura）" },
+        { word: "cure",      desc: "治す・療法（cura）" },
+        { word: "accurate",  desc: "正確な（ad+cura）" }
+      ],
+      compounds: [
+        { phrase: "museum curator",   desc: "美術館学芸員" },
+        { phrase: "content curator",  desc: "コンテンツキュレーター" },
+        { phrase: "curatorial work",  desc: "学芸員業務" }
+      ]
+    },
+
+    "notice": {
+      origin: "ラテン語 notitia（知識・認識）< notus（知られた）< noscere（知る・認識する）+ -ice（名詞接尾辞）。「気づき・通知・注目」が原義。know（知る）・recognize（認識する）・notorious（悪名高い）と同根の noscere を共有し、「知っていることを認識する」というイメージを持つ。\n\n英語には15世紀に採用され、「気づく・通告・掲示」という多義語として定着。法律・職場・日常語で advance notice（事前通知）・notice period（通知期間）・at short notice（急な通知で）のように頻用される。動詞としても「気づく」という意味で I noticed that…（〜に気づいた）のように日常会話で不可欠な語。\n\n現代英語では resignation notice（退職通知）・eviction notice（立退き通知）・public notice（公告）のように法律・日常の両方で「注意・通知」を表す多用途語として広く機能する。",
+      derivatives: [
+        { word: "noticeable",   desc: "目立つ・顕著な（形容詞）" },
+        { word: "noticeably",   desc: "目立って（副詞）" },
+        { word: "notification", desc: "通知・告知（名詞）" }
+      ],
+      family: [
+        { word: "notify",    desc: "通知する（notus+facere）" },
+        { word: "notorious", desc: "悪名高い（notus）" },
+        { word: "notion",    desc: "概念・考え（notus）" }
+      ],
+      compounds: [
+        { phrase: "advance notice",    desc: "事前通知" },
+        { phrase: "at short notice",   desc: "急な通知で" },
+        { phrase: "resignation notice", desc: "退職通知" }
+      ]
+    },
+
+    "denote": {
+      origin: "ラテン語 denotare（はっきり示す）< de-（完全に）+ notare（印をつける）< nota（記号・印）。「表示する・意味する（直接的に）」が原義。connote（含意する）・note（メモ・注目する）・annotate（注釈する）と同根の notare を共有し、「ある記号がある意味に直接対応する」というイメージを持つ。\n\n英語には16世紀に採用され、言語学・論理学で「記号・語の直接的・明示的意味を示す（外延）」という専門的意味で定着。記号論・言語学・プログラミングで denote a value（値を表す）・symbol denotes…（記号は〜を示す）のように使われる。\n\n現代英語では in mathematics, x denotes…（数学では x は〜を表す）のような定義・記号説明の定型表現として論文・教科書に頻出し、connote（含意する）との対比で意味論の中心語ペアを形成している。",
+      derivatives: [
+        { word: "denotation",  desc: "外延的意味・指示内容（名詞）" },
+        { word: "denotative",  desc: "外延的な（形容詞）" }
+      ],
+      family: [
+        { word: "connote",    desc: "含意する（con+notare）" },
+        { word: "annotate",   desc: "注釈する（ad+notare）" },
+        { word: "note",       desc: "メモ・注目する（notare）" }
+      ],
+      compounds: [
+        { phrase: "denote a value",    desc: "値を表す" },
+        { phrase: "denote a concept",  desc: "概念を表示する" }
+      ]
+    },
+
+    "connote": {
+      origin: "ラテン語 connotare（共に示す・含意する）< con-（共に）+ notare（印をつける）< nota（記号・印）。「含意する・副次的意味を持つ」が原義。denote（直接意味する）・note（記注）・annotate（注釈する）と同根の notare を共有し、「本来の意味に加えて、余分な意味も印として持つ」というイメージを持つ。\n\n英語には17世紀に採用され、言語学・哲学で「語の字義的意味を超えた感情的・文化的・連想的意味を持つ（内包）」の意味で定着。文学・広告・言語分析で the word "home" connotes warmth（home という語は温もりを含意する）のように語の微妙なニュアンスを分析する際の重要語として機能する。\n\n現代英語ではマーケティング・ブランディングで「製品名が持つ連想・感情」を指す語として使われ、denote との対比（明示的意味 vs. 含意）が言語学・修辞学の必須概念となっている。",
+      derivatives: [
+        { word: "connotation",   desc: "含意・語感・連想（名詞）" },
+        { word: "connotative",   desc: "含意的な（形容詞）" }
+      ],
+      family: [
+        { word: "denote",    desc: "直接意味する（de+notare）" },
+        { word: "annotate",  desc: "注釈する（ad+notare）" },
+        { word: "notable",   desc: "注目すべき（notare）" }
+      ],
+      compounds: [
+        { phrase: "positive connotation",   desc: "肯定的な含意" },
+        { phrase: "negative connotation",   desc: "否定的な含意" },
+        { phrase: "cultural connotation",   desc: "文化的含意" }
+      ]
+    },
+
+    "natural": {
+      origin: "ラテン語 naturalis（生まれによる・自然の）< natura（自然・生まれ持った性質）< natus（生まれた）< nasci（生まれる）+ -al（形容詞接尾辞）。「自然の・天然の・生まれ持った」が原義。nature（自然）・native（生まれ育った土地の）・nascent（生まれつつある）と同根の nasci を共有する。\n\n英語には13世紀に採用され、「人工でない・本来の・当然の」の意味で定着。科学・哲学・日常語で natural environment（自然環境）・natural talent（生まれながらの才能）・natural disaster（自然災害）のように極めて幅広く使われる基本語として機能する。\n\n現代英語では natural language（自然言語）・natural selection（自然選択）・natural resources（天然資源）のように科学・生態学で使われるほか、it's only natural that…（〜なのは当然だ）という慣用表現でも頻用される。",
+      derivatives: [
+        { word: "naturally",    desc: "自然に・当然（副詞）" },
+        { word: "naturalize",   desc: "帰化させる・自然化する（動詞）" },
+        { word: "unnatural",    desc: "不自然な（否定形）" }
+      ],
+      family: [
+        { word: "nature",   desc: "自然・本性（nasci）" },
+        { word: "native",   desc: "生まれ育った土地の（nasci）" },
+        { word: "nascent",  desc: "生まれつつある（nasci）" }
+      ],
+      compounds: [
+        { phrase: "natural disaster",    desc: "自然災害" },
+        { phrase: "natural resources",   desc: "天然資源" },
+        { phrase: "natural selection",   desc: "自然選択" }
+      ]
+    },
+
+    "nascent": {
+      origin: "ラテン語 nascens（生まれつつある）< nasci（生まれる）+ -ent（現在分詞・形容詞接尾辞）。「生まれたての・発生しつつある・黎明期の」が原義。nature（自然）・native（生地の）・natural（自然の）・natal（誕生の）と同根の nasci を共有する。\n\n英語には17世紀に化学用語（nascent state＝生成直後の活性状態）として採用され、後に「いまだ初期段階にある」という比喩的意味でも広く使われるようになった。政治・経済・科学・文化で nascent democracy（生まれたての民主主義）・nascent industry（勃興しつつある産業）のように「まだ成熟していない始まりの段階」を示す形容詞として機能する。\n\n現代英語では nascent AI（黎明期の AI）・nascent movement（生まれつつある運動）のようにスタートアップ・新興分野の記述でも頻用され、「これから大きくなる可能性を秘めた初期段階」という含意を持つ語として使われる。",
+      derivatives: [
+        { word: "nascence",    desc: "誕生・黎明（名詞）" },
+        { word: "renaissance", desc: "文芸復興・再生（re+nasci）" }
+      ],
+      family: [
+        { word: "nature",    desc: "自然・本性（nasci）" },
+        { word: "native",    desc: "生まれ育った土地の（nasci）" },
+        { word: "natal",     desc: "誕生の（nasci）" }
+      ],
+      compounds: [
+        { phrase: "nascent democracy",  desc: "生まれたての民主主義" },
+        { phrase: "nascent industry",   desc: "勃興しつつある産業" },
+        { phrase: "nascent stage",      desc: "黎明期・初期段階" }
+      ]
+    },
+
+    "signature": {
+      origin: "ラテン語 signatura（印・署名）< signare（印をつける）< signum（印・記号・合図）+ -ure（名詞接尾辞）。「署名・特徴・印章」が原義。sign（印・符号）・signal（信号）・significant（重要な）・designate（指名する）と同根の signum を共有する。\n\n英語には15世紀に採用され、「本人が書く署名」の意味で定着。法律・ビジネス・音楽で signature on the contract（契約書のサイン）・time signature（拍子記号）・signature dish（シェフの代表料理）のように多義語として幅広く機能する。\n\n現代英語では digital signature（電子署名）・signature move（得意技）・signature style（独自のスタイル）のように「ある人・ブランドを特定する独自の特徴・証明」という比喩的意味でも頻用される重要語となっている。",
+      derivatives: [
+        { word: "sign",     desc: "印・符号・署名する（signum）" },
+        { word: "signatory", desc: "署名者・調印国（名詞）" }
+      ],
+      family: [
+        { word: "signal",    desc: "信号・合図（signum）" },
+        { word: "signify",   desc: "意味する（signum+facere）" },
+        { word: "insignia",  desc: "記章・紋章（signum）" }
+      ],
+      compounds: [
+        { phrase: "digital signature",  desc: "電子署名" },
+        { phrase: "signature dish",     desc: "シェフの代表料理" },
+        { phrase: "signature style",    desc: "独自のスタイル" }
+      ]
+    },
+
+    "insignia": {
+      origin: "ラテン語 insignia（際立つ印・記章）< in-（上に）+ signum（印・記号）+ -ia（名詞複数接尾辞）。「記章・紋章・身分を示す印」が原義。sign（印）・signal（信号）・signature（署名）・designate（指名する）と同根の signum を共有し、「際立つ印」というイメージを持つ。\n\n英語には17世紀に採用され、「軍・機関・団体の権威・身分を示す紋章・バッジ・印」の意味で定着。軍事・政治・組織で military insignia（軍の記章）・national insignia（国家の紋章）のように「権威の象徴となる視覚的印」を指す語として機能する。\n\n現代英語では uniform insignia（制服の記章）・rank insignia（階級章）のように軍・警察・制服職で使われるとともに、企業・スポーツチームのロゴ・エンブレムを指す場合にも使われる。",
+      derivatives: [
+        { word: "insignificant",  desc: "取るに足らない（in+signum）" }
+      ],
+      family: [
+        { word: "sign",       desc: "印・符号（signum）" },
+        { word: "signal",     desc: "信号・合図（signum）" },
+        { word: "signature",  desc: "署名・特徴（signum）" }
+      ],
+      compounds: [
+        { phrase: "military insignia",  desc: "軍の記章" },
+        { phrase: "rank insignia",      desc: "階級章" },
+        { phrase: "national insignia",  desc: "国家の紋章" }
+      ]
+    },
+
+    "apparent": {
+      origin: "ラテン語 apparere（現れる・見える）< ad-（〜に向けて）+ parere（現れる・見える）+ -ent（形容詞接尾辞）。「明らかな・一見〜のように見える」が原義。appear（現れる）・transparent（透明な）・apparition（幽霊）と同根の parere を共有する。\n\n英語には14世紀に採用され、「明白な」と「外見上そう見えるだけの」という二つの対立する意味を持つ語として定着。法律・日常語・学術で apparent contradiction（見かけ上の矛盾）・heir apparent（推定相続人）のように使われ、この二義性を文脈で使い分けることが重要。\n\n現代英語では for no apparent reason（明らかな理由もなく）・it's apparent that…（〜は明らかだ）という表現が日常語として定着しており、apparently（どうやら〜らしい）という副詞形は「情報源に確信が持てない」というニュアンスで報道・会話で頻用される。",
+      derivatives: [
+        { word: "apparently",  desc: "どうやら〜らしい（副詞）" },
+        { word: "apparition",  desc: "幽霊・突然の出現（名詞）" }
+      ],
+      family: [
+        { word: "appear",       desc: "現れる・〜に見える（parere）" },
+        { word: "transparent",  desc: "透明な（trans+parere）" },
+        { word: "disappear",    desc: "消える（dis+parere）" }
+      ],
+      compounds: [
+        { phrase: "heir apparent",          desc: "推定相続人" },
+        { phrase: "for no apparent reason", desc: "明らかな理由もなく" },
+        { phrase: "apparent contradiction", desc: "見かけ上の矛盾" }
+      ]
+    },
+
+    "transparent": {
+      origin: "ラテン語 transparere（透けて見える）< trans-（通して）+ parere（現れる・見える）+ -ent（形容詞接尾辞）。「透明な・隠し事のない」が原義。appear（現れる）・apparent（明らかな）・transparency（透明性）と同根の parere を共有し、「向こう側が透けて見える」というイメージを持つ。\n\n英語には15世紀に採用され、「光を通す物理的透明性」と「情報・意図が隠されていない倫理的透明性」の両意味で定着。物理学・政治・ビジネスで transparent government（透明性のある政府）・transparent pricing（透明な価格設定）のように「隠蔽のない誠実さ」を示す語として現代で特に重要性が増している。\n\n現代英語では corporate transparency（企業の透明性）・be transparent with…（〜に対してオープンにある）のようにコーポレートガバナンス・リーダーシップの核心語として機能し、transparency（透明性）という名詞形は民主主義・企業倫理の基本価値語として確立している。",
+      derivatives: [
+        { word: "transparency",    desc: "透明性・透明度（名詞）" },
+        { word: "transparently",   desc: "透明に・明白に（副詞）" },
+        { word: "transparency",    desc: "透明性（名詞）" }
+      ],
+      family: [
+        { word: "appear",    desc: "現れる（parere）" },
+        { word: "apparent",  desc: "明らかな（ad+parere）" },
+        { word: "disappear", desc: "消える（dis+parere）" }
+      ],
+      compounds: [
+        { phrase: "transparent government",  desc: "透明性のある政府" },
+        { phrase: "corporate transparency",  desc: "企業の透明性" },
+        { phrase: "transparent pricing",     desc: "透明な価格設定" }
+      ]
+    },
+
+    "prepare": {
+      origin: "ラテン語 praeparare（前もって整える）< prae-（前に）+ parare（準備する・整える）。「準備する・用意する」が原義。repair（修繕する、re+parare）・separate（分離する、se+parare）・compare（比較する、com+parare）と同根の parare を共有し、「前もって整える」というイメージを持つ。\n\n英語には15世紀に採用され、「物事が起こる前に必要なことを整える」の意味で定着。日常語・教育・料理・軍事で prepare for an exam（試験の準備をする）・prepare a meal（食事を用意する）のように極めて幅広く使われる基本動詞として機能する。\n\n現代英語では be prepared for the worst（最悪に備える）・prepare a report（報告書を作成する）のように日常・ビジネスで頻用され、preparation（準備）・preparatory（準備のための）という派生語群を通じて広い語族を形成している。",
+      derivatives: [
+        { word: "preparation",  desc: "準備・用意（名詞）" },
+        { word: "preparatory",  desc: "準備の・予備的な（形容詞）" },
+        { word: "prepared",     desc: "準備ができた（形容詞）" }
+      ],
+      family: [
+        { word: "repair",    desc: "修繕する（re+parare）" },
+        { word: "compare",   desc: "比較する（com+parare）" },
+        { word: "separate",  desc: "分離する（se+parare）" }
+      ],
+      compounds: [
+        { phrase: "prepare for an exam",    desc: "試験の準備をする" },
+        { phrase: "prepare a report",       desc: "報告書を作成する" },
+        { phrase: "be prepared for",        desc: "〜に備えている" }
+      ]
+    },
+
+    "compare": {
+      origin: "ラテン語 comparare（同等なものを並べる）< com-（共に）+ parare（並べる・整える）< par（等しい）。「比較する・〜と較べる」が原義。prepare（準備する）・repair（修繕する）・pair（ペア）と同根の parare および par を共有し、「等しいものを共に並べて検討する」というイメージを持つ。\n\n英語には14世紀に採用され、「二つ以上のものを並べて異同を調べる」の意味で定着。学術・日常語で compare and contrast（比較対照する）・compared to…（〜と比べると）のように論理的思考・分析の核心語として機能する。\n\n現代英語では beyond compare（比類なき・比べ物にならない）という慣用表現が文学・日常語で定着しており、comparative（比較的な）・comparison（比較）という派生語群とともに分析・議論の根本語として機能する。",
+      derivatives: [
+        { word: "comparison",   desc: "比較（名詞）" },
+        { word: "comparative",  desc: "比較的な・比較の（形容詞）" },
+        { word: "comparable",   desc: "比較できる・同等の（形容詞）" }
+      ],
+      family: [
+        { word: "prepare",  desc: "準備する（prae+parare）" },
+        { word: "pair",     desc: "ペア（par）" },
+        { word: "parity",   desc: "同等性（par）" }
+      ],
+      compounds: [
+        { phrase: "compare and contrast",  desc: "比較対照する" },
+        { phrase: "beyond compare",        desc: "比類なき" },
+        { phrase: "in comparison with",    desc: "〜と比較して" }
+      ]
+    },
+
+    "reinforce": {
+      origin: "ラテン語 in-（中に）+ fortis（強い）+ re-（再び・強化）から。「強化する・補強する」が原義。force（力）・enforce（施行する）・fortify（強化する）と同根の fortis を共有し、「すでに強いものをさらに補強する」というイメージを持つ。\n\n英語には15世紀に採用され、「構造物・軍・行動・信念を補強する」の意味で定着。建築・心理学・教育で reinforced concrete（鉄筋コンクリート）・positive reinforcement（正の強化）のように物理的・心理的補強の両方を指す重要語として機能する。\n\n現代英語では reinforce a stereotype（固定観念を強化する）・reinforce positive behavior（良い行動を強化する）のように行動心理学・教育・組織論で頻用され、reinforcement learning（強化学習）はAI・機械学習の重要技術用語としても確立している。",
+      derivatives: [
+        { word: "reinforcement",  desc: "強化・補強・援軍（名詞）" },
+        { word: "reinforced",     desc: "強化された・補強された（形容詞）" }
+      ],
+      family: [
+        { word: "enforce",  desc: "施行する（in+fortis）" },
+        { word: "fortify",  desc: "強化する・要塞化する（fortis）" },
+        { word: "force",    desc: "力・強制する（fortis）" }
+      ],
+      compounds: [
+        { phrase: "reinforced concrete",       desc: "鉄筋コンクリート" },
+        { phrase: "positive reinforcement",    desc: "正の強化（心理学）" },
+        { phrase: "reinforcement learning",    desc: "強化学習（AI）" }
+      ]
+    },
+
+    "discomfort": {
+      origin: "ラテン語 dis-（否定・逆）+ com-（共に）+ fortis（強い）+ -ure（名詞接尾辞）。「不快感・不安・不便」が原義。comfort（安楽）・encourage（勇気づける）・reinforce（強化する）と同根の fortis を共有し、「強さ・安楽の否定」というイメージを持つ。\n\n英語には15世紀に採用され、「身体的・精神的な不快感・違和感」の意味で定着。医療・心理学・日常語で physical discomfort（身体的不快感）・emotional discomfort（感情的な不快感）のように使われ、pain（痛み）より軽く、discomfort（違和感）という程度を示す語として機能する。\n\n現代英語では sit with discomfort（不快感に耐える）・cause discomfort to…（〜に不快感を与える）のように心理的健康・自己成長の文脈でも使われ、「成長のために意図的に不快な状況に置く」という概念（comfortable discomfort）でも機能する。",
+      derivatives: [
+        { word: "discomforting",  desc: "不快感を与える（形容詞）" },
+        { word: "uncomfortable",  desc: "不快な・居心地の悪い（形容詞）" }
+      ],
+      family: [
+        { word: "comfort",    desc: "安楽・慰める（com+fortis）" },
+        { word: "reinforce",  desc: "強化する（re+fortis）" },
+        { word: "enforce",    desc: "施行する（in+fortis）" }
+      ],
+      compounds: [
+        { phrase: "physical discomfort",   desc: "身体的不快感" },
+        { phrase: "emotional discomfort",  desc: "感情的な不快感" },
+        { phrase: "sit with discomfort",   desc: "不快感に耐える" }
+      ]
+    },
+
+    "invalid": {
+      origin: "ラテン語 invalidus（力のない）< in-（否定）+ validus（強い・有効な）< valere（強い・価値がある）。「無効の・病弱な人」が原義。valid（有効な）・value（価値）・evaluate（評価する）と同根の valere を共有する。名詞・形容詞のアクセント位置によって「IN-va-lid（病人）」と「in-VAL-id（無効の）」に区別される。\n\n英語には16〜17世紀に採用され、「法的に無効な・力のない病人」の両意味で定着。法律・医療・論理学で invalid contract（無効な契約）・invalid argument（無効な論証）・invalid assumption（無効な前提）のように「効力・根拠がない」を示す重要語として機能する。\n\n現代英語ではコンピュータ科学でも invalid input（無効な入力）・invalid data（無効なデータ）という用語として定着し、「規則・基準を満たさないため受け入れられない」という意味で技術・法律・倫理で幅広く使われる。",
+      derivatives: [
+        { word: "invalidate",     desc: "無効にする（動詞）" },
+        { word: "invalidity",     desc: "無効性（名詞）" },
+        { word: "invalidation",   desc: "無効化（名詞）" }
+      ],
+      family: [
+        { word: "valid",     desc: "有効な（valere）" },
+        { word: "value",     desc: "価値（valere）" },
+        { word: "evaluate",  desc: "評価する（ex+valere）" }
+      ],
+      compounds: [
+        { phrase: "invalid contract",   desc: "無効な契約" },
+        { phrase: "invalid argument",   desc: "無効な論証" },
+        { phrase: "invalid input",      desc: "無効な入力（IT）" }
+      ]
+    },
+
+    "valuable": {
+      origin: "ラテン語 valere（強い・価値がある）+ -able（可能を示す形容詞接尾辞）。「価値のある・貴重な」が原義。value（価値）・valid（有効な）・evaluate（評価する）・prevail（優勢になる）と同根の valere を共有し、「強さ・価値を持てる」というイメージを持つ。\n\n英語には16世紀に採用され、「金銭的・非金銭的に高い価値を持つ」の意味で定着。ビジネス・教育・日常語で valuable lesson（貴重な教訓）・valuable asset（価値ある資産）・valuable time（貴重な時間）のように幅広く使われる重要形容詞として機能する。\n\n現代英語では valuable insight（貴重な洞察）・valuable feedback（価値あるフィードバック）・valuable experience（貴重な経験）のようにビジネス・教育で頻用され、名詞複数形 valuables（貴重品）は「宝石・現金など大切なもの」を指す日常語としても定着している。",
+      derivatives: [
+        { word: "valuables",   desc: "貴重品（名詞複数）" },
+        { word: "invaluable",  desc: "計り知れないほど価値がある（否定接頭辞で強調）" }
+      ],
+      family: [
+        { word: "value",    desc: "価値（valere）" },
+        { word: "valid",    desc: "有効な（valere）" },
+        { word: "prevail",  desc: "優勢になる（prae+valere）" }
+      ],
+      compounds: [
+        { phrase: "valuable lesson",    desc: "貴重な教訓" },
+        { phrase: "valuable asset",     desc: "価値ある資産" },
+        { phrase: "valuable insight",   desc: "貴重な洞察" }
+      ]
+    },
+
+    "prevail": {
+      origin: "ラテン語 praevalere（優位に立つ）< prae-（前に・より）+ valere（強い・価値がある）。「優勢になる・広く行き渡る・勝る」が原義。valid（有効な）・valuable（価値ある）・value（価値）と同根の valere を共有し、「前に・より強い状態になる」というイメージを持つ。\n\n英語には14世紀に採用され、「他のものより強く・広く存在する」の意味で定着。文学・法律・日常語で common sense will prevail（常識が勝つ）・justice prevails（正義が勝つ）・prevailing opinion（支配的な意見）のように「最終的に優勢になる・普及する」という意味で使われる。\n\n現代英語では prevailing winds（卓越風）・prevailing attitude（一般的な態度）のように「その時代・地域で支配的な」という形容詞的用法と、reason prevailed（理性が勝った）という動詞的用法の両方が日常・学術で頻用される。",
+      derivatives: [
+        { word: "prevailing",  desc: "支配的な・卓越した（形容詞）" },
+        { word: "prevalent",   desc: "広く行き渡っている（形容詞）" },
+        { word: "prevalence",  desc: "普及・蔓延（名詞）" }
+      ],
+      family: [
+        { word: "valid",     desc: "有効な（valere）" },
+        { word: "valuable",  desc: "価値ある（valere）" },
+        { word: "evaluate",  desc: "評価する（ex+valere）" }
+      ],
+      compounds: [
+        { phrase: "prevailing winds",    desc: "卓越風" },
+        { phrase: "prevailing opinion",  desc: "支配的な意見" },
+        { phrase: "justice prevails",    desc: "正義が勝つ" }
+      ]
+    },
+
+    "apply": {
+      origin: "ラテン語 applicare（密着させる・当てる）< ad-（〜に向けて）+ plicare（折る・重ねる）。「適用する・申し込む・〜に当てはまる」が原義。imply（含意する）・reply（返答する）・comply（従う）・duplicate（複製する）と同根の plicare を共有し、「折り重ねて当てる」というイメージを持つ。\n\n英語には15世紀に採用され、「何かを何かに当てる・使う・申請する」という多義語として定着。日常語・ビジネス・科学で apply for a job（仕事に応募する）・apply pressure（圧力を加える）・apply a rule（規則を適用する）のように幅広く使われる基本動詞として機能する。\n\n現代英語では apply for…（〜に申請・応募する）という求人・奨学金・ビザ申請の定型表現と、apply oneself to…（〜に専念する）という成長・学習の表現が特に頻用される。",
+      derivatives: [
+        { word: "application",  desc: "申請・応用・アプリ（名詞）" },
+        { word: "applicant",    desc: "応募者・申請者（名詞）" },
+        { word: "applicable",   desc: "適用できる（形容詞）" }
+      ],
+      family: [
+        { word: "imply",      desc: "含意する（im+plicare）" },
+        { word: "reply",      desc: "返答する（re+plicare）" },
+        { word: "comply",     desc: "従う（com+plicare）" }
+      ],
+      compounds: [
+        { phrase: "apply for a job",  desc: "仕事に応募する" },
+        { phrase: "apply pressure",   desc: "圧力を加える" },
+        { phrase: "apply oneself to", desc: "〜に専念する" }
+      ]
+    },
+
+    "application": {
+      origin: "ラテン語 applicatio（密着・適用）< applicare（当てる）< ad-（〜に）+ plicare（折る）+ -ion（名詞接尾辞）。「適用・申請・応用・アプリ」が原義。apply（適用する）・implication（含意）・duplicate（複製）と同根の plicare を共有する。\n\n英語には15世紀に採用され、「当てること・申請すること・勤勉に取り組むこと」という意味で定着。コンピュータ科学の発展で software application（ソフトウェアアプリ）という意味が加わり、現在は「スマートフォンアプリ」の略称 app の語源語として広く認知される。\n\n現代英語では job application（求職申請）・application form（申請書）・practical application（実用的応用）のように日常・ビジネスで使われるほか、mobile application（モバイルアプリ）・application software（アプリケーションソフト）という IT 用語として現代の最重要語のひとつとなっている。",
+      derivatives: [
+        { word: "apply",       desc: "適用する・申請する（動詞）" },
+        { word: "applicable",  desc: "適用できる（形容詞）" },
+        { word: "applicant",   desc: "応募者（名詞）" }
+      ],
+      family: [
+        { word: "implication",  desc: "含意（im+plicare）" },
+        { word: "complication", desc: "複雑化（com+plicare）" },
+        { word: "duplicate",    desc: "複製（duo+plicare）" }
+      ],
+      compounds: [
+        { phrase: "job application",      desc: "求職申請" },
+        { phrase: "mobile application",   desc: "モバイルアプリ" },
+        { phrase: "practical application", desc: "実用的応用" }
+      ]
+    },
+
+    "imply": {
+      origin: "ラテン語 implicare（内側に折り込む）< im-（中に）+ plicare（折る・巻く）。「暗に含む・示唆する」が原義。apply（適用する）・reply（返答する）・complicate（複雑にする）・explicit（明示的な）と同根の plicare を共有し、「意味を内側に折り込んで隠す」というイメージを持つ。\n\n英語には15世紀に採用され、「直接言わずに示唆する」の意味で定着。論理学・修辞学・日常語で are you implying that…?（〜を示唆しているのですか？）・what does this imply?（これは何を示唆するか？）のように「言外の意味」を読み取る際の重要語として機能する。\n\n現代英語では imply vs. infer（示唆する vs. 推論する）の区別が重要で、話し手は imply（示唆する）、聞き手は infer（推論する）という使い分けが標準的。この区別は学術・ライティングで頻繁に問われる。",
+      derivatives: [
+        { word: "implication",  desc: "含意・影響（名詞）" },
+        { word: "implied",      desc: "暗示された・暗黙の（形容詞）" }
+      ],
+      family: [
+        { word: "apply",       desc: "適用する（ad+plicare）" },
+        { word: "reply",       desc: "返答する（re+plicare）" },
+        { word: "complicate",  desc: "複雑にする（com+plicare）" }
+      ],
+      compounds: [
+        { phrase: "strongly imply",     desc: "強く示唆する" },
+        { phrase: "implied consent",    desc: "黙示の同意" },
+        { phrase: "imply criticism",    desc: "批判を示唆する" }
+      ]
+    },
+
+    "duplicate": {
+      origin: "ラテン語 duplicare（二倍にする）< duo（二）+ plicare（折る）+ -ate（動詞接尾辞）。「複製する・二重の」が原義。apply（適用する）・imply（示唆する）・replicate（複製する）と同根の plicare を共有し、「一枚の紙を二つに折ると二重になる」というイメージから「複製」を表す語に発展した。\n\n英語には15世紀に採用され、「全く同じコピーを作る・同じことを繰り返す」の意味で定着。行政・コンピュータ科学・ビジネスで duplicate a file（ファイルを複製する）・avoid duplicate work（重複作業を避ける）のように使われる。\n\n現代英語では in duplicate（二通で、書類の場合）という法律・行政定型句と、duplicate key（合鍵）・duplicate content（重複コンテンツ、SEO用語）という専門語の両方で機能する重要語となっている。",
+      derivatives: [
+        { word: "duplication",  desc: "複製・重複（名詞）" },
+        { word: "duplicator",   desc: "複写機（名詞）" },
+        { word: "duplicity",    desc: "二枚舌・欺瞞（名詞）" }
+      ],
+      family: [
+        { word: "replicate",  desc: "複製する（re+plicare）" },
+        { word: "imply",      desc: "示唆する（im+plicare）" },
+        { word: "apply",      desc: "適用する（ad+plicare）" }
+      ],
+      compounds: [
+        { phrase: "in duplicate",       desc: "二通で（書類）" },
+        { phrase: "duplicate key",      desc: "合鍵" },
+        { phrase: "duplicate content",  desc: "重複コンテンツ（SEO）" }
+      ]
+    },
+
+    "deploy": {
+      origin: "フランス語 déployer（広げる・展開する）< ラテン語 displicare（折りたたみを解く）< dis-（離して）+ plicare（折る）。「展開する・配置する・運用する」が原義。imply（示唆する）・apply（適用する）・display（表示する、dis+plicare共有）と同根の plicare を含み、「折りたたんだものを展開する」というイメージを持つ。\n\n英語には18世紀に軍事用語として採用され、「部隊を戦場に展開・配置する」の意味で定着。20世紀後半のコンピュータ科学の発展とともに deploy software（ソフトウェアを本番環境に展開する）という IT 用語としても広く使われるようになった。\n\n現代英語では deploy resources（資源を投入する）・deploy troops（部隊を派遣する）・deploy an application（アプリを公開・展開する）のように軍事・IT・ビジネスの三分野で頻用される重要語となっている。",
+      derivatives: [
+        { word: "deployment",  desc: "展開・配備・運用（名詞）" },
+        { word: "redeployment", desc: "再配備・再展開（名詞）" }
+      ],
+      family: [
+        { word: "display",   desc: "表示する（dis+plicare）" },
+        { word: "imply",     desc: "示唆する（im+plicare）" },
+        { word: "apply",     desc: "適用する（ad+plicare）" }
+      ],
+      compounds: [
+        { phrase: "deploy troops",        desc: "部隊を派遣する" },
+        { phrase: "deploy software",      desc: "ソフトウェアを展開する" },
+        { phrase: "deploy resources",     desc: "資源を投入する" }
+      ]
     }
 
   };

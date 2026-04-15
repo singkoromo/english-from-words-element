@@ -11686,6 +11686,484 @@
         { phrase: "sequence of events",  desc: "一連の出来事" },
         { phrase: "in sequence",         desc: "順番に・連続して" }
       ]
+    },
+
+    // ── Batch 25 ──────────────────────────────────────────────────────────
+
+    // gen系（残り）
+    "generation": {
+      origin: "ラテン語 generatio（産むこと・世代）< generare（生む・産出する）< genus（種族・出生）。「同じ時代に生まれた人々の集合」という意味と「生み出す行為」という意味の両方を含む語。\n\n13世紀にフランス語経由で英語に入り、generation（世代・生成・産出）として定着。聖書・神学では「神による創造」を指したが、やがて「同一時代を生きる人々（a generation）」という社会的意味が主流となった。\n\n現代英語では Generation X・Millennials・Gen Z のように特定の時代に生まれた集団を指すラベルとして定着。また AI 分野では「生成（text generation）」の意味で技術用語としても重要。",
+      derivatives: [
+        { word: "generational",  desc: "世代の・世代間の（形容詞）" },
+        { word: "regenerate",    desc: "再生する・再び産む（動詞）" },
+        { word: "regeneration",  desc: "再生・更生（名詞）" }
+      ],
+      family: [
+        { word: "generate",  desc: "生成する（gen-）" },
+        { word: "generous",  desc: "寛大な（gen-）" },
+        { word: "genuine",   desc: "本物の（gen-）" },
+        { word: "gender",    desc: "性・種類（gen-）" }
+      ],
+      compounds: [
+        { phrase: "generation gap",     desc: "世代間の溝" },
+        { phrase: "next generation",    desc: "次世代" },
+        { phrase: "text generation",    desc: "テキスト生成（AI）" }
+      ]
+    },
+
+    "gender": {
+      origin: "ラテン語 genus（種族・種・類）の属格形 generis に由来するフランス語 gendre（種類・文法的性）を経て英語に入った語。genus はギリシャ語 genos（種族・出生）と同根で、「生まれ」「種類」という概念に基づく。\n\n中英語期に gender（文法上の性・男性/女性の区別）として定着。もともとは文法用語（masculine / feminine / neuter gender）として使われ、20世紀から「生物学的性（sex）と区別される社会的・文化的性別」という意味が定着した。\n\n現代英語では社会学・心理学・法律・医学で「gender identity（性自認）」「gender equality（ジェンダー平等）」のように頻出し、多様なジェンダーの議論を包括する概念語となっている。",
+      derivatives: [
+        { word: "gendered",    desc: "ジェンダー化された（形容詞）" },
+        { word: "transgender", desc: "トランスジェンダーの（形容詞）" }
+      ],
+      family: [
+        { word: "generate",    desc: "生成する（gen-）" },
+        { word: "generation",  desc: "世代（gen-）" },
+        { word: "genuine",     desc: "本物の（gen-）" },
+        { word: "genus",       desc: "属・種（gen-）" }
+      ],
+      compounds: [
+        { phrase: "gender equality",   desc: "ジェンダー平等" },
+        { phrase: "gender identity",   desc: "性自認" },
+        { phrase: "gender gap",        desc: "ジェンダー格差" }
+      ]
+    },
+
+    "genetics": {
+      origin: "ギリシャ語 genetikos（出生に関する）< genesis（起源・生成）< gignesthai（生まれる）。英国の生物学者ウィリアム・ベイトソンが1905年に genetics という語を造語し、遺伝と変異の科学を指す学問名として定着させた。\n\n20世紀初頭にメンデルの遺伝法則が再発見されたことで急速に発展し、genetics（遺伝学）として科学の主要分野に。DNA 構造の解明（1953年）・ヒトゲノムプロジェクト（2003年）を経てさらに重要度が増した。\n\n現代英語では genetic（遺伝の）・gene（遺伝子）・genome（ゲノム）・genotype（遺伝子型）などの語群を形成し、医学・農業・倫理など多分野に関わる基幹語となっている。",
+      derivatives: [
+        { word: "genetic",    desc: "遺伝の・遺伝子の（形容詞）" },
+        { word: "genetically",desc: "遺伝的に（副詞）" },
+        { word: "geneticist", desc: "遺伝学者（名詞）" }
+      ],
+      family: [
+        { word: "genesis",    desc: "起源・始まり（gen-）" },
+        { word: "generate",   desc: "生成する（gen-）" },
+        { word: "gene",       desc: "遺伝子（gen-）" },
+        { word: "genome",     desc: "ゲノム（gen-）" }
+      ],
+      compounds: [
+        { phrase: "genetic engineering",  desc: "遺伝子工学" },
+        { phrase: "genetic mutation",     desc: "遺伝子変異" },
+        { phrase: "genetic testing",      desc: "遺伝子検査" }
+      ]
+    },
+
+    // grat/grac系（残り）
+    "grace": {
+      origin: "ラテン語 gratia（好意・感謝・優美さ）< gratus（喜ばれる・感謝される）。gratia は古代ローマで「神々の恩寵・人間関係における好意」を指し、キリスト教神学では「神の恵み（divine grace）」という中核概念となった。\n\n古フランス語 grace を経て12世紀に英語に入り、grace（優雅さ・神の恵み・猶予期間）として定着。神学・舞踏・外交・日常語と幅広く使われる多義語。食前の祈り（say grace）という習慣も grace の神学的用法に由来する。\n\n現代英語では「優雅・上品さ（move with grace）」「猶予期間（grace period）」「神の恩寵（grace of God）」の三つの意味が主要で、gracefulness（優美さ）・disgrace（不名誉）などの派生語も頻出。",
+      derivatives: [
+        { word: "graceful",    desc: "優雅な・上品な（形容詞）" },
+        { word: "gracefully",  desc: "優雅に（副詞）" },
+        { word: "disgrace",    desc: "不名誉・恥（名詞）" },
+        { word: "graceless",   desc: "無粋な・不格好な（形容詞）" }
+      ],
+      family: [
+        { word: "grateful",     desc: "感謝している（grat-）" },
+        { word: "gratitude",    desc: "感謝（grat-）" },
+        { word: "gratify",      desc: "満足させる（grat-）" },
+        { word: "congratulate", desc: "祝う（con-+grat-）" }
+      ],
+      compounds: [
+        { phrase: "say grace",     desc: "食前の祈りを唱える" },
+        { phrase: "grace period",  desc: "猶予期間" },
+        { phrase: "fall from grace",desc: "失墜する・信頼を失う" }
+      ]
+    },
+
+    "gracious": {
+      origin: "ラテン語 gratiosus（好意ある・恩寵ある）< gratia（好意・恵み）< gratus（喜ばれる）。「恵みや好意に満ちている」という字義で、上位の者が下位の者に向ける「親切・寛大さ」を含意する。\n\n14世紀に英語に入り、gracious（親切な・礼儀正しい・上品な）として定着。王族・貴族への称号的な使い方（gracious majesty）も生まれ、英国英語では「おや・まあ！（Good gracious!）」という感嘆詞でも使われる。\n\n現代英語では gracious living（余裕のある優雅な暮らし）・gracious host（心の広いホスト）のように、「余裕があり品位ある親切さ」を示す形容詞として使われる。",
+      derivatives: [
+        { word: "graciously",   desc: "親切に・鷹揚に（副詞）" },
+        { word: "graciousness", desc: "優雅さ・鷹揚さ（名詞）" }
+      ],
+      family: [
+        { word: "grace",        desc: "優雅さ・恵み（grat-）" },
+        { word: "grateful",     desc: "感謝している（grat-）" },
+        { word: "gratitude",    desc: "感謝（grat-）" },
+        { word: "congratulate", desc: "祝う（con-+grat-）" }
+      ],
+      compounds: [
+        { phrase: "gracious living",   desc: "余裕ある優雅な暮らし" },
+        { phrase: "Good gracious!",    desc: "おや！まあ！（感嘆詞）" },
+        { phrase: "gracious host",     desc: "心の広いホスト" }
+      ]
+    },
+
+    // corp系（残り）
+    "corporate": {
+      origin: "ラテン語 corporatus（体として組織された）< corpus（体・肉体）+ -atus（形容詞語尾）。corpus の派生形 corporare は「体を形成する・団体として結合する」という意味で、法人・団体を「ひとつの体」と見なす西洋の法律概念に基づく。\n\n15世紀に英語に入り、corporate（法人の・共同の・組織的な）として定着。corporate body（法人）という法律用語で最初に広まり、やがてビジネス全般を表す形容詞として定着した。\n\n現代英語では corporate culture（企業文化）・corporate governance（コーポレートガバナンス）・corporate social responsibility（企業の社会的責任、CSR）など、大企業・組織運営に関する複合語として多用される。",
+      derivatives: [
+        { word: "corporation",  desc: "法人・大企業（名詞）" },
+        { word: "corporately",  desc: "法人として・共同で（副詞）" },
+        { word: "incorporate",  desc: "法人化する・組み込む（動詞）" }
+      ],
+      family: [
+        { word: "corps",    desc: "部隊・団体（corps）" },
+        { word: "corpse",   desc: "死体（corpus）" },
+        { word: "corporal", desc: "体の・上等兵（corpus）" },
+        { word: "corpus",   desc: "全集・コーパス（corpus）" }
+      ],
+      compounds: [
+        { phrase: "corporate culture",  desc: "企業文化" },
+        { phrase: "corporate tax",      desc: "法人税" },
+        { phrase: "corporate ladder",   desc: "企業内の出世の階段" }
+      ]
+    },
+
+    // ped/pod系（残り）
+    "impede": {
+      origin: "ラテン語 impedire（足枷をはめる・妨げる）< im-（中に・対して）+ pes/pedis（足）。字義は「足に何かを絡ませて動けなくする」で、obstacle・hindrance の意味に発展した。\n\n16世紀に英語に入り、impede（妨げる・阻害する）として定着。impediment（障害・障壁）という名詞形も頻出し、speech impediment（言語障害）のような専門的用法もある。\n\n現代英語では progress を impede（進歩を妨げる）・flow を impede（流れを阻害する）のように使われ、impediment は「実現を妨げる障害」として特に法律・医学・ビジネス文脈で登場する。",
+      derivatives: [
+        { word: "impediment",  desc: "障害・障壁（名詞）" },
+        { word: "impedance",   desc: "インピーダンス・電気的抵抗（名詞）" }
+      ],
+      family: [
+        { word: "pedestrian",  desc: "歩行者（pes）" },
+        { word: "pedal",       desc: "ペダル（pes）" },
+        { word: "expedition",  desc: "遠征（ex-+pes）" },
+        { word: "expedite",    desc: "促進する（ex-+pes）" }
+      ],
+      compounds: [
+        { phrase: "impede progress",    desc: "進歩を妨げる" },
+        { phrase: "speech impediment",  desc: "言語障害" },
+        { phrase: "legal impediment",   desc: "法的障壁" }
+      ]
+    },
+
+    "pedal": {
+      origin: "ラテン語 pedalis（足の・足に関する）< pes/pedis（足）。足で踏んで動かす装置全般を指す語として、自転車・ピアノ・オルガン・車など多くの機械装置に登場する。\n\n17世紀にイタリア語 pedale（足の）経由で英語に入り、pedal（ペダル・足で踏む）として定着。最初は音楽（オルガンの足鍵盤）の文脈で使われ、19世紀に自転車が普及すると「自転車をこぐ」という動詞用法が定着した。\n\n現代英語では名詞（アクセルペダル・ピアノのペダル）と動詞（自転車をこぐ・ペダルを踏む）の両方で使われ、pedal to the metal（アクセル全開で）のような慣用表現も存在する。",
+      derivatives: [
+        { word: "peddle",    desc: "行商する（pedal と同語源）" }
+      ],
+      family: [
+        { word: "pedestrian",  desc: "歩行者（pes）" },
+        { word: "expedition",  desc: "遠征（ex-+pes）" },
+        { word: "impede",      desc: "妨げる（im-+pes）" },
+        { word: "podium",      desc: "表彰台（pod-）" }
+      ],
+      compounds: [
+        { phrase: "pedal a bike",      desc: "自転車をこぐ" },
+        { phrase: "pedal to the metal",desc: "アクセル全開で・全速力で" },
+        { phrase: "soft pedal",        desc: "ソフトペダル・穏やかに扱う" }
+      ]
+    },
+
+    // cept/ceiv系（残り）
+    "deceive": {
+      origin: "ラテン語 decipere（欺く・罠にかける）< de-（下に・離れて）+ capere（捕まえる・取る）。「欺いて捕らえる・罠に落とす」という字義で、相手の信頼を利用して真実を隠す行為を指す。\n\n13世紀にフランス語 decevoir を経て英語に入り、deceive（だます・欺く）として定着。形容詞 deceptive（惑わす・見かけと違う）、名詞 deception（欺瞞）も広く使われる。\n\n現代英語では「意図的に誤解させる」という強い意味合いを持ち、mislead（意図せず誤解させることもある）より重い語。deceptive advertising（欺瞞的広告）・self-deception（自己欺瞞）のような表現が重要。",
+      derivatives: [
+        { word: "deception",  desc: "欺き・詐欺（名詞）" },
+        { word: "deceptive",  desc: "惑わす・見かけと違う（形容詞）" },
+        { word: "deceit",     desc: "欺瞞・不誠実（名詞）" }
+      ],
+      family: [
+        { word: "perceive",   desc: "知覚する（per-+capere）" },
+        { word: "receive",    desc: "受け取る（re-+capere）" },
+        { word: "conceive",   desc: "思いつく（con-+capere）" },
+        { word: "capture",    desc: "捕まえる（capere）" }
+      ],
+      compounds: [
+        { phrase: "deceive someone",       desc: "人を欺く" },
+        { phrase: "deceptive appearance",  desc: "見かけと違う外見" },
+        { phrase: "self-deception",        desc: "自己欺瞞" }
+      ]
+    },
+
+    "perception": {
+      origin: "ラテン語 perceptio（完全に捉えること・知覚）< percipere（完全に捉える）< per-（完全に・通じて）+ capere（捕まえる・取る）。「完全に把握する・理解する」という字義から「知覚・認識」の意味が発展した。\n\n14世紀にフランス語経由で英語に入り、perception（知覚・認識・理解）として定着。哲学では「感覚器官による外界の把握」を指し、心理学では「情報処理としての知覚」を意味する。\n\n現代英語では科学的な意味（visual perception / sensory perception）と社会的な意味（public perception / perception of risk）の両方で使われ、\"Perception is reality\"（認識こそが現実だ）という表現が心理学・マーケティングで重要な概念として引用される。",
+      derivatives: [
+        { word: "perceptive",     desc: "洞察力のある・鋭い（形容詞）" },
+        { word: "perceptual",     desc: "知覚の（形容詞）" },
+        { word: "imperceptible",  desc: "知覚できない・微細な（形容詞）" }
+      ],
+      family: [
+        { word: "perceive",  desc: "知覚する（per-）" },
+        { word: "conceive",  desc: "思いつく（con-）" },
+        { word: "receive",   desc: "受け取る（re-）" },
+        { word: "deceive",   desc: "欺く（de-）" }
+      ],
+      compounds: [
+        { phrase: "visual perception",  desc: "視覚的知覚" },
+        { phrase: "public perception",  desc: "一般の認識・世間の見方" },
+        { phrase: "depth perception",   desc: "奥行き知覚" }
+      ]
+    },
+
+    // claim/clam系（残り）
+    "reclaim": {
+      origin: "ラテン語 reclamare（大声で叫び返す・異議を唱える）< re-（再び・戻して）+ clamare（叫ぶ）。「声を上げて取り返す」という字義が「以前のものを取り戻す・改善して再利用する」という意味に発展した。\n\n13世紀に英語に入り、reclaim（取り戻す・再開発する・再生利用する）として定着。土地の「干拓・開墾（reclaim land）」、廃材の「再生利用（reclaim materials）」、失われた権利・名声の「取り返し」など多義的に使われる。\n\n現代英語では reclaim one's identity（アイデンティティを取り戻す）・reclaim land（土地を干拓する）・reclaim waste material（廃棄物を再生する）のように環境・社会・個人の「回復」を幅広く表す語。",
+      derivatives: [
+        { word: "reclamation", desc: "回収・干拓・更生（名詞）" }
+      ],
+      family: [
+        { word: "claim",    desc: "主張する（clam-）" },
+        { word: "exclaim",  desc: "叫ぶ（ex-）" },
+        { word: "proclaim", desc: "宣言する（pro-）" },
+        { word: "acclaim",  desc: "喝采する（ac-）" }
+      ],
+      compounds: [
+        { phrase: "reclaim land",       desc: "土地を干拓・開墾する" },
+        { phrase: "reclaim one's name", desc: "名誉を取り戻す" },
+        { phrase: "land reclamation",   desc: "干拓地・埋立地" }
+      ]
+    },
+
+    "acclaim": {
+      origin: "ラテン語 acclamare（声を上げて迎える・喝采する）< ad-（～に向けて）+ clamare（叫ぶ）。「ある対象に向けて声を上げる」という字義で、集団が誰かを讃えるときの大きな賞賛を意味する。\n\n15世紀に英語に入り、acclaim（喝采する・絶賛する）として定着。名詞としても「称賛・喝采（critical acclaim）」の意味で使われ、特に芸術・文化の分野での高い評価を示すときに頻出。\n\n現代英語では critical acclaim（批評家からの絶賛）・international acclaim（国際的な称賛）のように、専門家集団や広い世間からの承認・称賛を表す語として文化批評・エンタメ分野で多用される。",
+      derivatives: [
+        { word: "acclamation",   desc: "喝采・歓呼（名詞）" },
+        { word: "acclaimed",     desc: "絶賛された（形容詞）" }
+      ],
+      family: [
+        { word: "claim",    desc: "主張する（clam-）" },
+        { word: "exclaim",  desc: "叫ぶ（ex-）" },
+        { word: "proclaim", desc: "宣言する（pro-）" },
+        { word: "reclaim",  desc: "取り戻す（re-）" }
+      ],
+      compounds: [
+        { phrase: "critical acclaim",       desc: "批評家からの絶賛" },
+        { phrase: "international acclaim",  desc: "国際的な称賛" },
+        { phrase: "by acclamation",         desc: "満場一致で・拍手喝采で" }
+      ]
+    },
+
+    // domin系（残り）
+    "indomitable": {
+      origin: "ラテン語 indomitus（手なずけられない・制圧できない）< in-（否定）+ domitus < domare（飼いならす・制圧する）。domare は「支配する・制圧する」を意味し、dominate・domain・dominant などと同根。\n\n17世紀に英語に入り、indomitable（不屈の・手に負えない）として定着。主に人の意志・精神・気性について「どんな困難にも屈しない」という賞賛的な意味で使われる。\n\n現代英語では indomitable spirit（不屈の精神）・indomitable will（不屈の意志）のように、逆境に負けない強さを表す文脈で使われる。英雄的・感動的な文脈で頻出する形容詞。",
+      derivatives: [
+        { word: "indomitably", desc: "不屈に・屈せずに（副詞）" }
+      ],
+      family: [
+        { word: "dominate",  desc: "支配する（domin-）" },
+        { word: "dominant",  desc: "支配的な（domin-）" },
+        { word: "domain",    desc: "領域・ドメイン（domin-）" },
+        { word: "dominion",  desc: "支配権（domin-）" }
+      ],
+      compounds: [
+        { phrase: "indomitable spirit",  desc: "不屈の精神" },
+        { phrase: "indomitable will",    desc: "不屈の意志" }
+      ]
+    },
+
+    // mit/miss系（残り）
+    "omit": {
+      origin: "ラテン語 omittere（手放す・省略する）< ob-（離れて）+ mittere（送る・放つ）。「送り出さずに手放す→省いて放置する」という字義で、意図的に省略・除外する行為を指す。\n\n15世紀に英語に入り、omit（省く・省略する・怠る）として定着。主に文章・リスト・手続きの中で「意図的に含めない」という文脈で使われ、forget（忘れる）と違い意図的・作為的なニュアンスをもつ。\n\n現代英語では omit details（詳細を省く）・sins of omission（不作為の罪）・omit a step（手順を飛ばす）のように使われ、法律では omission（不作為）が重要な概念として登場する。",
+      derivatives: [
+        { word: "omission",  desc: "省略・不作為（名詞）" },
+        { word: "omitted",   desc: "省略された（形容詞）" }
+      ],
+      family: [
+        { word: "commit",   desc: "犯す・約束する（com-）" },
+        { word: "transmit", desc: "送信する（trans-）" },
+        { word: "permit",   desc: "許可する（per-）" },
+        { word: "submit",   desc: "提出する（sub-）" }
+      ],
+      compounds: [
+        { phrase: "omit details",     desc: "詳細を省く" },
+        { phrase: "omission error",   desc: "脱落エラー・省略誤り" },
+        { phrase: "sin of omission",  desc: "不作為の罪" }
+      ]
+    },
+
+    "remit": {
+      origin: "ラテン語 remittere（送り返す・緩める）< re-（後ろへ）+ mittere（送る）。「送り返す・解放する」という字義から「罪を赦す・送金する・緩和する」という複数の意味が発展した。\n\n13世紀に英語に入り、remit（送金する・罪を赦す・管轄に委ねる）として定着。法律・金融・宗教と異なる文脈で使われる多義語。名詞 remit（権限範囲・職務範囲）は英国英語でビジネス・行政文書に頻出する。\n\n現代英語では remit money overseas（海外送金する）・within the remit of（～の権限範囲内で）・remit a case to court（事件を裁判所に送致する）のように使われる。",
+      derivatives: [
+        { word: "remittance",  desc: "送金・送金額（名詞）" },
+        { word: "remission",   desc: "寛解・赦免・軽減（名詞）" }
+      ],
+      family: [
+        { word: "transmit",  desc: "送信する（trans-）" },
+        { word: "commit",    desc: "犯す・約束する（com-）" },
+        { word: "submit",    desc: "提出する（sub-）" },
+        { word: "permit",    desc: "許可する（per-）" }
+      ],
+      compounds: [
+        { phrase: "remit money",     desc: "送金する" },
+        { phrase: "remittance fee",  desc: "送金手数料" },
+        { phrase: "in remission",    desc: "（病気が）寛解状態で" }
+      ]
+    },
+
+    // terr系（残り）
+    "terrestrial": {
+      origin: "ラテン語 terrestris（地球の・陸地の）< terra（大地・地球）。terra は「乾いた地面・大地」を意味し、terrain・territory・territory などと同根。「天（celestial）」に対する「地（terrestrial）」という対概念。\n\n14世紀に英語に入り、terrestrial（地球の・陸生の・地上の）として定着。天文学・生物学・通信（terrestrial broadcasting）と多領域で使われる形容詞。ET（extra-terrestrial / 地球外生命体）という語も同根。\n\n現代英語では terrestrial planet（地球型惑星）・terrestrial ecosystem（陸上生態系）・terrestrial TV（地上波テレビ）のように科学・メディアの文脈で重要。extraterrestrial（ET・地球外の）は SF の定番語。",
+      derivatives: [
+        { word: "extraterrestrial",  desc: "地球外の・宇宙人（形容詞・名詞）" },
+        { word: "subterranean",      desc: "地下の（sub-+terra）" }
+      ],
+      family: [
+        { word: "territory",  desc: "領土・領域（terra）" },
+        { word: "terrain",    desc: "地形・地勢（terra）" },
+        { word: "terrarium",  desc: "テラリウム（terra）" },
+        { word: "terra firma", desc: "陸地（ラテン語）" }
+      ],
+      compounds: [
+        { phrase: "terrestrial planet",    desc: "地球型惑星" },
+        { phrase: "extraterrestrial life", desc: "地球外生命体" },
+        { phrase: "terrestrial broadcast", desc: "地上波放送" }
+      ]
+    },
+
+    // med系（残り）
+    "medicine": {
+      origin: "ラテン語 medicina（医術・治療薬）< medicus（医師）< mederi（癒す・治療する）。mederi は「中間に立つ・測る」というよりも「正しく処置する」という語根に由来し、medium（中間）とは異なる語源説が有力。\n\n古フランス語 medecine を経て13世紀に英語に入り、medicine（医学・薬・医術）として定着。「医師が行う技術」と「その結果として生まれる薬」という二つの意味を兼ね備えた語。\n\n現代英語では medicine は「薬（take medicine）」「医学（study medicine）」「医療（alternative medicine）」の三義で使われる。また \"the best medicine\"（最良の薬）という比喩表現にも登場し、\"Laughter is the best medicine\"（笑いは最良の薬）は有名な格言。",
+      derivatives: [
+        { word: "medical",      desc: "医学の・医療の（形容詞）" },
+        { word: "medicate",     desc: "薬で治療する（動詞）" },
+        { word: "medication",   desc: "薬物治療・処方薬（名詞）" }
+      ],
+      family: [
+        { word: "mediate",  desc: "仲介する（medius）" },
+        { word: "medium",   desc: "中間・媒体（medius）" },
+        { word: "remedy",   desc: "治療・解決策（re-+mederi）" }
+      ],
+      compounds: [
+        { phrase: "take medicine",          desc: "薬を服用する" },
+        { phrase: "alternative medicine",   desc: "代替医療" },
+        { phrase: "evidence-based medicine",desc: "エビデンスに基づく医療" }
+      ]
+    },
+
+    "medical": {
+      origin: "ラテン語 medicalis（医師の・医術の）< medicus（医師）< mederi（癒す）。16世紀に英語に入り、medical（医学の・医療の）として定着。medicine から派生した形容詞として、医学・医療に関するあらゆる事柄を修飾する基本語となった。\n\n医学教育（medical school）・医療施設（medical center）・医学的処置（medical procedure）・医療記録（medical record）と、病院・医療システムに関する語の基幹修飾語として機能する。\n\n現代英語では medical は名詞としても使われ（go for a medical = 健康診断を受ける）、またアメリカ英語では Medicaid（低所得者向け医療保険）・Medicare（高齢者向け医療保険）という政策語にも med- の語根が活きている。",
+      derivatives: [
+        { word: "medically",    desc: "医学的に（副詞）" },
+        { word: "paramedical",  desc: "医療補助の（形容詞）" }
+      ],
+      family: [
+        { word: "medicine",  desc: "薬・医学（mederi）" },
+        { word: "medicate",  desc: "投薬する（mederi）" },
+        { word: "remedy",    desc: "治療・解決策（mederi）" }
+      ],
+      compounds: [
+        { phrase: "medical record",    desc: "医療記録・カルテ" },
+        { phrase: "medical school",    desc: "医科大学・医学部" },
+        { phrase: "medical attention", desc: "医療措置・診察" }
+      ]
+    },
+
+    // ambi系
+    "ambiguous": {
+      origin: "ラテン語 ambiguus（どちらにも動く・二重の）< ambigere（両方向に動く）< ambi-（両方）+ agere（動かす・行う）。「どちらにも動かせる」という字義が「はっきりしない・複数の解釈が可能な」という意味に発展した。\n\n16世紀に英語に入り、ambiguous（曖昧な・多義的な・不明確な）として定着。言語・法律・美術・科学と多領域で「複数の解釈が成り立つ」という意味で使われる。\n\n現代英語では linguistically ambiguous（言語的に曖昧な）・morally ambiguous（道徳的に曖昧な）のように使われ、文学批評では「意図的な曖昧さ」を肯定的に評価することもある。ambiguity（曖昧性）は言語学・法学で重要な概念語。",
+      derivatives: [
+        { word: "ambiguously", desc: "曖昧に（副詞）" },
+        { word: "ambiguity",   desc: "曖昧さ・多義性（名詞）" },
+        { word: "unambiguous", desc: "明確な・曖昧でない（形容詞）" }
+      ],
+      family: [
+        { word: "ambivalent",  desc: "相反する感情を持つ（ambi-）" },
+        { word: "ambidextrous",desc: "両手利きの（ambi-）" },
+        { word: "agent",       desc: "代理人（agere）" },
+        { word: "agile",       desc: "機敏な（agere）" }
+      ],
+      compounds: [
+        { phrase: "morally ambiguous",  desc: "道徳的に曖昧な" },
+        { phrase: "deliberate ambiguity",desc: "意図的な曖昧さ" },
+        { phrase: "remove ambiguity",   desc: "曖昧さを排除する" }
+      ]
+    },
+
+    "ambivalent": {
+      origin: "ラテン語 ambi-（両方）+ valere（力・価値をもつ）を組み合わせた近代語。心理学者オイゲン・ブロイラーが1910年に造語し、「相反する感情・態度を同時に持つ」という心理学概念を表した。\n\n20世紀初頭に心理学用語として英語に入り、ambivalent（相反する感情を持つ・どちらとも決めかねる）として定着。もともとは精神医学の専門語だったが、やがて日常語として「どちらとも言えない・迷っている」という意味で広まった。\n\n現代英語では I feel ambivalent about it.（それについて複雑な気持ちだ）のように、感情的な迷いや矛盾した態度を表現するときに使われる。ambivalence（アンビバレンス）は心理学・哲学の概念語として定着している。",
+      derivatives: [
+        { word: "ambivalence",   desc: "アンビバレンス・相反する感情（名詞）" },
+        { word: "ambivalently",  desc: "複雑な気持ちで（副詞）" }
+      ],
+      family: [
+        { word: "ambiguous",   desc: "曖昧な（ambi-）" },
+        { word: "value",       desc: "価値（valere）" },
+        { word: "valid",       desc: "有効な（valere）" },
+        { word: "equivalent",  desc: "同等の（equi-+valere）" }
+      ],
+      compounds: [
+        { phrase: "feel ambivalent",      desc: "複雑な感情を抱く" },
+        { phrase: "deep ambivalence",     desc: "深いアンビバレンス" },
+        { phrase: "moral ambivalence",    desc: "道徳的な葛藤" }
+      ]
+    },
+
+    // leg/legit系（残り）
+    "legitimate": {
+      origin: "ラテン語 legitimare（法に合わせる・合法化する）< legitimus（法に従った）< lex/legis（法律）。lex は「法」を意味し、legal・legislate・privilege などと同根。「法に則っている」という字義から「正当な・合法の」という意味が生まれた。\n\n15世紀に英語に入り、legitimate（合法の・正統な・正当な）として定着。王位継承の文脈では「嫡出の（legitimate heir）」という意味で重要で、やがて「正統性のある・根拠のある」という広義でも使われるようになった。\n\n現代英語では legitimate government（正統政府）・legitimate concern（正当な懸念）・legitimate business（合法的なビジネス）のように使われ、動詞 legitimize / legitimise（正当化する）も頻出する。",
+      derivatives: [
+        { word: "legitimacy",   desc: "正当性・合法性（名詞）" },
+        { word: "legitimize",   desc: "正当化する（動詞）" },
+        { word: "illegitimate", desc: "不法な・嫡出でない（形容詞）" }
+      ],
+      family: [
+        { word: "legal",     desc: "法的な（lex）" },
+        { word: "legislate", desc: "立法する（lex）" },
+        { word: "privilege", desc: "特権（lex）" },
+        { word: "loyal",     desc: "忠実な（lex）" }
+      ],
+      compounds: [
+        { phrase: "legitimate concern",   desc: "正当な懸念" },
+        { phrase: "legitimate heir",      desc: "正統な後継者" },
+        { phrase: "legitimate business",  desc: "合法的なビジネス" }
+      ]
+    },
+
+    // lemma系（ギリシャ語）
+    "dilemma": {
+      origin: "ギリシャ語 dilemma（二重の命題）< di-（二つの）+ lemma（前提・命題）< lambanein（取る・受け取る）。「どちらを選んでも同じく困る二つの選択肢」という論理学上の概念として生まれた。\n\n16世紀に英語に入り、dilemma（ジレンマ・板挟み）として定着。論理学では「どちらの選択肢を選んでも不都合な結論に至る議論」を指すが、日常語では単に「難しい選択・板挟みの状態」を意味する。\n\n現代英語では ethical dilemma（倫理的ジレンマ）・moral dilemma（道徳的葛藤）・on the horns of a dilemma（板挟みに）のように使われ、政治・医療・ビジネスの意思決定の文脈で頻出する語。",
+      derivatives: [
+        { word: "trilemma",  desc: "三択のジレンマ（tri-）" }
+      ],
+      family: [
+        { word: "lemma",    desc: "補題・見出し語（lemma）" },
+        { word: "dilemma",  desc: "ジレンマ（di-+lemma）" },
+        { word: "problem",  desc: "問題（prob-）" },
+        { word: "paradox",  desc: "逆説（para-+doxa）" }
+      ],
+      compounds: [
+        { phrase: "ethical dilemma",             desc: "倫理的ジレンマ" },
+        { phrase: "on the horns of a dilemma",   desc: "板挟みになって" },
+        { phrase: "moral dilemma",               desc: "道徳的葛藤" }
+      ]
+    },
+
+    // fund系
+    "fundamental": {
+      origin: "ラテン語 fundamentum（基礎・土台）< fundus（底・基盤）。fundus は「底・根底」を意味し、found（創設する）・foundation（基盤）とも同根。「すべての上に成り立つ最下部の支え」という字義。\n\n15世紀に英語に入り、fundamental（基本的な・根本的な）として定着。科学・哲学・音楽（倍音の基音）・政治（基本権）と多領域で「根本に関わる・最も重要な」という意味で使われる。\n\n現代英語では fundamental rights（基本的権利）・fundamental change（根本的な変化）・get back to fundamentals（基本に立ち返る）のように使われ、fundamentalism（原理主義）という派生語も宗教・政治の文脈で重要。",
+      derivatives: [
+        { word: "fundamentally",   desc: "根本的に・本質的に（副詞）" },
+        { word: "fundamentalism",  desc: "原理主義（名詞）" },
+        { word: "fundamentalist",  desc: "原理主義者（名詞）" }
+      ],
+      family: [
+        { word: "found",       desc: "創設する（fundus）" },
+        { word: "foundation",  desc: "基盤・財団（fundus）" },
+        { word: "founder",     desc: "創設者（fundus）" },
+        { word: "profound",    desc: "深遠な（pro-+fundus）" }
+      ],
+      compounds: [
+        { phrase: "fundamental rights",  desc: "基本的権利" },
+        { phrase: "fundamental change",  desc: "根本的な変化" },
+        { phrase: "back to fundamentals",desc: "基本に立ち返る" }
+      ]
+    },
+
+    // mot系（残り）
+    "motive": {
+      origin: "ラテン語 motivus（動きを引き起こす）< movere（動かす）の過去分詞 motus から。movere は「動かす」を意味し、motion・motor・emotion・promote などと同根。「行動を引き起こす内的な力」という字義。\n\n14世紀にフランス語 motif（動機）経由で英語に入り、motive（動機・理由・モチーフ）として定着。法律では「犯行動機（motive for a crime）」として重要で、音楽・美術では「モチーフ（繰り返される主題）」という意味でも使われる。\n\n現代英語では ulterior motive（隠れた動機）・profit motive（利益動機）・mixed motives（複合的な動機）のように使われ、形容詞 motivating / motivational（やる気を引き出す）も日常的に使われる重要語族を形成する。",
+      derivatives: [
+        { word: "motivation",   desc: "動機・やる気・意欲（名詞）" },
+        { word: "motivate",     desc: "動機づける・やる気にさせる（動詞）" },
+        { word: "motivated",    desc: "意欲的な（形容詞）" }
+      ],
+      family: [
+        { word: "motion",   desc: "運動・動き（movere）" },
+        { word: "emotion",  desc: "感情（e-+movere）" },
+        { word: "promote",  desc: "促進する（pro-+movere）" },
+        { word: "motor",    desc: "モーター・運動の（movere）" }
+      ],
+      compounds: [
+        { phrase: "ulterior motive",  desc: "隠れた動機" },
+        { phrase: "profit motive",    desc: "利益動機" },
+        { phrase: "motive force",     desc: "原動力" }
+      ]
     }
 
   };

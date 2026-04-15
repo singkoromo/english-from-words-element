@@ -12644,6 +12644,491 @@
         { phrase: "devolve into chaos",   desc: "混乱に堕ちる" },
         { phrase: "devolution of power",  desc: "権限委譲" }
       ]
+    },
+
+    // ── Batch 27 ──────────────────────────────────────────────────────────
+
+    // here/hes系
+    "adhere": {
+      origin: "ラテン語 adhaerere（くっつく・付着する）< ad-（～に）+ haerere（くっつく・刺さる）。haerere は「密着する」を意味し、hesitate（躊躇する、くっついて動けない）とも同根。「ある表面や規則にくっついて離れない」という字義。\n\n15世紀に英語に入り、adhere（付着する・固守する・従う）として定着。物理的な「付着」と、規則・原則への「固守」という二つの意味で使われる。adhesive（接着剤）・adherent（支持者）という派生語も重要。\n\n現代英語では adhere to the rules（規則を守る）・adhere to a surface（表面に付着する）・adhesive tape（粘着テープ）のように、物理・行動・思想の三文脈で使われる多義語。",
+      derivatives: [
+        { word: "adherence",  desc: "固守・遵守・付着（名詞）" },
+        { word: "adherent",   desc: "支持者・信奉者（名詞）" },
+        { word: "adhesive",   desc: "接着剤・粘着性の（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "cohere",    desc: "まとまる・一貫する（co-）" },
+        { word: "hesitate",  desc: "躊躇する（haerere）" },
+        { word: "coherent",  desc: "一貫した（co-+haerere）" },
+        { word: "inherent",  desc: "固有の（in-+haerere）" }
+      ],
+      compounds: [
+        { phrase: "adhere to rules",  desc: "規則を遵守する" },
+        { phrase: "adhesive tape",    desc: "粘着テープ" },
+        { phrase: "adhesive bond",    desc: "接着結合" }
+      ]
+    },
+
+    "coherent": {
+      origin: "ラテン語 cohaerens（共にくっついている）< co-（共に）+ haerere（くっつく）の現在分詞。「要素が互いにくっついてまとまっている」という字義が「一貫した・筋の通った」という意味に発展した。\n\n17世紀に英語に入り、coherent（一貫した・筋の通った・まとまりのある）として定着。思考・論理・議論・文章が「内部に矛盾がなく一体として成り立っている」状態を表す形容詞で、学術・ビジネス・日常で広く使われる。\n\n現代英語では coherent argument（一貫した主張）・coherent strategy（首尾一貫した戦略）・coherent explanation（筋の通った説明）のように使われ、光学では「コヒーレント光（レーザー光の位相が揃っている状態）」という技術語でも重要。",
+      derivatives: [
+        { word: "coherence",    desc: "一貫性・まとまり（名詞）" },
+        { word: "coherently",   desc: "一貫して（副詞）" },
+        { word: "incoherent",   desc: "支離滅裂な（形容詞）" }
+      ],
+      family: [
+        { word: "adhere",   desc: "付着する・遵守する（ad-）" },
+        { word: "inherent", desc: "固有の（in-）" },
+        { word: "hesitate", desc: "躊躇する（haerere）" }
+      ],
+      compounds: [
+        { phrase: "coherent argument",    desc: "一貫した主張" },
+        { phrase: "coherent strategy",    desc: "首尾一貫した戦略" },
+        { phrase: "coherent light",       desc: "コヒーレント光（レーザー）" }
+      ]
+    },
+
+    "inherent": {
+      origin: "ラテン語 inhaerens（内側にくっついている）< in-（中に）+ haerere（くっつく）の現在分詞。「もともとそのものの中に固く結びついている」という字義で、外から付け加えられたのではなく本質的に備わっている性質を指す。\n\n16世紀に英語に入り、inherent（固有の・本質的な・生来の）として定着。「取り除くことができない・その対象と切り離せない」というニュアンスが重要で、intrinsic（内在的な）と近い意味をもつ。\n\n現代英語では inherent risk（固有のリスク）・inherent contradiction（本質的な矛盾）・inherent value（本質的価値）のように、哲学・法律・ビジネスの文脈で使われる重要な学術語。",
+      derivatives: [
+        { word: "inherently",  desc: "本質的に・生来（副詞）" },
+        { word: "inherence",   desc: "内在・固有性（名詞）" }
+      ],
+      family: [
+        { word: "adhere",    desc: "付着する・遵守する（ad-）" },
+        { word: "coherent",  desc: "一貫した（co-）" },
+        { word: "hesitate",  desc: "躊躇する（haerere）" }
+      ],
+      compounds: [
+        { phrase: "inherent risk",          desc: "固有リスク・本来のリスク" },
+        { phrase: "inherent contradiction", desc: "本質的矛盾" },
+        { phrase: "inherent value",         desc: "本質的価値" }
+      ]
+    },
+
+    // equi/aequi系
+    "equity": {
+      origin: "ラテン語 aequitas（平等・公平さ）< aequus（均等な・公平な）。aequus は「水平な・均衡した」という字義で、equal・equation・equator などと同根。「偏りなく釣り合っている状態」という意味。\n\n14世紀に英語に入り、equity（公平さ・衡平・株式）として定着。法律では「成文法を補う衡平法（equity law）」として、金融では「株式・純資産（home equity）」として重要な二つの専門的意味をもつ。\n\n現代英語では equity（公平さ）と equality（平等）の違いが社会正義の文脈で重要で、equity は「結果の公平を実現するための異なる扱い」、equality は「同じ扱い」という区別で議論される。",
+      derivatives: [
+        { word: "equitable",   desc: "公平な・公正な（形容詞）" },
+        { word: "inequity",    desc: "不公平・不公正（名詞）" }
+      ],
+      family: [
+        { word: "equal",      desc: "等しい（aequus）" },
+        { word: "equate",     desc: "等しいとみなす（aequus）" },
+        { word: "adequate",   desc: "十分な（ad-+aequus）" },
+        { word: "equivalent", desc: "同等の（aequi-）" }
+      ],
+      compounds: [
+        { phrase: "equity and equality",   desc: "公平と平等" },
+        { phrase: "home equity",           desc: "住宅の自己資本・家の純資産" },
+        { phrase: "equity market",         desc: "株式市場" }
+      ]
+    },
+
+    "equitable": {
+      origin: "ラテン語 aequus（均等な・公平な）+ -abilis（可能・適切を示す形容詞語尾）。「公平に扱うことができる・公正な」という字義で、偏りのない公正な処遇を表す。equity（公平さ）の形容詞形として機能する。\n\n15世紀に英語に入り、equitable（公平な・正当な）として定着。法律・倫理・教育の文脈で「すべての人を公正に扱う」という意味で使われ、equal（平等な）よりも「個々の事情を考慮した公正さ」というニュアンスをもつ。\n\n現代英語では equitable distribution（公平な分配）・equitable treatment（公正な扱い）・equitable access（公平なアクセス）のように教育政策・社会政策・法律で頻出する語。",
+      derivatives: [
+        { word: "equitably",    desc: "公平に・公正に（副詞）" },
+        { word: "inequitable",  desc: "不公平な・不公正な（形容詞）" }
+      ],
+      family: [
+        { word: "equity",     desc: "公平さ・株式（aequus）" },
+        { word: "equal",      desc: "等しい（aequus）" },
+        { word: "adequate",   desc: "十分な（ad-+aequus）" },
+        { word: "equivalent", desc: "同等の（aequi-）" }
+      ],
+      compounds: [
+        { phrase: "equitable distribution",  desc: "公平な分配" },
+        { phrase: "equitable access",        desc: "公平なアクセス" },
+        { phrase: "equitable solution",      desc: "公正な解決策" }
+      ]
+    },
+
+    "adequate": {
+      origin: "ラテン語 adaequatus（完全に均等にした）< ad-（～に向けて）+ aequare（均等にする）< aequus（均等な）。「必要とされる基準に等しくする」という字義が「十分な・適切な」という意味に発展した。\n\n15世紀に英語に入り、adequate（十分な・適切な・及第点の）として定着。「理想には達しないが必要な水準は満たしている」というやや控えめな評価を含むことが多く、excellent や great とは異なるニュアンスをもつ。\n\n現代英語では adequate food supply（十分な食料供給）・adequate preparation（十分な準備）のように使われ、\"barely adequate\"（かろうじて十分な）や \"less than adequate\"（十分とは言えない）という形で批判的文脈でも頻出する。",
+      derivatives: [
+        { word: "adequately",   desc: "十分に・適切に（副詞）" },
+        { word: "adequacy",     desc: "十分さ・適切さ（名詞）" },
+        { word: "inadequate",   desc: "不十分な・不適切な（形容詞）" }
+      ],
+      family: [
+        { word: "equity",     desc: "公平さ（aequus）" },
+        { word: "equal",      desc: "等しい（aequus）" },
+        { word: "equitable",  desc: "公正な（aequus）" },
+        { word: "equivalent", desc: "同等の（aequi-）" }
+      ],
+      compounds: [
+        { phrase: "adequate preparation",  desc: "十分な準備" },
+        { phrase: "adequate supply",       desc: "十分な供給" },
+        { phrase: "barely adequate",       desc: "かろうじて十分な" }
+      ]
+    },
+
+    // patr/matr系（残り）
+    "patriarch": {
+      origin: "ギリシャ語 patriarches（家族・部族の長）< patria（家族・父の家）< pater（父）+ arches（統治者）< archein（支配する）。「父系集団を統治する長老」という字義で、家族制度・宗教・社会の「父権的権威者」を指す。\n\n13世紀に英語に入り、patriarch（族長・家父長・総主教）として定着。旧約聖書ではアブラハム・イサク・ヤコブなどの「族長」を指し、キリスト教では「総主教（Patriarch of Constantinople）」という高位聖職者の称号でもある。\n\n現代英語では family patriarch（一家の家長）・patriarchal society（家父長制社会）のように使われ、patriarchy（家父長制）はジェンダー研究で「男性が権力を持つ社会構造」を批判的に指す概念語として重要。",
+      derivatives: [
+        { word: "patriarchal",  desc: "家父長的な・父権的な（形容詞）" },
+        { word: "patriarchy",   desc: "家父長制・父権制（名詞）" }
+      ],
+      family: [
+        { word: "paternal",   desc: "父の・父方の（pater）" },
+        { word: "matriarch",  desc: "母系の長（mater）" },
+        { word: "monarch",    desc: "君主（monos+archein）" },
+        { word: "hierarchy",  desc: "階層制（hieros+archein）" }
+      ],
+      compounds: [
+        { phrase: "family patriarch",     desc: "一家の家長" },
+        { phrase: "patriarchal society",  desc: "家父長制社会" },
+        { phrase: "patriarchal system",   desc: "父権制度" }
+      ]
+    },
+
+    "matriarch": {
+      origin: "ギリシャ語 mater（母）+ arches（統治者）を組み合わせた近代語。patriarch（族長）を模して19世紀頃に英語で形成され、「母系集団を統治する長老」「家族や集団の女性的権威者」を指すために使われた。\n\n19世紀に英語に定着し、matriarch（母系の族長・家庭を支配する女性）として広まった。人類学では「母系社会（matriarchal society）」の中心人物を指し、口語では「一家を仕切る力強い女性」を指すこともある。\n\n現代英語では a respected matriarch（尊敬される女家長）・matriarchal society（母権社会）のように使われ、matriarchy（母権制）は人類学・フェミニズム研究の重要概念。象のような動物の「母系集団のリーダー」にも使われる。",
+      derivatives: [
+        { word: "matriarchal",  desc: "母権的な・母系の（形容詞）" },
+        { word: "matriarchy",   desc: "母権制・母系社会（名詞）" }
+      ],
+      family: [
+        { word: "maternal",   desc: "母の・母方の（mater）" },
+        { word: "patriarch",  desc: "父系の族長（pater）" },
+        { word: "monarch",    desc: "君主（monos）" },
+        { word: "matron",     desc: "婦長・既婚女性（mater）" }
+      ],
+      compounds: [
+        { phrase: "family matriarch",      desc: "一家の女家長" },
+        { phrase: "matriarchal society",   desc: "母権社会" },
+        { phrase: "matriarchal elephant",  desc: "母系集団を率いる雌象" }
+      ]
+    },
+
+    // cur/cura系
+    "cure": {
+      origin: "ラテン語 cura（気にかけること・治療・管理）。cura は「注意を払う・世話をする」という語根で、accurate（ad-+cura）・curious（cura+iosus）・secure（se-+cura）などと同根。「病に対して注意を払い手当てをする」という字義。\n\n13世紀にフランス語 curer を経て英語に入り、cure（治す・治療する・解決策）として定着。医学的な「治癒」のほか、食物の「塩漬け・燻製（cured meat）」という保存処理の意味でも使われる。\n\n現代英語では no cure for（～の治療法がない）・cure a disease（病気を治す）・cured salmon（塩漬けサーモン）のように幅広く使われ、名詞「治療薬・解決策（a cure for poverty）」の用法も重要。",
+      derivatives: [
+        { word: "curable",   desc: "治癒可能な（形容詞）" },
+        { word: "incurable", desc: "不治の（形容詞）" },
+        { word: "curative",  desc: "治癒力のある（形容詞）" }
+      ],
+      family: [
+        { word: "accurate",  desc: "正確な（ad-+cura）" },
+        { word: "curious",   desc: "好奇心のある（cura）" },
+        { word: "secure",    desc: "安全な（se-+cura）" },
+        { word: "procure",   desc: "調達する（pro-+cura）" }
+      ],
+      compounds: [
+        { phrase: "cure a disease",   desc: "病気を治す" },
+        { phrase: "no cure for",      desc: "～の治療法がない" },
+        { phrase: "cured meat",       desc: "塩漬け・燻製の肉" }
+      ]
+    },
+
+    "procure": {
+      origin: "ラテン語 procurare（代わりに管理する・手配する）< pro-（代わりに・前もって）+ curare（気にかける・管理する）< cura（ケア・管理）。「代わりに手配して入手する」という字義から「調達する」という意味が発展した。\n\n13世紀に英語に入り、procure（入手する・調達する）として定着。ビジネスでは購買・調達（procurement）として重要で、法律では「人をだまして売春させる（procure for prostitution）」という特殊な意味でも使われる。\n\n現代英語では procurement（調達）はサプライチェーン・政府調達・ビジネスオペレーションの文脈で最重要語の一つで、procurement manager（調達マネージャー）・public procurement（公共調達）のように使われる。",
+      derivatives: [
+        { word: "procurement",  desc: "調達・購買（名詞）" },
+        { word: "procurer",     desc: "調達者・周旋業者（名詞）" }
+      ],
+      family: [
+        { word: "cure",      desc: "治す・ケア（cura）" },
+        { word: "accurate",  desc: "正確な（ad-+cura）" },
+        { word: "secure",    desc: "安全な（se-+cura）" },
+        { word: "curious",   desc: "好奇心旺盛な（cura）" }
+      ],
+      compounds: [
+        { phrase: "procurement process",  desc: "調達プロセス" },
+        { phrase: "public procurement",   desc: "公共調達" },
+        { phrase: "procure supplies",     desc: "物資を調達する" }
+      ]
+    },
+
+    // phon/phone系
+    "symphony": {
+      origin: "ギリシャ語 symphonia（協和音・合唱）< syn-（共に）+ phone（音・声）。「多くの音が共に響く」という字義で、複数の楽器や声が調和してひとつの音楽を形成することを意味する。\n\n中世ラテン語 symphonia を経て14世紀に英語に入り、symphony（交響曲・交響楽団・調和）として定着。18世紀の古典主義音楽の時代にハイドン・モーツァルト・ベートーヴェンらが交響曲（symphony）を確立し、最も権威ある管弦楽形式として定着した。\n\n現代英語では symphony orchestra（交響楽団）・Beethoven's Fifth Symphony（ベートーヴェン第5交響曲）のように音楽用語として使われるほか、「調和のとれた組み合わせ（a symphony of flavors）」という比喩的意味でも使われる。",
+      derivatives: [
+        { word: "symphonic",     desc: "交響曲の・壮大な（形容詞）" },
+        { word: "philharmonic",  desc: "音楽愛好の（交響楽団の名称）" }
+      ],
+      family: [
+        { word: "sympathy",     desc: "共感（syn-+pathos）" },
+        { word: "synchronize",  desc: "同期する（syn-）" },
+        { word: "telephone",    desc: "電話（tele-+phone）" },
+        { word: "microphone",   desc: "マイク（mikros+phone）" }
+      ],
+      compounds: [
+        { phrase: "symphony orchestra",   desc: "交響楽団" },
+        { phrase: "symphony hall",        desc: "コンサートホール" },
+        { phrase: "symphonic music",      desc: "交響曲的な音楽" }
+      ]
+    },
+
+    "phonetics": {
+      origin: "ギリシャ語 phonetikos（音声の）< phone（音・声）< phainein（現れる）に由来する phōnē（声）。「言語の音声を科学的に研究する」という分野名として近代に確立された学問語。\n\n19世紀に英語の言語学・教育の分野で定着し、phonetics（音声学）として使われるようになった。音素（phoneme）・発音記号（IPA）・音声の物理的特性を研究する学問で、外国語教育・言語療法の基盤となる。\n\n現代英語では phonetics は音声学を指す学術語だが、日常的には phonic（音声の）・phonics（フォニックス学習法）という形でも広く使われ、子どもの読み書き教育（phonics approach）では重要概念となっている。",
+      derivatives: [
+        { word: "phonetic",   desc: "音声の・発音どおりの（形容詞）" },
+        { word: "phoneme",    desc: "音素（名詞）" },
+        { word: "phonics",    desc: "フォニックス（子供向け読み方教育）" }
+      ],
+      family: [
+        { word: "symphony",    desc: "交響曲（syn-+phone）" },
+        { word: "telephone",   desc: "電話（tele-+phone）" },
+        { word: "microphone",  desc: "マイク（mikros+phone）" },
+        { word: "saxophone",   desc: "サックス（Sax+phone）" }
+      ],
+      compounds: [
+        { phrase: "phonetic alphabet",  desc: "発音記号（アルファベット）" },
+        { phrase: "phonics method",     desc: "フォニックス教授法" },
+        { phrase: "phonetic spelling",  desc: "発音通りのスペル" }
+      ]
+    },
+
+    // tele系
+    "telescope": {
+      origin: "ギリシャ語 tele（遠く）+ skopein（見る・観察する）を組み合わせた近代ラテン語 telescopium。1611年ごろイタリアで命名され、ガリレオが天体観測に用いたことで広まった。\n\n17世紀に英語に入り、telescope（望遠鏡・遠くを見る）として定着。名詞「望遠鏡」のほか、動詞「入れ子状に重なる・短縮する（telescope into）」という意味でも使われる。\n\n現代英語では Hubble Space Telescope（ハッブル宇宙望遠鏡）・reflecting telescope（反射望遠鏡）のように天文学で重要なほか、telescoping（入れ子構造）という形容詞が機械工学・家具・物語の「圧縮」を表す比喩としても使われる。",
+      derivatives: [
+        { word: "telescopic",  desc: "望遠鏡の・伸縮式の（形容詞）" }
+      ],
+      family: [
+        { word: "television",  desc: "テレビ（tele-+videre）" },
+        { word: "telephone",   desc: "電話（tele-+phone）" },
+        { word: "telegram",    desc: "電報（tele-+gramma）" },
+        { word: "microscope",  desc: "顕微鏡（mikros+skopein）" }
+      ],
+      compounds: [
+        { phrase: "space telescope",      desc: "宇宙望遠鏡" },
+        { phrase: "telescopic lens",      desc: "望遠レンズ" },
+        { phrase: "telescoping pole",     desc: "伸縮式ポール" }
+      ]
+    },
+
+    "telephone": {
+      origin: "ギリシャ語 tele（遠く）+ phone（音・声）を組み合わせた近代語。1876年にアレクサンダー・グラハム・ベルが発明し、「遠くに音声を届ける装置」として電話（telephone）と命名された。\n\n19世紀後半に英語に入り、telephone（電話・電話をかける）として定着。通信革命の中心語として20世紀を通じて最重要の語の一つだった。現代では mobile / cell phone・smartphone の普及で状況が変わった。\n\n現代英語では telephone は「固定電話」や「電話一般」を指すやや改まった語として残り、日常会話では phone が一般的。telephone manner（電話応対）・telephone directory（電話帳）のような複合語も健在。",
+      derivatives: [
+        { word: "telephony",   desc: "電話通信（名詞）" },
+        { word: "telephonic",  desc: "電話による（形容詞）" }
+      ],
+      family: [
+        { word: "symphony",    desc: "交響曲（syn-+phone）" },
+        { word: "phonetics",   desc: "音声学（phone）" },
+        { word: "telescope",   desc: "望遠鏡（tele-+skopein）" },
+        { word: "television",  desc: "テレビ（tele-+videre）" }
+      ],
+      compounds: [
+        { phrase: "telephone number",    desc: "電話番号" },
+        { phrase: "telephone conference",desc: "電話会議" },
+        { phrase: "telephone manner",    desc: "電話応対の態度" }
+      ]
+    },
+
+    // theo系
+    "theology": {
+      origin: "ギリシャ語 theologia（神についての論考）< theos（神）+ logos（言葉・学問）。「神の本質・属性・存在についての理性的探求」という字義で、宗教的信仰を学問として体系化した分野。\n\n13世紀に英語に入り、theology（神学）として定着。中世ヨーロッパでは「学問の女王（queen of sciences）」とされ、大学教育の中心を担った。神の存在証明・三位一体・救済論など多様な神学的論争が展開された。\n\n現代英語では Christian theology（キリスト教神学）・Islamic theology（イスラム神学）・liberation theology（解放の神学）のように宗教・社会問題と絡んで多様な使い方がされる。比喩的には「組織の根本思想」という意味でも使われる。",
+      derivatives: [
+        { word: "theological",  desc: "神学的な（形容詞）" },
+        { word: "theologian",   desc: "神学者（名詞）" }
+      ],
+      family: [
+        { word: "atheist",     desc: "無神論者（a-+theos）" },
+        { word: "monotheism",  desc: "一神教（monos+theos）" },
+        { word: "biology",     desc: "生物学（bios+logos）" },
+        { word: "psychology",  desc: "心理学（psyche+logos）" }
+      ],
+      compounds: [
+        { phrase: "systematic theology",    desc: "組織神学" },
+        { phrase: "liberation theology",    desc: "解放の神学" },
+        { phrase: "theological debate",     desc: "神学論争" }
+      ]
+    },
+
+    "atheist": {
+      origin: "ギリシャ語 atheos（神なき・神を認めない）< a-（否定）+ theos（神）。「神の存在を信じない人」という字義で、神の存在を積極的に否定する立場を指す。agnostic（不可知論者）との区別が重要。\n\n16世紀に英語に入り、atheist（無神論者）として定着。宗教的権威が支配的だった時代には極めて危険な立場であり、atheism（無神論）は異端・道徳的腐敗と結びつけられた。\n\n現代英語では atheist は単に「神の存在を信じない人」という中立的な意味で使われ、agnostic（不可知論者、神の存在は確認できないと考える）・secular humanist（世俗的人文主義者）などと区別される。",
+      derivatives: [
+        { word: "atheism",    desc: "無神論（名詞）" },
+        { word: "atheistic",  desc: "無神論的な（形容詞）" }
+      ],
+      family: [
+        { word: "theology",   desc: "神学（theos）" },
+        { word: "monotheism", desc: "一神教（monos+theos）" },
+        { word: "agnostic",   desc: "不可知論者（a-+gnosis）" }
+      ],
+      compounds: [
+        { phrase: "militant atheist",   desc: "過激な無神論者" },
+        { phrase: "atheist society",    desc: "非宗教的社会" },
+        { phrase: "atheism vs theism",  desc: "無神論対有神論" }
+      ]
+    },
+
+    // thes/thet系
+    "thesis": {
+      origin: "ギリシャ語 thesis（置くこと・命題）< tithenai（置く）。「前提として置かれたもの・主張」という字義で、論証の出発点となる主張・命題を指す。synthesis（共に置く）・antithesis（反対に置く）とともにヘーゲルの弁証法の三段論法を形成する。\n\n16世紀に英語に入り、thesis（論題・学位論文・命題）として定着。学術では「大学の研究成果として提出する論文（master's thesis / doctoral thesis）」を指し、議論では「論証される主張」を意味する。\n\n現代英語では write a thesis（論文を書く）・thesis statement（論旨・論題文）・defend a thesis（論文の口頭試問を受ける）のように学術文脈で頻出し、\"antithesis\" との対比でも使われる。",
+      derivatives: [
+        { word: "thematic",  desc: "テーマの・主題の（形容詞）" }
+      ],
+      family: [
+        { word: "hypothesis",  desc: "仮説（hypo-+thesis）" },
+        { word: "synthesis",   desc: "統合・合成（syn-+thesis）" },
+        { word: "antithesis",  desc: "対立・正反対（anti-+thesis）" },
+        { word: "parenthesis", desc: "括弧・挿入句（para-+en-+thesis）" }
+      ],
+      compounds: [
+        { phrase: "master's thesis",   desc: "修士論文" },
+        { phrase: "thesis statement",  desc: "論題文・主張文" },
+        { phrase: "defend a thesis",   desc: "論文審査を受ける" }
+      ]
+    },
+
+    "antithesis": {
+      origin: "ギリシャ語 antithesis（対置・対立）< anti-（対して・反対に）+ thesis（置くこと）< tithenai（置く）。「正反対の位置に置かれたもの」という字義で、対立する概念・命題・表現を指す。\n\n16世紀に英語に入り、antithesis（対立・正反対・対照）として定着。修辞学では「対照表現（\"Ask not what your country can do for you; ask what you can do for your country\"）」を指し、哲学ではヘーゲルの弁証法の第二段階（thesis→antithesis→synthesis）を構成する。\n\n現代英語では the antithesis of（～の正反対）・stand in antithesis to（～に対立する）のように使われ、文学・批評・哲学で対比を鮮明にするときに登場する語。",
+      derivatives: [
+        { word: "antithetical",  desc: "正反対の・対立する（形容詞）" }
+      ],
+      family: [
+        { word: "thesis",      desc: "命題・論文（thesis）" },
+        { word: "synthesis",   desc: "統合（syn-+thesis）" },
+        { word: "hypothesis",  desc: "仮説（hypo-+thesis）" },
+        { word: "antipathy",   desc: "反感（anti-+pathos）" }
+      ],
+      compounds: [
+        { phrase: "the antithesis of",      desc: "～の正反対" },
+        { phrase: "thesis-antithesis",      desc: "弁証法的対立" },
+        { phrase: "antithetical values",    desc: "相反する価値観" }
+      ]
+    },
+
+    // bio系
+    "symbiosis": {
+      origin: "ギリシャ語 symbiosis（共同生活）< syn-（共に）+ bios（生命）+ -sis（状態・過程を示す名詞語尾）。「二つの異なる生物が共に生きること」という字義で、相互関係・依存・共存を意味する。\n\n19世紀にドイツの植物学者ハインリッヒ・デ・バリーが生物学用語として確立し、symbiosis（共生）が英語にも定着した。当初は「同一生物体内で異種生物が共に生きる」関係（地衣類＝菌類＋藻類など）を指した。\n\n現代英語では生態学の専門語としてだけでなく、「相互に利益をもたらす関係（a symbiosis between art and commerce）」という比喩的意味でも広く使われる。symbiotic relationship（共生関係）は最重要複合語。",
+      derivatives: [
+        { word: "symbiotic",   desc: "共生的な（形容詞）" },
+        { word: "symbiont",    desc: "共生生物（名詞）" }
+      ],
+      family: [
+        { word: "biology",    desc: "生物学（bios）" },
+        { word: "antibiotic", desc: "抗生物質（anti-+bios）" },
+        { word: "biography",  desc: "伝記（bios+graphe）" },
+        { word: "sympathy",   desc: "共感（syn-+pathos）" }
+      ],
+      compounds: [
+        { phrase: "symbiotic relationship",  desc: "共生関係" },
+        { phrase: "mutualistic symbiosis",   desc: "相利共生" },
+        { phrase: "live in symbiosis",       desc: "共生して生きる" }
+      ]
+    },
+
+    "biodiversity": {
+      origin: "ギリシャ語 bios（生命）+ ラテン語 diversitas（多様性）< diversus（異なった）を組み合わせた20世紀の造語。生物学者ウォルター・G・ローゼンが1980年代に普及させ、「生物の種・遺伝子・生態系の多様さ」を表す概念語として確立した。\n\n1990年代から環境政策・国際条約（生物多様性条約、1992年）の文脈で広まり、biodiversity（生物多様性）として定着。種の絶滅・生態系破壊への警鐘として重要性が認識された。\n\n現代英語では protect biodiversity（生物多様性を守る）・loss of biodiversity（生物多様性の喪失）・biodiversity hotspot（生物多様性のホットスポット）のように環境・政策・科学の三分野で最重要語の一つとなっている。",
+      derivatives: [
+        { word: "biodiverse",  desc: "生物多様性が高い（形容詞）" }
+      ],
+      family: [
+        { word: "biology",    desc: "生物学（bios）" },
+        { word: "diverse",    desc: "多様な（diversus）" },
+        { word: "diversity",  desc: "多様性（diversitas）" },
+        { word: "ecosystem",  desc: "生態系（eco-+system）" }
+      ],
+      compounds: [
+        { phrase: "biodiversity loss",     desc: "生物多様性の喪失" },
+        { phrase: "biodiversity hotspot",  desc: "生物多様性ホットスポット" },
+        { phrase: "marine biodiversity",   desc: "海洋生物多様性" }
+      ]
+    },
+
+    // auto系
+    "autonomy": {
+      origin: "ギリシャ語 autonomia（自己の法律による統治）< autos（自己）+ nomos（法律・慣習）。「自分自身の規則に従って治める」という字義で、外部の支配を受けずに自律的に行動する能力・権利を指す。\n\n17世紀に英語に入り、autonomy（自律性・自治権・自主性）として定着。政治的には「自治権（regional autonomy）」、哲学では「道徳的自律（Kantian autonomy）」、医学倫理では「患者の自己決定権（patient autonomy）」として重要。\n\n現代英語では professional autonomy（職業上の自律性）・autonomous vehicles（自動運転車）・autonomy in decision-making（意思決定の自律性）のように技術・哲学・政治の三分野で頻出する。",
+      derivatives: [
+        { word: "autonomous",   desc: "自律的な・自治の（形容詞）" },
+        { word: "autonomously", desc: "自律的に（副詞）" }
+      ],
+      family: [
+        { word: "automobile",  desc: "自動車（autos）" },
+        { word: "automatic",   desc: "自動の（autos）" },
+        { word: "economy",     desc: "経済（nomos）" },
+        { word: "astronomy",   desc: "天文学（nomos）" }
+      ],
+      compounds: [
+        { phrase: "regional autonomy",    desc: "地域自治権" },
+        { phrase: "patient autonomy",     desc: "患者の自己決定権" },
+        { phrase: "autonomy of will",     desc: "意思の自律" }
+      ]
+    },
+
+    "autobiography": {
+      origin: "ギリシャ語 autos（自己）+ bios（生命）+ graphein（書く）を組み合わせた近代英語の造語。「自分自身の人生について自分で書いたもの」という字義で、biography（伝記）の一形態として明確に区別される。\n\n18世紀末（1790年代）に英語で確立し、autobiography（自叙伝）として定着。Robert Southey が1809年に自叙伝を autobiography と呼んだことが初期使用例の一つとされる。\n\n現代英語では autobiography（自叙伝）と memoir（回顧録）の区別が文学ジャンルとして重要で、autobiography は人生全体を時系列で書いたもの、memoir はある特定の期間や経験に焦点を当てたものという違いがある。",
+      derivatives: [
+        { word: "autobiographical",  desc: "自叙伝的な（形容詞）" }
+      ],
+      family: [
+        { word: "biography",  desc: "伝記（bios+graphe）" },
+        { word: "automatic",  desc: "自動の（autos）" },
+        { word: "autonomous", desc: "自律的な（autos）" },
+        { word: "autograph",  desc: "直筆サイン（autos+graphe）" }
+      ],
+      compounds: [
+        { phrase: "write an autobiography",  desc: "自叙伝を書く" },
+        { phrase: "autobiographical novel",  desc: "自伝的小説" },
+        { phrase: "autobiography vs memoir", desc: "自叙伝と回顧録の違い" }
+      ]
+    },
+
+    // graph系
+    "typography": {
+      origin: "ギリシャ語 typos（型・印）+ graphein（書く）を組み合わせた近代語。「型を使って書く・印刷する」という字義で、活版印刷の技術と印刷物の視覚的な文字の組み方全般を指す。\n\n16世紀に英語に入り、typography（活版印刷術・タイポグラフィ）として定着。グーテンベルクの活版印刷（1440年代）の普及とともに重要度が増し、デザイン・出版・グラフィックデザインの基礎分野となった。\n\n現代英語では web typography（Web タイポグラフィ）・typographic design（文字デザイン）のように、デジタル時代においてもフォント・字間・行間・文字組みの美学として重要分野。UX デザインでも typography は重要な要素。",
+      derivatives: [
+        { word: "typographic",   desc: "タイポグラフィの（形容詞）" },
+        { word: "typographer",   desc: "タイポグラファー（名詞）" }
+      ],
+      family: [
+        { word: "photograph",    desc: "写真（photo-+graphein）" },
+        { word: "calligraphy",   desc: "書道（kallos+graphein）" },
+        { word: "biography",     desc: "伝記（bios+graphein）" },
+        { word: "geography",     desc: "地理学（geo+graphein）" }
+      ],
+      compounds: [
+        { phrase: "web typography",       desc: "ウェブタイポグラフィ" },
+        { phrase: "typographic error",    desc: "印刷上の誤り・誤植" },
+        { phrase: "typographic design",   desc: "文字デザイン" }
+      ]
+    },
+
+    "calligraphy": {
+      origin: "ギリシャ語 kalligraphia（美しい書き方）< kallos（美しさ）+ graphein（書く）。「美しく書くこと・書の美」という字義で、文字を美的・芸術的に表現する技術を指す。\n\n17世紀に英語に入り、calligraphy（書道・カリグラフィー）として定着。西洋では羽根ペンを使ったアルファベットの装飾的な書体として発展し、東アジアでは漢字・ハングル・アラビア語など各文化で独自の書道伝統をもつ。\n\n現代英語では calligraphy is experiencing a revival（書道が復活している）のように、デジタル時代への反動として「手書きの美」が再評価される文脈で使われる。ウェディング招待状・高級ブランドのロゴにも使われる芸術形式。",
+      derivatives: [
+        { word: "calligraphic",   desc: "書道の・美麗な書体の（形容詞）" },
+        { word: "calligrapher",   desc: "書道家・カリグラファー（名詞）" }
+      ],
+      family: [
+        { word: "typography",  desc: "タイポグラフィ（typos+graphein）" },
+        { word: "photograph",  desc: "写真（photo-+graphein）" },
+        { word: "biography",   desc: "伝記（bios+graphein）" },
+        { word: "calorie",     desc: "カロリー（kallos系）" }
+      ],
+      compounds: [
+        { phrase: "Arabic calligraphy",   desc: "アラビア書道" },
+        { phrase: "calligraphy pen",      desc: "カリグラフィーペン" },
+        { phrase: "calligraphy workshop", desc: "書道ワークショップ" }
+      ]
+    },
+
+    // onym系
+    "acronym": {
+      origin: "ギリシャ語 akros（先端・最初の）+ onyma（名前）を組み合わせた20世紀の造語。「各語の頭文字（先端）から作られた名前」という字義で、NATO・UNESCO・AIDS のような頭字語を指す。\n\n1940年代に英語で定着し、acronym（頭字語・アクロニム）として広まった。第二次世界大戦中に軍事組織・作戦名が acronym として多数作られたことが普及の一因とされる。\n\n現代英語ではデジタル通信・SNS の普及で LOL・ASAP・FAQ などの acronym が日常語となり、acronym と initialism（各文字を読み上げる：FBI・CEO）の区別も重要になっている。acronym は1語として発音できるもの（NATO=「ネイトー」）を指す。",
+      derivatives: [
+        { word: "acronymic",  desc: "頭字語の（形容詞）" }
+      ],
+      family: [
+        { word: "anonymous",  desc: "匿名の（an-+onymous）" },
+        { word: "synonym",    desc: "類義語（syn-+onym）" },
+        { word: "pseudonym",  desc: "ペンネーム（pseudo-+onym）" },
+        { word: "acronym",    desc: "頭字語（akros+onym）" }
+      ],
+      compounds: [
+        { phrase: "common acronym",    desc: "一般的な頭字語" },
+        { phrase: "acronym for",       desc: "～の頭字語" },
+        { phrase: "NATO acronym",      desc: "NATO のような頭字語" }
+      ]
     }
 
   };

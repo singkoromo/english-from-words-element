@@ -18183,6 +18183,366 @@
         { phrase: "break with tradition", desc: "慣習を打ち破る" },
         { phrase: "oral tradition",       desc: "口承・語り伝え" }
       ]
+    },
+
+    // ── Batch 40 ──────────────────────────────────────────────────────────
+
+    "procedure": {
+      origin: "ラテン語 procedere（前に進む・進行する）< pro-（前に）+ cedere（行く・譲る）+ -ure（名詞接尾辞）。「前進するための手順」が原義。proceed（進む）・process（過程）・precede（先行する）と同根の cedere を含む。\n\n英語には15世紀に採用され、「手順・方法・法律手続き」の意味で定着。法律では「訴訟手続き」（legal procedure）・医療では「処置・手術手順」（medical procedure）・プロジェクト管理では「作業手順」として重要語となっている。\n\n現代英語では standard procedure（標準手順）・follow the procedure（手順に従う）・legal procedure（法的手続き）のように医療・法律・組織管理で幅広く使われる。",
+      derivatives: [
+        { word: "procedural",    desc: "手続きの・手順の（形容詞）" },
+        { word: "procedurally",  desc: "手続き上・手順的に（副詞）" }
+      ],
+      family: [
+        { word: "proceed",   desc: "前進する・続ける（pro+cedere）" },
+        { word: "process",   desc: "過程・処理する（procedere の転）" },
+        { word: "precede",   desc: "先行する（prae+cedere）" },
+        { word: "exceed",    desc: "超える（ex+cedere）" }
+      ],
+      compounds: [
+        { phrase: "standard procedure",   desc: "標準手順" },
+        { phrase: "follow the procedure", desc: "手順に従う" },
+        { phrase: "legal procedure",      desc: "法的手続き" }
+      ]
+    },
+
+    "rationale": {
+      origin: "ラテン語 rationalis（理性に基づく）< ratio（計算・理由・理性）< reri（考える・計算する）+ -ale（形容詞・名詞接尾辞）。「理性・論拠に基づくこと」が原義。ratio（比率）・rational（合理的）と同根の ratio を含む。\n\n英語には17世紀に採用され、「根本的な理由・論理的根拠・理論的説明」の意味で定着。学術・ビジネス・法律の文脈で「なぜその決定・行動をするのかの論理的説明」を指す専門語として使われる。\n\n現代英語では provide a rationale（根拠を示す）・the rationale behind the decision（決定の背景にある論理）・rationale for the policy（政策の論理的根拠）のように学術・政策・ビジネスで広く使われる。",
+      derivatives: [
+        { word: "rational",   desc: "合理的な・理性的な（形容詞）" },
+        { word: "rationalize", desc: "合理化する・正当化する（動詞）" }
+      ],
+      family: [
+        { word: "ratio",    desc: "比率・割合（ratio）" },
+        { word: "reason",   desc: "理由・理性（ratio の転）" },
+        { word: "irrational", desc: "非合理的な（ir+rationalis）" }
+      ],
+      compounds: [
+        { phrase: "provide a rationale",    desc: "論理的根拠を示す" },
+        { phrase: "rationale for",          desc: "〜の論拠・理由" },
+        { phrase: "underlying rationale",   desc: "根底にある論理" }
+      ]
+    },
+
+    "scenario": {
+      origin: "イタリア語 scenario（舞台装置の計画・台本）< scena（場面・背景）< ラテン語 scaena（舞台・場面）< ギリシャ語 skene（舞台の背景幕・テント）。「舞台の場面設定・筋書き」が原義。scene（場面）と同根。\n\n英語には19世紀後半に採用され、「(映画・演劇の)脚本・シナリオ」の意味で定着した。20世紀以降、ビジネス・軍事・政策の「最悪のシナリオ・想定される筋書き」として広く使われるようになり、scenario planning（シナリオプランニング）の概念とともに定着した。\n\n現代英語では worst-case scenario（最悪のシナリオ）・hypothetical scenario（仮定のシナリオ）・plan for multiple scenarios（複数のシナリオを想定する）のようにビジネス・政策・日常で幅広く使われる。",
+      derivatives: [
+        { word: "scene",       desc: "場面・現場（skene）" },
+        { word: "scenery",     desc: "景色・舞台背景（skene）" }
+      ],
+      family: [
+        { word: "scene",    desc: "場面（scena）" },
+        { word: "obscene",  desc: "わいせつな（ob+scena）" }
+      ],
+      compounds: [
+        { phrase: "worst-case scenario",     desc: "最悪のシナリオ" },
+        { phrase: "hypothetical scenario",   desc: "仮定のシナリオ" },
+        { phrase: "scenario planning",       desc: "シナリオプランニング" }
+      ]
+    },
+
+    "framework": {
+      origin: "英語 frame（骨組み・枠組み）< 古英語 framian（役立てる・組み立てる）+ work（仕事・構造体）。「骨格・枠組みとして機能する構造」が原義。frame は「写真の額縁・窓枠・骨格」など「支える構造」を指す。\n\n英語には17世紀に採用され、「骨格・枠組み・構造体」の意味で定着。20世紀後半の経営学・政策研究・ソフトウェア工学（ programming framework）の発展とともに「概念的・制度的・技術的な枠組み」を指す学術・専門用語として非常に頻繁に使われるようになった。\n\n現代英語では conceptual framework（概念的枠組み）・legal framework（法的枠組み）・regulatory framework（規制の枠組み）のように学術・法律・技術で幅広く使われる。",
+      derivatives: [
+        { word: "frame",    desc: "枠・骨格・組み立てる（名詞・動詞）" },
+        { word: "framing",  desc: "フレーミング・枠組み設定（名詞）" }
+      ],
+      family: [
+        { word: "infrastructure", desc: "基盤設備（intra+structura）" }
+      ],
+      compounds: [
+        { phrase: "conceptual framework",   desc: "概念的枠組み" },
+        { phrase: "legal framework",        desc: "法的枠組み" },
+        { phrase: "regulatory framework",   desc: "規制の枠組み" }
+      ]
+    },
+
+    "outcome": {
+      origin: "英語 out（外に）+ come（来る）の合成語。「外に出てくるもの＝結果として現れるもの」が原義。18世紀以降の英語で確立した語で、result（結果）・consequence（結論）よりも「プロセスや行為から自然に生じてくるもの」というニュアンスが強い。\n\n英語では「行動・プロセスの最終的な結果・成果」を指し、特に medical outcome（医療成果）・learning outcome（学習成果）・policy outcome（政策成果）のように評価・測定の対象となる「成果」を指す語として現代の政策・教育・医療研究で非常に頻繁に使われる。\n\n現代英語では expected outcome（期待される成果）・positive outcome（良い結果）・measure outcomes（成果を測る）のように政策・教育・医療・ビジネスで幅広く使われる。",
+      derivatives: [
+        { word: "outcomes",  desc: "成果・結果（複数形）" }
+      ],
+      family: [
+        { word: "result",      desc: "結果（re+saltare）" },
+        { word: "consequence", desc: "帰結（con+sequi）" },
+        { word: "output",      desc: "産出量・出力（out+put）" }
+      ],
+      compounds: [
+        { phrase: "expected outcome",  desc: "期待される成果" },
+        { phrase: "positive outcome",  desc: "良い結果" },
+        { phrase: "learning outcome",  desc: "学習成果" }
+      ]
+    },
+
+    "trend": {
+      origin: "古英語 trendan（回転する・転がる）< Proto-Germanic *trandijanan。「円を描いて転がる」が原義で、川が蛇行する（to trend north）・土地が特定方向へ続くという地理的意味から始まった。\n\n英語では18世紀以降に「傾向・方向」の意味が定着し、20世紀後半にファッション・市場・ソーシャルメディア（trending topics）の文脈で「時代の潮流・流行」を指す語として非常に重要となった。\n\n現代英語では current trend（現在の傾向）・follow the trend（トレンドに乗る）・trending topic（話題になっている件）のような日常・ビジネス・メディアで幅広く使われる。",
+      derivatives: [
+        { word: "trending",  desc: "流行している・話題の（形容詞）" },
+        { word: "trendy",    desc: "流行の・おしゃれな（形容詞）" }
+      ],
+      family: [
+        { word: "trend-setter", desc: "トレンドを生み出す人" }
+      ],
+      compounds: [
+        { phrase: "current trend",    desc: "現在の傾向" },
+        { phrase: "follow the trend", desc: "傾向に従う・トレンドに乗る" },
+        { phrase: "trending topic",   desc: "話題になっている件・トレンド" }
+      ]
+    },
+
+    "trigger": {
+      origin: "オランダ語 trekker（引き金）< trekken（引く）。「銃の引き金を引く」という行為から「何かを引き起こす引き金・原因」の比喩的意味が生まれた。\n\n英語には17世紀に「銃の引き金」として採用され、19世紀以降に「(ある事態を)引き起こすもの・きっかけ」という比喩的意味で広く使われるようになった。心理学では「トラウマ反応を引き起こす刺激」（PTSD trigger）として重要な専門用語ともなっている。\n\n現代英語では trigger a reaction（反応を引き起こす）・emotional trigger（感情的な引き金）・trigger an alarm（警報を作動させる）のように心理学・技術・日常で幅広く使われる。",
+      derivatives: [
+        { word: "triggered",  desc: "引き起こされた・怒らせた（形容詞）" }
+      ],
+      family: [
+        { word: "trek",  desc: "長旅する・トレッキング（trekken の転）" }
+      ],
+      compounds: [
+        { phrase: "trigger a reaction",  desc: "反応を引き起こす" },
+        { phrase: "emotional trigger",   desc: "感情的な引き金（心理学）" },
+        { phrase: "trigger warning",     desc: "不快な内容についての事前警告" }
+      ]
+    },
+
+    "welfare": {
+      origin: "中英語 welfare（良くあること）< wel（よく）< Old English well + fare（行くこと・旅）< Old English faran（行く・旅する）。「よく行くこと・うまくいっていること」が原義。farewell（さようなら）と同根の fare を含む。\n\n英語には14世紀に採用され、「健康・幸福・福祉」の意味で定着。19世紀末から20世紀にかけての福祉国家（welfare state）の概念の確立とともに「社会的な生活支援・社会保障」を指す政治・社会の重要概念語となった。\n\n現代英語では social welfare（社会福祉）・child welfare（児童福祉）・animal welfare（動物福祉）のように政策・社会・倫理の場で幅広く使われる。",
+      derivatives: [
+        { word: "well-being",  desc: "福祉・幸福感（同義の合成語）" }
+      ],
+      family: [
+        { word: "farewell",  desc: "さようなら（fare+well）" },
+        { word: "wayfarer",  desc: "旅人（way+farer）" }
+      ],
+      compounds: [
+        { phrase: "social welfare",    desc: "社会福祉" },
+        { phrase: "child welfare",     desc: "児童福祉" },
+        { phrase: "welfare state",     desc: "福祉国家" }
+      ]
+    },
+
+    "ultimate": {
+      origin: "ラテン語 ultimatus（最後の・最果ての）< ultimus（最も遠い・最後の）< ultra（〜を超えて・向こうに）+ -imus（最上級接尾辞）。「最も向こうにある・最後の・究極の」が原義。ultra（極端に）と同根。\n\n英語には15世紀に採用され、「最終的な・究極の・根本的な」の形容詞として定着。スポーツでは ultimate（フライングディスクを使うスポーツ）としても使われ、「究極の・最高の・最後の」という強調表現として現代英語でも頻繁に使われる。\n\n現代英語では the ultimate goal（究極の目標）・ultimate responsibility（最終的な責任）・ultimately（結局・最終的に）のように日常・学術・ビジネスで幅広く使われる。",
+      derivatives: [
+        { word: "ultimately",  desc: "最終的に・結局（副詞）" },
+        { word: "ultimatum",   desc: "最後通牒（名詞）" }
+      ],
+      family: [
+        { word: "ultra",    desc: "超・極端に（ultra）" },
+        { word: "ulterior", desc: "隠れた・裏の（ulterior）" }
+      ],
+      compounds: [
+        { phrase: "the ultimate goal",       desc: "究極の目標" },
+        { phrase: "ultimate responsibility", desc: "最終的な責任" },
+        { phrase: "ultimate sacrifice",      desc: "最大の犠牲・命を捧げること" }
+      ]
+    },
+
+    "threshold": {
+      origin: "古英語 therscold（玄関の敷居・踏み台）< threscan（麦を叩く・脱穀する）+ -old（場所を示す語尾）。穀物を踏みつけて脱穀する場所（玄関口・敷居）から「限界・境界」の意味が生まれた。\n\n英語に古くから存在し、「ドアの敷居・境界・限界値」の意味で定着。心理学・物理学・経済学で「刺激に反応するための最小量」（threshold of sensation）・「臨界点」として重要な概念語となっている。\n\n現代英語では pain threshold（痛みの閾値）・cross the threshold（敷居をまたぐ・限界を超える）・threshold of poverty（貧困の閾値）のように科学・経済・日常で幅広く使われる。",
+      derivatives: [
+        { word: "thresholds",  desc: "threshold の複数形" }
+      ],
+      family: [
+        { word: "thresh",   desc: "脱穀する（threscan）" }
+      ],
+      compounds: [
+        { phrase: "pain threshold",       desc: "痛みの閾値・痛みへの耐性" },
+        { phrase: "cross the threshold",  desc: "敷居をまたぐ・限界を超える" },
+        { phrase: "poverty threshold",    desc: "貧困の閾値・貧困線" }
+      ]
+    },
+
+    "unprecedented": {
+      origin: "ラテン語 un-（否定）+ praecedentis（先行する）< praecedere（前に行く）< prae-（前に）+ cedere（行く）。「これ以前に先例がない」が原義で、precede（先行する）・precedent（先例）と同根の cedere を含む。\n\n英語には17世紀に採用され、「前例のない・歴史上初の」の意味で定着。政治・科学・社会の「これまで一度も起きたことのない事態」を強調する形容詞として、特に歴史的な転換点を描写する際に使われる。\n\n現代英語では unprecedented crisis（前例のない危機）・take unprecedented action（前例のない行動を取る）・an unprecedented level of（かつてない水準の〜）のような政治・メディア・学術で広く使われる。",
+      derivatives: [
+        { word: "precedent",       desc: "先例・判例（名詞）" },
+        { word: "precedented",     desc: "先例のある（形容詞）" }
+      ],
+      family: [
+        { word: "precede",   desc: "先行する（prae+cedere）" },
+        { word: "proceed",   desc: "前進する（pro+cedere）" },
+        { word: "exceed",    desc: "超える（ex+cedere）" }
+      ],
+      compounds: [
+        { phrase: "unprecedented crisis",  desc: "前例のない危機" },
+        { phrase: "unprecedented level",   desc: "かつてない水準" },
+        { phrase: "set a precedent",       desc: "先例を設ける" }
+      ]
+    },
+
+    "elusive": {
+      origin: "ラテン語 eludere（逃げおおせる・幻惑する）< e-（外に）+ ludere（遊ぶ・からかう）+ -ive（形容詞接尾辞）。「からかいながら逃げていく」が原義。illusion（幻想）・allude（ほのめかす）と同根の ludere を含む。\n\n英語には18世紀に採用され、「捉えがたい・逃げやすい・理解しにくい」の意味で定着。物理的に「捕まえにくい動物」から知的に「理解しにくい概念」まで幅広い文脈で使われる。\n\n現代英語では elusive concept（捉えにくい概念）・elusive prey（捕まえにくい獲物）・success remained elusive（成功はなかなか手に入らなかった）のように文学・日常・学術の場で幅広く使われる。",
+      derivatives: [
+        { word: "elusively",  desc: "捉えがたく・とぼけて（副詞）" },
+        { word: "elusiveness", desc: "捉えがたさ（名詞）" }
+      ],
+      family: [
+        { word: "illusion",  desc: "幻想（il+ludere）" },
+        { word: "allude",    desc: "ほのめかす（al+ludere）" },
+        { word: "delude",    desc: "欺く（de+ludere）" },
+        { word: "collude",   desc: "共謀する（col+ludere）" }
+      ],
+      compounds: [
+        { phrase: "elusive concept",        desc: "捉えにくい概念" },
+        { phrase: "success remained elusive", desc: "成功はなかなか得られなかった" }
+      ]
+    },
+
+    "lucrative": {
+      origin: "ラテン語 lucrativus（利益をもたらす）< lucrum（利益・利得）+ -ativus（傾向を示す形容詞接尾辞）。「利益を生み出す性質を持つ」が原義。\n\n英語には16世紀に採用され、「利益の上がる・もうかる」の意味で定着。ビジネス・投資の文脈で「高い収益を生む・財政的に有利な」を表す形容詞として、lucrative deal（利益の大きい取引）・lucrative career（高収入の職業）のように使われる。\n\n現代英語では lucrative business（収益性の高い事業）・highly lucrative（非常に利益の大きい）・lucrative opportunity（収益の高いチャンス）のようにビジネス・金融の文脈で幅広く使われる。",
+      derivatives: [
+        { word: "lucratively",   desc: "収益的に・利益になるように（副詞）" },
+        { word: "lucrativeness", desc: "収益性・利益性（名詞）" }
+      ],
+      family: [
+        { word: "lucre",  desc: "金銭・利得（lucrum）" }
+      ],
+      compounds: [
+        { phrase: "lucrative business",    desc: "収益性の高い事業" },
+        { phrase: "highly lucrative",      desc: "非常に収益性が高い" },
+        { phrase: "lucrative opportunity", desc: "収益の高いチャンス" }
+      ]
+    },
+
+    "tentative": {
+      origin: "ラテン語 tentativus（試みる・テストする）< tentare（試みる・手探りする）< tendere（伸ばす・引っ張る）+ 反復接尾辞 -tare + -ive（形容詞接尾辞）。「手探りで試してみる性質の」が原義。\n\n英語には17世紀に採用され、「試験的な・暫定的な・自信なさそうな」の意味で定着。学術・外交・交渉の文脈で「まだ確定していない提案・計画」を指す語として重要で、a tentative agreement（暫定合意）のように使われる。\n\n現代英語では tentative plan（暫定計画）・tentative agreement（仮合意）・tentative answer（自信なさそうな答え）のように交渉・学術・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "tentatively",   desc: "試験的に・暫定的に・自信なさそうに（副詞）" }
+      ],
+      family: [
+        { word: "tempt",   desc: "誘惑する（tentare）" },
+        { word: "attempt", desc: "試みる（at+tentare）" },
+        { word: "temptation", desc: "誘惑（tentare）" }
+      ],
+      compounds: [
+        { phrase: "tentative plan",      desc: "暫定計画" },
+        { phrase: "tentative agreement", desc: "仮合意・暫定合意" },
+        { phrase: "tentative schedule",  desc: "暫定スケジュール" }
+      ]
+    },
+
+    "enormous": {
+      origin: "ラテン語 enormis（規則を超えた・異常な）< e-（外に）+ norma（大工の定規・規則）+ -ous（形容詞接尾辞）。「規則・基準からはみ出した＝通常の限界を超えた巨大さ」が原義。norm（基準）・normal（正常な）と同根の norma を含む。\n\n英語には16世紀に採用され、当初は「邪悪な・法外な」の意味で使われたが、17世紀以降に「非常に大きい・巨大な」という現在の意味が主流となった。\n\n現代英語では enormous impact（巨大な影響）・enormous pressure（大きなプレッシャー）・an enormous amount of（非常に大量の）のように科学・日常・政治の場で幅広く使われる。",
+      derivatives: [
+        { word: "enormously",  desc: "非常に・巨大なほど（副詞）" },
+        { word: "enormity",    desc: "巨大さ・残虐性（名詞）" }
+      ],
+      family: [
+        { word: "norm",    desc: "基準・標準（norma）" },
+        { word: "normal",  desc: "正常な・普通の（normalis）" },
+        { word: "abnormal", desc: "異常な（ab+norma）" }
+      ],
+      compounds: [
+        { phrase: "enormous impact",    desc: "巨大な影響" },
+        { phrase: "enormous pressure",  desc: "大きなプレッシャー" },
+        { phrase: "enormous effort",    desc: "多大な努力" }
+      ]
+    },
+
+    "subtle": {
+      origin: "ラテン語 subtilis（細かく織られた・精巧な）< sub-（下に）+ tela（布・織物）+ -is（形容詞接尾辞）。「非常に細かく織られた」が原義で、繊細な織物の比喩から「微妙な・捉えがたい」の意味が生まれた。\n\n英語には14世紀に採用され、「微妙な・繊細な・捉えがたい・巧みな」の意味で定着。哲学・文学・科学の文脈で「表面上は分かりにくいが重要な違いや特質」を表す形容詞として広く使われる。\n\n現代英語では subtle difference（微妙な違い）・subtle humor（上品なユーモア）・subtle approach（巧みなアプローチ）のように文学・哲学・日常で幅広く使われる。",
+      derivatives: [
+        { word: "subtly",    desc: "微妙に・巧みに（副詞）" },
+        { word: "subtlety",  desc: "微妙さ・巧みさ（名詞）" }
+      ],
+      family: [
+        { word: "textile",  desc: "織物・テキスタイル（texere）" },
+        { word: "context",  desc: "文脈（con+texere）" },
+        { word: "text",     desc: "文章（texere）" }
+      ],
+      compounds: [
+        { phrase: "subtle difference",  desc: "微妙な違い" },
+        { phrase: "subtle humor",       desc: "上品なユーモア・ニュアンスのあるユーモア" },
+        { phrase: "subtle approach",    desc: "巧みなアプローチ" }
+      ]
+    },
+
+    "chronic": {
+      origin: "ギリシャ語 khronikos（時間に関する）< khronos（時間）+ -ikos（形容詞接尾辞）。「長い時間にわたる」が原義。chronology（年代学）・chronicle（年代記）と同根の khronos を含む。\n\n英語には17世紀に医学用語として採用され、「(病気が)長期的な・慢性の」の意味で定着。急性（acute）の反対語として医学の基本概念となり、21世紀には chronic stress（慢性的ストレス）・chronic pain（慢性疼痛）のように日常的にも広く使われる。\n\n現代英語では chronic disease（慢性疾患）・chronic pain（慢性疼痛）・chronic shortage（慢性的な不足）のように医学・社会・日常で幅広く使われる。",
+      derivatives: [
+        { word: "chronically",  desc: "慢性的に・長期にわたって（副詞）" }
+      ],
+      family: [
+        { word: "chronology",   desc: "年代記・時系列（khronos+logos）" },
+        { word: "chronicle",    desc: "年代記・記録する（khronikos）" },
+        { word: "anachronism",  desc: "時代錯誤（ana+khronos）" }
+      ],
+      compounds: [
+        { phrase: "chronic disease",   desc: "慢性疾患" },
+        { phrase: "chronic pain",      desc: "慢性疼痛" },
+        { phrase: "chronic shortage",  desc: "慢性的な不足" }
+      ]
+    },
+
+    "acute": {
+      origin: "ラテン語 acutus（尖った・鋭い）< acuere（鋭くする）< acus（針・尖ったもの）+ -te（形容詞語尾）。「針のように尖った・鋭い」が原義。acid（酸）・acuity（鋭敏さ）と同根の acus を含む。\n\n英語には15世紀に採用され、「鋭い・激しい・重篤な・(音が)高い・(角度が)鋭角の」の多義的な意味で定着。医学では「突然発症した重篤な状態」（chronic の反対）、数学では「鋭角」（90度未満）として使われる重要な多義語。\n\n現代英語では acute pain（激しい痛み）・acute shortage（深刻な不足）・acute angle（鋭角）・acute observation（鋭い観察）のように医学・数学・日常で幅広く使われる。",
+      derivatives: [
+        { word: "acutely",    desc: "鋭く・激しく（副詞）" },
+        { word: "acuity",     desc: "鋭敏さ・視力（名詞）" }
+      ],
+      family: [
+        { word: "acid",     desc: "酸・酸の（acus）" },
+        { word: "acumen",   desc: "鋭敏さ・洞察力（acuere）" },
+        { word: "acupuncture", desc: "鍼（acus+punctura）" }
+      ],
+      compounds: [
+        { phrase: "acute pain",     desc: "激しい痛み（急性の）" },
+        { phrase: "acute shortage", desc: "深刻な不足" },
+        { phrase: "acute angle",    desc: "鋭角（90度未満）" }
+      ]
+    },
+
+    "resilient": {
+      origin: "ラテン語 resilire（跳ね返る・縮む）< re-（再び）+ salire（跳ぶ・飛び上がる）+ -ent（形容詞接尾辞）。「跳ね返る性質を持つ」が原義。salient（突出した）・result（跳ね返ってくるもの→結果）と同根の salire を含む。\n\n英語には17世紀に物理学用語（弾性のある・元の形に戻る）として採用された。20世紀後半に心理学で「逆境から回復する力・精神的回復力」の意味で重要性が増し、現代の組織・コミュニティ・個人の resilience（レジリエンス）として広く使われる。\n\n現代英語では resilient community（回復力のある地域社会）・emotionally resilient（精神的に回復力のある）・build resilience（レジリエンスを築く）のように心理学・組織・防災の場で幅広く使われる。",
+      derivatives: [
+        { word: "resilience",   desc: "回復力・弾力性・レジリエンス（名詞）" },
+        { word: "resiliently",  desc: "回復力をもって（副詞）" }
+      ],
+      family: [
+        { word: "salient",  desc: "突出した・重要な（salire）" },
+        { word: "assail",   desc: "攻撃する（ad+salire）" },
+        { word: "result",   desc: "結果（re+saltare）" }
+      ],
+      compounds: [
+        { phrase: "build resilience",      desc: "回復力を築く" },
+        { phrase: "resilient community",   desc: "回復力のある地域社会" },
+        { phrase: "emotionally resilient", desc: "精神的に回復力のある" }
+      ]
+    },
+
+    "robust": {
+      origin: "ラテン語 robustus（オーク材の・頑強な）< robur（オークの堅木・力・堅固さ）+ -ustus（形容詞接尾辞）。「オークのように堅固な・力強い」が原義。corroborate（裏付ける）と同根の robur を含む。\n\n英語には16世紀に採用され、「頑丈な・強健な・強力な・信頼できる」の意味で定着。現代では統計学で「外れ値に対して安定した推定量」（robust estimator）・コンピュータ科学で「様々な状況で安定して動作するシステム」として重要な専門用語ともなっている。\n\n現代英語では robust system（堅牢なシステム）・robust economy（力強い経済）・robust argument（強力な論拠）のように技術・経済・学術で幅広く使われる。",
+      derivatives: [
+        { word: "robustly",    desc: "頑強に・力強く（副詞）" },
+        { word: "robustness",  desc: "頑強さ・堅牢性（名詞）" }
+      ],
+      family: [
+        { word: "corroborate",  desc: "裏付ける・確認する（cor+robur）" }
+      ],
+      compounds: [
+        { phrase: "robust system",    desc: "堅牢なシステム" },
+        { phrase: "robust economy",   desc: "力強い経済" },
+        { phrase: "robust argument",  desc: "強力な論拠" }
+      ]
+    },
+
+    "viable": {
+      origin: "フランス語 viable（生存可能な）< vie（命・生活）< ラテン語 vita（命）+ -able（可能を示す接尾辞）。「命・生活を維持できる状態」が原義。vital（生命の）・vivid（鮮明な）と同根の vita を含む。\n\n英語には19世紀に採用され、「実行可能な・生存可能な・持続可能な」の意味で定着。経済学では「事業の収益性」（commercially viable）・医学では「胎児の生存可能性」・政策では「実行可能な解決策」として幅広く使われる。\n\n現代英語では viable option（実行可能な選択肢）・commercially viable（商業的に成り立つ）・viable solution（実現可能な解決策）のような政策・ビジネス・医療の文脈で広く使われる。",
+      derivatives: [
+        { word: "viability",     desc: "実行可能性・生存可能性（名詞）" },
+        { word: "non-viable",    desc: "実行不可能な・生存不能な（形容詞）" }
+      ],
+      family: [
+        { word: "vital",    desc: "生命に関わる・必須の（vita）" },
+        { word: "vivid",    desc: "鮮明な・生き生きとした（vivere）" },
+        { word: "revive",   desc: "蘇らせる（re+vivere）" }
+      ],
+      compounds: [
+        { phrase: "viable option",       desc: "実行可能な選択肢" },
+        { phrase: "commercially viable", desc: "商業的に成り立つ" },
+        { phrase: "viable solution",     desc: "実現可能な解決策" }
+      ]
     }
 
   };

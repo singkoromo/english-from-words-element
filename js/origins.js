@@ -8766,6 +8766,508 @@
         { phrase: "unknown quantity",   desc: "未知数（の人）" },
         { phrase: "quality vs quantity", desc: "質対量" }
       ]
+    },
+
+    // Batch 19: fac/fect系・spec残り・tend/tens系・form残り・pos残り・leg/lect残り・ced/cede系
+
+    "effect": {
+      origin: "ラテン語 effectus（達成・結果）< ex-（外へ・完全に）+ facere（作る・する）。字義は「完全に作り上げたもの → 結果・成果」。cause（原因）と effect（結果）は哲学・科学の基本ペア。\n\n14世紀に英語に入り effect（効果・結果・影響）として定着。名詞用法（in effect: 実質上）が圧倒的に多いが、動詞（to effect a change: 変化をもたらす）としても使われる。affect（影響を与える）との混同に注意: affect は動詞、effect は名詞が基本。\n\nfacere 系: affect（影響する）、infect（感染させる）、perfect（完璧な）、defect（欠陥）、efficient（効率的な）。",
+      derivatives: [
+        { word: "effective",      desc: "効果的な・有効な（形容詞）" },
+        { word: "effectively",    desc: "効果的に・実質的に（副詞）" },
+        { word: "effectiveness",  desc: "効果・有効性（名詞）" },
+        { word: "effectual",      desc: "効果のある・有効な（形容詞）" }
+      ],
+      family: [
+        { word: "affect",     desc: "影響する（ad- + facere）" },
+        { word: "infect",     desc: "感染させる（in- + facere）" },
+        { word: "perfect",    desc: "完璧な（per- + facere）" },
+        { word: "defect",     desc: "欠陥（de- + facere）" },
+        { word: "efficient",  desc: "効率的な（ex- + facere）" }
+      ],
+      compounds: [
+        { phrase: "side effect",    desc: "副作用・副次的効果" },
+        { phrase: "in effect",      desc: "実質上・事実上" },
+        { phrase: "take effect",    desc: "効力を生じる・発効する" }
+      ]
+    },
+
+    "affect": {
+      origin: "ラテン語 afficere（影響を及ぼす）< ad-（～に対して）+ facere（作る・する）。字義は「ある対象に対して作用する」で、「影響を与える」という動詞と「感情・情動」という名詞（心理学）の両方に使われる。\n\n14世紀に英語に入り affect（影響を与える）として定着。effect（影響・結果）との混同が頻出: affect は動詞「影響する」、effect は名詞「結果」が基本区別。affection（愛情・親しみ）、affectionate（愛情深い）は情動的な意味で派生。\n\nfacere 系: effect（結果）、infect（感染させる）、perfect（完璧な）、defect（欠陥）、efficient（効率的な）。",
+      derivatives: [
+        { word: "affection",      desc: "愛情・親しみ（名詞）" },
+        { word: "affectionate",   desc: "愛情深い・優しい（形容詞）" },
+        { word: "affective",      desc: "感情的な・情動の（形容詞）" },
+        { word: "unaffected",     desc: "影響を受けない・素直な（形容詞）" }
+      ],
+      family: [
+        { word: "effect",     desc: "結果・効果（ex- + facere）" },
+        { word: "infect",     desc: "感染させる（in- + facere）" },
+        { word: "perfect",    desc: "完璧な（per- + facere）" },
+        { word: "defect",     desc: "欠陥（de- + facere）" }
+      ],
+      compounds: [
+        { phrase: "affect deeply",       desc: "深く影響する" },
+        { phrase: "affective disorder",  desc: "感情障害（医学）" }
+      ]
+    },
+
+    "infect": {
+      origin: "ラテン語 inficere（染める・汚染する）< in-（中へ）+ facere（作る）。字義は「（悪いものを）中に作り込む → 染める・汚染する」。医学的には病原体が体内に侵入し病気を引き起こすこと。\n\n15世紀に英語に入り infect（感染させる・汚染する）として定着。コンピューターウイルスの感染（infect a computer）、精神的な影響（His enthusiasm infected everyone）にも使われる広義語。\n\nfacere 系: effect（結果）、affect（影響する）、perfect（完璧な）、defect（欠陥）。in-（中へ）系: involve（巻き込む）、inhabit（住む）、inject（注入する）。",
+      derivatives: [
+        { word: "infection",    desc: "感染・感染症（名詞）" },
+        { word: "infectious",   desc: "感染性の・伝染する（形容詞）" },
+        { word: "infected",     desc: "感染した（形容詞）" },
+        { word: "disinfect",    desc: "消毒する（dis- + infect）" }
+      ],
+      family: [
+        { word: "effect",      desc: "結果（ex- + facere）" },
+        { word: "affect",      desc: "影響する（ad- + facere）" },
+        { word: "contagious",  desc: "接触感染の（contagium）" }
+      ],
+      compounds: [
+        { phrase: "infectious disease",   desc: "感染症" },
+        { phrase: "highly infectious",    desc: "感染力が非常に強い" },
+        { phrase: "infect with a virus",  desc: "ウイルスに感染させる" }
+      ]
+    },
+
+    "perfect": {
+      origin: "ラテン語 perfectus（完成した）< per-（完全に・徹底的に）+ facere（作る・する）。字義は「完全に作り上げた・完成した」で、欠けるところのない状態を指す。\n\n14世紀に英語に入り perfect（完璧な・完全な）として定着。動詞（to perfect a skill: 技術を磨く）と形容詞（perfect score: 満点）の両用がある。文法では perfect tense（完了形）として動詞の完了を表す時制名称にも使われる。\n\nper-（完全に）系: percent（パーセント）、persuade（説得する）、permanent（永続的な）。facere 系: effect, affect, infect, defect, efficient。",
+      derivatives: [
+        { word: "perfection",     desc: "完璧・完全（名詞）" },
+        { word: "perfectly",      desc: "完璧に・まったく（副詞）" },
+        { word: "perfectionist",  desc: "完璧主義者（名詞）" },
+        { word: "imperfect",      desc: "不完全な（形容詞）" }
+      ],
+      family: [
+        { word: "effect",     desc: "結果（ex- + facere）" },
+        { word: "affect",     desc: "影響する（ad- + facere）" },
+        { word: "infect",     desc: "感染させる（in- + facere）" },
+        { word: "defect",     desc: "欠陥（de- + facere）" }
+      ],
+      compounds: [
+        { phrase: "perfect score",         desc: "満点・完璧な得点" },
+        { phrase: "in perfect condition",  desc: "完璧な状態で" },
+        { phrase: "perfect tense",         desc: "完了形（文法）" }
+      ]
+    },
+
+    "defect": {
+      origin: "ラテン語 defectus（欠乏・失敗）< de-（離れて・下に）+ facere（作る）。字義は「完成から外れた状態 → 欠陥・不足」。名詞として「欠陥・欠点」、動詞として「脱走する・離反する」の両義を持つ。\n\n15世紀に英語に入り defect（欠陥・欠点）として定着。製品の欠陥（manufacturing defect）、身体的欠陥（birth defect）のほか、動詞 defect（離反する：冷戦時代の亡命者に使われた）も重要。\n\nfacere 系: effect（結果）、affect（影響する）、infect（感染させる）、perfect（完璧な）。de-（否定・離脱）系: decline（下降する）、decrease（減少する）、deviate（逸脱する）。",
+      derivatives: [
+        { word: "defective",   desc: "欠陥のある・不完全な（形容詞）" },
+        { word: "defection",   desc: "離反・亡命（名詞）" },
+        { word: "defector",    desc: "離反者・亡命者（名詞）" }
+      ],
+      family: [
+        { word: "effect",    desc: "結果（ex- + facere）" },
+        { word: "affect",    desc: "影響する（ad- + facere）" },
+        { word: "infect",    desc: "感染させる（in- + facere）" },
+        { word: "perfect",   desc: "完璧な（per- + facere）" }
+      ],
+      compounds: [
+        { phrase: "birth defect",          desc: "先天性欠損・先天異常" },
+        { phrase: "manufacturing defect",  desc: "製造上の欠陥" },
+        { phrase: "defective product",     desc: "欠陥製品" }
+      ]
+    },
+
+    "efficient": {
+      origin: "ラテン語 efficientem（効果を生み出す）< ex-（外へ）+ facere（作る・する）。字義は「作用を生み出す → 効率的な」。アリストテレスの哲学では efficient cause（作用因：変化を引き起こすもの）として用いられた重要な哲学概念。\n\n15世紀に英語に英語に入り efficient（効率的な・有能な）として定着。fuel-efficient（燃費がよい）、efficient worker（有能な作業者）など形容詞として使われる。efficiency（効率）は経済学・工学の核心語。\n\nfacere 系: effect（結果）、affect（影響する）、infect（感染させる）、perfect（完璧な）、defect（欠陥）。ef-（ex- の変形）系: effort（努力）、effective（効果的な）。",
+      derivatives: [
+        { word: "efficiency",    desc: "効率・能率（名詞）" },
+        { word: "efficiently",   desc: "効率よく（副詞）" },
+        { word: "inefficient",   desc: "非効率な（形容詞）" },
+        { word: "inefficiency",  desc: "非効率・非能率（名詞）" }
+      ],
+      family: [
+        { word: "effective",  desc: "効果的な（ex- + facere）" },
+        { word: "sufficient", desc: "十分な（sub- + facere）" },
+        { word: "productive", desc: "生産的な（producere）" }
+      ],
+      compounds: [
+        { phrase: "fuel efficient",    desc: "燃費がよい" },
+        { phrase: "energy efficient",  desc: "省エネの" },
+        { phrase: "efficient use",     desc: "効率的な使い方" }
+      ]
+    },
+
+    "sufficient": {
+      origin: "ラテン語 sufficere（足りる・間に合う）< sub-（下から）+ facere（作る・する）。字義は「下から満たす → 十分に供給する」で、必要量を満たしている状態を表す。\n\n14世紀に英語に入り sufficient（十分な・足りる）として定着。sufficient evidence（十分な証拠）、sufficient funds（十分な資金）のように形式的な文章で「enough」の改まった言い方として使われる。自給自足の self-sufficiency（自給自足）も重要。\n\nfacere 系: effect, efficient, perfect, defect。sub-（下から）系: support（支える）、suppress（抑える）、submit（提出する）。対義語: insufficient（不十分な）、deficient（不足した）。",
+      derivatives: [
+        { word: "sufficiency",    desc: "十分さ・自給（名詞）" },
+        { word: "sufficiently",   desc: "十分に（副詞）" },
+        { word: "insufficient",   desc: "不十分な（形容詞）" },
+        { word: "insufficiency",  desc: "不十分さ・不足（名詞）" }
+      ],
+      family: [
+        { word: "efficient",   desc: "効率的な（ex- + facere）" },
+        { word: "adequate",    desc: "適切な・十分な（ad- + aequus）" },
+        { word: "deficient",   desc: "不足した（de- + facere）" }
+      ],
+      compounds: [
+        { phrase: "sufficient evidence",  desc: "十分な証拠" },
+        { phrase: "self-sufficient",      desc: "自給自足の" },
+        { phrase: "sufficient condition", desc: "十分条件（論理学）" }
+      ]
+    },
+
+    "fiction": {
+      origin: "ラテン語 fictio（形成・作り話）< fingere（形作る・作り上げる）。fingere は粘土などを「形作る」という動作から「心の中で形作る → 想像する・でっちあげる」へと意味が広がった。\n\n15世紀に英語に入り fiction（小説・フィクション・虚構）として定着。literary fiction（文学的小説）、science fiction（SF）など。legal fiction（法的擬制）は法律用語として「事実ではないが事実として扱う事柄」を指す。\n\nfingere 系: figure（形・数字：形作られたもの）、feign（ふりをする）、feint（フェイント：見せかけの動き）、figment（作り話）。fact（事実）と fiction（虚構）はよく対比される。",
+      derivatives: [
+        { word: "fictional",     desc: "架空の・フィクションの（形容詞）" },
+        { word: "fictitious",    desc: "架空の・偽りの（形容詞）" },
+        { word: "fictionalize",  desc: "小説化する（動詞）" }
+      ],
+      family: [
+        { word: "figure",      desc: "形・数字（fingere：形作る）" },
+        { word: "feign",       desc: "ふりをする（fingere）" },
+        { word: "nonfiction",  desc: "ノンフィクション（non- + fiction）" },
+        { word: "fact",        desc: "事実（factum：なされたこと）" }
+      ],
+      compounds: [
+        { phrase: "science fiction",   desc: "SF・科学小説" },
+        { phrase: "historical fiction", desc: "歴史小説" },
+        { phrase: "legal fiction",     desc: "法的擬制（法律）" }
+      ]
+    },
+
+    "aspect": {
+      origin: "ラテン語 aspectus（見た目・外観）< ad-（～に向かって）+ specere（見る）。字義は「何かを見る行為・見える様子」で、「側面・観点・様相」という意味になった。\n\n15世紀に英語に入り aspect（側面・観点・様相）として定着。every aspect of life（生活のあらゆる側面）、the financial aspect（財政面）など論文・報告書で頻出。天文学では惑星の配置角度（アスペクト）、文法では動詞のアスペクト（相：継続・完了など）にも使われる。\n\nspecere 系: inspect（点検する）、prospect（見通し）、expect（期待する）、respect（尊重する）、suspect（疑う）、perspective（遠近感）、spectacle（見世物）。",
+      derivatives: [
+        { word: "aspectual",  desc: "アスペクトの・相の（形容詞、文法）" }
+      ],
+      family: [
+        { word: "inspect",      desc: "点検する（in- + specere）" },
+        { word: "prospect",     desc: "見通し（pro- + specere）" },
+        { word: "expect",       desc: "期待する（ex- + specere）" },
+        { word: "perspective",  desc: "遠近感・観点（per- + specere）" }
+      ],
+      compounds: [
+        { phrase: "every aspect",    desc: "あらゆる側面" },
+        { phrase: "positive aspect", desc: "良い側面・プラスの面" },
+        { phrase: "aspect ratio",    desc: "アスペクト比（画面比率）" }
+      ]
+    },
+
+    "prospect": {
+      origin: "ラテン語 prospectus（見通し・前景）< pro-（前に）+ specere（見る）。字義は「前を見る → 将来の見通し・可能性」。地質学では鉱床を探す「採掘調査」という意味でも使われる。\n\n15世紀に英語に入り prospect（見通し・可能性・展望）として定着。job prospects（就職の見込み）、bright prospects（明るい展望）のように将来の可能性を表す名詞として頻出。prospector（探鉱者）、prospectus（目論見書）が派生。\n\nspecere 系: aspect（側面）、inspect（点検する）、expect（期待する）、respect（尊重する）、suspect（疑う）、perspective（遠近感）。pro-（前に）系: progress（進歩）、promote（促進する）、provide（提供する）。",
+      derivatives: [
+        { word: "prospective",  desc: "見込みの・将来の（形容詞）" },
+        { word: "prospector",   desc: "探鉱者・採掘者（名詞）" },
+        { word: "prospectus",   desc: "目論見書・案内書（名詞）" }
+      ],
+      family: [
+        { word: "aspect",       desc: "側面（ad- + specere）" },
+        { word: "inspect",      desc: "点検する（in- + specere）" },
+        { word: "expect",       desc: "期待する（ex- + specere）" },
+        { word: "perspective",  desc: "観点（per- + specere）" }
+      ],
+      compounds: [
+        { phrase: "job prospects",     desc: "就職の見込み" },
+        { phrase: "bright prospects",  desc: "明るい見通し" },
+        { phrase: "no prospect of",    desc: "～の見込みがない" }
+      ]
+    },
+
+    "pretend": {
+      origin: "ラテン語 praetendere（前に張る・口実を設ける）< prae-（前に）+ tendere（伸ばす・張る）。字義は「幕を前に張る → 見せかける・ふりをする」。もともとは口実・言い訳を意味したが、「でないふりをする」という現代の意味になった。\n\n14世紀に英語に入り pretend（ふりをする・見せかける）として定着。子どもの pretend play（ごっこ遊び）から政治の pretend to know（知っているふりをする）まで幅広く使われる。pretense（見せかけ）、pretentious（気取った・見栄っ張りな）が派生。\n\ntendere 系: extend（伸ばす）、intend（意図する）、attend（出席する）、content（満足した）、tension（緊張）。",
+      derivatives: [
+        { word: "pretense",      desc: "見せかけ・口実（名詞）" },
+        { word: "pretentious",   desc: "気取った・見栄を張る（形容詞）" },
+        { word: "pretension",    desc: "自負・気取り（名詞）" }
+      ],
+      family: [
+        { word: "extend",   desc: "伸ばす・拡大する（ex- + tendere）" },
+        { word: "intend",   desc: "意図する（in- + tendere）" },
+        { word: "attend",   desc: "出席する（ad- + tendere）" },
+        { word: "tension",  desc: "緊張・張力（tendere）" }
+      ],
+      compounds: [
+        { phrase: "pretend to be",        desc: "～のふりをする" },
+        { phrase: "under false pretenses", desc: "偽りの口実で" },
+        { phrase: "pretend play",          desc: "ごっこ遊び" }
+      ]
+    },
+
+    "tension": {
+      origin: "ラテン語 tensio（引き伸ばすこと）< tendere（伸ばす・張る）。字義は「引っ張り合い・緊張状態」で、物理的な力（string tension: 弦の張力）から心理的な緊張（emotional tension）まで使われる。\n\n17世紀に英語に入り tension（緊張・張力）として定着。物理では surface tension（表面張力）、電気では high tension（高電圧）という用法がある。国際政治では diplomatic tension（外交的緊張）、物語では narrative tension（物語の緊張感）として使われる。\n\ntendere 系: extend（伸ばす）、intend（意図する）、pretend（ふりをする）、attend（出席する）、tend（傾向がある）。tense（形容詞：緊張した；動詞の時制）は同根。",
+      derivatives: [
+        { word: "tense",     desc: "緊張した；動詞の時制（形容詞・名詞）" },
+        { word: "tensile",   desc: "引張りの・伸びやすい（形容詞）" },
+        { word: "tense up",  desc: "緊張する（句動詞）" }
+      ],
+      family: [
+        { word: "extend",   desc: "伸ばす（ex- + tendere）" },
+        { word: "intend",   desc: "意図する（in- + tendere）" },
+        { word: "pretend",  desc: "ふりをする（prae- + tendere）" },
+        { word: "stress",   desc: "緊張・ストレス" }
+      ],
+      compounds: [
+        { phrase: "high tension",      desc: "高電圧；強い緊張" },
+        { phrase: "racial tension",    desc: "人種間の緊張" },
+        { phrase: "surface tension",   desc: "表面張力（物理）" }
+      ]
+    },
+
+    "conform": {
+      origin: "ラテン語 conformare（同じ形にする）< con-（共に）+ forma（形）。字義は「形を合わせる → 規則・慣習・期待に沿う」。社会的同調・規則への準拠を意味する動詞として使われる。\n\n16世紀に英語に入り conform（従う・適合する）として定着。conform to the rules（規則に従う）、social conformity（社会的同調）のように使われる。非同調主義 nonconformity（慣習に従わないこと）も重要な対概念。\n\nforma 系: uniform（制服・均一な）、reform（改革する）、transform（変形する）、inform（知らせる）、formula（公式）。con-（共に）系: conduct（行動する）、contract（契約）、consent（同意）。",
+      derivatives: [
+        { word: "conformity",      desc: "同調・服従・適合（名詞）" },
+        { word: "conformation",    desc: "構造・配座（名詞、化学）" },
+        { word: "conformist",      desc: "体制に従う人（名詞）" },
+        { word: "nonconformist",   desc: "体制に従わない人・非国教徒（名詞）" }
+      ],
+      family: [
+        { word: "uniform",    desc: "制服・均一な（uni- + forma）" },
+        { word: "reform",     desc: "改革する（re- + forma）" },
+        { word: "transform",  desc: "変形する（trans- + forma）" },
+        { word: "inform",     desc: "知らせる（in- + forma）" }
+      ],
+      compounds: [
+        { phrase: "conform to regulations",  desc: "規則に準拠する" },
+        { phrase: "social conformity",       desc: "社会的同調" },
+        { phrase: "nonconformist attitude",  desc: "反体制的な態度" }
+      ]
+    },
+
+    "formula": {
+      origin: "ラテン語 formula（小さな形・規則・書式）< forma（形）の指小形。もともとは法律文書の定型表現・書式を指した。そこから「一定の方法・公式」という意味になった。\n\n17世紀に英語に入り formula（公式・方程式・製法）として定着。数学・化学の formula（分子式・方程式）、医薬品の formula（処方）、自動車レースの Formula 1（F1）まで幅広く使われる。formulaic（紋切り型の：公式通りの）は否定的ニュアンスを帯びる。\n\nforma 系: uniform（制服）、reform（改革）、transform（変形）、inform（知らせる）、conform（従う）。formulate（公式化する）、formulation（処方・定式化）が派生。",
+      derivatives: [
+        { word: "formulaic",   desc: "公式的な・紋切り型の（形容詞）" },
+        { word: "formulate",   desc: "公式化する・策定する（動詞）" },
+        { word: "formulation", desc: "策定・処方・定式化（名詞）" },
+        { word: "reformulate", desc: "再定式化する（動詞）" }
+      ],
+      family: [
+        { word: "uniform",    desc: "制服・均一な（uni- + forma）" },
+        { word: "reform",     desc: "改革する（re- + forma）" },
+        { word: "conform",    desc: "従う（con- + forma）" },
+        { word: "equation",   desc: "方程式（aequus：等しい）" }
+      ],
+      compounds: [
+        { phrase: "chemical formula",  desc: "化学式・分子式" },
+        { phrase: "winning formula",   desc: "成功の方程式" },
+        { phrase: "formula one",       desc: "F1（フォーミュラワン）" }
+      ]
+    },
+
+    "postpone": {
+      origin: "ラテン語 postponere（後に置く・後回しにする）< post-（後に）+ ponere（置く）。字義は「後に置く → 延期する」。\n\n16世紀に英語に入り postpone（延期する・先延ばしにする）として定着。postpone a meeting（会議を延期する）、postpone until tomorrow（明日に先延ばしする）のように日常的に使われる。procrastinate（ぐずぐず先延ばしにする）と似るが、postpone はより中立的・公式的な意味合いがある。\n\nponere 系: compose（作曲する）、propose（提案する）、oppose（反対する）、impose（課す）、expose（さらす）、component（構成要素）。post-（後に）系: postscript（追伸）、postwar（戦後の）、posterior（後ろの）。",
+      derivatives: [
+        { word: "postponement",  desc: "延期・先延ばし（名詞）" }
+      ],
+      family: [
+        { word: "delay",          desc: "遅らせる（de- + laxare）" },
+        { word: "defer",          desc: "延期する（de- + ferre）" },
+        { word: "procrastinate",  desc: "ぐずぐず先延ばしする（pro- + crastinus）" }
+      ],
+      compounds: [
+        { phrase: "postpone indefinitely",  desc: "無期限延期する" },
+        { phrase: "postpone a decision",    desc: "決定を先延ばしする" }
+      ]
+    },
+
+    "intellect": {
+      origin: "ラテン語 intellectus（理解・知性）< inter-（間で）+ legere（選ぶ・読む）。字義は「（二つの間を）選び取る → 理解する → 知性・知力」。理性と感情を対比させる文脈で「知的能力」を指す。\n\n14世紀に英語に入り intellect（知性・理解力）として定着。intellectual（知識人・知的な）、intelligence（知能）が派生。AI の文脈では artificial intelligence（人工知能）の intelligence と同根。「intellect（知性）vs. emotion（感情）」は哲学の古典的対比。\n\nlegere 系: intelligent（知的な）、lecture（講義）、elect（選ぶ）、select（選択する）、neglect（怠る）、collect（集める）、eligible（資格がある）。",
+      derivatives: [
+        { word: "intellectual",     desc: "知識人・知的な（名詞・形容詞）" },
+        { word: "intellectually",   desc: "知的に（副詞）" },
+        { word: "intellectualize",  desc: "知的に分析する（動詞）" },
+        { word: "intelligence",     desc: "知能・情報（名詞）" }
+      ],
+      family: [
+        { word: "lecture",    desc: "講義（legere：読む）" },
+        { word: "elect",      desc: "選ぶ（e- + legere）" },
+        { word: "select",     desc: "選択する（se- + legere）" },
+        { word: "eligible",   desc: "資格がある（e- + legere）" }
+      ],
+      compounds: [
+        { phrase: "public intellect",      desc: "公共知識人" },
+        { phrase: "artificial intellect",  desc: "人工知性" },
+        { phrase: "sharp intellect",       desc: "鋭い知性" }
+      ]
+    },
+
+    "lecture": {
+      origin: "ラテン語 lectura（読む行為・読まれるもの）< legere（読む・選ぶ）。中世では聖書・学術文書を声に出して「読み上げる」ことが授業の形式であり、そこから「講義・講演」という意味になった。\n\n16世紀に英語に入り lecture（講義・説教）として定着。大学での lecture（講義）が最も一般的な使い方で、lecturer（講師）、lecture hall（講義室）が派生。口語では「説教する・くどくど言う」という動詞用法もある（Stop lecturing me!）。\n\nlegere 系: intellect（知性）、elect（選ぶ）、select（選択する）、neglect（怠る）、collect（集める）、eligible（資格がある）。lect- から dialect（方言：地域ごとの言葉の選択）も派生。",
+      derivatives: [
+        { word: "lecturer",     desc: "講師・講演者（名詞）" },
+        { word: "lectureship",  desc: "講師職（名詞）" }
+      ],
+      family: [
+        { word: "intellect",  desc: "知性（inter- + legere）" },
+        { word: "elect",      desc: "選ぶ（e- + legere）" },
+        { word: "select",     desc: "選択する（se- + legere）" },
+        { word: "dialect",    desc: "方言（dia- + lect）" }
+      ],
+      compounds: [
+        { phrase: "give a lecture",   desc: "講義をする・講演をする" },
+        { phrase: "lecture hall",     desc: "講義室・大講堂" },
+        { phrase: "attend a lecture", desc: "講義に出席する" }
+      ]
+    },
+
+    "eligible": {
+      origin: "ラテン語 eligibilis（選ぶに値する）< eligere（選び出す）< e-（外へ）+ legere（選ぶ）。字義は「選ばれるに値する → 資格がある」。\n\n15世紀に英語に入り eligible（資格がある・適格な）として定着。eligible for a scholarship（奨学金の資格がある）、eligible to vote（投票資格がある）のように正式な資格要件を示す語として使われる。eligible bachelor（有望な未婚男性）という口語表現もある。\n\nlegere 系: elect（選ぶ）、select（選択する）、intellect（知性）、lecture（講義）、elegant（優雅な）。e-（外へ）系: eject（追い出す）、eradicate（根絶する）。",
+      derivatives: [
+        { word: "eligibility",  desc: "資格・適格性（名詞）" },
+        { word: "ineligible",   desc: "資格がない・不適格な（形容詞）" },
+        { word: "ineligibility", desc: "不適格・資格なし（名詞）" }
+      ],
+      family: [
+        { word: "elect",    desc: "選ぶ（e- + legere）" },
+        { word: "select",   desc: "選択する（se- + legere）" },
+        { word: "qualify",  desc: "資格を得る（qualis）" },
+        { word: "elegant",  desc: "優雅な（eligere）" }
+      ],
+      compounds: [
+        { phrase: "eligible for",        desc: "～の資格がある" },
+        { phrase: "eligible voter",      desc: "選挙権のある有権者" },
+        { phrase: "eligible candidate",  desc: "適格な候補者" }
+      ]
+    },
+
+    "elegant": {
+      origin: "ラテン語 elegans（選り抜きの・上品な）< eligere（選び出す）< e-（外へ）+ legere（選ぶ）。字義は「厳選された・洗練された」で、趣味よく選ばれたものが「優雅・上品」という意味を持つ。\n\n16世紀に英語に入り elegant（優雅な・上品な・洗練された）として定着。数学・工学では elegant solution（簡潔で美しい解決策）として、複雑な問題をシンプルに解くことを指す。ファッション・デザインでも中心的な形容詞。\n\nlegere 系: eligible（資格がある）、elect（選ぶ）、select（選択する）。elegy（哀歌）は別語源（ギリシャ語 elegeia）なので注意。",
+      derivatives: [
+        { word: "elegance",   desc: "優雅さ・品のよさ（名詞）" },
+        { word: "elegantly",  desc: "優雅に・上品に（副詞）" },
+        { word: "inelegant",  desc: "不格好な・品のない（形容詞）" }
+      ],
+      family: [
+        { word: "eligible",     desc: "資格がある（e- + legere）" },
+        { word: "select",       desc: "選択する（se- + legere）" },
+        { word: "refined",      desc: "洗練された（re- + finire）" },
+        { word: "sophisticated", desc: "洗練された（sophistēs）" }
+      ],
+      compounds: [
+        { phrase: "elegant solution",  desc: "エレガントな解法（数学・工学）" },
+        { phrase: "elegant design",    desc: "洗練されたデザイン" },
+        { phrase: "with elegance",     desc: "優雅に" }
+      ]
+    },
+
+    "precede": {
+      origin: "ラテン語 praecedere（前に行く）< prae-（前に）+ cedere（行く・譲る）。字義は「先に行く・先行する」で、時間的・空間的に前にあることを指す。\n\n15世紀に英語に入り precede（先行する・～の前にある）として定着。precedent（先例）、unprecedented（前例のない）が派生し、法律・政治で重要語。No precedent exists for this decision（この決定には前例がない）のように使われる。\n\ncedere 系: proceed（進む）、concede（認める）、recede（退く）、exceed（超える）、succeed（成功する）。prae-（前に）系: predict（予言する）、prevent（防ぐ）、previous（以前の）。",
+      derivatives: [
+        { word: "precedent",      desc: "先例・前例（名詞）" },
+        { word: "unprecedented",  desc: "前例のない（形容詞）" },
+        { word: "precedence",     desc: "優先（権）（名詞）" }
+      ],
+      family: [
+        { word: "proceed",   desc: "進む（pro- + cedere）" },
+        { word: "concede",   desc: "認める（con- + cedere）" },
+        { word: "recede",    desc: "退く（re- + cedere）" },
+        { word: "exceed",    desc: "超える（ex- + cedere）" },
+        { word: "succeed",   desc: "成功する（sub- + cedere）" }
+      ],
+      compounds: [
+        { phrase: "take precedence",      desc: "優先される" },
+        { phrase: "set a precedent",      desc: "先例を設ける" },
+        { phrase: "unprecedented move",   desc: "前例のない行動" }
+      ]
+    },
+
+    "concede": {
+      origin: "ラテン語 concedere（承認する・譲歩する）< con-（完全に）+ cedere（行く・譲る）。字義は「完全に譲る → 認める・譲歩する」。議論や交渉で相手の主張を認めること。\n\n15世紀に英語に入り concede（認める・譲歩する）として定着。concede a point（論点を認める）、concede defeat（敗北を認める）のように使われる。スポーツでは concede a goal（失点する）。concession（譲歩・売店：空港の concession stand）が派生。\n\ncedere 系: proceed（進む）、precede（先行する）、recede（退く）、exceed（超える）、succeed（成功する）。con-（共に・強調）系: convince（確信させる）、conclude（結論を出す）。",
+      derivatives: [
+        { word: "concession",      desc: "譲歩・売店・利権（名詞）" },
+        { word: "concessionary",   desc: "譲歩の・割引の（形容詞）" }
+      ],
+      family: [
+        { word: "precede",   desc: "先行する（prae- + cedere）" },
+        { word: "proceed",   desc: "進む（pro- + cedere）" },
+        { word: "recede",    desc: "退く（re- + cedere）" },
+        { word: "exceed",    desc: "超える（ex- + cedere）" },
+        { word: "admit",     desc: "認める（ad- + mittere）" }
+      ],
+      compounds: [
+        { phrase: "concede defeat",   desc: "敗北を認める" },
+        { phrase: "make concessions", desc: "譲歩する" },
+        { phrase: "concede a goal",   desc: "失点する（スポーツ）" }
+      ]
+    },
+
+    "recede": {
+      origin: "ラテン語 recedere（後退する）< re-（後ろに）+ cedere（行く）。字義は「後ろに行く → 引いていく・遠ざかる」。潮や洪水が引く（tides recede）、ヘアラインが後退する（hairline recedes）など物理的な後退に使われる。\n\n15世紀に英語に入り recede（後退する・引く・遠ざかる）として定着。recession（景気後退）は recede から派生し、経済学で重要語（economic recession）。\n\ncedere 系: proceed（進む）、precede（先行する）、concede（認める）、exceed（超える）、succeed（成功する）。re-（後ろ）系: return（返る）、reverse（逆にする）、retreat（撤退する）、recession（後退）。",
+      derivatives: [
+        { word: "recession",     desc: "景気後退・後退（名詞）" },
+        { word: "recessionary",  desc: "不景気の（形容詞）" },
+        { word: "recessive",     desc: "劣性の・後退しやすい（形容詞）" }
+      ],
+      family: [
+        { word: "precede",   desc: "先行する（prae- + cedere）" },
+        { word: "concede",   desc: "認める（con- + cedere）" },
+        { word: "exceed",    desc: "超える（ex- + cedere）" },
+        { word: "retreat",   desc: "撤退する（re- + trahere）" }
+      ],
+      compounds: [
+        { phrase: "receding hairline",  desc: "後退するヘアライン（額が広がる）" },
+        { phrase: "economic recession", desc: "景気後退" },
+        { phrase: "flood waters recede", desc: "洪水が引く" }
+      ]
+    },
+
+    "exceed": {
+      origin: "ラテン語 excedere（超え出る）< ex-（外へ・超えて）+ cedere（行く）。字義は「外へ行く → 限界を超える・上回る」。\n\n14世紀に英語に入り exceed（超える・上回る）として定着。exceed expectations（期待を上回る）、exceed the speed limit（制限速度を超える）のように使われる。excess（超過・余剰）、excessive（過度の）、exceedingly（非常に）が派生。\n\ncedere 系: proceed（進む）、precede（先行する）、concede（認める）、recede（退く）、succeed（成功する）。ex-（超えて）系: excel（優れる）、export（輸出する）、exclude（除外する）。",
+      derivatives: [
+        { word: "excess",       desc: "超過・過剰・余剰（名詞・形容詞）" },
+        { word: "excessive",    desc: "過度の・過剰な（形容詞）" },
+        { word: "excessively",  desc: "過度に（副詞）" },
+        { word: "exceedingly",  desc: "非常に・極めて（副詞）" }
+      ],
+      family: [
+        { word: "precede",    desc: "先行する（prae- + cedere）" },
+        { word: "concede",    desc: "認める（con- + cedere）" },
+        { word: "recede",     desc: "退く（re- + cedere）" },
+        { word: "surpass",    desc: "上回る・しのぐ" },
+        { word: "transcend",  desc: "超越する（trans- + scandere）" }
+      ],
+      compounds: [
+        { phrase: "exceed expectations",  desc: "期待を上回る" },
+        { phrase: "exceed the limit",     desc: "限度を超える" },
+        { phrase: "in excess of",         desc: "～を超えて" }
+      ]
+    },
+
+    "digress": {
+      origin: "ラテン語 digredi（脇道にそれる）< di-（離れて）+ gradi（歩く・進む）。字義は「本筋から外れて進む」で、話・文章が主題から逸れることを指す。\n\n16世紀に英語に入り digress（脇道にそれる・余談に入る）として定着。文章・スピーチで「If I may digress for a moment...（少し話が逸れますが）」のような断り書きで使われる。口語ではやや格式ばった言い方で、wander off topic などに置き換えられることも多い。\n\ngradi 系: progress（進歩）、aggress（攻撃する）、congress（議会）、degree（程度・学位）、ingredient（成分：中に入るもの）。di-（離れて）系: different（異なる）、divide（分ける）。",
+      derivatives: [
+        { word: "digression",   desc: "脱線・余談（名詞）" },
+        { word: "digressive",   desc: "脱線しがちな（形容詞）" }
+      ],
+      family: [
+        { word: "progress",   desc: "進歩（pro- + gradi）" },
+        { word: "congress",   desc: "議会（con- + gradi）" },
+        { word: "degree",     desc: "学位・程度（de- + gradus）" },
+        { word: "deviate",    desc: "逸脱する（de- + via）" }
+      ],
+      compounds: [
+        { phrase: "digress from the topic",  desc: "話題から脱線する" },
+        { phrase: "lengthy digression",      desc: "長い脱線・余談" }
+      ]
+    },
+
+    "congress": {
+      origin: "ラテン語 congressus（集合・会合）< con-（共に）+ gradi（歩く・進む）。字義は「共に歩み寄る → 会合する」で、代表者が集まる立法機関を指すようになった。\n\n15世紀に英語に入り congress（会議・議会）として定着。米国では Congress（連邦議会）として特定の立法機関（上院 Senate + 下院 House of Representatives）を指す固有名詞的に使われる。international congress（国際会議）のように学術・国際的な大規模会議にも使われる。\n\ngradi 系: progress（進歩）、digress（脇道にそれる）、degree（学位・程度）、ingredient（成分）。con-（共に）系: collect（集める）、collaborate（協力する）、cooperate（協力する）。",
+      derivatives: [
+        { word: "congressional",  desc: "議会の（形容詞）" },
+        { word: "congressman",    desc: "下院議員（男性、名詞）" },
+        { word: "congresswoman",  desc: "下院議員（女性、名詞）" }
+      ],
+      family: [
+        { word: "progress",    desc: "進歩（pro- + gradi）" },
+        { word: "digress",     desc: "脱線する（di- + gradi）" },
+        { word: "parliament",  desc: "議会（parler：話す）" },
+        { word: "assembly",    desc: "議会・集会（assemblare）" }
+      ],
+      compounds: [
+        { phrase: "US Congress",          desc: "米国連邦議会" },
+        { phrase: "congressional hearing", desc: "議会公聴会" },
+        { phrase: "international congress", desc: "国際会議" }
+      ]
     }
 
   };

@@ -8321,6 +8321,451 @@
         { phrase: "mass production",  desc: "大量生産" },
         { phrase: "gross domestic product", desc: "国内総生産（GDP）" }
       ]
+    },
+
+    // Batch 18: via系・arch系・syn残り・numer系・vari残り・port残り・dorm系・radic系・qual/quant系
+
+    "obvious": {
+      origin: "ラテン語 obvius（道の前にある）< ob-（前に・対して）+ via（道・路）。字義は「道を塞いでいる・道の前に立っている」で、目の前に立ちはだかるほど明白である、というニュアンスで「明らかな」という意味に発展した。\n\n16世紀に英語に入り obvious（明らかな・明白な）として定着。obviously（明らかに）は頻度副詞として現代英語で非常に高頻度。not so obvious（一見明らかでない）という逆用もよく見られる。\n\n語根 via はほかに trivial（三叉路 → ありふれた）、previous（前の道 → 以前の）、deviate（道を外れる）などでも見られる。",
+      derivatives: [
+        { word: "obviously",    desc: "明らかに（副詞）" },
+        { word: "obviousness",  desc: "明白さ（名詞）" }
+      ],
+      family: [
+        { word: "trivial",   desc: "些細な（tri- + via：三叉路 → ありふれた）" },
+        { word: "previous",  desc: "以前の（pre- + via：前の道）" },
+        { word: "deviate",   desc: "逸脱する（de- + via：道を外れる）" },
+        { word: "via",       desc: "～経由で（道・路）" }
+      ],
+      compounds: [
+        { phrase: "it is obvious that", desc: "～は明らかである" },
+        { phrase: "state the obvious",  desc: "当たり前のことを言う" }
+      ]
+    },
+
+    "trivial": {
+      origin: "ラテン語 trivium（三叉路・辻）< tri-（三）+ via（道）。辻は人々が集まり話をする場所で、「道端の話＝取るに足らない噂話」という連想から「ありふれた・重要でない」という意味になった。中世の教育では文法・修辞・論理の三学科（trivium）が基礎課程で、四学科（quadrivium）より低いとされたことも語義に影響した。\n\n16世紀に英語に入り trivial（些細な・つまらない）として定着。trivia（雑学・どうでもいい事実）は20世紀のゲーム番組で広まった。「トリビアの泉」もこの語源。\n\nvia（道）を共有する兄弟語: obvious（明白な）、previous（以前の）、deviate（逸脱する）。",
+      derivatives: [
+        { word: "trivia",      desc: "雑学・トリビア（名詞）" },
+        { word: "trivially",   desc: "些細に・取るに足らない方法で（副詞）" },
+        { word: "triviality",  desc: "些細なこと・取るに足らなさ（名詞）" },
+        { word: "trivialize",  desc: "些細に扱う・軽んじる（動詞）" }
+      ],
+      family: [
+        { word: "obvious",   desc: "明白な（ob- + via）" },
+        { word: "previous",  desc: "以前の（pre- + via）" },
+        { word: "deviate",   desc: "逸脱する（de- + via）" }
+      ],
+      compounds: [
+        { phrase: "trivial matter",   desc: "些細な問題" },
+        { phrase: "trivial pursuit",  desc: "どうでもよい追求；ボードゲーム名" }
+      ]
+    },
+
+    "previous": {
+      origin: "ラテン語 praevius（先行する）< prae-（前に）+ via（道・路）。字義は「道の先を行く・先行している」で、そこから「以前の・前の」という時間的先行を表す形容詞になった。\n\n17世紀に英語に入り previous（前の・以前の）として定着。previously（以前に）は文章をつなぐ副詞として頻出。no previous experience（経験不問）のように求人広告でも多用される。\n\n同根語: obvious（ob- + via → 明白な）、trivial（tri- + via → 些細な）、deviate（de- + via → 逸脱する）。",
+      derivatives: [
+        { word: "previously",  desc: "以前に・かつて（副詞）" }
+      ],
+      family: [
+        { word: "obvious",   desc: "明白な（ob- + via）" },
+        { word: "trivial",   desc: "些細な（tri- + via）" },
+        { word: "deviate",   desc: "逸脱する（de- + via）" }
+      ],
+      compounds: [
+        { phrase: "previous experience",  desc: "過去の経験" },
+        { phrase: "previously mentioned", desc: "前述の・先に触れた" }
+      ]
+    },
+
+    "deviate": {
+      origin: "ラテン語 deviare（道を外れる）< de-（離れて）+ via（道）。字義は「道から外れる」で、そこから規範・標準・予想からの逸脱を意味するようになった。\n\n17世紀に英語に入り deviate（逸れる・脱線する）として定着。deviation（偏差・逸脱）は統計の standard deviation（標準偏差）として数学・科学で必須語。devious（遠回りの・ずる賢い）は同根で「道を外れた」という原義を保つ。\n\n同根の via 語: obvious（明白な）、trivial（些細な）、previous（以前の）。",
+      derivatives: [
+        { word: "deviation",  desc: "偏差・逸脱（名詞）" },
+        { word: "deviant",    desc: "逸脱した・常軌を逸した（形容詞・名詞）" },
+        { word: "devious",    desc: "遠回りの・ずる賢い（形容詞）" }
+      ],
+      family: [
+        { word: "obvious",   desc: "明白な（ob- + via）" },
+        { word: "trivial",   desc: "些細な（tri- + via）" },
+        { word: "previous",  desc: "以前の（pre- + via）" }
+      ],
+      compounds: [
+        { phrase: "standard deviation",   desc: "標準偏差（統計）" },
+        { phrase: "deviate from the norm", desc: "規範から逸脱する" }
+      ]
+    },
+
+    "archive": {
+      origin: "ギリシャ語 arkheion（公共建物・役所）< arkhē（始まり・支配・政府）。もともとは統治の記録・文書を保管する官庁建物を指した。ラテン語 archivum を経由して、記録・文書の保管所という意味になった。\n\n17世紀に英語に入り archive（公文書館・記録保管所）として定着。デジタル化以降、archive はコンピューターのファイル圧縮（zip archive）や古いメールの保管にも使われるようになった。\n\narkhē（始まり・支配）はほかに architect（首席の建設者）、monarchy（一人支配）、anarchy（無支配）、hierarchy（階層的支配）でも見られる。",
+      derivatives: [
+        { word: "archival",   desc: "記録保管の・資料的な（形容詞）" },
+        { word: "archivist",  desc: "記録管理者・文書館員（名詞）" },
+        { word: "archiving",  desc: "アーカイブ化・保管（名詞）" }
+      ],
+      family: [
+        { word: "architect",  desc: "建築家（arkhi- + tekton：棟梁）" },
+        { word: "monarchy",   desc: "君主制（mono- + arkhē）" },
+        { word: "anarchy",    desc: "無政府状態（an- + arkhē）" },
+        { word: "hierarchy",  desc: "階層制（hieros + arkhē）" }
+      ],
+      compounds: [
+        { phrase: "national archive",  desc: "国立公文書館" },
+        { phrase: "digital archive",   desc: "デジタルアーカイブ" },
+        { phrase: "archive footage",   desc: "保管映像・過去の映像素材" }
+      ]
+    },
+
+    "architect": {
+      origin: "ギリシャ語 arkhitekton（首席の建設者・棟梁）< arkhi-（主たる・最高の）+ tekton（大工・建設者）。字義は「大工の頭領・棟梁」で、建物を設計・監督する者を指した。\n\n16世紀にラテン語 architectus 経由で英語に入り architect（建築家・設計者）として定着。比喩的に「ある計画・制度の立案者」という意味でも使われる（the architect of the peace treaty）。\n\ntekton（建設者）から architecture（建築）、tectonic（地殻の・構造の）。arkhi- からは archive（記録保管所）、monarchy（君主制）と同根。",
+      derivatives: [
+        { word: "architecture",    desc: "建築（学）・構造（名詞）" },
+        { word: "architectural",   desc: "建築の・建築学的な（形容詞）" }
+      ],
+      family: [
+        { word: "archive",   desc: "公文書館（arkhi- + arkhē）" },
+        { word: "monarchy",  desc: "君主制（mono- + arkhein）" },
+        { word: "tectonic",  desc: "地殻構造の（tekton：建設者）" }
+      ],
+      compounds: [
+        { phrase: "software architect",  desc: "ソフトウェア設計者" },
+        { phrase: "chief architect",     desc: "主任設計者・最高設計責任者" }
+      ]
+    },
+
+    "monarchy": {
+      origin: "ギリシャ語 monarchia（一人支配）< monos（一人・単独）+ arkhein（支配する）。字義は「一人による支配」で、王・女王が統治する政体を指す。\n\n14世紀に英語に入り monarchy（君主制・王政）として定着。monarch（君主）、monarchist（王政支持者）が派生。constitutional monarchy（立憲君主制）は現代の多くの国で採用されている政治形態。\n\narkhein から: anarchy（無支配）、hierarchy（階層的支配）、archive（公文書館）、architect（設計者）。monos から: monopoly（独占）、monotone（単調）、monologue（独白）。",
+      derivatives: [
+        { word: "monarch",      desc: "君主・王・女王（名詞）" },
+        { word: "monarchist",   desc: "王政支持者（名詞）" },
+        { word: "monarchical",  desc: "君主制の（形容詞）" }
+      ],
+      family: [
+        { word: "anarchy",    desc: "無政府状態（an- + arkhein）" },
+        { word: "hierarchy",  desc: "階層制（hieros + arkhein）" },
+        { word: "monopoly",   desc: "独占（mono- + polein）" },
+        { word: "monologue",  desc: "独白（mono- + logos）" }
+      ],
+      compounds: [
+        { phrase: "constitutional monarchy", desc: "立憲君主制" },
+        { phrase: "absolute monarchy",       desc: "絶対君主制" }
+      ]
+    },
+
+    "anarchy": {
+      origin: "ギリシャ語 anarkhia（支配なし）< an-（否定）+ arkhein（支配する）。字義は「指導者なし・権威なし」で、政治的権威や政府のない状態を意味する。アナーキズム（無政府主義）の哲学的・政治的運動にも使われる。\n\n16世紀に英語に入り anarchy（無政府状態・混乱）として定着。日常語では「社会的混乱・大混乱」の意味でも使われる（The school was in anarchy）。\n\n否定接頭辞 an- は他に: anonymous（無名）、anemia（貧血：血なし）、anesthetic（麻酔：感覚なし）。",
+      derivatives: [
+        { word: "anarchist",  desc: "無政府主義者（名詞）" },
+        { word: "anarchism",  desc: "無政府主義（名詞）" },
+        { word: "anarchic",   desc: "無政府的な・混乱した（形容詞）" }
+      ],
+      family: [
+        { word: "monarchy",   desc: "君主制（mono- + arkhein）" },
+        { word: "hierarchy",  desc: "階層制（hieros + arkhein）" },
+        { word: "archive",    desc: "公文書館（arkhē）" },
+        { word: "anonymous",  desc: "匿名の（an- + onyma：名前なし）" }
+      ],
+      compounds: [
+        { phrase: "political anarchy",  desc: "政治的無政府状態" },
+        { phrase: "fall into anarchy",  desc: "無政府状態に陥る" }
+      ]
+    },
+
+    "hierarchy": {
+      origin: "ギリシャ語 hierarchia（聖職者の統治）< hieros（聖なる）+ arkhein（支配する）。もともとはキリスト教の聖職者の位階制度を指した語で、天使の階層（天使階層論）にも使われた。\n\n14世紀に英語に入り hierarchy（位階・階層制度）として定着。現代では宗教に限らず、会社組織（corporate hierarchy）、分類体系（taxonomic hierarchy）、コンピューターのファイルシステムなど広く使われる。\n\nhieros（聖なる）から hieroglyphics（聖なる刻み文字 = 象形文字）。arkhein から monarchy, anarchy, archive と同根。",
+      derivatives: [
+        { word: "hierarchical",   desc: "階層的な・序列のある（形容詞）" },
+        { word: "hierarchically", desc: "階層的に（副詞）" }
+      ],
+      family: [
+        { word: "monarchy",       desc: "君主制（mono- + arkhein）" },
+        { word: "anarchy",        desc: "無政府状態（an- + arkhein）" },
+        { word: "hieroglyphics",  desc: "象形文字（hieros + glyphein）" }
+      ],
+      compounds: [
+        { phrase: "corporate hierarchy",  desc: "企業内の組織階層" },
+        { phrase: "social hierarchy",     desc: "社会的序列" }
+      ]
+    },
+
+    "synthesis": {
+      origin: "ギリシャ語 synthesis（合成・組み合わせ）< syn-（共に・一緒に）+ tithenai（置く）。字義は「一緒に置く」で、複数の要素を組み合わせて新しいものを作ることを指す。\n\n17世紀に英語に入り synthesis（統合・合成）として定着。化学では chemical synthesis（化学合成）、哲学では thesis→antithesis→synthesis（弁証法の三段論法）として中心的概念。synthesize（合成する）、synthesizer（シンセサイザー：音を合成する機器）が派生。\n\ntithenai（置く）から theme（主題：置かれたもの）、thesis（論題）、antithesis（対立命題）、parenthesis（挿入語句）と同根。",
+      derivatives: [
+        { word: "synthesize",   desc: "合成する・統合する（動詞）" },
+        { word: "synthesizer",  desc: "シンセサイザー・合成装置（名詞）" },
+        { word: "synthetic",    desc: "合成の・人工的な（形容詞）" }
+      ],
+      family: [
+        { word: "thesis",       desc: "論題・学位論文（tithenai）" },
+        { word: "antithesis",   desc: "対立命題・正反対（anti- + tithenai）" },
+        { word: "parenthesis",  desc: "挿入句・括弧（para- + en- + tithenai）" },
+        { word: "sympathy",     desc: "共感（syn- + pathos）" }
+      ],
+      compounds: [
+        { phrase: "chemical synthesis",  desc: "化学合成" },
+        { phrase: "synthesis report",    desc: "統合報告書" }
+      ]
+    },
+
+    "syntax": {
+      origin: "ギリシャ語 syntaxis（配列・整列）< syn-（共に）+ tassein（配列する・整える）。字義は「一緒に配列すること」で、文の中での単語の配置・構造規則を指す。\n\n16世紀に英語に入り syntax（統語論・構文）として定着。言語学では英語の語順規則の体系を指し、コンピューターサイエンスでは programming syntax（プログラミング構文）として頻出。syntax error（構文エラー）はプログラマーが日常的に遭遇する用語。\n\ntassein（配列する）から tactics（戦術：部隊の配置）、taxonomy（分類学：配列の法則）。syn- から synthesis（合成）、synonym（同義語）と同根。",
+      derivatives: [
+        { word: "syntactic",    desc: "構文の・統語論的な（形容詞）" },
+        { word: "syntactically", desc: "構文的に（副詞）" }
+      ],
+      family: [
+        { word: "synthesis",  desc: "合成（syn- + tithenai）" },
+        { word: "tactics",    desc: "戦術（tassein：配置する）" },
+        { word: "taxonomy",   desc: "分類学（taxis + nomos）" },
+        { word: "synonym",    desc: "同義語（syn- + onoma）" }
+      ],
+      compounds: [
+        { phrase: "syntax error",    desc: "構文エラー（プログラミング）" },
+        { phrase: "sentence syntax", desc: "文の構文" }
+      ]
+    },
+
+    "numerous": {
+      origin: "ラテン語 numerosus（数多い）< numerus（数）。numerus は「数・量」を意味し、そこから「数が多い・おびただしい」という形容詞 numerosus が生まれた。古フランス語を経由して英語に入った。\n\n15世紀に英語に入り numerous（多数の・無数の）として定着。numerous occasions（何度も）、numerous studies（多くの研究）のように学術文書でも頻出。「たくさんの」を表す語の中でやや改まったニュアンスがある。\n\nnumerus 系語: number（数）、enumerate（列挙する）、innumerable（数えられないほど多い）、numeral（数詞）、numerical（数値的な）。",
+      derivatives: [
+        { word: "numerously",    desc: "多数で（副詞）" },
+        { word: "numeral",       desc: "数字・数詞（名詞）" },
+        { word: "numerical",     desc: "数値的な・数字の（形容詞）" },
+        { word: "numerically",   desc: "数値的に（副詞）" }
+      ],
+      family: [
+        { word: "number",       desc: "数・番号（numerus）" },
+        { word: "enumerate",    desc: "列挙する（e- + numerare）" },
+        { word: "innumerable",  desc: "無数の（in- + numerabilis）" }
+      ],
+      compounds: [
+        { phrase: "on numerous occasions", desc: "何度も・度々" },
+        { phrase: "numerous studies",      desc: "多くの研究・多数の研究" }
+      ]
+    },
+
+    "enumerate": {
+      origin: "ラテン語 enumerare（数え上げる）< e-（外へ・完全に）+ numerare（数える）< numerus（数）。字義は「全部数え出す」で、リストアップする・列挙するという意味になった。\n\n16世紀に英語に入り enumerate（列挙する・数え上げる）として定着。学術・法律文書で「具体的に列挙する」という正式な動詞として頻用。プログラミングでは enumeration type（列挙型）、enum として型定義に使われる。\n\nnumerus 系: numerous（多数の）、number、innumerable、numeral。e-（完全に）系: eliminate（取り除く）、eradicate（根絶する）。",
+      derivatives: [
+        { word: "enumeration",  desc: "列挙・数え上げ（名詞）" },
+        { word: "enumerator",   desc: "列挙する人・列挙子（名詞）" },
+        { word: "enumerable",   desc: "列挙できる・数えられる（形容詞）" }
+      ],
+      family: [
+        { word: "numerous",     desc: "多数の（numerosus）" },
+        { word: "number",       desc: "数・番号（numerus）" },
+        { word: "innumerable",  desc: "無数の（in- + numerabilis）" }
+      ],
+      compounds: [
+        { phrase: "enumerate the reasons", desc: "理由を列挙する" },
+        { phrase: "enumerate options",     desc: "選択肢を数え上げる" }
+      ]
+    },
+
+    "innumerable": {
+      origin: "ラテン語 innumerabilis（数えられない）< in-（否定）+ numerabilis（数えられる）< numerus（数）。「数えるには多すぎる」という意味で、無数・おびただしい数を誇張的に表す形容詞。\n\n14世紀に英語に入り innumerable（無数の・数えきれない）として定着。文語的・修辞的な表現として使われ、countless とほぼ同義。詩や文学で好まれる格調ある語。\n\nin-（否定）系: incredible（信じられない）、invisible（見えない）、inevitable（避けられない）。numerus 系: numerous, enumerate, number。",
+      derivatives: [
+        { word: "innumerably",     desc: "数えきれないほど（副詞）" },
+        { word: "innumerability",  desc: "無数であること（名詞）" }
+      ],
+      family: [
+        { word: "numerous",    desc: "多数の（numerosus）" },
+        { word: "enumerate",   desc: "列挙する（e- + numerare）" },
+        { word: "countless",   desc: "無数の（count + less）" },
+        { word: "myriad",      desc: "無数の（ギリシャ語 myrioi = 1万）" }
+      ],
+      compounds: [
+        { phrase: "innumerable times",         desc: "数えきれないほど何度も" },
+        { phrase: "innumerable possibilities", desc: "無数の可能性" }
+      ]
+    },
+
+    "number": {
+      origin: "ラテン語 numerus（数）< 印欧祖語 nem-（取る・分配する）。numerus は「取り分・割り当て・数」を意味し、古フランス語 nombre を経由して中英語に入った。\n\n14世紀ごろ英語に入り number（数・番号・数える）として定着。英語で最もよく使われる語の一つ。mathematics では数学的量を指し、grammar では文法的数（単数・複数）を、音楽では「曲目・番号」を指す多義語。\n\nnumerus 系: numerous（多数の）、enumerate（列挙する）、innumerable（無数の）、numeral（数詞）、numerical（数値的な）。",
+      derivatives: [
+        { word: "numeral",    desc: "数字・数詞（名詞）" },
+        { word: "numerical",  desc: "数値的な（形容詞）" },
+        { word: "numerous",   desc: "多数の（形容詞）" }
+      ],
+      family: [
+        { word: "numerous",    desc: "多数の（numerosus）" },
+        { word: "enumerate",   desc: "列挙する（e- + numerare）" },
+        { word: "innumerable", desc: "無数の（in- + numerabilis）" }
+      ],
+      compounds: [
+        { phrase: "phone number",     desc: "電話番号" },
+        { phrase: "number one",       desc: "第一・最重要" },
+        { phrase: "by the numbers",   desc: "手順通りに・杓子定規に" }
+      ]
+    },
+
+    "vary": {
+      origin: "ラテン語 variare（変化させる・多様にする）< varius（様々な・まだら模様の）。varius は「変化に富む・多種多様な」を意味し、動詞形 variare から英語の vary が来た。\n\n14世紀に英語に入り vary（変化する・異なる）として定着。results vary（結果は異なる）、prices vary（価格は変動する）のように学術・ビジネス文書で頻出。opinions vary（意見は様々だ）のように意見の多様性を示す表現でも使われる。\n\nvarius 系: various（様々な）、variety（多様性）、variable（変動する・変数）、variation（変奏・変化）、variant（変異体）。",
+      derivatives: [
+        { word: "variation",  desc: "変化・変奏・変異（名詞）" },
+        { word: "variant",    desc: "変異体・変形（名詞・形容詞）" },
+        { word: "variable",   desc: "変動する・変数（形容詞・名詞）" },
+        { word: "varying",    desc: "様々な・変化する（形容詞）" }
+      ],
+      family: [
+        { word: "various",   desc: "様々な（varius）" },
+        { word: "variety",   desc: "多様性（varietas）" },
+        { word: "variable",  desc: "変数（variabilis）" },
+        { word: "diverse",   desc: "多様な（di- + vertere）" }
+      ],
+      compounds: [
+        { phrase: "vary widely",     desc: "大きく異なる" },
+        { phrase: "vary by region",  desc: "地域によって異なる" }
+      ]
+    },
+
+    "variable": {
+      origin: "ラテン語 variabilis（変化しやすい）< variare（変化する）< varius（様々な）。形容詞として「変化しやすい・一定でない」、名詞として「変数」という意味を持つ。\n\n15世紀に英語に入り variable（変動する・変数）として定着。数学・統計では independent variable（独立変数）、dependent variable（従属変数）は必須語彙。プログラミングでも変数を variable と呼ぶ。気候・経済分野では「変動要因」として頻出。\n\nvarius 系: vary（変化する）、various（様々な）、variety（多様性）、variation（変化）。対義語: constant（定数・一定の）、invariable（不変の）。",
+      derivatives: [
+        { word: "variability",  desc: "変動性・可変性（名詞）" },
+        { word: "variably",     desc: "変動して・まちまちに（副詞）" },
+        { word: "invariable",   desc: "不変の・一定の（形容詞）" }
+      ],
+      family: [
+        { word: "vary",      desc: "変化する（variare）" },
+        { word: "various",   desc: "様々な（varius）" },
+        { word: "variety",   desc: "多様性（varietas）" },
+        { word: "constant",  desc: "定数・一定の（constare）" }
+      ],
+      compounds: [
+        { phrase: "independent variable",  desc: "独立変数（統計・数学）" },
+        { phrase: "variable rate",         desc: "変動金利" }
+      ]
+    },
+
+    "portable": {
+      origin: "ラテン語 portabilis（持ち運べる）< portare（運ぶ・持つ）。portare は「手で運ぶ」という動作を表し、そこから「持ち運びできる」という形容詞 portabilis が生まれた。\n\n15世紀に英語に入り portable（持ち運びできる）として定着。20世紀後半、portable computer（ポータブルコンピュータ）から laptop や smartphone へと概念が進化した。コンピューターサイエンスでは「移植性のある・別環境でも動くコード」という意味でも使われる（portable code）。\n\nportare 系: transport（運ぶ）、import（輸入する）、export（輸出する）、report（報告する）、support（支える）、porter（荷物運び）、port（港：船が荷を運び込む場所）。",
+      derivatives: [
+        { word: "portability",  desc: "携帯性・移植性（名詞）" },
+        { word: "portage",      desc: "陸上輸送・荷物運搬（名詞）" }
+      ],
+      family: [
+        { word: "transport",  desc: "輸送する（trans- + portare）" },
+        { word: "import",     desc: "輸入する（im- + portare）" },
+        { word: "export",     desc: "輸出する（ex- + portare）" },
+        { word: "support",    desc: "支える（sub- + portare）" },
+        { word: "porter",     desc: "荷物運び・ポーター（portare）" }
+      ],
+      compounds: [
+        { phrase: "portable device",   desc: "携帯デバイス" },
+        { phrase: "portable charger",  desc: "モバイルバッテリー" }
+      ]
+    },
+
+    "dormitory": {
+      origin: "ラテン語 dormitorium（寝室・就寝場所）< dormire（眠る）。dormire から「眠るための場所」という名詞が作られ、大人数が共同で就寝する施設を指すようになった。\n\n15世紀に英語に入り dormitory（寮・共同宿舎）として定着。大学の学生寮（college dormitory / dorm）として最もよく使われる。英国では public school の寄宿舎を指すことも多い。口語では dorm と短縮される。\n\ndormire 系: dormant（休眠中の）、dormouse（ヤマネ：眠るネズミ）、dormer window（屋根窓：もともと寝室の窓）。",
+      derivatives: [
+        { word: "dorm",  desc: "寮（dormitory の短縮形）" }
+      ],
+      family: [
+        { word: "dormant",    desc: "休眠中の（dormire）" },
+        { word: "dormouse",   desc: "ヤマネ（dorm- + mouse）" },
+        { word: "hibernate",  desc: "冬眠する（hiems：冬 + dormire 的概念）" }
+      ],
+      compounds: [
+        { phrase: "college dormitory",  desc: "大学寮" },
+        { phrase: "dormitory room",     desc: "寮の部屋" }
+      ]
+    },
+
+    "dormant": {
+      origin: "ラテン語 dormire（眠る）の現在分詞形から、古フランス語 dormant（眠っている）を経由して英語に入った。「活動を停止して休眠している・潜在的な」という意味で使われる。\n\n15世紀に英語に入り dormant（休眠中の・不活発な）として定着。火山の dormant volcano（休火山）、植物の dormant seeds（休眠種子）、ウイルスの dormant infection（潜伏感染）など科学用語として重要。ビジネスでも dormant account（休眠口座）で使われる。\n\ndormire 系: dormitory（寮）、dormouse（ヤマネ）、dormer window（屋根窓）。latent（潜在的な）、inactive（不活発な）、quiescent（静止した）が類義語。",
+      derivatives: [
+        { word: "dormancy",  desc: "休眠（状態）（名詞）" }
+      ],
+      family: [
+        { word: "dormitory",  desc: "寮・共同宿舎（dormire）" },
+        { word: "latent",     desc: "潜在的な（latere：隠れる）" },
+        { word: "inactive",   desc: "不活発な（in- + active）" }
+      ],
+      compounds: [
+        { phrase: "dormant volcano",  desc: "休火山" },
+        { phrase: "dormant account",  desc: "休眠口座（銀行）" },
+        { phrase: "lie dormant",      desc: "休眠状態にある" }
+      ]
+    },
+
+    "radical": {
+      origin: "ラテン語 radicalis（根に関する）< radix（根・語根）。字義は「根からの・根本的な」で、そこから「根本的な変革・過激な」という政治的意味に発展した。化学では不対電子を持つ free radical（フリーラジカル・活性酸素）の意味でも重要。\n\n14世紀に英語に入り radical（根本的な・急進的な）として定着。数学では radical sign（根号・√）、化学では free radical、政治では radical reform（根本的改革）と分野を超えて使われる多義語。\n\nradix 系: radish（ラディッシュ：根菜）、eradicate（根絶する：根から取り除く）、radicle（幼根）。同義語: fundamental（基本的な）、extreme（過激な）。",
+      derivatives: [
+        { word: "radically",   desc: "根本的に・急進的に（副詞）" },
+        { word: "radicalism",  desc: "急進主義（名詞）" },
+        { word: "radicalize",  desc: "急進化させる（動詞）" }
+      ],
+      family: [
+        { word: "eradicate",  desc: "根絶する（e- + radix）" },
+        { word: "radish",     desc: "ラディッシュ・ラディ（radix：根菜）" },
+        { word: "root",       desc: "根（radix の意味的対応語）" }
+      ],
+      compounds: [
+        { phrase: "radical change",  desc: "抜本的な変革" },
+        { phrase: "free radical",    desc: "フリーラジカル（化学・医学）" }
+      ]
+    },
+
+    "eradicate": {
+      origin: "ラテン語 eradicare（根こそぎにする）< e-（外へ・完全に）+ radix（根）。字義は「根から引き抜く・根絶する」で、問題・病気・悪習などを完全に取り除くという強い意味を持つ。\n\n16世紀に英語に入り eradicate（根絶する・撲滅する）として定着。eradicate poverty（貧困をなくす）、eradicate disease（病気を根絶する）のように政策・公衆衛生文書で頻出。eliminate より「完全に取り除く」という強い意味合いがある。\n\nradix 系: radical（根本的な）、radish（ラディッシュ）。e-（外へ）系: eject（追い出す）、eliminate（取り除く）、erupt（噴出する）。",
+      derivatives: [
+        { word: "eradication",  desc: "根絶・撲滅（名詞）" },
+        { word: "eradicable",   desc: "根絶できる（形容詞）" },
+        { word: "ineradicable", desc: "根絶できない・消しがたい（形容詞）" }
+      ],
+      family: [
+        { word: "radical",     desc: "根本的な（radix）" },
+        { word: "radish",      desc: "ラディッシュ（radix：根菜）" },
+        { word: "eliminate",   desc: "取り除く（e- + limen）" },
+        { word: "exterminate", desc: "根絶する・駆除する（ex- + terminus）" }
+      ],
+      compounds: [
+        { phrase: "eradicate poverty",   desc: "貧困を根絶する" },
+        { phrase: "eradicate disease",   desc: "疾病を根絶する" },
+        { phrase: "eradication campaign", desc: "撲滅キャンペーン" }
+      ]
+    },
+
+    "quality": {
+      origin: "ラテン語 qualitas（性質・特性）< qualis（どのような種類の）。qualis は疑問詞 quis（誰）に由来し、「何の種類か」という本質的な問いから「性質・品質」という概念になった。キケロが哲学用語として作った語とされる。\n\n14世紀に英語に入り quality（品質・特性・資質）として定着。quality control（品質管理）、quality of life（生活の質）など現代語として非常に高頻度。形容詞的に quality product（高品質製品）とも使われる。\n\nqualis 系: qualify（資格を得る）、qualification（資格）、disqualify（失格にする）。量を意味する quantity との対比が重要: quality（質）vs. quantity（量）。",
+      derivatives: [
+        { word: "qualify",        desc: "資格を得る・条件を満たす（動詞）" },
+        { word: "qualified",      desc: "資格のある・限定された（形容詞）" },
+        { word: "qualitative",    desc: "質的な・定性的な（形容詞）" },
+        { word: "qualification",  desc: "資格・条件（名詞）" }
+      ],
+      family: [
+        { word: "qualify",    desc: "資格を得る（qualis）" },
+        { word: "quantity",   desc: "量・数量（quantus）" },
+        { word: "character",  desc: "性格・特性（kharaktēr）" }
+      ],
+      compounds: [
+        { phrase: "quality control",  desc: "品質管理" },
+        { phrase: "quality of life",  desc: "生活の質（QOL）" },
+        { phrase: "high quality",     desc: "高品質" }
+      ]
+    },
+
+    "quantity": {
+      origin: "ラテン語 quantitas（量・多少）< quantus（どれほどの）。quantus は疑問詞で「いくつ・どれほど」を尋ね、そこから「測定可能な量」という名詞が作られた。quality（質）と対をなす概念として中世哲学でも重要だった。\n\n14世紀に英語に入り quantity（量・数量）として定着。quantity production（量産）、unknown quantity（未知数：何をするかわからない人）、quantity surveyor（積算士）など幅広く使われる。物理学では physical quantity（物理量）として基本概念。\n\nquantus 系: quantify（定量化する）、quantitative（量的な）、quantum（量子：最小量）。質と量の対比: quality vs. quantity。",
+      derivatives: [
+        { word: "quantify",       desc: "定量化する・数値化する（動詞）" },
+        { word: "quantitative",   desc: "量的な・定量的な（形容詞）" },
+        { word: "quantum",        desc: "量子・最小量（名詞）" },
+        { word: "quantification", desc: "定量化・数値化（名詞）" }
+      ],
+      family: [
+        { word: "quality",   desc: "質・品質（qualitas）" },
+        { word: "quantum",   desc: "量子（quantus）" },
+        { word: "amount",    desc: "量・総計（ad- + mons：山）" }
+      ],
+      compounds: [
+        { phrase: "quantity of goods",  desc: "商品の量・数量" },
+        { phrase: "unknown quantity",   desc: "未知数（の人）" },
+        { phrase: "quality vs quantity", desc: "質対量" }
+      ]
     }
 
   };

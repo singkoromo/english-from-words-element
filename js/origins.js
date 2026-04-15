@@ -15421,6 +15421,375 @@
         { phrase: "mass communication",    desc: "大衆通信・マスコミ" },
         { phrase: "communicate effectively", desc: "効果的に伝える" }
       ]
+    },
+
+    // ── Batch 33 ──────────────────────────────────────────────────────────
+
+    "regulate": {
+      origin: "ラテン語 regulare（規則に従って管理する）< regula（直線の棒・規則・物差し）< regere（まっすぐ導く・支配する）+ -ate（動詞化接尾辞）。「規則で秩序立てる」が原義。\n\n英語には17世紀に採用され、「規則に従って制御する・管理する」の意味で定着。産業革命以降、経済・政府・法律の文脈で規制・管理を指す重要語となり、現代ではデジタル規制など新たな文脈でも頻繁に使われる。\n\n現代英語では regulate the market（市場を規制する）・self-regulate（自主規制する）・regulate body temperature（体温を調節する）のように法律・経済・生物学で幅広く使われる。",
+      derivatives: [
+        { word: "regulation",   desc: "規制・規則・調整（名詞）" },
+        { word: "regulator",    desc: "規制当局・調整器（名詞）" },
+        { word: "regulatory",   desc: "規制の・監督の（形容詞）" },
+        { word: "deregulate",   desc: "規制を撤廃する（動詞）" }
+      ],
+      family: [
+        { word: "rule",    desc: "規則（regula の転）" },
+        { word: "regime",  desc: "政治体制（regere）" },
+        { word: "reign",   desc: "支配する・治世（regere）" },
+        { word: "regal",   desc: "王の・堂々とした（rex）" }
+      ],
+      compounds: [
+        { phrase: "regulate the market",     desc: "市場を規制する" },
+        { phrase: "regulatory framework",    desc: "規制の枠組み" },
+        { phrase: "self-regulate",           desc: "自主規制する" }
+      ]
+    },
+
+    "simulate": {
+      origin: "ラテン語 simulare（似せる・真似る・偽る）< similis（似た・同様の）< semel（一度・同時に）+ -ate（動詞化接尾辞）。「似た状態を作り出す」が原義。\n\n英語には17世紀に採用され、当初は「偽る・見せかける」という否定的な意味が強かった。20世紀にコンピュータ・工学の発展とともに「模擬実験する・シミュレーションする」という中立的・技術的意味が主流となった。\n\n現代英語では simulate combat（戦闘を模擬訓練する）・computer simulation（コンピュータシミュレーション）・simulate conditions（条件を再現する）のように科学・訓練・ゲーム分野で広く使われる。",
+      derivatives: [
+        { word: "simulation",   desc: "模擬実験・シミュレーション（名詞）" },
+        { word: "simulator",    desc: "シミュレーター・訓練装置（名詞）" },
+        { word: "simulated",    desc: "模擬の・人工的な（形容詞）" }
+      ],
+      family: [
+        { word: "similar",     desc: "似た・類似した（similis）" },
+        { word: "simultaneous", desc: "同時の（simul+taneous）" },
+        { word: "assimilate",  desc: "同化する（ad+similis）" },
+        { word: "dissimulate", desc: "偽る・隠す（dis+simulare）" }
+      ],
+      compounds: [
+        { phrase: "computer simulation",  desc: "コンピュータシミュレーション" },
+        { phrase: "flight simulator",     desc: "フライトシミュレーター" },
+        { phrase: "simulated environment", desc: "模擬環境" }
+      ]
+    },
+
+    "accumulate": {
+      origin: "ラテン語 accumulare（山積みにする）< ad-（〜へ・追加して）+ cumulare（積み重ねる）< cumulus（山・堆積）+ -ate（動詞化接尾辞）。「積み重なった山に追加する」が原義。cumulus は雲の種類（積雲）にも使われる語根。\n\n英語には16世紀に採用され、「徐々に蓄積する・積み上げる」の意味で定着。経済・科学・知識の蓄積を表す語として特に重要で、資本蓄積論（capital accumulation）ではマルクス経済学の基本概念ともなった。\n\n現代英語では accumulate wealth（富を蓄積する）・accumulate evidence（証拠を積み重ねる）・cumulative effect（累積効果）のように広く使われる。",
+      derivatives: [
+        { word: "accumulation",  desc: "蓄積・集積・堆積（名詞）" },
+        { word: "accumulative",  desc: "蓄積的な・累積的な（形容詞）" },
+        { word: "cumulative",    desc: "累積的な・積み重なる（形容詞）" }
+      ],
+      family: [
+        { word: "cumulus",    desc: "積雲・山積み（ラテン語）" },
+        { word: "culminate",  desc: "頂点に達する（culmen＝頂上）" }
+      ],
+      compounds: [
+        { phrase: "accumulate wealth",    desc: "富を蓄積する" },
+        { phrase: "cumulative effect",    desc: "累積効果" },
+        { phrase: "capital accumulation", desc: "資本蓄積" }
+      ]
+    },
+
+    "eliminate": {
+      origin: "ラテン語 eliminare（敷居の外に追い出す）< e-（外に）+ limen（敷居・境界・閾値）+ -ate（動詞化接尾辞）。「敷居の外に出す＝締め出す・排除する」が原義。limen は「閾値・刺激の最小値」を意味する心理学用語 limen にも残る。\n\n英語には16世紀に採用され、「排除する・除去する・取り除く」の意味で定着。数学では方程式から変数を消去する「消去法」、スポーツでは敗退させる文脈、医学では毒素を排出する文脈など多様な用法がある。\n\n現代英語では eliminate the problem（問題を取り除く）・eliminate a suspect（容疑者を除外する）・eliminate waste（廃棄物を除去する）のように幅広い分野で使われる。",
+      derivatives: [
+        { word: "elimination",   desc: "排除・消去・敗退（名詞）" },
+        { word: "eliminator",    desc: "排除するもの・予選ラウンド（名詞）" }
+      ],
+      family: [
+        { word: "limen",       desc: "閾値・敷居（心理学用語）" },
+        { word: "subliminal",  desc: "閾下の・潜在意識の（sub+limen）" },
+        { word: "preliminary", desc: "予備的な（pre+limen）" }
+      ],
+      compounds: [
+        { phrase: "eliminate the problem",  desc: "問題を取り除く" },
+        { phrase: "process of elimination", desc: "消去法" },
+        { phrase: "eliminate waste",        desc: "廃棄物を除去する" }
+      ]
+    },
+
+    "formulate": {
+      origin: "ラテン語 formula（小さな形・公式・規則）< forma（形・姿）+ 縮小接尾辞 -ula + -ate（動詞化接尾辞）。「小さな形を作る＝明確な表現に仕立てる」が原義。\n\n英語には17世紀に採用され、「公式化する・具体的に表現する・処方する」の意味で定着。科学・法律・政策の文脈で「曖昧な考えを明確な形式に落とし込む」というプロセスを表す重要語となった。\n\n現代英語では formulate a plan（計画を立案する）・formulate a hypothesis（仮説を組み立てる）・formulate policy（政策を策定する）のように幅広い専門分野で使われる。",
+      derivatives: [
+        { word: "formulation",  desc: "公式化・策定・調合（名詞）" },
+        { word: "formula",      desc: "公式・処方・決まり文句（名詞）" }
+      ],
+      family: [
+        { word: "form",     desc: "形・様式（forma）" },
+        { word: "format",   desc: "形式・書式（forma）" },
+        { word: "reform",   desc: "改革する（re+forma）" },
+        { word: "conform",  desc: "従う・一致する（con+forma）" }
+      ],
+      compounds: [
+        { phrase: "formulate a plan",       desc: "計画を立案する" },
+        { phrase: "formulate a hypothesis", desc: "仮説を組み立てる" },
+        { phrase: "policy formulation",     desc: "政策策定" }
+      ]
+    },
+
+    "replicate": {
+      origin: "ラテン語 replicare（折り返す・繰り返す）< re-（再び・元に）+ plicare（折る・重ねる）+ -ate（動詞化接尾辞）。「折り返して同じ形を作る」が原義で、implicare（折り込む）・explicare（折り広げる）と同根。\n\n英語には16世紀に採用され、当初は音楽で音を繰り返す意味で使われた。20世紀以降に生物学（DNA 複製）・科学（実験の再現）・コンピュータ（データ複製）の文脈で重要性が増した。\n\n現代英語では replicate the experiment（実験を再現する）・DNA replication（DNA 複製）・replicate a model（モデルを複製する）のように科学・技術分野の基本語。",
+      derivatives: [
+        { word: "replication",  desc: "複製・再現・反復（名詞）" },
+        { word: "replica",      desc: "複製品・レプリカ（名詞）" }
+      ],
+      family: [
+        { word: "duplicate",   desc: "複製する（duplex+ate）" },
+        { word: "explicit",    desc: "明示的な（ex+plicare）" },
+        { word: "implicit",    desc: "暗黙の（im+plicare）" },
+        { word: "complicate",  desc: "複雑にする（com+plicare）" }
+      ],
+      compounds: [
+        { phrase: "replicate the experiment",  desc: "実験を再現する" },
+        { phrase: "DNA replication",           desc: "DNA 複製" },
+        { phrase: "exact replica",             desc: "完全な複製品" }
+      ]
+    },
+
+    "motivate": {
+      origin: "ラテン語 movere（動かす）の過去分詞 motus + -ive（形容詞接尾辞）→ 中世ラテン語 motivus（動かす）+ -ate（動詞化接尾辞）。「動かすものを与える・行動への動力を生み出す」が原義。\n\n英語には19世紀後半に採用され、心理学・経営学で「動機を与える・やる気を起こさせる」の意味で定着。20世紀のモチベーション研究（マズロー理論など）の普及とともに一般語となった。\n\n現代英語では motivate employees（従業員のやる気を引き出す）・highly motivated（高い意欲のある）・what motivates you?（何があなたのやる気の源ですか？）のように職場・教育で頻繁に使われる。",
+      derivatives: [
+        { word: "motivation",  desc: "動機・意欲・モチベーション（名詞）" },
+        { word: "motivated",   desc: "やる気のある・動機づけられた（形容詞）" },
+        { word: "motivator",   desc: "動機を与えるもの（名詞）" }
+      ],
+      family: [
+        { word: "motion",   desc: "動き・運動（motus）" },
+        { word: "move",     desc: "動く（movere）" },
+        { word: "emotion",  desc: "感情（e+motus）" },
+        { word: "promote",  desc: "昇進させる・推進する（pro+movere）" }
+      ],
+      compounds: [
+        { phrase: "motivate employees",   desc: "従業員を動機づける" },
+        { phrase: "highly motivated",     desc: "高い意欲のある" },
+        { phrase: "intrinsic motivation", desc: "内発的動機づけ" }
+      ]
+    },
+
+    "anticipate": {
+      origin: "ラテン語 anticipare（先取りする）< ante（前に）+ capere（取る）+ -ate（動詞化接尾辞）。「前もって取る＝前もって行動する・期待する」が原義で、participate（参加する）・capture（捕まえる）と同根の capere を含む。\n\n英語には16世紀に採用され、「予期する・前もって行動する・楽しみに待つ」の意味で定着。法律では「先行して権利を行使する」、音楽では「先取音（アンティシペーション）」という技術用語でも使われる。\n\n現代英語では anticipate problems（問題を予測する）・eagerly anticipate（心待ちにする）・anticipated demand（予測需要）のように日常・ビジネス・科学で幅広く使われる。",
+      derivatives: [
+        { word: "anticipation",   desc: "期待・予測・先取り（名詞）" },
+        { word: "anticipatory",   desc: "予期した・前もっての（形容詞）" }
+      ],
+      family: [
+        { word: "participate",  desc: "参加する（pars+capere）" },
+        { word: "capture",      desc: "捕まえる（capere）" },
+        { word: "capable",      desc: "能力のある（capax）" },
+        { word: "anticipation", desc: "期待・先取り（ante+capere）" }
+      ],
+      compounds: [
+        { phrase: "anticipate problems",   desc: "問題を予測する" },
+        { phrase: "in anticipation of",    desc: "〜を見越して・期待して" },
+        { phrase: "eagerly anticipate",    desc: "心待ちにする" }
+      ]
+    },
+
+    "participate": {
+      origin: "ラテン語 participare（分かち合う・参加する）< pars（部分・分け前）+ capere（取る）+ -ate（動詞化接尾辞）。「部分を取る＝分け前にあずかる・参加する」が原義。\n\n英語には16世紀に採用され、「活動・グループに参加する・加わる」の意味で定着。民主主義・教育・市民参加の文脈で重要性が増し、civic participation（市民参加）・participatory democracy（参加型民主主義）などの概念語と結びついた。\n\n現代英語では participate in a meeting（会議に参加する）・active participation（積極的な参加）・encourage participation（参加を促す）のように教育・政治・職場で広く使われる。",
+      derivatives: [
+        { word: "participation",   desc: "参加・関与（名詞）" },
+        { word: "participant",     desc: "参加者（名詞）" },
+        { word: "participatory",   desc: "参加型の・参与の（形容詞）" }
+      ],
+      family: [
+        { word: "part",        desc: "部分（pars）" },
+        { word: "partner",     desc: "パートナー（pars の転）" },
+        { word: "partition",   desc: "分割（pars+ition）" },
+        { word: "anticipate",  desc: "予期する（ante+capere）" }
+      ],
+      compounds: [
+        { phrase: "active participation",      desc: "積極的な参加" },
+        { phrase: "participatory democracy",   desc: "参加型民主主義" },
+        { phrase: "encourage participation",   desc: "参加を促す" }
+      ]
+    },
+
+    "associate": {
+      origin: "ラテン語 associare（仲間にする・結びつける）< ad-（〜へ）+ socius（仲間・同盟者）+ -ate（動詞化接尾辞）。socius は社会（society）・社交的（social）と同根。「仲間として結びつける」が原義。\n\n英語には16世紀に採用され、「結びつける・仲間にする・連想する」の動詞・形容詞・名詞として定着。心理学では「連合学習」（associative learning）・「自由連想」（free association）という重要概念にも使われる。\n\n現代英語では associate with（〜と付き合う・関連づける）・associate professor（准教授）・business associate（仕事上の関係者）のように学術・ビジネス・心理学で幅広く使われる。",
+      derivatives: [
+        { word: "association",    desc: "協会・連想・結びつき（名詞）" },
+        { word: "associative",    desc: "連合の・連想的な（形容詞）" },
+        { word: "dissociate",     desc: "切り離す・解離する（dis+socius）" }
+      ],
+      family: [
+        { word: "social",    desc: "社会的な（socius）" },
+        { word: "society",   desc: "社会・協会（socius）" },
+        { word: "socialist", desc: "社会主義者（socius）" }
+      ],
+      compounds: [
+        { phrase: "associate professor",    desc: "准教授" },
+        { phrase: "business associate",     desc: "仕事上の関係者" },
+        { phrase: "free association",       desc: "（心理学）自由連想" }
+      ]
+    },
+
+    "appropriate": {
+      origin: "ラテン語 appropriare（自分のものとする）< ad-（〜へ）+ proprius（固有の・自分の）+ -ate（動詞化接尾辞・形容詞化接尾辞）。「自分のものとして取り込む」が原義。形容詞では「その状況に固有の＝適切な」に意味が転じた。\n\n英語には15世紀に採用され、「適切な・ふさわしい」の形容詞と「(資金など)を充当する・流用する」の動詞として定着。予算・資源の配分（appropriation of funds）や文化流用（cultural appropriation）など現代的な文脈でも重要。\n\n現代英語では appropriate behavior（適切な行動）・appropriate funds（資金を充当する）・cultural appropriation（文化の流用）のように倫理・政治・日常の場で広く使われる。",
+      derivatives: [
+        { word: "appropriately",   desc: "適切に・ふさわしく（副詞）" },
+        { word: "appropriation",   desc: "充当・流用・取り込み（名詞）" },
+        { word: "inappropriate",   desc: "不適切な（形容詞）" }
+      ],
+      family: [
+        { word: "proper",    desc: "適切な・固有の（proprius）" },
+        { word: "property",  desc: "財産・性質（proprius）" },
+        { word: "propriety", desc: "礼節・適切さ（proprius）" }
+      ],
+      compounds: [
+        { phrase: "appropriate behavior",   desc: "適切な行動" },
+        { phrase: "cultural appropriation", desc: "文化の流用" },
+        { phrase: "appropriation of funds", desc: "資金の充当" }
+      ]
+    },
+
+    "supplement": {
+      origin: "ラテン語 supplementum（補充物・補足）< supplere（補う・完成させる）< sub-（下に・追加して）+ plere（満たす）+ -ment（名詞接尾辞）。「下から満たして補完する」が原義。plere は complete（完成する）・deplete（使い果たす）と同根。\n\n英語には15世紀に採用され、「補足・付録・補完するもの」の意味で定着。現代では食品サプリメント（dietary supplement）・新聞の別冊付録（newspaper supplement）・カリキュラムの補足資料など多様な文脈で使われる。\n\n現代英語では dietary supplement（栄養補助食品）・supplement income（収入を補う）・supplement to the treaty（条約の補足）のように栄養・教育・法律で幅広く使われる。",
+      derivatives: [
+        { word: "supplementary",  desc: "補足的な・追加の（形容詞）" },
+        { word: "supplemental",   desc: "補足の・追加の（形容詞）" }
+      ],
+      family: [
+        { word: "complete",   desc: "完成する（com+plere）" },
+        { word: "deplete",    desc: "使い果たす（de+plere）" },
+        { word: "replete",    desc: "満ち満ちた（re+plere）" },
+        { word: "supply",     desc: "供給する（supplere の転）" }
+      ],
+      compounds: [
+        { phrase: "dietary supplement",  desc: "栄養補助食品・サプリメント" },
+        { phrase: "supplement income",   desc: "収入を補う" },
+        { phrase: "supplementary material", desc: "補足資料" }
+      ]
+    },
+
+    "sensation": {
+      origin: "ラテン語 sensatio（感覚）< sensus（感覚・意味）< sentire（感じる・知覚する）+ -ation（名詞接尾辞）。「感じられたもの・知覚の結果」が原義。sentire は consent（同意）・dissent（異議）・sentiment（感情）とも同根。\n\n英語には17世紀に採用され、「身体的感覚・大センセーション」の意味で定着。18〜19世紀の新聞報道で「世間を驚かせる出来事」を指すようになり、「扇情的な」という含意が生まれた（sensationalism）。\n\n現代英語では physical sensation（身体的感覚）・cause a sensation（大騒ぎを引き起こす）・overnight sensation（一夜にして有名人）のように感覚・社会現象の両文脈で広く使われる。",
+      derivatives: [
+        { word: "sensational",    desc: "センセーショナルな・扇情的な（形容詞）" },
+        { word: "sensationalism", desc: "扇情主義・センセーショナリズム（名詞）" },
+        { word: "sensory",        desc: "感覚の・知覚の（形容詞）" }
+      ],
+      family: [
+        { word: "sense",     desc: "感覚・意味（sentire）" },
+        { word: "sentiment", desc: "感情・意見（sentire）" },
+        { word: "consent",   desc: "同意する（con+sentire）" },
+        { word: "dissent",   desc: "異議を唱える（dis+sentire）" }
+      ],
+      compounds: [
+        { phrase: "cause a sensation",     desc: "センセーションを引き起こす" },
+        { phrase: "overnight sensation",   desc: "一夜にして有名になった人" },
+        { phrase: "physical sensation",    desc: "身体的感覚" }
+      ]
+    },
+
+    "foundation": {
+      origin: "ラテン語 fundatio（基礎を置く行為）< fundare（基礎を築く）< fundus（底・地盤・農地）+ -ation（名詞接尾辞）。「底に置く・基礎を作る」が原義。\n\n英語には14世紀に採用され、「建物の基礎・組織の設立・財団」の意味で定着。14世紀の大学設立・修道院設立の文脈で多用され、後に科学財団・慈善団体を指す語としても重要となった。\n\n現代英語では lay the foundation（基礎を置く）・foundation of democracy（民主主義の礎）・charitable foundation（慈善財団）のように建築・哲学・社会的文脈で広く使われる。",
+      derivatives: [
+        { word: "fundamental",   desc: "根本的な・基本的な（形容詞）" },
+        { word: "founder",       desc: "設立者（名詞）" },
+        { word: "found",         desc: "設立する・創設する（動詞）" }
+      ],
+      family: [
+        { word: "profound",   desc: "深い・深遠な（pro+fundus）" },
+        { word: "fund",       desc: "資金・基金（fundus）" },
+        { word: "fundament",  desc: "基礎・根本（fundare）" }
+      ],
+      compounds: [
+        { phrase: "lay the foundation",      desc: "基礎を築く" },
+        { phrase: "foundation of democracy", desc: "民主主義の礎" },
+        { phrase: "charitable foundation",   desc: "慈善財団" }
+      ]
+    },
+
+    "revolution": {
+      origin: "ラテン語 revolutio（回転・転がり戻ること）< revolvere（再び回転する）< re-（再び）+ volvere（回転する・転がる）+ -tion（名詞接尾辞）。天体の公転を指す天文学用語として使われ始めた。\n\n英語には15世紀に採用され、天文学で惑星の公転を意味した。17世紀以降に政治的転換を指すようになり、1688年の英国名誉革命・1789年のフランス革命で政治語として確立。18世紀の産業革命（Industrial Revolution）では社会・技術変化にも拡張された。\n\n現代英語では political revolution（政治革命）・digital revolution（デジタル革命）・revolutionary idea（革命的なアイデア）のように社会・技術・思想の根本的変化を指す。",
+      derivatives: [
+        { word: "revolutionary",  desc: "革命的な・革命家（形容詞・名詞）" },
+        { word: "revolutionize",  desc: "革命的に変える（動詞）" }
+      ],
+      family: [
+        { word: "revolve",    desc: "回転する（re+volvere）" },
+        { word: "evolve",     desc: "進化する（e+volvere）" },
+        { word: "involve",    desc: "巻き込む（in+volvere）" },
+        { word: "volume",     desc: "巻物・体積（volvere）" }
+      ],
+      compounds: [
+        { phrase: "political revolution",  desc: "政治革命" },
+        { phrase: "digital revolution",    desc: "デジタル革命" },
+        { phrase: "revolutionary change",  desc: "革命的な変化" }
+      ]
+    },
+
+    "resolution": {
+      origin: "ラテン語 resolutio（解きほぐす行為）< resolvere（解く・解決する）< re-（再び）+ solvere（解く・解放する）+ -tion（名詞接尾辞）。「固まったものを解きほぐす」が原義。\n\n英語には14世紀に採用され、「決議・解決・解像度・決意」の複数の意味で定着。17世紀に光学用語（解像力）、20世紀にデジタル技術用語（解像度）として用法が拡張された。\n\n現代英語では pass a resolution（決議を可決する）・New Year's resolution（新年の抱負）・high resolution（高解像度）・conflict resolution（紛争解決）のように政治・日常・技術で広く使われる多義語。",
+      derivatives: [
+        { word: "resolve",   desc: "解決する・決意する（動詞）" },
+        { word: "resolute",  desc: "断固とした・揺るぎない（形容詞）" }
+      ],
+      family: [
+        { word: "solve",      desc: "解く（solvere）" },
+        { word: "dissolve",   desc: "溶かす・解散する（dis+solvere）" },
+        { word: "absolve",    desc: "罪を赦免する（abs+solvere）" },
+        { word: "solution",   desc: "解決策・溶液（solvere）" }
+      ],
+      compounds: [
+        { phrase: "conflict resolution",   desc: "紛争解決" },
+        { phrase: "high resolution",       desc: "高解像度" },
+        { phrase: "New Year's resolution", desc: "新年の抱負" }
+      ]
+    },
+
+    "conservation": {
+      origin: "ラテン語 conservatio（保存・維持）< conservare（共に保つ）< con-（共に）+ servare（守る・保つ）+ -tion（名詞接尾辞）。「完全に保ち続ける」が原義。servare は observe（観察する）・reserve（確保する）・preserve（保存する）と同根。\n\n英語には15世紀に採用され、「保全・節約・自然保護」の意味で定着。19世紀の自然保護運動の台頭とともに environmental conservation（環境保護）の文脈で重要語となり、20世紀以降は地球規模の課題として注目度が増している。\n\n現代英語では conservation of energy（エネルギー保存）・wildlife conservation（野生生物保護）・conservation efforts（保護活動）のように科学・環境・政策で広く使われる。",
+      derivatives: [
+        { word: "conserve",        desc: "保護する・節約する（動詞）" },
+        { word: "conservative",    desc: "保守的な・慎重な（形容詞）" },
+        { word: "conservationist", desc: "自然保護活動家（名詞）" }
+      ],
+      family: [
+        { word: "observe",   desc: "観察する（ob+servare）" },
+        { word: "reserve",   desc: "確保する・予約する（re+servare）" },
+        { word: "preserve",  desc: "保存する（pre+servare）" },
+        { word: "deserve",   desc: "値する（de+servare の転）" }
+      ],
+      compounds: [
+        { phrase: "wildlife conservation",  desc: "野生生物保護" },
+        { phrase: "conservation of energy", desc: "エネルギー保存" },
+        { phrase: "conservation efforts",   desc: "保護活動" }
+      ]
+    },
+
+    "administration": {
+      origin: "ラテン語 administratio（管理・補助）< administrare（奉仕する・管理する）< ad-（〜へ）+ ministrare（仕える・管理する）< minister（下の人・奉仕者）< minus（より小さい）+ -ster（人を示す接尾辞）。「主人の下で世話をする」が原義。\n\n英語には14世紀に採用され、「行政・管理・運営・投与」の意味で定着。特に政府の行政機構（the administration）・薬の投与（administration of medicine）・大学の事務（university administration）など広範な用法がある。\n\n現代英語では government administration（政府行政）・hospital administration（病院管理）・administration of justice（司法）のように政治・医療・組織管理の文脈で不可欠な語。",
+      derivatives: [
+        { word: "administrate",     desc: "管理する・運営する（動詞）" },
+        { word: "administrator",    desc: "管理者・行政官（名詞）" },
+        { word: "administrative",   desc: "行政の・管理の（形容詞）" }
+      ],
+      family: [
+        { word: "minister",    desc: "大臣・聖職者（minister）" },
+        { word: "ministry",    desc: "省庁・聖職（ministerium）" },
+        { word: "minor",       desc: "より小さい（minus）" },
+        { word: "administer",  desc: "管理する・施す（administrare）" }
+      ],
+      compounds: [
+        { phrase: "public administration",    desc: "行政・公共管理" },
+        { phrase: "administration of justice", desc: "司法・法の執行" },
+        { phrase: "business administration",  desc: "経営管理（MBA の分野）" }
+      ]
+    },
+
+    "recognition": {
+      origin: "ラテン語 recognitio（再認識・審査）< recognoscere（再び知る・思い出す）< re-（再び）+ cognoscere（知る）< co-（共に）+ gnoscere（知る）+ -tion（名詞接尾辞）。「以前に知ったことを再び知る」が原義。\n\n英語には15世紀に採用され、「識別・承認・表彰」の意味で定着。現代では顔認識（facial recognition）・パターン認識（pattern recognition）など人工知能・コンピュータ科学でも重要な概念となっている。\n\n現代英語では gain recognition（認められる）・recognition of effort（努力への評価）・facial recognition（顔認識）のように社会的承認・技術・法律の場で幅広く使われる。",
+      derivatives: [
+        { word: "recognize",     desc: "認識する・認める（動詞）" },
+        { word: "recognizable",  desc: "認識できる・見覚えのある（形容詞）" }
+      ],
+      family: [
+        { word: "cognition",   desc: "認知・知覚（cognoscere）" },
+        { word: "cognitive",   desc: "認知の（形容詞）" },
+        { word: "diagnose",    desc: "診断する（dia+gnosis）" },
+        { word: "incognito",   desc: "正体を隠して（in+cognoscere）" }
+      ],
+      compounds: [
+        { phrase: "facial recognition",   desc: "顔認識（AI技術）" },
+        { phrase: "gain recognition",     desc: "認められる・名声を得る" },
+        { phrase: "in recognition of",    desc: "〜を評価して・〜を記念して" }
+      ]
     }
 
   };

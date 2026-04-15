@@ -22383,6 +22383,523 @@
         { phrase: "data protection",           desc: "データ保護" },
         { phrase: "environmental protection",  desc: "環境保護" }
       ]
+    },
+
+    "represent": {
+      origin: "ラテン語 repraesentare（再び目の前に置く）< re-（再び）+ praesentare（目の前に示す）< praesens（目の前にある）< prae-（前に）+ esse（ある）。「表す・代表する・代理する」が原義。present（現在の・贈り物）・absence（欠席）と同根の esse を含み、「誰かまたは何かを目の前に再現する」というイメージを持つ。\n\n英語には14世紀に採用され、「記号・形象・代理人として誰かや何かを示す」という多義語として定着。政治・法律・芸術で represent a constituency（選挙区を代表する）・represent in court（法廷で代理する）・represent a scene（場面を表現する）のように幅広く使われる基本動詞として機能する。\n\n現代英語ではrepresentation（表象・代表）という派生語が政治・文化多様性の文脈で「誰が組織や文化に存在するか」を問う語として特に重要性が増しており、underrepresented（代表が少ない）という語は社会的公正の議論で頻用される。",
+      derivatives: [
+        { word: "representation",   desc: "代表・表象・表現（名詞）" },
+        { word: "representative",   desc: "代表者・典型的な（名詞・形容詞）" },
+        { word: "misrepresent",     desc: "誤って伝える（動詞）" }
+      ],
+      family: [
+        { word: "present",   desc: "現在の・贈り物・提示する（prae+esse）" },
+        { word: "absence",   desc: "欠席（ab+esse）" },
+        { word: "essence",   desc: "本質（esse）" }
+      ],
+      compounds: [
+        { phrase: "represent a constituency",  desc: "選挙区を代表する" },
+        { phrase: "legal representation",      desc: "法的代理" },
+        { phrase: "proportional representation", desc: "比例代表制" }
+      ]
+    },
+
+    "distinguish": {
+      origin: "ラテン語 distinguere（別々に刺す・区別する）< dis-（離れて）+ stinguere（刺す・消す）。「区別する・際立たせる」が原義。distinct（明確な）・extinguish（消す）・instinct（本能）と同根の stinguere を共有し、「刺すように点を打って区別する」というイメージを持つ。\n\n英語には15世紀に採用され、「二つ以上のものの差異を見分ける・際立った特徴を持つ」の意味で定着。論理学・日常語・学術で distinguish between A and B（AとBを区別する）・distinguished professor（著名な教授）・distinguish yourself（際立った業績を上げる）のように使われる多義語として機能する。\n\n現代英語では distinguished guest（著名なゲスト）・distinguishing feature（特徴）のように「卓越・識別」の両意味で使われ、undistinguished（平凡な）という否定形も日常語として定着している。",
+      derivatives: [
+        { word: "distinct",         desc: "明確に異なる（形容詞）" },
+        { word: "distinction",      desc: "区別・優秀さ（名詞）" },
+        { word: "distinguished",    desc: "著名な・卓越した（形容詞）" }
+      ],
+      family: [
+        { word: "extinguish",  desc: "消す（ex+stinguere）" },
+        { word: "instinct",    desc: "本能（in+stinguere）" }
+      ],
+      compounds: [
+        { phrase: "distinguish between",     desc: "〜を区別する" },
+        { phrase: "distinguished professor", desc: "著名な教授" },
+        { phrase: "distinguishing feature",  desc: "特徴・識別特性" }
+      ]
+    },
+
+    "illustrate": {
+      origin: "ラテン語 illustrare（光を当てる・明らかにする）< in-（中に）+ lustrare（光で照らす）< lustrum（光・浄め）。「図解する・例示する・挿絵を入れる」が原義。illustrious（著名な）・luster（輝き）・illuminate（照らす）と同根の lustrare を共有し、「光を当てて見えるようにする」というイメージを持つ。\n\n英語には16世紀に採用され、「例・図・絵を使って説明をわかりやすくする」の意味で定着。教育・デザイン・学術で illustrate a concept（概念を図解する）・illustrated book（挿絵本）・to illustrate this point（この点を説明すると）のように使われる重要語として機能する。\n\n現代英語では the following example illustrates（次の例が示すように）という論文・プレゼンの定型表現で頻出し、illustration（挿絵・例示）という名詞形も academic writing の標準語として機能する。",
+      derivatives: [
+        { word: "illustration",   desc: "挿絵・例示（名詞）" },
+        { word: "illustrative",   desc: "説明的な・典型的な（形容詞）" },
+        { word: "illustrator",    desc: "イラストレーター（名詞）" }
+      ],
+      family: [
+        { word: "illuminate",    desc: "照らす（in+lustrare）" },
+        { word: "illustrious",   desc: "著名な（illustrare）" },
+        { word: "luster",        desc: "輝き（lustrum）" }
+      ],
+      compounds: [
+        { phrase: "illustrate a concept",  desc: "概念を図解する" },
+        { phrase: "illustrated book",      desc: "挿絵本" },
+        { phrase: "to illustrate",         desc: "例として示すと" }
+      ]
+    },
+
+    "compete": {
+      origin: "ラテン語 competere（共に求める・一致する）< com-（共に）+ petere（求める・目指す）。「競争する・競う」が原義。petition（請願）・compete（競争する）・appetite（食欲）・perpetual（永続的な）と同根の petere を共有し、「同じものを共に目指す」というイメージを持つ。\n\n英語には16世紀に採用され、「同じ目標を目指して争う・価格・品質で対抗する」の意味で定着。経済・スポーツ・日常語で compete for a job（職を競う）・compete in the market（市場で競合する）・unable to compete（競争できない）のように使われる基本動詞として機能する。\n\n現代英語では competitive advantage（競争優位性）・competitive market（競争市場）・hypercompetitive（激しく競争的な）のように経済・ビジネス・教育で頻用され、competitiveness（競争力）という名詞形は国際競争力・産業政策の核心語として機能する。",
+      derivatives: [
+        { word: "competition",    desc: "競争・競技（名詞）" },
+        { word: "competitive",    desc: "競争的な・競争力のある（形容詞）" },
+        { word: "competitor",     desc: "競合者・ライバル（名詞）" }
+      ],
+      family: [
+        { word: "petition",   desc: "請願（petere）" },
+        { word: "appetite",   desc: "食欲（ad+petere）" },
+        { word: "repeat",     desc: "繰り返す（re+petere）" }
+      ],
+      compounds: [
+        { phrase: "competitive advantage",   desc: "競争優位性" },
+        { phrase: "compete for a job",       desc: "職を競う" },
+        { phrase: "price competition",       desc: "価格競争" }
+      ]
+    },
+
+    "cooperate": {
+      origin: "ラテン語 cooperari（共に働く）< co-（共に）+ operari（働く）< opus（仕事・作品）+ -ate（動詞接尾辞）。「協力する・共同作業する」が原義。operation（操作）・opus（作品）・operate（操作する）と同根の opus を共有し、「共に仕事をする」というイメージを持つ。\n\n英語には17世紀に採用され、「共通の目的のために共に働く」の意味で定着。国際関係・ビジネス・日常語で cooperate with authorities（当局に協力する）・international cooperation（国際協力）・fail to cooperate（協力しない）のように使われる基本動詞として機能する。\n\n現代英語では cooperation（協力）・cooperative（協同組合・協力的な）という派生語群が経済・外交・組織論で重要語として機能し、non-cooperative behavior（非協力的行動）はゲーム理論の専門語としても使われる。",
+      derivatives: [
+        { word: "cooperation",   desc: "協力・協調（名詞）" },
+        { word: "cooperative",   desc: "協力的な・協同組合（形容詞・名詞）" },
+        { word: "uncooperative", desc: "非協力的な（否定形）" }
+      ],
+      family: [
+        { word: "operate",   desc: "操作する・手術する（opus）" },
+        { word: "operation", desc: "操作・手術（opus）" },
+        { word: "opus",      desc: "作品・大作（ラテン語）" }
+      ],
+      compounds: [
+        { phrase: "international cooperation",  desc: "国際協力" },
+        { phrase: "cooperate with authorities", desc: "当局に協力する" },
+        { phrase: "spirit of cooperation",      desc: "協力の精神" }
+      ]
+    },
+
+    "separate": {
+      origin: "ラテン語 separare（離れて置く）< se-（離れて）+ parare（準備する・整える）+ -ate（動詞接尾辞）。「分ける・分離する・別々の」が原義。prepare（準備する）・repair（修繕する）・compare（比較する）と同根の parare を共有し、「切り離して整える」というイメージを持つ。\n\n英語には15世紀に採用され、「二つ以上のものを物理的・概念的に分ける」の意味で定着。日常語・法律・化学で separate into groups（グループに分ける）・separate the issues（問題を切り分ける）・legally separated（法的に別居している）のように使われる基本語として機能する。\n\n現代英語ではseparation of powers（権力分立）という憲法の核心概念や、separation anxiety（分離不安）という心理学用語でも機能し、名詞・形容詞・動詞として三品詞で頻用される多機能語となっている。",
+      derivatives: [
+        { word: "separation",   desc: "分離・別居（名詞）" },
+        { word: "separately",   desc: "別々に（副詞）" },
+        { word: "inseparable",  desc: "不可分の（否定形）" }
+      ],
+      family: [
+        { word: "prepare",  desc: "準備する（prae+parare）" },
+        { word: "compare",  desc: "比較する（com+parare）" },
+        { word: "repair",   desc: "修繕する（re+parare）" }
+      ],
+      compounds: [
+        { phrase: "separation of powers", desc: "権力分立" },
+        { phrase: "separate into groups", desc: "グループに分ける" },
+        { phrase: "separation anxiety",   desc: "分離不安" }
+      ]
+    },
+
+    "estimate": {
+      origin: "ラテン語 aestimare（評価する・価値を測る）< aes（金属・銅貨）+ -ate（動詞接尾辞）。「推定する・見積もる・評価する」が原義。esteem（尊重する）・inestimable（計り知れない）と同根で、「古代ローマで銅貨によって物の価値を評価した」ことに由来する。\n\n英語には16世紀に採用され、「正確なデータなしに計算・判断する」の意味で定着。数学・工学・ビジネスで estimate the cost（コストを見積もる）・rough estimate（概算）・conservative estimate（控えめな見積もり）のように「近似的な計算・評価」を示す重要語として機能する。\n\n現代英語ではproject estimation（プロジェクト見積もり）・cost estimate（費用概算）・estimation error（推定誤差）のようにビジネス・統計で重要語として機能し、I estimate that…（〜と推定される）という日常的表現でも頻用される。",
+      derivatives: [
+        { word: "estimation",  desc: "推定・評価（名詞）" },
+        { word: "overestimate", desc: "過大評価する（動詞）" },
+        { word: "underestimate", desc: "過小評価する（動詞）" }
+      ],
+      family: [
+        { word: "esteem",       desc: "尊重する・評価（aestimare）" },
+        { word: "inestimable",  desc: "計り知れない（否定形）" }
+      ],
+      compounds: [
+        { phrase: "rough estimate",       desc: "概算" },
+        { phrase: "cost estimate",        desc: "費用概算" },
+        { phrase: "conservative estimate", desc: "控えめな見積もり" }
+      ]
+    },
+
+    "operate": {
+      origin: "ラテン語 operari（働く・機能する）< opus（仕事・作品）+ -ate（動詞接尾辞）。「操作する・運営する・手術する」が原義。operation（操作・手術）・cooperate（協力する）・opus（作品）と同根の opus を共有し、「仕事として機能させる」というイメージを持つ。\n\n英語には17世紀に採用され、「機械・組織・外科的手術を機能させる・実行する」の意味で定着。医療・工学・ビジネスで operate a machine（機械を操作する）・operate a business（事業を運営する）・operate on a patient（患者を手術する）のように幅広く使われる基本動詞として機能する。\n\n現代英語ではoperating system（OS）・operating costs（運営費）・operating room（手術室）のように IT・ビジネス・医療の三分野で重要語として機能し、operator（オペレーター）という派生語も様々な専門家を指す語として広く使われる。",
+      derivatives: [
+        { word: "operation",   desc: "操作・手術・作戦（名詞）" },
+        { word: "operational", desc: "運営の・稼働中の（形容詞）" },
+        { word: "operator",    desc: "オペレーター・操作者（名詞）" }
+      ],
+      family: [
+        { word: "cooperate",  desc: "協力する（co+opus）" },
+        { word: "opus",       desc: "作品（ラテン語）" }
+      ],
+      compounds: [
+        { phrase: "operating system",  desc: "オペレーティングシステム（OS）" },
+        { phrase: "operating costs",   desc: "運営費" },
+        { phrase: "operating room",    desc: "手術室" }
+      ]
+    },
+
+    "celebrate": {
+      origin: "ラテン語 celebrare（多くの人が集まる・称える）< celeber（賑やかな・有名な）+ -ate（動詞接尾辞）。「祝う・称賛する」が原義。celebrity（有名人）・celebrated（名高い）と同根の celeber を共有し、「大勢の人を集めて称える」というイメージを持つ。\n\n英語には15世紀に採用され、「特別な出来事・日を喜んで記念する・称賛する」の意味で定着。日常語・宗教・文化で celebrate a birthday（誕生日を祝う）・celebrate achievement（業績を称える）・celebrate diversity（多様性を讃える）のように幅広く使われる基本動詞として機能する。\n\n現代英語では celebrate success（成功を祝う）・worth celebrating（祝う価値がある）のように日常・ビジネスで頻用され、celebrity culture（セレブ文化）という現代の pop culture 現象の語根語としても機能する。",
+      derivatives: [
+        { word: "celebration",  desc: "祝い・祝典（名詞）" },
+        { word: "celebrated",   desc: "名高い・著名な（形容詞）" },
+        { word: "celebrity",    desc: "有名人（名詞）" }
+      ],
+      family: [
+        { word: "celebrity",   desc: "有名人（celeber）" },
+        { word: "illustrious", desc: "著名な（illustrare）" }
+      ],
+      compounds: [
+        { phrase: "celebrate a birthday",  desc: "誕生日を祝う" },
+        { phrase: "celebrate diversity",   desc: "多様性を讃える" },
+        { phrase: "worth celebrating",     desc: "祝う価値がある" }
+      ]
+    },
+
+    "appreciate": {
+      origin: "ラテン語 appretiare（価値を認める）< ad-（〜に）+ pretium（価格・価値）+ -ate（動詞接尾辞）。「感謝する・価値を認める・値上がりする」が原義。price（価格）・precious（貴重な）・praise（称賛する）と同根の pretium を共有し、「価値を認識する」というイメージを持つ。\n\n英語には15世紀に採用され、「感謝する・真価を認める・価値が上がる（経済的）」という三義で定着。日常語・ビジネス・金融で appreciate your help（助けに感謝する）・appreciate fine art（芸術を鑑賞する）・property appreciates（不動産が値上がりする）のように使われる重要動詞として機能する。\n\n現代英語では I really appreciate it（本当に感謝します）という日常的感謝表現と、appreciate a problem（問題を理解する）という「価値や重要性を理解する」意味での使用が並立して頻出する語となっている。",
+      derivatives: [
+        { word: "appreciation",   desc: "感謝・鑑賞・値上がり（名詞）" },
+        { word: "appreciative",   desc: "感謝している・鑑賞力のある（形容詞）" },
+        { word: "unappreciated",  desc: "評価されない（否定形）" }
+      ],
+      family: [
+        { word: "price",    desc: "価格（pretium）" },
+        { word: "precious", desc: "貴重な（pretium）" },
+        { word: "praise",   desc: "称賛する（pretium）" }
+      ],
+      compounds: [
+        { phrase: "appreciate your help",    desc: "助けに感謝する" },
+        { phrase: "capital appreciation",    desc: "資本の値上がり" },
+        { phrase: "music appreciation",      desc: "音楽鑑賞" }
+      ]
+    },
+
+    "concentrate": {
+      origin: "ラテン語 concentrare（中心に集める）< con-（共に）+ centrum（中心）+ -ate（動詞接尾辞）。「集中する・濃縮する」が原義。center（中心）・central（中心の）・eccentric（風変わりな）と同根の centrum を共有し、「中心に向けて一点に集める」というイメージを持つ。\n\n英語には17世紀に採用され、「注意・力・物質を一点に集める」の意味で定着。化学・心理学・軍事で concentrate on…（〜に集中する）・concentrated solution（濃縮溶液）・concentrate troops（部隊を集中する）のように使われる多義語として機能する。\n\n現代英語ではconcentration camp（強制収容所）という歴史的専門語から、concentration span（集中持続時間）・lack of concentration（集中力不足）という心理・教育語彙まで幅広く使われる語となっている。",
+      derivatives: [
+        { word: "concentration",   desc: "集中・濃度（名詞）" },
+        { word: "concentrated",    desc: "集中した・濃縮された（形容詞）" }
+      ],
+      family: [
+        { word: "center",     desc: "中心（centrum）" },
+        { word: "central",    desc: "中心の（centrum）" },
+        { word: "eccentric",  desc: "中心からずれた・風変わりな（ex+centrum）" }
+      ],
+      compounds: [
+        { phrase: "concentrate on",      desc: "〜に集中する" },
+        { phrase: "concentration camp",  desc: "強制収容所" },
+        { phrase: "lack of concentration", desc: "集中力不足" }
+      ]
+    },
+
+    "organize": {
+      origin: "中世ラテン語 organizare（楽器を演奏する・体を成す）< organum（器官・道具・楽器）< ギリシャ語 organon（道具・楽器）+ -ize（動詞接尾辞）。「組織する・整理する」が原義。organ（器官・オルガン）・organic（有機的な）と同根の organon を共有し、「各部品が協調して機能するように整える」というイメージを持つ。\n\n英語には17世紀に採用され、「人・物・情報を目的に合わせて体系的に整える」の意味で定着。ビジネス・政治・日常語で organize a team（チームを組織する）・organize information（情報を整理する）・labor organizer（労働組合のオルガナイザー）のように使われる基本動詞として機能する。\n\n現代英語では self-organized（自己組織化した）・well-organized（よく組織された）のような形容詞形と、organizational structure（組織構造）・organizational behavior（組織行動）のような複合語が経営学の核心語として機能する。",
+      derivatives: [
+        { word: "organization",  desc: "組織・機関（名詞）" },
+        { word: "organizational", desc: "組織の（形容詞）" },
+        { word: "organizer",     desc: "主催者・手帳（名詞）" }
+      ],
+      family: [
+        { word: "organ",    desc: "器官・オルガン（organon）" },
+        { word: "organic",  desc: "有機的な（organon）" }
+      ],
+      compounds: [
+        { phrase: "organize a team",          desc: "チームを組織する" },
+        { phrase: "organizational structure", desc: "組織構造" },
+        { phrase: "labor organizer",          desc: "労働組合のオルガナイザー" }
+      ]
+    },
+
+    "emphasize": {
+      origin: "ギリシャ語 emphasis（強調・目に見えること）< em-（中に）+ phainein（示す）+ -ize（動詞接尾辞）。「強調する・力説する」が原義。emphasis（強調）・emphatic（強調的な）・phenomenon（現象）・fantasy（幻想）と同根の phainein を共有し、「見えるように際立たせて示す」というイメージを持つ。\n\n英語には17世紀に採用され、「特定の点・重要性を際立たせて注意を引く」の意味で定着。教育・修辞学・日常語で emphasize the importance（重要性を強調する）・emphasize a point（要点を力説する）のように使われる基本動詞として機能する。\n\n現代英語ではwe cannot overemphasize…（〜をいくら強調してもし過ぎない）という強調の定型表現で頻出し、emphasis on results（結果重視）・place emphasis on…（〜を重視する）という表現もビジネス・教育で頻用される。",
+      derivatives: [
+        { word: "emphasis",    desc: "強調・重点（名詞）" },
+        { word: "emphatic",    desc: "強調的な・断固とした（形容詞）" },
+        { word: "emphatically", desc: "強調して・断固として（副詞）" }
+      ],
+      family: [
+        { word: "phenomenon",  desc: "現象（phainein）" },
+        { word: "fantasy",     desc: "幻想（phainein）" },
+        { word: "phase",       desc: "段階・局面（phainein）" }
+      ],
+      compounds: [
+        { phrase: "place emphasis on",       desc: "〜を重視する" },
+        { phrase: "emphasize the importance", desc: "重要性を強調する" },
+        { phrase: "special emphasis",        desc: "特別な強調" }
+      ]
+    },
+
+    "analyze": {
+      origin: "ギリシャ語 analyein（解体する）< ana-（上に・通して）+ lyein（解く・解放する）+ -ize（動詞接尾辞）。「分析する・解析する」が原義。analysis（分析）・paralysis（麻痺）・catalyst（触媒）と同根の lyein を共有し、「複合体を個々の部分に解いて調べる」というイメージを持つ。\n\n英語には17世紀に採用され、「複雑なものを構成要素に分けて性質・関係を調べる」の意味で定着。科学・数学・ビジネスで analyze data（データを分析する）・analyze the situation（状況を分析する）・critically analyze（批判的に分析する）のように幅広く使われる重要動詞として機能する。\n\n現代英語ではdata analyst（データアナリスト）・business analysis（ビジネス分析）・psychoanalysis（精神分析）という派生語群がデータサイエンス・ビジネス・心理学の核心語として機能し、analytics（アナリティクス）という現代用語の語源語となっている。",
+      derivatives: [
+        { word: "analysis",   desc: "分析（名詞）" },
+        { word: "analyst",    desc: "アナリスト（名詞）" },
+        { word: "analytical", desc: "分析的な（形容詞）" }
+      ],
+      family: [
+        { word: "paralysis",  desc: "麻痺（para+lyein）" },
+        { word: "catalyst",   desc: "触媒（kata+lyein）" },
+        { word: "dialysis",   desc: "透析（dia+lyein）" }
+      ],
+      compounds: [
+        { phrase: "analyze data",     desc: "データを分析する" },
+        { phrase: "cost-benefit analysis", desc: "費用便益分析" },
+        { phrase: "SWOT analysis",    desc: "SWOT分析" }
+      ]
+    },
+
+    "minimize": {
+      origin: "ラテン語 minimus（最も小さい）+ -ize（動詞接尾辞）。「最小化する・軽視する」が原義。minimum（最小）・minor（小さい）・minute（分・微小な）・diminish（減らす）と同根の minus を共有し、「可能な限り小さくする」というイメージを持つ。\n\n英語には17世紀に採用され、「できるだけ小さくする・重要性を低く見せる」の意味で定着。数学・ビジネス・日常語で minimize risk（リスクを最小化する）・minimize costs（コストを最小化する）・minimize a window（ウィンドウを最小化する）のように使われる基本動詞として機能する。\n\n現代英語ではコンピュータ操作のminimize a window（ウィンドウを最小化する）というIT操作語として日常化しており、risk minimization（リスク最小化）・minimize the damage（被害を最小化する）のようにビジネス・危機管理で頻用される。",
+      derivatives: [
+        { word: "minimum",      desc: "最小・最小限（名詞・形容詞）" },
+        { word: "minimization", desc: "最小化（名詞）" },
+        { word: "minimal",      desc: "最小限の（形容詞）" }
+      ],
+      family: [
+        { word: "minimum",  desc: "最小（minus）" },
+        { word: "minor",    desc: "小さい・未成年（minus）" },
+        { word: "diminish", desc: "減らす（de+minus）" }
+      ],
+      compounds: [
+        { phrase: "minimize risk",    desc: "リスクを最小化する" },
+        { phrase: "minimize costs",   desc: "コストを最小化する" },
+        { phrase: "bare minimum",     desc: "最低限" }
+      ]
+    },
+
+    "maximize": {
+      origin: "ラテン語 maximus（最も大きい）+ -ize（動詞接尾辞）。「最大化する・最大限に活用する」が原義。maximum（最大）・major（大きい）・magnitude（規模）と同根の magnus を共有し、「可能な限り大きくする」というイメージを持つ。\n\n英語には18世紀に採用され、「可能な範囲で最大の成果・利益を得る」の意味で定着。数学・経済学・ビジネスで maximize profit（利益を最大化する）・maximize efficiency（効率を最大化する）のように使われる基本動詞として機能する。\n\n現代英語ではmaximize shareholder value（株主価値の最大化）という経営の中心的概念語として機能するとともに、maximize your potential（潜在能力を最大限に発揮する）という自己啓発・コーチングの定型表現でも頻出する重要語となっている。",
+      derivatives: [
+        { word: "maximum",      desc: "最大・最大限（名詞・形容詞）" },
+        { word: "maximization", desc: "最大化（名詞）" }
+      ],
+      family: [
+        { word: "maximum",    desc: "最大（magnus）" },
+        { word: "major",      desc: "大きい・専攻（magnus）" },
+        { word: "magnitude",  desc: "規模・大きさ（magnus）" }
+      ],
+      compounds: [
+        { phrase: "maximize profit",     desc: "利益を最大化する" },
+        { phrase: "maximize efficiency", desc: "効率を最大化する" },
+        { phrase: "maximize potential",  desc: "潜在能力を最大限に発揮する" }
+      ]
+    },
+
+    "optimize": {
+      origin: "ラテン語 optimus（最善の）+ -ize（動詞接尾辞）。「最適化する・最良化する」が原義。optimism（楽観主義）・optimum（最適の）・option（選択肢）と同根の optimus を共有し、「可能な最良の状態にする」というイメージを持つ。\n\n英語には19世紀に採用され、20世紀後半のコンピュータ科学・運用研究の発展とともに「目的関数を最大・最小化する・最も効率的な状態にする」という意味で急速に普及した。IT・ビジネス・スポーツで optimize performance（パフォーマンスを最適化する）・search engine optimization（検索エンジン最適化）のように使われる重要動詞として機能する。\n\n現代英語では SEO（Search Engine Optimization）の略称として日常化しており、optimize the workflow（作業工程を最適化する）・conversion optimization（コンバージョン最適化）のようにデジタルマーケティング・データサイエンスの核心語として機能する。",
+      derivatives: [
+        { word: "optimization",  desc: "最適化（名詞）" },
+        { word: "optimum",       desc: "最適の・最適条件（形容詞・名詞）" },
+        { word: "optimal",       desc: "最適な（形容詞）" }
+      ],
+      family: [
+        { word: "optimism",  desc: "楽観主義（optimus）" },
+        { word: "option",    desc: "選択肢（optimus）" },
+        { word: "optimist",  desc: "楽観主義者（optimus）" }
+      ],
+      compounds: [
+        { phrase: "search engine optimization", desc: "検索エンジン最適化（SEO）" },
+        { phrase: "optimize performance",       desc: "パフォーマンスを最適化する" },
+        { phrase: "optimization algorithm",     desc: "最適化アルゴリズム" }
+      ]
+    },
+
+    "prioritize": {
+      origin: "ラテン語 prior（前の・より重要な）+ -ity（名詞接尾辞）+ -ize（動詞接尾辞）。「優先する・優先順位をつける」が原義。priority（優先事項）・prior（事前の）・primacy（第一位）と同根の prior を共有し、「より前・より重要なものを先に置く」というイメージを持つ。\n\n英語には19世紀後半に採用され、20世紀のプロジェクト管理・時間管理の発展とともに「複数の課題の中で最も重要なものを先に行う」という意味で普及した。ビジネス・個人生活・医療で prioritize tasks（タスクを優先する）・prioritize patients（患者を優先順位で処置する）のように使われる重要動詞として機能する。\n\n現代英語では time management（時間管理）・productivity（生産性）の文脈で特に重要語として確立しており、strategic priorities（戦略的優先事項）・competing priorities（競合する優先事項）のような表現も組織管理の核心語として機能する。",
+      derivatives: [
+        { word: "priority",       desc: "優先事項・優先権（名詞）" },
+        { word: "prioritization", desc: "優先順位付け（名詞）" }
+      ],
+      family: [
+        { word: "prior",    desc: "事前の・以前の（prior）" },
+        { word: "primary",  desc: "第一の・基本的な（primus）" },
+        { word: "prime",    desc: "最盛期・素数（primus）" }
+      ],
+      compounds: [
+        { phrase: "prioritize tasks",       desc: "タスクを優先する" },
+        { phrase: "top priority",           desc: "最優先事項" },
+        { phrase: "competing priorities",   desc: "競合する優先事項" }
+      ]
+    },
+
+    "specialize": {
+      origin: "ラテン語 specialis（特別の）< species（種・外見）< specere（見る）+ -ize（動詞接尾辞）。「専門化する・特化する」が原義。special（特別な）・specific（特定の）・species（種）と同根の specere を共有し、「特定の種・分野だけを扱う」というイメージを持つ。\n\n英語には19世紀に採用され、「一つの専門分野に集中する・特定用途に特化する」の意味で定着。教育・医療・ビジネスで specialize in surgery（外科を専門とする）・specialized knowledge（専門知識）・highly specialized（高度に特化した）のように使われる重要動詞として機能する。\n\n現代英語では specialization（専門化）が経済・教育・進化生物学の核心概念として機能し、generalize（一般化する）との対比で「広く浅く vs. 狭く深く」という能力・戦略の議論でも頻用される語となっている。",
+      derivatives: [
+        { word: "specialization",  desc: "専門化・特化（名詞）" },
+        { word: "specialist",      desc: "専門家（名詞）" },
+        { word: "specialized",     desc: "専門化した・特化した（形容詞）" }
+      ],
+      family: [
+        { word: "special",   desc: "特別な（species）" },
+        { word: "specific",  desc: "特定の（species）" },
+        { word: "species",   desc: "種（specere）" }
+      ],
+      compounds: [
+        { phrase: "specialize in",       desc: "〜を専門とする" },
+        { phrase: "specialized knowledge", desc: "専門知識" },
+        { phrase: "area of specialization", desc: "専門分野" }
+      ]
+    },
+
+    "visualize": {
+      origin: "ラテン語 visus（視覚・見ること）< videre（見る）+ -al（形容詞接尾辞）+ -ize（動詞接尾辞）。「視覚化する・心に思い描く」が原義。vision（視力・ビジョン）・visible（見える）・revise（見直す）と同根の videre を共有し、「見えるようにする・心の中に映像を作る」というイメージを持つ。\n\n英語には19世紀後半に採用され、「見えないものを目に見える形で表現する・心の中に映像を作る」の意味で定着。データサイエンス・心理学・スポーツで visualize data（データを可視化する）・visualize success（成功を思い描く）・data visualization（データ可視化）のように使われる重要動詞として機能する。\n\n現代英語ではmental visualization（心的視覚化）がスポーツ心理学・自己啓発の技法として確立しており、data visualization（データ可視化）という情報設計の核心技術の語根語としても機能する重要語となっている。",
+      derivatives: [
+        { word: "visualization",  desc: "視覚化・可視化（名詞）" },
+        { word: "visual",         desc: "視覚の・映像（形容詞・名詞）" }
+      ],
+      family: [
+        { word: "vision",    desc: "視力・ビジョン（videre）" },
+        { word: "visible",   desc: "見える（videre）" },
+        { word: "revise",    desc: "見直す（re+videre）" }
+      ],
+      compounds: [
+        { phrase: "data visualization",    desc: "データ可視化" },
+        { phrase: "visualize success",     desc: "成功を思い描く" },
+        { phrase: "mental visualization",  desc: "心的視覚化" }
+      ]
+    },
+
+    "realize": {
+      origin: "ラテン語 realis（実際の）< res（物・事実）+ -al（形容詞接尾辞）+ -ize（動詞接尾辞）。「実現する・悟る・気づく」が原義。reality（現実）・real（本物の）・republic（共和国）と同根の res を共有し、「観念を実際の物・事実にする・または事実であると認識する」というイメージを持つ。\n\n英語には17世紀に採用され、「現実のものにする・理解・認識する」の意味で定着。日常語・哲学・音楽で realize a dream（夢を実現する）・suddenly realize（突然気づく）・realize a profit（利益を実現する）のように使われる多義語として機能する。\n\n現代英語では I just realized that…（〜だと気づいた）という日常的認識の表現として頻出し、realize one's potential（潜在能力を発揮する）・realize a goal（目標を達成する）という自己実現・ビジネスの表現でも広く使われる基本語となっている。",
+      derivatives: [
+        { word: "realization",  desc: "実現・気づき（名詞）" },
+        { word: "realistic",    desc: "現実的な（形容詞）" },
+        { word: "unrealized",   desc: "未実現の（否定形）" }
+      ],
+      family: [
+        { word: "reality",   desc: "現実（res）" },
+        { word: "real",      desc: "本物の（res）" },
+        { word: "republic",  desc: "共和国（res+publica）" }
+      ],
+      compounds: [
+        { phrase: "realize a dream",       desc: "夢を実現する" },
+        { phrase: "suddenly realize",      desc: "突然気づく" },
+        { phrase: "realize one's potential", desc: "潜在能力を発揮する" }
+      ]
+    },
+
+    "standardize": {
+      origin: "古フランス語 estandard（軍旗・基準）< ゲルマン語 standhard（しっかり立てられたもの）+ -ize（動詞接尾辞）。「標準化する・統一する」が原義。standard（標準・水準）・stand（立つ）と同根で、「一定の基準として立てたものに合わせる」というイメージを持つ。\n\n英語には19世紀後半の産業革命・大量生産の時代に採用され、「複数のものを同一の基準・仕様に合わせる」の意味で定着。製造・教育・国際規格でstandardize a product（製品を標準化する）・standardize procedures（手順を統一する）・international standardization（国際標準化）のように使われる重要動詞として機能する。\n\n現代英語ではISO（国際標準化機構）・API standard（APIの標準）のように技術・規格の文脈で頻用され、standardized test（標準化されたテスト）という教育評価語彙としても重要語として機能する。",
+      derivatives: [
+        { word: "standardization", desc: "標準化（名詞）" },
+        { word: "standardized",    desc: "標準化された（形容詞）" },
+        { word: "standard",        desc: "標準・基準（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "stand",       desc: "立つ（stand）" },
+        { word: "understand",  desc: "理解する（under+stand）" },
+        { word: "withstand",   desc: "耐える（with+stand）" }
+      ],
+      compounds: [
+        { phrase: "standardize procedures",   desc: "手順を統一する" },
+        { phrase: "standardized test",        desc: "標準化されたテスト" },
+        { phrase: "international standardization", desc: "国際標準化" }
+      ]
+    },
+
+    "categorize": {
+      origin: "ギリシャ語 kategoria（主張・帰属）< kata-（下に・について）+ agoreuein（公に述べる）+ -ize（動詞接尾辞）。「分類する・カテゴリーに入れる」が原義。category（カテゴリー）・categorical（断固とした）と同根のkategoriaを含み、「事物を明確な区分に属させる」というイメージを持つ。\n\n英語には19世紀に採用され、「物事を共通の特徴に基づいてグループに分類する」の意味で定着。図書館学・情報科学・心理学でcategorize information（情報を分類する）・automatically categorized（自動的に分類された）・categorize by type（種類で分類する）のように使われる重要動詞として機能する。\n\n現代英語では機械学習・AI でのclassification（分類）タスクの基本語として機能し、e-commerce のproduct categorization（商品分類）・spam categorization（スパム分類）のようにデジタルサービスの核心処理として重要性が増している。",
+      derivatives: [
+        { word: "categorization",  desc: "分類・カテゴリー化（名詞）" },
+        { word: "categorical",     desc: "断固とした・カテゴリーの（形容詞）" }
+      ],
+      family: [
+        { word: "category",   desc: "カテゴリー・範疇（名詞）" },
+        { word: "allegory",   desc: "寓意・アレゴリー（allo+agora）" }
+      ],
+      compounds: [
+        { phrase: "categorize information",  desc: "情報を分類する" },
+        { phrase: "product categorization",  desc: "商品分類" },
+        { phrase: "categorize by type",      desc: "種類で分類する" }
+      ]
+    },
+
+    "characterize": {
+      origin: "ギリシャ語 kharaktēr（刻み込まれた印・特徴）< kharassein（刻む・引っかく）+ -ize（動詞接尾辞）。「特徴づける・描写する」が原義。character（人物・文字・性格）・characteristic（特徴的な）と同根の kharaktēr を共有し、「刻み込まれた独自の特徴として示す」というイメージを持つ。\n\n英語には17世紀に採用され、「ある人・物の特徴的な性質を示す・ある性質を典型的特徴として帰属させる」の意味で定着。科学・文学・日常語でcharacterize a substance（物質の特性を示す）・characterized by…（〜を特徴とする）・broadly characterize（大まかに描写する）のように使われる重要動詞として機能する。\n\n現代英語では the period is characterized by…（この時期は〜を特徴とする）という歴史・社会分析の定型表現として学術で頻出し、characterization（人物描写・特性評価）という名詞形も文学・科学で重要語として機能する。",
+      derivatives: [
+        { word: "characteristic",    desc: "特徴・特徴的な（名詞・形容詞）" },
+        { word: "characterization",  desc: "特性評価・人物描写（名詞）" }
+      ],
+      family: [
+        { word: "character",     desc: "性格・文字（kharaktēr）" },
+        { word: "charisma",      desc: "カリスマ（kharizesthai）" }
+      ],
+      compounds: [
+        { phrase: "characterized by",        desc: "〜を特徴とする" },
+        { phrase: "characterize a substance", desc: "物質の特性を示す" },
+        { phrase: "characterization study",   desc: "特性評価研究" }
+      ]
+    },
+
+    "summarize": {
+      origin: "ラテン語 summa（合計・要点）+ -ize（動詞接尾辞）。「要約する・まとめる」が原義。summary（要約）・sum（合計）・summit（頂上）・consume（消費する）と同根の summa を共有し、「最も高い・重要な部分だけを取り出す」というイメージを持つ。\n\n英語には17世紀に採用され、「長い内容の要点を簡潔にまとめる」の意味で定着。学術・ビジネス・教育でsummarize a report（報告書を要約する）・to summarize…（要約すると…）・briefly summarize（手短にまとめる）のように使われる基本動詞として機能する。\n\n現代英語ではAI summarization（AI要約）・auto-summarize（自動要約）のように自然言語処理の重要タスクとして技術的重要性が増しており、in summary（要約すると）・executive summary（エグゼクティブサマリー）という表現もビジネス・学術で頻出する語となっている。",
+      derivatives: [
+        { word: "summary",     desc: "要約・サマリー（名詞）" },
+        { word: "summation",   desc: "総括・合計（名詞）" }
+      ],
+      family: [
+        { word: "sum",     desc: "合計（summa）" },
+        { word: "summit",  desc: "頂上・首脳会談（summa）" },
+        { word: "consume", desc: "消費する（con+summa）" }
+      ],
+      compounds: [
+        { phrase: "summarize a report",  desc: "報告書を要約する" },
+        { phrase: "in summary",          desc: "要約すると" },
+        { phrase: "executive summary",   desc: "エグゼクティブサマリー" }
+      ]
+    },
+
+    "authorize": {
+      origin: "ラテン語 auctor（創造者・権威者）< augere（増やす・成長させる）+ -ize（動詞接尾辞）。「認可する・権限を与える」が原義。authority（権威）・authentic（本物の）・author（著者）・augment（増大させる）と同根の augere を共有し、「権威・力を与えて認める」というイメージを持つ。\n\n英語には17世紀に採用され、「正式に許可・権限を与える・公式に認証する」の意味で定着。法律・IT・組織管理でauthorize a payment（支払いを承認する）・authorized personnel（許可された人員）・authorize access（アクセスを許可する）のように使われる重要動詞として機能する。\n\n現代英語ではcybersecurity の分野でauthorization（認可）はauthentication（認証）と区別される重要概念として確立しており、OAuth（オープン認可）・API authorization（API認可）のようにデジタルセキュリティの核心語として機能する。",
+      derivatives: [
+        { word: "authorization",  desc: "認可・許可（名詞）" },
+        { word: "authorized",     desc: "認可された・公認の（形容詞）" },
+        { word: "unauthorized",   desc: "無許可の（否定形）" }
+      ],
+      family: [
+        { word: "authority",  desc: "権威・当局（augere）" },
+        { word: "authentic",  desc: "本物の（augere）" },
+        { word: "augment",    desc: "増大させる（augere）" }
+      ],
+      compounds: [
+        { phrase: "authorize a payment",    desc: "支払いを承認する" },
+        { phrase: "authorized personnel",   desc: "許可された人員" },
+        { phrase: "API authorization",      desc: "API認可" }
+      ]
+    },
+
+    "mobilize": {
+      origin: "フランス語 mobiliser（動かす・動員する）< ラテン語 mobilis（動かせる）< movere（動く）+ -ize（動詞接尾辞）。「動員する・結集させる・活動させる」が原義。mobile（移動式の）・movement（動き）・emotion（感情）と同根の movere を共有し、「動くことができる状態にする・総動員する」というイメージを持つ。\n\n英語には19世紀に軍事用語として採用され、「軍隊・資源・支持者を特定の目的のために集める・動かす」の意味で定着。政治・社会運動・医療でmobilize support（支持を動員する）・mobilize resources（資源を結集する）・mobilize troops（軍隊を動員する）のように使われる重要動詞として機能する。\n\n現代英語ではcommunity mobilization（地域動員）・mobilize public opinion（世論を動員する）のように社会運動・政治の語彙として機能し、mobile banking（モバイルバンキング）・mobile workforce（移動労働力）という派生語も現代の重要語として定着している。",
+      derivatives: [
+        { word: "mobilization",  desc: "動員・結集（名詞）" },
+        { word: "mobile",        desc: "移動式の・スマートフォン（形容詞・名詞）" }
+      ],
+      family: [
+        { word: "mobile",    desc: "移動式の（movere）" },
+        { word: "movement",  desc: "動き・運動（movere）" },
+        { word: "emotion",   desc: "感情（e+movere）" }
+      ],
+      compounds: [
+        { phrase: "mobilize support",       desc: "支持を動員する" },
+        { phrase: "mobilize resources",     desc: "資源を結集する" },
+        { phrase: "community mobilization", desc: "地域動員" }
+      ]
+    },
+
+    "stabilize": {
+      origin: "ラテン語 stabilis（安定した）< stare（立つ・止まる）+ -ize（動詞接尾辞）。「安定させる・固定する」が原義。stable（安定した）・establish（確立する）・substance（物質）・constant（一定の）と同根の stare を共有し、「動かない状態を作り出す」というイメージを持つ。\n\n英語には18世紀に採用され、「不安定な状態を安定した状態にする」の意味で定着。経済・医療・政治でstabilize the economy（経済を安定させる）・stabilize a patient（患者の状態を安定させる）・political stabilization（政治的安定化）のように使われる重要動詞として機能する。\n\n現代英語ではimage stabilization（手ぶれ補正）という写真・映像技術から、stabilize currency（通貨を安定させる）・stabilize a conflict（紛争を安定させる）という政策・外交語彙まで幅広く使われる語となっている。",
+      derivatives: [
+        { word: "stabilization",  desc: "安定化（名詞）" },
+        { word: "stability",      desc: "安定性（名詞）" },
+        { word: "unstable",       desc: "不安定な（否定形）" }
+      ],
+      family: [
+        { word: "stable",     desc: "安定した（stare）" },
+        { word: "establish",  desc: "確立する（ex+stare）" },
+        { word: "constant",   desc: "一定の（con+stare）" }
+      ],
+      compounds: [
+        { phrase: "stabilize the economy",  desc: "経済を安定させる" },
+        { phrase: "image stabilization",    desc: "手ぶれ補正" },
+        { phrase: "political stabilization", desc: "政治的安定化" }
+      ]
     }
 
   };

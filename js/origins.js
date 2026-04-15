@@ -6325,6 +6325,375 @@
         { phrase: "make a spectacle",     desc: "見世物になる・みっともない姿をさらす" },
         { phrase: "spectacular view",     desc: "壮観な眺め" }
       ]
+    },
+
+    // ── spirare系（息をする・精神）──
+    "spirit": {
+      origin: "ラテン語 spiritus（息・呼吸・魂・精神）< spirare（息をする・吹く）。「息」が「生命の源・魂」とみなされた古代の観念に由来し、聖書のラテン語訳（Vulgate）で Spiritus Sanctus（聖霊）として使われたことで宗教的な含意が深まった。\n\n13世紀の英語に入り「精神・魂・元気・気分」という意味の名詞として定着。team spirit（チームの士気）、spirit of the law（法の精神）、in good spirits（元気な状態で）のように、内面的な活力・意志を表す多義語として英語に深く根付いている。\n\n蒸留酒（spirits）もこの語から来ており、「アルコールの精気」という比喩的な意味でウイスキー・ウォッカなどの総称に使われる。",
+      derivatives: [
+        { word: "spiritual",    desc: "精神的な・霊的な（形容詞）" },
+        { word: "spiritually",  desc: "精神的に・霊的に（副詞）" },
+        { word: "spirited",     desc: "元気な・活発な（形容詞）" }
+      ],
+      family: [
+        { word: "inspire",      desc: "鼓舞する・インスピレーションを与える（in- + spirare）" },
+        { word: "aspire",       desc: "切望する・目指す（ad- + spirare）" },
+        { word: "expire",       desc: "期限が切れる・息を引き取る（ex- + spirare）" },
+        { word: "conspire",     desc: "共謀する（con- 共に + spirare）" }
+      ],
+      compounds: [
+        { phrase: "team spirit",      desc: "チームスピリット・連帯感" },
+        { phrase: "spirit of the law", desc: "法の精神（字義通りではなく意図）" }
+      ]
+    },
+
+    "inspire": {
+      origin: "ラテン語 inspirare（息を吹き込む）< in-（中に）+ spirare（息をする）。「神が人の内部に息を吹き込んで創造する・活力を与える」という創世記の概念が語源で、聖書的な「神の啓示・神がかった創造力」を指した。\n\n14世紀の英語に入り「（人・作品が）創造力・意欲を刺激する・感化する」という動詞として定着。inspire someone to do（〜する気を起こさせる）、feel inspired（インスパイアされた）のように使われる。\n\ninspiration（インスピレーション）は「突然の閃き・霊感」を指し、芸術・発明・ビジネスにおける創造のプロセスを語る際の核心語。",
+      derivatives: [
+        { word: "inspiration",   desc: "霊感・インスピレーション・名案（名詞）" },
+        { word: "inspiring",     desc: "感動的な・やる気を起こさせる（形容詞）" },
+        { word: "inspirational", desc: "感化を与える・インスピレーショナルな" }
+      ],
+      family: [
+        { word: "spirit",        desc: "精神・魂・元気（spiritus）" },
+        { word: "aspire",        desc: "切望する（ad- + spirare）" },
+        { word: "expire",        desc: "期限が切れる（ex- + spirare）" },
+        { word: "perspire",      desc: "汗をかく（per- + spirare）" }
+      ],
+      compounds: [
+        { phrase: "inspire confidence",  desc: "信頼感を与える" },
+        { phrase: "a source of inspiration", desc: "インスピレーションの源" }
+      ]
+    },
+
+    "aspire": {
+      origin: "ラテン語 aspirare（息を向ける・熱望する）< ad-（〜へ向けて）+ spirare（息をする）。「ある目標に向けて息を送る＝心を向ける＝熱望する」というのが語源的なイメージ。\n\n15世紀の英語に入り「（高い目標を）切望する・志す」という動詞として定着。aspire to be（〜になりたい）、aspire to greatness（偉大さを目指す）のように使われる。\n\nascent（上昇中の）と同じ語根を持ち、「aspirant（志願者）」という名詞も派生する。aspiration（大志・志望・熱望）は個人の目標・夢を語る際の重要語で、career aspirations（キャリアの志望）のような形でよく使われる。",
+      derivatives: [
+        { word: "aspiration",   desc: "大志・志望・熱望・夢（名詞）" },
+        { word: "aspirational", desc: "高い目標を持つ・向上心のある（形容詞）" },
+        { word: "aspirant",     desc: "志願者・志望者（名詞）" }
+      ],
+      family: [
+        { word: "spirit",       desc: "精神・魂（spiritus）" },
+        { word: "inspire",      desc: "鼓舞する（in- + spirare）" },
+        { word: "expire",       desc: "期限が切れる（ex- + spirare）" },
+        { word: "conspire",     desc: "共謀する（con- + spirare）" }
+      ],
+      compounds: [
+        { phrase: "aspire to be",       desc: "〜になりたいと切望する" },
+        { phrase: "career aspirations", desc: "キャリアへの抱負・志望" }
+      ]
+    },
+
+    "expire": {
+      origin: "ラテン語 expirare（息を吐き出す・死ぬ）< ex-（外へ）+ spirare（息をする）。「最後の息を吐き出す＝息が絶える＝死ぬ・終わる」というのが語源的な意味。\n\n15世紀の英語に入り「（1）命が尽きる・息を引き取る（格式）」と「（2）有効期限が切れる」という二義で使われる。日常の場面では契約・保険・パスポート・クーポンなどの「期限切れ」を表す語として非常に高頻度。\n\nexpiry（期限・満了）は英国英語で、expiration は主に米国英語で使われる。expiration date / best-before date（賞味期限）は食品ラベルの基本英語表現。",
+      derivatives: [
+        { word: "expiry",        desc: "期限・満了（英国英語の名詞形）" },
+        { word: "expiration",    desc: "期限切れ・満了（米国英語の名詞形）" }
+      ],
+      family: [
+        { word: "spirit",        desc: "精神・魂（spiritus）" },
+        { word: "inspire",       desc: "鼓舞する（in- + spirare）" },
+        { word: "aspire",        desc: "切望する（ad- + spirare）" },
+        { word: "respire",       desc: "呼吸する（re- + spirare）" }
+      ],
+      compounds: [
+        { phrase: "expiration date", desc: "有効期限・賞味期限" },
+        { phrase: "expire at midnight", desc: "真夜中に期限が切れる" }
+      ]
+    },
+
+    "conspire": {
+      origin: "ラテン語 conspirare（共に息をする・共謀する）< con-（共に）+ spirare（息をする）。「同じ息をする仲間＝秘密を共有する仲間＝共謀する」というのが語源的な意味の発展。\n\n14世紀の英語に入り「不正な目的のために密かに共謀する・陰謀を企てる」という動詞として定着。conspire against（〜に対して陰謀を企てる）、conspiracy theory（陰謀論）は重要な関連表現。\n\ncompare と似た語根だが意味が異なることに注意。"Everything seemed to conspire against us."（すべてが私たちに不利に働いているようだった）のように、意図を持たない「状況が不利に重なる」という比喩にも使われる。",
+      derivatives: [
+        { word: "conspiracy",    desc: "陰謀・共謀・謀略（名詞）" },
+        { word: "conspirator",   desc: "共謀者・陰謀の参加者" },
+        { word: "conspiratorial", desc: "陰謀的な・共謀の（形容詞）" }
+      ],
+      family: [
+        { word: "spirit",       desc: "精神・魂（spiritus）" },
+        { word: "inspire",      desc: "鼓舞する（in- + spirare）" },
+        { word: "aspire",       desc: "切望する（ad- + spirare）" }
+      ],
+      compounds: [
+        { phrase: "conspiracy theory",  desc: "陰謀論" },
+        { phrase: "conspire against",   desc: "〜に対して陰謀を企てる" }
+      ]
+    },
+
+    // ── fort / forc系（強い）──
+    "force": {
+      origin: "ラテン語 fortis（強い）の俗ラテン語派生形 fortia を経てフランス語 force となり、13世紀に英語に入った。インド・ヨーロッパ語根 *bhergh-（高い・強い）とも遠縁にある。\n\n「物理的な力・暴力・強制力」から「軍隊・警察などの組織的な力」まで幅広く使われる。動詞では「強制する・力ずくで行う」を意味し、force someone to do（〜することを強制する）が基本構文。\n\n物理学では force（力）はニュートンの運動法則の基本概念で、F = ma という式に表される。the Force（スター・ウォーズの「フォース」）のような大衆文化での用法も有名。",
+      derivatives: [
+        { word: "forceful",     desc: "力強い・説得力のある（形容詞）" },
+        { word: "forcibly",     desc: "力ずくで・強制的に（副詞）" },
+        { word: "enforce",      desc: "施行する・強制する（en- + force）" }
+      ],
+      family: [
+        { word: "effort",       desc: "努力（ex- + fort 力を外に出す）" },
+        { word: "comfort",      desc: "慰める・快適（con- + fortis）" },
+        { word: "reinforce",    desc: "強化する（re- + en- + force）" },
+        { word: "fortify",      desc: "要塞化する・強化する（fortis）" }
+      ],
+      compounds: [
+        { phrase: "by force",        desc: "力ずくで・強制的に" },
+        { phrase: "task force",      desc: "タスクフォース・特別作業部隊" }
+      ]
+    },
+
+    "effort": {
+      origin: "古フランス語 esfort < es-（ex- 外へ）+ fort（強い）< ラテン語 fortis（強い）。「力を外に出す＝力を使う＝努力する」というのが語源的な意味。\n\n14世紀に英語に入り「努力・尽力・骨折り」という名詞として定着。make an effort（努力する）、put in effort（努力を注ぐ）は基本表現。\n\nfail、achieve などの動詞と組み合わせて使われることが多く、without effort（難なく）、effortless（無理のない・楽々とした）という形容詞も日常語として重要。",
+      derivatives: [
+        { word: "effortless",   desc: "難なくできる・楽々とした（形容詞）" },
+        { word: "effortlessly", desc: "楽々と・難なく（副詞）" }
+      ],
+      family: [
+        { word: "force",        desc: "力・強制する（fortis）" },
+        { word: "comfort",      desc: "慰め・快適（con- + fortis）" },
+        { word: "enforce",      desc: "施行する（en- + force）" },
+        { word: "fortify",      desc: "強化する・要塞化する（fortis）" }
+      ],
+      compounds: [
+        { phrase: "make an effort",     desc: "努力する" },
+        { phrase: "collective effort",  desc: "集団的な努力・協力" }
+      ]
+    },
+
+    "comfort": {
+      origin: "ラテン語 confortare（大いに力を与える）< con-（強調）+ fortis（強い）。「力を与えて元気づける」というのが語源的な意味で、中世では「援軍を送る・励ます」という軍事的・積極的な意味だった。\n\n13世紀に英語に入り「慰める・元気づける・快適にする」という動詞と「慰め・快適さ」という名詞として定着。現代では「精神的な安らぎ・物理的な快適さ」という両方の意味で使われ、comfort food（ほっとする食べ物）、comfort zone（居心地のよい範囲）などの複合語も定着している。\n\ncomfort zone を出る（go outside one's comfort zone）という表現は、成長・挑戦のメタファーとして英語のビジネス・自己啓発書に頻出する。",
+      derivatives: [
+        { word: "comfortable",    desc: "快適な・心地よい（形容詞）" },
+        { word: "comfortably",    desc: "快適に・楽に（副詞）" },
+        { word: "uncomfortable",  desc: "不快な・落ち着かない（un- + comfortable）" }
+      ],
+      family: [
+        { word: "force",          desc: "力・強制（fortis）" },
+        { word: "effort",         desc: "努力（ex- + fort）" },
+        { word: "enforce",        desc: "施行する（en- + force）" }
+      ],
+      compounds: [
+        { phrase: "comfort zone",   desc: "コンフォートゾーン・居心地のよい範囲" },
+        { phrase: "comfort food",   desc: "ほっとする食べ物・お袋の味" }
+      ]
+    },
+
+    "enforce": {
+      origin: "中英語 enforcen < 古フランス語 enforcier（力を与える・施行する）< en-（〜にする）+ force（力）< ラテン語 fortis（強い）。「法律や規則に力を与えて実効性を持たせる」というのが語源的な意味。\n\n14世紀に英語に入り「（法律・規則を）施行する・遵守させる・強制する」という動詞として定着。enforce the law（法律を施行する）、enforce a policy（方針を実施する）のように使われる。\n\nenforcement（施行・取締り）は法律・行政の文脈で基本語であり、law enforcement（法執行・取締り）、law enforcement officer（警察官）は英語の法律語彙の核心をなす。",
+      derivatives: [
+        { word: "enforcement",    desc: "施行・取締り・強制（名詞）" },
+        { word: "enforceable",    desc: "施行可能な・法的に拘束力のある（形容詞）" }
+      ],
+      family: [
+        { word: "force",          desc: "力・強制（fortis）" },
+        { word: "effort",         desc: "努力（ex- + fort）" },
+        { word: "comfort",        desc: "慰める（con- + fortis）" },
+        { word: "reinforce",      desc: "強化する（re- + enforce）" }
+      ],
+      compounds: [
+        { phrase: "law enforcement",     desc: "法執行・取締り" },
+        { phrase: "enforce a contract",  desc: "契約を執行する" }
+      ]
+    },
+
+    // ── man / manu系（手）──
+    "manual": {
+      origin: "ラテン語 manualis（手に関する）< manus（手）。manus は印欧語根 *man-（手）に由来し、英語の manage（元来は「馬を手で扱う」）、manuscript（手で書いたもの）とも同根。\n\n15世紀に英語に入り「手で行う・手動の（形容詞）」と「手引書・取扱説明書（名詞）」という二つの意味で使われる。manual labor（手仕事・肉体労働）、manual transmission（マニュアル・シフト）のように「機械でなく人の手による」という意味が基本。\n\n名詞の manual は「機器の使い方を詳しく説明した冊子・手引書」で、user manual（取扱説明書）、instruction manual（操作マニュアル）が代表的な用例。",
+      derivatives: [
+        { word: "manually",      desc: "手動で・手作業で（副詞）" }
+      ],
+      family: [
+        { word: "manage",        desc: "管理する（manus 手で扱う）" },
+        { word: "manuscript",    desc: "手稿・原稿（manus + scriptum）" },
+        { word: "manipulate",    desc: "操作する・操る（manus + plicare）" },
+        { word: "manufacture",   desc: "製造する（manus + facere 作る）" }
+      ],
+      compounds: [
+        { phrase: "user manual",         desc: "取扱説明書・ユーザーマニュアル" },
+        { phrase: "manual transmission", desc: "マニュアル変速機・MT車" }
+      ]
+    },
+
+    "manipulate": {
+      origin: "ラテン語 manipulus（一握り・小隊）< manus（手）+ plere（満たす）。「手でつかんで操る」というのが語源的なイメージ。元来は医術で「手技によって骨・関節を扱う」という物理的な意味だった。\n\n19世紀に英語に入り「器用に扱う・操る」という中立的な意味から転じ、現代では「不正な目的のために人・情報・状況を巧みに操る」という否定的なニュアンスが強い。manipulate data（データを改ざんする）、manipulate people（人を操る）のように使われる。\n\n現代のSNS・政治の文脈では information manipulation（情報操作）、market manipulation（市場操作）が重大な社会問題として議論される。",
+      derivatives: [
+        { word: "manipulation",    desc: "操作・操り・情報操作（名詞）" },
+        { word: "manipulative",    desc: "人を操る・狡猾な（形容詞）" },
+        { word: "manipulator",     desc: "操作する人・マニピュレーター" }
+      ],
+      family: [
+        { word: "manual",          desc: "手動の・手引書（manus）" },
+        { word: "manage",          desc: "管理する（manus）" },
+        { word: "manufacture",     desc: "製造する（manus + facere）" },
+        { word: "manuscript",      desc: "手稿（manus + scribere）" }
+      ],
+      compounds: [
+        { phrase: "market manipulation",     desc: "市場操作・相場操縦" },
+        { phrase: "information manipulation", desc: "情報操作" }
+      ]
+    },
+
+    "command": {
+      origin: "ラテン語 commandare（委託する・命令する）< com-（強調）+ mandare（手に委ねる・命令する）< manus（手）+ dare（与える）。「手に委ねる＝正式に任せる・命じる」というのが語源的な意味。\n\n13世紀に英語に入り「命令する・指揮する」という動詞と「命令・指揮・眺望」という名詞として定着。military command（軍事指揮）、command of a language（言語の掌握）のように使われる。\n\nコンピュータでは command（コマンド＝OSへの命令）、command line（コマンドライン）として基本的な操作概念になっている。",
+      derivatives: [
+        { word: "commander",    desc: "指揮官・コマンダー（名詞）" },
+        { word: "commanding",   desc: "指揮する・圧倒的な（形容詞）" }
+      ],
+      family: [
+        { word: "demand",       desc: "要求する（de- + mandare）" },
+        { word: "recommend",    desc: "推薦する（re- + com- + mandare）" },
+        { word: "manual",       desc: "手動の（manus）" },
+        { word: "manage",       desc: "管理する（manus）" }
+      ],
+      compounds: [
+        { phrase: "command line",          desc: "コマンドライン（CLI）" },
+        { phrase: "in command of",         desc: "〜を指揮して・〜を掌握して" }
+      ]
+    },
+
+    "demand": {
+      origin: "ラテン語 demandare（手に委ねて命令する）< de-（完全に）+ mandare（手に委ねる・命令する）< manus（手）。「完全に委ねて要求する」というのが語源的な意味で、「命令する・強く要求する」という意味が英語に引き継がれた。\n\n14世紀に英語に入り「強く要求する（動詞）・要求・需要（名詞）」として定着。経済学では supply and demand（需要と供給）が最重要概念の一つで、市場メカニズムの基礎をなす。\n\n"Demand that..."（〜を要求する）、"in high demand"（引く手あまたで）は日常・ビジネスで頻出の表現。on demand（要求に応じて・オンデマンド）はストリーミング時代の重要フレーズ。",
+      derivatives: [
+        { word: "demanding",    desc: "要求の多い・骨の折れる（形容詞）" }
+      ],
+      family: [
+        { word: "command",      desc: "命令する（com- + mandare）" },
+        { word: "recommend",    desc: "推薦する（re- + commandare）" },
+        { word: "mandate",      desc: "命令・権限（mandatum）" }
+      ],
+      compounds: [
+        { phrase: "supply and demand",  desc: "需要と供給" },
+        { phrase: "on demand",          desc: "オンデマンドで・要求に応じて" },
+        { phrase: "in high demand",     desc: "需要が高い・引く手あまたの" }
+      ]
+    },
+
+    // ── ped / pod系（足）──
+    "pedestrian": {
+      origin: "ラテン語 pedester（徒歩の）< pes / pedis（足）。pes は印欧語根 *ped-（足）に由来し、英語の foot とも遠縁にある。フランス語では piéton（歩行者）として定着した。\n\n18世紀に英語に入り「歩行者（名詞）・歩行者の（形容詞）」として定着。比喩的には「平凡な・ありきたりな」という形容詞的意味もあり、"a pedestrian performance"（ありきたりな演技）のように使われる。「歩くだけ＝特別なことのない」という皮肉な意味の転義である。\n\npedestrian crossing（横断歩道）、pedestrian zone（歩行者専用ゾーン）は都市計画・交通の基本語。",
+      derivatives: [
+        { word: "pedestrianize",  desc: "（道路を）歩行者専用にする（動詞）" }
+      ],
+      family: [
+        { word: "pedal",          desc: "ペダル・足で漕ぐ（pedalis）" },
+        { word: "expedition",     desc: "遠征・探検（ex- + pes 足を伸ばす）" },
+        { word: "centipede",      desc: "ムカデ（centum 100 + pes）" },
+        { word: "podium",         desc: "演台・指揮台（pod- 足 + -ium）" }
+      ],
+      compounds: [
+        { phrase: "pedestrian crossing", desc: "横断歩道" },
+        { phrase: "pedestrian zone",     desc: "歩行者専用ゾーン" }
+      ]
+    },
+
+    "expedition": {
+      origin: "ラテン語 expeditio（出動・遠征）< expedire（足の枷を外す・解放する・準備する）< ex-（外へ）+ pes / pedis（足）。「足の枷を外して進み出る＝行動のために準備する＝遠征に出る」というのが語源の意味の発展。\n\n15世紀に英語に入り「地理的探索・科学調査・軍事遠征のための組織的な旅」を指す名詞として定着。エベレスト登頂（1953年）、南極探検（アーネスト・シャクルトンら）は英語文化で代表的な expedition として語られる。\n\nexpeditious（迅速な）、expedite（促進する）という派生語も「足早に＝すばやく」という語源イメージから来ている。",
+      derivatives: [
+        { word: "expedite",       desc: "促進する・迅速に処理する" },
+        { word: "expeditious",    desc: "迅速な・手際のよい（形容詞）" }
+      ],
+      family: [
+        { word: "pedestrian",     desc: "歩行者（pedester）" },
+        { word: "pedal",          desc: "ペダル（pedalis）" },
+        { word: "podium",         desc: "演台（pod- 足）" },
+        { word: "impediment",     desc: "障害（im- + pes 足を引っかける）" }
+      ],
+      compounds: [
+        { phrase: "scientific expedition",  desc: "科学調査隊・学術探検" },
+        { phrase: "polar expedition",       desc: "極地探検" }
+      ]
+    },
+
+    // ── civ系（市民・都市）──
+    "civil": {
+      origin: "ラテン語 civilis（市民の・公共の）< civis（市民）< civitas（都市国家）。古代ローマで市民権（citizenship）と市民社会（civil society）を表す核心語として使われた。\n\n14世紀に英語に入り「（1）市民の・一般人の（軍・宗教と対比して）（2）礼儀正しい・丁寧な」という二方向の意味で定着。civil war（内戦）、civil rights（公民権）、civil engineering（土木工学）のように国家・社会の制度語として広く使われる。\n\ncivil rights movement（公民権運動）はマーティン・ルーサー・キング牧師が主導し、1964年の公民権法（Civil Rights Act）成立につながった米国の歴史的運動で、英語社会において最も重要な政治的語彙の一つとなっている。",
+      derivatives: [
+        { word: "civilian",      desc: "一般市民・文民（形容詞・名詞）" },
+        { word: "civility",      desc: "礼儀正しさ・礼節（名詞）" },
+        { word: "civilization",  desc: "文明（civilis + -ization）" }
+      ],
+      family: [
+        { word: "civic",         desc: "市民の・公民の（civicus）" },
+        { word: "city",          desc: "都市（civitas の変形）" },
+        { word: "citizen",       desc: "市民（civis + -zen）" }
+      ],
+      compounds: [
+        { phrase: "civil rights",        desc: "公民権" },
+        { phrase: "civil war",           desc: "内戦・市民戦争" },
+        { phrase: "civil engineering",   desc: "土木工学" }
+      ]
+    },
+
+    "civilization": {
+      origin: "ラテン語 civilis（市民の）→ フランス語 civilisation → 英語 civilization。語根は civis（市民）< civitas（都市国家）。18世紀の啓蒙主義時代に「野蛮状態から人類が発展した状態・洗練された社会」という概念語として確立した。\n\nスコットランドの哲学者アダム・ファーガソン（1767年）などが civilization を「制度・法律・礼節を持つ社会の状態」として理論化し、「文明vs野蛮」という対立軸が植民地主義的な世界観の正当化にも使われた歴史がある。\n\n現代では「長期にわたって発展した独自の文化・社会・技術を持つ集団」を指し、Western civilization（西洋文明）、ancient civilization（古代文明）のように使われる。",
+      derivatives: [
+        { word: "civilize",      desc: "文明化する・教化する（動詞）" },
+        { word: "civilized",     desc: "文明化された・礼節のある（形容詞）" }
+      ],
+      family: [
+        { word: "civil",         desc: "市民の（civilis）" },
+        { word: "civic",         desc: "市民の・公民の（civicus）" },
+        { word: "citizen",       desc: "市民（civis）" },
+        { word: "city",          desc: "都市（civitas）" }
+      ],
+      compounds: [
+        { phrase: "ancient civilization",  desc: "古代文明" },
+        { phrase: "clash of civilizations", desc: "文明の衝突（ハンチントン理論）" }
+      ]
+    },
+
+    // ── cultur / cult系（耕す）──
+    "culture": {
+      origin: "ラテン語 cultura（耕作・世話）< colere（耕す・世話をする・崇拝する）の名詞形。「土地を耕す→精神・知識を耕す→人間の精神的・社会的洗練」という比喩的転義が起きた。キケロが「哲学は魂の耕作（cultura animi）だ」と表現したことで、この比喩が定着した。\n\n15世紀の英語に入り当初は「農業・耕作」を指したが、やがて「特定の集団が共有する価値観・慣習・芸術・制度の総体」を表す社会科学の核心語になった。culture shock（カルチャーショック）、corporate culture（企業文化）のように現代語彙に浸透している。\n\n語根 col- / cult- は cultivate（耕作する・育成する）、agriculture（農業）、colony（植民地 ＝ 耕作地）なども形成する。",
+      derivatives: [
+        { word: "cultural",      desc: "文化的な（形容詞）" },
+        { word: "culturally",    desc: "文化的に（副詞）" },
+        { word: "multicultural", desc: "多文化の（multi- + cultural）" }
+      ],
+      family: [
+        { word: "cultivate",     desc: "耕す・育成する（cultura）" },
+        { word: "agriculture",   desc: "農業（ager 畑 + cultura）" },
+        { word: "colony",        desc: "植民地（colonia < colere）" },
+        { word: "cult",          desc: "崇拝・信仰的集団（cultus）" }
+      ],
+      compounds: [
+        { phrase: "pop culture",       desc: "大衆文化・ポップカルチャー" },
+        { phrase: "culture shock",     desc: "カルチャーショック" },
+        { phrase: "corporate culture", desc: "企業文化・組織文化" }
+      ]
+    },
+
+    "cultivate": {
+      origin: "ラテン語 cultivare（耕す）< cultus（耕された）< colere（耕す）。農業的な「土を耕す」という語義から、「才能・関係性・スキルを育てる」という比喩的意味が発展した。\n\n17世紀に英語に入り「（1）農地を耕す・植物を育てる（2）才能・技術・関係を育てる・磨く」という動詞として定着。cultivate a skill（スキルを磨く）、cultivate a relationship（関係を育てる）のように比喩的用法が頻出する。\n\ncultivated（教養のある・洗練された）という形容詞は「精神的に耕された＝知性的・礼節のある」という意味で、a cultivated person（教養人）のように使われる。",
+      derivatives: [
+        { word: "cultivation",    desc: "耕作・栽培・育成（名詞）" },
+        { word: "cultivated",     desc: "教養のある・洗練された（形容詞）" }
+      ],
+      family: [
+        { word: "culture",        desc: "文化・耕作（cultura）" },
+        { word: "agriculture",    desc: "農業（ager + cultura）" },
+        { word: "colony",         desc: "植民地（colonia）" }
+      ],
+      compounds: [
+        { phrase: "cultivate a skill",        desc: "スキルを磨く・培う" },
+        { phrase: "cultivate a relationship", desc: "関係を育てる・築く" }
+      ]
+    },
+
+    "agriculture": {
+      origin: "ラテン語 agricultura（農業）< ager / agri（畑・土地）+ cultura（耕作）< colere（耕す）。「土地（ager）を耕す（cultura）こと＝農業」という語源通りの合成語。ager は英語の acre（エーカー、土地の面積単位）と同語根。\n\n17世紀に英語に定着し「食料生産のための土地・植物・動物の体系的管理」を指す。人類史上最大の転換点の一つである「農業革命（Agricultural Revolution, 約1万年前）」は狩猟採集から定住農耕への移行を指し、現代文明の基盤を作った。\n\n18世紀の産業革命期に起きた第二の農業革命（機械化・輪作の導入）、20世紀の緑の革命（改良品種・化学肥料の普及）を経て、現代では sustainable agriculture（持続可能な農業）が重要課題になっている。",
+      derivatives: [
+        { word: "agricultural",    desc: "農業の・農業に関する（形容詞）" },
+        { word: "agriculturalist", desc: "農業従事者・農学者" }
+      ],
+      family: [
+        { word: "culture",         desc: "文化・耕作（cultura）" },
+        { word: "cultivate",       desc: "耕す・育てる（cultivare）" },
+        { word: "acre",            desc: "エーカー（ager 土地 と同根）" }
+      ],
+      compounds: [
+        { phrase: "agricultural revolution", desc: "農業革命" },
+        { phrase: "sustainable agriculture", desc: "持続可能な農業" }
+      ]
     }
 
   };

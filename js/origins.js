@@ -14980,6 +14980,447 @@
         { phrase: "by innuendo",         desc: "当てこすりで・遠回しに" },
         { phrase: "full of innuendo",    desc: "当てこすりに満ちた" }
       ]
+    },
+
+    // ── Batch 32 ──────────────────────────────────────────────────────────
+
+    "atmosphere": {
+      origin: "ギリシャ語 atmos（蒸気・気体）+ sphaira（球）の合成語。近代ラテン語 atmosphaera として17世紀に学術用語として登場し、地球を取り囲む気体の層を指すようになった。\n\n英語には17世紀後半に採用され、当初は地球の大気圏を意味する天文学・気象学用語だった。18世紀以降、比喩的に「場の雰囲気・環境」の意味に拡張し、芸術や文学での用法が定着した。\n\n現代英語では atmospheric pressure（大気圧）・atmosphere of tension（緊迫した雰囲気）・thick atmosphere（濃密な空気感）のように科学的・比喩的両用途で広く使われる重要語。",
+      derivatives: [
+        { word: "atmospheric",   desc: "大気の・雰囲気のある（形容詞）" },
+        { word: "atmospherically", desc: "雰囲気的に（副詞）" }
+      ],
+      family: [
+        { word: "hemisphere",  desc: "半球（hemi-+sphaira）" },
+        { word: "stratosphere", desc: "成層圏（stratum+sphere）" },
+        { word: "biosphere",   desc: "生物圏（bio+sphere）" }
+      ],
+      compounds: [
+        { phrase: "atmospheric pressure", desc: "大気圧" },
+        { phrase: "atmosphere of tension", desc: "緊迫した雰囲気" }
+      ]
+    },
+
+    "hemisphere": {
+      origin: "ギリシャ語 hemi-（半分）+ sphaira（球）< hemisphairion（半球）。古代ギリシャ天文学で天球の半分を指す技術用語として使われ、ラテン語 hemisphaerium を経て英語に入った。\n\n14世紀末に英語に採用され、地球の東西・南北を分割する概念として定着。17世紀以降の地理的発見時代に「東半球・西半球」（Eastern/Western Hemisphere）の用法が広まった。\n\n現代では脳科学で left hemisphere（左脳半球）・right hemisphere（右脳半球）のように使われ、地理・天文・解剖学にまたがる重要な学術用語となっている。",
+      derivatives: [
+        { word: "hemispheric",    desc: "半球の・半球状の（形容詞）" },
+        { word: "hemispherical",  desc: "半球形の（形容詞）" }
+      ],
+      family: [
+        { word: "atmosphere",   desc: "大気圏・雰囲気（atmos+sphere）" },
+        { word: "stratosphere", desc: "成層圏（stratum+sphere）" },
+        { word: "hemisphere",   desc: "半球（hemi+sphere）" }
+      ],
+      compounds: [
+        { phrase: "Western Hemisphere",  desc: "西半球" },
+        { phrase: "left hemisphere",     desc: "（脳の）左半球" },
+        { phrase: "Eastern Hemisphere",  desc: "東半球" }
+      ]
+    },
+
+    "stratosphere": {
+      origin: "ラテン語 stratum（層・広がり）< sternere（広げる・敷く）+ sphaira（球）の合成語。フランスの気象学者レオン・ド・ボールが1902年に命名した比較的新しい学術用語。\n\n英語には20世紀初頭に採用され、対流圏の上・中間圏の下にある大気層（高度約12〜50km）を指す。航空機の巡航高度やオゾン層の位置として一般にも知られるようになった。\n\n比喩的に into the stratosphere（非常に高い水準へ）のように使われ、価格・人気・評判が天文学的に高まる表現としても定着している。",
+      derivatives: [
+        { word: "stratospheric",   desc: "成層圏の・驚異的に高い（形容詞）" }
+      ],
+      family: [
+        { word: "stratum",      desc: "地層・社会層（ラテン語 stratum）" },
+        { word: "atmosphere",   desc: "大気圏（atmos+sphere）" },
+        { word: "hemisphere",   desc: "半球（hemi+sphere）" }
+      ],
+      compounds: [
+        { phrase: "stratospheric prices", desc: "天文学的な価格" },
+        { phrase: "into the stratosphere", desc: "非常に高い水準へ" }
+      ]
+    },
+
+    "xenophobia": {
+      origin: "ギリシャ語 xenos（外国人・見知らぬ人）+ phobos（恐怖・嫌悪）の合成語。19世紀後半の社会科学用語として登場し、外国人や異文化への根拠のない恐怖・憎悪・排除傾向を指す。\n\n英語には1900年頃に採用され、移民問題・民族主義・差別の文脈で社会科学・政治学の重要概念として定着した。特に20世紀の二度の世界大戦後、排外主義を批判する語として広く使われるようになった。\n\n現代では rise of xenophobia（排外主義の台頭）・xenophobic rhetoric（排外主義的言説）のように使われ、国際関係・人権論の文脈で必須の語彙となっている。",
+      derivatives: [
+        { word: "xenophobic",  desc: "排外主義的な・外国人嫌いの（形容詞）" },
+        { word: "xenophobe",   desc: "外国人嫌いの人（名詞）" }
+      ],
+      family: [
+        { word: "claustrophobia", desc: "閉所恐怖症（claustr+phobia）" },
+        { word: "acrophobia",     desc: "高所恐怖症（akros+phobia）" },
+        { word: "homophobia",     desc: "同性愛嫌悪（homo+phobia）" }
+      ],
+      compounds: [
+        { phrase: "rise of xenophobia",    desc: "排外主義の台頭" },
+        { phrase: "xenophobic attitudes",  desc: "排外的な態度" }
+      ]
+    },
+
+    "claustrophobia": {
+      origin: "ラテン語 claustrum（閉じた空間・修道院の回廊）< claudere（閉じる）+ ギリシャ語 phobos（恐怖）の合成語。精神医学者フランシス・リュシェによって1879年に命名された専門用語。\n\n英語には19世紀末に採用され、密閉空間（エレベーター・地下鉄・洞窟など）に対する強い恐怖・不安反応を指す精神医学用語として定着した。\n\n現代では claustrophobic space（閉塞感のある空間）・feel claustrophobic（息苦しさを感じる）のように医学的文脈だけでなく比喩的にも広く使われる。",
+      derivatives: [
+        { word: "claustrophobic",  desc: "閉所恐怖症の・息苦しい（形容詞）" }
+      ],
+      family: [
+        { word: "xenophobia",  desc: "外国人嫌悪（xenos+phobia）" },
+        { word: "acrophobia",  desc: "高所恐怖症（akros+phobia）" },
+        { word: "close",       desc: "閉じる（claudere の同根）" },
+        { word: "enclose",     desc: "囲い込む（en+claudere）" }
+      ],
+      compounds: [
+        { phrase: "claustrophobic space",   desc: "閉塞感のある空間" },
+        { phrase: "feel claustrophobic",    desc: "息苦しさを感じる" }
+      ]
+    },
+
+    "acrophobia": {
+      origin: "ギリシャ語 akros（頂上・先端・高い）+ phobos（恐怖）の合成語。19世紀後半に精神医学の分類用語として登場し、高い場所に対する強い恐怖反応を指す。\n\n英語には1887年頃に採用され、精神医学・心理学の用語として定着した。akros はまた acrobat（綱渡り師）や acronym（頭字語）にも含まれる語根で、「先端・高み」を意味する。\n\n現代では acrophobic（高所恐怖症の）とともに、ビル・橋・山岳を舞台にした状況描写でも使われる一般語となっている。",
+      derivatives: [
+        { word: "acrophobic",  desc: "高所恐怖症の（形容詞）" }
+      ],
+      family: [
+        { word: "xenophobia",     desc: "外国人嫌悪（xenos+phobia）" },
+        { word: "claustrophobia", desc: "閉所恐怖症（claustr+phobia）" },
+        { word: "acronym",        desc: "頭字語（akros+onoma）" },
+        { word: "acrobat",        desc: "軽業師（akros+bainein）" }
+      ],
+      compounds: [
+        { phrase: "suffer from acrophobia", desc: "高所恐怖症に苦しむ" }
+      ]
+    },
+
+    "soliloquy": {
+      origin: "ラテン語 solus（一人で）+ loqui（話す）の合成語 soliloquium。哲学者アウグスティヌスが自己との対話を記した著作『独白録』（Soliloquies）に由来し、中世神学用語として受け継がれた。\n\n英語には17世紀に採用され、特にシェイクスピア劇での独白場面（ハムレットの「To be or not to be」など）を通じて文学的概念として定着。一人芝居・内的独白・自問自答を広く指す。\n\n現代英語では dramatic soliloquy（劇の独白）・deliver a soliloquy（独白を述べる）・internal soliloquy（内的独白）のように使われ、演劇・文学・心理学で重要な概念語。",
+      derivatives: [
+        { word: "soliloquize",  desc: "独り言を言う・独白する（動詞）" }
+      ],
+      family: [
+        { word: "loquacious",  desc: "おしゃべりな（loquax）" },
+        { word: "eloquent",    desc: "雄弁な（e+loqui）" },
+        { word: "colloquial",  desc: "口語的な（col+loqui）" },
+        { word: "monologue",   desc: "独白・一人語り（mono+logos）" }
+      ],
+      compounds: [
+        { phrase: "dramatic soliloquy",  desc: "演劇的独白" },
+        { phrase: "deliver a soliloquy", desc: "独白を述べる" }
+      ]
+    },
+
+    "loquacious": {
+      origin: "ラテン語 loquax（おしゃべりな・話し好きな）< loqui（話す）+ -ax（傾向を示す接尾辞）+ 英語接尾辞 -ious（形容詞化）。「話すことへの傾向が強い」という意味を持つ。\n\n英語には17世紀に採用され、過度に話しすぎる・止まらずしゃべり続けるという意味で使われる。eloquent（雄弁）が肯定的含意を持つのに対し、loquacious はやや否定的・中立的ニュアンスが強い。\n\n現代英語では loquacious speaker（話し好きな話者）・surprisingly loquacious（驚くほどよく話す）のように使われ、冗舌・多弁を描写する文語的表現として定着している。",
+      derivatives: [
+        { word: "loquaciously",  desc: "おしゃべりに・多弁に（副詞）" },
+        { word: "loquaciousness", desc: "おしゃべりな性質・多弁（名詞）" },
+        { word: "loquacity",     desc: "多弁・冗舌（名詞）" }
+      ],
+      family: [
+        { word: "soliloquy",  desc: "独白（solus+loqui）" },
+        { word: "eloquent",   desc: "雄弁な（e+loqui）" },
+        { word: "colloquial", desc: "口語的な（col+loqui）" }
+      ],
+      compounds: [
+        { phrase: "surprisingly loquacious", desc: "驚くほど話し好きな" }
+      ]
+    },
+
+    "susceptible": {
+      origin: "ラテン語 suscipere（下から受け取る・引き受ける）< sub-（下に）+ capere（取る・受け取る）+ -ible（可能を示す形容詞接尾辞）。「受け取られやすい状態にある」が原義。\n\nフランス語 susceptible を経て17世紀に英語に入り、外部の影響を受けやすい・感染しやすい・感情的になりやすいという意味で広く使われるようになった。\n\n現代英語では susceptible to disease（病気にかかりやすい）・susceptible to manipulation（操作されやすい）・emotionally susceptible（感情的になりやすい）のように医学・心理学・社会科学で重要な形容詞。",
+      derivatives: [
+        { word: "susceptibility",  desc: "感受性・かかりやすさ（名詞）" },
+        { word: "unsusceptible",   desc: "影響を受けにくい（形容詞）" }
+      ],
+      family: [
+        { word: "capture",    desc: "捕まえる（capere）" },
+        { word: "capable",    desc: "能力のある（capax）" },
+        { word: "receptive",  desc: "受け入れる・受容的（re+capere）" },
+        { word: "except",     desc: "除く（ex+capere）" }
+      ],
+      compounds: [
+        { phrase: "susceptible to disease",       desc: "病気にかかりやすい" },
+        { phrase: "susceptible to manipulation",  desc: "操作されやすい" }
+      ]
+    },
+
+    "implicit": {
+      origin: "ラテン語 implicitus（折り込まれた・包まれた）< implicare（折り込む・巻き込む）< im-（中に）+ plicare（折る）の過去分詞形。「言葉の中に折り込まれている」が原義。\n\n英語には17世紀に採用され、「言葉にせず含意されている・暗黙の・絶対的な（信頼など）」の意味で使われる。explicit（明示的な）と対になる重要な概念対立語。\n\n現代英語では implicit assumption（暗黙の前提）・implicit trust（絶対的な信頼）・implicit bias（無意識の偏見）のように学術・法律・心理学の文脈で広く使われる。",
+      derivatives: [
+        { word: "implicitly",  desc: "暗黙のうちに・絶対的に（副詞）" },
+        { word: "implication", desc: "含意・暗示・影響（名詞）" }
+      ],
+      family: [
+        { word: "explicit",   desc: "明示的な（ex+plicare）" },
+        { word: "complicate", desc: "複雑にする（com+plicare）" },
+        { word: "replicate",  desc: "複製する（re+plicare）" },
+        { word: "apply",      desc: "適用する（applicare の短縮）" }
+      ],
+      compounds: [
+        { phrase: "implicit assumption", desc: "暗黙の前提" },
+        { phrase: "implicit bias",       desc: "無意識の偏見" },
+        { phrase: "implicit trust",      desc: "絶対的な信頼" }
+      ]
+    },
+
+    "explicit": {
+      origin: "ラテン語 explicitus（展開された・明確にされた）< explicare（折り広げる・明らかにする）< ex-（外に）+ plicare（折る）の過去分詞形。「折り畳まれたものを広げて明確にする」が原義。\n\n英語には17世紀に採用され、「明確に述べられた・露骨な・はっきりとした」の意味で定着。implicit（暗黙の）と対になる重要概念として論理学・法学・コンピュータ科学で広く使われる。\n\n現代英語では explicit instructions（明確な指示）・explicit content（露骨なコンテンツ）・be explicit about（〜についてはっきりと述べる）のように使われる。",
+      derivatives: [
+        { word: "explicitly",  desc: "明確に・露骨に（副詞）" },
+        { word: "explicitness", desc: "明確さ・露骨さ（名詞）" }
+      ],
+      family: [
+        { word: "implicit",   desc: "暗黙の（im+plicare）" },
+        { word: "complicate", desc: "複雑にする（com+plicare）" },
+        { word: "replicate",  desc: "複製する（re+plicare）" },
+        { word: "explain",    desc: "説明する（ex+planare）" }
+      ],
+      compounds: [
+        { phrase: "explicit instructions",  desc: "明確な指示" },
+        { phrase: "explicit content",       desc: "露骨なコンテンツ" },
+        { phrase: "be explicit about",      desc: "〜についてはっきりと述べる" }
+      ]
+    },
+
+    "implication": {
+      origin: "ラテン語 implicatio（絡み合い・巻き込み）< implicare（折り込む）< im-（中に）+ plicare（折る）+ -tion（名詞接尾辞）。「折り込まれた意味・結果」が原義。\n\n英語には15世紀に採用され、当初は「絡み合い・関与」を意味した。17世紀以降、論理学で「含意・論理的帰結」の意味で使われ、現代では「暗示・影響・結果」の複数の意味で広く用いられる。\n\n現代英語では implications for policy（政策への含意）・broader implications（より広い影響）・by implication（暗示的に）のように研究論文・ニュース・議論の場で頻繁に使われる学術語。",
+      derivatives: [
+        { word: "imply",      desc: "暗示する・含意する（動詞）" },
+        { word: "implied",    desc: "暗示された・含意された（形容詞）" }
+      ],
+      family: [
+        { word: "explicit",   desc: "明示的な（ex+plicare）" },
+        { word: "implicit",   desc: "暗黙の（im+plicare）" },
+        { word: "complicate", desc: "複雑にする（com+plicare）" },
+        { word: "replicate",  desc: "複製する（re+plicare）" }
+      ],
+      compounds: [
+        { phrase: "broader implications",     desc: "より広い含意・影響" },
+        { phrase: "implications for policy",  desc: "政策への影響" },
+        { phrase: "by implication",           desc: "暗示的に" }
+      ]
+    },
+
+    "empirical": {
+      origin: "ギリシャ語 empeiria（経験・実験）< en-（中に）+ peira（試み・実験）< peiran（試みる）+ -ikos（形容詞接尾辞）。「経験に基づく」が原義で、古代ギリシャ医学で「理論より実験を重視する」医派を指した。\n\nラテン語 empiricus を経て英語には17世紀に採用され、「観察・実験によって得られた・経験的な」の意味で科学哲学・自然科学の核心概念として定着した。特に17世紀の科学革命期に重要性が増した。\n\n現代英語では empirical evidence（経験的証拠）・empirical research（実証研究）・empirical data（実験データ）のように科学・学術論文の基本語彙として不可欠。",
+      derivatives: [
+        { word: "empirically",  desc: "経験的に・実証的に（副詞）" },
+        { word: "empiricism",   desc: "経験主義・実証主義（哲学）" },
+        { word: "empiricist",   desc: "経験主義者（名詞）" }
+      ],
+      family: [
+        { word: "experiment",  desc: "実験（experiri＝試みる）" },
+        { word: "experience",  desc: "経験（experiri）" },
+        { word: "expert",      desc: "専門家（expertus＝試された）" },
+        { word: "peril",       desc: "危険・試練（peira）" }
+      ],
+      compounds: [
+        { phrase: "empirical evidence",   desc: "実証的根拠・経験的証拠" },
+        { phrase: "empirical research",   desc: "実証研究" },
+        { phrase: "empirical data",       desc: "実験・観察データ" }
+      ]
+    },
+
+    "ideology": {
+      origin: "フランス語 idéologie（観念学）< ギリシャ語 idea（見えるもの・観念）< idein（見る）+ logos（言葉・学問）。フランスの哲学者デステュット・ド・トラシーが1796年に「観念の科学」として造語した。\n\n英語には19世紀初頭に採用され、「思想体系・政治的信条の集合」を指す政治学・社会学の核心概念として定着。マルクスが「支配階級の観念」という批判的文脈で使って以来、権力と観念の関係を論じる語として重要性を増した。\n\n現代英語では dominant ideology（支配的イデオロギー）・political ideology（政治的信条）・free-market ideology（自由市場イデオロギー）のように政治・社会科学で頻繁に使われる。",
+      derivatives: [
+        { word: "ideological",   desc: "イデオロギー的な・思想的な（形容詞）" },
+        { word: "ideologically", desc: "イデオロギー的に（副詞）" },
+        { word: "ideologue",     desc: "イデオローグ・信念の強い思想家（名詞）" }
+      ],
+      family: [
+        { word: "idea",      desc: "概念・アイデア（idein）" },
+        { word: "ideal",     desc: "理想的な（idea+al）" },
+        { word: "theology",  desc: "神学（theos+logos）" },
+        { word: "biology",   desc: "生物学（bios+logos）" }
+      ],
+      compounds: [
+        { phrase: "political ideology",   desc: "政治的イデオロギー" },
+        { phrase: "dominant ideology",    desc: "支配的イデオロギー" }
+      ]
+    },
+
+    "category": {
+      origin: "ギリシャ語 kategoria（主張・糾弾・述語）< kata-（反対に・対して）+ agoreuein（公の場で語る）< agora（広場・集会）。アリストテレスが存在の基本的分類（実体・量・質など）を論じる論理学用語として使用した。\n\nラテン語 categoria を経て英語には16世紀に採用され、当初は哲学・論理学の専門用語だった。17世紀以降に一般化し、「分類・部門・グループ」の意味で幅広い文脈で使われるようになった。\n\n現代英語では fall into a category（カテゴリーに入る）・broad category（大きな区分）・categorical denial（断固とした否定）のように学術・日常の両方で広く使われる語。",
+      derivatives: [
+        { word: "categorize",    desc: "分類する・カテゴリー化する（動詞）" },
+        { word: "categorical",   desc: "断定的な・絶対的な（形容詞）" },
+        { word: "categorically", desc: "断固として・絶対的に（副詞）" }
+      ],
+      family: [
+        { word: "allegory",    desc: "寓話・アレゴリー（allos+agoria）" },
+        { word: "agora",       desc: "古代ギリシャの広場・市場" },
+        { word: "agoraphobia", desc: "広場恐怖症（agora+phobia）" }
+      ],
+      compounds: [
+        { phrase: "fall into a category",  desc: "カテゴリーに属する" },
+        { phrase: "categorical denial",    desc: "断固とした否定" },
+        { phrase: "broad category",        desc: "大まかな区分" }
+      ]
+    },
+
+    "cohesion": {
+      origin: "ラテン語 cohaesio（密着・結合）< cohaerere（共にくっつく・一体となる）< co-（共に）+ haerere（くっつく・固着する）+ -ion（名詞接尾辞）。「共に固着した状態」が原義。\n\n英語には17世紀に採用され、当初は物理学で分子間引力を指す用語だった。18世紀以降に社会科学に拡張され、social cohesion（社会的結束）・group cohesion（集団の団結力）のように使われるようになった。\n\n現代英語では cohesion within a team（チームの結束）・lack of cohesion（まとまりの欠如）・social cohesion（社会的凝集性）のように政治・社会・物理学で使われる重要な概念語。",
+      derivatives: [
+        { word: "cohesive",    desc: "結束した・まとまりのある（形容詞）" },
+        { word: "cohesively",  desc: "まとまって・一体となって（副詞）" },
+        { word: "cohere",      desc: "一貫する・まとまる（動詞）" },
+        { word: "coherent",    desc: "首尾一貫した（形容詞）" }
+      ],
+      family: [
+        { word: "adhesion",  desc: "接着・付着（ad+haerere）" },
+        { word: "inherit",   desc: "相続する（in+haerere の転）" },
+        { word: "hesitate",  desc: "ためらう（haesitare）" }
+      ],
+      compounds: [
+        { phrase: "social cohesion",    desc: "社会的結束・凝集性" },
+        { phrase: "group cohesion",     desc: "集団の団結力" },
+        { phrase: "lack of cohesion",   desc: "まとまりの欠如" }
+      ]
+    },
+
+    "allegiance": {
+      origin: "古フランス語 ligeance（主君への忠誠）< liege（封建的主君）< 中世ラテン語 ligius（縛られた臣下）< ligare（縛る・結ぶ）+ -ance（名詞接尾辞）。封建制度で臣下が主君に対して誓う忠誠・奉仕義務を指した。\n\n英語には14世紀に採用され、封建制度の衰退後も国家・国王・信念への忠誠心を指す語として残った。アメリカでは Pledge of Allegiance（忠誠の誓い）として国民的な意味を持つ。\n\n現代英語では pledge allegiance（忠誠を誓う）・allegiance to the party（党への忠誠）・divided allegiances（分裂した忠誠心）のように政治・スポーツ・道徳の文脈で広く使われる。",
+      derivatives: [
+        { word: "allegiant",  desc: "忠実な・忠誠を誓った（形容詞）" }
+      ],
+      family: [
+        { word: "ligament",  desc: "靭帯（ligare）" },
+        { word: "ligature",  desc: "結紮・結合（ligare）" },
+        { word: "rely",      desc: "頼る・信頼する（re+ligare の転）" },
+        { word: "religion",  desc: "宗教（religare＝再び縛る）" }
+      ],
+      compounds: [
+        { phrase: "pledge allegiance",    desc: "忠誠を誓う" },
+        { phrase: "divided allegiances",  desc: "分裂した忠誠心" },
+        { phrase: "Pledge of Allegiance", desc: "（米）忠誠の誓い" }
+      ]
+    },
+
+    "tolerance": {
+      origin: "ラテン語 tolerantia（忍耐・我慢）< tolerare（耐える・運ぶ）< tollere（持ち上げる・運ぶ）+ -ance（名詞接尾辞）。「重荷を持ち上げて耐える」が原義。\n\n英語には15世紀に採用され、当初は「痛みや苦難への耐性」を意味した。17世紀以降の宗教的寛容論（ジョン・ロック『寛容についての書簡』）の文脈で「他者の信仰・意見への寛容」という社会的意味が加わった。\n\n現代英語では religious tolerance（宗教的寛容）・zero tolerance（無寛容・厳正対処）・drug tolerance（薬物耐性）のように倫理・医学・社会学で幅広く使われる。",
+      derivatives: [
+        { word: "tolerant",    desc: "寛容な・耐性のある（形容詞）" },
+        { word: "tolerate",    desc: "容認する・耐える（動詞）" },
+        { word: "intolerance", desc: "不寛容・偏狭さ（名詞）" },
+        { word: "intolerant",  desc: "不寛容な（形容詞）" }
+      ],
+      family: [
+        { word: "extol",   desc: "称賛する（ex+tollere）" },
+        { word: "elate",   desc: "浮き立たせる（e+latus の関連）" }
+      ],
+      compounds: [
+        { phrase: "religious tolerance",  desc: "宗教的寛容" },
+        { phrase: "zero tolerance",       desc: "厳正対処・ゼロトレランス" },
+        { phrase: "drug tolerance",       desc: "薬物耐性" }
+      ]
+    },
+
+    "scrutinize": {
+      origin: "ラテン語 scrutinium（精密検査・選り分け）< scrutari（くまなく調べる・ゴミを漁る）< scruta（廃品・ぼろ切れ）。「ゴミの山をかき分けて探す」という卑俗な動作から「詳細に調べる」という意味が生まれた。\n\n英語には16世紀に scrutiny（精査）の動詞形として scrutinize が17世紀に登場。選挙の票を詳細に検査する政治的文脈で使われ始め、一般的に「細部まで調べる・監視する」の意味で定着した。\n\n現代英語では scrutinize every detail（細部まで精査する）・come under scrutiny（精査の対象になる）・public scrutiny（公衆の監視）のように政治・法律・研究で重要な語。",
+      derivatives: [
+        { word: "scrutiny",    desc: "精査・厳密な調査・監視（名詞）" },
+        { word: "scrutinizer", desc: "精査する人（名詞）" }
+      ],
+      family: [
+        { word: "inscrutable",  desc: "不可解な・謎めいた（in+scrutari）" },
+        { word: "investigate",  desc: "調査する（vestigium の転）" }
+      ],
+      compounds: [
+        { phrase: "come under scrutiny",    desc: "精査の対象になる" },
+        { phrase: "public scrutiny",        desc: "公衆の目・社会的監視" },
+        { phrase: "scrutinize every detail", desc: "細部まで精査する" }
+      ]
+    },
+
+    "concrete": {
+      origin: "ラテン語 concretus（固まった・凝結した）< concrescere（共に成長する・固まる）< con-（共に）+ crescere（成長する・増える）の過去分詞。「ばらばらのものが共に成長して一体化する」が原義。\n\n英語には15世紀に哲学用語として採用され、「実際に存在する・具体的な」の意味で abstract（抽象的）の対義語として定着した。19世紀に建築材料のコンクリートを指す名詞用法が生まれ、今日の二つの意味が並立している。\n\n現代英語では concrete evidence（具体的な証拠）・concrete steps（具体的な手順）・abstract and concrete（抽象と具体）のように論理・議論・学術の場で基本概念語として使われる。",
+      derivatives: [
+        { word: "concretely",  desc: "具体的に（副詞）" },
+        { word: "concretize",  desc: "具体化する（動詞）" }
+      ],
+      family: [
+        { word: "abstract",   desc: "抽象的な（abs+trahere）" },
+        { word: "increase",   desc: "増やす（in+crescere）" },
+        { word: "decrease",   desc: "減らす（de+crescere）" },
+        { word: "accrue",     desc: "蓄積する（ad+crescere の転）" }
+      ],
+      compounds: [
+        { phrase: "concrete evidence",  desc: "具体的な証拠" },
+        { phrase: "concrete steps",     desc: "具体的な手順・措置" },
+        { phrase: "concrete proposal",  desc: "具体的な提案" }
+      ]
+    },
+
+    "demonstrate": {
+      origin: "ラテン語 demonstrare（完全に示す・証明する）< de-（完全に）+ monstrare（示す・指し示す）< monstrum（驚くべきもの・前兆）< monere（警告する・思い起こさせる）。「完全に明示する」が原義。\n\n英語には16世紀に採用され、「証明する・実演する・デモをする」の意味で定着。17世紀の科学革命期に実験による証明を指す科学用語として、また20世紀以降は公の抗議行動（デモ）を指す語として重要性を増した。\n\n現代英語では demonstrate a point（要点を示す）・demonstrate against（〜に反対してデモをする）・product demonstration（製品デモ）のように学術・政治・商業の場で広く使われる。",
+      derivatives: [
+        { word: "demonstration",   desc: "実演・デモ・証明（名詞）" },
+        { word: "demonstrator",    desc: "デモ参加者・実演者（名詞）" },
+        { word: "demonstrative",   desc: "感情を表に出す・指示の（形容詞）" },
+        { word: "demonstrably",    desc: "明らかに・証明できるほど（副詞）" }
+      ],
+      family: [
+        { word: "monster",   desc: "怪物（monstrum）" },
+        { word: "monitor",   desc: "監視する（monere）" },
+        { word: "monument",  desc: "記念碑（monere）" },
+        { word: "summon",    desc: "召喚する（sub+monere）" }
+      ],
+      compounds: [
+        { phrase: "public demonstration",  desc: "公開デモ・抗議運動" },
+        { phrase: "demonstrate against",   desc: "〜に反対してデモをする" },
+        { phrase: "product demonstration", desc: "製品デモ・実演" }
+      ]
+    },
+
+    "moderate": {
+      origin: "ラテン語 moderatus（適度にされた・制御された）< moderare（適度にする・制御する）< modus（尺度・限度・方法）+ -ate（動詞化・形容詞化接尾辞）。「適切な尺度に収める」が原義。\n\n英語には15世紀に形容詞として採用され、「過度でも不足でもない・穏健な」の意味で定着。17世紀に動詞（司会をする・和らげる）・名詞（穏健派）としての用法が加わり、現代の複数品詞にわたる重要語となった。\n\n現代英語では moderate views（穏健な見解）・moderate the debate（議論を司会する）・in moderate amounts（適度な量で）のように政治・科学・日常会話で幅広く使われる。",
+      derivatives: [
+        { word: "moderately",  desc: "適度に・穏やかに（副詞）" },
+        { word: "moderation",  desc: "適度・節制・司会（名詞）" },
+        { word: "moderator",   desc: "司会者・仲裁者（名詞）" }
+      ],
+      family: [
+        { word: "mode",    desc: "方法・様式（modus）" },
+        { word: "model",   desc: "模型・手本（modulus の転）" },
+        { word: "modify",  desc: "修正する（modus+facere）" },
+        { word: "modest",  desc: "謙虚な（modestus）" }
+      ],
+      compounds: [
+        { phrase: "moderate views",   desc: "穏健な見解" },
+        { phrase: "in moderation",    desc: "適度に・節度をもって" },
+        { phrase: "moderate the debate", desc: "議論を司会する" }
+      ]
+    },
+
+    "approximate": {
+      origin: "ラテン語 approximatus（近づけられた）< approximare（近づける）< ad-（〜へ）+ proximus（最も近い）< prope（近くに）の最上級。「最も近い状態に持っていく」が原義。\n\n英語には15世紀に形容詞として採用され、「おおよその・大まかな」の意味で定着。17世紀に動詞（近似する・おおよそ等しい）としての用法が加わり、数学・科学の文脈で特に重要な語となった。\n\n現代英語では approximate value（近似値）・approximate time（おおよその時間）・closely approximate（ほぼ一致する）のように科学・日常の両方で広く使われる形容詞・動詞。",
+      derivatives: [
+        { word: "approximately",  desc: "おおよそ・約（副詞）" },
+        { word: "approximation",  desc: "近似・概算（名詞）" }
+      ],
+      family: [
+        { word: "proximity",   desc: "近接・近さ（proximus）" },
+        { word: "proximate",   desc: "直接の・最も近い（形容詞）" },
+        { word: "approach",    desc: "近づく（ad+propiare の転）" }
+      ],
+      compounds: [
+        { phrase: "approximate value",    desc: "近似値" },
+        { phrase: "rough approximation",  desc: "大まかな近似・概算" }
+      ]
+    },
+
+    "communicate": {
+      origin: "ラテン語 communicare（共にする・分かち合う）< communis（共通の）< com-（共に）+ munus（義務・贈り物・公的奉仕）。「共有の義務・財を分かち合う」が原義で、聖体拝領（communion）と同根。\n\n英語には15世紀に採用され、「情報・考えを伝える・意思疎通を図る」の意味で定着。印刷技術・電信・電話・インターネットの発達とともに重要性を増し続けた。\n\n現代英語では communicate effectively（効果的に伝える）・communication skills（コミュニケーション能力）・mass communication（大衆通信）のように個人から社会レベルまで幅広く使われる。",
+      derivatives: [
+        { word: "communication",    desc: "通信・意思疎通・コミュニケーション（名詞）" },
+        { word: "communicative",    desc: "話し好きな・表現豊かな（形容詞）" },
+        { word: "communicator",     desc: "コミュニケーターの達人（名詞）" }
+      ],
+      family: [
+        { word: "community",  desc: "共同体・地域社会（communis）" },
+        { word: "common",     desc: "共通の・一般的な（communis）" },
+        { word: "commune",    desc: "共同体・心を通わせる（communis）" },
+        { word: "communion",  desc: "聖体拝領・魂の交わり（communio）" }
+      ],
+      compounds: [
+        { phrase: "communication skills",  desc: "コミュニケーション能力" },
+        { phrase: "mass communication",    desc: "大衆通信・マスコミ" },
+        { phrase: "communicate effectively", desc: "効果的に伝える" }
+      ]
     }
 
   };

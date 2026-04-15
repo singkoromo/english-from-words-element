@@ -24453,6 +24453,509 @@
         { phrase: "chemical symbol", desc: "元素記号" },
         { phrase: "peace symbol",    desc: "平和のシンボル" }
       ]
+    },
+
+    "talent": {
+      origin: "ラテン語 talentum（銀の重さの単位・通貨）< ギリシャ語 talanton（天秤の皿・銀貨の単位）< tlenai（持ち上げる・耐える）。「神から預かった財」の意味が聖書の「タラントの喩え」から転じて「天賦の才能」の意味になった。\n\n英語には13世紀に「銀の重量単位」の意味で採用され、マタイ伝「タラントの喩え」（神から預かった才能を活かすべきという教え）から「天から授かった能力」の意味に転じた。talent show（タレントショー）が20世紀に一般語として定着した。\n\n現代英語ではtalent show（タレントショー）・raw talent（磨かれていない才能）・talent acquisition（人材獲得）のように、芸能・スポーツ・ビジネスの幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "talented",  desc: "才能のある（形容詞）" }
+      ],
+      family: [
+        { word: "gift",    desc: "贈り物・才能（古英語）" },
+        { word: "ability", desc: "能力（habilis）" },
+        { word: "skill",   desc: "技術・腕前（古ノルド語）" }
+      ],
+      compounds: [
+        { phrase: "talent show",       desc: "タレントショー" },
+        { phrase: "raw talent",        desc: "磨かれていない才能" },
+        { phrase: "talent acquisition", desc: "人材獲得" }
+      ]
+    },
+
+    "target": {
+      origin: "古フランス語 targe（小盾・的）< ゲルマン語根 *targa（盾）。targe が縮小されて「小さな盾」→「的」に転じた語で、「射撃・弓矢の稽古の的」が原義。\n\n英語には15世紀に「小型の盾」の意味で採用され、17世紀以降に「矢・銃の的」の意味が一般的となった。20世紀のビジネス・マーケティングで target audience（ターゲット層）・target date（目標日）のように「目標・対象」の意味が重要語彙となった。\n\n現代英語ではset a target（目標を設定する）・target audience（ターゲット層）・on target（予定通り）のように、ビジネス・スポーツ・軍事の幅広い文脈で機能する名詞・動詞である。",
+      derivatives: [
+        { word: "targeted",   desc: "対象を絞った・標的にされた（形容詞）" }
+      ],
+      family: [
+        { word: "goal",       desc: "目標・ゴール（古英語）" },
+        { word: "objective",  desc: "目標・客観的な（ob+jectum）" },
+        { word: "aim",        desc: "狙い・目的（古フランス語）" }
+      ],
+      compounds: [
+        { phrase: "set a target",    desc: "目標を設定する" },
+        { phrase: "target audience", desc: "ターゲット層" },
+        { phrase: "on target",       desc: "予定通り・的確な" }
+      ]
+    },
+
+    "task": {
+      origin: "アングロ・ノルマン語 tasque（税・仕事）< 中世ラテン語 tasca（税・仕事の割り当て）< taxa（課税）< taxare（評価する・課税する）。tax（税）・taxi（タクシー）と同根で、「義務として課された仕事・割り当て」が原義。\n\n英語には14世紀に採用され、「義務として与えられた仕事・課題」の意味で定着した。task force（特別作業部隊）が軍事用語として20世紀に生まれ、現代のプロジェクト管理でも重要語となった。tasked with（〜を任された）という受動表現が現代ビジネス英語で多用される。\n\n現代英語ではcomplete a task（任務を完了する）・task force（特別作業部隊）・multi-tasking（マルチタスク）のように、業務・組織・技術の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "tasked",      desc: "〜を任された（形容詞）" },
+        { word: "multi-task",  desc: "複数の作業を同時にする（動詞）" }
+      ],
+      family: [
+        { word: "tax",   desc: "税・課税する（tasca）" },
+        { word: "toll",  desc: "通行料・打撃（古英語）" },
+        { word: "duty",  desc: "義務・関税（debet）" }
+      ],
+      compounds: [
+        { phrase: "task force",    desc: "特別作業部隊・タスクフォース" },
+        { phrase: "multi-tasking", desc: "マルチタスク" },
+        { phrase: "at hand task",  desc: "目の前の仕事" }
+      ]
+    },
+
+    "tendency": {
+      origin: "ラテン語 tendentia（傾向）< tendere（張る・向かう・延びる）< 語根 *ten-（伸びる）。tend（傾向がある）・tension（緊張）・extend（延ばす）・attend（注意を向ける）と同根で、「ある方向に伸びていく傾き」が原義。\n\n英語には17世紀にフランス語 tendance を経て採用され、「行動・事象がある方向に向かう自然な傾向」の意味で定着した。statistical tendency（統計的傾向）として数学・社会科学の語彙となり、tendencies in art（芸術の潮流）のように文化批評でも使われる語となった。\n\n現代英語ではtendency to overeat（過食の傾向）・suicidal tendency（自殺傾向）・general tendency（全般的傾向）のように、心理・医学・社会科学の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "tend",      desc: "〜する傾向がある・世話する（動詞）" },
+        { word: "tendentious", desc: "偏った・一方的な（形容詞）" }
+      ],
+      family: [
+        { word: "tension",   desc: "緊張（tendere）" },
+        { word: "extend",    desc: "延ばす（ex+tendere）" },
+        { word: "attend",    desc: "注意を向ける（ad+tendere）" }
+      ],
+      compounds: [
+        { phrase: "suicidal tendency",  desc: "自殺傾向" },
+        { phrase: "general tendency",   desc: "全般的傾向" },
+        { phrase: "artistic tendency",  desc: "芸術的傾向・流派" }
+      ]
+    },
+
+    "theme": {
+      origin: "ギリシャ語 thema（置かれたもの・命題）< tithenai（置く・設定する）< 語根 *dhe-（置く・設定する）。thesis（論題）・antithesis（対立命題）・synthesis（統合）・parenthesis（括弧）と同根で、「議論の出発点として置かれたもの」が原義。\n\n英語には14世紀に音楽・修辞学の用語として採用され、「作品・議論・演奏の中心となる主題」の意味で定着した。theme park（テーマパーク）が20世紀の娯楽産業の重要語となり、theme music（テーマ曲）・thematic analysis（主題分析）も現代語彙に定着した。\n\n現代英語ではtheme park（テーマパーク）・recurring theme（繰り返す主題）・theme music（テーマ曲）のように、音楽・文学・娯楽の核心語として機能する語である。",
+      derivatives: [
+        { word: "thematic",   desc: "主題的な・テーマに関する（形容詞）" },
+        { word: "themed",     desc: "テーマを持った（形容詞）" }
+      ],
+      family: [
+        { word: "thesis",      desc: "論題・学位論文（tithenai）" },
+        { word: "antithesis",  desc: "対立命題（anti+tithenai）" },
+        { word: "synthesis",   desc: "統合・合成（syn+tithenai）" }
+      ],
+      compounds: [
+        { phrase: "theme park",      desc: "テーマパーク" },
+        { phrase: "recurring theme", desc: "繰り返し現れる主題" },
+        { phrase: "theme music",     desc: "テーマ曲" }
+      ]
+    },
+
+    "theory": {
+      origin: "ギリシャ語 theoria（観察・考察・知的直観）< theorein（見る・観察する）< theoros（観察者）< thea（見ること）+ horan（見る）。theater（劇場）・theorem（定理）と同根で、「距離をおいて観察・考察すること」が原義。\n\n英語には16世紀に採用され、「説明するための体系的な考え方」として科学・哲学の重要語となった。theory of evolution（進化論）・quantum theory（量子論）のように科学的パラダイムを表す語として、また theory and practice（理論と実践）という対比として日常語彙にも定着した。\n\n現代英語ではin theory（理論上は）・conspiracy theory（陰謀論）・quantum theory（量子論）のように、科学・哲学・日常の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "theoretical",  desc: "理論的な・仮説的な（形容詞）" },
+        { word: "theorize",     desc: "理論化する・仮説を立てる（動詞）" },
+        { word: "theorist",     desc: "理論家（名詞）" }
+      ],
+      family: [
+        { word: "theater",  desc: "劇場（thea: 見ること）" },
+        { word: "theorem",  desc: "定理（theorein）" },
+        { word: "panorama", desc: "全景（pan+horan）" }
+      ],
+      compounds: [
+        { phrase: "in theory",         desc: "理論上は" },
+        { phrase: "conspiracy theory", desc: "陰謀論" },
+        { phrase: "quantum theory",    desc: "量子論" }
+      ]
+    },
+
+    "threat": {
+      origin: "古英語 threat（群衆・圧力・脅し）< 語根 *thrut-（押す・圧迫する）。「群衆に押しつぶされる圧力」が原義で、threaten（脅す）・thrill（戦慄させる）と語源的に関連する。\n\n英語には古英語期から「圧迫・危険の予告」の意味で使われ、14世紀以降に「脅し・危険の存在」の現代的意味が確立した。nuclear threat（核の脅威）・terrorist threat（テロの脅威）のように冷戦期以降の安全保障語彙として重要性が増した。\n\n現代英語ではpresent a threat（脅威をもたらす）・under threat（脅威にさらされて）・threat assessment（脅威評価）のように、安全保障・環境・日常の危険を表す核心語として機能する。",
+      derivatives: [
+        { word: "threaten",     desc: "脅す・〜の恐れがある（動詞）" },
+        { word: "threatening",  desc: "脅迫的な・不穏な（形容詞）" }
+      ],
+      family: [
+        { word: "danger",   desc: "危険（古フランス語）" },
+        { word: "menace",   desc: "脅威・脅かす（minare）" },
+        { word: "hazard",   desc: "危険・障害（アラビア語起源）" }
+      ],
+      compounds: [
+        { phrase: "under threat",      desc: "脅威にさらされて" },
+        { phrase: "threat assessment", desc: "脅威評価" },
+        { phrase: "existential threat", desc: "存在を脅かす脅威" }
+      ]
+    },
+
+    "trace": {
+      origin: "古フランス語 trace（足跡・痕跡）< tracier（引き線を引く）< ラテン語 trahere（引く・引っ張る）の派生形。track（追跡する）・tractor（トラクター）・attract（引き付ける）と同根で、「引っ張った後に残る線・痕」が原義。\n\n英語には14世紀に採用され、「足跡・残された形跡」の名詞と「追跡する・輪郭をなぞる」の動詞として定着した。trace element（微量元素）が化学・生物学の用語として、traceable（追跡可能な）がロジスティクス・法律の語彙として20世紀に確立した。\n\n現代英語ではtrace the origin（起源を遡る）・trace element（微量元素）・leave a trace（痕跡を残す）のように、科学・歴史・犯罪捜査の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "traceable",   desc: "追跡できる（形容詞）" },
+        { word: "untraceable", desc: "追跡不能な（否定形）" }
+      ],
+      family: [
+        { word: "track",    desc: "追跡する・跡（trahere）" },
+        { word: "tractor",  desc: "トラクター（trahere）" },
+        { word: "attract",  desc: "引き付ける（ad+trahere）" }
+      ],
+      compounds: [
+        { phrase: "trace element",   desc: "微量元素" },
+        { phrase: "leave a trace",   desc: "痕跡を残す" },
+        { phrase: "trace the origin", desc: "起源を遡る" }
+      ]
+    },
+
+    "tribe": {
+      origin: "ラテン語 tribus（ローマの三部族・部族・区域）< tres（三）+ 語根 *bhew-（生きる・存在する）の組み合わせか、もしくは独立した語。三部族がローマを構成したことに由来し、「共通の先祖・文化・指導者を持つ集団」が原義。\n\n英語には14世紀にフランス語 tribu を経て採用され、歴史・人類学の語彙として定着した。20世紀の社会学・マーケティングでは tribe（ニッチな集団・熱狂的なファン層）として再解釈された。tribal（部族的な）という形容詞が文化分析の重要語となった。\n\n現代英語ではtribal warfare（部族間の争い）・nomadic tribe（遊牧部族）・digital tribe（デジタルコミュニティ）のように、人類学・マーケティング・社会学の文脈で機能する語である。",
+      derivatives: [
+        { word: "tribal",     desc: "部族の・帰属意識の強い（形容詞）" },
+        { word: "tribalism",  desc: "部族主義・内輪びいき（名詞）" }
+      ],
+      family: [
+        { word: "clan",   desc: "一族・氏族（ゲール語）" },
+        { word: "kin",    desc: "親族（古英語）" },
+        { word: "nation", desc: "国民・民族（nasci）" }
+      ],
+      compounds: [
+        { phrase: "tribal warfare",  desc: "部族間の争い" },
+        { phrase: "nomadic tribe",   desc: "遊牧部族" },
+        { phrase: "tribal identity", desc: "部族的アイデンティティ" }
+      ]
+    },
+
+    "trust": {
+      origin: "古ノルド語 traust（信頼・安心）< 語根 *dreu-（固い・堅固）。true（真実の）・truth（真実）・truce（休戦）と同根で、「固い・揺るがない、ゆえに信頼できる」が原義。\n\n英語には13世紀に古ノルド語から採用され、「信頼・信用・委託」の意味で法律・宗教・日常語彙に定着した。trust fund（信託基金）・antitrust law（独占禁止法）が法律・経済の重要語として確立し、social trust（社会的信頼）が社会科学の核心概念となった。\n\n現代英語ではtrust in democracy（民主主義への信頼）・trust fund（信託基金）・zero-trust security（ゼロトラストセキュリティ）のように、倫理・法律・技術の多様な文脈で機能する核心語である。",
+      derivatives: [
+        { word: "trustworthy",  desc: "信頼できる（形容詞）" },
+        { word: "distrust",     desc: "不信・不信任（否定形）" },
+        { word: "entrust",      desc: "委ねる（en+trust）" }
+      ],
+      family: [
+        { word: "true",   desc: "真実の（*dreu-）" },
+        { word: "truth",  desc: "真実（*dreu-）" },
+        { word: "truce",  desc: "休戦（*dreu-）" }
+      ],
+      compounds: [
+        { phrase: "trust fund",   desc: "信託基金" },
+        { phrase: "antitrust law", desc: "独占禁止法" },
+        { phrase: "zero-trust",   desc: "ゼロトラスト（セキュリティ方針）" }
+      ]
+    },
+
+    "typical": {
+      origin: "ラテン語 typicalis（典型的な）< typus（型・印章）< ギリシャ語 typos（打ち込まれた印・型）< typtein（打つ）。type（型・タイプ）・prototype（原型）と同根で、「鋳型で打ち込まれた印のように一定の型を持つ」が原義。\n\n英語には17世紀に神学用語（旧約聖書の人物・出来事が新約の型になる）として採用され、18世紀以降に「その種のものを代表する・特有の」の一般的意味が広まった。that's typical（いかにも〜らしい）という日常表現が定着している。\n\n現代英語ではtypical example（典型例）・that's so typical（いかにもそれらしい）・typical behavior（典型的な行動）のように、評価・批判・統計の多様な文脈で機能する形容詞・副詞である。",
+      derivatives: [
+        { word: "typically",  desc: "典型的に・通例（副詞）" },
+        { word: "atypical",   desc: "非定型の・典型的でない（否定形）" }
+      ],
+      family: [
+        { word: "type",      desc: "型・タイプ（typos）" },
+        { word: "prototype", desc: "原型（protos+typos）" },
+        { word: "stereotype", desc: "固定観念（stereos+typos）" }
+      ],
+      compounds: [
+        { phrase: "typical example",   desc: "典型例" },
+        { phrase: "typical behavior",  desc: "典型的な行動" },
+        { phrase: "atypical case",     desc: "非典型的なケース" }
+      ]
+    },
+
+    "unique": {
+      origin: "フランス語 unique（唯一の）< ラテン語 unicus（唯一の・特別の）< unus（一つの）。unit（単位）・unite（統一する）・universe（宇宙）・uniform（制服・均一の）と同根で、「ただ一つしかない」が原義。\n\n英語には17世紀に採用され、「唯一無二の・他に例がない」の意味で使われた。現代英語では「特別な・珍しい」という弱められた意味でも使われ、very unique（非常にユニークな）のような形は純粋主義者から批判されることもある語である。\n\n現代英語ではunique opportunity（またとない機会）・unique to Japan（日本独特の）・unique selling point（独自の売り）のように、マーケティング・文化比較・評価の文脈で機能する形容詞である。",
+      derivatives: [
+        { word: "uniquely",   desc: "唯一に・独特に（副詞）" },
+        { word: "uniqueness", desc: "唯一性・独自性（名詞）" }
+      ],
+      family: [
+        { word: "unit",     desc: "単位・ユニット（unus）" },
+        { word: "unity",    desc: "統一・一体性（unus）" },
+        { word: "uniform",  desc: "制服・均一の（uni+forma）" }
+      ],
+      compounds: [
+        { phrase: "unique opportunity",     desc: "またとない機会" },
+        { phrase: "unique selling point",   desc: "独自の売り（USP）" },
+        { phrase: "unique to Japan",        desc: "日本独特の" }
+      ]
+    },
+
+    "virtue": {
+      origin: "ラテン語 virtus（勇気・徳・卓越さ）< vir（男性・成人男性）。virile（男性的な）・virility（男性らしさ）・world（古英語 wer: 男性）と同根で、古代ローマでは「男性的な卓越さ・強さ・勇気」が原義だった語。\n\n英語には13世紀にフランス語 vertu を経て採用され、キリスト教倫理の文脈で「信仰・希望・愛などの道徳的美徳」の意味が定着した。virtue ethics（徳倫理学）がアリストテレスに基づく哲学体系として重要語彙となっている。\n\n現代英語ではvirtue signaling（美徳を示すための発言）・by virtue of（〜の力によって）・cardinal virtue（枢要徳）のように、倫理・哲学・社会批評の文脈で機能する語である。",
+      derivatives: [
+        { word: "virtuous",  desc: "徳のある・正しい（形容詞）" },
+        { word: "virtuoso",  desc: "名人・巨匠（名詞）" }
+      ],
+      family: [
+        { word: "virile",  desc: "男性的な・力強い（vir）" },
+        { word: "world",   desc: "世界（古英語 wer: 男性）" },
+        { word: "valor",   desc: "勇気・武勇（valere）" }
+      ],
+      compounds: [
+        { phrase: "virtue signaling",  desc: "美徳シグナリング" },
+        { phrase: "by virtue of",      desc: "〜の力によって・〜ゆえに" },
+        { phrase: "cardinal virtue",   desc: "枢要徳（四大美徳）" }
+      ]
+    },
+
+    "victim": {
+      origin: "ラテン語 victima（犠牲・いけにえ）< 語源不明だが宗教的な供犠の文脈で使われた語。「神に捧げるために屠られる動物・人物」が原義で、vincere（征服する）とは別語である。\n\n英語には15世紀に「宗教的な犠牲・いけにえ」の意味で採用され、17世紀以降に「事故・犯罪・災害の被害者」の一般的意味が広まった。victimhood（被害者性）・victim mentality（被害者意識）という現代心理学・社会学の語彙も発展した。\n\n現代英語ではvictim of crime（犯罪被害者）・flood victim（洪水の被災者）・victim blaming（被害者叩き）のように、法律・社会・心理の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "victimize",   desc: "被害を与える・犠牲にする（動詞）" },
+        { word: "victimhood",  desc: "被害者であること（名詞）" }
+      ],
+      family: [
+        { word: "sacrifice",  desc: "犠牲・いけにえ（sacer+facere）" },
+        { word: "casualty",   desc: "死傷者・事故（casus）" },
+        { word: "survivor",   desc: "生存者（super+vivere）" }
+      ],
+      compounds: [
+        { phrase: "victim of crime",  desc: "犯罪被害者" },
+        { phrase: "victim blaming",   desc: "被害者叩き" },
+        { phrase: "flood victim",     desc: "洪水の被災者" }
+      ]
+    },
+
+    "weapon": {
+      origin: "古英語 wæpen（武器・剣）< ゲルマン語根 *wepnam（武器）< インド・ヨーロッパ語根 *wēp-（武器）。「戦闘や攻撃に使う道具」が原義で、古英語では男性の証として武器を持つという文化的背景があった。\n\n英語には古英語期から使われる基本語彙の一つで、weapon of mass destruction（大量破壊兵器）が20世紀の安全保障用語として重要となった。比喩的には「言葉を武器とする」（words as weapons）のように説得・修辞の文脈でも使われる。\n\n現代英語ではweapon of mass destruction（大量破壊兵器）・nuclear weapon（核兵器）・weapon of choice（最も好む手段）のように、軍事・安全保障・比喩表現で機能する語である。",
+      derivatives: [
+        { word: "weaponize",  desc: "武器化する（動詞）" },
+        { word: "weaponry",   desc: "武器類・兵器（集合名詞）" }
+      ],
+      family: [
+        { word: "arm",      desc: "武装する・腕（古フランス語）" },
+        { word: "arsenal",  desc: "武器庫（アラビア語起源）" },
+        { word: "sword",    desc: "剣（古英語）" }
+      ],
+      compounds: [
+        { phrase: "weapon of mass destruction", desc: "大量破壊兵器（WMD）" },
+        { phrase: "nuclear weapon",             desc: "核兵器" },
+        { phrase: "weapon of choice",           desc: "最もよく使う手段・武器" }
+      ]
+    },
+
+    "witness": {
+      origin: "古英語 witnes（知識・証拠）< wit（知恵・知ること）< witan（知る）< 語根 *weid-（見る・知る）。wise（賢い）・wisdom（知恵）・wit（機知）と同根で、「自分の目で見て知ること・そしてその知識」が原義。\n\n英語には古英語期から「目撃者・証人・証拠」の意味で使われ、法律語彙として中世から重要だった。bear witness to（〜を証言する）・eyewitness（目撃者）が法廷・歴史の語彙として定着し、religious witness（宗教的証し）の意味もある語である。\n\n現代英語ではeyewitness account（目撃証言）・bear witness to history（歴史の証人となる）・witness protection（証人保護）のように、法律・歴史・宗教の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "eyewitness",  desc: "目撃者（名詞）" },
+        { word: "witnessed",   desc: "目撃された・証人によって確認された（形容詞）" }
+      ],
+      family: [
+        { word: "wise",    desc: "賢い（witan）" },
+        { word: "wisdom",  desc: "知恵（witan）" },
+        { word: "wit",     desc: "機知・知性（witan）" }
+      ],
+      compounds: [
+        { phrase: "eyewitness account",   desc: "目撃証言" },
+        { phrase: "bear witness to",      desc: "〜を証言する・〜の証人となる" },
+        { phrase: "witness protection",   desc: "証人保護プログラム" }
+      ]
+    },
+
+    "wonder": {
+      origin: "古英語 wundor（驚異・奇跡）< ゲルマン語根 *wundra（驚くべきもの）。「驚くほど不思議なもの・そしてそれに対する感情」が原義で、wonderful（素晴らしい）・wondrous（驚異的な）という語族を形成する。\n\n英語には古英語期から使われる基本語彙で、no wonder（不思議ではない）・wonder of the world（世界の驚異）のような慣用表現が中世英語から定着した。20世紀以降、感嘆の感情を表す「素晴らしい」という柔らかいニュアンスで日常英語に深く組み込まれた語である。\n\n現代英語ではwonder drug（特効薬）・sense of wonder（驚きの感覚）・wonder if（〜かしらと思う）のように、感嘆・疑問・奇跡を表す多義的な名詞・動詞として機能する語である。",
+      derivatives: [
+        { word: "wonderful",  desc: "素晴らしい・驚くべき（形容詞）" },
+        { word: "wondrous",   desc: "驚異的な（形容詞）" },
+        { word: "wonderment", desc: "驚嘆・不思議（名詞）" }
+      ],
+      family: [
+        { word: "awe",       desc: "畏敬・驚嘆（古英語）" },
+        { word: "marvel",    desc: "驚く・不思議（mirari）" },
+        { word: "miracle",   desc: "奇跡（mirus）" }
+      ],
+      compounds: [
+        { phrase: "sense of wonder",  desc: "驚きの感覚" },
+        { phrase: "wonder drug",      desc: "特効薬" },
+        { phrase: "no wonder",        desc: "なるほど・不思議ではない" }
+      ]
+    },
+
+    "achieve": {
+      origin: "古フランス語 achever（完成させる・終わりにする）< ラテン語 ad caput venire（頭（終わり）まで来る）< ad-（〜へ）+ caput（頭・最高点）。chapter（章）・captain（長）・capital（首都・資本）と同根で、「最高点・終着点まで到達する」が原義。\n\n英語には14世紀に採用され、「努力によって目標を実現する」の意味で定着した。achievement（達成・業績）が教育・ビジネス・スポーツの語彙として広く使われるようになり、underachiever（能力以下しか発揮しない人）・high achiever（高い達成者）という表現が20世紀に確立した。\n\n現代英語ではachieve a goal（目標を達成する）・academic achievement（学業成績）・achievement gap（学力格差）のように、教育・ビジネス・社会の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "achievement",   desc: "達成・業績・偉業（名詞）" },
+        { word: "achievable",    desc: "達成可能な（形容詞）" },
+        { word: "underachieve",  desc: "能力を発揮できない（動詞）" }
+      ],
+      family: [
+        { word: "chapter",  desc: "章（caput）" },
+        { word: "captain",  desc: "長・船長（caput）" },
+        { word: "capital",  desc: "首都・資本・大文字（caput）" }
+      ],
+      compounds: [
+        { phrase: "achieve a goal",     desc: "目標を達成する" },
+        { phrase: "achievement gap",    desc: "学力格差" },
+        { phrase: "high achiever",      desc: "高成績者・努力家" }
+      ]
+    },
+
+    "adapt": {
+      origin: "ラテン語 adaptare（〜に合わせる）< ad-（〜へ）+ aptare（合わせる）< aptus（適した・合った）。apt（適切な）・aptitude（適性）・inept（不適切な）と同根で、「目的に合うよう合わせる・調整する」が原義。\n\n英語には15世紀に採用され、「異なる状況・条件に合わせて変える」の意味で生物学・翻案・心理学の語彙として発展した。Darwin の adaptation（適応）が19世紀の進化論と結びつき重要語となり、film adaptation（映画化）のようなメディア語彙も確立した。\n\n現代英語ではadapt to change（変化に適応する）・adaptation of a novel（小説の翻案）・climate adaptation（気候適応）のように、進化・メディア・環境の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "adaptation",  desc: "適応・翻案・改作（名詞）" },
+        { word: "adaptive",    desc: "適応力のある（形容詞）" },
+        { word: "maladapted",  desc: "不適応の（否定形）" }
+      ],
+      family: [
+        { word: "apt",       desc: "適切な（aptus）" },
+        { word: "aptitude",  desc: "適性・才能（aptus）" },
+        { word: "inept",     desc: "不適切な（in+aptus）" }
+      ],
+      compounds: [
+        { phrase: "adapt to change",    desc: "変化に適応する" },
+        { phrase: "climate adaptation", desc: "気候適応" },
+        { phrase: "adaptation of a novel", desc: "小説の映画化・翻案" }
+      ]
+    },
+
+    "advance": {
+      origin: "古フランス語 avancer（前進する）< ラテン語 ab ante（前から）< ab-（〜から）+ ante（前に）。前進・向上が原義で、in advance（前もって）・advanced（先進の）・advantage（有利）と同語族を形成する。\n\n英語には13世紀に採用され、「前進する・進歩する・昇進させる」の多義的な動詞として定着した。advance payment（前払い）・in advance（前もって）・technology advance（技術の進歩）のように物理・財政・技術の語彙として広く使われる。\n\n現代英語ではadvance notice（事前通知）・technological advance（技術的進歩）・advance on enemy（敵に前進する）のように、時間・技術・軍事の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "advanced",   desc: "先進の・高度な（形容詞）" },
+        { word: "advancement", desc: "進歩・昇進（名詞）" },
+        { word: "advantage",  desc: "有利・利点（advance の変形）" }
+      ],
+      family: [
+        { word: "anterior",  desc: "前の・前部の（ante）" },
+        { word: "ante",      desc: "賭け金・前金（ante）" },
+        { word: "ancient",   desc: "古代の（ante）" }
+      ],
+      compounds: [
+        { phrase: "in advance",         desc: "前もって" },
+        { phrase: "advance notice",     desc: "事前通知" },
+        { phrase: "technological advance", desc: "技術的進歩" }
+      ]
+    },
+
+    "agenda": {
+      origin: "ラテン語 agenda（行われるべきこと）< agere（行う・動かす）の動名詞複数形。agent（代理人）・act（行為）・active（活動的な）・exact（正確な）と同根で、「なされるべき行為・事項のリスト」が原義。\n\n英語には17世紀に宗教会議の議題目録として採用され、18世紀以降に「会議の議題・行動計画」の一般的意味が広まった。hidden agenda（隠れた意図）が20世紀の政治・組織語彙として確立し、agenda-setting（議題設定）がメディア研究の重要概念となった。\n\n現代英語ではset the agenda（議題を設定する）・hidden agenda（隠れた意図）・political agenda（政治的議題）のように、政治・メディア・組織管理の核心語として機能する語である。",
+      derivatives: [
+        { word: "agenda-setting",  desc: "議題設定（名詞）" }
+      ],
+      family: [
+        { word: "agent",   desc: "代理人・作用物（agere）" },
+        { word: "act",     desc: "行為（agere）" },
+        { word: "exact",   desc: "正確な（ex+agere）" }
+      ],
+      compounds: [
+        { phrase: "hidden agenda",   desc: "隠れた意図・裏の動機" },
+        { phrase: "set the agenda",  desc: "議題を設定する" },
+        { phrase: "political agenda", desc: "政治的議題・政策目標" }
+      ]
+    },
+
+    "agree": {
+      origin: "古フランス語 agreer（満足させる・喜ばせる）< a- (ad-: 〜へ）+ gré（意志・好み）< ラテン語 gratum（快い・恩）< gratus（快い・ありがたい）。grace（優雅さ）・grateful（感謝している）・gratify（満足させる）と同根で、「相手の意志・好みに向かって合わせる」が原義。\n\n英語には14世紀に採用され、「意見・提案を受け入れる・一致する」の意味で定着した。agree to disagree（意見の相違を認め合う）という重要な対話の表現が英語文化に定着した。\n\n現代英語ではagree to disagree（意見の相違を認め合う）・mutual agreement（相互合意）・agree on terms（条件で合意する）のように、対話・契約・外交の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "agreement",   desc: "合意・協定・一致（名詞）" },
+        { word: "disagreement", desc: "不一致・意見の相違（否定形）" }
+      ],
+      family: [
+        { word: "grace",     desc: "優雅さ・恵み（gratus）" },
+        { word: "grateful",  desc: "感謝している（gratus）" },
+        { word: "gratify",   desc: "満足させる（gratus）" }
+      ],
+      compounds: [
+        { phrase: "agree to disagree",  desc: "意見の相違を認め合う" },
+        { phrase: "mutual agreement",   desc: "相互合意" },
+        { phrase: "reach an agreement", desc: "合意に達する" }
+      ]
+    },
+
+    "approach": {
+      origin: "古フランス語 aprochier（近づく）< ラテン語 appropiare（近くに来る）< ad-（〜へ）+ prope（近く）。approximate（近似の）・propinquity（近さ）と同根で、「近くに来る・近くに置く」が原義。\n\n英語には14世紀に「物理的に近づく」の意味で採用され、17世紀以降に「問題に取り組む方法・手法」の比喩的意味が広まった。hands-on approach（実践的アプローチ）・different approaches（様々なアプローチ）のようにビジネス・教育・科学の語彙として現代まで重要語として機能する。\n\n現代英語ではapproach a problem（問題に取り組む）・novel approach（新しいアプローチ）・final approach（着陸進入）のように、方法論・航空・対人関係の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "approachable",  desc: "近づきやすい（形容詞）" },
+        { word: "unapproachable", desc: "近づきにくい（否定形）" }
+      ],
+      family: [
+        { word: "approximate",  desc: "近似の・近似する（ad+prope）" },
+        { word: "proximity",    desc: "近さ・近接（prope）" },
+        { word: "near",         desc: "近い（古英語）" }
+      ],
+      compounds: [
+        { phrase: "hands-on approach",  desc: "実践的アプローチ" },
+        { phrase: "novel approach",     desc: "新しいアプローチ" },
+        { phrase: "final approach",     desc: "最終進入（航空）" }
+      ]
+    },
+
+    "assume": {
+      origin: "ラテン語 assumere（取り込む・引き受ける）< ad-（〜へ）+ sumere（取る）< sub-（下から）+ emere（取る）。consume（消費する）・resume（再開する）・presume（推定する）と同根で、「自分のものとして取り込む・引き受ける」が原義。\n\n英語には15世紀に採用され、「地位・責任を引き受ける」と「証拠なしに事実として受け入れる」の二つの意味が並立した。assuming（〜と仮定すれば）・assumption（前提・仮定）が数学・論理・哲学の重要語彙となった。\n\n現代英語ではassume responsibility（責任を引き受ける）・assume the worst（最悪を想定する）・underlying assumption（基本的前提）のように、論理・倫理・組織管理の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "assumption",  desc: "仮定・前提・引き受け（名詞）" },
+        { word: "assumed",     desc: "仮定された・引き受けた（形容詞）" }
+      ],
+      family: [
+        { word: "consume",  desc: "消費する（con+sumere）" },
+        { word: "resume",   desc: "再開する（re+sumere）" },
+        { word: "presume",  desc: "推定する・思い上がる（pre+sumere）" }
+      ],
+      compounds: [
+        { phrase: "assume responsibility",  desc: "責任を引き受ける" },
+        { phrase: "underlying assumption",  desc: "基本的前提" },
+        { phrase: "assume the worst",       desc: "最悪を想定する" }
+      ]
+    },
+
+    "barrier": {
+      origin: "古フランス語 barriere（仕切り・障害）< barre（棒・横木）< 後期ラテン語 barra（横棒）。bar（棒・バー・阻む）・embargo（禁止）と同根で、「横に渡した棒が通行を妨げる障害物」が原義。\n\n英語には14世紀に採用され、「物理的な障壁」の意味が先行し、17世紀以降に「社会的・心理的障壁」の比喩的意味が広まった。sound barrier（音速の壁）・trade barrier（貿易障壁）・language barrier（言語の壁）のように多方面の語彙として発展した。\n\n現代英語ではbreak down barriers（障壁を取り除く）・trade barrier（貿易障壁）・barrier to entry（参入障壁）のように、物理・経済・社会の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "barrier-free",  desc: "バリアフリーの（形容詞）" }
+      ],
+      family: [
+        { word: "bar",      desc: "棒・禁止する（barra）" },
+        { word: "embargo",  desc: "禁輸・禁止（en+barra）" },
+        { word: "obstacle", desc: "障害物（ob+stare）" }
+      ],
+      compounds: [
+        { phrase: "trade barrier",    desc: "貿易障壁" },
+        { phrase: "barrier to entry", desc: "参入障壁" },
+        { phrase: "sound barrier",    desc: "音速の壁" }
+      ]
+    },
+
+    "bond": {
+      origin: "古英語 band / bond（縛るもの・契約）< binden（縛る）< ゲルマン語根 *bind-（縛る）。bind（縛る）・bundle（束）・band（帯・集団）と同根で、「二つのものを縛り結びつけるもの」が原義。\n\n英語には13世紀に法律用語（誓約書・保証）として使われ、17世紀以降に化学（chemical bond・化学結合）・経済（bond・債券）・心理（emotional bond・感情的絆）の重要語彙として多方面に展開した。\n\n現代英語ではchemical bond（化学結合）・government bond（国債）・bond of friendship（友情の絆）のように、化学・金融・人間関係の核心概念として機能する多義語である。",
+      derivatives: [
+        { word: "bonding",   desc: "結合・絆を深めること（名詞）" },
+        { word: "bondage",   desc: "束縛・隷属（名詞）" }
+      ],
+      family: [
+        { word: "bind",    desc: "縛る（古英語）" },
+        { word: "bundle",  desc: "束・まとめる（*bind-）" },
+        { word: "band",    desc: "帯・集団（*bind-）" }
+      ],
+      compounds: [
+        { phrase: "chemical bond",   desc: "化学結合" },
+        { phrase: "government bond", desc: "国債" },
+        { phrase: "bond of trust",   desc: "信頼の絆" }
+      ]
+    },
+
+    "burden": {
+      origin: "古英語 byrden（重荷・荷物）< beran（運ぶ・持つ）< 語根 *ber-（運ぶ）。bear（運ぶ・耐える）・birth（出産）・born（生まれた）と同根で、「担って運ばなければならない重さ・責任」が原義。\n\n英語には古英語期から使われる基本語彙で、burden of proof（立証責任）が法律語彙として、tax burden（税負担）が財政語彙として重要となった。beast of burden（荷物を運ぶ動物）という慣用表現も定着している。\n\n現代英語ではburden of proof（立証責任）・tax burden（税負担）・bear the burden（重荷を担う）のように、法律・財政・道義的責任の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "burdensome",   desc: "重荷になる・厄介な（形容詞）" },
+        { word: "overburdened", desc: "過負担の（形容詞）" }
+      ],
+      family: [
+        { word: "bear",   desc: "担う・耐える（*ber-）" },
+        { word: "birth",  desc: "出産（*ber-）" },
+        { word: "load",   desc: "荷物・負荷（意味的近縁）" }
+      ],
+      compounds: [
+        { phrase: "burden of proof",  desc: "立証責任" },
+        { phrase: "tax burden",       desc: "税負担" },
+        { phrase: "bear the burden",  desc: "重荷を担う" }
+      ]
+    },
+
+    "beneath": {
+      origin: "古英語 beneothan（下に・下から）< be-（まわりに）+ neothan（下に）< nether（下の）< 語根 *ni-（下）。nether（下方の）・neither（どちらでもない、「下」の否定形から）と同根で、「より低い位置に・下方に」が原義。\n\n英語には古英語期から使われる基本語彙で、under（下に）より文学的・格式のある表現として使われる。beneath one's dignity（品位に欠ける）・beneath the surface（表面の下に）のような慣用表現が定着し、物理的な「下」だけでなく社会的・精神的な「下回る・ふさわしくない」の意味も持つ。\n\n現代英語ではbeneath the surface（表面の下に）・beneath one's dignity（品位に欠ける）・lie beneath（〜の下に横たわる）のように、物理・比喩・格式の多様な文脈で機能する前置詞・副詞である。",
+      derivatives: [],
+      family: [
+        { word: "under",   desc: "下に（古英語、より日常的）" },
+        { word: "below",   desc: "下に（be+low）" },
+        { word: "nether",  desc: "下方の（*ni-）" }
+      ],
+      compounds: [
+        { phrase: "beneath the surface",  desc: "表面の下に・表面的でない部分" },
+        { phrase: "beneath dignity",      desc: "品位に欠ける" },
+        { phrase: "lurk beneath",         desc: "〜の下に潜む" }
+      ]
     }
 
   };

@@ -16961,6 +16961,431 @@
         { phrase: "confiscate property",   desc: "財産を没収する" },
         { phrase: "confiscated goods",     desc: "押収品・没収された物品" }
       ]
+    },
+
+    // ── Batch 37 ──────────────────────────────────────────────────────────
+
+    "anxiety": {
+      origin: "ラテン語 anxietas（不安・心配）< anxius（心配な・苦しんでいる）< angere（締め付ける・絞める）+ -ity（名詞接尾辞）。「胸を締め付けられるような状態」が原義で、anger（怒り）・anguish（苦悩）と同根の angere を含む。\n\n英語には16世紀に採用され、「不安・心配・強い欲望」の意味で定着。19世紀以降、精神医学・実存哲学（キルケゴールの「不安の概念」）で核心概念となり、anxiety disorder（不安障害）として精神医学の重要用語となった。\n\n現代英語では social anxiety（社交不安）・anxiety attack（不安発作）・feel anxiety about（〜に不安を感じる）のように医学・心理学・日常で幅広く使われる。",
+      derivatives: [
+        { word: "anxious",    desc: "不安な・心配な・切望している（形容詞）" },
+        { word: "anxiously",  desc: "不安げに・心配そうに（副詞）" }
+      ],
+      family: [
+        { word: "anger",    desc: "怒り（angere の転）" },
+        { word: "anguish",  desc: "苦悩・激しい痛み（angustia）" },
+        { word: "angry",    desc: "怒っている（angere）" }
+      ],
+      compounds: [
+        { phrase: "social anxiety",     desc: "社交不安" },
+        { phrase: "anxiety disorder",   desc: "不安障害（精神医学）" },
+        { phrase: "anxiety attack",     desc: "不安発作・パニック発作" }
+      ]
+    },
+
+    "depression": {
+      origin: "ラテン語 depressio（押し下げること）< deprimere（押し下げる）< de-（下に）+ premere（押す）+ -tion（名詞接尾辞）。「精神を下に押しつぶす」が原義で、compress（圧縮する）・impress（印象づける）と同根の premere を含む。\n\n英語には15世紀に「押し下げること」として採用され、17世紀以降に「精神的な落ち込み」の意味が加わった。経済学では1930年代の大恐慌（Great Depression）以来「深刻な経済後退」を指し、気象学では「低気圧」を指す多義語でもある。\n\n現代英語では clinical depression（臨床的うつ病）・economic depression（経済不況）・the Great Depression（大恐慌）のように心理学・経済学で重要な語。",
+      derivatives: [
+        { word: "depress",     desc: "落ち込ませる・押し下げる（動詞）" },
+        { word: "depressed",   desc: "落ち込んだ・うつの（形容詞）" },
+        { word: "depressive",  desc: "抑うつ的な・うつ傾向のある（形容詞）" }
+      ],
+      family: [
+        { word: "compress",  desc: "圧縮する（com+premere）" },
+        { word: "impress",   desc: "印象づける（im+premere）" },
+        { word: "suppress",  desc: "抑圧する（sub+premere）" },
+        { word: "pressure",  desc: "圧力（premere）" }
+      ],
+      compounds: [
+        { phrase: "clinical depression",  desc: "臨床的うつ病" },
+        { phrase: "economic depression",  desc: "経済不況" },
+        { phrase: "the Great Depression", desc: "大恐慌（1930年代）" }
+      ]
+    },
+
+    "prejudice": {
+      origin: "ラテン語 praejudicium（事前の判断・先例）< prae-（前に）+ judicium（判断・裁判）< judex（判事）< jus（法・権利）+ dicere（言う）。「証拠を見る前に判断する」が原義。judge（裁く）・justice（正義）と同根。\n\n英語には13世紀に採用され、「先入観・偏見・損害」の意味で定着。17〜19世紀の啓蒙思想が理性的判断を強調する中で、prejudice は克服すべき非合理な偏見として重要な概念語となり、ジェーン・オースティンの小説『プライドと偏見』でも広く知られる。\n\n現代英語では racial prejudice（人種的偏見）・overcome prejudice（偏見を克服する）・without prejudice（偏見なく・法律的に無留保で）のように社会・法律・倫理の場で広く使われる。",
+      derivatives: [
+        { word: "prejudiced",      desc: "偏見を持った（形容詞）" },
+        { word: "prejudicial",     desc: "不利益な・偏見のある（形容詞）" },
+        { word: "unprejudiced",    desc: "偏見のない・公平な（形容詞）" }
+      ],
+      family: [
+        { word: "judge",    desc: "裁く・判事（judex）" },
+        { word: "justice",  desc: "正義・司法（jus+titia）" },
+        { word: "jury",     desc: "陪審員（jus）" },
+        { word: "verdict",  desc: "評決（vere+dictum）" }
+      ],
+      compounds: [
+        { phrase: "racial prejudice",    desc: "人種的偏見" },
+        { phrase: "overcome prejudice",  desc: "偏見を克服する" },
+        { phrase: "without prejudice",   desc: "偏見なく・権利留保なく" }
+      ]
+    },
+
+    "stereotype": {
+      origin: "ギリシャ語 stereos（固体の・立体的な）+ typos（打ち込まれた形・型・印象）< typtein（打つ）の合成語。18世紀の印刷技術で「固定された活版」を指す用語として始まった。\n\n英語には18世紀に印刷用語として採用された。20世紀初頭にウォルター・リップマンが著書『世論』（1922）で「心の中の固定した像」を指す社会心理学用語として使い、以来「固定観念・紋切り型の先入観」を指す重要概念語となった。\n\n現代英語では gender stereotypes（ジェンダーのステレオタイプ）・challenge stereotypes（固定観念に挑む）・stereotypical（紋切り型の）のように心理学・社会学・メディア研究で広く使われる。",
+      derivatives: [
+        { word: "stereotypical",   desc: "紋切り型の・ステレオタイプ的な（形容詞）" },
+        { word: "stereotypically", desc: "紋切り型に（副詞）" }
+      ],
+      family: [
+        { word: "type",      desc: "型・活字（typos）" },
+        { word: "typical",   desc: "典型的な（typus）" },
+        { word: "prototype", desc: "原型（protos+typos）" }
+      ],
+      compounds: [
+        { phrase: "gender stereotypes",    desc: "ジェンダーのステレオタイプ" },
+        { phrase: "challenge stereotypes", desc: "固定観念に挑む" },
+        { phrase: "racial stereotype",     desc: "人種的な固定観念" }
+      ]
+    },
+
+    "inference": {
+      origin: "ラテン語 inferentia（推論）< inferre（中に持ち込む・推論する）< in-（中に）+ ferre（運ぶ・持っていく）+ -ence（名詞接尾辞）。「既知のものから未知のものを導き出す」が原義。fertile（肥沃な）・transfer（転送する）と同根の ferre を含む。\n\n英語には16世紀に論理学用語として採用され、「推論・推測・結論」の意味で定着。科学的推論・統計的推論（statistical inference）・コンピュータ科学での「型推論」（type inference）など多様な技術的文脈でも重要語となっている。\n\n現代英語では draw an inference（推論を導く）・statistical inference（統計的推論）・inference from evidence（証拠からの推論）のように論理・科学・法律の場で幅広く使われる。",
+      derivatives: [
+        { word: "infer",    desc: "推論する・推測する（動詞）" },
+        { word: "inferential", desc: "推論的な・推測に基づく（形容詞）" }
+      ],
+      family: [
+        { word: "refer",    desc: "言及する・参照する（re+ferre）" },
+        { word: "prefer",   desc: "好む（pre+ferre）" },
+        { word: "transfer", desc: "転送する（trans+ferre）" },
+        { word: "confer",   desc: "協議する・授与する（con+ferre）" }
+      ],
+      compounds: [
+        { phrase: "draw an inference",      desc: "推論を導く" },
+        { phrase: "statistical inference",  desc: "統計的推論" },
+        { phrase: "inference from evidence", desc: "証拠からの推論" }
+      ]
+    },
+
+    "testimony": {
+      origin: "ラテン語 testimonium（証言・証拠）< testis（証人）< ter-（三）+ -stis（立つ者：第三者として立つ人）+ -mony（名詞接尾辞）。古代ローマで契約に「第三の立会人」として存在した証人の証言を指した。\n\n英語には14世紀に採用され、「証言・証拠・宣誓証言」の意味で定着。宗教的文脈では「信仰の証し・神の御業の告白」を指し、法律では「法廷証言」として重要な概念語。\n\n現代英語では give testimony（証言する）・bear testimony to（〜の証拠となる）・eyewitness testimony（目撃者の証言）のように法律・宗教・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "testify",   desc: "証言する・証明する（動詞）" },
+        { word: "testis",    desc: "精巣（ラテン語で「証人」→形の類似から）" },
+        { word: "attest",    desc: "証明する・公証する（ad+testis）" }
+      ],
+      family: [
+        { word: "contest",   desc: "争う・コンテスト（con+testis）" },
+        { word: "protest",   desc: "抗議する（pro+testis）" },
+        { word: "detest",    desc: "嫌悪する（de+testis）" }
+      ],
+      compounds: [
+        { phrase: "give testimony",         desc: "証言する" },
+        { phrase: "eyewitness testimony",   desc: "目撃者の証言" },
+        { phrase: "bear testimony to",      desc: "〜の証拠となる" }
+      ]
+    },
+
+    "surplus": {
+      origin: "古フランス語 surplus（超過・余剰）< sur-（超えて）+ plus（より多い）< ラテン語 super（上に）+ plus（より多い）。「必要量を超えた余り」が原義。\n\n英語には14世紀に採用され、「余剰・超過・黒字」の意味で定着。農業では「余剰食糧」・財政では「財政黒字」（budget surplus）・国際貿易では「貿易黒字」（trade surplus）として重要な経済概念語となった。\n\n現代英語では budget surplus（財政黒字）・trade surplus（貿易黒字）・surplus of supply（供給過剰）のように経済・財政・農業の文脈で幅広く使われる。",
+      derivatives: [
+        { word: "surplus value",  desc: "剰余価値（マルクス経済学）" }
+      ],
+      family: [
+        { word: "superfluous",  desc: "余分な・不必要な（super+fluere）" },
+        { word: "surpass",      desc: "超える・しのぐ（sur+passer）" },
+        { word: "plus",         desc: "プラス・追加（plus）" }
+      ],
+      compounds: [
+        { phrase: "budget surplus",    desc: "財政黒字" },
+        { phrase: "trade surplus",     desc: "貿易黒字" },
+        { phrase: "surplus production", desc: "余剰生産・生産過剰" }
+      ]
+    },
+
+    "inflation": {
+      origin: "ラテン語 inflatio（膨らみ・浮き上がり）< inflare（吹き込む・膨らませる）< in-（中に）+ flare（吹く）+ -tion（名詞接尾辞）。「空気を吹き込んで膨らませる」が原義。inflate（膨らます）・deflation（デフレ）と同根の flare を含む。\n\n英語には14世紀に採用され、17世紀には「過度な自尊心」の意味で使われた。1838年ごろから経済用語として「通貨の膨張・物価の上昇」を指すようになり、20世紀の経済政策論争の核心語となった。\n\n現代英語では inflation rate（インフレ率）・runaway inflation（急激なインフレ）・combat inflation（インフレに対抗する）のように経済・金融・政策の場で不可欠な語。",
+      derivatives: [
+        { word: "inflate",      desc: "膨らませる・インフレを起こす（動詞）" },
+        { word: "deflation",    desc: "物価下落・デフレ（名詞）" },
+        { word: "inflationary", desc: "インフレ的な（形容詞）" }
+      ],
+      family: [
+        { word: "flatulence", desc: "鼓腸・おなら（flatus）" },
+        { word: "deflate",    desc: "しぼませる（de+flare）" },
+        { word: "soufflé",    desc: "スフレ料理（フランス語 souffler）" }
+      ],
+      compounds: [
+        { phrase: "inflation rate",     desc: "インフレ率" },
+        { phrase: "runaway inflation",  desc: "急激なインフレ・制御不能なインフレ" },
+        { phrase: "hyperinflation",     desc: "ハイパーインフレ" }
+      ]
+    },
+
+    "deficit": {
+      origin: "ラテン語 deficit（不足する・欠けている）< deficere（欠ける・失敗する）< de-（下に・否定）+ facere（作る・する）の三人称単数現在形。「作られるべきものが作られない」が原義。\n\n英語には18世紀に採用され、「赤字・不足・欠損」の意味で定着。財政赤字（budget deficit）・貿易赤字（trade deficit）・注意欠如（attention deficit）など幅広い文脈で「必要量に足りない状態」を指す多義語として使われる。\n\n現代英語では budget deficit（財政赤字）・trade deficit（貿易赤字）・attention deficit disorder（注意欠如障害・ADD）のように経済・医学・スポーツ（点差）で広く使われる。",
+      derivatives: [
+        { word: "deficient",    desc: "不足した・欠乏した（形容詞）" },
+        { word: "deficiency",   desc: "不足・欠乏（名詞）" }
+      ],
+      family: [
+        { word: "defect",    desc: "欠陥・脱走する（de+facere）" },
+        { word: "effect",    desc: "結果・効果（ex+facere）" },
+        { word: "efficient", desc: "効率的な（ex+facere）" },
+        { word: "sufficient", desc: "十分な（sub+facere）" }
+      ],
+      compounds: [
+        { phrase: "budget deficit",              desc: "財政赤字" },
+        { phrase: "trade deficit",               desc: "貿易赤字" },
+        { phrase: "attention deficit disorder",  desc: "注意欠如障害（ADD）" }
+      ]
+    },
+
+    "algorithm": {
+      origin: "9世紀のペルシャ数学者 Muhammad ibn Musa al-Khwarizmi（アル＝フワーリズミー）の名前のラテン語化 Algoritmi から。al-Khwarizmi は「代数学の書」を書き、ヨーロッパに十進法と代数を伝えた人物。その名がラテン語に転写されて「算術の手順」を指す語になった。\n\n英語には19世紀に採用され、「計算の段階的手順」を指す数学用語として使われた。20世紀後半のコンピュータ科学の発展とともに「問題解決の明確な手順・計算手続き」として最重要概念となり、現代のAI・データ科学の中心語。\n\n現代英語では sorting algorithm（ソートアルゴリズム）・machine learning algorithm（機械学習アルゴリズム）・algorithmic bias（アルゴリズムの偏り）のようにコンピュータ科学・AI・数学で不可欠な語。",
+      derivatives: [
+        { word: "algorithmic",  desc: "アルゴリズムの（形容詞）" }
+      ],
+      family: [
+        { word: "algebra",  desc: "代数学（al-jabr：アル＝フワーリズミーの書名から）" }
+      ],
+      compounds: [
+        { phrase: "sorting algorithm",          desc: "ソートアルゴリズム" },
+        { phrase: "machine learning algorithm", desc: "機械学習アルゴリズム" },
+        { phrase: "algorithmic bias",           desc: "アルゴリズムの偏り" }
+      ]
+    },
+
+    "prototype": {
+      origin: "ギリシャ語 prototypon（最初の型）< protos（最初の・第一の）+ typos（打ち込まれた形・型・印象）。「最初に作られた型・原型」が原義。protocol（最初の接着されたページ）・protagonist（主人公）と同根の protos を含む。\n\n英語には17世紀に採用され、「原型・試作品・最初のモデル」の意味で定着。工学・デザイン・コンピュータ科学で「完成品の前に作られる試験的なモデル」を指す重要語となり、rapid prototyping（高速試作）・prototype testing（プロトタイプ試験）などと使われる。\n\n現代英語では develop a prototype（プロトタイプを開発する）・rapid prototyping（高速試作）・prototype testing（試作品テスト）のように技術・デザイン・工学で幅広く使われる。",
+      derivatives: [
+        { word: "prototypical",   desc: "典型的な・原型的な（形容詞）" },
+        { word: "prototypically", desc: "原型的に（副詞）" }
+      ],
+      family: [
+        { word: "type",      desc: "型・活字・タイプする（typos）" },
+        { word: "stereotype", desc: "固定観念・固定活版（stereos+typos）" },
+        { word: "protocol",  desc: "プロトコル・議定書（protos+kolla）" }
+      ],
+      compounds: [
+        { phrase: "develop a prototype",   desc: "プロトタイプを開発する" },
+        { phrase: "rapid prototyping",     desc: "高速試作" },
+        { phrase: "proof of concept",      desc: "概念実証・コンセプト検証" }
+      ]
+    },
+
+    "catalyst": {
+      origin: "ギリシャ語 katalyein（完全に溶かす・解散させる）< kata-（下に・完全に）+ lyein（溶かす・解放する）+ -ist（名詞接尾辞）。「反応を解き放つもの」が原義。analyze（分析する）・paralyze（麻痺させる）と同根の lyein を含む。\n\n英語には19世紀に化学用語として採用され、「化学反応を促進するが自身は消費されない物質」を指すようになった。20世紀以降、「変化や出来事を引き起こすきっかけ」という比喩的意味も広く使われている。\n\n現代英語では act as a catalyst（触媒として機能する）・catalyst for change（変化の触媒）・catalytic converter（触媒コンバーター）のように化学・社会科学・日常で広く使われる。",
+      derivatives: [
+        { word: "catalyze",    desc: "触媒作用を起こす・促進する（動詞）" },
+        { word: "catalytic",   desc: "触媒的な・変化を促す（形容詞）" },
+        { word: "catalysis",   desc: "触媒作用（名詞）" }
+      ],
+      family: [
+        { word: "analyze",   desc: "分析する（ana+lyein）" },
+        { word: "paralyze",  desc: "麻痺させる（para+lyein）" },
+        { word: "electrolysis", desc: "電気分解（elektron+lyein）" }
+      ],
+      compounds: [
+        { phrase: "catalyst for change",     desc: "変化の触媒・きっかけ" },
+        { phrase: "catalytic converter",     desc: "排気ガス触媒コンバーター" },
+        { phrase: "act as a catalyst",       desc: "触媒・きっかけとして機能する" }
+      ]
+    },
+
+    "molecule": {
+      origin: "近代ラテン語 molecula（小さな質量）< moles（質量・大きな岩）+ 縮小接尾辞 -cula。「小さな塊」が原義。moles は英語 mole（土竜・覆土）・demolish（解体する）とも関連がある。\n\n英語には17世紀に採用され、化学が発展するにつれて「物質の性質を保つ最小の単位」を指す化学の基本用語として定着した。1800年代のアボガドロ・ドルトンの原子論の発展とともに近代化学の核心概念となった。\n\n現代英語では water molecule（水分子）・molecular biology（分子生物学）・at the molecular level（分子レベルで）のように化学・生物学・医学で不可欠な語。",
+      derivatives: [
+        { word: "molecular",    desc: "分子の・分子レベルの（形容詞）" },
+        { word: "molecularly",  desc: "分子的に（副詞）" }
+      ],
+      family: [
+        { word: "mole",     desc: "モル（化学の量の単位）" },
+        { word: "massive",  desc: "大きな・質量のある（moles の転）" }
+      ],
+      compounds: [
+        { phrase: "water molecule",       desc: "水分子" },
+        { phrase: "molecular biology",    desc: "分子生物学" },
+        { phrase: "at the molecular level", desc: "分子レベルで" }
+      ]
+    },
+
+    "anecdote": {
+      origin: "ギリシャ語 anekdota（公表されていないもの）< an-（否定）+ ekdotos（出版された）< ek-（外に）+ didonai（与える）。「出版・公開されていない話」が原義。ビザンティン歴史家プロコピオスが未公開の秘話を Anekdota（秘史）と題した著作が語源に影響した。\n\n英語には17世紀に「非公式の短い逸話・秘話」として採用された。18世紀以降に「人物や出来事を生き生きと示す短い話」として文学・会話・修辞に広く使われるようになり、現代では例証として引用する「実例話」の意味で頻繁に使われる。\n\n現代英語では tell an anecdote（逸話を話す）・anecdotal evidence（証言・逸話的証拠）・amusing anecdote（面白い小話）のように文学・科学・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "anecdotal",   desc: "逸話的な・証拠不十分な（形容詞）" },
+        { word: "anecdotally", desc: "逸話的に（副詞）" }
+      ],
+      family: [
+        { word: "dose",   desc: "投与量（didonai の転）" },
+        { word: "antidote", desc: "解毒剤（anti+didonai）" }
+      ],
+      compounds: [
+        { phrase: "anecdotal evidence",  desc: "逸話的証拠（統計より弱い）" },
+        { phrase: "tell an anecdote",    desc: "逸話を語る" },
+        { phrase: "amusing anecdote",    desc: "面白い小話" }
+      ]
+    },
+
+    "solidarity": {
+      origin: "ラテン語 solidus（固体の・堅固な・信頼できる）+ フランス語 solidarité（連帯）+ -ity（名詞接尾辞）。「固体のように結束した状態」が原義。solid（固体）・soldier（兵士）・consolidate（統合する）と同根。\n\n英語には19世紀にフランス語 solidarité から採用され、「連帯・団結・共同体意識」の意味で定着。フランス革命後の社会主義・労働運動の文脈で重要概念となり、ポーランドの労働組合「連帯（Solidarność）」など政治的シンボルとしても使われた。\n\n現代英語では show solidarity（連帯を示す）・act of solidarity（連帯の行動）・solidarity with the victims（被害者への連帯）のように政治・社会運動・倫理の場で幅広く使われる。",
+      derivatives: [
+        { word: "solidary",   desc: "連帯した・共同責任の（形容詞）" }
+      ],
+      family: [
+        { word: "solid",       desc: "固体・堅固な（solidus）" },
+        { word: "consolidate", desc: "統合する・強固にする（solidare）" },
+        { word: "soldier",     desc: "兵士（soldarius）" }
+      ],
+      compounds: [
+        { phrase: "show solidarity",         desc: "連帯を示す" },
+        { phrase: "act of solidarity",       desc: "連帯の行動" },
+        { phrase: "solidarity with victims", desc: "被害者への連帯" }
+      ]
+    },
+
+    "leverage": {
+      origin: "古フランス語 lever（持ち上げる）< ラテン語 levare（持ち上げる・軽くする）+ -age（名詞接尾辞）。「てこの力・持ち上げる力」が原義で、物理的なてこ（lever）の概念から生まれた語。alleviate（和らげる）・elevate（高める）と同根の levare を含む。\n\n英語には19世紀に採用され、「てこの力・有利な立場・影響力を行使する」の意味で定着。金融では「借入資本によって投資利益を拡大すること」（financial leverage）として重要な概念語となり、ビジネスでは「交渉力・有利な立場」を指す語として広く使われる。\n\n現代英語では financial leverage（財務レバレッジ）・use leverage（影響力を行使する）・gain leverage（有利な立場を得る）のように金融・ビジネス・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "lever",    desc: "てこ・レバー（名詞）" },
+        { word: "leveraged", desc: "レバレッジをかけた・借入資本を使った（形容詞）" }
+      ],
+      family: [
+        { word: "elevate",  desc: "高める・昇格させる（e+levare）" },
+        { word: "alleviate", desc: "和らげる（ad+levare）" },
+        { word: "levitate",  desc: "空中浮揚する（levare）" },
+        { word: "relevant",  desc: "関連する（re+levare）" }
+      ],
+      compounds: [
+        { phrase: "financial leverage",  desc: "財務レバレッジ" },
+        { phrase: "gain leverage",       desc: "有利な立場を得る" },
+        { phrase: "use leverage",        desc: "影響力を行使する" }
+      ]
+    },
+
+    "incentive": {
+      origin: "ラテン語 incentivum（先導する歌・はじめに音を設定するもの）< incentivus（調子を合わせる）< incinere（鳴らす・刺激する）< in-（中に）+ canere（歌う・鳴らす）。「最初の音を鳴らして行動を引き出す」が原義。\n\n英語には15世紀に採用され、「行動を促す刺激・誘因」の意味で定着。経済学では「行動を引き出すための報酬や罰則の仕組み」、心理学では「動機づけの外部要因」として重要な概念語となっている。\n\n現代英語では financial incentive（金銭的インセンティブ）・create incentives（誘因を作る）・incentive program（奨励制度）のように経済・政策・組織管理で幅広く使われる。",
+      derivatives: [
+        { word: "incentivize",  desc: "インセンティブを与える（動詞）" }
+      ],
+      family: [
+        { word: "chant",    desc: "詠唱・チャント（canere）" },
+        { word: "enchant",  desc: "魅了する（in+canere）" },
+        { word: "accent",   desc: "強調・アクセント（ad+canere）" }
+      ],
+      compounds: [
+        { phrase: "financial incentive",  desc: "金銭的インセンティブ" },
+        { phrase: "create incentives",    desc: "誘因を作る" },
+        { phrase: "incentive program",    desc: "奨励制度・インセンティブ制度" }
+      ]
+    },
+
+    "abundance": {
+      origin: "ラテン語 abundantia（溢れること・豊かさ）< abundare（溢れる）< ab-（離れて・完全に）+ undare（波立つ）< unda（波）+ -ance（名詞接尾辞）。「波が岸から溢れ出る」が原義。wave（波）・inundate（浸水させる）・undulate（波打つ）と同根の unda を含む。\n\n英語には14世紀に採用され、「豊かさ・多量・充足」の意味で定着。聖書（「生命を豊かに得るために」）など宗教的文脈でも広く使われてきた。\n\n現代英語では in abundance（豊富に）・abundance of resources（豊富な資源）・abundance mindset（豊かさの思考法）のように日常・経済・心理学で幅広く使われる。",
+      derivatives: [
+        { word: "abundant",    desc: "豊富な・多量の（形容詞）" },
+        { word: "abundantly",  desc: "豊富に・十分すぎるほど（副詞）" }
+      ],
+      family: [
+        { word: "undulate",   desc: "波打つ（undula）" },
+        { word: "inundate",   desc: "浸水させる・殺到させる（in+unda）" },
+        { word: "redundant",  desc: "過剰な・余剰の（re+unda）" }
+      ],
+      compounds: [
+        { phrase: "in abundance",          desc: "豊富に・大量に" },
+        { phrase: "abundance of resources", desc: "豊富な資源" },
+        { phrase: "abundance mindset",     desc: "豊かさの思考法" }
+      ]
+    },
+
+    "preference": {
+      origin: "ラテン語 praeferre（前に運ぶ・優先する）< prae-（前に）+ ferre（運ぶ）+ -ence（名詞接尾辞）。「他のものより前に持っていく＝優先する」が原義。refer（参照する）・transfer（転送する）と同根の ferre を含む。\n\n英語には15世紀に採用され、「好み・優先・昇進」の意味で定着。経済学では「消費者の選好」（consumer preference）・心理学では「好みの選択」として重要な概念語となっている。\n\n現代英語では express a preference（好みを表す）・preference for（〜の好み）・consumer preference（消費者の選好）のように経済・心理・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "prefer",       desc: "好む・優先する（動詞）" },
+        { word: "preferable",   desc: "好ましい・より良い（形容詞）" },
+        { word: "preferably",   desc: "できれば・好ましくは（副詞）" },
+        { word: "preferential", desc: "優遇の・優先的な（形容詞）" }
+      ],
+      family: [
+        { word: "refer",    desc: "言及する・参照する（re+ferre）" },
+        { word: "infer",    desc: "推論する（in+ferre）" },
+        { word: "transfer", desc: "転送する（trans+ferre）" },
+        { word: "offer",    desc: "提供する（ob+ferre）" }
+      ],
+      compounds: [
+        { phrase: "consumer preference",   desc: "消費者の選好" },
+        { phrase: "express a preference",  desc: "好みを表す" },
+        { phrase: "preference for",        desc: "〜に対する好み" }
+      ]
+    },
+
+    "competence": {
+      origin: "ラテン語 competentia（適合・適切さ）< competere（競い合う・適合する）< com-（共に）+ petere（求める・向かう）+ -ence（名詞接尾辞）。「共に競い合って能力があることを示す」が原義。compete（競争する）・compete（適合する）の二義から「能力・資格」の意味が生まれた。\n\n英語には16世紀に採用され、「能力・適性・資格」の意味で定着。20世紀後半の人材管理・教育心理学で「特定の課題を達成できる知識・スキル・態度の総体」（competency）として重要概念化された。\n\n現代英語では core competence（中核的能力）・demonstrate competence（能力を示す）・language competence（言語能力）のように教育・ビジネス・法律で幅広く使われる。",
+      derivatives: [
+        { word: "competent",    desc: "有能な・資格のある（形容詞）" },
+        { word: "incompetent",  desc: "無能な（形容詞）" },
+        { word: "competency",   desc: "コンピテンシー・能力指標（名詞）" }
+      ],
+      family: [
+        { word: "compete",    desc: "競争する（com+petere）" },
+        { word: "petition",   desc: "請願（petitio）" },
+        { word: "appetite",   desc: "食欲・欲求（ad+petere）" },
+        { word: "perpetuate", desc: "永続させる（per+petere）" }
+      ],
+      compounds: [
+        { phrase: "core competence",      desc: "中核的能力・コアコンピタンス" },
+        { phrase: "demonstrate competence", desc: "能力を示す" },
+        { phrase: "language competence",  desc: "言語能力・語学力" }
+      ]
+    },
+
+    "illusion": {
+      origin: "ラテン語 illusio（あざけり・幻惑）< illudere（馬鹿にする・幻惑する）< il-（〜に対して）+ ludere（遊ぶ・演じる）+ -tion（名詞接尾辞）。「現実に対して遊びを演じる＝錯覚を作り出す」が原義。allude（ほのめかす）・delude（欺く）と同根の ludere を含む。\n\n英語には14世紀に採用され、「錯覚・幻想・幻覚」の意味で定着。心理学では「感覚の誤った知覚」（optical illusion）・哲学では「現実との乖離した認識」・日常では「根拠のない信念」として使われる重要語。\n\n現代英語では optical illusion（視覚的錯覚）・under the illusion（〜という幻想を抱いて）・shatter an illusion（幻想を打ち砕く）のように心理学・日常・芸術の場で幅広く使われる。",
+      derivatives: [
+        { word: "illusory",    desc: "幻想的な・実体のない（形容詞）" },
+        { word: "illusionist", desc: "手品師・マジシャン（名詞）" }
+      ],
+      family: [
+        { word: "allude",   desc: "ほのめかす（al+ludere）" },
+        { word: "delude",   desc: "欺く・惑わす（de+ludere）" },
+        { word: "collude",  desc: "共謀する（col+ludere）" },
+        { word: "elude",    desc: "巧みに逃げる（e+ludere）" }
+      ],
+      compounds: [
+        { phrase: "optical illusion",    desc: "視覚的錯覚・目の錯覚" },
+        { phrase: "shatter an illusion", desc: "幻想を打ち砕く" },
+        { phrase: "under the illusion",  desc: "〜という幻想を抱いて" }
+      ]
+    },
+
+    "obscure": {
+      origin: "ラテン語 obscurus（暗い・不明瞭な）< ob-（覆って）+ scurus（覆い・暗さ）< Indo-European *skeu-（覆う・隠す）+ -re（形容詞・動詞語尾）。「光を覆い隠して暗くする」が原義。\n\n英語には15世紀に採用され、「不明瞭な・無名の・目立たない・曖昧にする」の形容詞・動詞として定着。知名度・明確さ・視認性の欠如を指す語として文学批評・科学・日常で幅広く使われる。\n\n現代英語では obscure reference（難解な言及）・obscure the truth（真実を曖昧にする）・relatively obscure（比較的無名な）のように文学・政治・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "obscurely",   desc: "不明瞭に・目立たずに（副詞）" },
+        { word: "obscurity",   desc: "無名・不明瞭さ・暗闇（名詞）" },
+        { word: "obscuration", desc: "遮蔽・暗くすること（名詞）" }
+      ],
+      family: [
+        { word: "sky",    desc: "空（*skeu- から）" },
+        { word: "shade",  desc: "影・日陰（*skeu-）" }
+      ],
+      compounds: [
+        { phrase: "obscure reference",   desc: "難解な・マニアックな言及" },
+        { phrase: "obscure the truth",   desc: "真実を曖昧にする" },
+        { phrase: "fall into obscurity", desc: "無名になる・忘れられる" }
+      ]
+    },
+
+    "mediocre": {
+      origin: "ラテン語 mediocris（中程度の・山の中腹の）< medius（中間の）+ ocris（険しい山・岩）。「山の中腹＝頂上でも麓でもない中程度の高さ」が原義。medium（中程度）と同根の medius を含む。\n\n英語には16世紀に採用され、「平凡な・並みの・水準以下の」という否定的含意のある形容詞として定着。優れているわけでも劣っているわけでもなく、「及第点には届かない平凡さ」を指す語として批評・教育・日常で広く使われる。\n\n現代英語では mediocre performance（平凡な成績）・mediocre at best（よくて平凡）・escape mediocrity（平凡さから抜け出す）のように批評・自己啓発・日常で幅広く使われる。",
+      derivatives: [
+        { word: "mediocrity",   desc: "凡庸・並以下の水準（名詞）" },
+        { word: "mediocrely",   desc: "平凡に・並に（副詞）" }
+      ],
+      family: [
+        { word: "medium",     desc: "中間・媒体（medius）" },
+        { word: "intermediate", desc: "中間の（inter+medius）" },
+        { word: "median",     desc: "中央値・中央（medianus）" },
+        { word: "medieval",   desc: "中世の（medius+aevum）" }
+      ],
+      compounds: [
+        { phrase: "mediocre performance",  desc: "平凡な成績・並みの出来栄え" },
+        { phrase: "escape mediocrity",     desc: "平凡さから脱する" },
+        { phrase: "mediocre at best",      desc: "よくて平凡・せいぜい並" }
+      ]
     }
 
   };

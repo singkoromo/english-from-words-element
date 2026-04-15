@@ -7056,6 +7056,321 @@
         { phrase: "immigration policy",  desc: "移民政策" },
         { phrase: "immigration office",  desc: "入国管理局・出入国管理事務所" }
       ]
+    },
+
+    // ── medius系（中間）──
+    "medium": {
+      origin: "ラテン語 medium（中間・中央・中くらいのもの）< medius（中間の・真ん中の）。印欧語根 *medhyo-（中間）に由来し、英語の mid（真ん中の）とも遠縁にある。\n\n17世紀に英語に入り「（1）中間・中程度（2）媒体・手段・メディア（3）霊媒師」という意味で使われる。現代では mass media（マスメディア）、social media（ソーシャルメディア）という複合語で最も頻出する。\n\nステーキの焼き加減では medium（ミディアム）が「中程度の焼き加減」を指す。グラフィックデザインでは mixed media（複合メディア）という表現も使われる。複数形は media（メディア）と mediums（霊媒師など）で文脈によって使い分ける。",
+      derivatives: [
+        { word: "media",        desc: "メディア（medium の複数形・マスコミ全般）" },
+        { word: "median",       desc: "中央値・中央分離帯（medianus）" }
+      ],
+      family: [
+        { word: "mediate",      desc: "仲介する（medius + -ate）" },
+        { word: "immediate",    desc: "即座の（im- + medius ＝ 間を置かない）" },
+        { word: "medieval",     desc: "中世の（medius + aevum 時代）" },
+        { word: "Mediterranean", desc: "地中海（medius + terra 陸 + aneus）" }
+      ],
+      compounds: [
+        { phrase: "social media",   desc: "ソーシャルメディア" },
+        { phrase: "mass media",     desc: "マスメディア・大衆媒体" }
+      ]
+    },
+
+    "mediate": {
+      origin: "ラテン語 mediare（中間に立つ）< medius（中間の）。「対立する二者の間に立って調整する」というのが語源的な意味。\n\n16世紀に英語に入り「（争い・交渉の間に入って）仲介する・調停する」という動詞として定着。mediate a dispute（紛争を仲介する）、mediate between parties（当事者間を調停する）のように使われる。\n\nmediator（仲介者・調停者）は国際外交・労使交渉・法律の文脈で重要な役割を指す語。心理学・教育では「learning mediator（学習の仲介者）」という概念もある。",
+      derivatives: [
+        { word: "mediation",    desc: "仲介・調停（名詞）" },
+        { word: "mediator",     desc: "仲介者・調停者（名詞）" }
+      ],
+      family: [
+        { word: "medium",       desc: "中間・媒体（medius）" },
+        { word: "immediate",    desc: "即座の（im- + medius）" },
+        { word: "medieval",     desc: "中世の（medius + aevum）" }
+      ],
+      compounds: [
+        { phrase: "mediate a dispute",  desc: "紛争を仲介する・調停する" },
+        { phrase: "online mediation",   desc: "オンライン調停" }
+      ]
+    },
+
+    "immediate": {
+      origin: "ラテン語 immediatus（間に何もない）< im-（in- の否定形）+ mediatus（中間に置かれた < medius）。「中間を置かない＝直接の・遅れのない」というのが語源的な意味。\n\n15世紀に英語に入り「即座の・直接の・当面の」という形容詞として定着。immediate response（即座の対応）、immediate vicinity（すぐそば）、immediate family（直系家族）のように使われる。\n\n副詞 immediately（すぐに・即座に）は日常英語で最も高頻度の副詞の一つ。"Do it immediately."（すぐにやれ）のように命令・緊迫した状況を表す。",
+      derivatives: [
+        { word: "immediately",   desc: "すぐに・即座に（副詞）" },
+        { word: "immediacy",     desc: "緊急性・即時性・臨場感（名詞）" }
+      ],
+      family: [
+        { word: "medium",        desc: "中間・媒体（medius）" },
+        { word: "mediate",       desc: "仲介する（medius + -ate）" },
+        { word: "intermediate",  desc: "中間の・中級の（inter- + medius）" }
+      ],
+      compounds: [
+        { phrase: "immediate family",    desc: "直系家族（配偶者・子・親）" },
+        { phrase: "immediate vicinity",  desc: "すぐそば・近傍" }
+      ]
+    },
+
+    // ── liter系（文字・読み書き）──
+    "literature": {
+      origin: "ラテン語 litteratura（文字で書かれたもの・学識）< littera（文字）。littera は元来「蜂蜡の板に刻んだ筋・文字」を意味した。英語の letter（文字・手紙）と同語根。\n\n14世紀に英語に入り当初は「文字で書かれた知識・学識」を広く指したが、やがて「美的・知的価値を持つ書かれた作品の総体＝文学」という現代的な意味に絞られた。研究論文の文献目録（literature review ＝ 文献調査）という学術的な意味でも使われる。\n\noral literature（口承文学）、world literature（世界文学）、children's literature（児童文学）のように多様なジャンルを包含する上位概念語として機能する。",
+      derivatives: [
+        { word: "literary",      desc: "文学的な・文学の（形容詞）" },
+        { word: "literate",      desc: "読み書きのできる・教養のある（形容詞）" },
+        { word: "literacy",      desc: "読み書き能力・リテラシー（名詞）" }
+      ],
+      family: [
+        { word: "letter",        desc: "文字・手紙（littera から）" },
+        { word: "literal",       desc: "字義通りの（litteralis）" },
+        { word: "illiterate",    desc: "読み書きのできない（il- + literate）" }
+      ],
+      compounds: [
+        { phrase: "literature review",  desc: "文献調査・先行研究レビュー" },
+        { phrase: "world literature",   desc: "世界文学" }
+      ]
+    },
+
+    "literacy": {
+      origin: "ラテン語 littera（文字）を語根とする近代英語の造語。19世紀頃に「読み書き能力（reading and writing ability）」を表す語として確立した。\n\n当初は文字の読み書きという基本的なスキルを指したが、現代では digital literacy（デジタルリテラシー）、financial literacy（金融リテラシー）、media literacy（メディアリテラシー）のように「特定の分野を理解し活用する能力」という拡張的な意味で使われるようになった。\n\n国連ユネスコは読み書き能力を基本的人権として位置づけており、adult literacy（成人識字率）の向上を世界的な開発目標として掲げている。",
+      derivatives: [
+        { word: "literate",       desc: "読み書きのできる・〜リテラシーのある（形容詞）" },
+        { word: "illiteracy",     desc: "非識字・文盲（il- + literacy）" },
+        { word: "illiterate",     desc: "読み書きのできない（形容詞）" }
+      ],
+      family: [
+        { word: "literature",     desc: "文学・文献（litteratura）" },
+        { word: "literary",       desc: "文学的な（litterarius）" },
+        { word: "letter",         desc: "文字・手紙（littera）" }
+      ],
+      compounds: [
+        { phrase: "digital literacy",     desc: "デジタルリテラシー" },
+        { phrase: "financial literacy",   desc: "金融リテラシー" },
+        { phrase: "media literacy",       desc: "メディアリテラシー" }
+      ]
+    },
+
+    // ── cit / citat系（呼び起こす）──
+    "excite": {
+      origin: "ラテン語 excitare（外に向けて呼び起こす）< ex-（外へ）+ citare（急き立てる・呼び起こす）< ciere（動かす・呼ぶ）。「内にある感情・エネルギーを外に向けて引き出す」というのが語源的なイメージ。\n\n14世紀に英語に入り「（感情・関心を）かき立てる・興奮させる」という動詞として定着。物理学・化学では「（原子・分子を）励起する」という専門用語にもなっている。\n\ncommon word として "I'm so excited!"（とても興奮している！）は英語学習者が最初に習う感情表現の一つ。exciting（わくわくする）、excited（興奮した）の使い分けは英語の感情形容詞の典型的な学習ポイント。",
+      derivatives: [
+        { word: "excitement",    desc: "興奮・ワクワク（名詞）" },
+        { word: "exciting",      desc: "わくわくさせる・刺激的な（形容詞）" },
+        { word: "excited",       desc: "興奮した・ワクワクした（形容詞）" }
+      ],
+      family: [
+        { word: "cite",          desc: "引用する（citare）" },
+        { word: "recite",        desc: "暗唱する（re- + citare）" },
+        { word: "incite",        desc: "煽動する（in- + citare）" },
+        { word: "resuscitate",   desc: "蘇生させる（re- + sus- + citare）" }
+      ],
+      compounds: [
+        { phrase: "cause excitement",    desc: "興奮を引き起こす" },
+        { phrase: "excited about",       desc: "〜に興奮している・楽しみにしている" }
+      ]
+    },
+
+    "cite": {
+      origin: "ラテン語 citare（召喚する・急き立てる・引用する）< ciere（動かす・呼ぶ）。法律では「証人を法廷に召喚する」という意味で使われ、そこから「権威を引き合いに出す＝引用する」という意味が発展した。\n\n15世紀に英語に入り「（1）引用する・参照する（2）表彰する（3）法的に召喚する・略式罰則を科す」という動詞として使われる。学術論文では cite a source（出典を引用する）、citation（引用・出典）が基本語。\n\nシカゴ、MLA、APA などの学術引用スタイルでは citation format（引用形式）が厳格に規定されており、cite の適切な使い方は学術ライティングの基礎。",
+      derivatives: [
+        { word: "citation",      desc: "引用・参照・表彰（名詞）" }
+      ],
+      family: [
+        { word: "excite",        desc: "興奮させる（ex- + citare）" },
+        { word: "recite",        desc: "暗唱する（re- + citare）" },
+        { word: "incite",        desc: "煽動する（in- + citare）" }
+      ],
+      compounds: [
+        { phrase: "cite a source",   desc: "出典を引用する・参照する" },
+        { phrase: "citation style",  desc: "引用スタイル（APA/MLA など）" }
+      ]
+    },
+
+    // ── tang / tact系（触れる）──
+    "contact": {
+      origin: "ラテン語 contactus（触れ合うこと）< contingere（共に触れる）< con-（共に）+ tangere（触れる）。「二つのものが共に触れ合う」というのが語源的な意味。\n\n17世紀に英語に入り「（1）接触・連絡（名詞）（2）接触する・連絡をとる（動詞）」として定着。contact information（連絡先）、point of contact（接点・窓口）のように使われる。\n\nスポーツでは contact sport（格闘・接触系スポーツ）、医学では contact lens（コンタクトレンズ）、電気工学では electrical contact（電気接点）のように幅広い分野で使われる。",
+      derivatives: [
+        { word: "contactable",   desc: "連絡が取れる（形容詞）" }
+      ],
+      family: [
+        { word: "tangible",      desc: "有形の・実体のある（tangere）" },
+        { word: "intangible",    desc: "無形の・漠然とした（in- + tangere）" },
+        { word: "contagious",    desc: "伝染性の（con- + tangere）" },
+        { word: "tangent",       desc: "接線・話題から外れた（tangere）" }
+      ],
+      compounds: [
+        { phrase: "contact information",  desc: "連絡先情報" },
+        { phrase: "point of contact",     desc: "接点・連絡窓口" }
+      ]
+    },
+
+    "tangible": {
+      origin: "ラテン語 tangibilis（触れることができる）< tangere（触れる）+ -ibilis（〜できる）。「手で触れることができる・実体がある」というのが語源的な意味。\n\n16世紀に英語に入り「（1）触れることができる・有形の（2）はっきりした・具体的な」という形容詞として定着。tangible assets（有形資産 ＝ 建物・設備など物理的な資産）は会計・財務の基本用語。\n\ntangible results（具体的な結果）、tangible benefits（明確なメリット）のように「曖昧でなく証明・確認できる」という意味でビジネス文書にも頻出する。",
+      derivatives: [
+        { word: "tangibly",      desc: "具体的に・明確に（副詞）" },
+        { word: "intangible",    desc: "無形の・実体のない（in- + tangible）" }
+      ],
+      family: [
+        { word: "contact",       desc: "接触・連絡（con- + tangere）" },
+        { word: "contagious",    desc: "伝染性の（con- + tangere）" },
+        { word: "tangent",       desc: "接線・脱線した（tangere）" }
+      ],
+      compounds: [
+        { phrase: "tangible assets",    desc: "有形資産" },
+        { phrase: "tangible results",   desc: "具体的な結果・明確な成果" }
+      ]
+    },
+
+    "contagious": {
+      origin: "ラテン語 contagiosus（触れることで伝わる）< contagio（接触による伝染）< con-（共に）+ tangere（触れる）。「触れることで伝わる病気」という医学的な意味が語源。\n\n14世紀に英語に入り「（病気が）接触感染する・伝染性の」という医学的な意味で定着。現代では比喩的に「感情・行動が人から人へと伝わる」という意味でも頻用される。a contagious laugh（うつる笑い）、contagious enthusiasm（伝染する熱意）のように。\n\ncorona pandemic 以降、contagious（接触感染性）と airborne（空気感染性）の区別が一般市民にも意識されるようになった。",
+      derivatives: [
+        { word: "contagion",     desc: "伝染・感染・（悪い影響の）伝播（名詞）" }
+      ],
+      family: [
+        { word: "contact",       desc: "接触（con- + tangere）" },
+        { word: "tangible",      desc: "有形の（tangere）" },
+        { word: "epidemic",      desc: "流行病（epi- + dēmos）" }
+      ],
+      compounds: [
+        { phrase: "contagious disease",  desc: "伝染病・接触感染症" },
+        { phrase: "contagious laughter", desc: "うつる笑い・笑いの連鎖" }
+      ]
+    },
+
+    // ── tempt / tent系（試みる）──
+    "tempt": {
+      origin: "ラテン語 temptare / tentare（試す・探る・誘惑する）。元来は「棒でつついて試す」という物理的な行為から、「誰かの意志を試す＝誘惑する」という意味に転じた。\n\n13世紀に英語に入り「（悪いことへ）誘惑する・そそのかす・〜したい気持ちにさせる」という動詞として定着。人・食べ物・お金が誘惑の主語になり、"She was tempted to quit."（彼女は辞めたい気持ちにかられた）のように幅広く使われる。\n\n"Don't tempt fate."（運命を試すな＝無謀なことはするな）は英語の重要な慣用表現。",
+      derivatives: [
+        { word: "temptation",    desc: "誘惑・魅力・そそのかし（名詞）" },
+        { word: "tempting",      desc: "魅力的な・そそられる（形容詞）" }
+      ],
+      family: [
+        { word: "attempt",       desc: "試みる・試みる（ad- + temptare）" },
+        { word: "contempt",      desc: "軽蔑（con- + temptare 試みた結果見下す）" },
+        { word: "contemplate",   desc: "熟考する（contemplari）" }
+      ],
+      compounds: [
+        { phrase: "resist temptation",   desc: "誘惑に抗う" },
+        { phrase: "tempt fate",          desc: "運命を試す・無謀なことをする" }
+      ]
+    },
+
+    "attempt": {
+      origin: "ラテン語 attemptare（〜に向けて試す）< ad-（〜へ）+ temptare（試す）。「ある目標に向けて試みる」というのが語源的な意味。\n\n15世紀に英語に入り「試みる・挑戦する（動詞）・試み・挑戦（名詞）」として定着。attempt to do（〜しようと試みる）という構文が基本。\n\n法律では attempted murder（殺人未遂）のように「未遂の犯罪」を表す。"in an attempt to do"（〜しようとして）は英語のライティングでよく使われる表現。失敗を恐れずに挑戦する姿勢を尊重する英語文化において、"make an attempt"（挑戦する）は重要なフレーズ。",
+      derivatives: [
+        { word: "unattempted",    desc: "まだ試みられていない（形容詞）" }
+      ],
+      family: [
+        { word: "tempt",          desc: "誘惑する（temptare）" },
+        { word: "contempt",       desc: "軽蔑（con- + temptare）" }
+      ],
+      compounds: [
+        { phrase: "in an attempt to",   desc: "〜しようとして" },
+        { phrase: "attempted murder",   desc: "殺人未遂（法律用語）" }
+      ]
+    },
+
+    "contempt": {
+      origin: "ラテン語 contemptus（軽蔑・蔑み）< contemnere（完全に軽んじる）< con-（強調）+ temnere（軽視する）。試した結果として「価値がないと判断して見下す」という意味が生まれた。\n\n14世紀に英語に入り「軽蔑・侮辱・コントラクト」という名詞として定着。hold someone in contempt（〜を軽蔑する）、contempt of court（法廷侮辱罪）が重要表現。\n\ncontempt of court（裁判所の判決・命令を無視すること）は英米法の重要概念で、裁判所の権威への侮辱として処罰される。feel contempt for（〜を軽蔑する）という感情表現も頻用。",
+      derivatives: [
+        { word: "contemptuous",   desc: "軽蔑的な・侮蔑的な（形容詞）" },
+        { word: "contemptuously", desc: "軽蔑的に（副詞）" }
+      ],
+      family: [
+        { word: "tempt",          desc: "誘惑する（temptare）" },
+        { word: "attempt",        desc: "試みる（ad- + temptare）" }
+      ],
+      compounds: [
+        { phrase: "contempt of court",   desc: "法廷侮辱罪・裁判所侮辱" },
+        { phrase: "hold in contempt",    desc: "〜を軽蔑する・蔑む" }
+      ]
+    },
+
+    // ── ment / men系（精神・心）──
+    "mental": {
+      origin: "ラテン語 mentalis（心・精神の）< mens / mentis（心・精神・知性）。mens はインド・ヨーロッパ語根 *men-（考える）に由来し、英語の mind とも遠縁にある。\n\n17世紀に英語に入り「精神の・心の・知的な」という形容詞として定着。mental health（精神的健康）、mental illness（精神疾患）、mental note（心の中のメモ）のように、身体（physical）と対比して精神・心理的な側面を表す。\n\n現代では mental health awareness（精神的健康への意識）が社会的な重要課題として広く議論されるようになり、この語の使用頻度と重要性が高まっている。",
+      derivatives: [
+        { word: "mentally",      desc: "精神的に・心理的に（副詞）" },
+        { word: "mentality",     desc: "精神的態度・考え方・メンタリティ（名詞）" }
+      ],
+      family: [
+        { word: "mention",       desc: "言及する（mentio 心に触れること）" },
+        { word: "comment",       desc: "コメントする（com- + mens）" },
+        { word: "mind",          desc: "心・精神（同じ印欧語根 *men-）" },
+        { word: "memory",        desc: "記憶（memor 心に留める）" }
+      ],
+      compounds: [
+        { phrase: "mental health",        desc: "精神的健康・メンタルヘルス" },
+        { phrase: "mental note",          desc: "心の中のメモ・頭の中で覚えること" }
+      ]
+    },
+
+    "mention": {
+      origin: "ラテン語 mentio（心に留めること・言及）< mens / mentis（心・記憶）。「心に残ることを言葉にする＝言及する」というのが語源的なつながり。\n\n14世紀のフランス語経由で英語に入り「〜に言及する・〜のことを話す（動詞）・言及・名前を出すこと（名詞）」として定着。Don't mention it.（どういたしまして）は英語の礼儀表現の定型句。\n\n"not to mention..."（〜は言うまでもなく）は重要なイディオムで、追加情報を強調する際によく使われる。"Worth mentioning"（言及する価値がある）のような表現も頻出。",
+      derivatives: [
+        { word: "aforementioned", desc: "前述の・前に言及した（afore + mentioned）" }
+      ],
+      family: [
+        { word: "mental",        desc: "精神的な（mens）" },
+        { word: "comment",       desc: "コメント（com- + mens）" },
+        { word: "monument",      desc: "記念碑（monumentum 心に留めさせるもの）" }
+      ],
+      compounds: [
+        { phrase: "not to mention",    desc: "〜は言うまでもなく" },
+        { phrase: "don't mention it",  desc: "どういたしまして（礼を言われた際）" }
+      ]
+    },
+
+    "monument": {
+      origin: "ラテン語 monumentum（記念物・記念碑）< monere（思い起こさせる・警告する）< mens（心）。「心に残るものを形にして後世に伝えるもの」というのが語源的な意味。monere は warning（警告）の意味もあり、「remind」と「warn」の両方の概念を含む。\n\n14世紀に英語に入り「（人・出来事を記念する）記念碑・建造物・史跡」という名詞として定着。a monument to（〜を称えた記念碑）、historic monument（歴史的記念物）のように使われる。\n\nmonumental（記念碑的な・壮大な・非常に重要な）は「monument のような規模・重要性」を持つ形容詞として頻用される。",
+      derivatives: [
+        { word: "monumental",    desc: "壮大な・記念碑的な・非常に重要な（形容詞）" }
+      ],
+      family: [
+        { word: "mental",        desc: "精神的な（mens）" },
+        { word: "mention",       desc: "言及する（mentio）" },
+        { word: "admonish",      desc: "諭す・警告する（ad- + monere）" },
+        { word: "remind",        desc: "思い出させる（re- + mind ＝ monere）" }
+      ],
+      compounds: [
+        { phrase: "a monument to",      desc: "〜への記念碑・〜を称えた建造物" },
+        { phrase: "historic monument",  desc: "歴史的記念物・史跡" }
+      ]
+    },
+
+    // ── clar系（明らか）──
+    "clarify": {
+      origin: "ラテン語 clarificare（明るくする・明らかにする）< clarus（明るい・明確な）+ facere（する）。clarus は印欧語根 *kele-（叫ぶ・大声を出す）に由来し、「大声で叫ぶほど明確」というイメージが原義にある。\n\n14世紀に英語に入り「（液体を）澄ませる・（考え・状況を）明確にする」という動詞として定着。Please clarify your position.（あなたの立場を明確にしてください）のように、コミュニケーションの場で頻用される。\n\nclarification（明確化・説明）という名詞も重要で、Could you give me some clarification?（もう少し詳しく説明してもらえますか？）は丁寧に説明を求める重要フレーズ。",
+      derivatives: [
+        { word: "clarification",  desc: "明確化・説明・澄ませること（名詞）" },
+        { word: "clarity",        desc: "明瞭さ・明確さ（名詞）" }
+      ],
+      family: [
+        { word: "clear",          desc: "明確な・晴れた（clarus から）" },
+        { word: "declare",        desc: "宣言する（de- + clarus）" },
+        { word: "illuminate",     desc: "照らす（lumen 光）" }
+      ],
+      compounds: [
+        { phrase: "for clarification",   desc: "明確にするために・説明のために" },
+        { phrase: "clarify a point",     desc: "ある点を明確にする" }
+      ]
+    },
+
+    "declare": {
+      origin: "ラテン語 declarare（完全に明らかにする）< de-（完全に）+ clarare（明るくする）< clarus（明るい・明確な）。「完全に明確にして公に言明する」というのが語源的な意味。\n\n14世紀に英語に入り「（公式に・はっきりと）宣言する・申告する・表明する」という動詞として定着。declare war（宣戦布告する）、declare independence（独立宣言する）、declare your income（収入を申告する）のように使われる。\n\n税関では have anything to declare?（申告するものはありますか？）と聞かれ、customs declaration（税関申告書）が必要になる。",
+      derivatives: [
+        { word: "declaration",    desc: "宣言・申告・表明（名詞）" },
+        { word: "declarative",    desc: "宣言的な・平叙の（文法用語）" }
+      ],
+      family: [
+        { word: "clarify",        desc: "明確にする（clarus + facere）" },
+        { word: "clarity",        desc: "明瞭さ（claritas）" },
+        { word: "clear",          desc: "明確な・晴れた（clarus）" }
+      ],
+      compounds: [
+        { phrase: "declare war",          desc: "宣戦布告する" },
+        { phrase: "declare bankruptcy",   desc: "破産を申告する" },
+        { phrase: "customs declaration",  desc: "税関申告書" }
+      ]
     }
 
   };

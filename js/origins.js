@@ -21872,6 +21872,517 @@
         { phrase: "disease progression",    desc: "疾患の進行" },
         { phrase: "career progression",     desc: "キャリアの進展" }
       ]
+    },
+
+    "initiate": {
+      origin: "ラテン語 initiare（始める・入会させる）< initium（始まり）< inire（中に入る）< in-（中に）+ ire（行く）+ -ate（動詞接尾辞）。「開始する・入会させる・新入生」が原義。initial（最初の）・initiative（主導権）・exit（出口）と同根の ire を共有し、「新たな段階の中に踏み込む」というイメージを持つ。\n\n英語には16世紀に採用され、「最初に始める・新しい段階へ導く」の意味で定着。ビジネス・教育・社会学で initiate a project（プロジェクトを開始する）・initiate a discussion（議論を始める）・initiate new members（新入会員を入会させる）のように使われる重要動詞として機能する。\n\n現代英語では initiate change（変革を起こす）・initiate talks（会談を開始する）のように「行動の起点となる者が動き出す」という主体的行動を示す語として、leadership・management の文脈で特に重要語として機能する。",
+      derivatives: [
+        { word: "initiative",   desc: "主導権・イニシアティブ（名詞）" },
+        { word: "initial",      desc: "最初の・頭文字（形容詞・名詞）" },
+        { word: "initiation",   desc: "開始・入会（名詞）" }
+      ],
+      family: [
+        { word: "initial",   desc: "最初の（initium）" },
+        { word: "exit",      desc: "出口（ex+ire）" },
+        { word: "transit",   desc: "通過（trans+ire）" }
+      ],
+      compounds: [
+        { phrase: "initiate a project",    desc: "プロジェクトを開始する" },
+        { phrase: "initiate talks",        desc: "会談を開始する" },
+        { phrase: "initiate change",       desc: "変革を起こす" }
+      ]
+    },
+
+    "maintenance": {
+      origin: "ラテン語 manutenere（手で保持する）< manu（手で）+ tenere（保持する・持つ）+ -ance（名詞接尾辞）。「維持・保守・メンテナンス」が原義。maintain（維持する）・tenant（借地人）・contain（含む）・retain（保持する）と同根の tenere を共有し、「手で支え続ける」というイメージを持つ。\n\n英語には14世紀に採用され、「状態・機能・関係を継続的に良い状態に保つ行為」の意味で定着。工学・不動産・法律で routine maintenance（定期点検）・maintenance costs（維持費）・child maintenance（養育費）のように幅広く使われる重要語として機能する。\n\n現代英語ではソフトウェア開発の maintenance update（メンテナンスアップデート）・infrastructure maintenance（インフラ保守）のように IT・工学で特に重要語となっており、車・建物・ソフトウェアから人間関係まで「継続的な手入れ」を示す語として広く使われる。",
+      derivatives: [
+        { word: "maintain",     desc: "維持する（動詞）" },
+        { word: "maintainable", desc: "維持可能な（形容詞）" }
+      ],
+      family: [
+        { word: "contain",  desc: "含む（con+tenere）" },
+        { word: "retain",   desc: "保持する（re+tenere）" },
+        { word: "tenant",   desc: "借地人（tenere）" }
+      ],
+      compounds: [
+        { phrase: "routine maintenance",  desc: "定期点検" },
+        { phrase: "maintenance costs",    desc: "維持費" },
+        { phrase: "child maintenance",    desc: "養育費" }
+      ]
+    },
+
+    "sustainability": {
+      origin: "ラテン語 sustinere（下から支える・耐える）< sub-（下から）+ tenere（保持する）+ -ability（可能性を示す名詞接尾辞）。「持続可能性」が原義。sustain（支える）・contain（含む）・maintain（維持する）と同根の tenere を共有し、「長期にわたって下から支え続けられる能力」というイメージを持つ。\n\n英語には20世紀後半に採用され、「現在の需要を満たしながら将来の世代の需要も満たす能力」という意味でブルントラント委員会（1987年）以降に定着。環境・ビジネス・政策で environmental sustainability（環境的持続可能性）・sustainability goals（持続可能性目標）・business sustainability（事業の持続可能性）のように現代の最重要概念の一つとして機能する。\n\n現代英語ではSDGs（持続可能な開発目標）との結びつきで corporate sustainability（企業の持続可能性）・sustainability report（サステナビリティ報告書）のように企業・政府・国際機関の語彙として不可欠な語となっており、green（環境配慮）と並ぶ現代の中核的価値語として機能する。",
+      derivatives: [
+        { word: "sustainable",   desc: "持続可能な（形容詞）" },
+        { word: "sustainably",   desc: "持続可能な形で（副詞）" },
+        { word: "unsustainable", desc: "持続不可能な（否定形）" }
+      ],
+      family: [
+        { word: "sustain",    desc: "支える・維持する（sub+tenere）" },
+        { word: "contain",    desc: "含む（con+tenere）" },
+        { word: "maintain",   desc: "維持する（manu+tenere）" }
+      ],
+      compounds: [
+        { phrase: "environmental sustainability",  desc: "環境的持続可能性" },
+        { phrase: "sustainability goals",          desc: "持続可能性目標" },
+        { phrase: "sustainability report",         desc: "サステナビリティ報告書" }
+      ]
+    },
+
+    "enhancement": {
+      origin: "古フランス語 enhancer（高める・増やす）< en-（中に・より）+ hancer（高める）< ラテン語 altus（高い）。「強化・改善・高まり」が原義。enhance（強化する）と同根で、「より高い水準に引き上げる」というイメージを持つ。\n\n英語には17世紀に採用され、「すでに良い状態のものをさらに良くする」の意味で定着。技術・ビジネス・医療で image enhancement（画像強化）・performance enhancement（性能向上）・cognitive enhancement（認知機能向上）のように「既存のものの質・量・機能を上げる」行為を示す重要語として機能する。\n\n現代英語ではデジタル写真・AI・薬理学でenhancement technology（強化技術）・photo enhancement（写真の加工）のように使われ、human enhancement（人間能力の強化）という倫理学的議論の中心語としても機能する重要語となっている。",
+      derivatives: [
+        { word: "enhance",    desc: "強化する・高める（動詞）" },
+        { word: "enhanced",   desc: "強化された（形容詞）" }
+      ],
+      family: [
+        { word: "alto",    desc: "アルト・高い（altus）" },
+        { word: "exalt",   desc: "高める・賛美する（ex+altus）" }
+      ],
+      compounds: [
+        { phrase: "image enhancement",       desc: "画像強化" },
+        { phrase: "performance enhancement", desc: "性能向上" },
+        { phrase: "cognitive enhancement",   desc: "認知機能向上" }
+      ]
+    },
+
+    "implement": {
+      origin: "ラテン語 implementum（完全に満たすもの・道具）< implere（満たす）< in-（中に）+ plere（満たす）。「実施する・道具・実装する」が原義。complete（完成する）・supplement（補足する）・accomplish（達成する）と同根の plere を共有し、「計画の空白を満たして実行に移す」というイメージを持つ。\n\n英語には15世紀に名詞（道具・用具）として採用され、動詞「実施する・実装する」の意味は19〜20世紀に発達した。ビジネス・政策・コンピュータ科学で implement a policy（政策を実施する）・implement a system（システムを導入する）・implement changes（変更を実装する）のように「計画を具体的行動に移す」核心動詞として機能する。\n\n現代英語ではソフトウェア開発で implement a feature（機能を実装する）・implement an algorithm（アルゴリズムを実装する）という IT 用語として特に重要であり、implementation（実装・実施）という名詞形も政策・技術の両分野で不可欠な語として機能する。",
+      derivatives: [
+        { word: "implementation",  desc: "実施・実装（名詞）" },
+        { word: "implementer",     desc: "実施者・実装者（名詞）" }
+      ],
+      family: [
+        { word: "complete",    desc: "完成する（com+plere）" },
+        { word: "supplement",  desc: "補足する（sub+plere）" },
+        { word: "deplete",     desc: "枯渇させる（de+plere）" }
+      ],
+      compounds: [
+        { phrase: "implement a policy",    desc: "政策を実施する" },
+        { phrase: "implement a system",    desc: "システムを導入する" },
+        { phrase: "implementation plan",   desc: "実施計画" }
+      ]
+    },
+
+    "monitoring": {
+      origin: "ラテン語 monere（警告する・助言する）+ -ing（動名詞接尾辞）。「監視・モニタリング・観察」が原義。monitor（監視する）・monument（記念碑）・admonish（諭す）と同根の monere を共有し、「警告のために継続的に見張る」というイメージを持つ。\n\n英語には20世紀に採用され、「システム・プロセス・状態を継続的に観察・記録する」の意味で定着。医療・環境・IT で patient monitoring（患者モニタリング）・environmental monitoring（環境モニタリング）・network monitoring（ネットワーク監視）のように「継続的な観察・管理」を示す重要語として機能する。\n\n現代英語ではビッグデータ・IoT 時代に monitoring system（監視システム）・real-time monitoring（リアルタイム監視）・monitoring dashboard（監視ダッシュボード）のように技術・医療・企業ガバナンスで特に重要性が増しており、「問題を早期発見するための継続的観察」の概念を示す語として機能する。",
+      derivatives: [
+        { word: "monitor",   desc: "監視する・モニター（動詞・名詞）" },
+        { word: "monitored", desc: "監視された（形容詞）" }
+      ],
+      family: [
+        { word: "monument",  desc: "記念碑（monere）" },
+        { word: "admonish",  desc: "諭す（ad+monere）" },
+        { word: "summon",    desc: "召喚する（sub+monere）" }
+      ],
+      compounds: [
+        { phrase: "patient monitoring",      desc: "患者モニタリング" },
+        { phrase: "real-time monitoring",    desc: "リアルタイム監視" },
+        { phrase: "environmental monitoring", desc: "環境モニタリング" }
+      ]
+    },
+
+    "adaptation": {
+      origin: "ラテン語 adaptare（〜に合わせる）< ad-（〜に）+ aptare（合わせる）< aptus（適した）+ -ion（名詞接尾辞）。「適応・改作・翻案」が原義。adapt（適応する）・apt（適切な）・aptitude（適性）と同根の aptus を共有し、「環境や目的に合うように形を変える」というイメージを持つ。\n\n英語には16世紀に採用され、「変化した環境や状況に合わせて自己を変容させること・既存作品を別の媒体向けに改変すること」の意味で定着。生物学・心理学・芸術で evolutionary adaptation（進化的適応）・film adaptation（映画化）・cultural adaptation（文化的適応）のように使われる多義語として機能する。\n\n現代英語では climate adaptation（気候変動適応）・adaptation strategy（適応戦略）のように環境政策の核心語となっており、rapid adaptation（迅速な適応）がビジネス・組織のレジリエンスを示す語として特に注目されている。",
+      derivatives: [
+        { word: "adapt",     desc: "適応する・改作する（動詞）" },
+        { word: "adaptive",  desc: "適応的な（形容詞）" },
+        { word: "adaptable", desc: "適応力のある（形容詞）" }
+      ],
+      family: [
+        { word: "apt",      desc: "適切な（aptus）" },
+        { word: "aptitude", desc: "適性（aptus）" },
+        { word: "inept",    desc: "不適切な（in+aptus）" }
+      ],
+      compounds: [
+        { phrase: "film adaptation",         desc: "映画化" },
+        { phrase: "climate adaptation",      desc: "気候変動適応" },
+        { phrase: "evolutionary adaptation", desc: "進化的適応" }
+      ]
+    },
+
+    "response": {
+      origin: "ラテン語 responsum（答え・保証）< respondere（答える・保証する）< re-（返して）+ spondere（誓う・約束する）。「応答・反応・返答」が原義。respond（答える）・sponsor（スポンサー）・correspond（一致する）と同根の spondere を共有し、「誓いに応えて返す」というイメージを持つ。\n\n英語には14世紀に採用され、「刺激・問い・状況に対する反応・答え」の意味で定着。医学・法律・日常語で emergency response（緊急対応）・immune response（免疫反応）・in response to…（〜に応えて）のように「刺激への反応・問いへの答え」を示す核心語として機能する。\n\n現代英語では crisis response（危機対応）・response time（応答時間）・government response（政府の対応）のように公衆衛生・IT・行政で特に重要語として機能し、responsibility（責任、re+spondere）という語との意味的つながりでも「返す義務」というイメージを共有している。",
+      derivatives: [
+        { word: "respond",       desc: "答える・反応する（動詞）" },
+        { word: "responsive",    desc: "反応が早い・敏感な（形容詞）" },
+        { word: "responsibility", desc: "責任（spondere）" }
+      ],
+      family: [
+        { word: "sponsor",     desc: "スポンサー（spondere）" },
+        { word: "correspond",  desc: "一致する・通信する（cor+spondere）" }
+      ],
+      compounds: [
+        { phrase: "emergency response",  desc: "緊急対応" },
+        { phrase: "immune response",     desc: "免疫反応" },
+        { phrase: "response time",       desc: "応答時間" }
+      ]
+    },
+
+    "interpretation": {
+      origin: "ラテン語 interpretatio（説明・翻訳）< interpres（仲介者・通訳）< inter-（間に）+ pretium（価格・価値）+ -ion（名詞接尾辞）。「解釈・通訳・演奏」が原義。interpret（解釈する）・price（価格）・praise（称賛する）と遠い語源的関連を持ち、「二者の間に立って意味の価値を伝える」というイメージを持つ。\n\n英語には14世紀に採用され、「テキスト・行為・データの意味を説明する・外国語を口頭で翻訳する・音楽を独自に演奏する」という三つの意味で定着。法律・音楽・言語学で legal interpretation（法的解釈）・musical interpretation（音楽的解釈）・data interpretation（データ解釈）のように幅広く使われる多義語として機能する。\n\n現代英語ではstatutory interpretation（法令解釈）という法律専門語から、interpretation of results（結果の解釈）という科学研究用語まで幅広く使われ、hermeneutics（解釈学）という学問分野の核心語としても機能する。",
+      derivatives: [
+        { word: "interpret",    desc: "解釈する・通訳する（動詞）" },
+        { word: "interpretive", desc: "解釈的な（形容詞）" },
+        { word: "interpreter",  desc: "通訳者・解釈者（名詞）" }
+      ],
+      family: [
+        { word: "enterprise",  desc: "企業・試み（inter+prehendere）" }
+      ],
+      compounds: [
+        { phrase: "legal interpretation",    desc: "法的解釈" },
+        { phrase: "data interpretation",     desc: "データ解釈" },
+        { phrase: "musical interpretation",  desc: "音楽的解釈" }
+      ]
+    },
+
+    "stimulate": {
+      origin: "ラテン語 stimulare（棒で突く・刺激する）< stimulus（棒・刺激物）+ -ate（動詞接尾辞）。「刺激する・促進する」が原義。stimulus（刺激）・stimulant（興奮剤）と同根で、「鋭い棒で突いて動かす」というイメージを持つ。\n\n英語には16世紀に採用され、「生理的・精神的・経済的に活性化させる」の意味で定着。生理学・経済学・教育で stimulate economic growth（経済成長を刺激する）・stimulate the immune system（免疫系を活性化する）・intellectually stimulating（知的に刺激的な）のように幅広く使われる基本動詞として機能する。\n\n現代英語では fiscal stimulus（財政刺激策）・stimulus package（経済刺激策）という経済政策語彙として特に重要であり、economic stimulus（経済刺激）は COVID-19 後の経済政策の核心語として全世界で使われた重要語となっている。",
+      derivatives: [
+        { word: "stimulation",  desc: "刺激・活性化（名詞）" },
+        { word: "stimulus",     desc: "刺激（名詞）" },
+        { word: "stimulant",    desc: "興奮剤・刺激物（名詞）" }
+      ],
+      family: [
+        { word: "stimulus",     desc: "刺激・経済刺激策（名詞）" },
+        { word: "instinct",     desc: "本能（in+stinguere）" }
+      ],
+      compounds: [
+        { phrase: "fiscal stimulus",         desc: "財政刺激策" },
+        { phrase: "economic stimulus",       desc: "経済刺激策" },
+        { phrase: "intellectually stimulating", desc: "知的に刺激的な" }
+      ]
+    },
+
+    "mediation": {
+      origin: "ラテン語 mediatio（中間・仲介）< mediare（中間に立つ）< medius（中間の）+ -ion（名詞接尾辞）。「調停・仲介・和解」が原義。medium（媒体・中間）・mediate（仲介する）・immediate（直接的な、in+mediate）と同根の medius を共有し、「対立する二者の間に立って和解を導く」というイメージを持つ。\n\n英語には14世紀に採用され、「紛争当事者の間に立って合意を促すプロセス」の意味で定着。法律・外交・労使関係で dispute mediation（紛争調停）・enter mediation（調停に入る）・online mediation（オンライン調停）のように「第三者による争い解決支援」を示す重要語として機能する。\n\n現代英語ではalternative dispute resolution（代替的紛争解決）の主要手段として、mediation vs. arbitration（調停 vs. 仲裁）という使い分けが法律・ビジネスで重要であり、community mediation（地域調停）・peer mediation（仲間調停）という新たな応用分野でも機能する。",
+      derivatives: [
+        { word: "mediate",   desc: "仲介する（動詞）" },
+        { word: "mediator",  desc: "調停者・仲介者（名詞）" }
+      ],
+      family: [
+        { word: "medium",     desc: "媒体・中間（medius）" },
+        { word: "immediate",  desc: "直接的な（in+medius）" },
+        { word: "medieval",   desc: "中世の（medius+aevum）" }
+      ],
+      compounds: [
+        { phrase: "dispute mediation",  desc: "紛争調停" },
+        { phrase: "enter mediation",    desc: "調停に入る" },
+        { phrase: "peer mediation",     desc: "仲間調停" }
+      ]
+    },
+
+    "arbitration": {
+      origin: "ラテン語 arbitratio（判断・仲裁）< arbiter（仲裁人・証人）< ad-（〜に）+ baetere（歩く）+ -ion（名詞接尾辞）。「仲裁・裁定」が原義。arbitrary（恣意的な）・arbitrate（仲裁する）と同根の arbiter を含み、「双方のもとへ歩いて判断を下す者」というイメージを持つ。\n\n英語には14世紀に採用され、「第三者の仲裁人が拘束力のある決定を下して紛争を解決するプロセス」の意味で定着。法律・ビジネス・労使関係で binding arbitration（拘束力のある仲裁）・international arbitration（国際仲裁）・arbitration clause（仲裁条項）のように使われる重要語として機能する。\n\n現代英語では mediation（調停、拘束力なし）との違いが重要で、binding arbitration（仲裁判断に従う義務あり）は、企業間・労働契約・消費者契約に広く組み込まれる紛争解決手段として機能し、arbitration agreement（仲裁合意）は国際商取引で必須語となっている。",
+      derivatives: [
+        { word: "arbitrate",  desc: "仲裁する（動詞）" },
+        { word: "arbitrator", desc: "仲裁人（名詞）" },
+        { word: "arbitrary",  desc: "恣意的な（arbiter）" }
+      ],
+      family: [
+        { word: "arbitrary",   desc: "恣意的な（arbiter）" },
+        { word: "mediation",   desc: "調停（medius）" }
+      ],
+      compounds: [
+        { phrase: "binding arbitration",    desc: "拘束力のある仲裁" },
+        { phrase: "arbitration clause",     desc: "仲裁条項" },
+        { phrase: "international arbitration", desc: "国際仲裁" }
+      ]
+    },
+
+    "publication": {
+      origin: "ラテン語 publicatio（公開・没収）< publicare（公開する）< publicus（公共の）< populus（人民）+ -ion（名詞接尾辞）。「出版・公表・刊行物」が原義。public（公共の）・republic（共和国）・publish（出版する）と同根の publicus を共有し、「人民のために公開する」というイメージを持つ。\n\n英語には15世紀に採用され、「著作物を印刷して一般に向けて頒布すること・その産物」の意味で定着。出版・学術・法律で academic publication（学術論文）・publication date（発行日）・government publication（政府刊行物）のように「知識を公的に共有する行為」を示す重要語として機能する。\n\n現代英語ではデジタル出版の普及とともに online publication（オンライン出版）・self-publication（自費出版）のような新形態も登場し、publication bias（出版バイアス）という研究倫理の重要概念でも使われる語となっている。",
+      derivatives: [
+        { word: "publish",    desc: "出版する（動詞）" },
+        { word: "publisher",  desc: "出版社・発行者（名詞）" },
+        { word: "publishable", desc: "出版に値する（形容詞）" }
+      ],
+      family: [
+        { word: "public",    desc: "公共の（publicus）" },
+        { word: "republic",  desc: "共和国（res+publica）" },
+        { word: "populace",  desc: "一般大衆（populus）" }
+      ],
+      compounds: [
+        { phrase: "academic publication",  desc: "学術論文・学術出版" },
+        { phrase: "publication date",      desc: "発行日" },
+        { phrase: "publication bias",      desc: "出版バイアス" }
+      ]
+    },
+
+    "association": {
+      origin: "ラテン語 associare（仲間にする）< ad-（〜に）+ socius（仲間・同盟者）+ -ion（名詞接尾辞）。「協会・関連・連想」が原義。social（社会的な）・society（社会）・sociology（社会学）と同根の socius を共有し、「仲間として結びつける」というイメージを持つ。\n\n英語には14世紀に採用され、「共通目的を持つ人々の組織・概念の結びつき・精神的連想」という三つの意味で定着。法律・心理学・日常語で professional association（職業団体）・free association（自由連想）・association of ideas（観念の連合）のように幅広く使われる多義語として機能する。\n\n現代英語ではHomeowners Association（住宅所有者組合）・Trade Association（業界団体）のような組織名で頻出するほか、guilt by association（連座・連帯責任）という法律・日常語の慣用句でも機能する重要語となっている。",
+      derivatives: [
+        { word: "associate",  desc: "関連づける・仲間（動詞・名詞）" },
+        { word: "associated", desc: "関連した（形容詞）" }
+      ],
+      family: [
+        { word: "social",    desc: "社会的な（socius）" },
+        { word: "society",   desc: "社会（socius）" },
+        { word: "socialism",  desc: "社会主義（socius）" }
+      ],
+      compounds: [
+        { phrase: "professional association", desc: "職業団体" },
+        { phrase: "free association",        desc: "自由連想（心理学）" },
+        { phrase: "guilt by association",    desc: "連座" }
+      ]
+    },
+
+    "legislation": {
+      origin: "ラテン語 legislatio（法律の提案）< lex（法律）+ latus（運ばれた）< legere（読む・選ぶ）+ -ion（名詞接尾辞）。「立法・法律の制定・法律」が原義。legal（法律の）・legislature（立法府）・legitimate（合法の）と同根の lex を共有し、「法律を作り出すプロセス・その産物」というイメージを持つ。\n\n英語には17世紀に採用され、「法律を制定するプロセス・制定された法律」の意味で定着。政治・法律・政策で pass legislation（法律を可決する）・anti-discrimination legislation（差別禁止法）・draft legislation（法案を起草する）のように立法活動の核心語として機能する。\n\n現代英語ではenable legislation（授権法）・primary legislation（根本法）・secondary legislation（委任立法）のように法律体系を分類する専門語として使われるほか、new legislation（新法）・landmark legislation（画期的な法律）のように政治ニュースの頻出語として機能する。",
+      derivatives: [
+        { word: "legislate",   desc: "立法する（動詞）" },
+        { word: "legislative", desc: "立法の（形容詞）" },
+        { word: "legislator",  desc: "立法者・議員（名詞）" }
+      ],
+      family: [
+        { word: "legal",      desc: "法律の（lex）" },
+        { word: "legislature", desc: "立法府（lex）" },
+        { word: "legitimate",  desc: "合法の（lex）" }
+      ],
+      compounds: [
+        { phrase: "pass legislation",          desc: "法律を可決する" },
+        { phrase: "draft legislation",         desc: "法案を起草する" },
+        { phrase: "landmark legislation",      desc: "画期的な法律" }
+      ]
+    },
+
+    "declaration": {
+      origin: "ラテン語 declaratio（明確にすること）< declarare（明確にする）< de-（完全に）+ clarare（明らかにする）< clarus（明確な）+ -ion（名詞接尾辞）。「宣言・申告・声明」が原義。declare（宣言する）・clear（明確な）・clarify（明確にする）と同根の clarus を共有する。\n\n英語には14世紀に採用され、「公式・正式に意図・事実・立場を述べること」の意味で定着。政治・法律・税務で Declaration of Independence（独立宣言）・customs declaration（税関申告）・declaration of war（宣戦布告）のように様々な「公式声明」を示す重要語として機能する。\n\n現代英語では income declaration（所得申告）・environmental declaration（環境宣言）のように税務・政治・環境で使われ、the Universal Declaration of Human Rights（世界人権宣言）は国際法の最重要文書のひとつとして declaration という語の歴史的重要性を示している。",
+      derivatives: [
+        { word: "declare",     desc: "宣言する・申告する（動詞）" },
+        { word: "declaratory", desc: "宣言的な（形容詞）" }
+      ],
+      family: [
+        { word: "clear",    desc: "明確な（clarus）" },
+        { word: "clarify",  desc: "明確にする（clarus）" },
+        { word: "clarity",  desc: "明確さ（clarus）" }
+      ],
+      compounds: [
+        { phrase: "Declaration of Independence",  desc: "独立宣言" },
+        { phrase: "customs declaration",          desc: "税関申告" },
+        { phrase: "declaration of war",           desc: "宣戦布告" }
+      ]
+    },
+
+    "restoration": {
+      origin: "ラテン語 restauratio（再建・修復）< restaurare（再建する）< re-（再び）+ instaurare（設置する・修復する）+ -ion（名詞接尾辞）。「修復・復元・王政復古」が原義。restore（修復する）・restaurant（レストラン、元気を回復させる場所）と同根で、「元の状態に戻す」というイメージを持つ。\n\n英語には14世紀に採用され、「失われた・損なわれた状態を元に戻すこと」の意味で定着。芸術・政治・生態学で art restoration（美術品の修復）・ecological restoration（生態系の復元）・the Restoration（英国王政復古、1660年）のように様々な「元の状態への回帰」を示す重要語として機能する。\n\n現代英語ではhabitat restoration（生息地の回復）・democracy restoration（民主主義の回復）のように環境・政治で頻用され、restorative justice（修復的司法）という犯罪被害者・加害者の和解を促す新しい法律概念でも使われる重要語となっている。",
+      derivatives: [
+        { word: "restore",      desc: "修復する・回復させる（動詞）" },
+        { word: "restorative",  desc: "修復的な・回復させる（形容詞）" }
+      ],
+      family: [
+        { word: "restaurant",  desc: "レストラン（restaurare）" },
+        { word: "store",       desc: "蓄える・店（instaurare）" }
+      ],
+      compounds: [
+        { phrase: "art restoration",        desc: "美術品の修復" },
+        { phrase: "ecological restoration", desc: "生態系の復元" },
+        { phrase: "restorative justice",    desc: "修復的司法" }
+      ]
+    },
+
+    "preservation": {
+      origin: "ラテン語 praeservare（前もって守る）< prae-（前もって）+ servare（守る・保つ）+ -ion（名詞接尾辞）。「保存・保護・維持」が原義。preserve（保存する）・conserve（保全する）・observe（観察する）・reserve（予約する）と同根の servare を共有し、「前もって守りとっておく」というイメージを持つ。\n\n英語には14世紀に採用され、「元の状態・質・量を損なわずに保ち続けること」の意味で定着。食品・文化・環境で food preservation（食品保存）・historic preservation（歴史的保存）・nature preservation（自然保護）のように「大切なものを損なわずに維持する」行為を示す重要語として機能する。\n\n現代英語ではdigital preservation（デジタル保存）・language preservation（言語保存）のように文化遺産・デジタルアーカイブで重要語となっており、self-preservation（自己保存、本能的な生存欲求）という心理・倫理の概念でも機能する。",
+      derivatives: [
+        { word: "preserve",      desc: "保存する・保護する（動詞）" },
+        { word: "preservative",  desc: "防腐剤・保存剤（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "conserve",  desc: "保全する（con+servare）" },
+        { word: "observe",   desc: "観察する（ob+servare）" },
+        { word: "reserve",   desc: "予約する・留保する（re+servare）" }
+      ],
+      compounds: [
+        { phrase: "food preservation",      desc: "食品保存" },
+        { phrase: "historic preservation",  desc: "歴史的保存" },
+        { phrase: "self-preservation",      desc: "自己保存" }
+      ]
+    },
+
+    "observation": {
+      origin: "ラテン語 observatio（観察・守ること）< observare（注意して見守る）< ob-（〜に向けて）+ servare（守る・保つ）+ -ion（名詞接尾辞）。「観察・所見・遵守」が原義。preserve（保存する）・conserve（保全する）・reserve（予約する）と同根の servare を共有し、「目を向けて守るように見る」というイメージを持つ。\n\n英語には14世紀に採用され、「注意深く見ること・その結果得られた知見・規則の遵守」という三義で定着。科学・医学・法律で make observations（観察を行う）・clinical observation（臨床観察）・observation deck（展望デッキ）のように使われる多義語として機能する。\n\n現代英語では observational study（観察研究）・detailed observations（詳細な所見）のように科学・医学で使われるほか、keep someone under observation（監視下に置く）という法律・医療的文脈でも重要語として機能する。",
+      derivatives: [
+        { word: "observe",       desc: "観察する・遵守する（動詞）" },
+        { word: "observational", desc: "観察の（形容詞）" },
+        { word: "observer",      desc: "観察者・オブザーバー（名詞）" }
+      ],
+      family: [
+        { word: "preserve",  desc: "保存する（prae+servare）" },
+        { word: "conserve",  desc: "保全する（con+servare）" },
+        { word: "reserve",   desc: "予約する（re+servare）" }
+      ],
+      compounds: [
+        { phrase: "make observations",      desc: "観察を行う" },
+        { phrase: "observational study",    desc: "観察研究" },
+        { phrase: "under observation",      desc: "監視下に置く" }
+      ]
+    },
+
+    "investigation": {
+      origin: "ラテン語 investigatio（足跡を追うこと）< investigare（足跡をたどる）< in-（中に）+ vestigium（足跡）+ -ion（名詞接尾辞）。「調査・捜査・研究」が原義。investigate（調査する）・vestige（痕跡）と同根の vestigium を共有し、「足跡をたどって真実を突き止める」というイメージを持つ。\n\n英語には15世紀に採用され、「体系的に情報・証拠を集めて真実を明らかにする活動」の意味で定着。法律・科学・ジャーナリズムで criminal investigation（刑事捜査）・scientific investigation（科学的調査）・investigative journalism（調査報道）のように「真実を暴く体系的作業」を示す重要語として機能する。\n\n現代英語ではunder investigation（調査中）・launch an investigation（調査を開始する）のような定型表現が法律・政治・メディアで頻用され、congressional investigation（議会調査）のように政治的説明責任を問う語彙としても機能する。",
+      derivatives: [
+        { word: "investigate",     desc: "調査する（動詞）" },
+        { word: "investigative",   desc: "調査の（形容詞）" },
+        { word: "investigator",    desc: "調査員・捜査官（名詞）" }
+      ],
+      family: [
+        { word: "vestige",  desc: "痕跡・名残（vestigium）" }
+      ],
+      compounds: [
+        { phrase: "criminal investigation",     desc: "刑事捜査" },
+        { phrase: "launch an investigation",    desc: "調査を開始する" },
+        { phrase: "investigative journalism",   desc: "調査報道" }
+      ]
+    },
+
+    "examination": {
+      origin: "ラテン語 examinatio（測定・試験）< examinare（重さを量る・試みる）< examen（天秤の針）< exigere（押し出す）< ex-（外に）+ agere（動かす）+ -ion（名詞接尾辞）。「試験・検査・審問」が原義。exam（試験）・exact（正確な）・examine（試験する）と同根で、「天秤で精密に計るように確かめる」というイメージを持つ。\n\n英語には14世紀に採用され、「知識・能力・状態を評価するための体系的なテスト・調査」の意味で定着。教育・医療・法律で pass an examination（試験に合格する）・medical examination（健康診断）・cross-examination（反対尋問）のように「詳細な確認・評価」を示す重要語として機能する。\n\n現代英語では examination results（試験結果）・physical examination（身体検査）・under examination（検討中）のように教育・医療・法律の三分野で使われ、exam（省略語）として日常語でも頻出する基本語となっている。",
+      derivatives: [
+        { word: "examine",   desc: "試験する・調べる（動詞）" },
+        { word: "examiner",  desc: "試験官・審査員（名詞）" },
+        { word: "exam",      desc: "試験（省略語）" }
+      ],
+      family: [
+        { word: "exact",    desc: "正確な（ex+agere）" },
+        { word: "exert",    desc: "発揮する（ex+serere）" },
+        { word: "exigent",  desc: "緊急の（ex+agere）" }
+      ],
+      compounds: [
+        { phrase: "medical examination",  desc: "健康診断" },
+        { phrase: "cross-examination",    desc: "反対尋問" },
+        { phrase: "examination results",  desc: "試験結果" }
+      ]
+    },
+
+    "consideration": {
+      origin: "ラテン語 consideratio（星を観察すること・熟慮）< considerare（星を注意深く見る）< con-（共に）+ sidus（星）+ -ion（名詞接尾辞）。「考慮・配慮・対価」が原義。consider（考慮する）・desire（望む）・disaster（災害）と同根の sidus（星）を共有し、古代の占星術師が星を注意深く観察して判断を下したことから「熟慮」という意味が生まれた。\n\n英語には14世紀に採用され、「注意深く考えること・他者への配慮・契約の対価」の意味で定着。法律・日常語・ビジネスで take into consideration（考慮に入れる）・in consideration of…（〜の対価として）・show consideration for…（〜に配慮を示す）のように幅広く使われる重要語として機能する。\n\n現代英語では key consideration（重要な考慮事項）・ethical consideration（倫理的考慮）のようにビジネス・倫理・政策で使われ、all things considered（あらゆる点を考えると）という慣用表現も広く使われる。",
+      derivatives: [
+        { word: "consider",      desc: "考慮する（動詞）" },
+        { word: "considerable",  desc: "かなりの（形容詞）" },
+        { word: "considerate",   desc: "思いやりのある（形容詞）" }
+      ],
+      family: [
+        { word: "desire",    desc: "望む（de+sidus）" },
+        { word: "disaster",  desc: "災害（dis+sidus）" },
+        { word: "sidereal",  desc: "星の（sidus）" }
+      ],
+      compounds: [
+        { phrase: "take into consideration",  desc: "考慮に入れる" },
+        { phrase: "ethical consideration",    desc: "倫理的考慮" },
+        { phrase: "key consideration",        desc: "重要な考慮事項" }
+      ]
+    },
+
+    "recommendation": {
+      origin: "ラテン語 recommendare（再び委ねる・推薦する）< re-（再び）+ com-（共に）+ mandare（命令する・委託する）+ -ion（名詞接尾辞）。「推薦・勧告・助言」が原義。command（命令する）・demand（要求する）・mandate（命令する）と同根の mandare を共有し、「再び委ねて承認を与える」というイメージを持つ。\n\n英語には15世紀に採用され、「ある人・物・行動を支持・賞賛して他者に勧めること・その内容」の意味で定着。ビジネス・政策・日常語で job recommendation（就職推薦）・make a recommendation（勧告する）・follow recommendations（勧告に従う）のように「信頼に基づく提案・推薦」を示す重要語として機能する。\n\n現代英語ではAI recommendation（AI の推薦）・algorithmic recommendation（アルゴリズムによる推薦）のようにストリーミング・EC・検索エンジンの語彙として特に重要性が増しており、recommendation engine（推薦エンジン）はデジタルサービスの核心技術の名称として確立している。",
+      derivatives: [
+        { word: "recommend",      desc: "推薦する（動詞）" },
+        { word: "recommendatory", desc: "推薦の（形容詞）" }
+      ],
+      family: [
+        { word: "command",  desc: "命令する（com+mandare）" },
+        { word: "demand",   desc: "要求する（de+mandare）" },
+        { word: "mandate",  desc: "命令・委任（mandare）" }
+      ],
+      compounds: [
+        { phrase: "job recommendation",    desc: "就職推薦" },
+        { phrase: "make a recommendation", desc: "勧告する" },
+        { phrase: "recommendation engine", desc: "推薦エンジン" }
+      ]
+    },
+
+    "conclusion": {
+      origin: "ラテン語 conclusio（閉じること・結び）< concludere（閉じる・締めくくる）< con-（完全に）+ claudere（閉じる）+ -ion（名詞接尾辞）。「結論・終わり・締結」が原義。include（含む）・exclude（排除する）・preclude（妨げる）と同根の claudere を共有し、「すべてを閉じてまとめる」というイメージを持つ。\n\n英語には14世紀に採用され、「推論の終点・文章の締めくくり・合意の締結」の意味で定着。論理学・学術・日常語で draw a conclusion（結論を出す）・jump to conclusions（早まった結論を出す）・in conclusion（結論として）のように頻用される重要語として機能する。\n\n現代英語ではa foregone conclusion（最初から決まっていた結論）・lead to the conclusion that…（〜という結論に至る）のような表現が議論・論文・会議で頻出し、conclusive evidence（決定的証拠）という法律・科学語彙でも機能する。",
+      derivatives: [
+        { word: "conclude",    desc: "結論づける・締結する（動詞）" },
+        { word: "conclusive",  desc: "決定的な（形容詞）" },
+        { word: "inconclusive", desc: "決め手のない（否定形）" }
+      ],
+      family: [
+        { word: "include",  desc: "含む（in+claudere）" },
+        { word: "exclude",  desc: "排除する（ex+claudere）" },
+        { word: "preclude", desc: "妨げる（prae+claudere）" }
+      ],
+      compounds: [
+        { phrase: "draw a conclusion",        desc: "結論を出す" },
+        { phrase: "jump to conclusions",      desc: "早まった結論を出す" },
+        { phrase: "a foregone conclusion",    desc: "最初から決まった結論" }
+      ]
+    },
+
+    "introduction": {
+      origin: "ラテン語 introductio（内側へ導くこと）< intro-（内側へ）+ ducere（導く）+ -ion（名詞接尾辞）。「紹介・序文・導入」が原義。educate（教育する）・produce（生産する）・reduce（削減する）と同根の ducere を共有し、「内側へ導き入れる」というイメージを持つ。\n\n英語には14世紀に採用され、「人・概念・物を初めて提示すること・文章の最初の部分・外国の動植物の持ち込み」の意味で定着。学術・日常語・教育で write an introduction（序文を書く）・make introductions（紹介をする）・introduction of species（外来種の導入）のように幅広く使われる基本語として機能する。\n\n現代英語ではintroductory course（入門コース）・introductory offer（入門特典）のように教育・マーケティングで使われ、introductions（自己紹介）・letter of introduction（紹介状）という対人関係の語彙としても機能する重要多義語となっている。",
+      derivatives: [
+        { word: "introduce",      desc: "紹介する・導入する（動詞）" },
+        { word: "introductory",   desc: "入門的な（形容詞）" }
+      ],
+      family: [
+        { word: "educate",  desc: "教育する（e+ducere）" },
+        { word: "produce",  desc: "生産する（pro+ducere）" },
+        { word: "reduce",   desc: "削減する（re+ducere）" }
+      ],
+      compounds: [
+        { phrase: "write an introduction",   desc: "序文を書く" },
+        { phrase: "introductory course",     desc: "入門コース" },
+        { phrase: "letter of introduction",  desc: "紹介状" }
+      ]
+    },
+
+    "contribution": {
+      origin: "ラテン語 contributio（共に提供すること）< contribuere（共に与える）< con-（共に）+ tribuere（与える・割り当てる）+ -ion（名詞接尾辞）。「貢献・寄付・寄稿」が原義。contribute（貢献する）・tribute（贈り物・感謝）・attribute（属性・帰属する）と同根の tribuere を共有し、「みんなのために共に捧げる」というイメージを持つ。\n\n英語には15世紀に採用され、「集合的な目的のために自分の分担を提供すること・その提供物」の意味で定着。学術・経済・社会で make a contribution（貢献する）・contribution to society（社会への貢献）・financial contribution（財政的貢献）のように使われる重要語として機能する。\n\n現代英語では make a valuable contribution（価値ある貢献をする）・pension contribution（年金掛金）・contribution to the field（分野への貢献）のようにビジネス・学術・財政で幅広く使われ、contributor（貢献者・寄稿者）という派生語も重要語として機能する。",
+      derivatives: [
+        { word: "contribute",    desc: "貢献する・寄付する（動詞）" },
+        { word: "contributor",   desc: "貢献者・寄稿者（名詞）" },
+        { word: "contributory",  desc: "貢献する・共同原因の（形容詞）" }
+      ],
+      family: [
+        { word: "tribute",    desc: "贈り物・感謝（tribuere）" },
+        { word: "attribute",  desc: "属性・帰属する（ad+tribuere）" },
+        { word: "distribute", desc: "分配する（dis+tribuere）" }
+      ],
+      compounds: [
+        { phrase: "make a contribution",       desc: "貢献する" },
+        { phrase: "contribution to society",   desc: "社会への貢献" },
+        { phrase: "pension contribution",      desc: "年金掛金" }
+      ]
+    },
+
+    "election": {
+      origin: "ラテン語 electio（選択・選挙）< eligere（選び出す）< e-（外に）+ legere（選ぶ・読む）+ -ion（名詞接尾辞）。「選挙・選択」が原義。select（選ぶ）・elect（選出する）・collect（収集する）・neglect（怠る）と同根の legere を共有し、「多くの中から選び出す」というイメージを持つ。\n\n英語には13世紀に採用され、「投票によって代表者・役職者を選ぶプロセス・神学的な救済への選び」の意味で定着。政治・日常語で general election（総選挙）・presidential election（大統領選挙）・free and fair election（自由で公正な選挙）のように民主主義の核心語として機能する。\n\n現代英語では election campaign（選挙運動）・election fraud（選挙不正）・election results（選挙結果）のように政治語彙の中核として使われ、by-election（補欠選挙）・snap election（早期選挙）のような複合語も定着している。",
+      derivatives: [
+        { word: "elect",      desc: "選出する（動詞）" },
+        { word: "elective",   desc: "選挙による・選択科目の（形容詞）" },
+        { word: "electorate", desc: "有権者・選挙区（名詞）" }
+      ],
+      family: [
+        { word: "select",   desc: "選ぶ（se+legere）" },
+        { word: "collect",  desc: "収集する（con+legere）" },
+        { word: "neglect",  desc: "怠る（nec+legere）" }
+      ],
+      compounds: [
+        { phrase: "general election",    desc: "総選挙" },
+        { phrase: "election campaign",   desc: "選挙運動" },
+        { phrase: "election fraud",      desc: "選挙不正" }
+      ]
+    },
+
+    "protection": {
+      origin: "ラテン語 protectio（前に立って守ること）< pro-（前に）+ tegere（覆う・守る）+ -ion（名詞接尾辞）。「保護・防護・庇護」が原義。protect（保護する）・detect（見つける）・architect（建築家）と同根の tegere を共有し、「前に立って覆い隠す・盾になる」というイメージを持つ。\n\n英語には14世紀に採用され、「危険・損害から守ること・その手段」の意味で定着。法律・技術・日常語で consumer protection（消費者保護）・data protection（データ保護）・environmental protection（環境保護）のように様々な「守り」を示す重要語として機能する。\n\n現代英語ではGDPR（一般データ保護規則）・intellectual property protection（知的財産保護）のようにデジタル・法律分野で特に重要性が増しており、protection order（保護命令）・sun protection（日焼け防止）のように法律から日常まで幅広く使われる語となっている。",
+      derivatives: [
+        { word: "protect",     desc: "保護する（動詞）" },
+        { word: "protective",  desc: "保護的な（形容詞）" },
+        { word: "protector",   desc: "保護者・守護者（名詞）" }
+      ],
+      family: [
+        { word: "detect",     desc: "見つける（de+tegere）" },
+        { word: "architect",  desc: "建築家（archi+techne）" }
+      ],
+      compounds: [
+        { phrase: "consumer protection",       desc: "消費者保護" },
+        { phrase: "data protection",           desc: "データ保護" },
+        { phrase: "environmental protection",  desc: "環境保護" }
+      ]
     }
 
   };

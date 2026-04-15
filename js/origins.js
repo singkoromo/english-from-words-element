@@ -5659,6 +5659,333 @@
         { phrase: "disaster recovery",   desc: "災害復旧・事業継続（BCP）" },
         { phrase: "recipe for disaster", desc: "失敗への道・惨事を招く要因" }
       ]
+    },
+
+    // ── aqua系（水）──
+    "aquarium": {
+      origin: "ラテン語 aquarium（水に関する場所）< aqua（水）+ -arium（場所・容器を示す接尾辞）。aqua は印欧語根 *akwa-（水）に由来し、英語の water とも遠い親縁関係にある。1850年代に淡水・海水魚の飼育・展示施設を指す語として英語に定着した。\n\nビクトリア時代に観賞魚の飼育が流行し、家庭用のガラス水槽（aquarium）が普及した。現代では大規模な公共水族館（public aquarium）が科学教育・海洋環境保護の発信拠点となっている。\n\n語根 aqua- は aquatic（水中の）、aqueduct（水道橋）、aquifer（帯水層）など水に関わる多くの英語語彙を形成し、フランス語 eau（水）やスペイン語 agua（水）も同じ語源を持つ。",
+      derivatives: [
+        { word: "aquarist",    desc: "アクアリスト・熱帯魚愛好家" }
+      ],
+      family: [
+        { word: "aquatic",    desc: "水中の・水生の（aqua + -ticus）" },
+        { word: "aqueduct",   desc: "水道橋・導水路（aqua + ducere）" },
+        { word: "aquifer",    desc: "帯水層（aqua + ferre 運ぶ）" },
+        { word: "aquamarine", desc: "アクアマリン（aqua + marinus 海の）" }
+      ],
+      compounds: [
+        { phrase: "public aquarium",  desc: "公共水族館" },
+        { phrase: "freshwater aquarium", desc: "淡水水槽・淡水アクアリウム" }
+      ]
+    },
+
+    "aquatic": {
+      origin: "ラテン語 aquaticus（水の・水中に生きる）< aqua（水）+ -aticus（〜に属する）。水中や水辺に生息する生物・活動を表す形容詞として16世紀頃に英語に定着した。\n\naquatic plants（水生植物）、aquatic animals（水生動物）のように生物学・生態学の基本形容詞。スポーツでは aquatic sports（水中スポーツ = 水泳・水球・飛び込みなど）、aquatic center（水泳競技施設）のように使われる。\n\nオリンピック競技の aquatics は「水中競技全般」を指す総称語として定着しており、英語ではさまざまな水関連活動のカテゴリ名として機能している。",
+      derivatives: [
+        { word: "aquatics",    desc: "水泳競技・水中スポーツ（名詞複数形）" }
+      ],
+      family: [
+        { word: "aquarium",   desc: "水族館・アクアリウム（aqua + -arium）" },
+        { word: "aqueduct",   desc: "水道橋（aqua + ducere）" },
+        { word: "submarine",  desc: "潜水艦（sub- 下 + mare 海）" }
+      ],
+      compounds: [
+        { phrase: "aquatic sports",   desc: "水中スポーツ・水泳競技" },
+        { phrase: "aquatic ecosystem", desc: "水域の生態系" }
+      ]
+    },
+
+    "aqueduct": {
+      origin: "ラテン語 aquaeductus（水を引く通路）< aquae（水の・aqua の属格）+ ductus（導かれたもの < ducere 導く・引く）。古代ローマが建設した大規模な石造水道橋がその代表で、水源から都市まで重力を利用して清水を運ぶ土木構造物を指す。\n\nローマの Aqua Appia（アッピア水道、紀元前312年建設）は現存する最古の水道の一つ。全長100km以上に及ぶものもあり、アーチ構造を積み重ねた石橋は現代でも南フランスのポン・デュ・ガールなど各地に残る。\n\n現代でも大都市の長距離導水施設を aqueduct と呼ぶほか、比喩的に「情報・資源のパイプライン」という意味でも使われることがある。",
+      derivatives: [
+        { word: "duct",        desc: "管・ダクト・導管（ducere から）" },
+        { word: "conduct",     desc: "導く・振る舞い（con- + ducere）" }
+      ],
+      family: [
+        { word: "aquarium",    desc: "水族館（aqua + -arium）" },
+        { word: "aquatic",     desc: "水中の（aqua + -aticus）" },
+        { word: "duke",        desc: "公爵（dux 指導者 < ducere）" },
+        { word: "educate",     desc: "教育する（e- + ducere 引き出す）" }
+      ],
+      compounds: [
+        { phrase: "Roman aqueduct",   desc: "ローマ水道橋" }
+      ]
+    },
+
+    // ── fract / frag系（壊す・割る）──
+    "fracture": {
+      origin: "ラテン語 fractura（割れ目・骨折）< frangere（壊す・割る）の過去分詞 fractus + -ura。frangere の印欧語根 *bhreg- は英語の break（壊す）とも遠縁にある。\n\n15世紀に英語に入り「骨折・亀裂・破砕」という名詞・動詞として定着。医学では骨折（bone fracture）を指し、compound fracture（開放骨折）、hairline fracture（微細骨折）のように細分化された。地質学では断層（fault）や岩石の割れ目（rock fracture）にも使われる。\n\n比喩的には "a fracture in relations"（関係の亀裂）のように「分断・対立の亀裂」を表すこともある。",
+      derivatives: [
+        { word: "fractured",   desc: "骨折した・亀裂が入った（形容詞）" }
+      ],
+      family: [
+        { word: "fragment",    desc: "断片・かけら（fragmentum < frangere）" },
+        { word: "fragile",     desc: "壊れやすい（fragilis < frangere）" },
+        { word: "fraction",    desc: "分数・一部・端数（fractio）" },
+        { word: "infraction",  desc: "違反・規則違反（in- + fractio）" },
+        { word: "break",       desc: "壊す（同じ印欧語根 *bhreg-）" }
+      ],
+      compounds: [
+        { phrase: "bone fracture",     desc: "骨折" },
+        { phrase: "hairline fracture", desc: "微細骨折・ヘアライン骨折" }
+      ]
+    },
+
+    "fragment": {
+      origin: "ラテン語 fragmentum（割れたかけら）< frangere（割る・壊す）+ -mentum（結果・手段を示す接尾辞）。「割った結果できた破片」という語源通りの意味で、石・骨・文書などの「欠けた部分・断片」を指す。\n\n15世紀の英語に入り名詞・動詞として使われる。日常では "a fragment of glass"（ガラスの破片）のほか、文学・音楽では "a fragment of melody"（断片的なメロディ）のように「不完全な一部」を指す比喩にも使われる。\n\nソフトウェア工学では hard disk fragmentation（ハードディスクのフラグメンテーション ＝ データの断片化）がパフォーマンス低下の原因として知られており、defragmentation（最適化）が必要になる。",
+      derivatives: [
+        { word: "fragmentation",  desc: "断片化・分裂（名詞）" },
+        { word: "fragmentary",    desc: "断片的な・不完全な（形容詞）" }
+      ],
+      family: [
+        { word: "fracture",    desc: "骨折・亀裂（fractura）" },
+        { word: "fragile",     desc: "壊れやすい（fragilis）" },
+        { word: "fraction",    desc: "分数・端数（fractio）" }
+      ],
+      compounds: [
+        { phrase: "memory fragment",      desc: "記憶の断片" },
+        { phrase: "disk fragmentation",   desc: "ディスクの断片化（IT用語）" }
+      ]
+    },
+
+    "fragile": {
+      origin: "ラテン語 fragilis（壊れやすい）< frangere（割る・壊す）+ -ilis（〜できる・〜しやすい）。「簡単に割れてしまう」という語源的な意味が転じて「デリケートな・傷つきやすい」という感情・社会的文脈でも使われるようになった。\n\n16世紀に英語に入り、陶磁器・ガラスなど物理的に壊れやすいものを形容する語として定着。現代では「精神的に傷つきやすい（emotionally fragile）」「経済が不安定な（fragile economy）」のように抽象的な「脆弱性」を表す語としても広く使われる。\n\nnassim taleb の著書 "Antifragile"（反脆弱性、2012年）は fragile（壊れやすい）→ robust（頑健な）→ antifragile（混乱から恩恵を受ける）という三分類を提示し、経済・組織論に影響を与えた。",
+      derivatives: [
+        { word: "fragility",    desc: "脆弱性・壊れやすさ（名詞）" }
+      ],
+      family: [
+        { word: "fracture",    desc: "骨折・亀裂（fractura）" },
+        { word: "fragment",    desc: "断片（fragmentum）" },
+        { word: "fraction",    desc: "分数・端数（fractio）" }
+      ],
+      compounds: [
+        { phrase: "handle with care: fragile", desc: "取扱注意・壊れ物（荷物ラベル）" },
+        { phrase: "fragile ecosystem",         desc: "脆弱な生態系" }
+      ]
+    },
+
+    // ── scend系（登る・降りる）──
+    "ascend": {
+      origin: "ラテン語 ascendere（登る・上がる）< ad-（〜へ）+ scandere（登る）。scandere の印欧語根 *skand-（飛び上がる・登る）は英語の scan（調べる ＝ もともと「詩の韻律を読む」）とも遠縁にある。\n\n14世紀の英語に入り「高い場所へ登る・地位・権力が上がる」という動詞として定着。ascend a mountain（山を登る）、ascend to power（権力の座に就く）のように物理的・抽象的両方の「上昇」を表す。\n\nassent（同意する）とは綴りが異なるが、混同しやすいので注意。ascendant（優位な・上昇中の）は占星術でも使われ「昇ってくる星座」を指す。",
+      derivatives: [
+        { word: "ascent",       desc: "上昇・登ること（名詞）" },
+        { word: "ascendant",    desc: "優位な・上昇中の（形容詞）" },
+        { word: "ascension",    desc: "上昇・昇天（キリストの昇天など）" }
+      ],
+      family: [
+        { word: "descend",      desc: "降りる・下降する（de- + scandere）" },
+        { word: "transcend",    desc: "超越する（trans- + scandere）" },
+        { word: "scale",        desc: "登る・縮尺（scala 梯子 < scandere）" }
+      ],
+      compounds: [
+        { phrase: "ascend to power",   desc: "権力の座に就く・台頭する" },
+        { phrase: "ascending order",   desc: "昇順（小から大へ）" }
+      ]
+    },
+
+    "descend": {
+      origin: "ラテン語 descendere（下りる・降下する）< de-（下へ）+ scandere（登る）。「登ること（scandere）の反対」として「下りる」という意味になった。\n\n14世紀の英語に入り「高い場所から下りる・祖先から受け継ぐ」という動詞として定着。be descended from（〜の子孫である）は家系・起源を表す重要表現。descent（下り坂・家系・降下）という名詞も頻用される。\n\n生物学の文脈では common descent（共通の祖先から分かれたこと）という概念がダーウィンの進化論の核心にあり、現代の系統発生学・進化生物学の基礎をなしている。",
+      derivatives: [
+        { word: "descent",      desc: "下降・傾斜・家系・降下（名詞）" },
+        { word: "descendant",   desc: "子孫・末裔（名詞）" }
+      ],
+      family: [
+        { word: "ascend",       desc: "登る（ad- + scandere）" },
+        { word: "transcend",    desc: "超越する（trans- + scandere）" },
+        { word: "condescend",   desc: "見下す・丁寧に応じる（con- + descendere）" }
+      ],
+      compounds: [
+        { phrase: "be descended from",  desc: "〜の子孫である・〜から受け継ぐ" },
+        { phrase: "common descent",     desc: "共通祖先（進化論の概念）" }
+      ]
+    },
+
+    "transcend": {
+      origin: "ラテン語 transcendere（超えて登る）< trans-（超えて・向こうへ）+ scandere（登る）。「通常の限界を超えて上に行く」というのが語源的な意味。\n\n14世紀の英語に入り「〜を超越する・〜の範囲を超える」という動詞として定着。哲学・宗教では「人間の経験・理解の限界を超えた存在・状態」を指す用語として重要で、transcendent（超越的な）、transcendental（先験的な）は哲学の専門語として使われる。\n\nカントの批判哲学（「pure reason transcends experience ＝ 純粋理性は経験を超える」）や、エマーソン・ソローの超越主義（Transcendentalism）、さらには超越瞑想（Transcendental Meditation）など多様な文脈で登場する。",
+      derivatives: [
+        { word: "transcendent",     desc: "超越的な・卓越した（形容詞）" },
+        { word: "transcendental",   desc: "先験的な・超越的な（哲学用語）" },
+        { word: "transcendence",    desc: "超越・超越性（名詞）" }
+      ],
+      family: [
+        { word: "ascend",           desc: "登る（ad- + scandere）" },
+        { word: "descend",          desc: "降りる（de- + scandere）" },
+        { word: "transport",        desc: "輸送する（trans- + portare）" },
+        { word: "transform",        desc: "変容させる（trans- + forma）" }
+      ],
+      compounds: [
+        { phrase: "transcend boundaries",  desc: "境界を超える・枠を超える" },
+        { phrase: "transcendental meditation", desc: "超越瞑想（TM法）" }
+      ]
+    },
+
+    // ── nav / navi系（船・航行）──
+    "navigate": {
+      origin: "ラテン語 navigare（航行する）< navis（船）+ agere（動かす・進める）。「船を動かす」というのが語源の核心で、navis は英語の navy（海軍）、naval（海軍の）と同じ語根。\n\n16世紀の英語に入り「船・航空機を操縦する・経路を見つける」という動詞として定着。現代ではカーナビゲーション（car navigation）、GPSナビ（GPS navigation）のような電子的な経路案内の文脈で最も頻繁に使われる。\n\n比喩的には "navigate complex regulations"（複雑な規制を上手くくぐり抜ける）のように「困難な状況を上手に対処する」という意味でも広く使われ、英語のビジネス・政治語彙で頻出する。",
+      derivatives: [
+        { word: "navigation",    desc: "航行・ナビゲーション・経路案内" },
+        { word: "navigator",     desc: "航法士・ナビゲーター" }
+      ],
+      family: [
+        { word: "navy",          desc: "海軍（navis 船）" },
+        { word: "naval",         desc: "海軍の（navalis）" },
+        { word: "nautical",      desc: "航海の（nautes 船乗り）" },
+        { word: "astronaut",     desc: "宇宙飛行士（astron + nautes）" }
+      ],
+      compounds: [
+        { phrase: "GPS navigation",  desc: "GPSナビゲーション" },
+        { phrase: "navigate through", desc: "〜を乗り越える・うまく対処する" }
+      ]
+    },
+
+    // ── sol / luna系（太陽・月）──
+    "solar": {
+      origin: "ラテン語 solaris（太陽の）< sol（太陽）。sol はインド・ヨーロッパ語根 *sōwel-（太陽）に由来し、英語の sun（太陽）とも遠縁にある。フランス語 soleil、スペイン語 sol も同じ語根を持つ。\n\n15世紀頃に英語に入り「太陽の・太陽エネルギーの」という形容詞として定着。solar system（太陽系）、solar energy（太陽エネルギー）、solar panel（太陽光パネル）のように天文学・エネルギー技術の基本語。\n\nsolstice（至点 ＝ sol + sistere 立つ、太陽が「立ち止まる」時点）、parasolは（日傘 ＝ para- 守る + sol）など多くの英語語彙を形成する。",
+      derivatives: [
+        { word: "solstice",     desc: "夏至・冬至（sol + sistere 立ち止まる）" }
+      ],
+      family: [
+        { word: "solstice",    desc: "至点（sol + sistere）" },
+        { word: "parasol",     desc: "日傘（para- 防ぐ + sol）" },
+        { word: "sun",         desc: "太陽（同じ印欧語根 *sōwel-）" },
+        { word: "insolation",  desc: "日射量・日照（in- + sol + -ation）" }
+      ],
+      compounds: [
+        { phrase: "solar system",    desc: "太陽系" },
+        { phrase: "solar energy",    desc: "太陽エネルギー" },
+        { phrase: "solar panel",     desc: "太陽光パネル" }
+      ]
+    },
+
+    "lunar": {
+      origin: "ラテン語 lunaris（月の）< luna（月）。luna は印欧語根 *leuk-（光・輝く）に由来し、英語の light（光）や lucid（明晰な）とも遠縁にある。月が光を「輝かせる」ものとして捉えられていた。\n\n17世紀に英語に入り「月の・月に関する」という形容詞として定着。lunar calendar（太陰暦）、lunar eclipse（月食）、lunar module（月着陸船 ＝ アポロ計画）のように天文学・暦・宇宙開発で使われる。\n\nlunatic（狂気の < luna）は「月の影響を受けて狂う」という信仰から来た語で、かつて精神疾患は月の満ち欠けによって悪化すると信じられていた。",
+      derivatives: [
+        { word: "lunatic",     desc: "狂った・正気でない（luna の影響を受けた）" }
+      ],
+      family: [
+        { word: "solar",       desc: "太陽の（sol）" },
+        { word: "lunatic",     desc: "狂った（luna 月に影響された）" },
+        { word: "illuminate",  desc: "照らす（in- + lumen 光）" },
+        { word: "lucid",       desc: "明晰な・明瞭な（lucidus 光の）" }
+      ],
+      compounds: [
+        { phrase: "lunar eclipse",    desc: "月食" },
+        { phrase: "lunar calendar",   desc: "太陰暦・旧暦" },
+        { phrase: "lunar module",     desc: "月着陸船（アポロ計画）" }
+      ]
+    },
+
+    // ── grav系（重い）──
+    "gravity": {
+      origin: "ラテン語 gravitas（重さ・重力・重要性・威厳）< gravis（重い）。gravis は印欧語根 *gwer-（重い）に由来し、英語の grieve（嘆く ＝ 心が重くなる）とも語源的に関連する。\n\n14世紀に英語に入り「重みのある態度・威厳」という意味で使われていたが、ニュートンが万有引力の法則（1687年）を発見したことで「重力（gravitational force）」という物理学的意味が確立した。\n\ngravity は物理学の基礎であるだけでなく、"the gravity of the situation"（状況の深刻さ）のように「重大さ・深刻さ」という比喩的意味でも頻用される。",
+      derivatives: [
+        { word: "gravitational",  desc: "重力の（形容詞）" },
+        { word: "gravitate",      desc: "引き寄せられる・重力で動く" },
+        { word: "gravitation",    desc: "引力・重力作用" }
+      ],
+      family: [
+        { word: "grave",          desc: "重大な・厳粛な（gravis から）" },
+        { word: "aggravate",      desc: "悪化させる・怒らせる（ad- + gravare）" },
+        { word: "grief",          desc: "深い悲しみ（gravis と同語根）" }
+      ],
+      compounds: [
+        { phrase: "center of gravity",  desc: "重心・中心（物理・比喩）" },
+        { phrase: "gravity of the situation", desc: "事態の深刻さ" }
+      ]
+    },
+
+    "aggravate": {
+      origin: "ラテン語 aggravare（重くする・悪化させる）< ad-（強調）+ gravare（重くする）< gravis（重い）。「すでに重いものをさらに重くする＝状況を悪化させる」というのが語源的な意味。\n\n15世紀の英語に入り「病状・状況をさらに悪化させる」という正式な意味で使われる。現代口語では「〜をいらいらさせる・悩ませる」という意味でも広く使われており、"That really aggravates me."（それは本当に腹が立つ）のように感情的文脈でも登場する。\n\nただし、本来は「状況を悪化させる」が正式な意味で、「人をいらいらさせる」という用法は俗語的とされることもある。実際のところ現代英語では両義ともに標準的に使われる。",
+      derivatives: [
+        { word: "aggravation",    desc: "悪化・苛立ち（名詞）" },
+        { word: "aggravating",    desc: "苛立たしい・悪化させる（形容詞）" }
+      ],
+      family: [
+        { word: "gravity",       desc: "重力・深刻さ（gravitas）" },
+        { word: "grave",         desc: "重大な（gravis）" },
+        { word: "gravitate",     desc: "引き寄せられる（gravis）" }
+      ],
+      compounds: [
+        { phrase: "aggravate a problem",  desc: "問題を悪化させる" },
+        { phrase: "aggravating factor",   desc: "悪化要因・加重要素（法律）" }
+      ]
+    },
+
+    // ── act / ag系（行う・動かす）──
+    "agent": {
+      origin: "ラテン語 agens（行う者）< agere（行う・動かす・進める）の現在分詞形。agere は「羊の群れを動かす」という農業的なイメージが原義で、印欧語根 *ag-（駆り立てる）に由来する。\n\n15世紀の英語に入り「ある目的のために行動する者・代理人」という意味で定着。不動産エージェント（real estate agent）、旅行代理店（travel agent）、CIA の諜報員（intelligence agent）まで「代理で行動する人・媒介となるもの」を広く指す。\n\n化学・医学では「〜剤・〜作用物質」という意味にもなり、infectious agent（感染因子）、bleaching agent（漂白剤）のように使われる。",
+      derivatives: [
+        { word: "agency",      desc: "代理店・機関・作用（名詞）" },
+        { word: "agenda",      desc: "議題・行動計画（agere の動名詞形）" },
+        { word: "agile",       desc: "機敏な・アジャイルな（agilis < agere）" }
+      ],
+      family: [
+        { word: "act",         desc: "行為・法令・演じる（actum < agere）" },
+        { word: "exact",       desc: "正確な（ex- + agere 完全に行う）" },
+        { word: "react",       desc: "反応する（re- + agere）" },
+        { word: "navigate",    desc: "航行する（navis + agere）" }
+      ],
+      compounds: [
+        { phrase: "travel agent",        desc: "旅行代理店" },
+        { phrase: "real estate agent",   desc: "不動産エージェント" },
+        { phrase: "free agent",          desc: "フリーエージェント・自由に行動できる人" }
+      ]
+    },
+
+    "react": {
+      origin: "ラテン語 re-（再び・反対に）+ actus（行われたこと < agere 行う）。「ある行為に対して反対方向・反応として別の行為を起こす」というのが語源的な意味。\n\n17世紀の英語に入り「〜に反応する」という動詞として定着。化学では化学反応（chemical reaction）の基本用語であり、物理学ではニュートンの第三法則「作用・反作用の法則（action and reaction）」の核心語。\n\n日常では"How did she react?"（彼女はどんな反応をした？）のように感情的・行動的な反応全般を指す。overreact（過剰反応する）も重要な派生語。",
+      derivatives: [
+        { word: "reaction",      desc: "反応・反発・化学反応（名詞）" },
+        { word: "reactive",      desc: "反応的な・化学的に反応しやすい（形容詞）" },
+        { word: "reactionary",   desc: "反動的な・反改革派の（政治用語）" }
+      ],
+      family: [
+        { word: "act",           desc: "行動・演じる（actum < agere）" },
+        { word: "interact",      desc: "相互作用する（inter- + act）" },
+        { word: "transact",      desc: "取引する（trans- + act）" },
+        { word: "exact",         desc: "正確な（ex- + agere）" }
+      ],
+      compounds: [
+        { phrase: "chain reaction",   desc: "連鎖反応" },
+        { phrase: "gut reaction",     desc: "直感的な反応・本能的な反応" }
+      ]
+    },
+
+    "interact": {
+      origin: "ラテン語 inter-（間で・相互に）+ agere（行う）の合成語。「二者（以上）の間で相互に行為が起こる」というのが語源。英語への定着は比較的新しく、19〜20世紀に科学・社会科学の用語として広まった。\n\n物理学では「粒子同士が相互作用する」、生物学では「生物が環境や他個体と相互作用する」、コンピュータ科学では「ユーザーとシステムがやり取りをする（user interaction）」という意味で使われる。\n\nSNS・デジタルメディアの台頭とともに、interaction rate（インタラクション率 ＝ いいね・コメント・シェアの合計）などのマーケティング指標として日常語化した。",
+      derivatives: [
+        { word: "interaction",    desc: "相互作用・やり取り（名詞）" },
+        { word: "interactive",    desc: "双方向の・インタラクティブな（形容詞）" }
+      ],
+      family: [
+        { word: "act",            desc: "行為（agere）" },
+        { word: "react",          desc: "反応する（re- + agere）" },
+        { word: "transact",       desc: "取引する（trans- + agere）" },
+        { word: "interface",      desc: "インターフェース（inter- + face 顔）" }
+      ],
+      compounds: [
+        { phrase: "social interaction",  desc: "社会的交流・対人コミュニケーション" },
+        { phrase: "user interaction",    desc: "ユーザーとの対話・UI操作" }
+      ]
+    },
+
+    "exact": {
+      origin: "ラテン語 exactus（完全に行われた・精密な）< exigere（完全に行う・要求する）< ex-（完全に）+ agere（行う・駆り立てる）の過去分詞。「測定・計量を完全にやり切った」という意味から「正確な・厳密な」という形容詞になった。\n\n15世紀の英語に入り「正確な・厳密な・精密な」という形容詞と「（税金・代金を）厳しく取り立てる」という動詞（exacting な要求）の両義で使われる。\n\nexactly（まさに・ちょうど）は英語会話で相手の発言に強く同意するときの返答として extremely high frequency で使われる。"Exactly!"（その通り！）は英語話者が議論・会話で頻繁に使う重要フレーズ。",
+      derivatives: [
+        { word: "exactly",      desc: "まさに・ちょうど・正確に（副詞）" },
+        { word: "exactness",    desc: "正確さ・厳密さ（名詞）" },
+        { word: "exacting",     desc: "厳しい要求をする・骨の折れる（形容詞）" }
+      ],
+      family: [
+        { word: "agent",        desc: "代理人（agens < agere）" },
+        { word: "react",        desc: "反応する（re- + agere）" },
+        { word: "interact",     desc: "相互作用する（inter- + agere）" },
+        { word: "examine",      desc: "調べる（examinare < agere）" }
+      ],
+      compounds: [
+        { phrase: "exact copy",       desc: "完全なコピー・寸分たがわぬ複写" },
+        { phrase: "exact change",     desc: "ぴったりのお釣り・端数なしの支払い" }
+      ]
     }
 
   };

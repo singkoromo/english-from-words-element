@@ -11193,6 +11193,499 @@
         { phrase: "enact legislation",  desc: "立法する・法律を制定する" },
         { phrase: "legislative body",   desc: "立法機関" }
       ]
+    },
+
+    // ── Batch 24 ──────────────────────────────────────────────────────────
+
+    // vert/vers系（残り）
+    "revert": {
+      origin: "ラテン語 revertere（再び向く・戻る）< re-（再び）+ vertere（向く・回す）。vertere は「向きを変える」を意味する語根で、convert・divert・avert などと同根。revertere は「元の方向に向き直る」という字義をもつ。\n\n中英語期にフランス語経由で英語に入り、revert（元に戻る・逆戻りする）として定着。法律用語・生物学・コンピュータ科学など広い分野で「以前の状態への復帰」を意味する。\n\n現代英語では「古い習慣や状態に戻る」という文脈で頻出し、software では「変更を元に戻す（revert a commit）」の意味でも日常的に使われる。",
+      derivatives: [
+        { word: "reversion",    desc: "復帰・逆戻り（名詞）" },
+        { word: "reversible",   desc: "元に戻せる・可逆的な（形容詞）" },
+        { word: "irreversible", desc: "不可逆の（形容詞）" }
+      ],
+      family: [
+        { word: "convert",   desc: "変換する（con-）" },
+        { word: "avert",     desc: "そらす（a-）" },
+        { word: "divert",    desc: "転換する（di-）" },
+        { word: "introvert", desc: "内向的な人（intro-）" }
+      ],
+      compounds: [
+        { phrase: "revert to type",      desc: "本来の性質に戻る" },
+        { phrase: "revert to a backup",  desc: "バックアップに戻す" }
+      ]
+    },
+
+    "subvert": {
+      origin: "ラテン語 subvertere（下から覆す）< sub-（下から）+ vertere（向く・回す）。「土台から引っくり返す」という字義で、権力・体制・道徳観念などを内側から崩す行為を指す。\n\n14世紀に英語に入り、主に政治・思想の文脈で「体制を転覆する」「秩序を乱す」意味として定着。subversion（転覆活動）という名詞形も広く使われた。\n\n現代英語では、権威・伝統・ジャンルの「意図的な掘り崩し」という意味でも使われ、文学批評や芸術批評でも頻出する語。",
+      derivatives: [
+        { word: "subversion",  desc: "転覆・破壊工作（名詞）" },
+        { word: "subversive",  desc: "体制転覆的な（形容詞）" }
+      ],
+      family: [
+        { word: "convert",  desc: "変換する（con-）" },
+        { word: "revert",   desc: "元に戻る（re-）" },
+        { word: "divert",   desc: "転換する（di-）" },
+        { word: "pervert",  desc: "曲解する・変質させる（per-）" }
+      ],
+      compounds: [
+        { phrase: "subvert the system",  desc: "体制を転覆する" },
+        { phrase: "subversive activity", desc: "破壊工作・転覆活動" }
+      ]
+    },
+
+    "extrovert": {
+      origin: "ラテン語 extra（外）+ vertere（向く）を組み合わせた近代語。心理学者カール・ユングが introvert（内向型）の対語として20世紀初頭に体系化し、extrovert（外向型の人）として英語に定着した。\n\nintrovert が「内側に向く」ならば extrovert は「外側に向く」——関心・エネルギーが外の世界や他者に向かう傾向を指す。スペルは extravert とも書かれるが extrovert が最も一般的。\n\n現代の心理学では Big Five 性格特性の一つである「外向性（extraversion）」として測定される。社交的・刺激を好む・表現力豊かといった特性と結びつく。",
+      derivatives: [
+        { word: "extroverted",  desc: "外向的な（形容詞）" },
+        { word: "extraversion", desc: "外向性（名詞）" }
+      ],
+      family: [
+        { word: "introvert",  desc: "内向型の人（intro-）" },
+        { word: "convert",    desc: "変換する（con-）" },
+        { word: "divert",     desc: "転換する（di-）" },
+        { word: "revert",     desc: "元に戻る（re-）" }
+      ],
+      compounds: [
+        { phrase: "extrovert personality", desc: "外向的な性格" },
+        { phrase: "classic extrovert",     desc: "典型的な外向型の人" }
+      ]
+    },
+
+    "universe": {
+      origin: "ラテン語 universus（全体として一方向に向けられた）< uni-（一つ）+ versus < vertere（向く）の過去分詞。「すべてが一方向に向けられた全体」、すなわち万物の総体を意味する。\n\n中英語・フランス語経由で14世紀に英語に入り、universe（宇宙・万物・世界全体）として定着。哲学・神学では「神が創造した秩序ある全体」という意味合いで用いられた。\n\n現代では天文学・物理学・哲学を横断して使われる語。「この宇宙（the observable universe）」から「特定の概念世界（the universe of discourse）」まで幅広い文脈で登場する。",
+      derivatives: [
+        { word: "universal",   desc: "普遍的な・全世界の（形容詞）" },
+        { word: "universally", desc: "普遍的に（副詞）" },
+        { word: "university",  desc: "大学（知識の全体を扱う場）" }
+      ],
+      family: [
+        { word: "unity",    desc: "統一・一体性（uni-）" },
+        { word: "convert",  desc: "変換する（vertere）" },
+        { word: "uniform",  desc: "均一な（uni-）" },
+        { word: "revert",   desc: "元に戻る（re-）" }
+      ],
+      compounds: [
+        { phrase: "observable universe",    desc: "観測可能な宇宙" },
+        { phrase: "universal health care",  desc: "普遍的医療保障" },
+        { phrase: "universe of discourse",  desc: "議論の対象領域" }
+      ]
+    },
+
+    // serv系（残り）
+    "serve": {
+      origin: "ラテン語 servire（奴隷として仕える・奉仕する）< servus（奴隷・召使）。古代ローマでは servus は財産として所有された奴隷を指し、servire はその「仕える行為」を意味した。\n\n古フランス語 servir を経て古英語期に英語に入り、serve（仕える・役立つ・給仕する）として定着。宗教的文脈では「神に仕える」という崇高な意味で、世俗的文脈では「食事を給仕する」「目的に役立つ」という意味で使われる。\n\n現代英語では多義語として幅広く使われ、serve a purpose（目的に役立つ）・serve time（服役する）・serve a customer（顧客に対応する）など文脈によって意味が変わる。",
+      derivatives: [
+        { word: "service",   desc: "サービス・奉仕・役務（名詞）" },
+        { word: "servant",   desc: "召使・使用人（名詞）" },
+        { word: "server",    desc: "サーバー・給仕係（名詞）" },
+        { word: "servitude", desc: "隷属・強制労働（名詞）" }
+      ],
+      family: [
+        { word: "preserve",  desc: "保存する（pre-）" },
+        { word: "reserve",   desc: "予約する・保留する（re-）" },
+        { word: "deserve",   desc: "～に値する（de-）" },
+        { word: "observe",   desc: "観察する（ob-）" }
+      ],
+      compounds: [
+        { phrase: "serve a purpose",  desc: "目的に役立つ" },
+        { phrase: "serve time",       desc: "刑務所で服役する" },
+        { phrase: "public service",   desc: "公共サービス・公務" }
+      ]
+    },
+
+    "servant": {
+      origin: "ラテン語 servire（仕える）の現在分詞 serviens（仕えている者）< servus（奴隷）。古フランス語 servant を経て中英語に入り、servant（召使・奉仕者）として定着。\n\n中世の封建社会では servant は貴族・王族に仕える下位の者を指したが、使用される文脈によって従者から秘書まで幅がある語だった。civil servant（公務員）という組み合わせは17世紀に登場する。\n\n現代英語では household servant（家事使用人）は歴史的な語感を持つが、public servant / civil servant（公務員）は現在でも標準的に使われる。",
+      derivatives: [
+        { word: "servitude", desc: "隷属・奴隷状態（名詞）" },
+        { word: "servile",   desc: "卑屈な・奴隷的な（形容詞）" }
+      ],
+      family: [
+        { word: "serve",    desc: "仕える（serv-）" },
+        { word: "service",  desc: "奉仕・サービス（serv-）" },
+        { word: "reserve",  desc: "保留する（re-）" },
+        { word: "preserve", desc: "保存する（pre-）" }
+      ],
+      compounds: [
+        { phrase: "civil servant",   desc: "公務員" },
+        { phrase: "public servant",  desc: "公僕・公務員" },
+        { phrase: "servant leader",  desc: "サーバント・リーダー（奉仕型リーダー）" }
+      ]
+    },
+
+    "conserve": {
+      origin: "ラテン語 conservare（共に保つ・守り続ける）< con-（共に・完全に）+ servare（守る・保存する）。servare は「監視して保つ」という意味で、observe（ob-+servare）とも同根。\n\n14世紀に英語に入り、conserve（保存する・節約する・自然を保護する）として定着。もともとは食物の保存を指したが、18世紀以降は自然・資源・エネルギーの保護にも使われるようになった。\n\n現代英語では conserve energy（エネルギーを節約する）・conserve natural resources（天然資源を保護する）のように、持続可能性の文脈で重要な動詞となっている。",
+      derivatives: [
+        { word: "conservation",  desc: "保護・保全・節約（名詞）" },
+        { word: "conservative",  desc: "保守的な（形容詞）" },
+        { word: "conservatism",  desc: "保守主義（名詞）" },
+        { word: "conservatory",  desc: "温室・音楽院（名詞）" }
+      ],
+      family: [
+        { word: "preserve",  desc: "保存する（pre-）" },
+        { word: "reserve",   desc: "保留する（re-）" },
+        { word: "observe",   desc: "観察する（ob-）" },
+        { word: "deserve",   desc: "～に値する（de-）" }
+      ],
+      compounds: [
+        { phrase: "conserve energy",           desc: "エネルギーを節約する" },
+        { phrase: "nature conservation",       desc: "自然保護" },
+        { phrase: "conservation of resources", desc: "資源の保全" }
+      ]
+    },
+
+    // fac/fact系（残り）
+    "factor": {
+      origin: "ラテン語 factor（作る者・代理人）< facere（作る・行う）の能動者名詞。facere は「する・作る」という広義の語根で、fact・affect・manufacture・facility などと同根。\n\n中世ラテン語では商業上の代理人を指したが、英語には14世紀頃に入り factor（要因・因数・代理人）として定着。数学では「因数」、生物学では「要因」、ビジネスでは「売掛債権買取業者」など多義語として発展した。\n\n現代英語では最も一般的な意味は「要因・要素（a contributing factor）」であり、学術文脈や日常会話の両方で頻繁に使われる。",
+      derivatives: [
+        { word: "factorial",  desc: "階乗（数学）・因子の（形容詞）" },
+        { word: "factoring",  desc: "因数分解・ファクタリング（名詞）" }
+      ],
+      family: [
+        { word: "fact",        desc: "事実（facere の過去分詞）" },
+        { word: "artifact",    desc: "人工物（arte+fact）" },
+        { word: "manufacture", desc: "製造する（manu+facere）" },
+        { word: "affect",      desc: "影響する（ad+facere）" }
+      ],
+      compounds: [
+        { phrase: "risk factor",         desc: "危険因子・リスク要因" },
+        { phrase: "contributing factor", desc: "寄与要因・一因" },
+        { phrase: "factor in",           desc: "～を考慮に入れる" }
+      ]
+    },
+
+    "facilitate": {
+      origin: "ラテン語 facilis（容易な・しやすい）< facere（作る・する）の派生形容詞。facilis は「できる・取り扱いやすい」という意味で、facility（容易さ・施設）や difficult（di-+facilis、難しい）とも同根。\n\n17世紀に英語に入り、facilitate（容易にする・促進する・円滑化する）として定着。もともと「やりやすくする」という意味だったが、現代では「グループ活動を進行する」「プロセスを支援する」という意味でも多用される。\n\n現代英語ではビジネス・教育・行政の文脈で頻繁に登場し、facilitator（進行役・ファシリテーター）という語が会議やワークショップの司会者を指す語として定着している。",
+      derivatives: [
+        { word: "facilitation", desc: "促進・円滑化（名詞）" },
+        { word: "facilitator",  desc: "進行役・ファシリテーター（名詞）" }
+      ],
+      family: [
+        { word: "facility",  desc: "施設・容易さ（名詞）" },
+        { word: "facile",    desc: "安易な・容易な（形容詞）" },
+        { word: "factor",    desc: "要因（facere）" },
+        { word: "difficult", desc: "困難な（di-+facilis）" }
+      ],
+      compounds: [
+        { phrase: "facilitate communication", desc: "コミュニケーションを円滑にする" },
+        { phrase: "facilitate learning",      desc: "学習を促進する" }
+      ]
+    },
+
+    "facility": {
+      origin: "ラテン語 facilitas（容易さ・なしやすさ）< facilis（容易な）< facere（する・作る）。「行いやすい状態・条件」という抽象名詞として成立し、後に「それを可能にする場所・設備」という具体的意味に発展。\n\n15世紀に英語に入り、facility（容易さ・施設・設備）として定着。複数形 facilities は「設備・施設一般」を意味し、educational facilities（教育施設）・medical facilities（医療設備）のように使われる。\n\n現代英語ではほぼ常に「施設・設備」の意味で使われ、「容易さ」の意味は with great facility（たやすく）のような文語的表現にのみ残る。",
+      derivatives: [
+        { word: "facilitate",  desc: "容易にする・促進する（動詞）" },
+        { word: "facilitator", desc: "進行役（名詞）" }
+      ],
+      family: [
+        { word: "facile",    desc: "安易な（形容詞）" },
+        { word: "factor",    desc: "要因（名詞）" },
+        { word: "faculty",   desc: "能力・学部（名詞）" },
+        { word: "difficult", desc: "困難な（形容詞）" }
+      ],
+      compounds: [
+        { phrase: "sports facility",     desc: "スポーツ施設" },
+        { phrase: "production facility", desc: "生産設備" },
+        { phrase: "with facility",       desc: "たやすく・流暢に（文語）" }
+      ]
+    },
+
+    // ag/act系（残り）
+    "action": {
+      origin: "ラテン語 actio（行為・訴訟行為）< agere（行う・動かす）の過去分詞 actus + -io（名詞語尾）。agere は「駆り立てる・実行する」という語根で、agent・active・react などと同根。\n\n古フランス語 action を経て13世紀に英語に入り、action（行動・動作・訴訟）として定着。最初は法律用語として「訴訟」を意味したが、やがて「行動・動き」という広義で使われるようになった。\n\n現代英語では物理学（action and reaction）・映画（action film）・ビジネス（take action）・法律（legal action）と多分野にわたる。\"Actions speak louder than words\"（行動は言葉より雄弁だ）は有名な格言。",
+      derivatives: [
+        { word: "actionable",   desc: "訴訟の対象となる・実行可能な（形容詞）" },
+        { word: "inaction",     desc: "不行動・無策（名詞）" },
+        { word: "interaction",  desc: "相互作用・やりとり（名詞）" }
+      ],
+      family: [
+        { word: "active",   desc: "活動的な（ag-）" },
+        { word: "agent",    desc: "代理人（ag-）" },
+        { word: "react",    desc: "反応する（re-）" },
+        { word: "transact", desc: "取引する（trans-）" }
+      ],
+      compounds: [
+        { phrase: "take action",  desc: "行動を起こす" },
+        { phrase: "legal action", desc: "法的措置・訴訟" },
+        { phrase: "action plan",  desc: "行動計画" }
+      ]
+    },
+
+    "active": {
+      origin: "ラテン語 activus（行動する能力がある・活動的な）< agere（行う）の過去分詞 actus + -ivus（形容詞語尾）。agere は「動かす・実行する」という語根で、action・agent・react などと同根。\n\n14世紀に英語に入り、active（活発な・活動中の・能動的な）として定着。文法用語としての「能動態（active voice）」は動詞が主語の動作を直接表す形式を指す。\n\n現代英語では物理学（active volcano）・コンピュータ（active user）・金融（active management）・日常会話（stay active）まで幅広く使われ、「受動的」を意味する passive との対比が明確。",
+      derivatives: [
+        { word: "actively",  desc: "積極的に（副詞）" },
+        { word: "activate",  desc: "活性化する（動詞）" },
+        { word: "activity",  desc: "活動・活性（名詞）" },
+        { word: "proactive", desc: "先手を打つ・積極的な（形容詞）" }
+      ],
+      family: [
+        { word: "action",  desc: "行動（ag-）" },
+        { word: "agent",   desc: "代理人（ag-）" },
+        { word: "react",   desc: "反応する（re-）" },
+        { word: "passive", desc: "受動的な（反義語）" }
+      ],
+      compounds: [
+        { phrase: "active voice",      desc: "能動態（文法）" },
+        { phrase: "active volcano",    desc: "活火山" },
+        { phrase: "proactive approach",desc: "積極的なアプローチ" }
+      ]
+    },
+
+    "transaction": {
+      origin: "ラテン語 transactio（取引・協定）< transigere（貫き通す・解決する）< trans-（越えて）+ agere（行う）。「双方が行為を通じ合わせる」という字義で、当事者間での交渉・合意を意味する。\n\n14世紀に英語に入り、transaction（取引・業務処理・やりとり）として定着。もともと法律・商業における契約交渉を指したが、コンピュータサイエンスの発達で「一連の処理単位（DB transaction）」という技術的意味も加わった。\n\n現代英語では金融・商業・IT の三領域で特に多用され、financial transaction（金融取引）・database transaction（DB トランザクション）は専門用語として確立している。",
+      derivatives: [
+        { word: "transact",      desc: "取引する・執行する（動詞）" },
+        { word: "transactional", desc: "取引の・トランザクションの（形容詞）" }
+      ],
+      family: [
+        { word: "action", desc: "行動（ag-）" },
+        { word: "agent",  desc: "代理人（ag-）" },
+        { word: "active", desc: "活発な（ag-）" },
+        { word: "exact",  desc: "要求する（ex-+ag-）" }
+      ],
+      compounds: [
+        { phrase: "financial transaction",  desc: "金融取引" },
+        { phrase: "database transaction",   desc: "データベーストランザクション" },
+        { phrase: "transaction cost",       desc: "取引コスト" }
+      ]
+    },
+
+    // pos/posit系（残り）
+    "position": {
+      origin: "ラテン語 positio（置かれた状態・位置・立場）< ponere（置く）の過去分詞 positus + -io（名詞語尾）。ponere は「置く・配置する」という語根で、compose・impose・oppose・deposit などと同根。\n\n古フランス語 position を経て14世紀に英語に入り、position（位置・立場・職位・姿勢）として定着。軍事（position an army）・天文（position of a star）・ビジネス（job position）・スポーツと多領域で使われる多義語。\n\n現代英語では「職位・ポジション」という意味が最も一般的。また「立場・見解（take a position）」という意味でも頻繁に使われ、ニュアンスの幅が広い語。",
+      derivatives: [
+        { word: "positional", desc: "位置の・ポジションに関する（形容詞）" },
+        { word: "reposition", desc: "再配置する・位置を変える（動詞）" }
+      ],
+      family: [
+        { word: "positive", desc: "積極的な・肯定的な（ponere）" },
+        { word: "compose",  desc: "構成する（com-）" },
+        { word: "impose",   desc: "課す（im-）" },
+        { word: "oppose",   desc: "反対する（op-）" }
+      ],
+      compounds: [
+        { phrase: "take a position",  desc: "立場を取る・見解を示す" },
+        { phrase: "job position",     desc: "職位・ポジション" },
+        { phrase: "position paper",   desc: "政策文書・立場表明書" }
+      ]
+    },
+
+    "positive": {
+      origin: "ラテン語 positivus（確定された・実定された）< ponere（置く）の過去分詞 positus から。「実際に置かれた・確定した」という字義が「明確な・疑いない」という意味に発展し、さらに「肯定的・積極的」という現代的意味に至った。\n\n14世紀に英語に入り、positive（確定的な・肯定的な・積極的な）として定着。哲学・数学（正の数）・医学（陽性）・電気（正極）・心理学（ポジティブ思考）と多領域にわたる語。\n\n現代英語では「楽観的・前向き」という意味での使用が日常会話で特に多く、positive attitude（前向きな態度）・positive feedback（肯定的な評価）のように使われる。",
+      derivatives: [
+        { word: "positively", desc: "積極的に・確実に（副詞）" },
+        { word: "positivity", desc: "ポジティブさ・陽性（名詞）" }
+      ],
+      family: [
+        { word: "position", desc: "位置・立場（ponere）" },
+        { word: "deposit",  desc: "預金・堆積物（de-）" },
+        { word: "impose",   desc: "課す（im-）" },
+        { word: "compose",  desc: "構成する（com-）" }
+      ],
+      compounds: [
+        { phrase: "positive thinking",  desc: "ポジティブシンキング" },
+        { phrase: "test positive",      desc: "陽性と判定される" },
+        { phrase: "positive feedback",  desc: "肯定的フィードバック・正のフィードバック" }
+      ]
+    },
+
+    "deposit": {
+      origin: "ラテン語 depositum（預けられたもの）< deponere（下に置く・預ける）< de-（下に）+ ponere（置く）。「手元から下に置いて預ける」という字義で、保管・保証金・地質学的堆積まで意味が広がる。\n\n14世紀に英語に入り、deposit（預金する・堆積する・保証金）として定着。銀行用語として「預け入れ（bank deposit）」、地質学で「鉱床・堆積物（mineral deposit）」、契約で「敷金・保証金（security deposit）」の意味で使われる。\n\n現代英語では金融・不動産・地質学の三分野で特に重要な語。動詞・名詞ともに使われ、deposit money（お金を預ける）・leave a deposit（手付金を置く）が典型的な用法。",
+      derivatives: [
+        { word: "deposition", desc: "堆積・証言・罷免（名詞）" },
+        { word: "depositor",  desc: "預金者（名詞）" }
+      ],
+      family: [
+        { word: "position", desc: "位置・立場（ponere）" },
+        { word: "positive", desc: "肯定的な（ponere）" },
+        { word: "compose",  desc: "構成する（com-）" },
+        { word: "impose",   desc: "課す（im-）" }
+      ],
+      compounds: [
+        { phrase: "bank deposit",     desc: "銀行預金" },
+        { phrase: "security deposit", desc: "敷金・保証金" },
+        { phrase: "mineral deposit",  desc: "鉱床" }
+      ]
+    },
+
+    "dispose": {
+      origin: "ラテン語 disponere（分散して配置する）< dis-（離れて）+ ponere（置く）。「あちこちに配置する→処理する・捨てる」という意味に発展した。フランス語 disposer を経て英語に入った。\n\n14世紀に英語に入り、dispose（処分する・配置する・態度を決める）として定着。dispose of（処分する・片付ける）という句動詞が特に頻繁に使われ、廃棄物・財産・問題の「片付け」全般を指す。\n\n現代英語では environmental disposal（環境上の廃棄処理）・waste disposal（廃棄物処理）のように環境・行政の文脈で重要で、また well-disposed（好意的な態度の）のように態度を表す形容詞用法もある。",
+      derivatives: [
+        { word: "disposal",     desc: "処分・廃棄・配置（名詞）" },
+        { word: "disposition",  desc: "気質・配置・処分（名詞）" }
+      ],
+      family: [
+        { word: "compose",  desc: "構成する（com-）" },
+        { word: "impose",   desc: "課す（im-）" },
+        { word: "oppose",   desc: "反対する（op-）" },
+        { word: "expose",   desc: "さらす（ex-）" }
+      ],
+      compounds: [
+        { phrase: "dispose of",       desc: "処分する・片付ける" },
+        { phrase: "waste disposal",   desc: "廃棄物処理" },
+        { phrase: "at your disposal", desc: "ご自由にお使いください" }
+      ]
+    },
+
+    // gress系（残り）
+    "transgress": {
+      origin: "ラテン語 transgredi（越えて進む・踏み越える）< trans-（越えて）+ gradi（歩く・進む）。「境界線を踏み越える」という字義で、道徳・法律・社会規範の「越境」を意味する。\n\n14世紀に英語に入り、transgress（（規則・道徳を）犯す・越える）として定着。宗教的文脈では「神の掟を犯す」という罪（transgression）の意味で頻出し、法律・倫理の文脈でも使われる。\n\n現代英語では transgress social norms（社会規範を侵す）・transgress boundaries（境界を越える）のように使われ、芸術・文化批評では「既成概念を突き破る」という肯定的な意味でも使われることがある。",
+      derivatives: [
+        { word: "transgression", desc: "違反・罪・逸脱（名詞）" },
+        { word: "transgressor",  desc: "違反者・罪人（名詞）" }
+      ],
+      family: [
+        { word: "progress",  desc: "前進する（pro-）" },
+        { word: "digress",   desc: "話が逸れる（di-）" },
+        { word: "aggress",   desc: "攻撃する（ag-）" },
+        { word: "congress",  desc: "議会（con-）" }
+      ],
+      compounds: [
+        { phrase: "transgress boundaries", desc: "境界を越える" },
+        { phrase: "transgress the law",    desc: "法律を犯す" }
+      ]
+    },
+
+    "regression": {
+      origin: "ラテン語 regressio（後退・戻り）< regredi（後ろへ進む・退く）< re-（後ろへ）+ gradi（歩く）。「前に来た道を戻る」という字義で、心理学・統計学・医学で広く使われる技術語。\n\n14世紀に英語に入り、regression（後退・退行・回帰）として定着。心理学では「幼児的な行動パターンへの退行（psychological regression）」、統計学では「回帰分析（regression analysis）」として特に重要。\n\n現代英語では統計学・機械学習の文脈での linear regression（線形回帰）・logistic regression（ロジスティック回帰）という使い方が最も広く普及している。",
+      derivatives: [
+        { word: "regress",    desc: "後退する・退行する（動詞）" },
+        { word: "regressive", desc: "退行的な・逆進的な（形容詞）" }
+      ],
+      family: [
+        { word: "progress",   desc: "前進（pro-）" },
+        { word: "transgress", desc: "越える・犯す（trans-）" },
+        { word: "digress",    desc: "逸れる（di-）" },
+        { word: "congress",   desc: "議会（con-）" }
+      ],
+      compounds: [
+        { phrase: "regression analysis", desc: "回帰分析（統計）" },
+        { phrase: "linear regression",   desc: "線形回帰" },
+        { phrase: "age regression",      desc: "年齢退行（心理学）" }
+      ]
+    },
+
+    // press系（残り）
+    "oppress": {
+      origin: "ラテン語 opprimere（上から押さえつける）< ob-（上に・対して）+ premere（押す）。premere は「圧迫する」という語根で、press・depress・impress・suppress などと同根。ob- が「重くのしかかる」ニュアンスを加えた。\n\n14世紀に英語に入り、oppress（圧政を敷く・抑圧する・重荷を負わせる）として定着。政治的・社会的な「弱者に対する支配と抑圧」という意味が中心で、特に人種・階級・性差別の文脈で多用される。\n\n現代英語では the oppressed（抑圧された人々）・oppressive regime（圧政体制）・feel oppressed（重圧を感じる）のように幅広く使われる。",
+      derivatives: [
+        { word: "oppression", desc: "抑圧・圧政（名詞）" },
+        { word: "oppressive", desc: "抑圧的な・うんざりする（形容詞）" },
+        { word: "oppressor",  desc: "抑圧者（名詞）" }
+      ],
+      family: [
+        { word: "suppress",  desc: "抑制する（sup-）" },
+        { word: "depress",   desc: "気分を落ち込ませる（de-）" },
+        { word: "repress",   desc: "抑圧する（re-）" },
+        { word: "compress",  desc: "圧縮する（com-）" }
+      ],
+      compounds: [
+        { phrase: "oppress the people",  desc: "人民を弾圧する" },
+        { phrase: "oppressive heat",     desc: "うだるような暑さ" },
+        { phrase: "resist oppression",   desc: "抑圧に抵抗する" }
+      ]
+    },
+
+    "repress": {
+      origin: "ラテン語 reprimere（押し戻す・制止する）< re-（後ろへ）+ premere（押す）。「前に出ようとするものを押し戻す」という字義で、感情・反乱・記憶などを「内側に抑え込む」行為を指す。\n\n14世紀に英語に入り、repress（抑制する・弾圧する）として定着。政治文脈では「抗議活動を弾圧する」、心理学では「感情・記憶を無意識に抑圧する（Freudian repression）」という意味で特に重要。\n\n現代英語では心理学のフロイト的「抑圧（repression）」という概念が広く認知され、repress emotions（感情を抑える）・repressed memory（抑圧された記憶）という表現が一般にも使われる。",
+      derivatives: [
+        { word: "repression",  desc: "抑圧・弾圧（名詞）" },
+        { word: "repressive",  desc: "抑圧的な（形容詞）" }
+      ],
+      family: [
+        { word: "suppress",  desc: "抑制する（sup-）" },
+        { word: "oppress",   desc: "圧政を敷く（ob-）" },
+        { word: "depress",   desc: "沈ませる（de-）" },
+        { word: "impress",   desc: "印象づける（im-）" }
+      ],
+      compounds: [
+        { phrase: "repress emotions",  desc: "感情を抑圧する" },
+        { phrase: "repressed memory",  desc: "抑圧された記憶" },
+        { phrase: "repress a revolt",  desc: "反乱を鎮圧する" }
+      ]
+    },
+
+    // tract系（残り）
+    "retract": {
+      origin: "ラテン語 retrahere（引き戻す）< re-（後ろへ）+ trahere（引く）。trahere は「引っ張る」という語根で、attract・distract・extract・abstract などと同根。「前に言った・出した・伸ばしたものを引っ込める」という字義。\n\n14世紀に英語に入り、retract（引っ込める・撤回する）として定着。爪を引っ込める猫（retractable claws）・着陸装置を格納する（retract the landing gear）・発言を撤回する（retract a statement）など物理的・言語的両方で使われる。\n\n現代英語ではジャーナリズムで retraction（訂正・撤回）という名詞が特に重要で、誤報の公式訂正記事を指す。航空分野では retractable（格納式の）という形容詞が頻出する。",
+      derivatives: [
+        { word: "retraction",  desc: "撤回・取り消し・訂正（名詞）" },
+        { word: "retractable", desc: "格納式の・引っ込められる（形容詞）" }
+      ],
+      family: [
+        { word: "extract",  desc: "取り出す（ex-）" },
+        { word: "attract",  desc: "引きつける（at-）" },
+        { word: "distract", desc: "注意をそらす（dis-）" },
+        { word: "contract", desc: "契約・縮む（con-）" }
+      ],
+      compounds: [
+        { phrase: "retract a statement", desc: "発言を撤回する" },
+        { phrase: "retractable claws",   desc: "引っ込められる爪" },
+        { phrase: "issue a retraction",  desc: "訂正記事を出す" }
+      ]
+    },
+
+    // celer系
+    "accelerate": {
+      origin: "ラテン語 accelerare（速くする・急ぐ）< ad-（～に向けて）+ celerare（速くする）< celer（速い）。celer は「速さ」を意味する語根で、celerity（俊敏さ）とも同根。英語には decelerate（減速する）の反義語として並行して使われる。\n\n16世紀に英語に入り、accelerate（加速する・速める）として定着。物理学では「加速度（acceleration）」として基本概念となり、ビジネス・社会では「プロセスを早める」という比喩的意味でも多用される。\n\n現代英語では自動車・物理学・ビジネスの文脈すべてで日常的に使われ、accelerator（アクセル・加速装置）という名詞形も重要。スタートアップ支援施設の accelerator も同語源。",
+      derivatives: [
+        { word: "acceleration", desc: "加速・加速度（名詞）" },
+        { word: "accelerator",  desc: "アクセル・粒子加速器（名詞）" },
+        { word: "decelerate",   desc: "減速する（反義語）" }
+      ],
+      family: [
+        { word: "celerity",  desc: "俊敏さ・素早さ（古語）" },
+        { word: "velocity",  desc: "速度・速さ（vel-）" }
+      ],
+      compounds: [
+        { phrase: "accelerate growth",    desc: "成長を加速させる" },
+        { phrase: "acceleration lane",    desc: "加速車線" },
+        { phrase: "startup accelerator",  desc: "スタートアップアクセラレーター" }
+      ]
+    },
+
+    // phen系（ギリシャ語）
+    "phenomenon": {
+      origin: "ギリシャ語 phainomenon（現れるもの・見えるもの）< phainesthai（現れる・見える）の中動相分詞形。phainein（光を当てる・見せる）は fantasy・phantom・phase とも同根。「知覚によって捉えられる出来事」という哲学的概念として成立。\n\n16世紀にラテン語経由で英語に入り、phenomenon（現象・著しい出来事）として定着。哲学では「現象界（物自体に対する）」を指し、科学では「観察・測定される事象」を、日常語では「驚くべき人・もの」を指す。\n\n複数形は phenomena（学術語）または phenomenons（口語）。phenomenal（驚異的な・現象的な）という形容詞は「信じがたいほど素晴らしい」という意味でも広く使われる。",
+      derivatives: [
+        { word: "phenomenal",    desc: "驚異的な・現象の（形容詞）" },
+        { word: "phenomenology", desc: "現象学（名詞）" },
+        { word: "phenomena",     desc: "phenomenon の複数形" }
+      ],
+      family: [
+        { word: "fantasy",  desc: "空想（phainein）" },
+        { word: "phantom",  desc: "幻（phainein）" },
+        { word: "phase",    desc: "段階・位相（phainein）" },
+        { word: "epiphany", desc: "突然の気づき（epi-+phainein）" }
+      ],
+      compounds: [
+        { phrase: "natural phenomenon",  desc: "自然現象" },
+        { phrase: "phenomenal success",  desc: "驚異的な成功" },
+        { phrase: "social phenomenon",   desc: "社会現象" }
+      ]
+    },
+
+    // sequ系
+    "sequence": {
+      origin: "ラテン語 sequentia（続き・連続）< sequi（続く・後を追う）。sequi は「従う・後に続く」という語根で、consequence・subsequent・sequel・prosecute などと同根。「次々と続く一連の並び」という字義。\n\n14世紀に英語に入り、sequence（順序・連続・数列）として定着。音楽では「同じ音型の反復移調（sequence）」、映画では「一場面のまとまり（film sequence）」、数学では「数列（arithmetic sequence）」と多分野で重要な語。\n\n現代英語では DNA sequence（DNA配列）・sequence of events（一連の出来事）・out of sequence（順番が狂って）のように科学・日常両方の文脈で広く使われる。",
+      derivatives: [
+        { word: "sequential",    desc: "順番の・連続した（形容詞）" },
+        { word: "sequentially",  desc: "順次・連続して（副詞）" }
+      ],
+      family: [
+        { word: "consequence",  desc: "結果（con-+sequ-）" },
+        { word: "subsequent",   desc: "その後の（sub-+sequ-）" },
+        { word: "sequel",       desc: "続編・後日談（sequ-）" },
+        { word: "prosecute",    desc: "訴追する（pro-+sequ-）" }
+      ],
+      compounds: [
+        { phrase: "DNA sequence",        desc: "DNA配列・塩基配列" },
+        { phrase: "sequence of events",  desc: "一連の出来事" },
+        { phrase: "in sequence",         desc: "順番に・連続して" }
+      ]
     }
 
   };

@@ -1540,6 +1540,364 @@
         { phrase: "agree to differ", desc: "意見の相違を認めて折り合う" },
         { phrase: "make a difference", desc: "違いをもたらす・重要である" }
       ]
+    },
+
+    // ── struere / structus系 ──────────────────────────────────────────────────
+    "instruct": {
+      origin: "ラテン語 instruere（中に積み上げる・準備する）< in-（中に）+ struere（積み上げる・建てる）。「知識を心の中に積み上げていく」→「指示する・教える」に特化した。\n\ninstructor（指導者・教官）、instruction manual（取扱説明書）、instructions（指示書）はいずれも「積み上げられた知識・手順」のイメージ。follow instructions（指示に従う）は日常・職場で頻出の表現。instructive（有益な・教訓的な）は「学びを積み上げるに値する」意。",
+      derivatives: [
+        { word: "instruction",  desc: "指示・説明・指導（名詞）" },
+        { word: "instructor",   desc: "指導者・教官・インストラクター（名詞）" },
+        { word: "instructive",  desc: "有益な・教訓的な（形容詞）" },
+        { word: "instructively", desc: "有益に（副詞）" }
+      ],
+      family: [
+        { word: "structure",   desc: "構造・建造物（struere の名詞形）" },
+        { word: "construct",   desc: "建設する（con-: 共に積み上げる）" },
+        { word: "obstruct",    desc: "妨害する（ob-: 前に積んでふさぐ）" },
+        { word: "destruct",    desc: "破壊する（de-: 積み崩す）" },
+        { word: "reconstruct", desc: "再建する（re-: 再び積み上げる）" }
+      ],
+      compounds: [
+        { phrase: "follow instructions",  desc: "指示に従う" },
+        { phrase: "instruction manual",   desc: "取扱説明書" },
+        { phrase: "instruct to do",       desc: "〜するよう指示する" }
+      ]
+    },
+
+    "structure": {
+      origin: "ラテン語 structūra（建てられたもの・組み立て）< struere（積み上げる・建てる）の名詞形。「石・木材などを積み上げて作られた構造物」が原義で、物理的建造物から文章・音楽・組織の「構造」まで幅広く使われる。\n\n動詞としても使い、"structure your argument"（論点を構成する）のように「組み立てる」意。structural（構造的な）は工学・言語学・社会学で必須語。infrastructure（インフラ）は infra-（下に）+ structure で「社会の下支え構造」。",
+      derivatives: [
+        { word: "structural",     desc: "構造的な・構造上の（形容詞）" },
+        { word: "structurally",   desc: "構造的に（副詞）" },
+        { word: "structuralism",  desc: "構造主義（名詞）" },
+        { word: "restructure",    desc: "再編する・リストラする（動詞）" }
+      ],
+      family: [
+        { word: "instruct",      desc: "指示する（in-: 中に積み上げる）" },
+        { word: "construct",     desc: "建設する（con-: 共に積み上げる）" },
+        { word: "obstruct",      desc: "妨害する（ob-: 前に積んでふさぐ）" },
+        { word: "destruct",      desc: "破壊する（de-: 積み崩す）" },
+        { word: "infrastructure", desc: "インフラ（infra-: 下の構造）" }
+      ],
+      compounds: [
+        { phrase: "sentence structure",        desc: "文の構造" },
+        { phrase: "organizational structure",  desc: "組織構造" },
+        { phrase: "data structure",            desc: "データ構造（コンピューター科学）" }
+      ]
+    },
+
+    "obstruct": {
+      origin: "ラテン語 obstruere（前に積み上げてふさぐ）< ob-（前に・向かって）+ struere（積み上げる）。「進路の前に物を積み上げて道をふさぐ」が原義で、「妨害する・遮断する」に特化した。\n\nobstacle（障害物）は同根の obstāculum（前に立ちふさがるもの）から派生。obstruct justice（司法妨害）は法律上の重大な罪。医学では obstruction（閉塞）として「腸閉塞・気道閉塞」などに使われる。",
+      derivatives: [
+        { word: "obstruction",  desc: "妨害・閉塞・障害物（名詞）" },
+        { word: "obstructive",  desc: "妨害する・閉塞を起こす（形容詞）" },
+        { word: "obstructor",   desc: "妨害する人・もの（名詞）" }
+      ],
+      family: [
+        { word: "instruct",   desc: "指示する（in-: 中に積み上げる）" },
+        { word: "structure",  desc: "構造（struere の名詞形）" },
+        { word: "construct",  desc: "建設する（con-: 共に積み上げる）" },
+        { word: "destruct",   desc: "破壊する（de-: 積み崩す）" },
+        { word: "obstacle",   desc: "障害物（ob+stāculum: 前に立つもの）" }
+      ],
+      compounds: [
+        { phrase: "obstruct justice",       desc: "司法を妨害する" },
+        { phrase: "road obstruction",       desc: "道路障害物" },
+        { phrase: "clear an obstruction",   desc: "障害を取り除く" }
+      ]
+    },
+
+    "destruct": {
+      origin: "ラテン語 destruere（下へ積み崩す・壊す）< de-（下へ・反対に）+ struere（積み上げる）。「積み上げたものを逆方向に崩す」が原義。destroy（破壊する）は同根の古フランス語 destruire から来た別経路の借用語で、ほぼ同義。\n\nself-destruct（自己破壊する）はSF・軍事用語で「設計上の自己破壊機能」を指す。indestructible（破壊不可能な）は「壊すことができない」強固さを表す。weapons of mass destruction（大量破壊兵器）は国際政治の重要語。",
+      derivatives: [
+        { word: "destruction",    desc: "破壊・壊滅（名詞）" },
+        { word: "destructive",    desc: "破壊的な（形容詞）" },
+        { word: "destructively",  desc: "破壊的に（副詞）" },
+        { word: "indestructible", desc: "破壊不可能な（形容詞）" }
+      ],
+      family: [
+        { word: "instruct",   desc: "指示する（in-: 中に積み上げる）" },
+        { word: "structure",  desc: "構造（struere の名詞形）" },
+        { word: "construct",  desc: "建設する（con-: 共に積み上げる）" },
+        { word: "obstruct",   desc: "妨害する（ob-: 前に積んでふさぐ）" },
+        { word: "destroy",    desc: "破壊する（古仏語経由の同根語）" }
+      ],
+      compounds: [
+        { phrase: "self-destruct",                  desc: "自己破壊する" },
+        { phrase: "weapons of mass destruction",    desc: "大量破壊兵器" },
+        { phrase: "destructive criticism",          desc: "建設的でない・悪意ある批判" }
+      ]
+    },
+
+    // ── ducere / ductus系（残り）─────────────────────────────────────────────
+    "reduce": {
+      origin: "ラテン語 reducere（後ろへ引き戻す・元の状態に戻す）< re-（戻って）+ ducere（引く・導く）。「元の場所・状態へ引き戻す」→「（量・程度を）縮小する・低下させる」に発展した。\n\nreduce to（〜の状態に追い込む）は "reduce to tears"（涙させる）、"reduce to ashes"（灰にする）のように文脈によって強い否定的ニュアンスを持つ。reduction（削減）は費用・CO₂排出量・軍備など多様な文脈で使われる重要語。",
+      derivatives: [
+        { word: "reduction",   desc: "削減・縮小・還元（名詞）" },
+        { word: "reductive",   desc: "単純化しすぎた・還元的な（形容詞）" },
+        { word: "reducible",   desc: "削減できる（形容詞）" },
+        { word: "irreducible", desc: "これ以上削減できない・不可約な（形容詞）" }
+      ],
+      family: [
+        { word: "induce",     desc: "誘発する（in-: 中へ引き込む）" },
+        { word: "introduce",  desc: "紹介する・導入する（intro-: 内側へ）" },
+        { word: "conduct",    desc: "実施する・指揮する（con-: 共に引く）" },
+        { word: "produce",    desc: "生産する（pro-: 前へ引き出す）" },
+        { word: "deduce",     desc: "演繹する（de-: 下へ引き出す）" },
+        { word: "seduce",     desc: "誘惑する（se-: 別の方へ引く）" }
+      ],
+      compounds: [
+        { phrase: "reduce costs",     desc: "コストを削減する" },
+        { phrase: "carbon reduction", desc: "二酸化炭素削減" },
+        { phrase: "reduce to tears",  desc: "泣かせる・涙ぐませる" }
+      ]
+    },
+
+    "induce": {
+      origin: "ラテン語 inducere（中へ引き込む・誘導する）< in-（中へ）+ ducere（引く・導く）。「心の中へ引き込む」→「説得する・誘発する」に。医学では「分娩誘発・麻酔導入」を指す専門用語としても使われる。\n\ninduction（誘導・就任式・帰納法）は論理学（個別から一般を「引き出す」思考）・電気学（電磁誘導）・医学（分娩誘発）で使われる多義語。inductive reasoning（帰納的推論）はデータから法則を引き出す思考法を指す。",
+      derivatives: [
+        { word: "inducement", desc: "誘引・動機・報酬（名詞）" },
+        { word: "induction",  desc: "誘導・就任式・帰納法（名詞）" },
+        { word: "inductive",  desc: "帰納的な・誘導的な（形容詞）" }
+      ],
+      family: [
+        { word: "reduce",    desc: "削減する（re-: 引き戻す）" },
+        { word: "introduce", desc: "紹介する・導入する（intro-: 内側へ）" },
+        { word: "conduct",   desc: "実施する・指揮する（con-: 共に引く）" },
+        { word: "produce",   desc: "生産する（pro-: 前へ引き出す）" },
+        { word: "deduce",    desc: "演繹する（de-: 下へ引き出す）" },
+        { word: "seduce",    desc: "誘惑する（se-: 別の方へ引く）" }
+      ],
+      compounds: [
+        { phrase: "induce labor",         desc: "分娩を誘発する" },
+        { phrase: "induce sleep",         desc: "眠気を誘う・睡眠を誘発する" },
+        { phrase: "inductive reasoning",  desc: "帰納的推論" }
+      ]
+    },
+
+    "introduce": {
+      origin: "ラテン語 introducere（内側へ引き込む）< intrō-（内側へ）+ ducere（引く・導く）。「外にあるものを内側へ引き入れる」→「（人・物・概念を）初めてその場に引き込む」→「紹介する・導入する」に発展した。\n\nintroduction（序論・紹介・導入）は本の冒頭でも人を引き合わせる場面でも使われる。introductory offer（お試し価格）は「初めて引き込むための提案」というマーケティング表現。",
+      derivatives: [
+        { word: "introduction",   desc: "紹介・序論・導入（名詞）" },
+        { word: "introductory",   desc: "入門の・お試しの（形容詞）" },
+        { word: "intro",          desc: "イントロ・導入部（口語略）" }
+      ],
+      family: [
+        { word: "reduce",   desc: "削減する（re-: 引き戻す）" },
+        { word: "induce",   desc: "誘発する（in-: 中へ引き込む）" },
+        { word: "conduct",  desc: "実施する・指揮する（con-: 共に引く）" },
+        { word: "produce",  desc: "生産する（pro-: 前へ引き出す）" },
+        { word: "deduce",   desc: "演繹する（de-: 下へ引き出す）" }
+      ],
+      compounds: [
+        { phrase: "introduce yourself",      desc: "自己紹介する" },
+        { phrase: "letter of introduction",  desc: "紹介状" },
+        { phrase: "introductory course",     desc: "入門コース" }
+      ]
+    },
+
+    "conductor": {
+      origin: "ラテン語 conductor（引き合わせる人・請負人）< conducere（共に引く・集める）< con-（共に）+ ducere（引く）の動作主名詞形。「電気・熱を通して引き渡す物体」（物理）、「オーケストラを率いる指揮者」（音楽）、「列車の車掌」（交通）と多方向に使われる。\n\nconductor のコアイメージは「媒体として何かを引き通す存在」。semiconductor（半導体）は semi-（半分）+ conductor で、電気を「半分だけ通す物質」。現代コンピューターチップの基礎材料。",
+      derivatives: [
+        { word: "conductance",    desc: "電気伝導度（名詞）" },
+        { word: "conductivity",   desc: "導電率・熱伝導率（名詞）" },
+        { word: "semiconductor",  desc: "半導体（名詞）" }
+      ],
+      family: [
+        { word: "reduce",    desc: "削減する（re-: 引き戻す）" },
+        { word: "induce",    desc: "誘発する（in-: 中へ引き込む）" },
+        { word: "introduce", desc: "紹介する（intro-: 内側へ引く）" },
+        { word: "conduct",   desc: "実施する・伝導する（con-: 共に引く）" },
+        { word: "produce",   desc: "生産する（pro-: 前へ引き出す）" },
+        { word: "deduce",    desc: "演繹する（de-: 下へ引き出す）" }
+      ],
+      compounds: [
+        { phrase: "orchestra conductor", desc: "オーケストラの指揮者" },
+        { phrase: "lightning conductor", desc: "避雷針" },
+        { phrase: "semiconductor chip",  desc: "半導体チップ" }
+      ]
+    },
+
+    // ── trahere / tractus系（残り）────────────────────────────────────────────
+    "distract": {
+      origin: "ラテン語 distrahere（バラバラの方向へ引っ張る）< dis-（バラバラに）+ trahere（引く）。「集中している注意をバラバラに引き散らす」が原義で、「気をそらす・注意を妨げる」に特化した。\n\ndistraction（気晴らし・妨害）は否定的文脈（注意散漫）でも肯定的文脈（気晴らし・娯楽）でも使われる。distracted driving（ながら運転）は現代の交通安全問題の中心語。",
+      derivatives: [
+        { word: "distraction",   desc: "気晴らし・注意散漫・妨害（名詞）" },
+        { word: "distracted",    desc: "注意散漫な・うわの空の（形容詞）" },
+        { word: "distractedly",  desc: "うわの空で（副詞）" },
+        { word: "distractible",  desc: "気が散りやすい（形容詞）" }
+      ],
+      family: [
+        { word: "contract",  desc: "契約・収縮する（con-: 共に引く）" },
+        { word: "extract",   desc: "抽出する（ex-: 外へ引き出す）" },
+        { word: "attract",   desc: "引き付ける（ad-: 〜へ引く）" },
+        { word: "abstract",  desc: "抽象的な・要旨（abs-: 離して引く）" },
+        { word: "subtract",  desc: "引き算する（sub-: 下から引く）" },
+        { word: "tractor",   desc: "トラクター（trahere: 引くもの）" }
+      ],
+      compounds: [
+        { phrase: "distract from",        desc: "〜から気をそらす" },
+        { phrase: "distracted driving",   desc: "ながら運転" },
+        { phrase: "digital distraction",  desc: "デジタル機器による注意散漫" }
+      ]
+    },
+
+    "abstract": {
+      origin: "ラテン語 abstrahere（引き離す）< abs-（離れて）+ trahere（引く）。「具体的なものから引き離して本質だけを取り出す」が原義。形容詞「抽象的な」、名詞「要旨・抄録・抽象画」、動詞「抽象化する・抽出する」と三役をこなす多機能語。\n\nabstract art（抽象画）は具体的な形から「引き離れた」芸術。abstract of a paper（論文の要旨）は内容を「引き出して」凝縮したもの。in the abstract（抽象的に・観念として）は哲学的議論でよく使われる。",
+      derivatives: [
+        { word: "abstraction",  desc: "抽象化・抽象概念（名詞）" },
+        { word: "abstractly",   desc: "抽象的に（副詞）" },
+        { word: "abstracted",   desc: "ぼんやりした・うわの空の（形容詞）" },
+        { word: "abstractness", desc: "抽象性（名詞）" }
+      ],
+      family: [
+        { word: "contract",  desc: "契約・収縮する（con-: 共に引く）" },
+        { word: "extract",   desc: "抽出する（ex-: 外へ引き出す）" },
+        { word: "distract",  desc: "気をそらす（dis-: バラバラに引く）" },
+        { word: "subtract",  desc: "引き算する（sub-: 下から引く）" },
+        { word: "attract",   desc: "引き付ける（ad-: 〜へ引く）" }
+      ],
+      compounds: [
+        { phrase: "abstract art",      desc: "抽象画・抽象芸術" },
+        { phrase: "in the abstract",   desc: "抽象的に・観念として" },
+        { phrase: "research abstract", desc: "論文の要旨・アブストラクト" }
+      ]
+    },
+
+    "subtract": {
+      origin: "ラテン語 subtrahere（下から引き取る）< sub-（下から）+ trahere（引く）。「下から引き取って取り除く」→「引き算する・差し引く」に特化した算術用語。英語には15世紀に数学用語として定着した。\n\nsubtraction（引き算）は addition（足し算）の対語。subtract from（〜から引く）は数学的演算だけでなく "This subtracts from the overall quality."（これは全体の質を損なう）のように比喩的にも使われる。subtractive color（減法混色）は絵の具・印刷のCMYKで使われる概念。",
+      derivatives: [
+        { word: "subtraction",  desc: "引き算・差し引き（名詞）" },
+        { word: "subtracted",   desc: "差し引かれた（形容詞）" },
+        { word: "subtractive",  desc: "減法の・差し引く（形容詞）" }
+      ],
+      family: [
+        { word: "contract",  desc: "契約・収縮する（con-: 共に引く）" },
+        { word: "extract",   desc: "抽出する（ex-: 外へ引き出す）" },
+        { word: "distract",  desc: "気をそらす（dis-: バラバラに引く）" },
+        { word: "abstract",  desc: "抽象的な・要旨（abs-: 離して引く）" },
+        { word: "tractor",   desc: "トラクター（trahere: 引くもの）" }
+      ],
+      compounds: [
+        { phrase: "subtract from",       desc: "〜から引く・〜を損なう" },
+        { phrase: "subtraction problem", desc: "引き算の問題" },
+        { phrase: "subtractive color",   desc: "減法混色（CMYK）" }
+      ]
+    },
+
+    // ── premere / pressus系（残り）────────────────────────────────────────────
+    "depress": {
+      origin: "ラテン語 deprimere（下へ押さえる）< de-（下へ）+ premere（押す）。「下方向へ力を加えて押しつける」が原義で、「気分を落ち込ませる・経済を低迷させる・価格を下げる」に広がった。\n\ndepression（うつ病・不景気・低気圧・地形の窪み）は「押し下げられた状態」のあらゆる形を指す多義語。Great Depression（大恐慌、1930年代）は経済が「押し下げられた」歴史的事件。antidepressant（抗うつ薬）は押し下げる力に「対抗する」薬剤。",
+      derivatives: [
+        { word: "depression",     desc: "うつ病・不景気・低気圧・くぼ地（名詞）" },
+        { word: "depressed",      desc: "落ち込んだ・不況の（形容詞）" },
+        { word: "depressing",     desc: "憂うつにさせる（形容詞）" },
+        { word: "antidepressant", desc: "抗うつ薬（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "express",   desc: "表現する（ex-: 外へ押し出す）" },
+        { word: "impress",   desc: "感銘を与える（in-: 中へ押し込む）" },
+        { word: "compress",  desc: "圧縮する（com-: 共に押す）" },
+        { word: "suppress",  desc: "抑圧する（sub-: 下へ押さえる）" },
+        { word: "pressure",  desc: "圧力（premere の名詞形）" },
+        { word: "oppress",   desc: "圧政する（ob-: 〜に対して押す）" }
+      ],
+      compounds: [
+        { phrase: "feel depressed",      desc: "落ち込んでいる・憂うつだ" },
+        { phrase: "economic depression", desc: "経済不況・恐慌" },
+        { phrase: "the Great Depression", desc: "大恐慌（1929年〜）" }
+      ]
+    },
+
+    "pressure": {
+      origin: "ラテン語 pressūra（押すこと・圧迫）< premere（押す）の名詞形。「物理的に押す力」→「精神的プレッシャー・社会的圧力・気圧・血圧・水圧」まで広く転用された。\n\nunder pressure（プレッシャーの下で）は物理的意味と比喩的意味の両方で使われる。peer pressure（仲間からの圧力）は社会心理の重要概念。血圧（blood pressure）・気圧（air pressure）は日常的に使われる医学・気象の基本語。",
+      derivatives: [
+        { word: "pressurize",   desc: "加圧する・圧力をかける（動詞）" },
+        { word: "pressurized",  desc: "加圧された（形容詞）" },
+        { word: "high-pressure", desc: "高圧の・強引な（形容詞）" }
+      ],
+      family: [
+        { word: "express",   desc: "表現する（ex-: 外へ押し出す）" },
+        { word: "impress",   desc: "感銘を与える（in-: 中へ押し込む）" },
+        { word: "compress",  desc: "圧縮する（com-: 共に押す）" },
+        { word: "suppress",  desc: "抑圧する（sub-: 下へ押さえる）" },
+        { word: "depress",   desc: "落ち込ませる（de-: 下へ押す）" },
+        { word: "print",     desc: "印刷する（premere: 押して刻む）" }
+      ],
+      compounds: [
+        { phrase: "blood pressure",  desc: "血圧" },
+        { phrase: "under pressure",  desc: "プレッシャーの下で" },
+        { phrase: "peer pressure",   desc: "仲間からの同調圧力" }
+      ]
+    },
+
+    // ── jacere / jectus系（残り）─────────────────────────────────────────────
+    "object": {
+      origin: "ラテン語 obiectus（前に投げられたもの）< ob-（前に・向かって）+ jacere（投げる）の完了分詞。「目の前に投げ出されたもの」→「物体・対象」（名詞）、「前に投げ返す」→「異議を唱える」（動詞）の二方向に発展した。\n\n名詞（物体・目的語）は /ˈɒbdʒɪkt/（前強勢）、動詞（反対する）は /əbˈdʒekt/（後強勢）と発音が異なる。objective（客観的な・目標）は「外に投げ出されたもの＝主観を持たないもの」の意で哲学・ビジネスで必須語。",
+      derivatives: [
+        { word: "objection",    desc: "異議・反対（名詞）" },
+        { word: "objective",    desc: "客観的な・目標・対物レンズ（形容詞・名詞）" },
+        { word: "objectively",  desc: "客観的に（副詞）" },
+        { word: "objectivity",  desc: "客観性（名詞）" }
+      ],
+      family: [
+        { word: "project",  desc: "計画・投影する（pro-: 前へ投げる）" },
+        { word: "inject",   desc: "注射する（in-: 中へ投げ込む）" },
+        { word: "subject",  desc: "主題・支配下の（sub-: 下に投げる）" },
+        { word: "eject",    desc: "放出する（ex-: 外へ投げ出す）" },
+        { word: "reject",   desc: "拒絶する（re-: 投げ返す）" },
+        { word: "adjacent", desc: "隣接した（ad+jacere: 傍に置かれた）" }
+      ],
+      compounds: [
+        { phrase: "object to",    desc: "〜に異議を唱える・反対する" },
+        { phrase: "no objection", desc: "異議なし" },
+        { phrase: "objective view", desc: "客観的な見方" }
+      ]
+    },
+
+    "eject": {
+      origin: "ラテン語 eicere（外へ投げ出す）< ex-（外へ）+ jacere（投げる）。「内にあるものを強制的に外へ投げ出す」→「排出する・退場させる・緊急脱出する」に使われる。\n\nCD/DVDドライブの「イジェクトボタン」は「ディスクを外へ押し出す」動作から。ejector seat（射出座席）は航空用語で「緊急時にパイロットを外へ弾き出す座席」。スポーツでは「退場させる」意味で使われる。",
+      derivatives: [
+        { word: "ejection",  desc: "排出・退場・緊急脱出（名詞）" },
+        { word: "ejector",   desc: "排出装置・イジェクター（名詞）" }
+      ],
+      family: [
+        { word: "project",  desc: "計画・投影する（pro-: 前へ投げる）" },
+        { word: "inject",   desc: "注射する（in-: 中へ投げ込む）" },
+        { word: "subject",  desc: "主題・支配下の（sub-: 下に投げる）" },
+        { word: "object",   desc: "反対する・物体（ob-: 前に投げる）" },
+        { word: "reject",   desc: "拒絶する（re-: 投げ返す）" }
+      ],
+      compounds: [
+        { phrase: "eject from",    desc: "〜から排出する・〜から退場させる" },
+        { phrase: "ejector seat",  desc: "射出座席（航空）" },
+        { phrase: "eject button",  desc: "イジェクトボタン" }
+      ]
+    },
+
+    // ── ferre系（残り）────────────────────────────────────────────────────────
+    "transfer": {
+      origin: "ラテン語 transferre（向こう側へ運ぶ）< trans-（超えて・向こう側へ）+ ferre（運ぶ・持つ）。「ある場所から別の場所へ運び移す」が原義で、物・人・権利・データ・感情の「移転・移動・転送」全般に使われる。\n\nbank transfer（銀行振込）は金融の基本操作。knowledge transfer（知識移転）は組織学習の重要概念。heat transfer（熱移動）は物理・工学の専門用語。名詞・動詞で発音アクセントが変わる：名詞 /ˈtrænsfɜː/（前強勢）、動詞 /trænsˈfɜː/（後強勢）。",
+      derivatives: [
+        { word: "transferable",   desc: "移転可能な・譲渡できる（形容詞）" },
+        { word: "transference",   desc: "転移・感情移入（名詞・心理学）" },
+        { word: "transferral",    desc: "移転・移送（名詞）" }
+      ],
+      family: [
+        { word: "refer",    desc: "参照する（re-: 持ち帰る）" },
+        { word: "offer",    desc: "申し出る（ob-: 向けて持つ）" },
+        { word: "suffer",   desc: "苦しむ（sub-: 下から耐えて）" },
+        { word: "infer",    desc: "推論する（in-: 中へ導く）" },
+        { word: "differ",   desc: "異なる（dis-: 別方向へ持つ）" },
+        { word: "prefer",   desc: "好む（pre-: 先に持ち出す）" },
+        { word: "confer",   desc: "協議する・授与する（con-: 共に）" }
+      ],
+      compounds: [
+        { phrase: "bank transfer",       desc: "銀行振込" },
+        { phrase: "knowledge transfer",  desc: "知識移転" },
+        { phrase: "transfer to",         desc: "〜へ移転する・〜へ振り込む" }
+      ]
     }
 
   };

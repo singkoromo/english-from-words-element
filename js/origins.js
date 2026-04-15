@@ -20896,6 +20896,521 @@
         { phrase: "passive aggression", desc: "受動的攻撃性" },
         { phrase: "microaggression",    desc: "マイクロアグレッション" }
       ]
+    },
+
+    "suburb": {
+      origin: "ラテン語 suburbium（城壁の外の地域）< sub-（下に・外側に）+ urbs（都市・城壁都市）。「郊外・市の外縁部」が原義。urban（都市の）・suburban（郊外の）と同根の urbs を共有し、「都市の壁の外側、しかし都市と密接に結びついた居住地」というイメージを持つ。\n\n英語には14世紀に採用され、「主要都市を取り囲む居住地帯」の意味で定着。都市計画・社会学・不動産で move to the suburbs（郊外に移住する）・suburb of London（ロンドン郊外）のように都市と農村の中間地帯を指す語として機能する。\n\n現代英語では inner suburb（近郊）・outer suburb（遠郊）・suburb sprawl（郊外スプロール）のように都市研究・住宅政策で使われ、20世紀の自動車社会の発展とともに拡大した郊外化現象（suburbanization）を示す語として重要性が増している。",
+      derivatives: [
+        { word: "suburban",       desc: "郊外の（形容詞）" },
+        { word: "suburbanite",    desc: "郊外住民（名詞）" },
+        { word: "suburbanization", desc: "郊外化（名詞）" }
+      ],
+      family: [
+        { word: "urban",    desc: "都市の（urbs）" },
+        { word: "urbane",   desc: "洗練された（urbs）" },
+        { word: "exurb",    desc: "都市外縁部（ex+urbs）" }
+      ],
+      compounds: [
+        { phrase: "move to the suburbs",  desc: "郊外に移住する" },
+        { phrase: "inner suburb",         desc: "近郊" },
+        { phrase: "suburb sprawl",        desc: "郊外スプロール" }
+      ]
+    },
+
+    "suburban": {
+      origin: "ラテン語 suburbanus（城外の）< sub-（下・外側）+ urbs（都市）+ -an（形容詞接尾辞）。「郊外の・郊外的な」が原義。suburb（郊外）・urban（都市の）と同根で、「都市機能に依存しつつ都市の外に広がる居住地帯に関わる」というイメージを持つ。\n\n英語には17世紀に採用され、「郊外に特有の生活様式・環境に関わる」の意味で定着。住宅・社会学・文化批評で suburban neighborhood（郊外の住宅地）・suburban lifestyle（郊外的生活様式）のように使われるとともに、「個性がなく均質な」という批判的含意を持つ場合もある。\n\n現代英語では suburban commuter（郊外から通勤する人）・suburban sprawl（郊外スプロール）・suburban dream（郊外生活の夢）のように使われ、特にアメリカでは20世紀中葉の「マイホーム・自動車・核家族」という理想的中産階級生活のイメージと強く結びついた語となっている。",
+      derivatives: [
+        { word: "suburbanite",    desc: "郊外住民（名詞）" },
+        { word: "suburbanize",    desc: "郊外化する（動詞）" }
+      ],
+      family: [
+        { word: "suburb",   desc: "郊外（sub+urbs）" },
+        { word: "urban",    desc: "都市の（urbs）" },
+        { word: "exurban",  desc: "都市外縁部の（ex+urbs）" }
+      ],
+      compounds: [
+        { phrase: "suburban neighborhood", desc: "郊外の住宅地" },
+        { phrase: "suburban commuter",     desc: "郊外から通勤する人" },
+        { phrase: "suburban sprawl",       desc: "郊外スプロール" }
+      ]
+    },
+
+    "empire": {
+      origin: "ラテン語 imperium（命令権・支配権・帝国）< imperare（命令する）< im-（中に）+ parare（準備する・整える）。「帝国・広大な支配領域」が原義。emperor（皇帝）・imperial（帝国の）・emperor と同根の imperare を共有し、「命令する権限を持つ者が支配する広大な領土」というイメージを持つ。\n\n英語には13世紀に採用され、「広大な領土を支配する政治体制・その領域」の意味で定着。歴史・政治・ビジネスで British Empire（大英帝国）・media empire（メディア帝国）・business empire（ビジネス帝国）のように「圧倒的な支配力を持つ広大な領域・組織」を指す語として機能する。\n\n現代英語では corporate empire（企業帝国）・tech empire（テック帝国）のように「支配的な企業・組織」を比喩的に指す用法が広がり、empire building（帝国建設・縄張り拡大）という表現は組織内の権限拡大行動を批判する語としても使われる。",
+      derivatives: [
+        { word: "emperor",   desc: "皇帝（名詞）" },
+        { word: "empress",   desc: "女帝（名詞）" },
+        { word: "imperial",  desc: "帝国の（形容詞）" }
+      ],
+      family: [
+        { word: "imperial",    desc: "帝国の（imperium）" },
+        { word: "imperialism", desc: "帝国主義（imperium）" },
+        { word: "imperative",  desc: "命令の・不可欠な（imperare）" }
+      ],
+      compounds: [
+        { phrase: "British Empire",   desc: "大英帝国" },
+        { phrase: "media empire",     desc: "メディア帝国" },
+        { phrase: "empire building",  desc: "帝国建設・縄張り拡大" }
+      ]
+    },
+
+    "imperial": {
+      origin: "ラテン語 imperialis（帝国に関わる）< imperium（命令権・帝国）< imperare（命令する）+ -al（形容詞接尾辞）。「帝国の・皇帝の・雄大な」が原義。empire（帝国）・emperor（皇帝）・imperialism（帝国主義）と同根の imperium を共有する。\n\n英語には14世紀に採用され、「帝国・皇帝に関わる・絶対的権威を持つ」の意味で定着。歴史・政治・文化で Imperial Palace（皇居）・imperial ambition（帝国主義的野心）・imperial measurement（ヤード・ポンド法）のように使われる重要形容詞として機能する。\n\n現代英語では Imperial College London（インペリアル・カレッジ・ロンドン）のような固有名詞や、imperial units（ヤード・ポンド法）というイギリスの伝統的度量衡を指す語としても定着しており、imperialism（帝国主義）の批判的議論でも核心語として機能する。",
+      derivatives: [
+        { word: "imperially",    desc: "帝国的に（副詞）" },
+        { word: "imperialism",   desc: "帝国主義（名詞）" },
+        { word: "imperialist",   desc: "帝国主義者（名詞）" }
+      ],
+      family: [
+        { word: "empire",     desc: "帝国（imperium）" },
+        { word: "emperor",    desc: "皇帝（imperium）" },
+        { word: "imperative", desc: "命令の・不可欠な（imperare）" }
+      ],
+      compounds: [
+        { phrase: "imperial ambition",    desc: "帝国主義的野心" },
+        { phrase: "imperial units",       desc: "ヤード・ポンド法" },
+        { phrase: "imperial palace",      desc: "皇居・宮殿" }
+      ]
+    },
+
+    "aristocracy": {
+      origin: "ギリシャ語 aristokratia（最善者の支配）< aristos（最善の・最高の）+ kratos（支配・権力）+ -y（名詞接尾辞）。「貴族制・貴族階級」が原義。democracy（民主主義）・autocracy（独裁制）と同根の kratos を共有し、「最も優れた者が統治する」というプラトン的理想から転じて「世襲貴族の支配」を指す語になった。\n\n英語には15世紀に採用され、「生まれによる世襲特権を持つ上流階級・その政治制度」の意味で定着。歴史・政治・社会学で hereditary aristocracy（世襲貴族）・land-owning aristocracy（地主貴族）のように封建制度・階級社会を分析する語として機能する。\n\n現代英語では aristocracy of talent（才能の貴族制、能力主義）という表現のように「特定分野の最高位にいる者たち」を指す比喩的用法も生まれ、aristos（最善の）から aristocratic（貴族的な・洗練された）という含意が派生している。",
+      derivatives: [
+        { word: "aristocrat",     desc: "貴族・上流階級の人（名詞）" },
+        { word: "aristocratic",   desc: "貴族的な・洗練された（形容詞）" }
+      ],
+      family: [
+        { word: "democracy",  desc: "民主主義（demos+kratos）" },
+        { word: "autocracy",  desc: "独裁制（autos+kratos）" },
+        { word: "plutocracy", desc: "金権政治（ploutos+kratos）" }
+      ],
+      compounds: [
+        { phrase: "hereditary aristocracy",   desc: "世襲貴族" },
+        { phrase: "aristocracy of talent",    desc: "才能の貴族制・能力主義" }
+      ]
+    },
+
+    "bureaucracy": {
+      origin: "フランス語 bureau（事務机・事務所）+ ギリシャ語 kratos（支配・権力）+ -y（名詞接尾辞）。「官僚制・お役所主義」が原義。democracy（民主主義）・aristocracy（貴族制）と同根の kratos を共有し、「事務机から支配する者たち」という風刺的なイメージを持つ語として18世紀フランスで生まれた。\n\n英語には19世紀初頭に採用され、「文書・規則・手続きを通じて統治する行政機構」の意味で定着。政治学・組織論・日常語で cut through the bureaucracy（お役所仕事を突破する）・government bureaucracy（政府の官僚制）のように使われ、しばしば「非効率・形式主義・権威主義」という批判的含意を持つ語として機能する。\n\n現代英語では red tape（お役所的手続き）と同義的に使われ、reduce bureaucracy（官僚主義を削減する）・bureaucratic process（お役所的手続き）のように行政改革・ビジネス効率化の文脈で頻用される語となっている。",
+      derivatives: [
+        { word: "bureaucrat",     desc: "官僚（名詞）" },
+        { word: "bureaucratic",   desc: "官僚的な・お役所的な（形容詞）" },
+        { word: "bureaucratize",  desc: "官僚化する（動詞）" }
+      ],
+      family: [
+        { word: "democracy",   desc: "民主主義（demos+kratos）" },
+        { word: "aristocracy", desc: "貴族制（aristos+kratos）" },
+        { word: "technocracy", desc: "技術官僚制（techne+kratos）" }
+      ],
+      compounds: [
+        { phrase: "government bureaucracy",  desc: "政府の官僚制" },
+        { phrase: "cut through bureaucracy", desc: "お役所仕事を突破する" },
+        { phrase: "bureaucratic process",    desc: "お役所的手続き" }
+      ]
+    },
+
+    "tyranny": {
+      origin: "ギリシャ語 tyrannia（独裁支配）< tyrannos（独裁者・僭主）。「専制政治・横暴な支配」が原義。tyrant（独裁者）・tyrannical（専制的な）と同根の tyrannos を共有し、古代ギリシャでは必ずしも悪意を含まない「一人支配者」を指したが、英語では「無法な専制・残酷な支配」という否定的含意で定着した。\n\n英語には14世紀に採用され、「法を無視した絶対的で残酷な権力行使」の意味で定着。政治・日常語で escape tyranny（専制から逃れる）・tyranny of the majority（多数派の専制）のように「抑圧的支配」を示す語として機能する。\n\n現代英語では tyranny of the clock（時間という専制）・tyranny of choice（選択肢という暴虐）のように「煩わしく過酷な支配的状況」を比喩的に指す日常的用法も広く使われ、social tyranny（社会的圧力）のような表現でも頻用される。",
+      derivatives: [
+        { word: "tyrant",       desc: "独裁者・専制君主（名詞）" },
+        { word: "tyrannical",   desc: "専制的な・横暴な（形容詞）" },
+        { word: "tyrannize",    desc: "専制的に支配する（動詞）" }
+      ],
+      family: [
+        { word: "autocracy",  desc: "独裁制（autos+kratos）" },
+        { word: "despot",     desc: "専制君主（despotes）" },
+        { word: "oppression", desc: "抑圧（ob+premere）" }
+      ],
+      compounds: [
+        { phrase: "tyranny of the majority",  desc: "多数派の専制" },
+        { phrase: "escape tyranny",           desc: "専制から逃れる" },
+        { phrase: "tyranny of choice",        desc: "選択肢という暴虐" }
+      ]
+    },
+
+    "republic": {
+      origin: "ラテン語 res publica（公共の事柄）< res（事柄・物）+ publicus（公共の）< populus（人民）。「共和国・共和制」が原義。public（公共の）・publication（出版）・republican（共和主義の）と同根の publicus を共有し、「権力が一人の君主でなく人民の公共のものである」というイメージを持つ。\n\n英語には15世紀に採用され、「世襲君主に代わり選出された代表者が統治する政体・その国家」の意味で定着。政治学・歴史・国際関係で republic vs. monarchy（共和制 vs. 君主制）・democratic republic（民主共和国）のように政体分類の核心語として機能する。\n\n現代英語では the Republic（共和国）という固有名詞的使用（the Republic of France, the Weimar Republic など）と、republic of letters（学問共和国、知識人の国際的共同体）という歴史的表現でも使われる重要語となっている。",
+      derivatives: [
+        { word: "republican",      desc: "共和主義の・共和国の（形容詞・名詞）" },
+        { word: "republicanism",   desc: "共和主義（名詞）" }
+      ],
+      family: [
+        { word: "public",     desc: "公共の（publicus）" },
+        { word: "publish",    desc: "出版する（publicus）" },
+        { word: "populace",   desc: "一般大衆（populus）" }
+      ],
+      compounds: [
+        { phrase: "democratic republic",    desc: "民主共和国" },
+        { phrase: "republic of letters",    desc: "学問共和国" },
+        { phrase: "republic vs. monarchy",  desc: "共和制 vs. 君主制" }
+      ]
+    },
+
+    "parliament": {
+      origin: "古フランス語 parlement（話し合い・会議）< parler（話す）< ラテン語 parabola（言葉・たとえ話）< ギリシャ語 parabole（比較・説明）。「議会・国会」が原義。parlor（客間）・parley（交渉）と同根の parler を共有し、「話し合うための場」というイメージから「立法機関」を指す語に発展した。\n\n英語には13世紀に採用され、「君主に助言・法律制定する会議体」として起源を持ち、近代民主主義の発展とともに「国民の代表が集まる立法機関」という現代的意味で定着。Act of Parliament（議会法）・parliamentary debate（議会討論）のように英国政治の中核語として機能する。\n\n現代英語では parliamentary democracy（議会制民主主義）・parliamentary privilege（議員特権）・dissolve parliament（議会を解散する）のように英国・英連邦の政治制度の核心語として使われ、congress（議会）とは微妙に異なる政治制度を示す語として機能する。",
+      derivatives: [
+        { word: "parliamentary",   desc: "議会の（形容詞）" },
+        { word: "parliamentarian", desc: "議員・議会規則の専門家（名詞）" }
+      ],
+      family: [
+        { word: "parlor",   desc: "客間・美容院（parler）" },
+        { word: "parley",   desc: "交渉・停戦会議（parler）" },
+        { word: "parole",   desc: "仮釈放・言葉（parler）" }
+      ],
+      compounds: [
+        { phrase: "parliamentary debate",    desc: "議会討論" },
+        { phrase: "parliamentary democracy", desc: "議会制民主主義" },
+        { phrase: "dissolve parliament",     desc: "議会を解散する" }
+      ]
+    },
+
+    "legislature": {
+      origin: "ラテン語 legis（法律の）+ latura（運ぶこと・提案）< lex（法律）+ latus（運ばれた）< legere（読む・選ぶ）+ -ure（名詞接尾辞）。「立法府・議会」が原義。legal（法律の）・legislation（立法）・legitimate（合法の）と同根の lex を共有し、「法律を作る機関」というイメージを持つ。\n\n英語には17世紀に採用され、「法律を制定する権限を持つ国家機関」の意味で定着。政治学・憲法学で state legislature（州議会）・the federal legislature（連邦議会）・legislature vs. executive（立法府 vs. 行政府）のように三権分立の核心語として機能する。\n\n現代英語では bicameral legislature（二院制議会）・unicameral legislature（一院制議会）のように議会制度の比較・分析で使われ、executive（行政府）・judiciary（司法府）との三権分立の語彙体系の中心語として政治学・法律学で不可欠な語となっている。",
+      derivatives: [
+        { word: "legislative",   desc: "立法の（形容詞）" },
+        { word: "legislation",   desc: "立法・法律（名詞）" },
+        { word: "legislator",    desc: "立法者・議員（名詞）" }
+      ],
+      family: [
+        { word: "legal",      desc: "法律の（lex）" },
+        { word: "legitimate", desc: "合法の（lex）" },
+        { word: "illegal",    desc: "違法の（in+lex）" }
+      ],
+      compounds: [
+        { phrase: "state legislature",      desc: "州議会" },
+        { phrase: "bicameral legislature",  desc: "二院制議会" },
+        { phrase: "legislative process",    desc: "立法過程" }
+      ]
+    },
+
+    "executive": {
+      origin: "ラテン語 exsequi（完全に遂行する）< ex-（外に・完全に）+ sequi（続く・従う）+ -ive（形容詞接尾辞）。「行政の・執行する・幹部」が原義。execute（実行する）・execution（実行・処刑）・sequence（順序）と同根の sequi を共有し、「決定を外に向けて遂行する」というイメージを持つ。\n\n英語には17世紀に採用され、「法律・命令を実行する権限を持つ部門・人物」の意味で定着。政治・ビジネスで executive branch（行政部）・chief executive officer（最高経営責任者）・executive decision（幹部決定）のように「意思決定と実行の権限を持つ上位者」を示す語として機能する。\n\n現代英語では top executive（最高幹部）・executive order（大統領令）・executive summary（エグゼクティブサマリー）のようにビジネス・政治で核心語として機能し、略称 C-suite executives（CEO・CFO・COO など）という表現も定着している。",
+      derivatives: [
+        { word: "execute",    desc: "実行する・処刑する（動詞）" },
+        { word: "execution",  desc: "実行・処刑（名詞）" },
+        { word: "executor",   desc: "実行者・遺言執行者（名詞）" }
+      ],
+      family: [
+        { word: "sequence",   desc: "順序（sequi）" },
+        { word: "subsequent", desc: "その後の（sub+sequi）" },
+        { word: "consequence", desc: "結果（con+sequi）" }
+      ],
+      compounds: [
+        { phrase: "executive branch",    desc: "行政部" },
+        { phrase: "executive order",     desc: "大統領令" },
+        { phrase: "executive summary",   desc: "エグゼクティブサマリー" }
+      ]
+    },
+
+    "judiciary": {
+      origin: "ラテン語 judiciarius（裁判に関わる）< judicium（判決・裁判）< judex（裁判官）< jus（法・正義）+ dicere（言う・述べる）+ -ary（名詞接尾辞）。「司法府・裁判所組織」が原義。judge（判事）・justice（正義）・judicial（司法の）と同根の jus を共有する。\n\n英語には17世紀に採用され、「法律を解釈し適用する国家機関の総体」の意味で定着。憲法学・政治学で independent judiciary（独立した司法）・federal judiciary（連邦司法）・judiciary vs. legislature（司法 vs. 立法）のように三権分立の核心語として機能する。\n\n現代英語では an independent judiciary（独立した司法）が民主主義の要件として政治論で頻用され、judicial review（違憲審査）・judicial appointment（裁判官任命）のように司法制度の分析で不可欠な語として機能する。",
+      derivatives: [
+        { word: "judicial",      desc: "司法の・裁判の（形容詞）" },
+        { word: "judicially",    desc: "司法的に（副詞）" }
+      ],
+      family: [
+        { word: "judge",    desc: "判事・判断する（jus+dicere）" },
+        { word: "justice",  desc: "正義・司法（jus）" },
+        { word: "jury",     desc: "陪審員（jus）" }
+      ],
+      compounds: [
+        { phrase: "independent judiciary",  desc: "独立した司法" },
+        { phrase: "federal judiciary",      desc: "連邦司法" },
+        { phrase: "judicial review",        desc: "違憲審査" }
+      ]
+    },
+
+    "federal": {
+      origin: "ラテン語 foedus（条約・同盟）+ -al（形容詞接尾辞）。「連邦の・連邦制の」が原義。confederation（連邦・同盟）・confederate（同盟した）と同根の foedus を共有し、「条約によって結ばれた複数の政治単位が一つの上位機関を共有する」というイメージを持つ。\n\n英語には17世紀に採用され、「中央政府と地方政府が権限を分かち合う政治制度に関わる」の意味で定着。政治学・法律・行政で federal government（連邦政府）・federal law（連邦法）・federal system（連邦制）のようにアメリカ・ドイツ・オーストラリアなど連邦制国家の政治語彙として機能する。\n\n現代英語では federal vs. state（連邦 vs. 州）の権限争いがアメリカ政治の恒常的テーマとして浮上し、federal reserve（連邦準備制度）・federal budget（連邦予算）のような重要経済・政治語彙の中核語として機能する。",
+      derivatives: [
+        { word: "federalism",   desc: "連邦主義（名詞）" },
+        { word: "federation",   desc: "連邦・連合（名詞）" },
+        { word: "federalize",   desc: "連邦化する（動詞）" }
+      ],
+      family: [
+        { word: "confederation", desc: "連邦・同盟（foedus）" },
+        { word: "confederate",   desc: "同盟した（foedus）" },
+        { word: "treaty",        desc: "条約（foedus関連）" }
+      ],
+      compounds: [
+        { phrase: "federal government",  desc: "連邦政府" },
+        { phrase: "federal law",         desc: "連邦法" },
+        { phrase: "federal reserve",     desc: "連邦準備制度" }
+      ]
+    },
+
+    "compromise": {
+      origin: "ラテン語 compromittere（共に仲裁に委ねる）< com-（共に）+ promittere（約束する・前に出す）< pro-（前に）+ mittere（送る）。「妥協・和解・折衷案」が原義。promise（約束する）・commit（約束する）・submit（服従する）と同根の mittere を共有し、「双方が共に前に出て約束する」というイメージを持つ。\n\n英語には15世紀に採用され、「双方が譲歩し合って中間的解決を見出すこと」の意味で定着。政治・交渉・日常語で reach a compromise（妥協点に達する）・compromise on…（〜について妥協する）のように「対立解消の過程と結果」を示す重要語として機能する。\n\n現代英語では compromise one's values（価値観を妥協する）のように「大切なものを犠牲にする」という否定的意味でも使われ、「建設的な協力の産物」（positive compromise）と「不本意な屈服」（bad compromise）という二つの評価軸で使用される多義語となっている。",
+      derivatives: [
+        { word: "compromising",  desc: "妥協的な・体面を傷つける（形容詞）" },
+        { word: "uncompromising", desc: "妥協しない・断固とした（形容詞）" }
+      ],
+      family: [
+        { word: "promise",  desc: "約束する（pro+mittere）" },
+        { word: "commit",   desc: "約束する・委ねる（com+mittere）" },
+        { word: "submit",   desc: "提出する・服従する（sub+mittere）" }
+      ],
+      compounds: [
+        { phrase: "reach a compromise",   desc: "妥協点に達する" },
+        { phrase: "compromise on values", desc: "価値観を妥協する" },
+        { phrase: "uncompromising stance", desc: "断固とした立場" }
+      ]
+    },
+
+    "negotiation": {
+      origin: "ラテン語 negotiatio（商取引・交渉）< negotium（商売・仕事）< nec-（否定）+ otium（余暇・怠惰）+ -ion（名詞接尾辞）。「交渉・折衝」が原義。「余暇でないもの＝仕事・取引」というイメージから「合意を求めるやり取り」へと意味が発展した。negotiate（交渉する）・negotiator（交渉者）と同根。\n\n英語には16世紀に採用され、「双方が条件を話し合い合意に達するプロセス」の意味で定着。外交・ビジネス・日常語で enter into negotiations（交渉に入る）・failed negotiations（交渉の決裂）・salary negotiation（給与交渉）のように広く使われる重要語として機能する。\n\n現代英語では negotiation skills（交渉スキル）がビジネス・リーダーシップ教育の核心コンセプトとして確立しており、hostage negotiation（人質交渉）・peace negotiations（平和交渉）のように様々な対立解消の文脈で機能する語となっている。",
+      derivatives: [
+        { word: "negotiate",   desc: "交渉する（動詞）" },
+        { word: "negotiator",  desc: "交渉者（名詞）" },
+        { word: "negotiable",  desc: "交渉可能な（形容詞）" }
+      ],
+      family: [
+        { word: "otium",    desc: "余暇（ラテン語）" },
+        { word: "business", desc: "忙しさ（busy+ness）" }
+      ],
+      compounds: [
+        { phrase: "salary negotiation",  desc: "給与交渉" },
+        { phrase: "peace negotiations",  desc: "平和交渉" },
+        { phrase: "negotiation skills",  desc: "交渉スキル" }
+      ]
+    },
+
+    "diplomacy": {
+      origin: "ギリシャ語 diploma（折り畳んだ文書・公文書）< diploun（二重に折る）< diploos（二重の）+ -acy（状態・技術を示す接尾辞）。「外交・外交技術」が原義。diploma（卒業証書）・diplomatic（外交の）と同根の diploma を共有し、「折り畳まれた公文書（条約書・資格証）を扱う技術」というイメージを持つ。\n\n英語には18世紀に採用され、「国家間の関係を交渉・管理する技術・職業」の意味で定着。国際関係・政治・日常語で diplomatic relations（外交関係）・shuttle diplomacy（シャトル外交）・quiet diplomacy（静かな外交）のように国際政治の核心語として機能する。\n\n現代英語では soft power diplomacy（ソフトパワー外交）・cultural diplomacy（文化外交）のような新しい外交概念とともに使われるほか、「tactful behavior」（機転の利いた行動）という日常的意味でも「she handled it with great diplomacy」のように使われる。",
+      derivatives: [
+        { word: "diplomat",     desc: "外交官（名詞）" },
+        { word: "diplomatic",   desc: "外交的な・如才ない（形容詞）" },
+        { word: "diplomatically", desc: "外交的に（副詞）" }
+      ],
+      family: [
+        { word: "diploma",   desc: "卒業証書・免状（diploos）" },
+        { word: "duplicate", desc: "複製（duo+plicare）" }
+      ],
+      compounds: [
+        { phrase: "shuttle diplomacy",    desc: "シャトル外交" },
+        { phrase: "cultural diplomacy",   desc: "文化外交" },
+        { phrase: "diplomatic relations", desc: "外交関係" }
+      ]
+    },
+
+    "alliance": {
+      origin: "古フランス語 aliance（同盟・結婚による結合）< allier（結びつける）< ラテン語 alligare（縛りつける）< ad-（〜に）+ ligare（縛る）。「同盟・連合・同盟国」が原義。ally（同盟国）・obligation（義務）・religion（宗教）と同根の ligare を共有し、「条約・約束によって縛りつけた結合」というイメージを持つ。\n\n英語には14世紀に採用され、「相互利益のために複数の国家・組織が結ぶ協定・その参加者の総体」の意味で定着。国際関係・政治・ビジネスで military alliance（軍事同盟）・strategic alliance（戦略的提携）・alliance building（同盟形成）のように使われる重要語として機能する。\n\n現代英語では NATO のような集団安全保障同盟から business alliance（事業提携）・community alliance（地域連合）まで幅広く使われ、「共通利益のための協力関係」を示す語として政治・経済・社会の各分野で機能する。",
+      derivatives: [
+        { word: "ally",     desc: "同盟国・味方（名詞・動詞）" },
+        { word: "allied",   desc: "同盟した・関連した（形容詞）" }
+      ],
+      family: [
+        { word: "obligation",  desc: "義務（ob+ligare）" },
+        { word: "religion",    desc: "宗教（re+ligare）" },
+        { word: "ligament",    desc: "靭帯（ligare）" }
+      ],
+      compounds: [
+        { phrase: "military alliance",    desc: "軍事同盟" },
+        { phrase: "strategic alliance",   desc: "戦略的提携" },
+        { phrase: "alliance building",    desc: "同盟形成" }
+      ]
+    },
+
+    "treaty": {
+      origin: "ラテン語 tractatus（取り扱い・論文）< trahere（引く・引き出す）+ -y（名詞接尾辞）。「条約・協定」が原義。treat（取り扱う）・contract（契約）・attract（引き付ける）・extract（抽出する）と同根の trahere を共有し、「双方が引き出し合った合意」というイメージを持つ。\n\n英語には14世紀に採用され、「二カ国以上の間で正式に締結した国際協定」の意味で定着。国際法・外交・歴史で treaty negotiations（条約交渉）・ratify a treaty（条約を批准する）・peace treaty（平和条約）のように国際関係の最も正式な拘束的文書を指す語として機能する。\n\n現代英語では treaty obligations（条約義務）・treaty violation（条約違反）のように国際法の核心語として使われ、arms treaty（軍備条約）・climate treaty（気候変動条約）のように現代国際政治の重要課題を示す語としても頻用される。",
+      derivatives: [
+        { word: "treat",    desc: "取り扱う・もてなす（動詞）" },
+        { word: "treatise", desc: "論文・学術的考察（名詞）" }
+      ],
+      family: [
+        { word: "contract",  desc: "契約・収縮する（con+trahere）" },
+        { word: "attract",   desc: "引き付ける（ad+trahere）" },
+        { word: "extract",   desc: "抽出する（ex+trahere）" }
+      ],
+      compounds: [
+        { phrase: "peace treaty",         desc: "平和条約" },
+        { phrase: "ratify a treaty",      desc: "条約を批准する" },
+        { phrase: "treaty obligations",   desc: "条約義務" }
+      ]
+    },
+
+    "colony": {
+      origin: "ラテン語 colonia（農地・植民地）< colonus（農夫・入植者）< colere（耕す・定住する）< cultura（文化）と同根。「植民地・集落」が原義。culture（文化）・cultivate（耕す）・agriculture（農業）と同根の colere を共有し、「土地を耕すために移り住んだ人々の集落」というイメージを持つ。\n\n英語には16世紀に採用され、「ある国家が他の地域に設けた支配下の領土・集落」の意味で定着。歴史・政治・生物学で British colonies（英国植民地）・ant colony（アリのコロニー）・penal colony（流刑植民地）のように政治・生物・日常語の三分野で幅広く使われる。\n\n現代英語では post-colonial（ポスト植民地の）・colonial legacy（植民地の遺産）という歴史・文化批評の語彙として重要性を持ち、同時に microbial colony（微生物の集落）・space colony（宇宙コロニー）という科学・SF 語彙としても機能する多義語となっている。",
+      derivatives: [
+        { word: "colonial",   desc: "植民地の（形容詞）" },
+        { word: "colonize",   desc: "植民地化する（動詞）" },
+        { word: "colonialism", desc: "植民地主義（名詞）" }
+      ],
+      family: [
+        { word: "culture",     desc: "文化（colere）" },
+        { word: "cultivate",   desc: "耕す・養成する（colere）" },
+        { word: "agriculture", desc: "農業（ager+colere）" }
+      ],
+      compounds: [
+        { phrase: "ant colony",       desc: "アリのコロニー" },
+        { phrase: "colonial legacy",  desc: "植民地の遺産" },
+        { phrase: "penal colony",     desc: "流刑植民地" }
+      ]
+    },
+
+    "colonial": {
+      origin: "ラテン語 colonia（植民地）< colonus（入植者）< colere（耕す）+ -al（形容詞接尾辞）。「植民地の・植民地時代の」が原義。colony（植民地）・culture（文化）・cultivate（耕す）と同根の colere を共有する。\n\n英語には17世紀に採用され、「植民地・植民地時代に関わる」の意味で定着。歴史・文化研究・建築で colonial history（植民地時代の歴史）・colonial architecture（コロニアル建築）・post-colonial（ポスト植民地の）のように使われ、帝国主義の遺産を批判的に分析する語彙として現代でも重要性を持つ。\n\n現代英語では colonial powers（植民地大国）・colonial rule（植民地支配）のような歴史分析の語から、colonial revival（コロニアル様式の復興）という建築・デザイン語まで幅広く使われ、「過去の支配・搾取の遺産をどう評価するか」という現代的議論の中心語として機能する。",
+      derivatives: [
+        { word: "colonialism",    desc: "植民地主義（名詞）" },
+        { word: "colonialist",    desc: "植民地主義者（名詞）" },
+        { word: "post-colonial",  desc: "ポスト植民地の（形容詞）" }
+      ],
+      family: [
+        { word: "colony",    desc: "植民地（colere）" },
+        { word: "culture",   desc: "文化（colere）" },
+        { word: "cultivate", desc: "耕す（colere）" }
+      ],
+      compounds: [
+        { phrase: "colonial history",       desc: "植民地時代の歴史" },
+        { phrase: "colonial powers",        desc: "植民地大国" },
+        { phrase: "colonial architecture",  desc: "コロニアル建築" }
+      ]
+    },
+
+    "fallacy": {
+      origin: "ラテン語 fallacia（欺き・誤り）< fallere（欺く・誤らせる）+ -acy（状態を示す名詞接尾辞）。「誤謬・論理的欠陥・虚偽の主張」が原義。false（偽の）・fail（失敗する）・fault（欠陥）と同根の fallere を共有し、「見かけは正しいが実際は誤った推論」というイメージを持つ。\n\n英語には15世紀に採用され、「表面上は説得力があるが実は論理的に欠陥がある議論・信念」の意味で定着。論理学・修辞学・批判的思考で logical fallacy（論理的誤謬）・commit a fallacy（誤謬を犯す）・fallacy of composition（合成の誤謬）のように論理的思考力の核心語として機能する。\n\n現代英語では popular fallacy（世間に広まった誤解）・common fallacy（よくある誤謬）のように批判的思考教育・メディアリテラシーで特に重要語となっており、ad hominem fallacy（人身攻撃の誤謬）・straw man fallacy（藁人形論法）のような具体的誤謬の分類語として教育現場で頻用される。",
+      derivatives: [
+        { word: "fallacious",    desc: "誤謬に基づく・欺瞞的な（形容詞）" },
+        { word: "fallaciously",  desc: "誤謬的に（副詞）" }
+      ],
+      family: [
+        { word: "false",   desc: "偽の（fallere）" },
+        { word: "fail",    desc: "失敗する（fallere）" },
+        { word: "fault",   desc: "欠陥（fallere）" }
+      ],
+      compounds: [
+        { phrase: "logical fallacy",        desc: "論理的誤謬" },
+        { phrase: "ad hominem fallacy",     desc: "人身攻撃の誤謬" },
+        { phrase: "fallacy of composition", desc: "合成の誤謬" }
+      ]
+    },
+
+    "contradiction": {
+      origin: "ラテン語 contradictio（反論・矛盾）< contra-（反対に）+ dicere（言う）+ -ion（名詞接尾辞）。「矛盾・反論」が原義。contradict（反論する）・dictate（命令する）・predict（予言する）と同根の dicere を共有し、「反対のことを言う」というイメージを持つ。\n\n英語には14世紀に採用され、「二つの命題が同時に真であり得ない関係・矛盾」の意味で定着。論理学・哲学・日常語で law of contradiction（矛盾律）・logical contradiction（論理的矛盾）・contradiction in terms（言葉の矛盾、形容矛盾）のように議論・思考の核心語として機能する。\n\n現代英語では self-contradiction（自己矛盾）・apparent contradiction（見かけ上の矛盾）のような論理学用語から、a contradiction in terms（形容矛盾、「jumbo shrimp」のような）という修辞学用語まで幅広く使われる重要語となっている。",
+      derivatives: [
+        { word: "contradict",       desc: "反論する・矛盾する（動詞）" },
+        { word: "contradictory",    desc: "矛盾した（形容詞）" },
+        { word: "contradictorily",  desc: "矛盾して（副詞）" }
+      ],
+      family: [
+        { word: "dictate",   desc: "命令する（dicere）" },
+        { word: "predict",   desc: "予言する（prae+dicere）" },
+        { word: "verdict",   desc: "評決（vere+dicere）" }
+      ],
+      compounds: [
+        { phrase: "logical contradiction",     desc: "論理的矛盾" },
+        { phrase: "contradiction in terms",    desc: "形容矛盾" },
+        { phrase: "self-contradiction",        desc: "自己矛盾" }
+      ]
+    },
+
+    "deduction": {
+      origin: "ラテン語 deductio（引き下ろし・引き出し）< de-（下へ・から）+ ducere（導く・引く）+ -ion（名詞接尾辞）。「演繹・控除」が原義。deduce（演繹する）・conduct（指揮する）・educate（教育する）・produce（生産する）と同根の ducere を共有し、「前提から結論を引き出す」というイメージを持つ。\n\n英語には15世紀に採用され、「一般原理から特定の結論を論理的に導き出すこと（演繹）」と「総額から差し引くこと（控除）」という二つの意味で定着。論理学・数学・税務で deductive reasoning（演繹的推論）・tax deduction（税控除）のように使われる重要語として機能する。\n\n現代英語では induction（帰納）の対義語として科学的推論・哲学で頻出し、Sherlock Holmes の「推理（deduction）」として有名になった語でもある（厳密には Holmes が用いているのは abduction＝仮説形成推論だが、deduction として一般化している）。",
+      derivatives: [
+        { word: "deduce",     desc: "演繹する・推論する（動詞）" },
+        { word: "deductive",  desc: "演繹的な（形容詞）" }
+      ],
+      family: [
+        { word: "educate",  desc: "教育する（e+ducere）" },
+        { word: "produce",  desc: "生産する（pro+ducere）" },
+        { word: "conduct",  desc: "指揮する・行為（con+ducere）" }
+      ],
+      compounds: [
+        { phrase: "deductive reasoning", desc: "演繹的推論" },
+        { phrase: "tax deduction",       desc: "税控除" },
+        { phrase: "logical deduction",   desc: "論理的演繹" }
+      ]
+    },
+
+    "induction": {
+      origin: "ラテン語 inductio（引き込み・帰納）< in-（中に）+ ducere（導く）+ -ion（名詞接尾辞）。「帰納・導入・就任」が原義。deduce（演繹する）・educate（教育する）・produce（生産する）と同根の ducere を共有し、「個別事例を内側に集めて一般法則へ導く」というイメージを持つ。\n\n英語には15世紀に採用され、「個別の観察から一般法則を導き出す推論（帰納）」「新しい職・組織への導入（就任・入会）」「電磁誘導（物理学）」という三つの重要な意味で定着。科学・論理学・物理学で inductive reasoning（帰納的推論）・electromagnetic induction（電磁誘導）・induction ceremony（就任式）のように使われる。\n\n現代英語では deduction（演繹）・abduction（仮説形成推論）との対比で科学的方法論の中核語として使われ、induction training（新人研修）・induction program（導入プログラム）という教育・人事語彙としても広く機能する。",
+      derivatives: [
+        { word: "induce",     desc: "誘発する・説得する（動詞）" },
+        { word: "inductive",  desc: "帰納的な（形容詞）" },
+        { word: "inductee",   desc: "新入者・就任者（名詞）" }
+      ],
+      family: [
+        { word: "deduce",   desc: "演繹する（de+ducere）" },
+        { word: "educate",  desc: "教育する（e+ducere）" },
+        { word: "seduce",   desc: "誘惑する（se+ducere）" }
+      ],
+      compounds: [
+        { phrase: "inductive reasoning",       desc: "帰納的推論" },
+        { phrase: "electromagnetic induction", desc: "電磁誘導" },
+        { phrase: "induction training",        desc: "新人研修" }
+      ]
+    },
+
+    "deficient": {
+      origin: "ラテン語 deficiens（欠けている・不足している）< de-（離れて・欠けて）+ facere（作る・する）+ -ent（形容詞接尾辞）。「不足した・欠乏した」が原義。deficiency（欠乏）・defect（欠陥）・efficient（効率的な）・sufficient（十分な）と同根の facere を共有し、「作られるべきものが作られていない」というイメージを持つ。\n\n英語には16世紀に採用され、「必要な量・質が満たされていない」の意味で定着。医学・教育・経済で iron-deficient（鉄分不足の）・mentally deficient（知的障害のある、古い表現）・deficient in nutrients（栄養素が不足した）のように「欠乏状態」を示す形容詞として機能する。\n\n現代英語では vitamin D deficient（ビタミンD不足）・budget deficient（予算不足）のように医学・財政で使われ、deficiency（欠乏症）という名詞形が immune deficiency（免疫不全）のような医学専門語として特に重要な語族を形成している。",
+      derivatives: [
+        { word: "deficiency",  desc: "欠乏・不足（名詞）" },
+        { word: "deficit",     desc: "赤字・不足分（名詞）" }
+      ],
+      family: [
+        { word: "efficient",   desc: "効率的な（ef+facere）" },
+        { word: "sufficient",  desc: "十分な（sub+facere）" },
+        { word: "defect",      desc: "欠陥・離反（de+facere）" }
+      ],
+      compounds: [
+        { phrase: "iron-deficient",        desc: "鉄分不足の" },
+        { phrase: "nutrient-deficient",    desc: "栄養素が不足した" },
+        { phrase: "immune deficiency",     desc: "免疫不全" }
+      ]
+    },
+
+    "obligatory": {
+      origin: "ラテン語 obligatorius（拘束力のある）< obligare（縛る・義務づける）< ob-（〜に向けて）+ ligare（縛る）+ -ory（形容詞接尾辞）。「義務的な・必須の・強制的な」が原義。obligation（義務）・oblige（義務づける）・ligament（靭帯）・religion（宗教）と同根の ligare を共有する。\n\n英語には16世紀に採用され、「規則・法律・慣習によって行うことを強いられている」の意味で定着。法律・教育・日常語で obligatory subject（必修科目）・legally obligatory（法的に義務づけられた）のように「選択の余地なく従わなければならない」という強制性を示す形容詞として機能する。\n\n現代英語ではやや皮肉な使い方として the obligatory selfie（決まり切った自撮り）・the obligatory meeting（避けられない定例会議）のように「慣例・慣習として避けられないもの」を指す場合にも使われ、mandatory・compulsory との類義語として使い分けが求められる語となっている。",
+      derivatives: [
+        { word: "obligatorily",  desc: "義務的に（副詞）" },
+        { word: "non-obligatory", desc: "任意の（否定形）" }
+      ],
+      family: [
+        { word: "obligation",  desc: "義務（ob+ligare）" },
+        { word: "oblige",      desc: "義務づける（ob+ligare）" },
+        { word: "ligament",    desc: "靭帯（ligare）" }
+      ],
+      compounds: [
+        { phrase: "obligatory subject",      desc: "必修科目" },
+        { phrase: "legally obligatory",      desc: "法的に義務づけられた" },
+        { phrase: "obligatory attendance",   desc: "強制参加" }
+      ]
+    },
+
+    "regenerate": {
+      origin: "ラテン語 regenerare（再び生み出す）< re-（再び）+ generare（生む）< genus（種・生まれ）+ -ate（動詞接尾辞）。「再生する・復興させる」が原義。generate（生み出す）・generation（世代）・genetics（遺伝学）と同根の generare を共有し、「一度失われたものをもう一度生み出す」というイメージを持つ。\n\n英語には16世紀に採用され、「衰退・損傷したものを再び活力ある状態に戻す」の意味で定着。生物学・都市開発・精神的文脈で regenerate tissue（組織を再生する）・regenerate a community（コミュニティを復興する）・spiritually regenerate（精神的に生まれ変わる）のように幅広く使われる。\n\n現代英語では urban regeneration（都市再生）・tissue regeneration（組織再生）・economic regeneration（経済再生）のように生物医学・都市政策・経済で重要語として機能し、英国ではとりわけ inner city regeneration（都市中心部の再生）が政策語彙として定着している。",
+      derivatives: [
+        { word: "regeneration",  desc: "再生・復興（名詞）" },
+        { word: "regenerative",  desc: "再生的な（形容詞）" }
+      ],
+      family: [
+        { word: "generate",   desc: "生み出す（generare）" },
+        { word: "degenerate", desc: "退化する（de+generare）" },
+        { word: "generation", desc: "世代（generare）" }
+      ],
+      compounds: [
+        { phrase: "tissue regeneration",  desc: "組織再生" },
+        { phrase: "urban regeneration",   desc: "都市再生" },
+        { phrase: "economic regeneration", desc: "経済再生" }
+      ]
+    },
+
+    "degenerate": {
+      origin: "ラテン語 degenerare（家系・種から外れる）< de-（離れて・下へ）+ genus（種・家系）+ -ate（動詞接尾辞）。「退化する・堕落する・堕落した」が原義。generate（生み出す）・regenerate（再生する）・genetics（遺伝学）と同根の genus を共有し、「本来の高い性質から離れ劣化する」というイメージを持つ。\n\n英語には16世紀に採用され、「本来の良い性質を失い悪化・低下する」の意味で定着。生物学・道徳・医学で degenerate into chaos（混乱に堕する）・genetic degeneration（遺伝的退化）・morally degenerate（道徳的に堕落した）のように「下降・劣化」を示す語として機能する。\n\n現代英語では degenerate into violence（暴力に発展する）という「望ましくない状態に変化する」という動詞的用法と、形容詞・名詞として「道徳的に腐敗した（人）」という意味での使用が共存しており、文脈によって判断が求められる語となっている。",
+      derivatives: [
+        { word: "degeneration",   desc: "退化・堕落（名詞）" },
+        { word: "degenerative",   desc: "退行性の（形容詞）" }
+      ],
+      family: [
+        { word: "generate",    desc: "生み出す（generare）" },
+        { word: "regenerate",  desc: "再生する（re+generare）" },
+        { word: "genus",       desc: "属・種（genus）" }
+      ],
+      compounds: [
+        { phrase: "degenerate into chaos",  desc: "混乱に堕する" },
+        { phrase: "degenerative disease",   desc: "退行性疾患" },
+        { phrase: "moral degeneration",     desc: "道徳的退廃" }
+      ]
     }
 
   };

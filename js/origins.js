@@ -25462,6 +25462,559 @@
         { phrase: "a couple of",       desc: "2〜3の・少数の" },
         { phrase: "couple together",   desc: "連結する・組み合わせる" }
       ]
+    },
+
+    "correct": {
+      origin: "ラテン語 correctus（正された・改められた）< corrigere（正す）< com-（完全に）+ regere（導く・支配する）に由来する。regere は rex（王）や region（地域）と同根であり「まっすぐに導く」という意味を持つ。中世ラテン語を経て14世紀の英語に入り、当初は「誤りを直す」という動詞として使われた。\n\n形容詞としての「正確な・正しい」の用法は17世紀から広まり、道徳的・行動的な正しさをも含む概念へと拡張された。現代英語では「politically correct（政治的に正しい）」という複合語が20世紀後半に普及し、社会的な文脈でも頻繁に用いられる。\n\nregere に由来する語族は英語に広く浸透しており、direct（直接の）・erect（直立した）・rule（規則）・regulate（規制する）なども同根である。「正しい方向へ導く」という原義が現代語にも生きている。",
+      derivatives: [
+        { word: "correction",   desc: "修正・訂正（名詞）" },
+        { word: "correctly",    desc: "正確に・正しく（副詞）" },
+        { word: "incorrect",    desc: "不正確な・誤った（形容詞）" },
+        { word: "correctness",  desc: "正確さ・適切さ（名詞）" }
+      ],
+      family: [
+        { word: "direct",    desc: "直接の（直接導く）" },
+        { word: "erect",     desc: "直立させる（まっすぐ立てる）" },
+        { word: "regulate",  desc: "規制する（re-+regere）" },
+        { word: "rector",    desc: "学長・主任司祭（導く人）" }
+      ],
+      compounds: [
+        { phrase: "correct answer",   desc: "正解" },
+        { phrase: "politically correct", desc: "政治的に正しい" },
+        { phrase: "correct a mistake", desc: "誤りを直す" }
+      ]
+    },
+
+    "cover": {
+      origin: "ラテン語 cooperire（完全に覆う）< co-（完全に）+ operire（閉じる・覆う）に由来し、古フランス語 covrir を経て13世紀の英語に入った。operire はインド・ヨーロッパ語根 *ap-（離れる・閉じる）に関連し、「上に乗せて隠す」という原義を持つ。\n\n英語では物理的な「覆い」から始まり、保護・保険（insurance cover）・ジャーナリズムの取材（cover a story）・音楽のカバー版など、比喩的な意味が多様に発展した。軍事的な「援護射撃（cover fire）」や「身を隠す（take cover）」という用法も生まれ、現代英語では非常に多義的な語となっている。\n\n接頭辞 co-/com- の「完全に」という強調の意味と operire の「閉じる」が合わさり、「すっかり覆い尽くす」という原義が派生語群を通して維持されている。",
+      derivatives: [
+        { word: "coverage",   desc: "報道範囲・補償範囲（名詞）" },
+        { word: "covering",   desc: "覆い・被膜（名詞）" },
+        { word: "uncover",    desc: "暴く・明らかにする（動詞）" },
+        { word: "coverup",    desc: "隠蔽（名詞）" }
+      ],
+      family: [
+        { word: "discover",  desc: "発見する（覆いを取る）" },
+        { word: "recover",   desc: "回復する（再び覆う→取り戻す）" },
+        { word: "covert",    desc: "隠密の（覆われた）" },
+        { word: "overt",     desc: "公然の（覆われていない）" }
+      ],
+      compounds: [
+        { phrase: "cover story",    desc: "表紙を飾る記事・口実" },
+        { phrase: "undercover",     desc: "潜入捜査の・秘密の" },
+        { phrase: "cover letter",   desc: "添え状・カバーレター" }
+      ]
+    },
+
+    "crack": {
+      origin: "古英語 cracian（大きな音を立てる）に由来し、インド・ヨーロッパ語根 *ger-（摩擦音・軋み音を出す）と関連するとされる。この語はゲルマン語派に広く分布し、オランダ語 kraken・ドイツ語 krachen（轟く）と同族である。\n\n中英語期には「亀裂・ひびが入る」という物理的な意味が発達し、その後「解読する（crack a code）」「威力のある（crack team）」など比喩的用法が拡大した。現代英語では「crack down（取り締まる）」「crack up（爆笑する）」「crack the market（市場開拓する）」など多様なイディオムを形成している。\n\n俗語としての「crack（コカインの一種）」は1980年代のアメリカで生まれた用法であり、基本語義とは別の語史を持つ。音の擬音的起源が語の感覚的リアリティを支えている。",
+      derivatives: [
+        { word: "cracked",   desc: "ひびの入った・おかしい（形容詞）" },
+        { word: "cracker",   desc: "クラッカー・割り物（名詞）" },
+        { word: "crackdown", desc: "取り締まり・弾圧（名詞）" },
+        { word: "cracking",  desc: "素晴らしい・ひびが入ること（形容詞/名詞）" }
+      ],
+      family: [
+        { word: "crash",   desc: "激突する（より激しい音）" },
+        { word: "creak",   desc: "軋む（慢性的な音）" },
+        { word: "crackle", desc: "パチパチ音がする（反復小音）" }
+      ],
+      compounds: [
+        { phrase: "crack down on",  desc: "〜を取り締まる" },
+        { phrase: "crack open",     desc: "こじ開ける" },
+        { phrase: "crack of dawn",  desc: "夜明けのひととき" }
+      ]
+    },
+
+    "crime": {
+      origin: "ラテン語 crimen（罪・告発）< cernere（判断する・区別する）のゼロ階梯形 cri- に由来する。cernere はインド・ヨーロッパ語根 *krei-（ふるいにかける・選別する）に遡り、「判別されたこと＝罪状」という概念が元になっている。古フランス語 crime を経て13世紀の英語に入った。\n\n中世英語では「重大な罪・刑事犯罪」という法律的文脈で用いられ、宗教的な sin（罪）とは区別されてきた。近代以降は criminology（犯罪学）の発展とともに学術語彙としても定着し、「organized crime（組織犯罪）」「crime rate（犯罪率）」など現代的な複合語が生まれた。\n\ncrimen の語根 cernere は concern（関わる）・discern（識別する）・certain（確かな）・secret（秘密）とも語源的に関連し、「識別・判断」という意味の広がりが見て取れる。",
+      derivatives: [
+        { word: "criminal",    desc: "犯罪者・犯罪の（名詞/形容詞）" },
+        { word: "criminology", desc: "犯罪学（名詞）" },
+        { word: "incriminate", desc: "罪に問う・連座させる（動詞）" },
+        { word: "decriminalize", desc: "非犯罪化する（動詞）" }
+      ],
+      family: [
+        { word: "discern",   desc: "識別する（cernere 同根）" },
+        { word: "concern",   desc: "関係する（共に選別する）" },
+        { word: "certain",   desc: "確かな（決定された）" },
+        { word: "secret",    desc: "秘密（分け隔てられたもの）" }
+      ],
+      compounds: [
+        { phrase: "crime rate",       desc: "犯罪率" },
+        { phrase: "organized crime",  desc: "組織犯罪" },
+        { phrase: "crime scene",      desc: "犯罪現場" }
+      ]
+    },
+
+    "crop": {
+      origin: "古英語 cropp（植物の頭部・穂・えさ袋）< ゲルマン語根 *kruppaz に由来し、オランダ語 krop・ドイツ語 Kropf（そのう・頭部の塊）と同族である。インド・ヨーロッパ語根 *ger-（曲がる・かがむ）との関連も指摘される。\n\n当初は「植物の先端・鳥の嗉囊（そのう）」を意味し、そこから「収穫物・農作物」という現代的な意味が中英語期に発達した。動詞としての「刈り取る・短く切る」は14世紀以降で、現代では写真のトリミング（crop a photo）という用法も一般的となっている。\n\n農業の文脈では「crop rotation（輪作）」「cash crop（換金作物）」など重要な概念を表す複合語が発達した。デジタル時代には画像処理の専門用語としても定着している。",
+      derivatives: [
+        { word: "cropped",    desc: "刈り込まれた・短い（形容詞）" },
+        { word: "cropper",    desc: "農作者・失敗（名詞）" },
+        { word: "cropping",   desc: "刈り取り・トリミング（名詞）" }
+      ],
+      family: [
+        { word: "harvest",  desc: "収穫（農産物の取り入れ）" },
+        { word: "reap",     desc: "刈り取る（農業動詞）" },
+        { word: "crop up",  desc: "突然現れる（比喩的用法）" }
+      ],
+      compounds: [
+        { phrase: "crop rotation", desc: "輪作" },
+        { phrase: "cash crop",     desc: "換金作物" },
+        { phrase: "crop up",       desc: "突然起こる・現れる" }
+      ]
+    },
+
+    "cross": {
+      origin: "古ノルド語 kross（十字架）< ラテン語 crux（十字架）に由来し、9世紀頃アイルランド語を経由してスカンジナビア語に入り、その後古英語に取り込まれた。ラテン語 crux はインド・ヨーロッパ語根 *(s)ker-（曲がる）との関連が議論されている。\n\nキリスト教の十字架から「交差する・横断する」という空間的意味が発展し、さらに「怒った（cross with someone）」という感情的意味も生まれた。現代英語では cross-examine（反対尋問する）・cross-reference（相互参照）・crossroads（交差点）など多様な複合語が使われる。\n\n動詞としての「越える・横断する」は物理的な境界突破（cross a border）から比喩的な逸脱（cross the line）まで広がり、「cross out（取り消す）」「cross one's mind（頭をよぎる）」などのイディオムも豊富である。",
+      derivatives: [
+        { word: "crossing",    desc: "交差点・横断（名詞）" },
+        { word: "crossroads",  desc: "交差路・岐路（名詞）" },
+        { word: "crossover",   desc: "交差・移行（名詞）" },
+        { word: "across",      desc: "横切って・向こう側に（前置詞）" }
+      ],
+      family: [
+        { word: "crucial",  desc: "決定的な（crux 十字架）" },
+        { word: "crucify",  desc: "十字架にかける（動詞）" },
+        { word: "cruise",   desc: "巡航する（十字を描くように）" }
+      ],
+      compounds: [
+        { phrase: "cross the line",   desc: "一線を越える" },
+        { phrase: "double-cross",     desc: "裏切る" },
+        { phrase: "cross one's mind", desc: "頭をよぎる" }
+      ]
+    },
+
+    "crowd": {
+      origin: "古英語 crudan（押す・群れて進む）< インド・ヨーロッパ語根 *greut-（押しつぶす）に由来するとされる。中英語期に名詞 crowd（群衆）が発達し、「押し合って集まった人々」という意味が定着した。\n\n13〜14世紀には「人の群れ・雑踏」を表す主要語となり、riot crowd（暴徒）・cheering crowd（歓声を上げる群衆）などの表現が生まれた。20世紀以降は「crowd control（群衆制御）」「crowd funding（クラウドファンディング）」「crowd sourcing（クラウドソーシング）」など新しい複合語も生まれ、デジタル時代の集合的行動を表す語として再活性化している。\n\n心理学では「crowd psychology（群衆心理）」という概念が19世紀末に確立され、個人が集団の中でどう行動変容するかを研究する分野を指す重要語となっている。",
+      derivatives: [
+        { word: "crowded",    desc: "混雑した・人が多い（形容詞）" },
+        { word: "crowding",   desc: "密集・人込み（名詞）" },
+        { word: "overcrowded", desc: "過密な（形容詞）" }
+      ],
+      family: [
+        { word: "flock",   desc: "群れ（鳥・羊などの集合）" },
+        { word: "mob",     desc: "暴徒・群衆（ラテン語 mobile）" },
+        { word: "throng",  desc: "大群衆・殺到する（古英語）" }
+      ],
+      compounds: [
+        { phrase: "crowd control",    desc: "群衆制御" },
+        { phrase: "crowd funding",    desc: "クラウドファンディング" },
+        { phrase: "stand out from the crowd", desc: "群衆の中で際立つ" }
+      ]
+    },
+
+    "cruel": {
+      origin: "ラテン語 crudelis（粗野な・残酷な）< crudus（生の・血まみれの・未熟な）< インド・ヨーロッパ語根 *kreue-（生肉・血）に由来する。古フランス語 cruel を経て13世紀の英語に入った。\n\ncrudelis の原義は「調理されていない生の状態のような」荒々しさであり、道徳的な残酷さを意味するようになったのは比喩的転義である。英語の crude（粗野な・未精製の）も同根であり、両語が語源的連続性を持つ。\n\n中世の文学・道徳的文脈で頻繁に用いられ、「cruel punishment（残酷な刑罰）」「cruel fate（過酷な運命）」などの用法が確立した。現代では cruel to be kind（きびしくすることが本当の親切）というパラドックス的表現も慣用句として定着している。",
+      derivatives: [
+        { word: "cruelty",   desc: "残酷さ・虐待（名詞）" },
+        { word: "cruelly",   desc: "残酷に（副詞）" },
+        { word: "cruelness", desc: "残忍性（名詞）" }
+      ],
+      family: [
+        { word: "crude",     desc: "粗野な・未加工の（同根 crudus）" },
+        { word: "raw",       desc: "生の・荒削りの（同義語根）" },
+        { word: "harsh",     desc: "厳しい・過酷な（類義語）" }
+      ],
+      compounds: [
+        { phrase: "cruel irony",     desc: "残酷な皮肉" },
+        { phrase: "cruel and unusual punishment", desc: "残酷で異常な刑罰" }
+      ]
+    },
+
+    "crush": {
+      origin: "古フランス語 croissir（砕く・きしむ）< ゲルマン語源（古高ドイツ語 krossen に近い語）に由来するとされる。インド・ヨーロッパ語根 *greut-（砕く・押しつぶす）との関連も指摘される。14世紀の中英語に入り「押しつぶす・砕く」という物理的な意味で使われた。\n\n15世紀以降は感情的な意味「心が押しつぶされるような気持ち」へと拡張し、19世紀には「crush（片思い・恋心）」という俗語的用法が生まれた。「have a crush on someone（誰かに夢中になる）」という表現はアメリカ英語で広まり、現代の若者言葉でも活発に使われる。\n\n「crushing defeat（壊滅的な敗北）」「under the crush of work（仕事に押し潰されて）」のように「圧倒的な力による圧迫」という比喩が豊富に見られる。",
+      derivatives: [
+        { word: "crushing",  desc: "壊滅的な・圧倒的な（形容詞）" },
+        { word: "crusher",   desc: "粉砕機・強打者（名詞）" },
+        { word: "crushed",   desc: "粉砕された・打ちのめされた（形容詞）" }
+      ],
+      family: [
+        { word: "crash",   desc: "激突する（より衝突的）" },
+        { word: "smash",   desc: "叩き割る（激しい衝撃）" },
+        { word: "grind",   desc: "すり潰す（継続的な圧力）" }
+      ],
+      compounds: [
+        { phrase: "have a crush on",  desc: "〜に片思いをする" },
+        { phrase: "crush on",         desc: "〜に惚れる" },
+        { phrase: "crushing blow",    desc: "壊滅的な打撃" }
+      ]
+    },
+
+    "curve": {
+      origin: "ラテン語 curvus（曲がった）< インド・ヨーロッパ語根 *(s)ker-（曲がる・回る）に由来する。同根に circus（円形競技場）・circle（円）・crown（王冠）・curl（巻き毛）などがある。古フランス語 courbe を経て15世紀の英語に入った。\n\n最初は数学・幾何学的な「曲線」として使われ、後に野球の変化球（curveball）・統計の正規分布曲線（bell curve）・道路の「カーブ」など多様な専門分野に広まった。20世紀後半には learning curve（学習曲線）という経営・教育学用語も定着している。\n\n「throw someone a curveball（予期しない問題を投げかける）」というアメリカ英語のイディオムは野球から生まれ、現代では口語的に「驚かせる・意表をつく」の意味で広く使われる。",
+      derivatives: [
+        { word: "curved",    desc: "曲がった・湾曲した（形容詞）" },
+        { word: "curvature", desc: "曲率・湾曲度（名詞）" },
+        { word: "curvy",     desc: "曲線的な・ウェーブのある（形容詞）" }
+      ],
+      family: [
+        { word: "circle",   desc: "円（curvus 同根）" },
+        { word: "circular", desc: "円形の・循環する" },
+        { word: "curl",     desc: "巻き毛・丸まる（曲がる語根）" },
+        { word: "crown",    desc: "王冠（円形から）" }
+      ],
+      compounds: [
+        { phrase: "learning curve",  desc: "学習曲線" },
+        { phrase: "curveball",       desc: "変化球・意外な問題" },
+        { phrase: "bell curve",      desc: "正規分布曲線" }
+      ]
+    },
+
+    "custom": {
+      origin: "ラテン語 consuetudo（習慣・慣行）< consuescere（慣れる）< com-（共に）+ suescere（慣れる）< suus（自分の）に由来する。古フランス語 costume/coustume を経て13世紀の英語に入り、当初は「習慣・しきたり」を意味した。\n\ncostume（衣装）も同語源であり、「慣習的な服装」から「舞台衣装・仮装」へと意味が分化した。英語では custom は「慣習・習慣」と「関税（customs）」の両義を持つようになり、「custom-made（特注の）」「customer（顧客）」なども派生している。\n\n「customer（顧客）」はもともと「習慣的に取引する人」という意味であり、商習慣との結びつきから生まれた。現代では「customize（カスタマイズする）」という動詞形がデジタル製品・サービスの文脈で非常に頻繁に使われている。",
+      derivatives: [
+        { word: "customer",   desc: "顧客・得意客（名詞）" },
+        { word: "customize",  desc: "カスタマイズする・特注にする（動詞）" },
+        { word: "customary",  desc: "慣例的な・いつもの（形容詞）" },
+        { word: "accustom",   desc: "慣らす・慣れさせる（動詞）" }
+      ],
+      family: [
+        { word: "costume",   desc: "衣装（同語源・意味分化）" },
+        { word: "habit",     desc: "習慣（ラテン語 habitus）" },
+        { word: "tradition", desc: "伝統（世代を超えた慣習）" }
+      ],
+      compounds: [
+        { phrase: "custom-made",   desc: "特注の・オーダーメイドの" },
+        { phrase: "customs duty",  desc: "関税" },
+        { phrase: "go through customs", desc: "税関を通る" }
+      ]
+    },
+
+    "cut": {
+      origin: "中英語 cutten（切る）< 古ノルド語 kuta（小刀で切る）もしくは低地ゲルマン語 *kut- に由来するとされる。古英語には対応する語がなく、スカンジナビア語からの借用と考えられている。インド・ヨーロッパ語根 *skeu-（切る・削る）との関連も議論されている。\n\n英語では最も基本的な「切断」動詞のひとつとなり、物理的な切断から「cut costs（費用を削減する）」「cut class（授業をさぼる）」「cut ties（関係を断つ）」まで比喩的用法が非常に豊富である。映画編集の「カット」・髪型の「ヘアカット」・トランプの「カット」など多分野で専門的に使われる。\n\n「cut to the chase（核心に触れる）」という表現は映画用語に由来し、「shortcut（近道）」「cut corners（手を抜く）」などイディオムも多い。",
+      derivatives: [
+        { word: "cutting",  desc: "切れ味の鋭い・切り取り（形容詞/名詞）" },
+        { word: "cutback",  desc: "削減・縮小（名詞）" },
+        { word: "cutout",   desc: "切り抜き・断絶（名詞）" },
+        { word: "shortcut", desc: "近道・ショートカット（名詞）" }
+      ],
+      family: [
+        { word: "carve",   desc: "彫刻する（より精細な切断）" },
+        { word: "slash",   desc: "大きく切る（激しい切断）" },
+        { word: "trim",    desc: "整える（端を切り揃える）" }
+      ],
+      compounds: [
+        { phrase: "cut costs",       desc: "コストを削減する" },
+        { phrase: "cut to the chase", desc: "核心に迫る" },
+        { phrase: "cut off",         desc: "切り離す・遮断する" }
+      ]
+    },
+
+    "cycle": {
+      origin: "ギリシャ語 kyklos（円・輪・車輪）< インド・ヨーロッパ語根 *kwel-（回る・輪になる）に由来する。ラテン語 cyclus を経て14世紀の英語に入り、最初は「円・一連の出来事」という意味で使われた。wheel（車輪）・poll（頭）もこの語根と関連するとされる。\n\n天文学では惑星の公転周期、生物学では生物の生活環（life cycle）、経済学では景気循環（business cycle）、化学では循環反応など「繰り返しの過程」を表す核心的な語となっている。自転車（bicycle）はbi-（二つ）+cycle（車輪）であり、tricycle・unicycle なども語族をなす。\n\n20世紀後半には recycling（リサイクル）という概念が環境分野で重要視されるようになり、cycle の語が持つ「循環・再利用」という意味が現代的価値観と合致して頻用されている。",
+      derivatives: [
+        { word: "cyclist",   desc: "自転車乗り（名詞）" },
+        { word: "cyclical",  desc: "周期的な・循環する（形容詞）" },
+        { word: "recycle",   desc: "再利用する（動詞）" },
+        { word: "bicycle",   desc: "自転車（bi-+cycle）" }
+      ],
+      family: [
+        { word: "wheel",     desc: "車輪（*kwel- 同根）" },
+        { word: "encyclopedia", desc: "百科事典（en-+kyklo+paideia）" },
+        { word: "cyclone",   desc: "サイクロン（円形の嵐）" }
+      ],
+      compounds: [
+        { phrase: "life cycle",     desc: "生活環・ライフサイクル" },
+        { phrase: "business cycle", desc: "景気循環" },
+        { phrase: "recycle bin",    desc: "ごみ箱・リサイクルボックス" }
+      ]
+    },
+
+    "daily": {
+      origin: "古英語 dæġlīċ（毎日の）< dæġ（日）+ -lic（〜の性質を持つ）から形成された。dæġ はゲルマン語根 *dagaz（日）< インド・ヨーロッパ語根 *agh-（一日）に由来し、ドイツ語 täglich・オランダ語 dagelijks と同族である。\n\n英語の day は最も基本的な時間単位を表す語であり、daily はその形容詞・副詞・名詞形として機能する。新聞（daily newspaper→daily）・生活の習慣（daily routine）・礼拝（daily prayer）など多様な文脈で使われてきた。\n\n「daily grind（毎日の退屈な日常）」「daily bread（日々の糧、主の祈りから）」「daily life（日常生活）」など、生活実感を表す慣用句が豊富である。",
+      derivatives: [
+        { word: "day",      desc: "日（語源の基本語）" },
+        { word: "midday",   desc: "正午（mid+day）" },
+        { word: "daybreak", desc: "夜明け（名詞）" },
+        { word: "daytime",  desc: "昼間・日中（名詞）" }
+      ],
+      family: [
+        { word: "weekly",   desc: "毎週の（week の形容詞形）" },
+        { word: "monthly",  desc: "毎月の（month の形容詞形）" },
+        { word: "annual",   desc: "毎年の（ラテン語 annus）" }
+      ],
+      compounds: [
+        { phrase: "daily routine",  desc: "日課・毎日の習慣" },
+        { phrase: "daily bread",    desc: "日々の糧" },
+        { phrase: "daily grind",    desc: "毎日の退屈な仕事" }
+      ]
+    },
+
+    "dare": {
+      origin: "古英語 durran（あえてする・勇気を出す）< ゲルマン語根 *dars-（大胆さ）< インド・ヨーロッパ語根 *dhers-（大胆な）に由来する。ギリシャ語 tharsos（勇気）・ペルシャ語 dārestan（大胆な）と同族であり、印欧語族に広く分布する語根である。\n\n古英語では「あえて〜する・勇気を出して行動する」という準助動詞的な用法があり、現代英語でも dare to do（あえてする）と do dare（挑戦する）の二つの構文が並存している。「I dare say（おそらく・きっと）」は慣用的で半固定化した表現である。\n\n名詞としての「dare（挑戦・無謀な行為）」は「on a dare（挑発されて）」という表現で使われ、若者言葉の「dare（挑戦・冒険）」としても現代英語に定着している。",
+      derivatives: [
+        { word: "daring",    desc: "大胆な・冒険的な（形容詞/名詞）" },
+        { word: "daredevil", desc: "無謀な人・向こう見ずな（名詞/形容詞）" },
+        { word: "daringly",  desc: "大胆に・勇敢に（副詞）" }
+      ],
+      family: [
+        { word: "bold",    desc: "大胆な（ゲルマン語系）" },
+        { word: "brave",   desc: "勇敢な（古フランス語）" },
+        { word: "audacious", desc: "向こう見ずな（ラテン語 audax）" }
+      ],
+      compounds: [
+        { phrase: "dare to",       desc: "あえて〜する" },
+        { phrase: "daredevil act", desc: "無謀な行為" },
+        { phrase: "double dare",   desc: "二重の挑戦" }
+      ]
+    },
+
+    "dark": {
+      origin: "古英語 deorc（暗い・不明瞭な）< ゲルマン語根 *derkaz に由来する。同族語にドイツ語 dunkel（暗い）・オランダ語 donker があり、インド・ヨーロッパ語根との正確な対応は議論中である。\n\n光の欠如を表す基本語として古英語から継続的に使われ、物理的な「暗さ」から「不吉・不明・秘密」などの比喩的意味が豊富に発達した。「dark ages（暗黒時代）」「dark horse（ダークホース）」「dark matter（暗黒物質）」「dark web（ダークウェブ）」など現代語彙でも活発である。\n\n心理的・道徳的意味では「dark side（暗黒面）」「keep someone in the dark（誰かに秘密にする）」「dark humor（ブラックユーモア）」のように、光と闇の対比が道徳的・認知的暗喩として機能している。",
+      derivatives: [
+        { word: "darken",    desc: "暗くなる・曇らせる（動詞）" },
+        { word: "darkness",  desc: "暗闇・暗黒（名詞）" },
+        { word: "darkly",    desc: "暗く・不気味に（副詞）" }
+      ],
+      family: [
+        { word: "shadow",  desc: "影・陰（光の遮断）" },
+        { word: "dim",     desc: "薄暗い・かすかな（形容詞）" },
+        { word: "gloomy",  desc: "暗鬱な・陰気な（形容詞）" }
+      ],
+      compounds: [
+        { phrase: "dark horse",          desc: "ダークホース・伏兵" },
+        { phrase: "in the dark",         desc: "知らされていない・秘密にされている" },
+        { phrase: "after dark",          desc: "日が暮れてから" }
+      ]
+    },
+
+    "data": {
+      origin: "ラテン語 data（与えられたもの）< dare（与える）の過去分詞形に由来する。dare はインド・ヨーロッパ語根 *do-（与える）< ギリシャ語 didomi・サンスクリット dadāmi と同根であり、印欧語族に広く分布する基本動詞の語根である。\n\n英語には17世紀に入り、当初は哲学・神学的な文脈で「前提として与えられた事実」を意味した。複数形として使われることが多く（datum の複数）、現代英語ではやや非公式に単数扱いされることも多い。コンピューターサイエンスの発展とともに20世紀後半に急速に普及し、data analysis・data science・big data など現代語の中核語となっている。\n\ndare と同根の語は英語に多く、date（日付・与えられた時間）・donation（寄付）・dose（投与量）・edition（版）なども語源的に「与える」という概念と結びついている。",
+      derivatives: [
+        { word: "database",    desc: "データベース（名詞）" },
+        { word: "datum",       desc: "データの単数形・基準点（名詞）" },
+        { word: "data-driven", desc: "データ主導の（形容詞）" }
+      ],
+      family: [
+        { word: "donate",  desc: "寄付する（与える）" },
+        { word: "date",    desc: "日付（与えられた時間）" },
+        { word: "dose",    desc: "用量・投与量（与えられた量）" },
+        { word: "edition", desc: "版（与えられたもの）" }
+      ],
+      compounds: [
+        { phrase: "big data",       desc: "ビッグデータ" },
+        { phrase: "data science",   desc: "データサイエンス" },
+        { phrase: "data breach",    desc: "データ漏洩" }
+      ]
+    },
+
+    "deal": {
+      origin: "古英語 dǣlan（分ける・配分する）< ゲルマン語根 *dailjan < インド・ヨーロッパ語根 *dail-（分割）に由来する。ドイツ語 teilen（分ける）・Teil（部分）と同族であり、「分け与える」という行為から「取引・契約」という現代的意味が発展した。\n\n商業的な「取引・契約（deal）」という意味は中英語期から発達し、「deal cards（カードを配る）」という用法はトランプゲームの文脈で定着した。20世紀のアメリカ英語で「big deal（大事なこと）」「good deal（お得）」「no deal（合意なし）」などのイディオムが爆発的に普及した。\n\n「deal with（〜に対処する）」という表現は現代英語で最頻出の動詞句のひとつであり、問題・困難・人間関係など広い対象に使われる多機能な表現として定着している。",
+      derivatives: [
+        { word: "dealer",    desc: "業者・ディーラー（名詞）" },
+        { word: "dealing",   desc: "取引・付き合い（名詞）" },
+        { word: "dealership", desc: "販売代理店（名詞）" }
+      ],
+      family: [
+        { word: "ordeal",  desc: "試練（古英語 ordāl 神明裁判）" },
+        { word: "dole",    desc: "少量ずつ配る・失業給付（古英語）" },
+        { word: "dale",    desc: "谷（分割された地形）" }
+      ],
+      compounds: [
+        { phrase: "deal with",    desc: "〜に対処する" },
+        { phrase: "big deal",     desc: "大事なこと・大したことだ" },
+        { phrase: "deal breaker", desc: "合意を壊す問題・決裂要因" }
+      ]
+    },
+
+    "debate": {
+      origin: "ラテン語 debattuere（打ち合う・戦わせる）< de-（完全に）+ battuere（打つ）に由来し、古フランス語 debatre を経て14世紀の英語に入った。battuere はインド・ヨーロッパ語根 *bhat-（打つ）と関連し、battery・battle・combat とも語族をなす。\n\n「打ち合う」という物理的な原義から「言葉で戦わせる・議論する」という比喩的意味が発展し、議会討論（parliamentary debate）・法廷弁論・学術論争などの文脈で中核語となった。民主主義的な意思決定の根幹を成す概念として、public debate（公開討論）という語は政治哲学において重要な位置を占める。\n\n18世紀以降の英国議会制度の発展とともに debate という語の使用頻度が急増し、現代では presidential debate（大統領候補討論会）など選挙政治においても不可欠な語となっている。",
+      derivatives: [
+        { word: "debatable",   desc: "議論の余地がある（形容詞）" },
+        { word: "debater",     desc: "討論者・弁論家（名詞）" },
+        { word: "debating",    desc: "討論・ディベート（名詞）" }
+      ],
+      family: [
+        { word: "battle",   desc: "戦い（battuere 同根）" },
+        { word: "battery",  desc: "電池・殴打（battuere）" },
+        { word: "combat",   desc: "戦闘する（com+battuere）" },
+        { word: "abate",    desc: "弱まる（打ちつけて減らす）" }
+      ],
+      compounds: [
+        { phrase: "open to debate",   desc: "議論の余地がある" },
+        { phrase: "debate over",      desc: "〜について議論する" },
+        { phrase: "presidential debate", desc: "大統領候補討論会" }
+      ]
+    },
+
+    "deep": {
+      origin: "古英語 dēop（深い・強烈な）< ゲルマン語根 *deupaz < インド・ヨーロッパ語根 *dheub-（深い・空洞）に由来する。ドイツ語 tief・オランダ語 diep・ゴート語 diups と同族であり、北欧・ゲルマン語派全体に分布する基本語彙である。\n\n物理的な深さから「deep sleep（深い眠り）」「deep thought（深い思考）」「deep feeling（強い感情）」など心理的・抽象的な意味へと広く転用されてきた。「deep water（苦境）」「in deep（追い詰められた）」「deep-rooted（根深い）」など慣用句も多い。\n\n現代英語では「deep learning（深層学習）」「deep fake（ディープフェイク）」など AI・デジタル技術の分野でも重要語として使われており、語の基本的な「奥深さ」という概念が21世紀の技術語彙でも活用されている。",
+      derivatives: [
+        { word: "deeply",   desc: "深く・強く（副詞）" },
+        { word: "deepen",   desc: "深める・深まる（動詞）" },
+        { word: "depth",    desc: "深さ・奥深さ（名詞）" },
+        { word: "deep-sea", desc: "深海の（形容詞）" }
+      ],
+      family: [
+        { word: "dip",   desc: "浸す・くぼみ（浅く入れる）" },
+        { word: "dive",  desc: "飛び込む（深く入る）" },
+        { word: "dupe",  desc: "だます（同語根説あり）" }
+      ],
+      compounds: [
+        { phrase: "deep learning",  desc: "深層学習（AI）" },
+        { phrase: "deep-rooted",    desc: "根深い・根本的な" },
+        { phrase: "in deep water",  desc: "苦境に立っている" }
+      ]
+    },
+
+    "defeat": {
+      origin: "ラテン語 disfacere（元に戻す・壊す）< dis-（逆の）+ facere（する・作る）に由来し、古フランス語 defaire（元に戻す）を経て14世紀の英語に入った。facere はインド・ヨーロッパ語根 *dheH1-（置く・作る）に由来し、fact・factory・affect など非常に多くの語の語源となっている。\n\n当初は「取り消す・無効にする」という法律的な意味で使われ、その後「軍事的な敗北」という意味が主流となった。スポーツの文脈でも「defeat an opponent（対戦相手を倒す）」という表現が頻繁に使われる。\n\n「self-defeating（自滅的な）」という表現は20世紀の心理学・教育学で重要な概念となり、「snatch defeat from the jaws of victory（勝利をみすみす逃す）」という皮肉なイディオムも英語に定着している。",
+      derivatives: [
+        { word: "defeated",    desc: "敗北した・打ちのめされた（形容詞）" },
+        { word: "defeatism",   desc: "敗北主義（名詞）" },
+        { word: "defeatist",   desc: "敗北主義者・ネガティブな（名詞/形容詞）" }
+      ],
+      family: [
+        { word: "defect",   desc: "欠陥（de+facere 壊れた作り）" },
+        { word: "defy",     desc: "〜に反抗する（原義：打ち勝つ）" },
+        { word: "victory",  desc: "勝利（defeat の対義語）" }
+      ],
+      compounds: [
+        { phrase: "admit defeat",    desc: "敗北を認める" },
+        { phrase: "self-defeating",  desc: "自滅的な" },
+        { phrase: "crushing defeat", desc: "壊滅的な敗北" }
+      ]
+    },
+
+    "deny": {
+      origin: "ラテン語 denegare（拒否する・否定する）< de-（強意）+ negare（否定する）< neg（否定）+ agere（言う・行う）に由来する。古フランス語 denier を経て13世紀の英語に入った。negare はインド・ヨーロッパ語根 *ne-（否定）と関連する。\n\n法廷での「否認（deny a charge）」・神学的な「信仰の否定（Peter denied Christ）」・日常的な「断る（deny a request）」など多様な文脈で使われてきた。「self-denial（自制・禁欲）」という宗教・道徳的概念も重要な派生語である。\n\n心理学では「denial（否認）」がフロイト的防衛機制のひとつとして定義され、「stage of denial（否認の段階）」はキューブラー＝ロスの死の受容過程として広く知られる。",
+      derivatives: [
+        { word: "denial",  desc: "否定・否認（名詞）" },
+        { word: "deniable", desc: "否定可能な（形容詞）" },
+        { word: "undeniable", desc: "否定できない・明らかな（形容詞）" }
+      ],
+      family: [
+        { word: "negate",  desc: "無効にする・否定する（negare）" },
+        { word: "negative", desc: "否定的な（negare）" },
+        { word: "neglect", desc: "無視する（neg+legere）" },
+        { word: "annihilate", desc: "消滅させる（ne+hilum）" }
+      ],
+      compounds: [
+        { phrase: "in denial",        desc: "現実を否定している状態で" },
+        { phrase: "deny access",      desc: "アクセスを拒否する" },
+        { phrase: "self-denial",      desc: "自己犠牲・禁欲" }
+      ]
+    },
+
+    "detail": {
+      origin: "フランス語 détail（細部）< détailler（細かく切る）< de-（分離）+ tailler（切る）< ラテン語 taliare（切る）< talea（切り枝・小片）に由来する。16世紀に英語に入り、当初は「商品の小売り・細かい説明」という意味であった。\n\nRetail（小売り）も同語源（re-+tail）であり、「切り分けて売る」という商業的原義から「細部・詳細」という意味が発展したことがわかる。絵画・建築・技術製図などにおける「細部の正確な描写」という専門的意味も早くから発達した。\n\n「the devil is in the detail（悪魔は細部に宿る）」という英語のことわざは、物事の困難さが細部に潜んでいることを警告するものであり、現代でも設計・法律・政策立案の文脈で頻繁に引用される。",
+      derivatives: [
+        { word: "detailed",   desc: "詳細な・細かい（形容詞）" },
+        { word: "detailing",  desc: "詳細な説明・車のクリーニング（名詞）" },
+        { word: "in detail",  desc: "詳しく（副詞句）" }
+      ],
+      family: [
+        { word: "retail",   desc: "小売り（re+tailler 切り売り）" },
+        { word: "tailor",   desc: "仕立て屋（切る人）" },
+        { word: "tally",    desc: "符合する・記録（切り刻みの記録）" }
+      ],
+      compounds: [
+        { phrase: "attention to detail", desc: "細部への注意力" },
+        { phrase: "in detail",           desc: "詳細に" },
+        { phrase: "go into detail",      desc: "詳しく説明する" }
+      ]
+    },
+
+    "dig": {
+      origin: "中英語 diggen（掘る）< 古フランス語 diguer（堤防を作る）または低地ゲルマン語 *digg- に由来する。古英語には対応する語がなく、中英語期に入った語である。インド・ヨーロッパ語根 *dheigh-（こねる・成形する）との関連も議論されている。\n\n物理的な「掘削」から「調査・詮索する（dig for information）」「理解する・気に入る（I dig it）」（後者はアメリカ俗語）など意味が拡張した。考古学（archaeological dig）では「発掘作業」を指す専門語でもある。\n\n「dig in（がんばる・食べ始める）」「dig up（掘り起こす・古い情報を引っ張り出す）」「dig one's own grave（自分の墓穴を掘る）」などイディオムが豊富であり、「金を掘り当てる」という金鉱時代のイメージも語のニュアンスに残っている。",
+      derivatives: [
+        { word: "digger",    desc: "掘る人・ショベル（名詞）" },
+        { word: "digging",   desc: "掘削・発掘（名詞）" },
+        { word: "dug",       desc: "dig の過去形・乳首（名詞）" }
+      ],
+      family: [
+        { word: "excavate", desc: "発掘する（ラテン語 ex+cavare）" },
+        { word: "mine",     desc: "採掘する・鉱山（地面を掘る）" },
+        { word: "burrow",   desc: "穴を掘る（動物が）" }
+      ],
+      compounds: [
+        { phrase: "dig in",          desc: "踏ん張る・食べ始める" },
+        { phrase: "dig up",          desc: "掘り起こす・暴き出す" },
+        { phrase: "dig one's grave", desc: "自分の墓穴を掘る" }
+      ]
+    },
+
+    "direct": {
+      origin: "ラテン語 directus（まっすぐにされた）< dirigere（方向を定める）< di-/dis-（離れて）+ regere（導く・まっすぐにする）の過去分詞形に由来する。regere はインド・ヨーロッパ語根 *reg-（直線・支配）に遡り、英語の rule・regal・region・correct とも語族をなす。\n\n14世紀に英語に入り、形容詞「直接の・率直な」、副詞「直接に」、動詞「指揮する・向ける」として使われるようになった。映画・演劇の「監督（director）」、郵便の「宛先（direct mail）」、組織の「指揮命令系統（direct report）」など多様な専門分野で使われる。\n\nregere 語族の「まっすぐに導く」という意味は、correct（正す）・erect（直立）・regulate（規制する）・address（向ける）などにも受け継がれており、英語の語彙体系において非常に重要な語根となっている。",
+      derivatives: [
+        { word: "direction",  desc: "方向・指示（名詞）" },
+        { word: "director",   desc: "監督・取締役（名詞）" },
+        { word: "directly",   desc: "直接に・すぐに（副詞）" },
+        { word: "indirect",   desc: "間接的な（形容詞）" }
+      ],
+      family: [
+        { word: "correct",   desc: "正す（di-+regere 同族）" },
+        { word: "erect",     desc: "直立した（e-+regere）" },
+        { word: "regiment",  desc: "連隊・規律（regere）" },
+        { word: "region",    desc: "地域（支配される領域）" }
+      ],
+      compounds: [
+        { phrase: "direct access",   desc: "直接アクセス" },
+        { phrase: "direct report",   desc: "直属の部下" },
+        { phrase: "director general", desc: "事務局長・長官" }
+      ]
+    },
+
+    "discuss": {
+      origin: "ラテン語 discutere（打ち砕く・調査する）< dis-（離れて）+ quatere（振る・打つ）に由来する。quatere はインド・ヨーロッパ語根 *kwet-（揺さぶる）と関連し、quash（粉砕する）・squash（押しつぶす）とも語族をなす。\n\n「打ち砕いて検討する」という原義から「問題を各方面から検討する・議論する」という意味が発展し、学術・法廷・政治の文脈で標準的な議論動詞となった。debate と比較すると discuss の方が対立的でなく協調的な意味合いが強い。\n\n「discuss over dinner（食事しながら話し合う）」「discuss at length（長々と議論する）」のように日常的にも頻用され、discussion（議論・検討）は学術論文・会議・授業の文脈で中核的な語として機能している。",
+      derivatives: [
+        { word: "discussion",   desc: "議論・検討（名詞）" },
+        { word: "discussable",  desc: "議論可能な（形容詞）" },
+        { word: "undiscussed",  desc: "議論されていない（形容詞）" }
+      ],
+      family: [
+        { word: "debate",  desc: "討論する（より対立的）" },
+        { word: "argue",   desc: "主張する・口論する" },
+        { word: "quash",   desc: "粉砕する（quatere 同根）" },
+        { word: "concuss", desc: "脳震盪を起こす（com+quatere）" }
+      ],
+      compounds: [
+        { phrase: "under discussion",  desc: "検討中の" },
+        { phrase: "open discussion",   desc: "公開討論・自由な議論" },
+        { phrase: "panel discussion",  desc: "パネルディスカッション" }
+      ]
+    },
+
+    "draw": {
+      origin: "古英語 dragan（引く・運ぶ）< ゲルマン語根 *dragan < インド・ヨーロッパ語根 *dhragh-（引く・引きずる）に由来する。ドイツ語 tragen（運ぶ）・ゴート語 dragan と同族である。\n\n「引く」という原義から、描く（draw a picture：ペンを引く）・引き分ける（draw a game：引き分けに持ち込む）・引き出す（draw money：お金を引き出す）など多様な意味が派生した。draw は英語の中で最も多義的な動詞のひとつであり、辞書には数十の意味・用法が記録されている。\n\n「draw a conclusion（結論を引き出す）」「draw attention（注目を集める）」「draw the line（一線を引く）」「drawback（欠点：引き戻すもの）」「withdraw（引き下がる）」など語彙的派生も非常に豊富である。",
+      derivatives: [
+        { word: "drawing",   desc: "描画・図（名詞）" },
+        { word: "drawer",    desc: "引き出し・描く人（名詞）" },
+        { word: "drawback",  desc: "欠点・弱点（名詞）" },
+        { word: "withdraw",  desc: "引き下がる・撤退する（動詞）" }
+      ],
+      family: [
+        { word: "drag",    desc: "引きずる（draw の変形）" },
+        { word: "draft",   desc: "下書き・引く（draw から）" },
+        { word: "trail",   desc: "引きずる・跡（引く動作）" }
+      ],
+      compounds: [
+        { phrase: "draw a conclusion",  desc: "結論を出す" },
+        { phrase: "draw the line",      desc: "一線を引く" },
+        { phrase: "draw attention",     desc: "注目を集める" }
+      ]
+    },
+
+    "dream": {
+      origin: "古英語 drēam（喜び・音楽・夢）< ゲルマン語根 *draugmaz（幻影）に由来するとされる。ただし古英語 drēam は主に「喜び・騒音・音楽」を意味しており、「夢（睡眠中の）」という意味はスカンジナビア語 draumr の影響で中英語期に取り込まれた可能性が高い。\n\n中英語期以降「夢・夢想」が主要な意味となり、さらに「理想・野望（American Dream）」という意味も19世紀のアメリカで発展した。Martin Luther King の "I Have a Dream" スピーチ（1963年）により dream は公民権運動・社会変革の象徴的な語となった。\n\n現代英語では「dream job（理想の仕事）」「dream come true（夢の実現）」「beyond one's wildest dreams（想像を超えて）」「daydream（白昼夢）」など豊富な表現が使われている。",
+      derivatives: [
+        { word: "dreamer",    desc: "夢想家・理想主義者（名詞）" },
+        { word: "dreamy",     desc: "夢のような・ぼんやりした（形容詞）" },
+        { word: "daydream",   desc: "白昼夢・空想（名詞/動詞）" },
+        { word: "dreamlike",  desc: "夢のような（形容詞）" }
+      ],
+      family: [
+        { word: "fantasy",   desc: "幻想・空想（ギリシャ語 phantasia）" },
+        { word: "vision",    desc: "幻影・ビジョン（ラテン語 visio）" },
+        { word: "illusion",  desc: "幻想・錯覚（ラテン語 illusio）" }
+      ],
+      compounds: [
+        { phrase: "dream come true",  desc: "夢の実現" },
+        { phrase: "pipe dream",       desc: "実現不可能な夢" },
+        { phrase: "beyond one's wildest dreams", desc: "想像をはるかに超えて" }
+      ]
     }
 
   };

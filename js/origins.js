@@ -17780,6 +17780,409 @@
         { phrase: "combat deforestation",    desc: "森林破壊に取り組む" },
         { phrase: "deforestation rate",      desc: "森林破壊率" }
       ]
+    },
+
+    // ── Batch 39 ──────────────────────────────────────────────────────────
+
+    "absorb": {
+      origin: "ラテン語 absorbere（飲み込む・吸収する）< ab-（離れて・完全に）+ sorbere（吸う・飲み込む）。「完全に飲み込む」が原義で、古代ローマで液体を飲み込む動作から「完全に取り込む」の意味が生まれた。\n\n英語には15世紀に採用され、「吸収する・取り込む・夢中にさせる」の意味で定着。物理学（光の吸収）・化学（溶液への吸収）・経済学（コストの吸収）など幅広い文脈で使われ、比喩的に「注意を完全に奪う」（absorbed in a book）の意味でも頻繁に使われる。\n\n現代英語では absorb information（情報を吸収する）・be absorbed in work（仕事に没頭する）・absorb the cost（コストを吸収する）のように科学・経済・日常で幅広く使われる。",
+      derivatives: [
+        { word: "absorption",   desc: "吸収・没頭（名詞）" },
+        { word: "absorbent",    desc: "吸収性の・吸水性の（形容詞・名詞）" },
+        { word: "absorbing",    desc: "夢中にさせる・非常に面白い（形容詞）" }
+      ],
+      family: [
+        { word: "sorb",    desc: "吸着する（sorbere）" },
+        { word: "adsorb",  desc: "吸着する（ad+sorbere）" }
+      ],
+      compounds: [
+        { phrase: "be absorbed in",     desc: "〜に没頭する・夢中になる" },
+        { phrase: "absorb the cost",    desc: "コストを吸収する・負担する" },
+        { phrase: "absorb information", desc: "情報を吸収する" }
+      ]
+    },
+
+    "critique": {
+      origin: "ギリシャ語 kritike（判断する技術）< kritikos（判断できる・識別できる）< krinein（分ける・判断する）+ -ique（名詞接尾辞）。「分別して判断する技術」が原義。crisis（危機）・criterion（基準）と同根の krinein を含む。\n\n英語には17世紀にフランス語 critique を経て採用され、「批評・批判的分析」の意味で定着。カントの「純粋理性批判」（Critique of Pure Reason）のように哲学でも重要な概念語として使われた。\n\n現代英語では literary critique（文学批評）・offer a critique（批評を加える）・critique of the argument（論証への批判的分析）のように学術・文学・芸術の場で幅広く使われる。",
+      derivatives: [
+        { word: "critical",    desc: "批判的な・重大な（形容詞）" },
+        { word: "criticism",   desc: "批評・批判（名詞）" },
+        { word: "critic",      desc: "批評家・批判者（名詞）" }
+      ],
+      family: [
+        { word: "crisis",     desc: "危機（krinein）" },
+        { word: "criterion",  desc: "基準（krinein）" },
+        { word: "hypocrite",  desc: "偽善者（hypo+krinein）" }
+      ],
+      compounds: [
+        { phrase: "literary critique",    desc: "文学批評" },
+        { phrase: "offer a critique",     desc: "批評を加える" },
+        { phrase: "peer critique",        desc: "同僚・仲間からの批評" }
+      ]
+    },
+
+    "exploit": {
+      origin: "ラテン語 explicitus（展開された・完成した）< explicare（折り広げる）< ex-（外に）+ plicare（折る）。「折り畳まれたものを完全に広げる＝活用する」が原義。explicit（明示的な）・complicate（複雑にする）と同根のplicare を含む。\n\n英語には14世紀に「功績・成果」の名詞として採用され、19世紀以降に「（資源・人などを）最大限に活用する・搾取する」という動詞用法が定着。肯定的（exploit an opportunity＝機会を活用する）・否定的（exploit workers＝労働者を搾取する）両方の含意を持つ。\n\n現代英語では exploit a vulnerability（脆弱性を突く）・exploit natural resources（天然資源を開発する）・exploitation of workers（労働者の搾取）のように幅広い文脈で使われる。",
+      derivatives: [
+        { word: "exploitation",  desc: "搾取・利用・開発（名詞）" },
+        { word: "exploitable",   desc: "利用可能な（形容詞）" },
+        { word: "exploitative",  desc: "搾取的な（形容詞）" }
+      ],
+      family: [
+        { word: "explicit",    desc: "明示的な（ex+plicare）" },
+        { word: "implicit",    desc: "暗黙の（im+plicare）" },
+        { word: "replicate",   desc: "複製する（re+plicare）" },
+        { word: "complicate",  desc: "複雑にする（com+plicare）" }
+      ],
+      compounds: [
+        { phrase: "exploit a vulnerability",   desc: "脆弱性を突く" },
+        { phrase: "exploit natural resources", desc: "天然資源を開発・利用する" },
+        { phrase: "labor exploitation",        desc: "労働搾取" }
+      ]
+    },
+
+    "reveal": {
+      origin: "ラテン語 revelare（ベールを外す・明かす）< re-（元の状態に）+ velare（ベールをかける・隠す）< velum（ベール・帆・幕）。「ベールを取って隠れていたものを見せる」が原義。\n\n英語には14世紀に採用され、「明かす・露わにする・啓示する」の意味で定着。宗教的文脈では「神からの啓示」（divine revelation）として重要で、一般的には「秘密の暴露・真実の公開」を指す。\n\n現代英語では reveal a secret（秘密を明かす）・reveal the truth（真実を明らかにする）・product reveal（製品の発表）のように日常・ジャーナリズム・マーケティングで広く使われる。",
+      derivatives: [
+        { word: "revelation",   desc: "啓示・暴露・重大な発見（名詞）" },
+        { word: "revealing",    desc: "多くを明かす・露出した（形容詞）" }
+      ],
+      family: [
+        { word: "veil",    desc: "ベール・覆い（velum の転）" },
+        { word: "velvet",  desc: "ビロード（velum の転）" }
+      ],
+      compounds: [
+        { phrase: "reveal a secret",    desc: "秘密を明かす" },
+        { phrase: "product reveal",     desc: "製品発表・デビュー" },
+        { phrase: "divine revelation",  desc: "神の啓示" }
+      ]
+    },
+
+    "utilize": {
+      origin: "フランス語 utiliser < ラテン語 utilis（役に立つ）< uti（使う・利用する）+ -ize（動詞化接尾辞）。「役に立つように使う」が原義。utility（有用性）・utensil（台所用具）と同根の uti を含む。\n\n英語には19世紀に採用され、「（資源・手段などを効率的に）活用する」の意味で定着。use の形式的・専門的な代替語として使われ、特にビジネス・技術・学術文書で「最大限に活用する」という含意で使われることが多い。\n\n現代英語では utilize available resources（利用可能な資源を活用する）・utilize technology（技術を活用する）・efficient utilization（効率的な活用）のようにビジネス・技術・政策の場で広く使われる。",
+      derivatives: [
+        { word: "utilization",  desc: "活用・利用・使用率（名詞）" },
+        { word: "utility",      desc: "有用性・公共事業（名詞）" },
+        { word: "utilitarian",  desc: "功利主義の・実用的な（形容詞）" }
+      ],
+      family: [
+        { word: "useful",   desc: "役に立つ（uti）" },
+        { word: "utensil",  desc: "台所用具・道具（utensilia）" }
+      ],
+      compounds: [
+        { phrase: "utilize available resources",  desc: "利用可能な資源を活用する" },
+        { phrase: "efficient utilization",        desc: "効率的な活用" },
+        { phrase: "capacity utilization",         desc: "設備稼働率" }
+      ]
+    },
+
+    "verify": {
+      origin: "ラテン語 verificare（真実であると証明する）< verus（真の・本物の）+ facere（作る・する）+ -y（動詞化接尾辞）。「真実であることを確かめる」が原義。verdict（評決）・very（本当に・まさに）と同根の verus を含む。\n\n英語には14世紀に採用され、「確認する・検証する・立証する」の意味で定着。法律・科学・コンピュータ科学（identity verification＝本人確認）など「真実性・正確性を確かめる」プロセスを指す重要語として広く使われる。\n\n現代英語では verify the facts（事実を確認する）・identity verification（本人確認）・verify a hypothesis（仮説を検証する）のように法律・科学・技術で幅広く使われる。",
+      derivatives: [
+        { word: "verification",  desc: "確認・検証・立証（名詞）" },
+        { word: "verifiable",    desc: "確認可能な・検証できる（形容詞）" }
+      ],
+      family: [
+        { word: "verdict",  desc: "評決（vere+dictum）" },
+        { word: "very",     desc: "本当に（verus）" },
+        { word: "verify",   desc: "確認する（verus+facere）" }
+      ],
+      compounds: [
+        { phrase: "verify the facts",       desc: "事実を確認する" },
+        { phrase: "identity verification",  desc: "本人確認" },
+        { phrase: "verify a hypothesis",    desc: "仮説を検証する" }
+      ]
+    },
+
+    "bias": {
+      origin: "古フランス語 biais（斜め・傾き・斜面）< ??（起源不明・プロバンス語か）。「傾き・斜め」が原義で、当初はボウルズ（芝生上の球技）で球が曲がって転がる傾向を指した。\n\n英語には16世紀に採用され、「偏見・先入観・傾向」の意味で定着。統計学では「系統的な誤差」、心理学では「認知的偏り」、社会学では「不公正な先入観」として重要な概念語となっている。\n\n現代英語では cognitive bias（認知バイアス）・unconscious bias（無意識のバイアス）・media bias（メディアの偏向）のように心理学・統計・社会学で幅広く使われる。",
+      derivatives: [
+        { word: "biased",    desc: "偏った・先入観を持った（形容詞）" },
+        { word: "unbiased",  desc: "偏りのない・公正な（形容詞）" }
+      ],
+      family: [
+        { word: "oblique",  desc: "斜めの・遠回しな（ob+liquis）" }
+      ],
+      compounds: [
+        { phrase: "cognitive bias",    desc: "認知バイアス" },
+        { phrase: "unconscious bias",  desc: "無意識のバイアス・偏見" },
+        { phrase: "media bias",        desc: "メディアの偏向" }
+      ]
+    },
+
+    "constraint": {
+      origin: "ラテン語 constringere（共に縛る・制限する）< con-（共に）+ stringere（縛る・引き締める）+ -nt（形容詞接尾辞）→ 名詞化 -t。「縛りつける力」が原義。strict（厳格な）・stress（緊張）・restrict（制限する）と同根の stringere を含む。\n\n英語には15世紀に採用され、「制約・制限・強制」の意味で定着。数学・コンピュータ科学では「解の範囲を限定する条件」（constraint satisfaction）、経済学では「予算制約」（budget constraint）として重要な専門用語ともなっている。\n\n現代英語では budget constraint（予算制約）・under constraint（制約を受けて）・impose a constraint（制約を課す）のように数学・経済・日常で幅広く使われる。",
+      derivatives: [
+        { word: "constrain",    desc: "制限する・強制する（動詞）" },
+        { word: "constrained",  desc: "制限された・不自然な（形容詞）" }
+      ],
+      family: [
+        { word: "strict",    desc: "厳格な（stringere）" },
+        { word: "restrict",  desc: "制限する（re+stringere）" },
+        { word: "stress",    desc: "ストレス・強調する（stringere の転）" },
+        { word: "strain",    desc: "緊張・引っ張る（stringere の転）" }
+      ],
+      compounds: [
+        { phrase: "budget constraint",   desc: "予算制約" },
+        { phrase: "under constraint",    desc: "制約を受けて・強制されて" },
+        { phrase: "impose a constraint", desc: "制約を課す" }
+      ]
+    },
+
+    "discipline": {
+      origin: "ラテン語 disciplina（教育・学問・規律）< discipulus（弟子・学習者）< discere（学ぶ）+ -ina（名詞接尾辞）。「師から学ぶことで身につく規律・学問」が原義。disciple（弟子）と同根で、教育と規律の両方の概念を含む。\n\n英語には14世紀に採用され、「規律・訓練・学問分野・懲戒」の多義的な意味で定着。軍隊・教育・宗教での「厳しい自己鍛錬」から「学術的専門分野」（academic discipline）まで幅広く使われる。\n\n現代英語では maintain discipline（規律を保つ）・academic discipline（学術分野）・self-discipline（自律・自己鍛錬）のように教育・組織・学術の場で幅広く使われる。",
+      derivatives: [
+        { word: "disciplinary",   desc: "規律の・懲戒の（形容詞）" },
+        { word: "disciplined",    desc: "規律ある・訓練された（形容詞）" }
+      ],
+      family: [
+        { word: "disciple",   desc: "弟子・信徒（discipulus）" },
+        { word: "doctrine",   desc: "教義・ドクトリン（docere）" },
+        { word: "document",   desc: "書類・文書（docere）" },
+        { word: "scholar",    desc: "学者（schola）" }
+      ],
+      compounds: [
+        { phrase: "self-discipline",      desc: "自律・自己鍛錬" },
+        { phrase: "academic discipline",  desc: "学術分野・学問領域" },
+        { phrase: "maintain discipline",  desc: "規律を保つ" }
+      ]
+    },
+
+    "dispute": {
+      origin: "ラテン語 disputare（秤にかける・議論する・検討する）< dis-（分けて・違って）+ putare（考える・計算する・切り落とす）+ -e（動詞語尾）。「それぞれの側で分けて考える＝議論する」が原義。computer（計算機）・compute（計算する）・reputation（評判）と同根の putare を含む。\n\n英語には14世紀に採用され、「論争・紛争・異議申し立て」の名詞と「争う・疑問を呈する」の動詞として定着。法律・外交・労使関係・日常の意見の相違を指す幅広い文脈で使われる。\n\n現代英語では settle a dispute（紛争を解決する）・labor dispute（労働争議）・territorial dispute（領土紛争）のように法律・外交・労働の場で幅広く使われる。",
+      derivatives: [
+        { word: "disputant",     desc: "論争当事者（名詞）" },
+        { word: "disputable",    desc: "議論の余地のある（形容詞）" },
+        { word: "indisputable",  desc: "議論の余地のない・明白な（形容詞）" }
+      ],
+      family: [
+        { word: "compute",      desc: "計算する（com+putare）" },
+        { word: "reputation",   desc: "評判（re+putatio）" },
+        { word: "impute",       desc: "帰する・転嫁する（im+putare）" }
+      ],
+      compounds: [
+        { phrase: "settle a dispute",     desc: "紛争を解決する" },
+        { phrase: "labor dispute",        desc: "労働争議" },
+        { phrase: "territorial dispute",  desc: "領土紛争" }
+      ]
+    },
+
+    "doctrine": {
+      origin: "ラテン語 doctrina（教え・訓練・学問）< docere（教える）+ -trina（名詞接尾辞）。「教えられたもの・教え」が原義。document（文書）・doctor（博士・医師）と同根の docere を含む。\n\n英語には14世紀に採用され、「教義・主義・学説」の意味で定着。宗教では「教会の公式な教え」・政治では「政府の公式方針」（Monroe Doctrine：モンロー主義）・法律では「法的原則」として使われる多義語。\n\n現代英語では religious doctrine（宗教的教義）・military doctrine（軍事ドクトリン）・doctrine of precedent（先例拘束の原則）のように宗教・政治・法律で幅広く使われる。",
+      derivatives: [
+        { word: "doctrinal",    desc: "教義的な・原則的な（形容詞）" },
+        { word: "doctrinaire",  desc: "頑固に教義を主張する人（形容詞・名詞）" }
+      ],
+      family: [
+        { word: "doctor",    desc: "博士・医師（docere）" },
+        { word: "document",  desc: "文書・書類（docere）" },
+        { word: "dogma",     desc: "教義・ドグマ（dokein）" }
+      ],
+      compounds: [
+        { phrase: "religious doctrine",   desc: "宗教的教義" },
+        { phrase: "Monroe Doctrine",      desc: "モンロー主義（米国の外交方針）" },
+        { phrase: "military doctrine",    desc: "軍事ドクトリン" }
+      ]
+    },
+
+    "essence": {
+      origin: "ラテン語 essentia（存在・本質）< esse（存在する・ある）+ -ntia（名詞接尾辞）。「あること・存在すること」が原義で、アリストテレスが「事物がそれであるために必要な本質的性質」を指すために使った哲学用語。\n\n英語には14世紀に採用され、「本質・エキス・精髄」の意味で定着。哲学では「その事物をその事物たらしめる本質的特性」・化学では「植物の抽出液・エッセンス」・一般的には「最も重要な部分」を指す。\n\n現代英語では the essence of the argument（論証の核心）・in essence（本質的には）・capture the essence（本質を捉える）のように哲学・日常・学術の場で幅広く使われる。",
+      derivatives: [
+        { word: "essential",    desc: "本質的な・不可欠な（形容詞）" },
+        { word: "essentially",  desc: "本質的には・基本的に（副詞）" },
+        { word: "essentially",  desc: "本質的に（副詞）" }
+      ],
+      family: [
+        { word: "present",   desc: "現在の・存在している（prae+esse）" },
+        { word: "absent",    desc: "不在の（ab+esse）" },
+        { word: "interest",  desc: "関心・利子（inter+esse）" },
+        { word: "entity",    desc: "実体・エンティティ（esse）" }
+      ],
+      compounds: [
+        { phrase: "in essence",         desc: "本質的には・結局のところ" },
+        { phrase: "the essence of",     desc: "〜の本質・精髄" },
+        { phrase: "capture the essence", desc: "本質を捉える" }
+      ]
+    },
+
+    "ethics": {
+      origin: "ギリシャ語 ethike（倫理学）< ethos（慣習・性格・気質）+ -ike（〜に関する学問・技術）。「人間の性格・慣習に関する学問」が原義。アリストテレスが道徳的行動の学問を「倫理学」（Nicomachean Ethics）として体系化した。\n\n英語には14世紀に採用され、「倫理・道徳・倫理学」の意味で定着。医療倫理（medical ethics）・ビジネス倫理（business ethics）・研究倫理（research ethics）など現代の各専門領域に「倫理的規範の体系」として広く浸透している。\n\n現代英語では code of ethics（倫理規定）・professional ethics（職業倫理）・raise ethical concerns（倫理的懸念を提起する）のように学術・職業・社会の場で幅広く使われる。",
+      derivatives: [
+        { word: "ethical",    desc: "倫理的な・道徳上の（形容詞）" },
+        { word: "ethically",  desc: "倫理的に（副詞）" },
+        { word: "unethical",  desc: "非倫理的な（形容詞）" }
+      ],
+      family: [
+        { word: "ethos",  desc: "エートス・精神・気質（ethos）" }
+      ],
+      compounds: [
+        { phrase: "code of ethics",        desc: "倫理規定・行動規範" },
+        { phrase: "professional ethics",   desc: "職業倫理" },
+        { phrase: "raise ethical concerns", desc: "倫理的懸念を提起する" }
+      ]
+    },
+
+    "heritage": {
+      origin: "古フランス語 heritage（相続財産・遺産）< hériter（相続する）< ラテン語 hereditare（相続する）< haeres（相続人）+ -age（名詞接尾辞）。「受け継がれた財産・遺産」が原義。inherit（相続する）と同根の haeres を含む。\n\n英語には13世紀に採用され、「文化的遺産・世襲財産・受け継がれた性質」の意味で定着。UNESCO（国連教育科学文化機関）の「世界遺産」（World Heritage）という概念の普及とともに国際的に重要語となった。\n\n現代英語では cultural heritage（文化遺産）・World Heritage Site（世界遺産の地）・heritage tourism（文化遺産観光）のように文化・観光・国際政治の場で幅広く使われる。",
+      derivatives: [
+        { word: "inherit",     desc: "相続する・受け継ぐ（動詞）" },
+        { word: "inheritance", desc: "遺産・相続・受け継がれたもの（名詞）" }
+      ],
+      family: [
+        { word: "heir",      desc: "相続人（haeres の転）" },
+        { word: "hereditary", desc: "遺伝性の・世襲の（hereditarius）" }
+      ],
+      compounds: [
+        { phrase: "cultural heritage",     desc: "文化遺産" },
+        { phrase: "World Heritage Site",   desc: "世界遺産の地（UNESCO）" },
+        { phrase: "heritage tourism",      desc: "文化遺産観光" }
+      ]
+    },
+
+    "impact": {
+      origin: "ラテン語 impactus（打ち込まれた）< impingere（打ちつける・衝突させる）< im-（〜に）+ pangere（固定する・打ち込む）+ -ct（過去分詞語尾）。「打ちつける力」が原義。\n\n英語には17世紀に採用され、「衝突・衝撃・影響」の意味で定着。20世紀後半からビジネス・学術・政策の文脈で「影響・インパクト」として非常に頻繁に使われるようになり、名詞から動詞（impact on）への転用も広まった。\n\n現代英語では environmental impact（環境への影響）・have a major impact（大きな影響を与える）・impact assessment（影響評価）のように環境・政策・ビジネスで幅広く使われる。",
+      derivatives: [
+        { word: "impactful",  desc: "影響力の大きい（形容詞）" }
+      ],
+      family: [
+        { word: "compact",   desc: "小型の・コンパクト・協定（com+pangere）" },
+        { word: "pact",      desc: "協定・条約（pangere）" },
+        { word: "propagate", desc: "広める・繁殖する（pro+pangere）" }
+      ],
+      compounds: [
+        { phrase: "environmental impact",  desc: "環境への影響" },
+        { phrase: "impact assessment",     desc: "影響評価" },
+        { phrase: "have a major impact",   desc: "大きな影響を与える" }
+      ]
+    },
+
+    "instinct": {
+      origin: "ラテン語 instinctus（突き動かされた・衝動）< instinguere（刺激する・駆り立てる）< in-（〜へ）+ stinguere（刺す・消す）の過去分詞。「内部から突き動かされる力」が原義。distinguish（区別する）・extinguish（消す）と同根の stinguere を含む。\n\n英語には16世紀に採用され、「本能・直感・生得的な衝動」の意味で定着。ダーウィン以降の進化生物学・心理学（フロイトの本能論）で重要概念となり、現代でも「学習なしに持つ生得的な傾向」と「磨き込まれた専門的直感」の両方を指す。\n\n現代英語では survival instinct（生存本能）・trust your instinct（本能を信じる）・instinctive reaction（本能的反応）のように生物学・心理学・日常で幅広く使われる。",
+      derivatives: [
+        { word: "instinctive",   desc: "本能的な・直感的な（形容詞）" },
+        { word: "instinctively", desc: "本能的に・直感的に（副詞）" }
+      ],
+      family: [
+        { word: "distinguish",  desc: "区別する（dis+stinguere）" },
+        { word: "extinguish",   desc: "消す・絶滅させる（ex+stinguere）" },
+        { word: "instigate",    desc: "扇動する・引き起こす（in+stigare）" }
+      ],
+      compounds: [
+        { phrase: "survival instinct",    desc: "生存本能" },
+        { phrase: "trust your instinct",  desc: "本能を信じる" },
+        { phrase: "instinctive reaction", desc: "本能的反応" }
+      ]
+    },
+
+    "merit": {
+      origin: "ラテン語 meritum（値するもの・功績）< merere（値する・稼ぐ・功績を立てる）の過去分詞。「自分の力で稼いで価値を証明したもの」が原義。\n\n英語には13世紀に採用され、「功績・メリット・(評価するに値する)価値」の意味で定着。法律では「主張の本案・本質的根拠」（on the merits）として使われ、政治では「実力主義」（meritocracy）の基礎概念となっている。\n\n現代英語では judge on merit（能力で判断する）・on the merits of（〜の本質的価値に基づいて）・meritocracy（実力主義社会）のように法律・教育・政治の場で幅広く使われる。",
+      derivatives: [
+        { word: "meritocracy",   desc: "実力主義・能力主義社会（名詞）" },
+        { word: "meritorious",   desc: "称賛に値する・功績ある（形容詞）" },
+        { word: "meritless",     desc: "価値のない・根拠のない（形容詞）" }
+      ],
+      family: [
+        { word: "market",      desc: "市場（merx＝商品 の転）" },
+        { word: "merchandise", desc: "商品（merx）" },
+        { word: "merchant",    desc: "商人（mercator）" }
+      ],
+      compounds: [
+        { phrase: "judge on merit",  desc: "能力・価値で判断する" },
+        { phrase: "on the merits",   desc: "本案・実質的根拠に基づいて" },
+        { phrase: "meritocracy",     desc: "実力主義社会" }
+      ]
+    },
+
+    "myth": {
+      origin: "ギリシャ語 mythos（語られた話・物語・神話）< mutheisthai（話す・語り合う）。「口で語られた話」が原義で、logos（論証・理性）と対照的な「物語的・神話的な語り方」を指す概念として使われた。\n\n英語には16世紀にラテン語 mythus を経て採用され、「神話・根拠のない俗説・作り話」の意味で定着。宗教・文化の「神話」から、科学的に否定された「俗信」まで幅広い意味で使われる。\n\n現代英語では Greek myths（ギリシャ神話）・common myth（よくある誤解）・debunk a myth（俗説を否定する）のように文学・科学・教育の場で幅広く使われる。",
+      derivatives: [
+        { word: "mythology",    desc: "神話体系・神話学（名詞）" },
+        { word: "mythical",     desc: "神話上の・架空の（形容詞）" },
+        { word: "mythological", desc: "神話学の・神話に関する（形容詞）" }
+      ],
+      family: [
+        { word: "mythmaker",  desc: "神話を作る人・神話製造者" }
+      ],
+      compounds: [
+        { phrase: "Greek myths",      desc: "ギリシャ神話" },
+        { phrase: "debunk a myth",    desc: "俗説を否定する・神話を壊す" },
+        { phrase: "common myth",      desc: "よくある誤解・根強い俗信" }
+      ]
+    },
+
+    "notion": {
+      origin: "ラテン語 notio（認識・概念・考え方）< noscere（知る）< co-gnoscere の短縮形 + -tion（名詞接尾辞）。「知ることで生まれた考え方」が原義。recognize（認識する）・cognition（認知）と同根の noscere を含む。\n\n英語には14世紀に採用され、「概念・考え・漠然とした印象・意向」の意味で定着。哲学では「精神の中にある概念・観念」を指し、日常では「なんとなくそうだという感覚・考え」を指す比較的柔軟な語。\n\n現代英語では have a notion that（〜という考えを持つ）・popular notion（広く信じられている概念）・challenge the notion（概念に疑問を呈する）のように学術・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "notional",   desc: "概念上の・理論上の（形容詞）" },
+        { word: "notionally", desc: "概念的に（副詞）" }
+      ],
+      family: [
+        { word: "cognition",   desc: "認知（co+gnoscere）" },
+        { word: "recognize",   desc: "認識する（re+noscere）" },
+        { word: "notify",      desc: "知らせる（notus+facere）" },
+        { word: "notorious",   desc: "悪名高い（notus）" }
+      ],
+      compounds: [
+        { phrase: "popular notion",     desc: "広く信じられている概念" },
+        { phrase: "challenge the notion", desc: "概念に疑問を呈する" },
+        { phrase: "the notion that",    desc: "〜という考え・概念" }
+      ]
+    },
+
+    "premise": {
+      origin: "ラテン語 praemissa（前に置かれた命題）< praemittere（前に送る・前提として置く）< prae-（前に）+ mittere（送る）の過去分詞形 + -e（名詞化）。「論述の前に置かれる前提命題」が原義。\n\n英語には14世紀に法律・哲学用語として採用され、「前提・根拠・（建物の）敷地」の意味で定着。論理学では「三段論法の前提」として重要な概念語であり、法律では premises（敷地・物件）という複数形でも広く使われる。\n\n現代英語では the premise of the argument（論証の前提）・on the premise that（〜という前提で）・false premise（誤った前提）のように論理・学術・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "premised on",  desc: "〜を前提としている（形容詞句）" }
+      ],
+      family: [
+        { word: "commit",     desc: "誓約する（com+mittere）" },
+        { word: "omit",       desc: "省略する（ob+mittere）" },
+        { word: "mission",    desc: "使命（mittere）" },
+        { word: "transmit",   desc: "送信する（trans+mittere）" }
+      ],
+      compounds: [
+        { phrase: "the premise of the argument", desc: "論証の前提" },
+        { phrase: "on the premise that",         desc: "〜という前提で" },
+        { phrase: "false premise",               desc: "誤った前提・虚偽の大前提" }
+      ]
+    },
+
+    "scope": {
+      origin: "イタリア語 scopo（目的・標的）< ギリシャ語 skopos（観察者・的）< skopein（見る・調べる）。「見ること・見渡す範囲」が原義。telescope（遠くを見る器具）・microscope（微細なものを見る器具）・periscope（潜望鏡）と同根の skopein を含む。\n\n英語には16世紀に採用され、「範囲・余地・視野・機会」の意味で定着。科学・法律・プロジェクト管理（scope management）など「対象となる範囲・領域」を明確にする文脈で重要語として使われる。\n\n現代英語では scope of the project（プロジェクトの範囲）・scope for improvement（改善の余地）・beyond the scope of（〜の範囲を超えて）のようにプロジェクト管理・学術・日常で幅広く使われる。",
+      derivatives: [
+        { word: "telescope",   desc: "望遠鏡（tele+skopein）" },
+        { word: "microscope",  desc: "顕微鏡（mikros+skopein）" }
+      ],
+      family: [
+        { word: "telescope",   desc: "望遠鏡（tele+scope）" },
+        { word: "microscope",  desc: "顕微鏡（micro+scope）" },
+        { word: "periscope",   desc: "潜望鏡（peri+scope）" },
+        { word: "bishop",      desc: "司教（epi+skopein の転）" }
+      ],
+      compounds: [
+        { phrase: "scope of the project",   desc: "プロジェクトの範囲" },
+        { phrase: "scope for improvement",  desc: "改善の余地" },
+        { phrase: "beyond the scope of",    desc: "〜の範囲を超えて" }
+      ]
+    },
+
+    "tradition": {
+      origin: "ラテン語 traditio（手渡し・伝達・引き渡し）< tradere（手渡す・伝える）< trans-（超えて）+ dare（与える）+ -tion（名詞接尾辞）。「次の世代に手渡すこと・引き渡すこと」が原義。treason（裏切り）・traitor（裏切り者）とも同根で、「手渡す」行為の良悪両面を持つ語根。\n\n英語には14世紀に採用され、「慣習・伝統・伝説・神学的伝承」の意味で定着。宗教では「聖書に記されない口伝の教え」・文化では「世代を超えて受け継がれる慣習」として重要な概念語となっている。\n\n現代英語では cultural tradition（文化的伝統）・break with tradition（慣習を打ち破る）・oral tradition（口承・語り伝え）のように文化・宗教・社会の場で幅広く使われる。",
+      derivatives: [
+        { word: "traditional",    desc: "伝統的な（形容詞）" },
+        { word: "traditionally",  desc: "伝統的に（副詞）" },
+        { word: "traditionalist", desc: "伝統主義者（名詞）" }
+      ],
+      family: [
+        { word: "treason",    desc: "裏切り・反逆（tradere）" },
+        { word: "traitor",    desc: "裏切り者（tradere）" },
+        { word: "extradite",  desc: "犯人を引き渡す（ex+tradere）" }
+      ],
+      compounds: [
+        { phrase: "cultural tradition",   desc: "文化的伝統" },
+        { phrase: "break with tradition", desc: "慣習を打ち破る" },
+        { phrase: "oral tradition",       desc: "口承・語り伝え" }
+      ]
     }
 
   };

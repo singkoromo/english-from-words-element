@@ -13129,6 +13129,480 @@
         { phrase: "acronym for",       desc: "～の頭字語" },
         { phrase: "NATO acronym",      desc: "NATO のような頭字語" }
       ]
+    },
+
+    // ── Batch 28 ──────────────────────────────────────────────────────────
+
+    // cid/cad系（落ちる・起こる）
+    "accident": {
+      origin: "ラテン語 accidere（起こる・降りかかる）< ad-（～に）+ cadere（落ちる・起こる）。「予期しないことが降りかかる」という字義で、意図しない出来事・不慮の事故を意味する。cadere は「落下する・降りかかる」という語根で、incident・coincide・occasion などと同根。\n\n13世紀にフランス語 accident を経て英語に入り、accident（事故・偶然・偶発的出来事）として定着。哲学では「本質的ではない付随的性質（accident vs substance）」という意味でも使われてきた。\n\n現代英語では traffic accident（交通事故）・by accident（偶然に）・no accident（偶然ではない）のように日常的に使われる語で、\"It was no accident that...\"（～は偶然ではなかった）という表現が論説文で頻出。",
+      derivatives: [
+        { word: "accidental",   desc: "偶然の・意図しない（形容詞）" },
+        { word: "accidentally", desc: "偶然に・不意に（副詞）" }
+      ],
+      family: [
+        { word: "incident",   desc: "出来事・事件（in-+cadere）" },
+        { word: "coincide",   desc: "同時に起こる（co-+in-+cadere）" },
+        { word: "occasion",   desc: "機会・場合（ob-+cadere）" },
+        { word: "decay",      desc: "腐敗する・朽ちる（de-+cadere）" }
+      ],
+      compounds: [
+        { phrase: "traffic accident",   desc: "交通事故" },
+        { phrase: "by accident",        desc: "偶然に・うっかり" },
+        { phrase: "accident-prone",     desc: "事故を起こしやすい" }
+      ]
+    },
+
+    "incident": {
+      origin: "ラテン語 incidere（上に落ちる・起こる）< in-（上に）+ cadere（落ちる）の現在分詞 incidens。「何かの上に落ちかかる・事が起こる」という字義で、「事件・出来事」という意味に発展した。\n\n15世紀に英語に入り、incident（出来事・事件・事態）として定着。accident（事故）が否定的・意図しない出来事を指すのに対し、incident は「注目すべき出来事・外交上の問題」など広い出来事を指す。incidence（発生率）も重要な派生語。\n\n現代英語では diplomatic incident（外交的問題）・incident report（事案報告）・incidence rate（発生率）のように使われ、IT セキュリティでは incident response（インシデント対応）が重要な専門語。",
+      derivatives: [
+        { word: "incidental",   desc: "付随的な・偶発的な（形容詞）" },
+        { word: "incidentally",  desc: "ついでに・偶然にも（副詞）" },
+        { word: "incidence",    desc: "発生率・起こる頻度（名詞）" }
+      ],
+      family: [
+        { word: "accident",  desc: "事故・偶然（ad-+cadere）" },
+        { word: "coincide",  desc: "同時に起こる（co-）" },
+        { word: "occasion",  desc: "機会（ob-+cadere）" },
+        { word: "cascade",   desc: "滝のように落ちる（cadere）" }
+      ],
+      compounds: [
+        { phrase: "incident report",     desc: "事案報告書" },
+        { phrase: "diplomatic incident", desc: "外交的事件" },
+        { phrase: "incident response",   desc: "インシデント対応（IT）" }
+      ]
+    },
+
+    "coincide": {
+      origin: "ラテン語 coincidere（共に起こる・重なる）< co-（共に）+ incidere（起こる）< in-+cadere（落ちる）。「二つの事象が同じ場所・時間に落ち合う」という字義で、時間的・空間的な「重なり・一致」を意味する。\n\n17世紀に英語に入り、coincide（一致する・同時に起こる）として定着。「偶然の一致（coincidence）」という名詞形が特に重要で、日常会話で「それは偶然の一致ですね（What a coincidence!）」というような使い方が頻出。\n\n現代英語では coincide with（～と一致する・同時に起こる）・by coincidence（偶然に）・no coincidence（偶然ではない）のように使われる。統計・科学では「二つの結果・現象の一致」を指す技術語でもある。",
+      derivatives: [
+        { word: "coincidence",   desc: "偶然の一致・同時発生（名詞）" },
+        { word: "coincidental",  desc: "偶然の・同時発生の（形容詞）" }
+      ],
+      family: [
+        { word: "accident",  desc: "事故・偶然（ad-+cadere）" },
+        { word: "incident",  desc: "出来事（in-+cadere）" },
+        { word: "occasion",  desc: "機会（ob-+cadere）" }
+      ],
+      compounds: [
+        { phrase: "what a coincidence",   desc: "なんと偶然な" },
+        { phrase: "coincide with",        desc: "～と一致する・同時に起こる" },
+        { phrase: "by coincidence",       desc: "偶然に" }
+      ]
+    },
+
+    "occasion": {
+      origin: "ラテン語 occasio（好機・機会・原因）< occidere（落ちる・起こる）< ob-（前に・対して）+ cadere（落ちる）。「好機が目の前に落ちてくる」という字義が「機会・場合・出来事」という意味に発展した。\n\n13世紀にフランス語 occasion を経て英語に入り、occasion（機会・場合・特別な出来事）として定着。\"on occasion\"（時々）・\"on this occasion\"（この機会に）・\"occasional\"（時々の・臨時の）のような表現で広く使われる。\n\n現代英語では formal occasion（正式な場）・rise to the occasion（場に応じた力を発揮する）・on occasion（時々）のように使われ、occasion は英語の中で最も使用頻度の高い語の一つで多様な文脈に登場する。",
+      derivatives: [
+        { word: "occasional",   desc: "時々の・臨時の（形容詞）" },
+        { word: "occasionally", desc: "時々・たまに（副詞）" }
+      ],
+      family: [
+        { word: "accident",  desc: "事故（ad-+cadere）" },
+        { word: "incident",  desc: "出来事（in-+cadere）" },
+        { word: "coincide",  desc: "同時に起こる（co-）" },
+        { word: "decay",     desc: "朽ちる（de-+cadere）" }
+      ],
+      compounds: [
+        { phrase: "on occasion",          desc: "時々・場合によって" },
+        { phrase: "formal occasion",      desc: "正式な場・改まった場" },
+        { phrase: "rise to the occasion", desc: "場に応じた力を発揮する" }
+      ]
+    },
+
+    // sol/solu系（残り）
+    "absolute": {
+      origin: "ラテン語 absolutus（完全に解かれた・無条件の）< absolvere（解放する・完成させる）< ab-（から・完全に）+ solvere（解く）。「あらゆる条件や制限から完全に解かれた」という字義が「絶対的な・完全な」という意味に発展した。\n\n14世紀に英語に入り、absolute（絶対的な・完全な・無条件の）として定着。哲学では「条件なく存在する（the Absolute）」、数学では「絶対値（absolute value）」、文法では「独立的な（absolute clause）」として使われる多義語。\n\n現代英語では absolute power（絶対権力）・absolute truth（絶対的真実）・absolute zero（絶対零度）・absolutely（全く・その通り！）のように日常から科学まで幅広く使われる。",
+      derivatives: [
+        { word: "absolutely",   desc: "全く・絶対に・もちろん（副詞）" },
+        { word: "absolutism",   desc: "絶対主義（名詞）" }
+      ],
+      family: [
+        { word: "solve",     desc: "解く（solvere）" },
+        { word: "dissolve",  desc: "溶解する（dis-）" },
+        { word: "resolve",   desc: "解決する（re-）" },
+        { word: "absolution",desc: "赦免（ab-+solvere）" }
+      ],
+      compounds: [
+        { phrase: "absolute power",   desc: "絶対権力" },
+        { phrase: "absolute zero",    desc: "絶対零度" },
+        { phrase: "absolute value",   desc: "絶対値（数学）" }
+      ]
+    },
+
+    "obsolete": {
+      origin: "ラテン語 obsoletus（廃れた・使われなくなった）< obsolescere（古くなる・廃れていく）< ob-（対して・逆方向に）+ solere（慣れる・常用する）。「慣例から外れて使われなくなった」という字義。\n\n17世紀に英語に入り、obsolete（旧式の・時代遅れの・廃れた）として定着。技術・語彙・制度・生物の特徴など、かつて使われていたが今は使われなくなったものを表す語。特に technology の文脈で頻出。\n\n現代英語では rapidly becoming obsolete（急速に時代遅れになっている）・render something obsolete（何かを時代遅れにする）・obsolete technology（旧式技術）のように使われ、デジタル化・AI などの文脈で特に多用される語。",
+      derivatives: [
+        { word: "obsolescence",  desc: "旧式化・廃れること（名詞）" },
+        { word: "obsolescent",   desc: "廃れつつある（形容詞）" }
+      ],
+      family: [
+        { word: "absolute",  desc: "絶対的な（ab-+solvere）" },
+        { word: "solve",     desc: "解く（solvere）" }
+      ],
+      compounds: [
+        { phrase: "render obsolete",        desc: "時代遅れにする" },
+        { phrase: "planned obsolescence",   desc: "計画的陳腐化" },
+        { phrase: "obsolete technology",    desc: "旧式技術" }
+      ]
+    },
+
+    "dissolution": {
+      origin: "ラテン語 dissolutio（溶解・解体・解散）< dissolvere（完全に解く・ばらばらにする）< dis-（離れて）+ solvere（解く）。「結びついていたものが完全にばらばらになる」という字義で、物理的な溶解から組織・関係の解体まで広く使われる。\n\n14世紀に英語に入り、dissolution（溶解・解散・崩壊）として定着。化学では「溶解」、政治では「議会の解散（dissolution of parliament）」、法律では「会社の解散・婚姻の解消」として重要な専門語。\n\n現代英語では dissolution of parliament（議会解散）・dissolution of a company（会社清算）・dissolution of a marriage（婚姻解消）のように法律・政治の文脈でも頻出し、物理・化学での「液体への溶解」という意味でも使われる。",
+      derivatives: [
+        { word: "dissolve",  desc: "溶解する・解散する（動詞）" }
+      ],
+      family: [
+        { word: "solve",     desc: "解く（solvere）" },
+        { word: "resolve",   desc: "解決する（re-）" },
+        { word: "absolute",  desc: "絶対的な（ab-）" },
+        { word: "solution",  desc: "解決・溶液（solvere）" }
+      ],
+      compounds: [
+        { phrase: "dissolution of parliament", desc: "議会解散" },
+        { phrase: "dissolution of marriage",   desc: "婚姻解消" },
+        { phrase: "dissolution rate",          desc: "溶解速度" }
+      ]
+    },
+
+    // mut系
+    "mutual": {
+      origin: "ラテン語 mutuus（相互の・貸し借りの）< mutare（変える・交換する）。「二者が互いに変え合う・交換し合う」という字義から「相互の・共通の」という意味が発展した。\n\n15世紀に英語に入り、mutual（相互の・共通の・お互いの）として定着。mutual aid（相互扶助）・mutual understanding（相互理解）・mutual fund（投資信託）のように幅広い文脈で使われる。\n\n現代英語では the feeling is mutual（こちらも同じ気持ちです）・mutual respect（相互尊重）・mutual benefit（相互利益）のように人間関係・外交・ビジネスの文脈で多用され、a mutual friend（共通の友人）という表現も頻出。",
+      derivatives: [
+        { word: "mutually",    desc: "相互に・お互いに（副詞）" },
+        { word: "mutuality",   desc: "相互性（名詞）" }
+      ],
+      family: [
+        { word: "commute",      desc: "通勤する・変換する（com-+mutare）" },
+        { word: "permutation",  desc: "配列替え・順列（per-+mutare）" },
+        { word: "mutation",     desc: "突然変異・変化（mutare）" }
+      ],
+      compounds: [
+        { phrase: "mutual respect",      desc: "相互尊重" },
+        { phrase: "mutual fund",         desc: "投資信託" },
+        { phrase: "mutually exclusive",  desc: "相互排他的な" }
+      ]
+    },
+
+    "commute": {
+      origin: "ラテン語 commutare（完全に変える・交換する）< com-（完全に）+ mutare（変える）。「完全に取り替える」という字義から「通勤のための定期往復移動」「刑罰の軽減」という二つの主要な現代的意味が発展した。\n\n15世紀に英語に入り、commute（刑を軽減する・交換する）として定着。19世紀に鉄道の定期乗車券（commutation ticket）を使って定期的に往復する人を commuter と呼んだことから、「通勤する・定期往復する」という現代的な意味が確立した。\n\n現代英語では commute to work（職場に通勤する）・daily commute（毎日の通勤）・commuter train（通勤列車）のように使われる日常語。また法律では commute a death sentence（死刑判決を減刑する）という重要な用法もある。",
+      derivatives: [
+        { word: "commuter",      desc: "通勤者（名詞）" },
+        { word: "commutation",   desc: "交換・減刑・定期通勤（名詞）" }
+      ],
+      family: [
+        { word: "mutual",       desc: "相互の（mutare）" },
+        { word: "permutation",  desc: "順列（per-+mutare）" },
+        { word: "mutation",     desc: "変異（mutare）" }
+      ],
+      compounds: [
+        { phrase: "daily commute",    desc: "毎日の通勤" },
+        { phrase: "commuter train",   desc: "通勤電車" },
+        { phrase: "commute a sentence",desc: "刑を減刑する" }
+      ]
+    },
+
+    "permutation": {
+      origin: "ラテン語 permutatio（完全な交換・入れ替え）< permutare（完全に入れ替える）< per-（完全に）+ mutare（変える）。「すべてを完全に入れ替える」という字義から、数学・言語学・組合せ論における「配列の全通りの変え方」という意味が確立した。\n\n14世紀に英語に入り、permutation（入れ替え・配列替え・順列）として定着。数学では「n 個のものから r 個を選んで並べる方法の数」という厳密な定義をもつ技術語。組み合わせ論（combinatorics）の中核概念。\n\n現代英語では mathematical permutation（数学的順列）だけでなく、various permutations of the idea（アイデアのさまざまなバリエーション）のように「考えられるすべての変形・組み合わせ」という比喩的意味でも使われる。",
+      derivatives: [
+        { word: "permute",  desc: "順列を作る・配置替えする（動詞）" }
+      ],
+      family: [
+        { word: "mutual",    desc: "相互の（mutare）" },
+        { word: "commute",   desc: "通勤する（com-+mutare）" },
+        { word: "mutation",  desc: "突然変異（mutare）" }
+      ],
+      compounds: [
+        { phrase: "mathematical permutation",  desc: "数学的順列" },
+        { phrase: "all permutations",          desc: "すべての配列・すべての組み合わせ" },
+        { phrase: "permutation test",          desc: "並べ替え検定（統計）" }
+      ]
+    },
+
+    // chron系（残り）
+    "chronicle": {
+      origin: "ギリシャ語 chronika（年代記）< chronos（時間）。「時間の流れに沿って記録されたもの」という字義で、出来事を時系列で記録した歴史書を指す。chronology・chronological などと同根。\n\n13世紀に英語に入り、chronicle（年代記・記録する）として定着。中世の修道院では chronicle が歴史記述の中心的な形式で、Anglo-Saxon Chronicle（アングロサクソン年代記）が著名。動詞としては「詳細に記録する」という意味で使われる。\n\n現代英語では chronicle a journey（旅を記録する）・a chronicle of events（出来事の記録）のように使われ、映画・ゲームのタイトル（e.g. Final Fantasy Chronicles）や「人生の記録」という比喩的意味でも頻繁に登場する。",
+      derivatives: [
+        { word: "chronicler",  desc: "年代記作者・記録者（名詞）" },
+        { word: "chronical",   desc: "年代記の（形容詞、稀）" }
+      ],
+      family: [
+        { word: "chronology",    desc: "年代学・時系列（chronos）" },
+        { word: "synchronize",   desc: "同期する（syn-+chronos）" },
+        { word: "anachronism",   desc: "時代錯誤（ana-+chronos）" },
+        { word: "contemporary",  desc: "同時代の（con-+tempus）" }
+      ],
+      compounds: [
+        { phrase: "chronicle events",   desc: "出来事を記録する" },
+        { phrase: "a chronicle of",     desc: "～の記録" },
+        { phrase: "historical chronicle",desc: "歴史年代記" }
+      ]
+    },
+
+    "anachronism": {
+      origin: "ギリシャ語 anachronismos（時代を間違えること）< ana-（逆方向に・後ろへ）+ chronos（時間）。「時間の流れに逆らう・時代に合わないもの」という字義で、ある時代に属さないものが別の時代に存在することを指す。\n\n17世紀に英語に入り、anachronism（時代錯誤・時代に合わないもの）として定着。歴史小説・映画での「時代考証の誤り（ローマ時代の映画に腕時計が映り込む）」を指す批評用語として重要。\n\n現代英語では The fax machine is an anachronism in the age of email.（ファックスはメール時代の時代錯誤だ）のように「時代遅れのもの」という批判的な意味で使われ、anachronistic（時代錯誤の）という形容詞も頻出。",
+      derivatives: [
+        { word: "anachronistic",  desc: "時代錯誤の（形容詞）" }
+      ],
+      family: [
+        { word: "chronology",  desc: "年代学（chronos）" },
+        { word: "chronicle",   desc: "年代記（chronos）" },
+        { word: "synchronize", desc: "同期する（syn-+chronos）" }
+      ],
+      compounds: [
+        { phrase: "historical anachronism",  desc: "歴史的な時代錯誤" },
+        { phrase: "cultural anachronism",    desc: "文化的時代錯誤" },
+        { phrase: "anachronistic attitude",  desc: "時代錯誤な態度" }
+      ]
+    },
+
+    // tend/tent系（残り）
+    "contend": {
+      origin: "ラテン語 contendere（競い合う・張り合う・主張する）< con-（共に・強く）+ tendere（張る・伸ばす）。tendere は「張る・努力する」という語根で、intend・extend・attend・pretend などと同根。「強く張り合う・主張する」という字義。\n\n14世紀に英語に入り、contend（競争する・争う・主張する）として定着。contend with（～と格闘する・～に対処する）という句動詞が特に重要で、「困難に対処する」という意味で頻出する。\n\n現代英語では contend for the title（タイトルを争う）・contend that（～だと主張する）・contend with difficulties（困難に対処する）のように競争・議論・対処の三文脈で使われる多義語。",
+      derivatives: [
+        { word: "contention",   desc: "主張・競争・論争（名詞）" },
+        { word: "contentious",  desc: "論争的な・口論好きな（形容詞）" },
+        { word: "contender",    desc: "競争者・挑戦者（名詞）" }
+      ],
+      family: [
+        { word: "intend",    desc: "意図する（in-+tendere）" },
+        { word: "extend",    desc: "伸ばす（ex-+tendere）" },
+        { word: "attend",    desc: "出席する（ad-+tendere）" },
+        { word: "pretend",   desc: "ふりをする（pre-+tendere）" }
+      ],
+      compounds: [
+        { phrase: "contend for",         desc: "～を争う・～を求めて競う" },
+        { phrase: "contend with",        desc: "～と格闘する・対処する" },
+        { phrase: "bone of contention",  desc: "争いのタネ・争点" }
+      ]
+    },
+
+    "intent": {
+      origin: "ラテン語 intentus（ある方向に向けられた・集中した）< intendere（～に向ける）< in-（～に）+ tendere（張る・向ける）。「精神をある方向に張り向けている状態」という字義から「意図・目的・熱心な」という意味が発展した。\n\n13世紀に英語に入り、intent（意図・目的・熱心な）として定着。法律では「犯意（criminal intent）」が重要な概念で、過失（negligence）と故意（intent）の区別が刑事責任に影響する。\n\n現代英語では with intent to harm（傷つける意図をもって）・intent on success（成功に熱心な）・to all intents and purposes（あらゆる意味で・事実上）のように使われる。",
+      derivatives: [
+        { word: "intention",    desc: "意図・目的（名詞）" },
+        { word: "intentional",  desc: "意図的な（形容詞）" },
+        { word: "intentionally",desc: "故意に（副詞）" }
+      ],
+      family: [
+        { word: "intend",    desc: "意図する（in-+tendere）" },
+        { word: "contend",   desc: "競争する（con-+tendere）" },
+        { word: "extend",    desc: "伸ばす（ex-+tendere）" },
+        { word: "tension",   desc: "緊張（tendere）" }
+      ],
+      compounds: [
+        { phrase: "criminal intent",                desc: "犯意・犯罪意図" },
+        { phrase: "intent on",                      desc: "～に熱心な・～に集中した" },
+        { phrase: "to all intents and purposes",    desc: "事実上・あらゆる意味で" }
+      ]
+    },
+
+    // spec残り
+    "spectator": {
+      origin: "ラテン語 spectator（見る人・見物人）< spectare（見る・観察する）< specere（見る）の反復動詞形。specere は「見る」という語根で、spectacle・inspect・expect・suspect などと同根。「見物する人」という字義。\n\n16世紀に英語に入り、spectator（観客・見物人・傍観者）として定着。スポーツ・演劇・社会問題において「参加せずに観察する人」を指し、active participant（能動的な参加者）との対比で使われることが多い。\n\n現代英語では spectator sport（見物するスポーツ）・spectator seats（観客席）・mere spectator（傍観者にすぎない）のように使われ、\"Spectator\"は英国の著名な政治・文化評論誌の名前でもある。",
+      derivatives: [
+        { word: "spectatorship",  desc: "観客であること・見物（名詞）" }
+      ],
+      family: [
+        { word: "spectacle",   desc: "見世物・眼鏡（specere）" },
+        { word: "speculate",   desc: "推測する（specere）" },
+        { word: "inspect",     desc: "検査する（in-+specere）" },
+        { word: "prospect",    desc: "見通し（pro-+specere）" }
+      ],
+      compounds: [
+        { phrase: "spectator sport",   desc: "観客を集めるスポーツ" },
+        { phrase: "spectator seats",   desc: "観客席" },
+        { phrase: "mere spectator",    desc: "ただの傍観者" }
+      ]
+    },
+
+    "spectacular": {
+      origin: "ラテン語 spectaculum（見世物・劇場）< spectare（見る）に -ar（形容詞語尾）を加えた語。「見世物として壮大・印象的な」という字義から「目を見張るほど壮大な・華麗な」という意味が発展した。\n\n17世紀に英語に入り、spectacular（目を見張るような・壮観な）として定着。形容詞「壮大な・華麗な（spectacular view）」と名詞「大規模な演出・スペクタクル（a television spectacular）」の両用法がある。\n\n現代英語では spectacular scenery（壮観な景色）・spectacular performance（見事な演技）・spectacular failure（劇的な失敗）のように使われ、映画・スポーツ・自然の文脈で特に頻出する語。",
+      derivatives: [
+        { word: "spectacularly",  desc: "目を見張るほど・壮大に（副詞）" }
+      ],
+      family: [
+        { word: "spectacle",   desc: "見世物・眼鏡（specere）" },
+        { word: "spectator",   desc: "観客（specere）" },
+        { word: "speculate",   desc: "推測する（specere）" },
+        { word: "inspect",     desc: "検査する（in-+specere）" }
+      ],
+      compounds: [
+        { phrase: "spectacular view",     desc: "壮観な眺め" },
+        { phrase: "spectacular success",  desc: "目覚ましい成功" },
+        { phrase: "spectacular failure",  desc: "劇的な失敗" }
+      ]
+    },
+
+    // frag/fract系（残り）
+    "fraction": {
+      origin: "ラテン語 fractio（割ること・破片）< frangere（折る・砕く）の過去分詞 fractus + -io。「全体を折って割り取った部分」という字義で、数学では「整数でない部分」を指し、日常語では「ごく一部」を意味する。\n\n13世紀に英語に入り、fraction（分数・ほんの一部）として定着。数学では numerator/denominator（分子/分母）からなる分数を指し、a fraction of the cost（費用のほんの一部）のように「ごく少量」という意味でも頻繁に使われる。\n\n現代英語では a fraction of a second（一秒のほんの一部）・in fractions（分数で）・fractional reserve banking（部分準備制度）のように科学・日常・金融の文脈で使われる語。oil refinery の fractionation（分留）も重要。",
+      derivatives: [
+        { word: "fractional",   desc: "分数の・わずかな（形容詞）" },
+        { word: "fractionally", desc: "わずかに（副詞）" }
+      ],
+      family: [
+        { word: "fracture",   desc: "骨折・亀裂（frangere）" },
+        { word: "fragment",   desc: "断片（frangere）" },
+        { word: "fragile",    desc: "壊れやすい（frangere）" },
+        { word: "refract",    desc: "屈折させる（re-+frangere）" }
+      ],
+      compounds: [
+        { phrase: "a fraction of",    desc: "～のほんの一部" },
+        { phrase: "common fraction",  desc: "普通分数" },
+        { phrase: "fraction of a second", desc: "一秒のほんの一部" }
+      ]
+    },
+
+    // cap/capit系
+    "capital": {
+      origin: "ラテン語 capitalis（頭の・主要な・命にかかわる）< caput（頭）。「頭・最上部・最重要のもの」という字義で、都市・財産・文字・刑罰の多義性を生み出した。\n\n13世紀に英語に入り、capital（首都・資本・大文字・死刑の）として定着。「国の頭」として首都、「財産の最重要部分」として資本、「頭文字（capital letter）」として大文字、「頭（命）に関わる（capital crime）」として死刑相当の、という多義語。\n\n現代英語では capital city（首都）・capital punishment（死刑）・capital investment（資本投資）・capital letter（大文字）と多分野にわたる語で、capitalism（資本主義）という社会経済システムの名称にもなっている。",
+      derivatives: [
+        { word: "capitalism",   desc: "資本主義（名詞）" },
+        { word: "capitalize",   desc: "大文字で書く・活用する（動詞）" },
+        { word: "capitalist",   desc: "資本家（名詞）" }
+      ],
+      family: [
+        { word: "captain",  desc: "船長・主将（caput）" },
+        { word: "chapter",  desc: "章・組織（caput）" },
+        { word: "chief",    desc: "長・主要な（caput系）" },
+        { word: "cadet",    desc: "士官候補生（caput）" }
+      ],
+      compounds: [
+        { phrase: "capital city",        desc: "首都" },
+        { phrase: "capital punishment",  desc: "死刑" },
+        { phrase: "capital letter",      desc: "大文字" }
+      ]
+    },
+
+    "captain": {
+      origin: "ラテン語 capitaneus（頭・リーダー）< caput（頭）< caput の派生形。「集団の頭となる人」という字義で、軍・船・スポーツチームのリーダーを指す。\n\n14世紀にフランス語 capitaine を経て英語に入り、captain（船長・艦長・キャプテン・大尉）として定着。軍隊では「大尉（Captain）」という階級名、航空・海事では「機長・船長」、スポーツでは「チームの主将」として使われる。\n\n現代英語では captain of the ship（船長）・team captain（チームキャプテン）・Captain of Industry（産業の大物）・captain a team（チームを率いる）のように動詞でも使われる多用途な語。",
+      derivatives: [
+        { word: "captaincy",  desc: "主将の地位・艦長の任期（名詞）" }
+      ],
+      family: [
+        { word: "capital",  desc: "首都・資本（caput）" },
+        { word: "chapter",  desc: "章（caput）" },
+        { word: "chief",    desc: "長・主要な（caput系）" }
+      ],
+      compounds: [
+        { phrase: "team captain",      desc: "チームキャプテン・主将" },
+        { phrase: "captain a team",    desc: "チームを率いる" },
+        { phrase: "sea captain",       desc: "船長" }
+      ]
+    },
+
+    "chapter": {
+      origin: "ラテン語 capitulum（小さな頭・章）< caput（頭）の指小語。「書物の各部分の『頭』（冒頭部分）」という字義から「章・節」という意味が発展し、さらに「特定のテーマに関する節・段階」という意味に広がった。\n\n13世紀にフランス語 chapitre を経て英語に入り、chapter（章・支部・段階）として定着。書籍の「章」として、また「一つの人生の章（a new chapter in life）」という比喩として、さらに組織の「支部（a local chapter）」として使われる多義語。\n\n現代英語では chapter one of the book（本の第一章）・open a new chapter（新たな章を開く）・local chapter（地方支部）・chapter 11 bankruptcy（米国の会社更生法）のように多分野で使われる。",
+      derivatives: [
+        { word: "chapterhouse",  desc: "会議室（宗教建築）" }
+      ],
+      family: [
+        { word: "capital",  desc: "首都・資本（caput）" },
+        { word: "captain",  desc: "船長・主将（caput）" },
+        { word: "chief",    desc: "長・主要な（caput系）" }
+      ],
+      compounds: [
+        { phrase: "chapter one",        desc: "第一章" },
+        { phrase: "new chapter",        desc: "新たな章・新展開" },
+        { phrase: "chapter 11",         desc: "会社更生（米国破産法）" }
+      ]
+    },
+
+    // cord系（残り）
+    "discord": {
+      origin: "ラテン語 discordia（不和・不調和）< discors（心が合わない）< dis-（離れて・対立して）+ cor/cordis（心）。「心が離れ合った状態」という字義で、人々の間の「不和・争い・不調和」を意味する。\n\n13世紀にフランス語 discorde を経て英語に入り、discord（不和・不調和・不協和音）として定着。音楽では「不協和音（musical discord）」として重要な技術語で、調和（harmony・concord）と対をなす概念。\n\n現代英語では sow discord（不和をまき散らす）・family discord（家族の不和）・racial discord（人種間の対立）のように使われ、音楽では discordant note（不協和音）として登場する。プロジェクト名「Discord」にも使われた。",
+      derivatives: [
+        { word: "discordant",   desc: "不調和な・不和の（形容詞）" },
+        { word: "discordance",  desc: "不調和・不一致（名詞）" }
+      ],
+      family: [
+        { word: "concord",   desc: "和合・一致（con-+cor）" },
+        { word: "accord",    desc: "一致する（ad-+cor）" },
+        { word: "cordial",   desc: "心からの（cor）" },
+        { word: "courage",   desc: "勇気（cor）" }
+      ],
+      compounds: [
+        { phrase: "sow discord",    desc: "不和をまき散らす" },
+        { phrase: "racial discord", desc: "人種間の対立" },
+        { phrase: "discordant note",desc: "不協和音・場違いな発言" }
+      ]
+    },
+
+    // val系（残り）
+    "valor": {
+      origin: "ラテン語 valor（価値・勇気・力）< valere（強い・価値がある）。「強さ・力・勇気」という意味で、特に戦場での「武勇・勇敢さ」を指す語として使われてきた。value・valid・equivalent などと同根。\n\n13世紀にフランス語 valeur（価値・勇気）を経て英語に入り、valor（勇敢さ・武勇）として定着。主に軍事的文脈で「戦場での勇気ある行動」を指す文語・格調高い語として使われ、valor award（武勇勲章）・medal for valor（武功賞）などに登場する。\n\n現代英語では valor は主に文語・公式文体で使われ（英国英語では valour）、日常語では courage や bravery が一般的。\"Discretion is the better part of valor\"（臆病も時に賢明）という格言でも有名。",
+      derivatives: [
+        { word: "valorous",  desc: "武勇のある・勇敢な（形容詞）" },
+        { word: "valiant",   desc: "勇敢な（形容詞）" }
+      ],
+      family: [
+        { word: "value",      desc: "価値（valere）" },
+        { word: "valid",      desc: "有効な（valere）" },
+        { word: "evaluate",   desc: "評価する（e-+valere）" },
+        { word: "equivalent", desc: "同等の（aequi-+valere）" }
+      ],
+      compounds: [
+        { phrase: "medal for valor",    desc: "武功賞・武勇勲章" },
+        { phrase: "act of valor",       desc: "勇敢な行為" },
+        { phrase: "valor in battle",    desc: "戦場での武勇" }
+      ]
+    },
+
+    "prevalent": {
+      origin: "ラテン語 praevalere（より強い・優勢である）の現在分詞 praevalens < prae-（前に・より優れた）+ valere（強い・力がある）。「他より優れた力を持って広まっている」という字義から「広く行き渡っている・一般的な」という意味が発展した。\n\n17世紀に英語に入り、prevalent（広く行き渡っている・流行している）として定着。医学・社会学では「ある地域や集団における現象の広がり（prevalence）」を表す重要な技術語として頻出。\n\n現代英語では prevalent disease（流行病）・prevalent attitude（広く行き渡った態度）・prevalence rate（有病率・蔓延率）のように医学・社会科学の文脈で特に重要で、pandemic の文脈では常に登場する語。",
+      derivatives: [
+        { word: "prevalence",    desc: "普及率・有病率・蔓延（名詞）" },
+        { word: "prevalently",   desc: "広く（副詞）" }
+      ],
+      family: [
+        { word: "valor",      desc: "勇気・武勇（valere）" },
+        { word: "value",      desc: "価値（valere）" },
+        { word: "valid",      desc: "有効な（valere）" },
+        { word: "equivalent", desc: "同等の（valere）" }
+      ],
+      compounds: [
+        { phrase: "prevalent disease",     desc: "広く蔓延した病気" },
+        { phrase: "prevalence rate",       desc: "有病率・蔓延率" },
+        { phrase: "increasingly prevalent",desc: "ますます広まっている" }
+      ]
+    },
+
+    // 重要学術語
+    "resilience": {
+      origin: "ラテン語 resilire（跳ね返る・縮む）< re-（戻って）+ salire（跳ぶ）。「圧力を受けても元の形に跳ね返る」という字義から「回復力・弾性・精神的強さ」という意味が発展した。\n\n17世紀に英語に入り、resilience（弾性・回復力）として定着。材料科学では「弾性率・衝撃回復能力」を指し、心理学では「逆境から立ち直る力」という意味で20世紀後半から重要概念として広まった。\n\n現代英語では build resilience（回復力を高める）・psychological resilience（精神的回復力）・economic resilience（経済的回復力）のように心理・経済・材料科学の文脈で頻出し、COVID-19 後の「レジリエンス（強靭性）」という概念が社会・政策論で重要語となった。",
+      derivatives: [
+        { word: "resilient",   desc: "回復力のある・弾力性のある（形容詞）" },
+        { word: "resiliently", desc: "粘り強く（副詞）" }
+      ],
+      family: [
+        { word: "result",    desc: "結果・はね返り（re-+salire）" },
+        { word: "insult",    desc: "侮辱する（in-+salire）" },
+        { word: "assault",   desc: "暴行（ad-+salire）" }
+      ],
+      compounds: [
+        { phrase: "build resilience",          desc: "回復力を高める" },
+        { phrase: "psychological resilience",  desc: "精神的回復力" },
+        { phrase: "resilient supply chain",    desc: "強靭なサプライチェーン" }
+      ]
+    },
+
+    "pragmatic": {
+      origin: "ギリシャ語 pragmatikos（行動・仕事に関する）< pragma（行為・事実）< prassein（行う）。「実際の行為・事実に関わる」という字義から「実用的・実際主義的な」という意味が発展した。\n\n17世紀に英語に入り、pragmatic（実際的な・実用主義的な）として定着。哲学では19世紀末のアメリカで William James・John Dewey らが「プラグマティズム（pragmatism）」を確立し、「真理は実際の有用性で判断される」という哲学流派の名称となった。\n\n現代英語では pragmatic approach（実用的なアプローチ）・pragmatic solution（現実的な解決策）・pragmatic thinking（実際主義的な考え方）のように「理想よりも現実を重視する」という文脈でビジネス・政治・日常で広く使われる。",
+      derivatives: [
+        { word: "pragmatism",   desc: "プラグマティズム・実用主義（名詞）" },
+        { word: "pragmatist",   desc: "実用主義者（名詞）" },
+        { word: "pragmatically",desc: "実用的に（副詞）" }
+      ],
+      family: [
+        { word: "practice",  desc: "練習・慣行（prassein）" },
+        { word: "practical", desc: "実際的な（prassein）" }
+      ],
+      compounds: [
+        { phrase: "pragmatic approach",    desc: "実用的なアプローチ" },
+        { phrase: "pragmatic solution",    desc: "現実的な解決策" },
+        { phrase: "pragmatic compromise",  desc: "現実的な妥協" }
+      ]
     }
 
   };

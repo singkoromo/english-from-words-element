@@ -23413,6 +23413,531 @@
         { phrase: "bask in glory", desc: "栄光に浸る" },
         { phrase: "morning glory", desc: "朝顔（植物名）" }
       ]
+    },
+
+    "inherit": {
+      origin: "ラテン語 inheritare（相続させる）< in-（中に）+ hereditare（遺産を与える）< heres（相続人）。heredity（遺伝）・heritage（遺産）・heir（相続人）と同根で、次の世代に引き継ぐが原義。\n\n英語には14世紀に採用され、まず法律用語として財産・称号の相続を指した。16世紀以降に遺伝的形質や文化的伝統を受け継ぐという比喩的意味が広まり、biology・gene学での用法が20世紀に確立した。\n\n現代英語ではinherit a fortune（財産を相続する）・inherit a gene（遺伝子を受け継ぐ）・inherit the problem（問題を引き継ぐ）のように、法律・生物学・組織管理の重要語として機能する。",
+      derivatives: [
+        { word: "inheritance",  desc: "相続・遺産・遺伝（名詞）" },
+        { word: "inheritor",    desc: "相続人（名詞）" },
+        { word: "inherent",     desc: "固有の・生まれつきの（形容詞）" }
+      ],
+      family: [
+        { word: "heritage",  desc: "遺産・伝統（heres）" },
+        { word: "heredity",  desc: "遺伝（heres）" },
+        { word: "heir",      desc: "相続人（heres）" }
+      ],
+      compounds: [
+        { phrase: "inherit a fortune",   desc: "財産を相続する" },
+        { phrase: "genetic inheritance", desc: "遺伝的継承" },
+        { phrase: "cultural inheritance", desc: "文化的遺産" }
+      ]
+    },
+
+    "interest": {
+      origin: "ラテン語 interesse（〜の間にある・関わる）< inter-（間に）+ esse（ある・存在する）。「当事者として関わる」が原義で、inter（〜の間に）とesse（ある）の組み合わせから「関係・利害関係」の意味が生まれた。\n\n英語には15世紀に法律用語として採用され、金融・法律の interest（利息・利益）の意味が先行した。17世紀以降に「知的好奇心・関心」という心理的意味が主流となり、18〜19世紀に現代的用法が定着した。\n\n現代英語ではrate of interest（利率）・show interest in（〜に関心を示す）・conflict of interest（利益相反）のように、金融・心理・法律の幅広い文脈で使われる多義的な核心語である。",
+      derivatives: [
+        { word: "interested",    desc: "興味を持った（形容詞）" },
+        { word: "interesting",   desc: "面白い・興味深い（形容詞）" },
+        { word: "disinterested", desc: "利害関係のない・公平な（形容詞）" }
+      ],
+      family: [
+        { word: "essence",    desc: "本質（esse）" },
+        { word: "present",    desc: "存在する・現在の（esse）" },
+        { word: "represent",  desc: "代表する（re+esse）" }
+      ],
+      compounds: [
+        { phrase: "rate of interest",    desc: "利率" },
+        { phrase: "conflict of interest", desc: "利益相反" },
+        { phrase: "vested interest",     desc: "既得権益" }
+      ]
+    },
+
+    "internal": {
+      origin: "ラテン語 internus（内側の）< inter（〜の間に・内部に）< in（中に）の強調形。external（外部の）との対比が語の核心で、intestine（腸）・intern（インターン）と同根の inter- から派生する。\n\n英語には17世紀にフランス語 interne を経て採用され、external（外部の）と対を成す語として医学・哲学・法律の語彙に定着した。internal affairs（内政）という政治語彙が18世紀以降に重要性を持ち、現代の組織管理でも核心語となっている。\n\n現代英語ではinternal affairs（内政・内部問題）・internal bleeding（内出血）・internal audit（内部監査）のように、医療・政治・経営の「内側」を指す形容詞として機能する。",
+      derivatives: [
+        { word: "internally",    desc: "内部から・内側に（副詞）" },
+        { word: "internalize",   desc: "内面化する・体得する（動詞）" }
+      ],
+      family: [
+        { word: "external",   desc: "外部の（exter）" },
+        { word: "interior",   desc: "内部・室内（inter）" },
+        { word: "intestine",  desc: "腸・内部の（inter）" }
+      ],
+      compounds: [
+        { phrase: "internal affairs",  desc: "内政・内部問題" },
+        { phrase: "internal bleeding", desc: "内出血" },
+        { phrase: "internal audit",    desc: "内部監査" }
+      ]
+    },
+
+    "interpret": {
+      origin: "ラテン語 interpretari（説明する・翻訳する）< interpres（仲介者・通訳）< inter-（間に）+ 語根 pret-（評価する・取引する）。price（価格）・appreciate（評価する）と遠縁で、「二者の間に立って意味を取り引きする」が原義。\n\n英語には14世紀にフランス語 interpreter を経て採用され、「神の言葉・夢・法律を解釈する」の意味で使われた。言語学・音楽・法律・心理学でそれぞれ重要な専門的用法が発展した。\n\n現代英語ではinterpret a law（法律を解釈する）・interpret a poem（詩を読み解く）・simultaneous interpretation（同時通訳）のように、翻訳・解釈・演奏の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "interpretation",   desc: "解釈・通訳・演奏（名詞）" },
+        { word: "interpreter",      desc: "通訳者・解釈者（名詞）" },
+        { word: "misinterpret",     desc: "誤解する（mis+interpret）" }
+      ],
+      family: [
+        { word: "price",      desc: "価格（pret- と同根）" },
+        { word: "appreciate",  desc: "評価する・感謝する（ad+pretium）" },
+        { word: "enterprise",  desc: "企業・意欲（inter+prise）" }
+      ],
+      compounds: [
+        { phrase: "simultaneous interpretation", desc: "同時通訳" },
+        { phrase: "interpret a law",             desc: "法律を解釈する" },
+        { phrase: "open to interpretation",      desc: "解釈の余地がある" }
+      ]
+    },
+
+    "invest": {
+      origin: "ラテン語 investire（衣をまとわせる・授ける）< in-（中に）+ vestire（衣を着せる）< vestis（衣服）。vest（ベスト・チョッキ）・vestment（祭服）・divest（剥奪する）と同根で、「価値のあるものを纏わせる・委ねる」が原義。\n\n英語には16世紀に「権威・地位を与える」の意で採用され、17世紀以降に「資金を事業・証券に委ねる」という金融的意味が主流となった。invest oneself in（全力を注ぐ）という情熱的な比喩表現も定着している。\n\n現代英語ではinvest in stocks（株式に投資する）・invest time in（時間を注ぐ）・return on investment（投資収益率）のように、金融・個人の努力配分・長期的コミットメントの文脈で幅広く使われる。",
+      derivatives: [
+        { word: "investment",   desc: "投資・出資（名詞）" },
+        { word: "investor",     desc: "投資家（名詞）" },
+        { word: "divestment",   desc: "資産売却・権剥奪（名詞）" }
+      ],
+      family: [
+        { word: "vest",       desc: "チョッキ・権利を与える（vestis）" },
+        { word: "vestment",   desc: "祭服（vestire）" },
+        { word: "divest",     desc: "剥奪する・売却する（di+vestire）" }
+      ],
+      compounds: [
+        { phrase: "invest in stocks",       desc: "株式に投資する" },
+        { phrase: "return on investment",   desc: "投資収益率（ROI）" },
+        { phrase: "foreign direct investment", desc: "外国直接投資（FDI）" }
+      ]
+    },
+
+    "journal": {
+      origin: "フランス語 journal（日刊紙・日誌）< 古フランス語 jornal（一日分）< ラテン語 diurnalis（日々の）< dies（日・昼間）。diary（日記）・diurnal（昼間の）・journey（旅・一日の行程）と同根で、「一日単位で記録するもの」が原義。\n\n英語には14世紀に「礼拝の日課書」の意味で採用され、17世紀以降に「定期刊行物・日誌」の意味が広まった。journalism（ジャーナリズム）・journalist（記者）という語族が19世紀のメディア産業の発展とともに重要語となった。\n\n現代英語ではmedical journal（医学雑誌）・keep a journal（日誌をつける）・academic journal（学術誌）のように、メディア・研究・自己記録の語彙として機能する。",
+      derivatives: [
+        { word: "journalism",   desc: "ジャーナリズム・報道業（名詞）" },
+        { word: "journalist",   desc: "記者・ジャーナリスト（名詞）" },
+        { word: "journalize",   desc: "仕訳する（会計用語）" }
+      ],
+      family: [
+        { word: "journey",   desc: "旅・一日の行程（dies）" },
+        { word: "diary",     desc: "日記（dies）" },
+        { word: "diurnal",   desc: "昼間の・日々の（dies）" }
+      ],
+      compounds: [
+        { phrase: "academic journal",  desc: "学術誌" },
+        { phrase: "keep a journal",    desc: "日誌をつける" },
+        { phrase: "Wall Street Journal", desc: "ウォール・ストリート・ジャーナル（紙名）" }
+      ]
+    },
+
+    "judge": {
+      origin: "ラテン語 iudicare（裁く・判定する）< iudex（裁判官）< ius（法・権利）+ dicere（言う・判定する）。justice（正義）・jurisdiction（管轄）・judicial（司法の）・indicate（示す）と同根で、「法に基づいて言い渡す」が原義。\n\n英語には13世紀にフランス語 jugier を経て採用され、まず法廷での裁判を指した。宗教的文脈では「神の裁き」の意味で使われ、日常語としては「評価・批判する」の意味が17世紀以降に広まった。\n\n現代英語ではjudge a case（事件を裁く）・judge a competition（コンテストを審査する）・don't judge a book by its cover（外見で判断するな）のように、法律・評価・道徳の幅広い文脈で使われる。",
+      derivatives: [
+        { word: "judgment",    desc: "判決・判断・審判（名詞）" },
+        { word: "judicial",    desc: "司法の・裁判の（形容詞）" },
+        { word: "misjudge",    desc: "誤って判断する（mis+judge）" }
+      ],
+      family: [
+        { word: "justice",      desc: "正義・司法（ius）" },
+        { word: "jurisdiction", desc: "管轄・司法権（ius+dicere）" },
+        { word: "prejudice",    desc: "偏見（pre+ius）" }
+      ],
+      compounds: [
+        { phrase: "judge a case",   desc: "事件を裁く" },
+        { phrase: "pass judgment",  desc: "判決を下す・批判する" },
+        { phrase: "judgment call",  desc: "状況判断が必要な決断" }
+      ]
+    },
+
+    "layer": {
+      origin: "中英語 layer（層を作る人・横たわるもの）< lay（横たえる）< 古英語 lecgan（置く・横たえる）。lie（横たわる）・ledge（棚・岩棚）・litter（散らかす）と同根で、「水平に広がって横たわるもの」が原義。\n\n英語には14世紀に「横になっているもの・積み重なった一枚」の意味で使われ、地質学（geological layer）・絵画（layer of paint）・衣類（dress in layers）・コンピューター科学（network layer）など多方面に用法が広がった。\n\n現代英語ではozone layer（オゾン層）・social layers（社会層）・layer of complexity（複雑さの層）のように、物質的・抽象的に「重なった階層」を表す重要語として機能する。",
+      derivatives: [
+        { word: "layered",   desc: "層を成した・重層的な（形容詞）" },
+        { word: "overlay",   desc: "重ねる・上塗りする（動詞）" },
+        { word: "underlay",  desc: "下に敷く（動詞）" }
+      ],
+      family: [
+        { word: "lie",     desc: "横たわる（古英語）" },
+        { word: "ledge",   desc: "棚・岩棚（古英語）" },
+        { word: "stratum", desc: "地層・層（ラテン語）" }
+      ],
+      compounds: [
+        { phrase: "ozone layer",    desc: "オゾン層" },
+        { phrase: "layer by layer", desc: "層ごとに・一層ずつ" },
+        { phrase: "network layer",  desc: "ネットワーク層" }
+      ]
+    },
+
+    "legend": {
+      origin: "中世ラテン語 legenda（読まれるべきもの）< ラテン語 legere（読む・集める）の動名詞。lecture（講義）・select（選ぶ）・collect（集める）と同根で、「読んで伝えられるもの」が原義。\n\n英語には14世紀に聖人伝（hagiography）として採用され、宗教的英雄の生涯を記した読み物を指した。15世紀以降に地図の「凡例」の意味が加わり、17世紀以降に「語り継がれる伝説・著名な人物」の一般的意味が定着した。\n\n現代英語ではurban legend（都市伝説）・living legend（生ける伝説）・map legend（地図の凡例）のように、口承文化・地図・人物描写の幅広い文脈で使われる語である。",
+      derivatives: [
+        { word: "legendary",   desc: "伝説の・著名な（形容詞）" },
+        { word: "legendarily", desc: "伝説的に（副詞）" }
+      ],
+      family: [
+        { word: "lecture",   desc: "講義（legere）" },
+        { word: "select",    desc: "選ぶ（se+legere）" },
+        { word: "collect",   desc: "集める（con+legere）" },
+        { word: "neglect",   desc: "怠る（neg+legere）" }
+      ],
+      compounds: [
+        { phrase: "urban legend",   desc: "都市伝説" },
+        { phrase: "living legend",  desc: "生ける伝説" },
+        { phrase: "map legend",     desc: "地図の凡例" }
+      ]
+    },
+
+    "launch": {
+      origin: "アングロ・ノルマン語 lancher（槍を投げる）< ラテン語 lancea（槍）。lance（槍・投げる）と同根で、「槍のように勢いよく投げ出す・滑り出させる」が原義。\n\n英語には14世紀に「ボートを水に出す・投石する」の意味で採用され、17世紀以降に「船を進水させる」の技術的意味が定着した。20世紀のロケット技術・ビジネス語彙の発展とともに「製品・事業を世に出す」の意味が重要となった。\n\n現代英語ではlaunch a rocket（ロケットを打ち上げる）・launch a product（製品を発売する）・launch an attack（攻撃を開始する）のように、技術・マーケティング・軍事の多様な文脈で機能する動詞・名詞である。",
+      derivatives: [
+        { word: "launcher",  desc: "発射装置・ランチャー（名詞）" },
+        { word: "relaunch",  desc: "再発売・リニューアル（動詞）" }
+      ],
+      family: [
+        { word: "lance",   desc: "槍・突き刺す（lancea）" },
+        { word: "fling",   desc: "投げる（古英語）" },
+        { word: "hurl",    desc: "勢いよく投げる（語源不明）" }
+      ],
+      compounds: [
+        { phrase: "launch a product",  desc: "製品を発売・発表する" },
+        { phrase: "rocket launch",     desc: "ロケット打ち上げ" },
+        { phrase: "launch an attack",  desc: "攻撃を開始する" }
+      ]
+    },
+
+    "limit": {
+      origin: "ラテン語 limes / limitis（境界・境界線・通路）< 語根 *lei-（曲がる・曲線を描く）。eliminate（除外する）・preliminary（予備の）と同根で、「境界を設けて区切る」が原義。\n\n英語には15世紀にフランス語 limiter を経て採用され、「空間的・法的・数量的な境界を設ける」の意味で定着した。speed limit（速度制限）・time limit（制限時間）のように現代社会の規制語彙の核心語となっている。\n\n現代英語ではspeed limit（速度制限）・set a limit（制限を設ける）・reach one's limit（限界に達する）のように、規制・能力・数量の「境界」を表す動詞・名詞として多様に機能する。",
+      derivatives: [
+        { word: "limitation",  desc: "制限・限界（名詞）" },
+        { word: "limited",     desc: "限られた・有限の（形容詞）" },
+        { word: "unlimited",   desc: "無制限の（否定形）" }
+      ],
+      family: [
+        { word: "eliminate",    desc: "除外する（e+limen）" },
+        { word: "preliminary",  desc: "予備の（pre+limen）" },
+        { word: "threshold",    desc: "敷居・閾値（意味的近縁）" }
+      ],
+      compounds: [
+        { phrase: "speed limit",      desc: "速度制限" },
+        { phrase: "time limit",       desc: "制限時間" },
+        { phrase: "reach the limit",  desc: "限界に達する" }
+      ]
+    },
+
+    "link": {
+      origin: "古ノルド語 hlenkr（鎖の輪）< ゲルマン語根 *hlankaz（輪・環）。「鎖の一つの環」が原義で、chain（鎖）と意味的に密接な関係を持つ語。lean（傾く）・lank（細長い）とも遠縁。\n\n英語には15世紀に「鎖の輪・繋ぎとめるもの」の意味で採用され、19世紀以降に比喩的な「つながり・関係」の意味が広まった。20世紀末のインターネット普及とともにhyperlink（ハイパーリンク）として技術的に再定義された重要語。\n\n現代英語ではlink between cause and effect（因果関係）・click on a link（リンクをクリックする）・link arms（腕を組む）のように、論理・技術・身体動作の文脈で幅広く使われる動詞・名詞である。",
+      derivatives: [
+        { word: "linkage",     desc: "連結・結びつき（名詞）" },
+        { word: "interlink",   desc: "相互に連結する（動詞）" },
+        { word: "hyperlink",   desc: "ハイパーリンク（名詞）" }
+      ],
+      family: [
+        { word: "chain",      desc: "鎖（意味的近縁）" },
+        { word: "connect",    desc: "つなぐ（con+nectere）" },
+        { word: "associate",  desc: "関連付ける（ad+socius）" }
+      ],
+      compounds: [
+        { phrase: "missing link",      desc: "失われた環・欠けているつながり" },
+        { phrase: "hyperlink",         desc: "ハイパーリンク" },
+        { phrase: "weak link",         desc: "弱い環・脆弱な部分" }
+      ]
+    },
+
+    "language": {
+      origin: "ラテン語 lingua（舌・言語）< *dingua（舌）< インド・ヨーロッパ語根 *dng-（舌）。lingual（舌の・言語の）・bilingual（二言語の）・linguistics（言語学）と同根で、「舌で産み出す音のシステム」が原義。\n\n英語には13世紀にフランス語 langage を経て採用され、「人間の言語システム・特定の民族の言語」の意味で定着した。linguistics（言語学）が19世紀の科学として確立し、language の研究が系統化された。\n\n現代英語ではbody language（ボディーランゲージ）・programming language（プログラミング言語）・language barrier（言語の壁）のように、人間の意思疎通・技術・文化の核心概念として機能する。",
+      derivatives: [
+        { word: "linguistic",   desc: "言語の・言語学の（形容詞）" },
+        { word: "linguistics",  desc: "言語学（名詞）" },
+        { word: "bilingual",    desc: "二言語話者の（形容詞）" }
+      ],
+      family: [
+        { word: "lingual",   desc: "舌の・言語の（lingua）" },
+        { word: "tongue",    desc: "舌・言語（古英語）" },
+        { word: "dialect",   desc: "方言（dia+legein）" }
+      ],
+      compounds: [
+        { phrase: "body language",        desc: "ボディーランゲージ" },
+        { phrase: "language barrier",     desc: "言語の壁" },
+        { phrase: "programming language", desc: "プログラミング言語" }
+      ]
+    },
+
+    "manage": {
+      origin: "イタリア語 maneggiare（馬を操る・手綱をさばく）< ラテン語 manus（手）< manus（手）。manipulate（操作する）・manual（手動の）・manufacture（製造する）と同根で、「手で巧みに操る」が原義。\n\n英語には16世紀に「馬術で馬を操る」の意味で採用され、17世紀以降に「組織・事業・困難を手際よく処理する」の一般的意味に拡張した。management（経営学）が20世紀の学問分野として確立し、重要語彙となった。\n\n現代英語ではmanage a team（チームを管理する）・manage to do（何とかして〜する）・crisis management（危機管理）のように、組織管理・日常の遂行・問題処理の核心語として機能する。",
+      derivatives: [
+        { word: "management",   desc: "経営・管理（名詞）" },
+        { word: "manager",      desc: "管理者・支配人（名詞）" },
+        { word: "manageable",   desc: "扱いやすい（形容詞）" }
+      ],
+      family: [
+        { word: "manual",       desc: "手動の・マニュアル（manus）" },
+        { word: "manipulate",   desc: "操作する（manus）" },
+        { word: "manufacture",  desc: "製造する（manus+facere）" }
+      ],
+      compounds: [
+        { phrase: "risk management",   desc: "リスク管理" },
+        { phrase: "time management",   desc: "時間管理" },
+        { phrase: "manage to do",      desc: "何とかして〜する" }
+      ]
+    },
+
+    "manifest": {
+      origin: "ラテン語 manifestus（明らかな・現行犯の）< manus（手）+ -festus（殴られた・露わな）。「手でつかまれるほど明らか」が原義で、manifest（明白な・航海船荷目録）・manifestation（現れ・発現）・manifesto（宣言）という語族を形成する。\n\n英語には14世紀にフランス語を経て採用され、「明白にする・証明する」の動詞として使われた。19世紀の政治文書 manifesto（マニフェスト）の語源でもあり、現代では政治・哲学・心理の語彙として重要性が高い。\n\n現代英語ではmanifest destiny（明白な使命・米国の膨張主義思想）・manifest symptoms（症状が現れる）・political manifesto（政治綱領）のように、歴史・医学・政治の核心語として機能する。",
+      derivatives: [
+        { word: "manifestation",  desc: "現れ・発現・デモ（名詞）" },
+        { word: "manifesto",      desc: "宣言・綱領（名詞）" },
+        { word: "manifestly",     desc: "明らかに（副詞）" }
+      ],
+      family: [
+        { word: "manual",    desc: "手動の（manus）" },
+        { word: "manage",    desc: "管理する（manus）" },
+        { word: "obvious",   desc: "明白な（ob+via）" }
+      ],
+      compounds: [
+        { phrase: "manifest destiny",    desc: "明白な使命（膨張主義思想）" },
+        { phrase: "manifest symptoms",   desc: "症状が現れる" },
+        { phrase: "political manifesto", desc: "政治綱領" }
+      ]
+    },
+
+    "manner": {
+      origin: "古フランス語 maniere（やり方・手の使い方）< ラテン語 manuaria（手に関する）< manus（手）。manual（手動の）・manage（管理する）と同根で、「手を使う特定のやり方」が原義。\n\n英語には13世紀に採用され、「行動の仕方・礼儀作法・様式」の意味で使われた。manners（礼儀）という複数形が中世から礼節の意味で定着し、manner of speaking（言葉の使い方）・table manners（食事作法）のような表現が確立した。\n\n現代英語ではin a polite manner（礼儀正しい態度で）・table manners（食事作法）・in the manner of（〜のやり方で）のように、行動・礼節・芸術様式の幅広い文脈で使われる語である。",
+      derivatives: [
+        { word: "manners",    desc: "礼儀・行儀（複数形）" },
+        { word: "mannered",   desc: "わざとらしい・作りものめいた（形容詞）" },
+        { word: "mannerly",   desc: "礼儀正しい（形容詞）" }
+      ],
+      family: [
+        { word: "manual",    desc: "手動の（manus）" },
+        { word: "manage",    desc: "管理する（manus）" },
+        { word: "behavior",  desc: "振る舞い（be+have）" }
+      ],
+      compounds: [
+        { phrase: "table manners",    desc: "食事作法" },
+        { phrase: "in a similar manner", desc: "同様のやり方で" },
+        { phrase: "bad manners",      desc: "無礼・行儀の悪さ" }
+      ]
+    },
+
+    "margin": {
+      origin: "ラテン語 margo（縁・境界）< 語根 *marg-（境界・境）。march（国境地帯）・mark（境界・印）と同根で、「書ページの縁・境界線」が原義。\n\n英語には14世紀にフランス語を経て採用され、まず「本の余白」の意味で使われた。15世紀以降に「境界線・差の幅」の意味が拡張し、商業では利益率（profit margin）、政治では勝利の差（margin of victory）という重要語彙が確立した。\n\n現代英語ではprofit margin（利益率）・margin of error（誤差の範囲）・on the margins of society（社会の周辺で）のように、ビジネス・統計・社会学の核心語として機能する。",
+      derivatives: [
+        { word: "marginal",   desc: "周辺の・わずかな（形容詞）" },
+        { word: "marginalize", desc: "疎外する・周縁化する（動詞）" },
+        { word: "marginally",  desc: "わずかに（副詞）" }
+      ],
+      family: [
+        { word: "march",    desc: "国境地帯・行進する（marg-）" },
+        { word: "mark",     desc: "印・境界（marg-）" },
+        { word: "border",   desc: "境界・縁（古フランス語）" }
+      ],
+      compounds: [
+        { phrase: "profit margin",      desc: "利益率" },
+        { phrase: "margin of error",    desc: "誤差の範囲" },
+        { phrase: "margin of victory",  desc: "勝利の差" }
+      ]
+    },
+
+    "mature": {
+      origin: "ラテン語 maturus（熟した・時を得た）< mane（朝早く・時機に）< 語根 *ma-（時・好機）。maturity（成熟）・premature（早熟な・時期尚早の）と同語族で、「時が満ちて熟した」が原義。\n\n英語には15世紀にフランス語 mûr を経て採用され、果実・チーズ・ワインが「熟する」の物質的意味が先行した。17世紀以降に「精神的・知的に成熟する」の比喩的意味が広まり、心理学・教育語彙として発展した。\n\n現代英語ではmature student（社会人学生）・mature market（成熟市場）・mature behavior（大人らしい行動）のように、生物・金融・心理の多様な文脈で成長・熟成を表す語として機能する。",
+      derivatives: [
+        { word: "maturity",    desc: "成熟・満期（名詞）" },
+        { word: "premature",   desc: "時期尚早の・早熟な（形容詞）" },
+        { word: "immature",    desc: "未熟な（否定形）" }
+      ],
+      family: [
+        { word: "timely",    desc: "時宜を得た（time）" },
+        { word: "ripen",     desc: "熟す（古英語）" },
+        { word: "develop",   desc: "発展する（de+volvere）" }
+      ],
+      compounds: [
+        { phrase: "mature market",   desc: "成熟市場" },
+        { phrase: "mature student",  desc: "社会人学生" },
+        { phrase: "bond maturity",   desc: "債券の満期" }
+      ]
+    },
+
+    "measure": {
+      origin: "ラテン語 mensura（測定・尺度）< mensurare（計る）< metiri（測る）< 語根 *me-（測る）。meter（メートル・韻律）・commensurate（比例した）・immense（莫大な）と同根で、「一定の基準で長さ・量を判定する」が原義。\n\n英語には13世紀にフランス語 mesure を経て採用され、「物理的な計測・音楽の小節・適切な限度」の三つの意味で中世から使われた。統計学・物理学・行政政策の語彙として現代まで重要性を持ち続けている。\n\n現代英語ではmeasure the temperature（温度を測る）・take measures（対策を講じる）・measure of success（成功の指標）のように、科学・政策・評価の核心語として多用される。",
+      derivatives: [
+        { word: "measurement",   desc: "測定・寸法（名詞）" },
+        { word: "measurable",    desc: "測定可能な（形容詞）" },
+        { word: "immeasurable",  desc: "測り知れない（否定形）" }
+      ],
+      family: [
+        { word: "meter",       desc: "メートル・韻律（metiri）" },
+        { word: "immense",     desc: "莫大な（in+mensura）" },
+        { word: "dimension",   desc: "次元・寸法（di+mensura）" }
+      ],
+      compounds: [
+        { phrase: "take measures",     desc: "対策を講じる" },
+        { phrase: "measure of success", desc: "成功の指標" },
+        { phrase: "half measure",      desc: "半端な対策" }
+      ]
+    },
+
+    "method": {
+      origin: "ギリシャ語 methodos（追求・調査の道）< meta-（後ろに・より先へ）+ hodos（道・旅）。period（期間）・episode（挿話）と語源的に近く、「目標に向かって歩む道筋」が原義。\n\n英語には16世紀にラテン語 methodus を経て採用され、哲学・科学の「研究の手順・体系的方法」の意味で定着した。scientific method（科学的方法論）という概念が近代科学の基礎となり、methodology（方法論）という語族が重要語彙を形成した。\n\n現代英語ではscientific method（科学的方法）・teaching method（教授法）・method acting（メソッド演技）のように、科学・教育・芸術の多様な文脈で手順・手法を表す核心語として機能する。",
+      derivatives: [
+        { word: "methodical",   desc: "組織的な・几帳面な（形容詞）" },
+        { word: "methodology",  desc: "方法論（名詞）" },
+        { word: "methodically", desc: "組織的に（副詞）" }
+      ],
+      family: [
+        { word: "hodos",    desc: "道（ギリシャ語直系）" },
+        { word: "period",   desc: "期間・句点（peri+hodos）" },
+        { word: "episode",  desc: "挿話（epi+hodos）" }
+      ],
+      compounds: [
+        { phrase: "scientific method", desc: "科学的方法" },
+        { phrase: "teaching method",   desc: "教授法" },
+        { phrase: "method acting",     desc: "メソッド演技法" }
+      ]
+    },
+
+    "minor": {
+      origin: "ラテン語 minor（より小さい・劣った）< parvus（小さい）の比較級としての minus の変形。minimum（最小）・minus（引く・負）・minute（小さい・分）・diminish（減少する）と同根で、「小さい・少ない」が語根の意味。\n\n英語には14世紀に採用され、「年少の・未成年の」の法律的意味と「重要でない・副次的な」の評価的意味が並立した。音楽では minor key（短調）として18世紀以降に定着し、大学では専攻外の副科目を指す academic minor（副専攻）が20世紀に広まった。\n\n現代英語ではminor injury（軽傷）・minor key（短調）・minor in economics（経済学を副専攻する）のように、法律・音楽・教育・医療の多様な文脈で使われる語である。",
+      derivatives: [
+        { word: "minority",    desc: "少数派・未成年（名詞）" },
+        { word: "minuscule",   desc: "非常に小さい（minor の変形）" },
+        { word: "diminish",    desc: "減少する（de+minor）" }
+      ],
+      family: [
+        { word: "minimum",   desc: "最小（minimus）" },
+        { word: "minus",     desc: "引く・負（minor）" },
+        { word: "minute",    desc: "微小な・分（minutus）" }
+      ],
+      compounds: [
+        { phrase: "minor injury",  desc: "軽傷" },
+        { phrase: "minor key",     desc: "短調" },
+        { phrase: "minor detail",  desc: "細かい点・些細な詳細" }
+      ]
+    },
+
+    "mirror": {
+      origin: "古フランス語 mireor（鏡）< ラテン語 mirare（見る・驚く）< mirari（驚嘆する）< mirus（驚くべき）。admire（称賛する）・miracle（奇跡）・marvel（驚く）と同根で、「驚くほど明確に像を映すもの」が原義。\n\n英語には13世紀に採用され、物理的な反射鏡の意味が先行した。「内省・模倣・対比」の比喩的意味が中世以降に発展し、Shakespeare の鏡としての芸術論や心理学の鏡像段階（mirror stage）など多方面に語義が広がった。\n\n現代英語ではhold up a mirror to society（社会の問題を映し出す）・mirror image（鏡像・左右反転）・mirror each other（互いを映し合う）のように、反射・模倣・対比の文脈で多義的に使われる語である。",
+      derivatives: [
+        { word: "mirrored",  desc: "反射された・鏡面の（形容詞）" }
+      ],
+      family: [
+        { word: "admire",   desc: "称賛する（ad+mirari）" },
+        { word: "miracle",  desc: "奇跡（mirus）" },
+        { word: "marvel",   desc: "驚く・不思議（mirari）" }
+      ],
+      compounds: [
+        { phrase: "mirror image",        desc: "鏡像・左右反転" },
+        { phrase: "one-way mirror",      desc: "マジックミラー" },
+        { phrase: "mirror each other",   desc: "互いを反映し合う" }
+      ]
+    },
+
+    "mode": {
+      origin: "ラテン語 modus（尺度・やり方・様式）< 語根 *med-（測る・適切に処置する）。model（モデル）・modern（現代の）・modify（修正する）・modest（謙虚な）・moderate（穏健な）と同根で、「適切な尺度・様式」が原義。\n\n英語には14世紀にフランス語 mode を経て採用され、音楽の旋法（mode）・文法の法（mood）の意味で使われた。17世紀以降に「流行・様式・方式」の一般的意味が広まり、コンピューター科学では「動作モード」として重要語となった。\n\n現代英語ではmode of transport（交通手段）・dark mode（ダークモード）・fashion mode（ファッションの様式）のように、技術・流行・哲学の多様な文脈で様式・方式を表す語として機能する。",
+      derivatives: [
+        { word: "modal",    desc: "様式の・可能性を示す（形容詞）" },
+        { word: "modality", desc: "様式・モダリティ（名詞）" }
+      ],
+      family: [
+        { word: "model",    desc: "模型・モデル（modus）" },
+        { word: "modern",   desc: "現代の（modo: 今のやり方）" },
+        { word: "modify",   desc: "修正する（modus）" },
+        { word: "modest",   desc: "謙虚な（modus）" }
+      ],
+      compounds: [
+        { phrase: "mode of transport",  desc: "交通手段" },
+        { phrase: "sleep mode",         desc: "スリープモード" },
+        { phrase: "operating mode",     desc: "動作モード" }
+      ]
+    },
+
+    "modify": {
+      origin: "ラテン語 modificare（尺度に合わせる・制限する）< modus（尺度・様式）+ facere（作る・する）。mode（様式）・model（モデル）・modern（現代の）と modus を共有し、「適切な尺度に作り直す」が原義。\n\n英語には15世紀にフランス語 modifier を経て採用され、「変更する・調整する」の一般的意味で定着した。文法では「修飾する」という専門的意味が確立し、genetic modification（遺伝子改変）という現代技術語彙が20世紀後半に重要語となった。\n\n現代英語ではmodify a plan（計画を修正する）・genetically modified（遺伝子操作された）・modify behavior（行動を変える）のように、計画変更・遺伝学・言語学の多様な文脈で使われる動詞である。",
+      derivatives: [
+        { word: "modification",   desc: "変更・修正（名詞）" },
+        { word: "modifier",       desc: "修飾語・修正者（名詞）" },
+        { word: "unmodified",     desc: "変更されていない（否定形）" }
+      ],
+      family: [
+        { word: "mode",     desc: "様式・方式（modus）" },
+        { word: "model",    desc: "模型（modus）" },
+        { word: "moderate", desc: "穏健な・調整する（modus）" }
+      ],
+      compounds: [
+        { phrase: "genetically modified", desc: "遺伝子組み換えの（GMO）" },
+        { phrase: "modify a plan",        desc: "計画を修正する" },
+        { phrase: "behavior modification", desc: "行動修正療法" }
+      ]
+    },
+
+    "moral": {
+      origin: "ラテン語 moralis（習慣に関する・道徳的な）< mos / moris（慣習・習俗）。manner（やり方・礼儀）と意味的近縁で、「社会の慣習・しきたりに合致した行動」が原義。キケロがギリシャ語 ethikos（倫理的）の訳語として moralis を作った語でもある。\n\n英語には14世紀にフランス語 moral を経て採用され、宗教・哲学の倫理語彙として定着した。morale（士気）は同語源だがフランス語を経由し意味が分化した。moral panic（道徳的パニック）・moral hazard（モラルハザード）のような社会科学用語が20世紀に確立した。\n\n現代英語ではmoral dilemma（道徳的ジレンマ）・moral hazard（モラルハザード）・moral support（精神的支援）のように、倫理・金融・日常の幅広い文脈で使われる形容詞・名詞である。",
+      derivatives: [
+        { word: "morality",   desc: "道徳・倫理（名詞）" },
+        { word: "moralize",   desc: "道徳を説く（動詞）" },
+        { word: "immoral",    desc: "不道徳な（否定形）" }
+      ],
+      family: [
+        { word: "morale",    desc: "士気・意気込み（moral から）" },
+        { word: "ethics",    desc: "倫理学（ギリシャ語）" },
+        { word: "virtue",    desc: "美徳・徳（virtus）" }
+      ],
+      compounds: [
+        { phrase: "moral hazard",    desc: "モラルハザード・道徳的危険" },
+        { phrase: "moral dilemma",   desc: "道徳的ジレンマ" },
+        { phrase: "moral support",   desc: "精神的支援" }
+      ]
+    },
+
+    "option": {
+      origin: "ラテン語 optio（選択・望む）< optare（望む・選ぶ）。adopt（採用する）・optimal（最適の）・optimism（楽観主義）と同根で、「積極的に望んで選ぶ」が原義。\n\n英語には17世紀にラテン語 optio から直接採用され、「自由に選択できる権利・可能性」の意味で法律・哲学語彙に定着した。金融では stock option（ストックオプション）の重要語となり、コンピューター科学では「設定のオプション」として日常語化した。\n\n現代英語ではkeep one's options open（可能性を残す）・stock option（ストックオプション）・option to buy（買う権利）のように、法律・金融・日常の選択の文脈で幅広く機能する語である。",
+      derivatives: [
+        { word: "optional",   desc: "任意の・選択できる（形容詞）" },
+        { word: "optionally", desc: "任意に（副詞）" }
+      ],
+      family: [
+        { word: "adopt",     desc: "採用する・養子にする（ad+optare）" },
+        { word: "optimal",   desc: "最適の（optimus）" },
+        { word: "optimism",  desc: "楽観主義（optimus）" }
+      ],
+      compounds: [
+        { phrase: "stock option",          desc: "ストックオプション" },
+        { phrase: "keep options open",     desc: "可能性を残す" },
+        { phrase: "optional subject",      desc: "選択科目" }
+      ]
+    },
+
+    "particular": {
+      origin: "ラテン語 particularis（部分に関する・個別の）< particula（小部分）< pars（部分）の指小形。part（部分）・participate（参加する）・partial（部分的な）と同根で、「全体の中の特定の一部分」が原義。\n\n英語には14世紀にフランス語 particulier を経て採用され、「特定の・個別の」の意味で哲学・法律・科学の語彙として定着した。particularly（特に）という副詞形が日常英語で頻繁に使われ、in particular（特に・とりわけ）という慣用表現も定着している。\n\n現代英語ではin particular（特に）・pay particular attention（特別な注意を払う）・be particular about（〜にこだわる）のように、強調・こだわり・特定化の文脈で多用される形容詞・名詞である。",
+      derivatives: [
+        { word: "particularly",  desc: "特に・とりわけ（副詞）" },
+        { word: "particularity", desc: "特殊性・こだわり（名詞）" }
+      ],
+      family: [
+        { word: "part",        desc: "部分（pars）" },
+        { word: "partial",     desc: "部分的な（pars）" },
+        { word: "participate", desc: "参加する（pars+capere）" }
+      ],
+      compounds: [
+        { phrase: "in particular",           desc: "特に・とりわけ" },
+        { phrase: "particular attention",    desc: "特別な注意" },
+        { phrase: "be particular about",     desc: "〜にこだわる" }
+      ]
+    },
+
+    "passive": {
+      origin: "ラテン語 passivus（受け取る・耐える）< pati（耐える・経験する）< 語根 *peh1-（耐える）。passion（情熱・受難）・patient（患者・忍耐強い）・compatible（相容れる）と同根で、「能動的に働きかけるのではなく受け取る側にある」が原義。\n\n英語には14世紀に文法用語（passive voice・受動態）として最初に使われ、「行為を受ける側」という文法的意味が先行した。16世紀以降に「消極的・受け身」の一般的意味が広まり、passive income（不労所得）・passive smoking（受動喫煙）のような現代的表現が発展した。\n\n現代英語ではpassive voice（受動態）・passive income（不労所得）・passive resistance（消極的抵抗）のように、文法・経済・政治の多様な文脈で機能する形容詞・名詞である。",
+      derivatives: [
+        { word: "passivity",    desc: "受動性・消極性（名詞）" },
+        { word: "passively",    desc: "消極的に・受動的に（副詞）" }
+      ],
+      family: [
+        { word: "passion",   desc: "情熱・受難（pati）" },
+        { word: "patient",   desc: "患者・忍耐強い（pati）" },
+        { word: "compassion", desc: "思いやり（com+pati）" }
+      ],
+      compounds: [
+        { phrase: "passive voice",     desc: "受動態" },
+        { phrase: "passive income",    desc: "不労所得" },
+        { phrase: "passive smoking",   desc: "受動喫煙" }
+      ]
     }
 
   };

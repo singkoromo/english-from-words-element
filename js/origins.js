@@ -21411,6 +21411,467 @@
         { phrase: "degenerative disease",   desc: "退行性疾患" },
         { phrase: "moral degeneration",     desc: "道徳的退廃" }
       ]
+    },
+
+    "nutrition": {
+      origin: "ラテン語 nutritio（養育・滋養）< nutrire（養う・育てる）+ -ion（名詞接尾辞）。「栄養・栄養学」が原義。nourish（養う）・nurture（養育する）・nurse（看護する）と同根の nutrire を共有し、「生命を維持・成長させるために取り込む」というイメージを持つ。\n\n英語には14世紀に採用され、「食物から得られる生命維持・成長のための物質的基盤」の意味で定着。医学・農業・公衆衛生で good nutrition（良い栄養）・nutrition label（栄養成分表）・nutrition education（栄養教育）のように健康・食品産業の核心語として機能する。\n\n現代英語ではスポーツ栄養学・食品マーケティングの発展とともに sports nutrition（スポーツ栄養）・nutrition science（栄養科学）・clinical nutrition（臨床栄養）のような専門語として重要性が増し、nutrition facts（栄養成分表示）という消費者情報の法的要件でも使われる必須語となっている。",
+      derivatives: [
+        { word: "nutritious",    desc: "栄養価の高い（形容詞）" },
+        { word: "nutritional",   desc: "栄養の（形容詞）" },
+        { word: "nutritionist",  desc: "栄養士（名詞）" }
+      ],
+      family: [
+        { word: "nourish",  desc: "養う（nutrire）" },
+        { word: "nurture",  desc: "養育する（nutrire）" },
+        { word: "nurse",    desc: "看護する（nutrire）" }
+      ],
+      compounds: [
+        { phrase: "nutrition label",    desc: "栄養成分表" },
+        { phrase: "sports nutrition",   desc: "スポーツ栄養" },
+        { phrase: "nutrition education", desc: "栄養教育" }
+      ]
+    },
+
+    "consume": {
+      origin: "ラテン語 consumere（すべて使いつくす）< con-（完全に）+ sumere（取る・使う）< sub-（下から）+ emere（買う・得る）。「消費する・食べる・使いつくす」が原義。assume（引き受ける）・presume（推定する）・exempt（免除する）と同根の emere を含み、「完全に取り尽くす」というイメージを持つ。\n\n英語には14世紀に採用され、「食べる・破壊する・使いつくす」の意味で定着。経済学・マーケティング・日常語で consume energy（エネルギーを消費する）・consume goods（商品を消費する）・time-consuming（時間がかかる）のように「物・時間・エネルギーを使いきる」行為を示す核心動詞として機能する。\n\n現代英語では consumer society（消費社会）・consuming passion（夢中にさせる情熱）・being consumed by…（〜に飲み込まれる）のように経済・心理・比喩表現で幅広く使われ、「消費者行動」という現代資本主義の中心概念の語源語として機能する。",
+      derivatives: [
+        { word: "consumer",     desc: "消費者（名詞）" },
+        { word: "consumption",  desc: "消費・消耗（名詞）" },
+        { word: "consuming",    desc: "夢中にさせる・消耗させる（形容詞）" }
+      ],
+      family: [
+        { word: "assume",   desc: "引き受ける・推定する（ad+sumere）" },
+        { word: "presume",  desc: "推定する（prae+sumere）" },
+        { word: "exempt",   desc: "免除する（ex+emere）" }
+      ],
+      compounds: [
+        { phrase: "consumer society",  desc: "消費社会" },
+        { phrase: "time-consuming",    desc: "時間がかかる" },
+        { phrase: "energy consumption", desc: "エネルギー消費" }
+      ]
+    },
+
+    "consumption": {
+      origin: "ラテン語 consumptio（完全な使用・消耗）< consumere（使いつくす）< con-（完全に）+ sumere（取る）+ -ion（名詞接尾辞）。「消費・消耗・肺結核（歴史的）」が原義。consume（消費する）・assume（推定する）と同根。歴史的には tuberculosis（肺結核）を consumption と呼んだ（体を消耗させる病という意味）。\n\n英語には14世紀に採用され、近代経済学の発展とともに「財・サービスを使用する行為」という核心経済概念として定着。経済学・環境学・公衆衛生で household consumption（家計消費）・per capita consumption（一人当たり消費）・alcohol consumption（飲酒量）のように幅広く使われる。\n\n現代英語では conspicuous consumption（誇示的消費）・sustainable consumption（持続可能な消費）・consumption tax（消費税）のように経済・環境・政策で頻用される重要語となっており、「消費文化の問題点」をめぐる社会議論の中心語としても機能する。",
+      derivatives: [
+        { word: "consumer",    desc: "消費者（名詞）" },
+        { word: "consume",     desc: "消費する（動詞）" },
+        { word: "consumptive", desc: "消耗性の（形容詞）" }
+      ],
+      family: [
+        { word: "assume",      desc: "推定する（ad+sumere）" },
+        { word: "subsume",     desc: "包含する（sub+sumere）" },
+        { word: "presumption", desc: "推定・思い上がり（prae+sumere）" }
+      ],
+      compounds: [
+        { phrase: "consumption tax",          desc: "消費税" },
+        { phrase: "conspicuous consumption",  desc: "誇示的消費" },
+        { phrase: "sustainable consumption",  desc: "持続可能な消費" }
+      ]
+    },
+
+    "resource": {
+      origin: "フランス語 ressource（立ち直りの手段）< ressourcer（再び立ち上がる）< re-（再び）+ sourdre（湧き出る）< ラテン語 surgere（立ち上がる）。「資源・手段・才覚」が原義。surge（急増する）と同根の surgere を含み、「困難から再び湧き出てくる助けとなるもの」というイメージを持つ。\n\n英語には17世紀に採用され、「目的を達するために使える物・人・情報・時間」の意味で定着。経済・環境・教育で natural resources（天然資源）・human resources（人的資源）・allocate resources（資源を配分する）のように「活用可能な手段・財」を指す核心語として機能する。\n\n現代英語では limited resources（限られた資源）・resource management（資源管理）・digital resources（デジタルリソース）のようにビジネス・教育・環境の三分野で特に重要語として機能し、resourceful（機転の利く）という形容詞形も「問題解決能力が高い」という評価語として頻用される。",
+      derivatives: [
+        { word: "resourceful",    desc: "機転の利く・工夫上手な（形容詞）" },
+        { word: "resourcefulness", desc: "機転・工夫力（名詞）" }
+      ],
+      family: [
+        { word: "surge",   desc: "急増する・急上昇（surgere）" },
+        { word: "source",  desc: "源・出典（sourdre）" }
+      ],
+      compounds: [
+        { phrase: "natural resources",    desc: "天然資源" },
+        { phrase: "human resources",      desc: "人的資源・人事部門" },
+        { phrase: "resource management",  desc: "資源管理" }
+      ]
+    },
+
+    "profit": {
+      origin: "ラテン語 profectus（前進・進歩・利益）< proficere（前進する・役立つ）< pro-（前に）+ facere（作る・する）。「利益・利潤・得をする」が原義。proficient（熟練した）・efficient（効率的な）・sufficient（十分な）と同根の facere を含み、「前に向けて作り出す＝利益を生む」というイメージを持つ。\n\n英語には13世紀に採用され、「費用を差し引いた収益・取引から得られる経済的利得」の意味で定着。経済・ビジネスで maximize profit（利益を最大化する）・profit margin（利益率）・non-profit（非営利の）のように資本主義経済の根本概念を示す語として機能する。\n\n現代英語では profit-driven（利益中心の）・profit sharing（利益分配）・profit motive（利潤動機）のようにビジネス・経済倫理で頻用され、shareholder profit（株主利益）vs. stakeholder value（ステークホルダー価値）という現代的議論の中心語として機能する。",
+      derivatives: [
+        { word: "profitable",   desc: "収益性の高い（形容詞）" },
+        { word: "profitability", desc: "収益性（名詞）" },
+        { word: "profitably",   desc: "利益を生みながら（副詞）" }
+      ],
+      family: [
+        { word: "proficient",  desc: "熟練した（pro+facere）" },
+        { word: "efficient",   desc: "効率的な（ef+facere）" },
+        { word: "sufficient",  desc: "十分な（sub+facere）" }
+      ],
+      compounds: [
+        { phrase: "profit margin",    desc: "利益率" },
+        { phrase: "non-profit",       desc: "非営利の" },
+        { phrase: "profit sharing",   desc: "利益分配" }
+      ]
+    },
+
+    "investment": {
+      origin: "中世ラテン語 investire（衣を着せる・包む）< in-（中に）+ vestire（服を着せる）< vestis（衣服）。「投資・投下資本」が原義。invest（投資する）・vest（チョッキ・付与する）・divest（売却する）と同根の vestire を共有し、「資金をある資産に包み込む」というイメージを持つ。\n\n英語には16世紀に採用され、「将来の収益を期待して資金・時間・労力を投じること」の意味で定着。金融・経済・教育で make an investment（投資する）・return on investment（投資利益率）・investment bank（投資銀行）のように現代金融の核心語として機能する。\n\n現代英語では time investment（時間的投資）・emotional investment（感情的投資）のように「金融以外の努力・エネルギーの投入」を指す比喩的用法も一般化し、investment in education（教育への投資）という政策語彙でも頻用される。",
+      derivatives: [
+        { word: "invest",    desc: "投資する（動詞）" },
+        { word: "investor",  desc: "投資家（名詞）" },
+        { word: "divestment", desc: "投資引き揚げ・売却（名詞）" }
+      ],
+      family: [
+        { word: "vest",      desc: "チョッキ・権限を付与する（vestis）" },
+        { word: "divest",    desc: "売却する（dis+vestire）" },
+        { word: "vestment",  desc: "祭服（vestis）" }
+      ],
+      compounds: [
+        { phrase: "return on investment",  desc: "投資利益率（ROI）" },
+        { phrase: "investment bank",       desc: "投資銀行" },
+        { phrase: "long-term investment",  desc: "長期投資" }
+      ]
+    },
+
+    "exchange": {
+      origin: "古フランス語 eschangier（交換する）< es-（出て）+ changer（変える）< ラテン語 cambiare（交換する）。「交換する・両替所・取引所」が原義。change（変える）・interchange（相互交換）と同根の cambiare を共有し、「等価のものを持ち出して交換する」というイメージを持つ。\n\n英語には14世紀に採用され、「物・情報・通貨を双方向に取引する」の意味で定着。金融・教育・外交で foreign exchange（外国為替）・stock exchange（証券取引所）・cultural exchange（文化交流）のように幅広く使われる基本語として機能する。\n\n現代英語では exchange rate（為替レート）・exchange program（交換留学プログラム）・heat exchange（熱交換）のように金融・教育・工学で特化した複合語を多数生産し、「等価物の相互移動」という基本概念を多分野で示す核心語として機能する。",
+      derivatives: [
+        { word: "exchangeable",  desc: "交換可能な（形容詞）" },
+        { word: "interchangeable", desc: "互換性のある（形容詞）" }
+      ],
+      family: [
+        { word: "change",       desc: "変える（cambiare）" },
+        { word: "interchange",  desc: "相互交換（inter+change）" }
+      ],
+      compounds: [
+        { phrase: "foreign exchange",   desc: "外国為替" },
+        { phrase: "stock exchange",     desc: "証券取引所" },
+        { phrase: "exchange rate",      desc: "為替レート" }
+      ]
+    },
+
+    "budget": {
+      origin: "古フランス語 bougette（小さな革袋）< bouge（革袋）< ラテン語 bulga（革袋・嚢）。「予算・Budget」が原義。もとは財務大臣が議会に収支計画書を入れた革袋を持ってくることから、「予算案」を指す語に発展した。15世紀の英国議会の慣習が語源となっている。\n\n英語には18世紀に採用され、「収入・支出の計画・割当」の意味で定着。経済・家計・政府で national budget（国家予算）・balance the budget（予算を均衡させる）・budget deficit（財政赤字）のように財政・計画の核心語として機能する。\n\n現代英語では budget airline（格安航空会社）・on a tight budget（予算が限られた状態で）・budget cut（予算削減）のように財政・日常生活で幅広く使われ、「予算の範囲内で行う」という動詞的用法（budget for retirement）も一般的となっている。",
+      derivatives: [
+        { word: "budgetary",  desc: "予算の（形容詞）" },
+        { word: "budgeting",  desc: "予算管理・計画（名詞）" }
+      ],
+      family: [
+        { word: "bulge",  desc: "膨らむ・膨らみ（bulga）" }
+      ],
+      compounds: [
+        { phrase: "national budget",    desc: "国家予算" },
+        { phrase: "budget deficit",     desc: "財政赤字" },
+        { phrase: "budget airline",     desc: "格安航空会社" }
+      ]
+    },
+
+    "expenditure": {
+      origin: "ラテン語 expendere（量り出す・費やす）< ex-（外に）+ pendere（重さを量る・支払う）+ -ure（名詞接尾辞）。「支出・費用・出費」が原義。expense（費用）・pension（年金）・compensate（補償する）・depend（依存する）と同根の pendere を共有し、「天秤で量りながら外に支払う」というイメージを持つ。\n\n英語には16世紀に採用され、「金・時間・労力を費やすこと・その総額」の意味で定着。財政・会計・経済で government expenditure（政府支出）・capital expenditure（資本的支出）・military expenditure（軍事費）のように大規模な支出を示す語として機能し、日常的な expense（費用）より格式のある語として使われる。\n\n現代英語では public expenditure（公共支出）・expenditure on education（教育への支出）のように政策・財政分析で頻用され、expenditure review（支出見直し）という政府の歳出管理プロセスを示す語としても重要な語となっている。",
+      derivatives: [
+        { word: "expend",    desc: "費やす（動詞）" },
+        { word: "expense",   desc: "費用・出費（名詞）" },
+        { word: "expensive", desc: "高価な（形容詞）" }
+      ],
+      family: [
+        { word: "pension",    desc: "年金（pendere）" },
+        { word: "depend",     desc: "依存する（de+pendere）" },
+        { word: "compensate", desc: "補償する（com+pendere）" }
+      ],
+      compounds: [
+        { phrase: "capital expenditure",    desc: "資本的支出" },
+        { phrase: "military expenditure",   desc: "軍事費" },
+        { phrase: "public expenditure",     desc: "公共支出" }
+      ]
+    },
+
+    "poverty": {
+      origin: "ラテン語 paupertas（貧困）< pauper（貧しい者）< paucus（少ない）+ parare（整える）。「貧困・欠乏」が原義。poor（貧しい）・pauper（貧民）と同根の pauper を含み、「必要なものが少ない・整えられていない状態」というイメージを持つ。\n\n英語には13世紀に採用され、「基本的生活に必要な資源が不足している状態」の意味で定着。社会政策・経済・人権で poverty line（貧困線）・extreme poverty（極度の貧困）・cycle of poverty（貧困の連鎖）のように社会問題分析の核心語として機能する。\n\n現代英語では relative poverty（相対的貧困）・child poverty（子どもの貧困）・poverty trap（貧困の罠）のように測定・政策・社会正義の語彙として特に重要性が増しており、poverty of ambition（野心の欠如）という比喩的用法でも使われる。",
+      derivatives: [
+        { word: "impoverish",     desc: "貧困化させる（動詞）" },
+        { word: "impoverishment", desc: "貧困化（名詞）" }
+      ],
+      family: [
+        { word: "poor",   desc: "貧しい（pauper）" },
+        { word: "pauper", desc: "貧民（pauper）" }
+      ],
+      compounds: [
+        { phrase: "poverty line",      desc: "貧困線" },
+        { phrase: "extreme poverty",   desc: "極度の貧困" },
+        { phrase: "cycle of poverty",  desc: "貧困の連鎖" }
+      ]
+    },
+
+    "wealth": {
+      origin: "古英語 wela（幸福・豊かさ）< well（よく）+ -th（状態を示す名詞接尾辞）。「富・豊かさ・財産」が原義。well（健康・よく）・welfare（福祉）・commonwealth（共同体の豊かさ）と語源的関連を持ち、もとは「物質的・精神的な豊かな状態」を幅広く指した語が「経済的な富」に特化した。\n\n英語には13世紀に採用され、「物質的に豊かな状態・蓄積された資産」の意味で定着。経済・倫理・社会学で accumulate wealth（富を蓄積する）・wealth distribution（富の分配）・wealth inequality（富の不平等）のように資本主義・社会正義の議論の核心語として機能する。\n\n現代英語では wealth management（資産管理）・wealth tax（富裕税）・health is wealth（健康は財産）のように金融・政策・日常語で幅広く使われ、poverty（貧困）の対義語として「経済的格差・不平等」を論じる際の基本語として機能する。",
+      derivatives: [
+        { word: "wealthy",   desc: "富裕な（形容詞）" },
+        { word: "wealthier", desc: "より富裕な（比較形）" }
+      ],
+      family: [
+        { word: "welfare",      desc: "福祉（well+fare）" },
+        { word: "commonwealth", desc: "共和国・共同体（common+wealth）" },
+        { word: "well",         desc: "よく・健康（語根）" }
+      ],
+      compounds: [
+        { phrase: "wealth distribution",  desc: "富の分配" },
+        { phrase: "wealth inequality",    desc: "富の不平等" },
+        { phrase: "wealth management",    desc: "資産管理" }
+      ]
+    },
+
+    "inclusion": {
+      origin: "ラテン語 inclusio（閉じ込め・含むこと）< in-（中に）+ claudere（閉じる）+ -ion（名詞接尾辞）。「包摂・含有・参加」が原義。exclude（排除する）・conclusion（結論）・preclude（妨げる）と同根の claudere を共有し、「内側に閉じ込める＝取り込む・含む」というイメージを持つ。\n\n英語には15世紀に採用され、「集団・場所・活動に含まれること」の意味で定着。教育・社会政策・組織論で social inclusion（社会的包摂）・diversity and inclusion（多様性と包摂）・inclusive education（インクルーシブ教育）のように現代の平等・多様性の議論の核心語として機能する。\n\n現代英語ではDE&I（Diversity, Equity, and Inclusion）という企業・組織の重要戦略概念の一角を占め、inclusive language（包括的言語）・feel included（包摂されていると感じる）のように「誰も排除されない社会・組織」を示す語として特に重要性が増している。",
+      derivatives: [
+        { word: "inclusive",     desc: "包括的な・すべてを含む（形容詞）" },
+        { word: "inclusively",   desc: "包括的に（副詞）" },
+        { word: "inclusiveness", desc: "包括性（名詞）" }
+      ],
+      family: [
+        { word: "exclude",    desc: "排除する（ex+claudere）" },
+        { word: "conclusion", desc: "結論（con+claudere）" },
+        { word: "preclude",   desc: "妨げる（prae+claudere）" }
+      ],
+      compounds: [
+        { phrase: "social inclusion",        desc: "社会的包摂" },
+        { phrase: "diversity and inclusion",  desc: "多様性と包摂" },
+        { phrase: "inclusive education",     desc: "インクルーシブ教育" }
+      ]
+    },
+
+    "exclusion": {
+      origin: "ラテン語 exclusio（外へ閉め出すこと）< ex-（外に）+ claudere（閉じる）+ -ion（名詞接尾辞）。「排除・除外」が原義。exclude（排除する）・inclusion（包摂）・preclude（妨げる）と同根の claudere を共有し、「外側に閉め出す」というイメージを持つ。\n\n英語には14世紀に採用され、「集団・場所・活動から締め出されること」の意味で定着。法律・社会政策・教育で social exclusion（社会的排除）・exclusion from school（学校からの排除）・tax exclusion（税控除）のように様々な「排除・適用除外」を示す語として機能する。\n\n現代英語ではinclusion（包摂）との対義語ペアとして社会正義・多様性論で頻用され、to the exclusion of…（〜を除外して）という正式な文語表現や、exclusion zone（立入禁止区域）という軍事・安全保障語彙でも機能する。",
+      derivatives: [
+        { word: "exclude",    desc: "排除する（動詞）" },
+        { word: "exclusive",  desc: "排他的な・独占的な（形容詞）" },
+        { word: "exclusively", desc: "もっぱら・排他的に（副詞）" }
+      ],
+      family: [
+        { word: "inclusion",  desc: "包摂（in+claudere）" },
+        { word: "conclude",   desc: "結論づける（con+claudere）" },
+        { word: "preclude",   desc: "妨げる（prae+claudere）" }
+      ],
+      compounds: [
+        { phrase: "social exclusion",   desc: "社会的排除" },
+        { phrase: "exclusion zone",     desc: "立入禁止区域" },
+        { phrase: "tax exclusion",      desc: "税控除" }
+      ]
+    },
+
+    "integration": {
+      origin: "ラテン語 integratio（更新・完全化）< integer（完全な・手つかずの）< in-（否定）+ tangere（触れる）+ -ion（名詞接尾辞）。「統合・融合・人種差別撤廃」が原義。integrate（統合する）・integrity（誠実さ）・entire（全体の）と同根の integer を共有し、「触れて損なわれていない完全な状態に戻す・一体化する」というイメージを持つ。\n\n英語には17世紀に採用され、「別々のものを一つに組み合わせる」の意味で定着。社会学・数学・コンピュータ科学で racial integration（人種統合）・social integration（社会統合）・system integration（システム統合）のように様々な「一体化」を示す核心語として機能する。\n\n現代英語では European integration（欧州統合）・data integration（データ統合）・workplace integration（職場統合）のように社会・技術・政治で幅広く使われ、segregation（分離）の対義語として特に社会的公正・教育政策で重要語として機能する。",
+      derivatives: [
+        { word: "integrate",    desc: "統合する（動詞）" },
+        { word: "integrated",   desc: "統合された・差別のない（形容詞）" },
+        { word: "integrative",  desc: "統合的な（形容詞）" }
+      ],
+      family: [
+        { word: "integrity",  desc: "誠実さ・統合性（integer）" },
+        { word: "entire",     desc: "全体の（integer）" },
+        { word: "intact",     desc: "無傷の（in+tangere）" }
+      ],
+      compounds: [
+        { phrase: "racial integration",   desc: "人種統合" },
+        { phrase: "social integration",   desc: "社会統合" },
+        { phrase: "system integration",   desc: "システム統合" }
+      ]
+    },
+
+    "segregation": {
+      origin: "ラテン語 segregare（群れから分ける）< se-（離れて）+ grex（群れ・集団）+ -ion（名詞接尾辞）。「分離・隔離・人種隔離政策」が原義。congregate（集まる）・aggregate（集める）・egregious（ひどい）と同根の grex を共有し、「群れから切り離す」というイメージを持つ。\n\n英語には16世紀に採用され、「人種・集団を社会的に分離する制度・行為」の意味で特にアメリカ公民権運動との関連で歴史的・政治的重要性を持つ語として定着。racial segregation（人種隔離政策）・desegregation（人種隔離撤廃）のように人権・歴史の核心語として機能する。\n\n現代英語では school segregation（学校での人種分離）・de facto segregation（事実上の人種分離）のように歴史・現代の差別問題を論じる際の語として機能し、gender segregation（性別分離）・income segregation（所得による地域分離）という拡張的用法でも使われる。",
+      derivatives: [
+        { word: "segregate",     desc: "分離する・隔離する（動詞）" },
+        { word: "desegregation", desc: "人種隔離撤廃（名詞）" },
+        { word: "segregated",    desc: "分離された（形容詞）" }
+      ],
+      family: [
+        { word: "congregate",  desc: "集まる（con+grex）" },
+        { word: "aggregate",   desc: "集める（ad+grex）" },
+        { word: "egregious",   desc: "ひどい（e+grex）" }
+      ],
+      compounds: [
+        { phrase: "racial segregation",  desc: "人種隔離政策" },
+        { phrase: "de facto segregation", desc: "事実上の人種分離" },
+        { phrase: "school segregation",  desc: "学校での人種分離" }
+      ]
+    },
+
+    "discrimination": {
+      origin: "ラテン語 discriminatio（区別・分離）< discriminare（区別する）< discrimen（分かれ目・差異）< dis-（離れて）+ cernere（選別する・見分ける）+ -ion（名詞接尾辞）。「差別・識別・判別」が原義。discern（見分ける）・crime（罪）・secret（秘密）と同根の cernere を共有する。\n\n英語には17世紀に採用され、「区別して扱うこと」の意味で定着。現代では特に「人種・性別・年齢などの属性を理由にした不当な差別的扱い」という否定的意味が主流となり、法律・社会政策・職場で racial discrimination（人種差別）・gender discrimination（性差別）・anti-discrimination law（差別禁止法）のように使われる。\n\n現代英語では fine discrimination（微妙な判別力）という中立的意味と、discrimination against women（女性差別）という否定的意味が共存しており、文脈による使い分けが必須の語となっている。",
+      derivatives: [
+        { word: "discriminate",    desc: "差別する・識別する（動詞）" },
+        { word: "discriminatory",  desc: "差別的な（形容詞）" },
+        { word: "discriminating",  desc: "識別力のある（形容詞）" }
+      ],
+      family: [
+        { word: "discern",   desc: "見分ける（dis+cernere）" },
+        { word: "concern",   desc: "関係する・心配（con+cernere）" },
+        { word: "criterion", desc: "基準（cernere）" }
+      ],
+      compounds: [
+        { phrase: "racial discrimination",     desc: "人種差別" },
+        { phrase: "gender discrimination",     desc: "性差別" },
+        { phrase: "anti-discrimination law",   desc: "差別禁止法" }
+      ]
+    },
+
+    "injustice": {
+      origin: "ラテン語 injustitia（不正義）< in-（否定）+ justitia（正義）< jus（法・正義）+ -ice（名詞接尾辞）。「不正義・不公正・不当な扱い」が原義。justice（正義）・judge（判事）・jury（陪審）と同根の jus を共有し、「本来あるべき正義の否定」というイメージを持つ。\n\n英語には14世紀に採用され、「正義に反する扱い・不公正な状態」の意味で定着。政治・倫理・社会運動で social injustice（社会的不正義）・injustice to…（〜への不当な扱い）・fight injustice（不正義と戦う）のように「是正すべき倫理的問題」を示す語として機能する。\n\n現代英語では racial injustice（人種的不正義）・economic injustice（経済的不公正）・do someone an injustice（人を不当に扱う）のように人権・社会正義運動の語彙として特に重要性が増しており、「正義を求める運動の動力源としての感情」を示す語としても機能する。",
+      derivatives: [
+        { word: "unjust",     desc: "不正な・不公正な（形容詞）" },
+        { word: "unjustly",   desc: "不当に（副詞）" }
+      ],
+      family: [
+        { word: "justice",  desc: "正義（jus）" },
+        { word: "judge",    desc: "判事（jus+dicere）" },
+        { word: "jury",     desc: "陪審（jus）" }
+      ],
+      compounds: [
+        { phrase: "social injustice",    desc: "社会的不正義" },
+        { phrase: "racial injustice",    desc: "人種的不正義" },
+        { phrase: "fight injustice",     desc: "不正義と戦う" }
+      ]
+    },
+
+    "oppression": {
+      origin: "ラテン語 oppressio（押しつぶし・抑圧）< ob-（〜に向けて）+ premere（押す・圧する）+ -ion（名詞接尾辞）。「抑圧・迫害・重荷」が原義。express（表現する）・compress（圧縮する）・suppress（抑制する）・impress（感動させる）と同根の premere を共有し、「上から押しつぶす」というイメージを持つ。\n\n英語には14世紀に採用され、「力を持つ者が力のない者を不当に支配・抑圧する状態」の意味で定着。政治・社会・心理学で resist oppression（抑圧に抵抗する）・political oppression（政治的抑圧）・cycles of oppression（抑圧の連鎖）のように権力と支配の問題を論じる核心語として機能する。\n\n現代英語では systemic oppression（制度的抑圧）・liberation from oppression（抑圧からの解放）のように批判的人種理論・フェミニズム・人権運動の語彙として特に重要語となっており、internalized oppression（内面化された抑圧）のような心理学的概念でも使われる。",
+      derivatives: [
+        { word: "oppress",     desc: "抑圧する（動詞）" },
+        { word: "oppressive",  desc: "抑圧的な・重苦しい（形容詞）" },
+        { word: "oppressor",   desc: "抑圧者（名詞）" }
+      ],
+      family: [
+        { word: "express",   desc: "表現する（ex+premere）" },
+        { word: "compress",  desc: "圧縮する（com+premere）" },
+        { word: "suppress",  desc: "抑制する（sub+premere）" }
+      ],
+      compounds: [
+        { phrase: "political oppression",   desc: "政治的抑圧" },
+        { phrase: "systemic oppression",    desc: "制度的抑圧" },
+        { phrase: "resist oppression",      desc: "抑圧に抵抗する" }
+      ]
+    },
+
+    "liberation": {
+      origin: "ラテン語 liberatio（解放）< liberare（自由にする）< liber（自由）+ -ion（名詞接尾辞）。「解放・自由の獲得」が原義。liberal（自由主義的な）・liberty（自由）・deliver（渡す・解放する）と同根の liber を共有し、「束縛から解き放つ」というイメージを持つ。\n\n英語には14世紀に採用され、「抑圧・束縛・外国支配から解放すること・その状態」の意味で定着。政治・社会・神学で national liberation（民族解放）・women's liberation（女性解放）・liberation theology（解放の神学）のように「不正な支配からの自由の獲得」を示す語として機能する。\n\n現代英語では animal liberation（動物解放）・personal liberation（個人的な解放）のように様々な文脈で「制約・束縛からの解放」を示す語として使われ、liberation movement（解放運動）という社会変革の語彙としても重要語として機能する。",
+      derivatives: [
+        { word: "liberate",    desc: "解放する（動詞）" },
+        { word: "liberator",   desc: "解放者（名詞）" },
+        { word: "liberating",  desc: "解放的な（形容詞）" }
+      ],
+      family: [
+        { word: "liberal",   desc: "自由主義的な（liber）" },
+        { word: "liberty",   desc: "自由（liber）" },
+        { word: "deliver",   desc: "渡す・解放する（de+liber）" }
+      ],
+      compounds: [
+        { phrase: "national liberation",    desc: "民族解放" },
+        { phrase: "women's liberation",     desc: "女性解放" },
+        { phrase: "liberation movement",    desc: "解放運動" }
+      ]
+    },
+
+    "empowerment": {
+      origin: "フランス語 empouvoir（力を与える）< em-（中に）+ pouvoir（力・能力）< ラテン語 potere（できる・力を持つ）+ -ment（名詞接尾辞）。「力の付与・エンパワーメント」が原義。empower（力を与える）・power（権力）・possible（可能な）と同根の potere を共有し、「力を人や組織の中に送り込む」というイメージを持つ。\n\n英語には17世紀に採用され、20世紀後半の女性解放運動・批判的教育学（パウロ・フレイレ）の発展とともに「周縁化された人々が自らの生活をコントロールする能力を得ること」という特定の社会的意味を持つ語として定着した。\n\n現代英語ではDE&I（多様性・平等・包摂）・社会起業・マーケティングで consumer empowerment（消費者のエンパワーメント）・youth empowerment（若者のエンパワーメント）のように幅広く使われ、「主体的に行動する力の獲得」を示す現代の重要語として機能する。",
+      derivatives: [
+        { word: "empower",     desc: "力を与える・権限を与える（動詞）" },
+        { word: "empowered",   desc: "力を与えられた（形容詞）" },
+        { word: "disempower",  desc: "力を奪う（否定形）" }
+      ],
+      family: [
+        { word: "power",    desc: "権力・力（potere）" },
+        { word: "possible", desc: "可能な（potere）" },
+        { word: "potential", desc: "潜在的な（potere）" }
+      ],
+      compounds: [
+        { phrase: "youth empowerment",      desc: "若者のエンパワーメント" },
+        { phrase: "consumer empowerment",   desc: "消費者のエンパワーメント" },
+        { phrase: "women's empowerment",    desc: "女性のエンパワーメント" }
+      ]
+    },
+
+    "conceal": {
+      origin: "ラテン語 concelare（完全に隠す）< con-（完全に）+ celare（隠す）。「隠す・秘密にする」が原義。reveal（暴く）・ceiling（天井）・occult（隠れた）と同根の celare を共有し、「完全に覆い隠す」というイメージを持つ。\n\n英語には13世紀に採用され、「意図的に見えないようにする・秘密にする」の意味で定着。法律・日常語・文学で conceal evidence（証拠を隠滅する）・conceal one's identity（身元を隠す）・concealed weapon（隠し持った武器）のように「隠蔽の意図」を含む語として機能する。\n\n現代英語では concealer（コンシーラー、化粧品）・concealed carry（隠し持ち、銃の携帯法）のような専門語から、I can't conceal my disappointment（失望を隠せない）という日常的表現まで幅広く使われる語となっている。",
+      derivatives: [
+        { word: "concealment",  desc: "隠蔽・秘匿（名詞）" },
+        { word: "concealer",    desc: "コンシーラー・隠す人（名詞）" },
+        { word: "concealed",    desc: "隠された（形容詞）" }
+      ],
+      family: [
+        { word: "reveal",   desc: "暴く・明かす（re+velum）" },
+        { word: "ceiling",  desc: "天井（celare）" },
+        { word: "occult",   desc: "隠れた・神秘的な（ob+celare）" }
+      ],
+      compounds: [
+        { phrase: "conceal evidence",   desc: "証拠を隠滅する" },
+        { phrase: "conceal one's identity", desc: "身元を隠す" },
+        { phrase: "concealed weapon",   desc: "隠し持った武器" }
+      ]
+    },
+
+    "deception": {
+      origin: "ラテン語 deceptio（欺き）< decipere（罠にかける・欺く）< de-（離れて・悪意で）+ capere（つかむ・捕まえる）+ -ion（名詞接尾辞）。「欺き・詐欺・偽り」が原義。deceive（欺く）・conceive（思いつく）・perceive（知覚する）・receive（受け取る）と同根の capere を共有し、「相手をつかんで引き離す・惑わせる」というイメージを持つ。\n\n英語には14世紀に採用され、「意図的に誤った情報を与えて相手を欺く行為」の意味で定着。法律・心理学・日常語で self-deception（自己欺瞞）・deception tactics（欺瞞戦術）・fraud and deception（詐欺と欺き）のように「誠実さの欠如」を示す語として機能する。\n\n現代英語ではself-deception（自己欺瞞）がポジティブ心理学・認知バイアスの文脈で重要語となっており、deception detection（欺瞞検出）という研究分野でも使われる。political deception（政治的欺瞞）のように倫理・政治でも頻用される。",
+      derivatives: [
+        { word: "deceive",     desc: "欺く（動詞）" },
+        { word: "deceptive",   desc: "欺瞞的な・見かけだおしの（形容詞）" },
+        { word: "deceptively", desc: "見かけに反して（副詞）" }
+      ],
+      family: [
+        { word: "conceive",  desc: "思いつく（con+capere）" },
+        { word: "perceive",  desc: "知覚する（per+capere）" },
+        { word: "capture",   desc: "捕まえる（capere）" }
+      ],
+      compounds: [
+        { phrase: "self-deception",     desc: "自己欺瞞" },
+        { phrase: "deception tactics",  desc: "欺瞞戦術" },
+        { phrase: "fraud and deception", desc: "詐欺と欺き" }
+      ]
+    },
+
+    "distortion": {
+      origin: "ラテン語 distortio（ねじれ・ゆがみ）< distorquere（ねじる・ゆがめる）< dis-（離れて）+ torquere（ねじる）+ -ion（名詞接尾辞）。「歪曲・ゆがみ・ひずみ」が原義。torture（拷問）・contort（ねじ曲げる）・extort（強奪する）と同根の torquere を共有し、「本来の形から離れてねじれた状態」というイメージを持つ。\n\n英語には16世紀に採用され、「本来の形・意味・事実を変形・ゆがめること」の意味で定着。物理学・音楽・政治で image distortion（画像の歪み）・sound distortion（音の歪み）・distortion of facts（事実の歪曲）のように使われる多義語として機能する。\n\n現代英語ではメディア批評・政治分析で cognitive distortion（認知の歪み）・media distortion（メディアの歪曲）という専門語として頻用され、音楽ではguitar distortion（ギターの歪み）という技術語としても定着している。",
+      derivatives: [
+        { word: "distort",     desc: "ゆがめる・歪曲する（動詞）" },
+        { word: "distorted",   desc: "歪んだ・歪曲された（形容詞）" }
+      ],
+      family: [
+        { word: "torture",   desc: "拷問（torquere）" },
+        { word: "contort",   desc: "ねじ曲げる（con+torquere）" },
+        { word: "extort",    desc: "強奪する（ex+torquere）" }
+      ],
+      compounds: [
+        { phrase: "cognitive distortion",  desc: "認知の歪み" },
+        { phrase: "distortion of facts",   desc: "事実の歪曲" },
+        { phrase: "image distortion",      desc: "画像の歪み" }
+      ]
+    },
+
+    "inflexible": {
+      origin: "ラテン語 inflexibilis（曲げられない）< in-（否定）+ flectere（曲げる）+ -ible（可能を示す形容詞接尾辞）。「融通が利かない・曲げられない」が原義。flex（曲げる）・reflect（反射する）・flexible（柔軟な）と同根の flectere を共有し、「意見・姿勢・材料が曲げられない状態」というイメージを持つ。\n\n英語には16世紀に採用され、「物理的に曲げられない」と「態度・考えが変わらない・融通が利かない」の両意味で定着。日常語・マネジメント・政治で inflexible rules（融通の利かない規則）・inflexible schedule（変更できないスケジュール）のように「変化を許さない硬直性」を示す語として機能する。\n\n現代英語では inflexible approach（硬直したアプローチ）・remain inflexible（頑として譲らない）のように組織論・交渉で批判的含意を持つ語として使われ、flexible（柔軟な）との対比でアジャイル思考・変化対応力の文脈で語られることが多い。",
+      derivatives: [
+        { word: "inflexibility",  desc: "硬直性・融通のなさ（名詞）" },
+        { word: "inflexibly",     desc: "頑固に・融通なく（副詞）" }
+      ],
+      family: [
+        { word: "flexible",  desc: "柔軟な（flectere）" },
+        { word: "reflect",   desc: "反射する・熟考する（re+flectere）" },
+        { word: "deflect",   desc: "そらす（de+flectere）" }
+      ],
+      compounds: [
+        { phrase: "inflexible rules",    desc: "融通の利かない規則" },
+        { phrase: "inflexible approach", desc: "硬直したアプローチ" },
+        { phrase: "remain inflexible",   desc: "頑として譲らない" }
+      ]
+    },
+
+    "progression": {
+      origin: "ラテン語 progressio（前進・進展）< progredi（前進する）< pro-（前に）+ gradi（歩く）+ -ion（名詞接尾辞）。「進行・進展・数列」が原義。progress（進歩）・congress（議会）・aggression（攻撃）と同根の gradi を共有し、「一歩一歩前に歩む」というイメージを持つ。\n\n英語には14世紀に採用され、「順を追って前進する過程・発展の連続性」の意味で定着。音楽・数学・医学で chord progression（コード進行）・arithmetic progression（等差数列）・disease progression（疾患の進行）のように「段階的な変化の連続」を示す専門語として機能する。\n\n現代英語では career progression（キャリアの進展）・natural progression（自然な流れ）・logical progression（論理的な展開）のようにビジネス・日常語でも頻用され、progress（進歩）より「連続した段階・過程」という意味に特化した語として使い分けられる。",
+      derivatives: [
+        { word: "progressive",  desc: "進歩的な・段階的な（形容詞）" },
+        { word: "progressively", desc: "次第に（副詞）" }
+      ],
+      family: [
+        { word: "progress",    desc: "進歩（pro+gradi）" },
+        { word: "congress",    desc: "議会（con+gradi）" },
+        { word: "aggression",  desc: "攻撃性（ad+gradi）" }
+      ],
+      compounds: [
+        { phrase: "chord progression",      desc: "コード進行" },
+        { phrase: "disease progression",    desc: "疾患の進行" },
+        { phrase: "career progression",     desc: "キャリアの進展" }
+      ]
     }
 
   };

@@ -23938,6 +23938,521 @@
         { phrase: "passive income",    desc: "不労所得" },
         { phrase: "passive smoking",   desc: "受動喫煙" }
       ]
+    },
+
+    "pattern": {
+      origin: "中世ラテン語 patronus（保護者・模範）< pater（父）の変形。patron（後援者）・father（父）・paternal（父の）と同根で、「父・保護者が示す模範」が原義。英語に入り「型紙・模様・規則的な繰り返し」の意味に変化した。\n\n英語には14世紀に「守護聖人・模範」の意味で採用され、15世紀以降に「型紙（縫製用）」の意味が定着した。科学・音楽・コンピューター科学では「規則的に繰り返す構造」として重要語となった。\n\n現代英語ではdesign pattern（デザインパターン）・speech pattern（話し方のパターン）・pattern recognition（パターン認識）のように、科学・技術・芸術の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "patterned",   desc: "模様のある・パターン化した（形容詞）" },
+        { word: "patterning",  desc: "パターン形成（名詞）" }
+      ],
+      family: [
+        { word: "patron",    desc: "後援者・守護者（pater）" },
+        { word: "paternal",  desc: "父の・父親らしい（pater）" },
+        { word: "matrix",    desc: "母体・行列（mater）" }
+      ],
+      compounds: [
+        { phrase: "design pattern",     desc: "デザインパターン" },
+        { phrase: "pattern recognition", desc: "パターン認識" },
+        { phrase: "behavior pattern",   desc: "行動パターン" }
+      ]
+    },
+
+    "phase": {
+      origin: "ギリシャ語 phasis（現れ・出現）< phainein（現れる・光る）。phenomenon（現象）・fantasy（幻想）・phantom（幻）と同根で、「定期的に姿を現す状態」が原義。月の位相（phases of the moon）が最初の科学的用法。\n\n英語には17世紀に天文学用語として採用され、「月の満ち欠けの各段階」を指した。19世紀以降に物理・化学・生物・プロジェクト管理と幅広い分野に「段階・局面」の意味が拡張した。\n\n現代英語ではphase out（段階的に廃止する）・in phase with（〜と同位相で）・phase of development（発展段階）のように、科学・プロジェクト・社会変化の文脈で機能する語である。",
+      derivatives: [
+        { word: "phased",    desc: "段階的な（形容詞）" },
+        { word: "phase-in",  desc: "段階的導入（名詞）" }
+      ],
+      family: [
+        { word: "phantom",    desc: "幻・幽霊（phainein）" },
+        { word: "phenomenon", desc: "現象（phainein）" },
+        { word: "stage",      desc: "段階・舞台（意味的近縁）" }
+      ],
+      compounds: [
+        { phrase: "phase out",          desc: "段階的に廃止する" },
+        { phrase: "phase of the moon",  desc: "月の位相" },
+        { phrase: "transition phase",   desc: "移行段階" }
+      ]
+    },
+
+    "place": {
+      origin: "古フランス語 place（広場・場所）< ラテン語 platea（広い通り・広場）< ギリシャ語 plateia（広い道）< platys（広い・平たい）。plateau（高原）・plate（皿・板）・flat（平たい）と同根で、「水平に広がった空間」が原義。\n\n英語には13世紀に採用され、「場所・位置・広場」の物理的意味が先行した。in place of（〜の代わりに）・take place（起こる）・place an order（注文する）と多義的な動詞・名詞として発展し、英語の最頻出語の一つとなった。\n\n現代英語ではtake place（起こる）・in the first place（そもそも）・out of place（場違いな）のように、慣用表現として日常英語の根幹をなす多機能語である。",
+      derivatives: [
+        { word: "placement",   desc: "配置・就職斡旋（名詞）" },
+        { word: "displace",    desc: "移動させる・取って代わる（動詞）" },
+        { word: "misplace",    desc: "置き忘れる（動詞）" }
+      ],
+      family: [
+        { word: "plateau",  desc: "高原・停滞期（platys）" },
+        { word: "plate",    desc: "皿・板（platys）" },
+        { word: "plaza",    desc: "広場（platea の変形）" }
+      ],
+      compounds: [
+        { phrase: "take place",     desc: "起こる・行われる" },
+        { phrase: "in place of",    desc: "〜の代わりに" },
+        { phrase: "out of place",   desc: "場違いな・不適切な" }
+      ]
+    },
+
+    "plain": {
+      origin: "ラテン語 planus（平らな・明らかな）< 語根 *pele-（平坦な）。plan（計画）・plane（平面・飛行機）・explain（説明する）・plateau（高原）と同根で、「障害なく見渡せる平らな広がり」が原義。\n\n英語には13世紀にフランス語 plain を経て採用され、「平原（地形）」「飾り気のない」「明白な」の三つの意味が共存している。plain speaking（率直な発言）・plain language（平易な言葉）のように「装飾なし・飾り立てていない」の意味が語用の核心となった。\n\n現代英語ではplain text（平文・プレーンテキスト）・speak plain（率直に話す）・plain sailing（順調な進行）のように、通信・修辞・航海の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "plainly",    desc: "明らかに・率直に（副詞）" },
+        { word: "plainness",  desc: "単純さ・地味さ（名詞）" }
+      ],
+      family: [
+        { word: "plan",     desc: "計画・平面図（planus）" },
+        { word: "plane",    desc: "平面・飛行機（planus）" },
+        { word: "explain",  desc: "説明する（ex+planus）" }
+      ],
+      compounds: [
+        { phrase: "plain text",     desc: "平文・プレーンテキスト" },
+        { phrase: "plain sailing",  desc: "順調な進行" },
+        { phrase: "plain speaking", desc: "率直な発言" }
+      ]
+    },
+
+    "planet": {
+      origin: "ギリシャ語 planetes（さまよう星）< planasthai（さまよう）< planos（さまよう・逸れる）。「恒星の背景に対して動く星」が原義で、古代人は惑星が夜空をさまよう星と見なした。\n\n英語には14世紀にフランス語 planète を経て採用され、当初は太陽・月・水星・金星・火星・木星・土星の七つの天体を指した。コペルニクス革命・望遠鏡の発明以降に概念が再定義され、地球も含む惑星の現代的定義が確立した。\n\n現代英語ではplanet Earth（地球）・save the planet（地球を救う）・planetary system（惑星系）のように、天文学・環境・科学の核心語として機能する。",
+      derivatives: [
+        { word: "planetary",   desc: "惑星の・惑星系の（形容詞）" },
+        { word: "planetarium", desc: "プラネタリウム（名詞）" }
+      ],
+      family: [
+        { word: "astro",   desc: "星（ギリシャ語）" },
+        { word: "orbit",   desc: "軌道（orbita）" },
+        { word: "cosmos",  desc: "宇宙（ギリシャ語）" }
+      ],
+      compounds: [
+        { phrase: "save the planet",   desc: "地球を救う" },
+        { phrase: "planetary system",  desc: "惑星系" },
+        { phrase: "dwarf planet",      desc: "矮小惑星" }
+      ]
+    },
+
+    "political": {
+      origin: "ギリシャ語 politikos（市民の・国家に関する）< polis（都市国家）。policy（政策）・police（警察）・cosmopolitan（世界市民の）と同根で、「ポリス（共同体）の市民として行動する」が原義。アリストテレスが「人間は政治的動物である」と述べたことで political の哲学的重みが確立した。\n\n英語には15世紀に採用され、政治・統治の語彙として発展した。politically correct（政治的に正しい）という表現が20世紀後半に重要語彙となり、political science（政治学）が学問として確立した。\n\n現代英語ではpolitical science（政治学）・politically correct（差別的でない）・political spectrum（政治的スペクトル）のように、学術・社会・文化の幅広い文脈で使われる形容詞である。",
+      derivatives: [
+        { word: "politically",  desc: "政治的に（副詞）" },
+        { word: "politician",   desc: "政治家（名詞）" },
+        { word: "politicize",   desc: "政治問題化する（動詞）" }
+      ],
+      family: [
+        { word: "policy",   desc: "政策（polis）" },
+        { word: "police",   desc: "警察（polis）" },
+        { word: "polis",    desc: "都市国家（ギリシャ語）" }
+      ],
+      compounds: [
+        { phrase: "political science",    desc: "政治学" },
+        { phrase: "politically correct",  desc: "差別的でない・PC" },
+        { phrase: "political spectrum",   desc: "政治的スペクトル" }
+      ]
+    },
+
+    "possess": {
+      origin: "ラテン語 possidere（所有する・座る）< potis（力のある・主人）+ sedere（座る）。power（力）・potent（強力な）・president（大統領）と語根 pot- を共有し、「力をもって主人として座る」が原義。\n\n英語には15世紀にフランス語 possesser を経て採用され、「物品・土地・財産を所有する」の法律的意味が先行した。悪霊に憑かれる（possessed）という宗教的意味も中世から並立し、心理学では「強い気持ちに囚われる」の比喩的意味が発展した。\n\n現代英語ではpossess a skill（技術を持つ）・be possessed by fear（恐怖に囚われる）・possession of weapons（武器所持）のように、法律・心理・能力の多様な文脈で使われる動詞である。",
+      derivatives: [
+        { word: "possession",   desc: "所有・財産（名詞）" },
+        { word: "possessive",   desc: "所有の・独占的な（形容詞）" },
+        { word: "dispossess",   desc: "〜から所有権を奪う（動詞）" }
+      ],
+      family: [
+        { word: "power",     desc: "力（potis）" },
+        { word: "potent",    desc: "強力な（potis）" },
+        { word: "president", desc: "大統領（pre+sedere）" }
+      ],
+      compounds: [
+        { phrase: "possession of weapons",  desc: "武器所持" },
+        { phrase: "nine-tenths of the law", desc: "（占有は）所有の証し（諺）" },
+        { phrase: "be possessed by",        desc: "〜に憑かれている" }
+      ]
+    },
+
+    "press": {
+      origin: "ラテン語 pressare（押す・絞る）< premere（押す）< 語根 *prem-（押す）。print（印刷する）・compress（圧縮する）・express（表現する）・oppress（抑圧する）と同根で、「力を加えて押す・絞る」が原義。\n\n英語には13世紀に「押す・絞る」の物理的動詞として採用され、15世紀の印刷機（printing press）の発明とともに「出版・マスコミ」の意味が生まれた。freedom of the press（報道の自由）という概念が民主主義語彙の核心となった。\n\n現代英語ではpress freedom（報道の自由）・press a button（ボタンを押す）・press conference（記者会見）のように、メディア・技術・政治の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "pressure",   desc: "圧力・プレッシャー（名詞）" },
+        { word: "pressing",   desc: "緊急の・切迫した（形容詞）" },
+        { word: "suppress",   desc: "抑圧する（sub+premere）" }
+      ],
+      family: [
+        { word: "compress",  desc: "圧縮する（con+premere）" },
+        { word: "express",   desc: "表現する（ex+premere）" },
+        { word: "oppress",   desc: "抑圧する（ob+premere）" },
+        { word: "print",     desc: "印刷する（premere）" }
+      ],
+      compounds: [
+        { phrase: "press conference", desc: "記者会見" },
+        { phrase: "press freedom",    desc: "報道の自由" },
+        { phrase: "under pressure",   desc: "プレッシャーの下に" }
+      ]
+    },
+
+    "principle": {
+      origin: "ラテン語 principium（始まり・根本）< princeps（第一人者・首長）< primus（最初の）+ capere（取る）。principal（主要な）・prince（王子）・prime（最初の）と同根で、「最初に取られたもの・根本的な第一原則」が原義。\n\n英語には14世紀にフランス語 principe を経て採用され、「哲学・科学の基本原則」の意味で使われた。principle（原則）と principal（主要な・校長）は語源が同じだが意味が分化した重要な混同注意語ペアである。\n\n現代英語ではin principle（原則として）・guiding principle（基本方針）・scientific principle（科学原理）のように、哲学・科学・倫理・法律の核心語として機能する。",
+      derivatives: [
+        { word: "principled",    desc: "原則のある・信念に基づいた（形容詞）" },
+        { word: "unprincipled",  desc: "原則のない・節操のない（形容詞）" }
+      ],
+      family: [
+        { word: "principal",  desc: "主要な・校長（primus+capere）" },
+        { word: "prime",      desc: "最初の・素数（primus）" },
+        { word: "primary",    desc: "第一の・基本的な（primus）" }
+      ],
+      compounds: [
+        { phrase: "in principle",       desc: "原則として" },
+        { phrase: "guiding principle",  desc: "基本方針・指導原則" },
+        { phrase: "scientific principle", desc: "科学原理" }
+      ]
+    },
+
+    "prior": {
+      origin: "ラテン語 prior（前の・以前の）< prae（前に）の比較級。previous（前の）・premier（首位の）・pre-（接頭辞・前の）と同根で、「時間・順序において前にある」が原義。priority（優先事項）・prioritize（優先させる）という重要語族を形成する。\n\n英語には15世紀にラテン語 prior を直接採用し、「より重要な・より以前の」の意味で法律・宗教の文書に使われた。21世紀のビジネス語彙では priority（優先事項）・prioritize（優先順位をつける）が経営・自己啓発語彙として確立した。\n\n現代英語ではprior to the meeting（会議の前に）・prior commitment（先約）・prior knowledge（事前知識）のように、時間的先行・優先順位の文脈で重要な形容詞・副詞として機能する。",
+      derivatives: [
+        { word: "priority",    desc: "優先事項・優先権（名詞）" },
+        { word: "prioritize",  desc: "優先順位をつける（動詞）" }
+      ],
+      family: [
+        { word: "previous",  desc: "前の・以前の（prae）" },
+        { word: "premier",   desc: "首位の・首相（prae）" },
+        { word: "prime",     desc: "最初の・最重要な（primus）" }
+      ],
+      compounds: [
+        { phrase: "prior to",          desc: "〜の前に" },
+        { phrase: "prior commitment",  desc: "先約" },
+        { phrase: "first priority",    desc: "最優先事項" }
+      ]
+    },
+
+    "prove": {
+      origin: "ラテン語 probare（試す・証明する・承認する）< probus（良い・誠実な）。probable（ありそうな）・probe（探査する）・approve（承認する）と同根で、「試して良いと確認する」が原義。\n\n英語には13世紀にフランス語 prover を経て採用され、「試験・実証・証明する」の意味で数学・法律・日常語彙に定着した。proof（証拠・校正）は同語族の重要語で、the proof of the pudding（プディングの味は食べてみなければわからない）という諺に残る語でもある。\n\n現代英語ではprove a theorem（定理を証明する）・prove innocent（無実を証明する）・prove oneself（自分の能力を証明する）のように、数学・法律・自己証明の多様な文脈で機能する。",
+      derivatives: [
+        { word: "proof",     desc: "証拠・校正・防水の（名詞/形容詞）" },
+        { word: "proven",    desc: "証明された（形容詞）" },
+        { word: "disprove",  desc: "反証する（dis+probare）" }
+      ],
+      family: [
+        { word: "probable",  desc: "ありそうな（probare）" },
+        { word: "probe",     desc: "探査する・調べる（probare）" },
+        { word: "approve",   desc: "承認する（ad+probare）" }
+      ],
+      compounds: [
+        { phrase: "prove a theorem",    desc: "定理を証明する" },
+        { phrase: "burden of proof",    desc: "立証責任" },
+        { phrase: "prove one's point",  desc: "自分の主張を証明する" }
+      ]
+    },
+
+    "publish": {
+      origin: "ラテン語 publicare（公にする）< publicus（人民の・公の）< populus（人民）。public（公の）・republic（共和国）・people（人々）と同根で、「大衆に向けて公開する」が原義。\n\n英語には14世紀にフランス語 publier を経て採用され、まず「布告する・公表する」の意味で使われた。15世紀のグーテンベルクの活版印刷術の発明とともに「本・雑誌を出版する」の現代的意味が確立し、publish or perish（論文を出さなければ業績なし）という学術格言が生まれた。\n\n現代英語ではpublish a book（本を出版する）・publish research（研究を発表する）・self-publish（自費出版する）のように、学術・メディア・デジタルコンテンツの文脈で機能する語である。",
+      derivatives: [
+        { word: "publication",  desc: "出版物・発行（名詞）" },
+        { word: "publisher",    desc: "出版社・出版人（名詞）" },
+        { word: "unpublished",  desc: "未出版の（否定形）" }
+      ],
+      family: [
+        { word: "public",    desc: "公の・公共の（populus）" },
+        { word: "republic",  desc: "共和国（res+publicus）" },
+        { word: "people",    desc: "人々（populus）" }
+      ],
+      compounds: [
+        { phrase: "publish or perish",  desc: "論文を出すか消えるか（学術格言）" },
+        { phrase: "self-publish",       desc: "自費出版する" },
+        { phrase: "publish research",   desc: "研究を発表する" }
+      ]
+    },
+
+    "pursue": {
+      origin: "古フランス語 poursuivre（追いかける）< ラテン語 prosequi（先を追う）< pro-（前へ）+ sequi（続く・追う）。sequence（順序）・consequence（結果）・prosecute（訴追する）と同根で、「前を行くものを追い続ける」が原義。\n\n英語には13世紀に採用され、「逃げる者を追跡する・目標を追い求める」の意味で使われた。pursue a career（キャリアを追求する）・pursue happiness（幸福を追求する）のように「積極的な目標への継続的な努力」を表す語として定着した。\n\n現代英語ではpursue a career（キャリアを積む）・pursue happiness（幸福を追求する）・in hot pursuit（直後を追いかけて）のように、職業・人生目標・追跡の文脈で幅広く使われる動詞である。",
+      derivatives: [
+        { word: "pursuit",     desc: "追求・追跡（名詞）" },
+        { word: "pursuer",     desc: "追跡者（名詞）" }
+      ],
+      family: [
+        { word: "sequence",     desc: "順序・連続（sequi）" },
+        { word: "consequence",  desc: "結果（con+sequi）" },
+        { word: "prosecute",    desc: "訴追する（pro+sequi）" }
+      ],
+      compounds: [
+        { phrase: "pursue a career",   desc: "キャリアを積む・職を追い求める" },
+        { phrase: "in hot pursuit",    desc: "真後ろを追って" },
+        { phrase: "the pursuit of happiness", desc: "幸福の追求" }
+      ]
+    },
+
+    "reason": {
+      origin: "ラテン語 ratio（計算・理性・根拠）< reri（考える・計算する）< 語根 *re-（整理する・数える）。rational（合理的な）・ratio（比率）・ration（配給）・rate（率）と同根で、「計算し整理する力・その根拠」が原義。\n\n英語には13世紀にフランス語 raison を経て採用され、「論理的思考・判断・理由」の意味で哲学・法律・日常語彙に定着した。Age of Reason（理性の時代）という18世紀啓蒙主義の中心概念として重要性を増した語でもある。\n\n現代英語ではreason for refusal（拒否の理由）・within reason（常識の範囲で）・reason with someone（〜と話し合う）のように、論理・説得・原因の多様な文脈で機能する名詞・動詞である。",
+      derivatives: [
+        { word: "reasonable",    desc: "合理的な・良識的な（形容詞）" },
+        { word: "reasoning",     desc: "推理・論法（名詞）" },
+        { word: "unreasonable",  desc: "不合理な（否定形）" }
+      ],
+      family: [
+        { word: "rational",  desc: "合理的な（ratio）" },
+        { word: "ratio",     desc: "比率（ratio）" },
+        { word: "ration",    desc: "配給（ratio）" }
+      ],
+      compounds: [
+        { phrase: "within reason",    desc: "常識の範囲で" },
+        { phrase: "reason with",      desc: "〜に理を説く・話し合う" },
+        { phrase: "by reason of",     desc: "〜の理由で（法律語）" }
+      ]
+    },
+
+    "regard": {
+      origin: "フランス語 regarder（見る・考慮する）< re-（再び）+ garder（守る・見る）< ゲルマン語根 *wardaz（番人・監視する）。guard（守る）・warden（看守）と同根で、「再び注意して見る・気にかける」が原義。\n\n英語には14世紀に採用され、「注意して見る・配慮する・尊重する」の意味で定着した。in regard to（〜に関して）・regard highly（高く評価する）のような慣用表現が確立し、書き言葉での礼儀表現（with kind regards）としても重要な語となった。\n\n現代英語ではregard as important（重要と見なす）・in regard to（〜に関して）・with best regards（よろしくお願いします）のように、評価・関心・書信表現の多様な文脈で使われる。",
+      derivatives: [
+        { word: "regarding",    desc: "〜に関して（前置詞）" },
+        { word: "regardless",   desc: "〜にかかわらず（副詞）" },
+        { word: "disregard",    desc: "無視する（dis+regard）" }
+      ],
+      family: [
+        { word: "guard",    desc: "守る・番人（wardaz）" },
+        { word: "warden",   desc: "看守・管理者（wardaz）" },
+        { word: "reward",   desc: "報酬（re+ward）" }
+      ],
+      compounds: [
+        { phrase: "in regard to",     desc: "〜に関して" },
+        { phrase: "with best regards", desc: "よろしく（書信の結辞）" },
+        { phrase: "hold in high regard", desc: "高く評価する" }
+      ]
+    },
+
+    "relate": {
+      origin: "ラテン語 relatus（運び戻された）< re-（再び）+ latus（運ばれた）< ferre（運ぶ）の不規則過去分詞。relate・report・refer は全て「運ぶ」という ferre の語根を共有し、「情報・関係を持ち帰って結びつける」が原義。\n\n英語には16世紀にフランス語を経て採用され、「物語る・関係づける」の意味で定着した。relate to（〜に共感する）という現代口語表現は20世紀に広まり、related（関連した）という形容詞が科学・社会の語彙として重要となった。\n\n現代英語ではrelate to someone（〜に共感する）・closely related（密接に関連した）・human relations（人間関係）のように、感情・論理・社会関係の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "relation",   desc: "関係・親族・説明（名詞）" },
+        { word: "related",    desc: "関連した・親戚の（形容詞）" },
+        { word: "relative",   desc: "親族・相対的な（名詞/形容詞）" }
+      ],
+      family: [
+        { word: "refer",    desc: "参照する（re+ferre）" },
+        { word: "report",   desc: "報告する（re+portare）" },
+        { word: "transfer", desc: "移す（trans+ferre）" }
+      ],
+      compounds: [
+        { phrase: "relate to",        desc: "〜に共感する・関係する" },
+        { phrase: "public relations", desc: "広報・PR" },
+        { phrase: "work-related",     desc: "仕事に関連した" }
+      ]
+    },
+
+    "release": {
+      origin: "古フランス語 relesser（ゆるめる・解放する）< ラテン語 relaxare（緩める）< re-（再び）+ laxare（緩める）< laxus（緩い・ゆったりした）。relax（くつろぐ）・lax（緩い）と同根で、「締め付けをゆるめて自由にする」が原義。\n\n英語には13世紀に「捕囚・法的義務から解放する」の意味で採用され、15世紀以降に「製品・情報を公開する」の意味が広まった。album release（アルバムのリリース）・press release（プレスリリース）のようにメディア語彙として20世紀に特に重要となった。\n\n現代英語ではrelease a prisoner（囚人を釈放する）・press release（プレスリリース）・release tension（緊張をほぐす）のように、法律・メディア・心理の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "released",    desc: "釈放された・公開された（形容詞）" }
+      ],
+      family: [
+        { word: "relax",   desc: "くつろぐ（re+laxare）" },
+        { word: "lax",     desc: "緩い・不注意な（laxus）" },
+        { word: "slack",   desc: "たるみ・緩い（古英語、意味的近縁）" }
+      ],
+      compounds: [
+        { phrase: "press release",   desc: "プレスリリース・公式発表" },
+        { phrase: "release tension", desc: "緊張をほぐす" },
+        { phrase: "new release",     desc: "新発売・新公開" }
+      ]
+    },
+
+    "relief": {
+      origin: "フランス語 relief（救済・浮き彫り）< relever（持ち上げる・軽くする）< ラテン語 relevare（持ち上げる）< re-（再び）+ levare（軽くする・持ち上げる）< levis（軽い）。alleviate（緩和する）・lever（てこ）・levity（軽さ・軽率さ）と同根で、「重荷を持ち上げて軽くする」が原義。\n\n英語には14世紀に採用され、「苦難・痛みの軽減・援助」の意味で定着した。relief fund（救援基金）・tax relief（税の軽減）・pain relief（痛みの緩和）のように福祉・財政・医療の重要語となった。\n\n現代英語ではrelief fund（救援基金）・pain relief（鎮痛）・sigh of relief（安堵のため息）のように、感情・医療・財政支援の核心語として機能する語である。",
+      derivatives: [
+        { word: "relieve",    desc: "和らげる・救済する（動詞）" },
+        { word: "relieved",   desc: "安堵した（形容詞）" }
+      ],
+      family: [
+        { word: "alleviate",  desc: "緩和する（ad+levis）" },
+        { word: "lever",      desc: "てこ・レバー（levare）" },
+        { word: "levity",     desc: "軽さ・軽率さ（levis）" }
+      ],
+      compounds: [
+        { phrase: "sigh of relief",  desc: "安堵のため息" },
+        { phrase: "pain relief",     desc: "鎮痛・痛みの緩和" },
+        { phrase: "relief fund",     desc: "救援基金" }
+      ]
+    },
+
+    "rely": {
+      origin: "古フランス語 relier（縛る・頼る）< ラテン語 religare（縛り直す）< re-（再び）+ ligare（縛る）。religion（宗教）・ligament（靱帯）・league（同盟）と同根で、「再び縛り直して依存する」が原義。\n\n英語には14世紀に採用され、「信頼して依存する・頼る」の意味で定着した。reliable（信頼できる）という形容詞が17世紀以降に技術・人物の評価語として広まり、reliability（信頼性）が工学・統計の重要概念となった。\n\n現代英語ではrely on a friend（友人を頼る）・rely on data（データに依拠する）・system reliability（システムの信頼性）のように、人間関係・科学・工学の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "reliable",    desc: "信頼できる（形容詞）" },
+        { word: "reliability", desc: "信頼性（名詞）" },
+        { word: "reliance",    desc: "依存・信頼（名詞）" }
+      ],
+      family: [
+        { word: "religion",   desc: "宗教（religare）" },
+        { word: "ligament",   desc: "靱帯（ligare）" },
+        { word: "league",     desc: "同盟・リーグ（ligare）" }
+      ],
+      compounds: [
+        { phrase: "rely on",        desc: "〜を頼る・依存する" },
+        { phrase: "self-reliance",  desc: "自立・自力更生" },
+        { phrase: "system reliability", desc: "システムの信頼性" }
+      ]
+    },
+
+    "respond": {
+      origin: "ラテン語 respondere（約束し返す・応える）< re-（再び・返して）+ spondere（誓う・約束する）。sponsor（スポンサー）・spouse（配偶者）・correspond（対応する）と同根で、「呼びかけに対して誓いをもって返す」が原義。\n\n英語には15世紀にフランス語 répondre を経て採用され、「質問・要求・刺激に対して返答・反応する」の意味で定着した。first responder（最初に現場に駆けつける人）・responsive design（レスポンシブデザイン）のような現代語彙が20世紀以降に確立した。\n\n現代英語ではrespond to a question（質問に答える）・first responder（救急対応者）・responsive to feedback（フィードバックに敏感な）のように、コミュニケーション・緊急対応・技術の核心語として機能する。",
+      derivatives: [
+        { word: "response",     desc: "応答・反応（名詞）" },
+        { word: "responsive",   desc: "反応が良い・敏感な（形容詞）" },
+        { word: "responsible",  desc: "責任ある（形容詞）" }
+      ],
+      family: [
+        { word: "sponsor",     desc: "スポンサー（spondere）" },
+        { word: "spouse",      desc: "配偶者（spondere）" },
+        { word: "correspond",  desc: "対応する・文通する（co+respondere）" }
+      ],
+      compounds: [
+        { phrase: "first responder",     desc: "最初の救急対応者" },
+        { phrase: "responsive design",   desc: "レスポンシブデザイン" },
+        { phrase: "respond to feedback", desc: "フィードバックに応答する" }
+      ]
+    },
+
+    "restore": {
+      origin: "ラテン語 restaurare（修復する・再建する）< re-（再び）+ staurare（建てる・固める）< stare（立つ）の派生形。restaurant（レストラン）・store（蓄える）・stable（安定した）と関連の語根を持つ。\n\n英語には14世紀にフランス語 restorer を経て採用され、「壊れた物・失われた権利・健康を元の状態に戻す」の意味で使われた。art restoration（美術品の修復）・restore democracy（民主主義を回復する）のように美術・政治・医療の語彙として重要。\n\n現代英語ではrestore a painting（絵画を修復する）・restore confidence（信頼を回復する）・system restore（システムの復元）のように、芸術・政治・技術の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "restoration",  desc: "修復・復元・王政復古（名詞）" },
+        { word: "restorative",  desc: "回復させる・修復の（形容詞）" }
+      ],
+      family: [
+        { word: "restaurant",  desc: "レストラン（restaurare）" },
+        { word: "store",       desc: "蓄える・店（stare）" },
+        { word: "stable",      desc: "安定した（stare）" }
+      ],
+      compounds: [
+        { phrase: "restore confidence", desc: "信頼を回復する" },
+        { phrase: "art restoration",    desc: "美術品の修復" },
+        { phrase: "system restore",     desc: "システムの復元" }
+      ]
+    },
+
+    "result": {
+      origin: "ラテン語 resultare（跳ね返る・生じる）< re-（再び）+ saltare（跳ぶ）< salire（跳ぶ）。assault（攻撃する）・exult（歓喜する）・insult（侮辱する）と同根で、「何かの反動として跳ね返ってくるもの」が原義。\n\n英語には15世紀にフランス語を経て採用され、「行動・原因から生じる結果」の意味で科学・法律・日常語彙に定着した。result in（〜という結果になる）・result from（〜から生じる）という対になる慣用表現が論理的文章の核心語となった。\n\n現代英語ではresult in failure（失敗に終わる）・as a result of（〜の結果として）・end result（最終結果）のように、論理・科学・スポーツの幅広い文脈で機能する名詞・動詞である。",
+      derivatives: [
+        { word: "resultant",  desc: "結果として生じる（形容詞）" },
+        { word: "resultless", desc: "結果のない（形容詞）" }
+      ],
+      family: [
+        { word: "assault",  desc: "攻撃する（ad+saltare）" },
+        { word: "exult",    desc: "歓喜する（ex+saltare）" },
+        { word: "insult",   desc: "侮辱する（in+saltare）" }
+      ],
+      compounds: [
+        { phrase: "end result",        desc: "最終結果" },
+        { phrase: "as a result of",    desc: "〜の結果として" },
+        { phrase: "result in failure", desc: "失敗に終わる" }
+      ]
+    },
+
+    "risk": {
+      origin: "語源不明だが、イタリア語 risico / risco（岸の岩・危険）を経由した可能性が高い。16世紀のイタリア商人が海上貿易の「岩礁による難船の危険」を指す語として使い、ヨーロッパの商業語彙として広まった。\n\n英語には17世紀に採用され、まず海上保険の語彙として「損失の可能性」の意味で使われた。20世紀のリスク管理学（risk management）の発展とともに経済・医療・工学の核心語となり、risk-taking（リスクを冒すこと）・risk assessment（リスク評価）が重要語彙として確立した。\n\n現代英語ではrisk assessment（リスク評価）・take a risk（リスクを冒す）・high-risk behavior（高リスク行動）のように、保険・医療・経営・日常の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "risky",    desc: "危険な・リスクのある（形容詞）" },
+        { word: "riskier",  desc: "より危険な（比較級）" }
+      ],
+      family: [
+        { word: "danger",  desc: "危険（古フランス語）" },
+        { word: "hazard",  desc: "危険・障害（アラビア語起源）" },
+        { word: "peril",   desc: "危険（ラテン語）" }
+      ],
+      compounds: [
+        { phrase: "risk assessment",  desc: "リスク評価" },
+        { phrase: "take a risk",      desc: "リスクを冒す" },
+        { phrase: "risk management",  desc: "リスク管理" }
+      ]
+    },
+
+    "role": {
+      origin: "フランス語 rôle（俳優の台本の巻物）< 中世ラテン語 rotulus（小さな巻物）< rota（車輪）。roll（巻く）・rotate（回転する）・round（丸い）と同根で、「巻かれた台本→それを演じる役」が原義。\n\n英語には17世紀に「俳優が演じる役」の意味で採用され、18世紀以降に「社会的立場・役割・機能」の比喩的意味が広まった。role model（ロールモデル）が20世紀の社会心理学で重要概念となり、role-play（ロールプレイ）が教育・心理療法に普及した。\n\n現代英語ではrole model（手本・模範）・play a role in（〜に役割を果たす）・gender role（性別役割）のように、演劇・社会・教育の幅広い文脈で機能する語である。",
+      derivatives: [
+        { word: "role-play",  desc: "ロールプレイ・役割演技（名詞/動詞）" }
+      ],
+      family: [
+        { word: "roll",     desc: "巻く・ロール（rota）" },
+        { word: "rotate",   desc: "回転する（rota）" },
+        { word: "rotund",   desc: "丸々とした（rota）" }
+      ],
+      compounds: [
+        { phrase: "role model",     desc: "ロールモデル・模範となる人" },
+        { phrase: "play a role",    desc: "役割を果たす" },
+        { phrase: "gender role",    desc: "性別役割" }
+      ]
+    },
+
+    "seek": {
+      origin: "古英語 secan（求める・探す）< ゲルマン語根 *sokjan（探す）< インド・ヨーロッパ語根 *sāg-（探す・嗅ぐ）。sagacious（賢い）と遠縁で、「積極的に探し求める」が原義。\n\n英語には古英語期から使われる最古の語彙の一つで、seek（求める）・sought（過去形・過去分詞）という不規則変化が特徴。hide-and-seek（かくれんぼ）・seek shelter（避難する）のように日常語彙に深く根付いた語である。\n\n現代英語ではseek advice（助言を求める）・job seeker（求職者）・self-seeking（自己本位の）のように、探索・要求・目標追求の多様な文脈で機能する語である。",
+      derivatives: [
+        { word: "seeker",     desc: "求める人・探求者（名詞）" },
+        { word: "sought",     desc: "sought-after: 需要のある（形容詞）" }
+      ],
+      family: [
+        { word: "search",   desc: "捜索する（古フランス語）" },
+        { word: "quest",    desc: "探索・追求（quaerere）" },
+        { word: "pursue",   desc: "追い求める（pro+sequi）" }
+      ],
+      compounds: [
+        { phrase: "seek advice",   desc: "助言を求める" },
+        { phrase: "job seeker",    desc: "求職者" },
+        { phrase: "hide-and-seek", desc: "かくれんぼ" }
+      ]
+    },
+
+    "source": {
+      origin: "古フランス語 sourse（泉・水源）< ラテン語 surgere（立ち上がる）< sub-（下から）+ regere（真っすぐにする）。surge（急上昇する）・resurrect（復活する）と同根で、「地面から湧き立ち上がる水・起源」が原義。\n\n英語には14世紀に「泉・起源」の意味で採用され、「情報・資金・エネルギーの出所」へと意味が拡張した。open source（オープンソース）が20世紀末のソフトウェア運動の核心語となり、information source（情報源）がジャーナリズムの語彙として定着した。\n\n現代英語ではopen source（オープンソース）・information source（情報源）・source code（ソースコード）のように、技術・メディア・学術の核心語として機能する語である。",
+      derivatives: [
+        { word: "sourced",    desc: "調達された・産地の（形容詞）" },
+        { word: "outsource",  desc: "外部委託する（out+source）" }
+      ],
+      family: [
+        { word: "surge",      desc: "急上昇する（surgere）" },
+        { word: "resurge",    desc: "再び盛り上がる（re+surgere）" },
+        { word: "resource",   desc: "資源（re+surgere）" }
+      ],
+      compounds: [
+        { phrase: "open source",      desc: "オープンソース" },
+        { phrase: "source code",      desc: "ソースコード" },
+        { phrase: "information source", desc: "情報源" }
+      ]
+    },
+
+    "survey": {
+      origin: "アングロ・フランス語 surveier（見回す・管理する）< 古フランス語 sur-（上から）+ veoir（見る）< ラテン語 super（上に）+ videre（見る）。supervise（監督する）・overview（概観）・vision（視覚）と同根で、「高い位置から全体を見渡す」が原義。\n\n英語には15世紀に土地・財産の測量・調査の意味で採用され、「空間的な測量」から「意見・実態の調査」の社会科学的意味へと拡張した。opinion survey（世論調査）・field survey（現地調査）が統計学・社会学の重要語彙として確立した。\n\n現代英語ではopinion survey（世論調査）・survey the damage（被害を調査する）・customer satisfaction survey（顧客満足度調査）のように、社会調査・測量・状況把握の幅広い文脈で機能する。",
+      derivatives: [
+        { word: "surveyor",  desc: "測量士・調査官（名詞）" },
+        { word: "surveyed",  desc: "調査された（形容詞）" }
+      ],
+      family: [
+        { word: "supervise",  desc: "監督する（super+videre）" },
+        { word: "overview",   desc: "概観・全体像（over+view）" },
+        { word: "vision",     desc: "視覚・展望（videre）" }
+      ],
+      compounds: [
+        { phrase: "opinion survey",    desc: "世論調査" },
+        { phrase: "aerial survey",     desc: "航空測量" },
+        { phrase: "satisfaction survey", desc: "満足度調査" }
+      ]
+    },
+
+    "symbol": {
+      origin: "ギリシャ語 symbolon（合い言葉・目印）< symballein（一緒に投げる・合わせる）< syn-（共に）+ ballein（投げる）。problem（問題）・ballistic（弾道の）・parable（喩え話）と同根で、「二つのものを一致させる印」が原義。元は割符（二片に分かれた割り木）を合わせることで信任を確認したことに由来する。\n\n英語には16世紀に宗教・数学の用語として採用され、「具体的なものを通じて抽象的な概念を表す印・表象」の意味で定着した。化学記号（chemical symbol）・数学記号・文学のシンボリズム（symbolism）として幅広く使われるようになった。\n\n現代英語ではstatus symbol（地位の象徴）・chemical symbol（元素記号）・symbolize peace（平和を象徴する）のように、記号・文化・宗教の核心概念として機能する語である。",
+      derivatives: [
+        { word: "symbolic",    desc: "象徴的な・記号的な（形容詞）" },
+        { word: "symbolize",   desc: "象徴する・表す（動詞）" },
+        { word: "symbolism",   desc: "象徴主義（名詞）" }
+      ],
+      family: [
+        { word: "problem",   desc: "問題（pro+ballein）" },
+        { word: "ballistic", desc: "弾道の（ballein）" },
+        { word: "emblem",    desc: "紋章・標章（en+ballein）" }
+      ],
+      compounds: [
+        { phrase: "status symbol",   desc: "地位の象徴" },
+        { phrase: "chemical symbol", desc: "元素記号" },
+        { phrase: "peace symbol",    desc: "平和のシンボル" }
+      ]
     }
 
   };

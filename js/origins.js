@@ -9752,6 +9752,492 @@
         { phrase: "volunteer organization", desc: "ボランティア組織" },
         { phrase: "volunteer to do",        desc: "自発的に～を申し出る" }
       ]
+    },
+
+    // Batch 21: dict残り・flu/flux系・luc/lum系・greg系・hypo/hyper系・path残り・sol残り・polis系・tempor残り・adversary
+
+    "diction": {
+      origin: "ラテン語 dictio（言い方・言葉）< dicere（言う・話す）。字義は「言い方・言葉の選び方・発声」。\n\n16世紀に英語に入り diction（語法・言い回し・発声）として定着。詩的な poetic diction（詩語・詩的表現）として文学批評で使われ、俳優・アナウンサーの発声訓練でも clear diction（明瞭な発声）として重要。\n\ndicere 系: contradict（矛盾する）、predict（予言する）、verdict（評決）、dictate（口述する）、indicate（示す）、dedicate（捧げる）、addict（依存者）、dictionary（辞書）。",
+      derivatives: [
+        { word: "dictum",  desc: "格言・命令（名詞）" }
+      ],
+      family: [
+        { word: "contradict",  desc: "矛盾する（contra- + dicere）" },
+        { word: "predict",     desc: "予言する（pre- + dicere）" },
+        { word: "dedicate",    desc: "捧げる（de- + dicare）" },
+        { word: "addict",      desc: "依存者（ad- + dicere）" }
+      ],
+      compounds: [
+        { phrase: "poetic diction",           desc: "詩語・詩的表現" },
+        { phrase: "clear diction",            desc: "明瞭な発声" },
+        { phrase: "diction and pronunciation", desc: "語法と発音" }
+      ]
+    },
+
+    "dictionary": {
+      origin: "中世ラテン語 dictionarium（辞書）< dictio（言葉・言い方）< dicere（言う）。字義は「言葉をまとめたもの → 辞書」。14世紀に初めて辞書的な参照書が作られ、この語が生まれた。\n\n15世紀に英語に入り dictionary（辞書・辞典）として定着。英語の最も有名な大辞典の一つは1755年のジョンソン博士の Dictionary of the English Language。現代では digital dictionary（電子辞書）、bilingual dictionary（二ヶ国語辞典）として使われる。\n\ndicere 系: diction（語法）、contradict（矛盾する）、predict（予言する）、verdict（評決）、dictate（口述する）。",
+      derivatives: [
+        { word: "diction",  desc: "語法・発声（名詞）" }
+      ],
+      family: [
+        { word: "diction",   desc: "語法・言い方（dicere）" },
+        { word: "lexicon",   desc: "語彙目録・辞典（lexikon）" },
+        { word: "thesaurus", desc: "類義語辞典（thēsauros：宝物庫）" },
+        { word: "glossary",  desc: "用語集（glossa：言葉）" }
+      ],
+      compounds: [
+        { phrase: "English dictionary",    desc: "英語辞書" },
+        { phrase: "bilingual dictionary",  desc: "二ヶ国語辞典" },
+        { phrase: "digital dictionary",    desc: "電子辞書" }
+      ]
+    },
+
+    "addict": {
+      origin: "ラテン語 addictus（委ねられた・奴隷として与えられた）< ad-（に対して）+ dicere（言う・割り当てる）。ローマ法で「債務のため主人に引き渡された人」を指し、そこから「完全に捧げる → 依存する」という意味になった。\n\n16世紀に英語に入り addict（中毒者・依存させる）として定着。drug addict（薬物依存者）、Internet addict（インターネット依存者）のように使われる。addiction（依存症）はスマホ依存・ゲーム依存など現代社会の問題語として高頻度。\n\ndicere 系: diction（語法）、predict（予言する）、contradict（矛盾する）、dedicate（捧げる）。ad-（に向かって）系: attract（引きつける）、admit（認める）、advocate（弁護する）。",
+      derivatives: [
+        { word: "addiction",   desc: "依存症・中毒（名詞）" },
+        { word: "addictive",   desc: "依存性のある・中毒性の（形容詞）" },
+        { word: "addicted",    desc: "依存している・中毒の（形容詞）" }
+      ],
+      family: [
+        { word: "dedicate",  desc: "捧げる・専念する（de- + dicare）" },
+        { word: "hooked",    desc: "夢中になった（口語）" }
+      ],
+      compounds: [
+        { phrase: "drug addict",          desc: "薬物依存者" },
+        { phrase: "social media addict",  desc: "SNS依存者" },
+        { phrase: "addiction treatment",  desc: "依存症治療" }
+      ]
+    },
+
+    "dedicate": {
+      origin: "ラテン語 dedicare（神に捧げる・聖別する）< de-（完全に）+ dicare（宣言する）< dicere（言う）。字義は「正式に宣言して捧げる」で、神殿・書物・人を特定の目的・神・人物に捧げることを指した。\n\n15世紀に英語に入り dedicate（捧げる・専念する）として定着。dedicate one's life to（～に人生を捧げる）、dedicated server（専用サーバー）のように使われる。dedication（献身・献呈文）は書物の冒頭に著者が感謝を示す「献辞」の意味でも使われる。\n\ndicere 系: diction（語法）、addict（中毒）、predict（予言する）、contradict（矛盾する）。de-（完全に）系: describe（記述する）、destroy（破壊する）。",
+      derivatives: [
+        { word: "dedicated",    desc: "献身的な・専用の（形容詞）" },
+        { word: "dedication",   desc: "献身・専念・献呈文（名詞）" },
+        { word: "dedicatory",   desc: "献呈の（形容詞）" }
+      ],
+      family: [
+        { word: "diction",   desc: "語法（dicere）" },
+        { word: "addict",    desc: "依存者（ad- + dicere）" },
+        { word: "devote",    desc: "捧げる（de- + vovere）" },
+        { word: "commit",    desc: "専念する（con- + mittere）" }
+      ],
+      compounds: [
+        { phrase: "dedicate to",          desc: "～に捧げる・専念する" },
+        { phrase: "dedicated server",     desc: "専用サーバー" },
+        { phrase: "book dedication",      desc: "書物の献辞" }
+      ]
+    },
+
+    "fluent": {
+      origin: "ラテン語 fluens（流れる・なめらかな）< fluere（流れる）。字義は「水のように流れる → 流暢な」。言語が水のように滑らかに出てくるというメタファー。\n\n16世紀に英語に入り fluent（流暢な・流れるような）として定着。fluent in English（英語が流暢）、fluent speaker（流暢な話者）のように言語能力を表す形容詞として使われる。また流体力学でも「流れる」という意味で使われる。\n\nfluere 系: influence（影響：流れ込む）、affluent（豊かな：十分に流れる）、influx（流入）、confluence（合流点）、superfluous（余分な：流れ過ぎる）。",
+      derivatives: [
+        { word: "fluency",   desc: "流暢さ・流ちょうさ（名詞）" },
+        { word: "fluently",  desc: "流暢に（副詞）" }
+      ],
+      family: [
+        { word: "influence",  desc: "影響（in- + fluere）" },
+        { word: "affluent",   desc: "裕福な（ad- + fluere）" },
+        { word: "influx",     desc: "流入（in- + flux）" },
+        { word: "fluid",      desc: "流体・流動的な（fluere）" }
+      ],
+      compounds: [
+        { phrase: "fluent speaker",     desc: "流暢な話者" },
+        { phrase: "fluent in English",  desc: "英語が流暢" },
+        { phrase: "speak fluently",     desc: "流暢に話す" }
+      ]
+    },
+
+    "influence": {
+      origin: "中世ラテン語 influentia（流れ込み）< in-（中に）+ fluere（流れる）。もともと占星術で「星の力が地上に流れ込む」という意味だった。そこから「目に見えない力・影響力」という意味になった。\n\n14世紀に英語に入り influence（影響・影響力）として定着。have influence on（～に影響する）、under the influence（影響下で；飲酒運転でも使われる）のように使われる。influenza（インフルエンザ：星の影響で流行するという迷信から）も同根。\n\nfluere 系: fluent（流暢な）、affluent（豊かな）、influx（流入）、confluence（合流点）。",
+      derivatives: [
+        { word: "influential",   desc: "影響力のある（形容詞）" },
+        { word: "influentially", desc: "影響力をもって（副詞）" },
+        { word: "influencer",    desc: "インフルエンサー（名詞）" },
+        { word: "influenza",     desc: "インフルエンザ（flu）（名詞）" }
+      ],
+      family: [
+        { word: "fluent",    desc: "流暢な（fluere）" },
+        { word: "affluent",  desc: "裕福な（ad- + fluere）" },
+        { word: "influx",    desc: "流入（in- + flux）" },
+        { word: "impact",    desc: "影響・衝撃（impingere）" }
+      ],
+      compounds: [
+        { phrase: "have influence on",    desc: "～に影響を与える" },
+        { phrase: "under the influence",  desc: "影響下で；飲酒して" },
+        { phrase: "sphere of influence",  desc: "影響圏・勢力圏" }
+      ]
+    },
+
+    "affluent": {
+      origin: "ラテン語 affluens（流れ込む・豊富な）< ad-（に向かって）+ fluere（流れる）。字義は「（富が）向かって流れ込む → 豊かな・裕福な」。\n\n16世紀に英語に入り affluent（裕福な・豊かな）として定着。affluent society（豊かな社会）、affluent neighborhood（裕福な地区）のように使われる。affluence（富裕）は経済的豊かさを指す。ガルブレイスの著書「The Affluent Society（豊かな社会）」で有名になった語。\n\nfluere 系: fluent（流暢な）、influence（影響）、influx（流入）。af-（ad- の変形：に向かって）系: affect（影響する）、afford（支払える）。",
+      derivatives: [
+        { word: "affluence",   desc: "富裕・豊かさ（名詞）" },
+        { word: "affluently",  desc: "豊かに・裕福に（副詞）" }
+      ],
+      family: [
+        { word: "fluent",     desc: "流暢な（fluere）" },
+        { word: "influence",  desc: "影響（in- + fluere）" },
+        { word: "wealthy",    desc: "裕福な（wealt：富）" },
+        { word: "prosperous", desc: "繁栄した（prosperare）" }
+      ],
+      compounds: [
+        { phrase: "affluent society",   desc: "豊かな社会" },
+        { phrase: "affluent suburb",    desc: "富裕な郊外地区" },
+        { phrase: "new affluent class", desc: "新興富裕層" }
+      ]
+    },
+
+    "conflict": {
+      origin: "ラテン語 conflictus（衝突・打ち合い）< con-（共に）+ fligere（打つ・ぶつける）。字義は「互いに打ち合う → 衝突・対立」。\n\n15世紀に英語に入り conflict（対立・衝突・矛盾）として定着。名詞（armed conflict: 武力衝突）と動詞（conflicting schedules: 予定が重なる）の両用がある。conflict of interest（利益相反）は法律・ビジネス倫理で重要語。\n\nfligere 系: afflict（苦しめる）、inflict（与える：苦痛など）。con-（共に）系: contact（接触）、contract（契約）、contradict（矛盾する）。",
+      derivatives: [
+        { word: "conflicting",   desc: "矛盾する・対立する（形容詞）" },
+        { word: "conflicted",    desc: "板挟みになった・葛藤した（形容詞）" }
+      ],
+      family: [
+        { word: "afflict",       desc: "苦しめる（ad- + fligere）" },
+        { word: "clash",         desc: "衝突する" },
+        { word: "dispute",       desc: "争い・紛争（dis- + putare）" },
+        { word: "contradiction", desc: "矛盾（contra- + dicere）" }
+      ],
+      compounds: [
+        { phrase: "armed conflict",       desc: "武力衝突" },
+        { phrase: "conflict of interest", desc: "利益相反" },
+        { phrase: "conflict resolution",  desc: "紛争解決" }
+      ]
+    },
+
+    "lucid": {
+      origin: "ラテン語 lucidus（光る・明るい・明瞭な）< lux（光）。字義は「光のようにはっきりした → 明瞭な・正気の」。\n\n16世紀に英語に入り lucid（明瞭な・正気の・分かりやすい）として定着。lucid explanation（明快な説明）、lucid dream（明晰夢：夢の中で夢と気づいている状態）、lucid moment（正気の瞬間：認知症患者が一時的に正気に戻る）のように使われる。\n\nlux 系: illuminate（照らす）、luminous（発光する）、translucent（半透明の）、elucidate（明らかにする：lux + ex-）。",
+      derivatives: [
+        { word: "lucidity",   desc: "明瞭さ・正気（名詞）" },
+        { word: "lucidly",    desc: "明瞭に（副詞）" },
+        { word: "elucidate",  desc: "明らかにする（e- + lucidus）" }
+      ],
+      family: [
+        { word: "illuminate",  desc: "照らす（in- + lumen）" },
+        { word: "luminous",    desc: "発光する（lumen）" },
+        { word: "translucent", desc: "半透明の（trans- + lux）" },
+        { word: "clear",       desc: "明瞭な（clarus）" }
+      ],
+      compounds: [
+        { phrase: "lucid dream",        desc: "明晰夢" },
+        { phrase: "lucid explanation",  desc: "明快な説明" },
+        { phrase: "lucid moment",       desc: "正気の瞬間" }
+      ]
+    },
+
+    "luminous": {
+      origin: "ラテン語 luminosus（光を発する・明るい）< lumen（光・灯り）。字義は「光を発する・光り輝く」。lux は光の明るさの SI 単位、lumen は光束の SI 単位として現代物理学でも使われる。\n\n15世紀に英語に入り luminous（発光する・光り輝く・明晰な）として定着。luminous paint（蓄光塗料）、luminous display（輝く表示）のように使われる。また比喩的に「明晰な・輝かしい」という意味でも使われる（luminous intellect）。\n\nlumen 系: illuminate（照らす）、luminosity（輝度）、bioluminescence（生物発光：生き物の発光）。lux 系: lucid（明瞭な）、translucent（半透明の）。",
+      derivatives: [
+        { word: "luminosity",       desc: "輝度・明るさ（名詞）" },
+        { word: "luminously",       desc: "明るく・輝かしく（副詞）" },
+        { word: "luminescence",     desc: "ルミネセンス・冷光（名詞）" },
+        { word: "bioluminescence",  desc: "生物発光（名詞）" }
+      ],
+      family: [
+        { word: "lucid",        desc: "明瞭な（lux）" },
+        { word: "illuminate",   desc: "照らす（in- + lumen）" },
+        { word: "translucent",  desc: "半透明の（trans- + lux）" },
+        { word: "radiant",      desc: "輝く（radiare）" }
+      ],
+      compounds: [
+        { phrase: "luminous paint",    desc: "蓄光塗料・夜光塗料" },
+        { phrase: "luminous display",  desc: "輝く表示" },
+        { phrase: "bioluminescent",    desc: "生物発光する（形容詞）" }
+      ]
+    },
+
+    "illuminate": {
+      origin: "ラテン語 illuminare（照らす）< in-（に向かって）+ luminare（光を当てる）< lumen（光）。字義は「光を当てる → 照らす・解明する」。中世では写本に金箔や彩色を施す「illuminated manuscript（彩色写本）」として使われた。\n\n15世紀に英語に入り illuminate（照らす・解明する）として定着。illuminate a problem（問題を解明する）、illuminated sign（電飾看板）のように使われる。啓蒙主義（Enlightenment）と関連して「知識の光で照らす」という比喩でも使われる。\n\nlumen 系: luminous（発光する）、luminosity（輝度）。in-（に向かって）系: inspire（鼓舞する）、inform（知らせる）、illuminate。",
+      derivatives: [
+        { word: "illumination",   desc: "照明・解明・啓発（名詞）" },
+        { word: "illuminating",   desc: "啓発的な・有益な（形容詞）" },
+        { word: "illuminated",    desc: "照らされた・彩色された（形容詞）" }
+      ],
+      family: [
+        { word: "luminous",    desc: "発光する（lumen）" },
+        { word: "lucid",       desc: "明瞭な（lux）" },
+        { word: "translucent", desc: "半透明の（trans- + lux）" },
+        { word: "enlighten",   desc: "啓発する（en- + light）" }
+      ],
+      compounds: [
+        { phrase: "illuminate a problem",    desc: "問題を解明する" },
+        { phrase: "illuminated manuscript",  desc: "彩色写本（中世）" },
+        { phrase: "illumination festival",   desc: "イルミネーションフェスティバル" }
+      ]
+    },
+
+    "translucent": {
+      origin: "ラテン語 translucens（透き通って輝く）< trans-（貫いて）+ lucere（光る）< lux（光）。字義は「光が貫いて通る → 半透明の」。transparent（完全に透明：光と像が通る）との違い: translucent は光は通るが像は見えない（すりガラスなど）。\n\n16世紀に英語に入り translucent（半透明の・透き通った）として定着。translucent material（半透明素材）、translucent skin（透き通る肌）のように使われる。\n\nlux 系: lucid（明瞭な）、illuminate（照らす）、luminous（発光する）。trans-（貫いて）系: transparent（透明な：光と像が貫く）、transcend（超越する）、translate（翻訳する）。",
+      derivatives: [
+        { word: "translucence",   desc: "半透明さ（名詞）" },
+        { word: "translucency",   desc: "半透明性（名詞）" }
+      ],
+      family: [
+        { word: "lucid",        desc: "明瞭な（lux）" },
+        { word: "luminous",     desc: "発光する（lumen）" },
+        { word: "transparent",  desc: "透明な（trans- + parere）" },
+        { word: "opaque",       desc: "不透明な（opacus）" }
+      ],
+      compounds: [
+        { phrase: "translucent glass",     desc: "すりガラス・半透明ガラス" },
+        { phrase: "translucent material",  desc: "半透明素材" }
+      ]
+    },
+
+    "aggregate": {
+      origin: "ラテン語 aggregatus（群れに加わった）< ad-（に向かって）+ gregare（群れにする）< grex（群れ・羊の群れ）。字義は「群れに加える → 集合させる・合計」。\n\n15世紀に英語に入り aggregate（集合体・総計・集積する）として定着。名詞（aggregate demand: 総需要）、動詞（aggregate data: データを集積する）、形容詞（aggregate result: 総合結果）の三用がある。\n\ngrex 系: congregate（集まる）、segregate（分離する）、gregarious（社交的な：群れを好む）。ad-（に向かって）系: attract（引きつける）、attach（付ける）。",
+      derivatives: [
+        { word: "aggregation",   desc: "集積・集合（名詞）" },
+        { word: "aggregated",    desc: "集積された（形容詞）" },
+        { word: "disaggregate",  desc: "分解する・分析する（動詞）" }
+      ],
+      family: [
+        { word: "congregate",  desc: "集まる（con- + gregare）" },
+        { word: "segregate",   desc: "分離する（se- + gregare）" },
+        { word: "gregarious",  desc: "社交的な（gregarius）" },
+        { word: "accumulate",  desc: "蓄積する（ad- + cumulus）" }
+      ],
+      compounds: [
+        { phrase: "aggregate demand",  desc: "総需要（経済学）" },
+        { phrase: "aggregate data",    desc: "集約データ" },
+        { phrase: "in the aggregate",  desc: "全体として・総計で" }
+      ]
+    },
+
+    "congregate": {
+      origin: "ラテン語 congregare（群れに集める）< con-（共に）+ gregare（群れにする）< grex（群れ）。字義は「一緒に群れにする → 集合する」。宗教的な文脈では congregation（会衆）として礼拝のために集まった人々を指す。\n\n16世紀に英語に入り congregate（集合する・集まる）として定着。People congregated in the square（人々が広場に集まった）のように使われる。congregation（会衆・集会）は宗教用語として重要で、キリスト教の礼拝集団を指す。\n\ngrex 系: aggregate（集合体）、segregate（分離する）、gregarious（社交的な）。con-（共に）系: collect（集める）、convene（召集する）、combine（組み合わせる）。",
+      derivatives: [
+        { word: "congregation",    desc: "会衆・集会・群れ（名詞）" },
+        { word: "congregational",  desc: "会衆の・集会の（形容詞）" }
+      ],
+      family: [
+        { word: "aggregate",   desc: "集合体（ad- + gregare）" },
+        { word: "segregate",   desc: "分離する（se- + gregare）" },
+        { word: "gregarious",  desc: "社交的な（gregarius）" },
+        { word: "assemble",    desc: "集まる（assemblare）" }
+      ],
+      compounds: [
+        { phrase: "congregation of worshippers",  desc: "礼拝する会衆" },
+        { phrase: "congregate online",            desc: "オンラインで集まる" },
+        { phrase: "local congregation",           desc: "地域の礼拝集団" }
+      ]
+    },
+
+    "segregate": {
+      origin: "ラテン語 segregare（群れから分ける）< se-（離れて）+ gregare（群れにする）< grex（群れ）。字義は「群れから分ける → 分離する・隔離する」。\n\n16世紀に英語に入り segregate（分離する・隔離する）として定着。racial segregation（人種隔離政策）は特にアメリカ南部の歴史的な制度を指し、civil rights movement（公民権運動）の中心的なテーマ。desegregate（統合する）は segregate の反義語として重要。\n\ngrex 系: aggregate（集合体）、congregate（集まる）、gregarious（社交的な）。se-（離れて）系: separate（分ける）、seclude（隔離する）、secrete（分泌する）。",
+      derivatives: [
+        { word: "segregation",   desc: "分離・隔離（名詞）" },
+        { word: "desegregate",   desc: "統合する・隔離をなくす（動詞）" },
+        { word: "desegregation", desc: "統合・人種差別撤廃（名詞）" }
+      ],
+      family: [
+        { word: "aggregate",   desc: "集合体（ad- + gregare）" },
+        { word: "congregate",  desc: "集まる（con- + gregare）" },
+        { word: "separate",    desc: "分ける（se- + parare）" },
+        { word: "isolate",     desc: "隔離する（insula：島）" }
+      ],
+      compounds: [
+        { phrase: "racial segregation",   desc: "人種隔離政策" },
+        { phrase: "gender segregation",   desc: "性別による分離" },
+        { phrase: "desegregate schools",  desc: "学校の人種統合" }
+      ]
+    },
+
+    "gregarious": {
+      origin: "ラテン語 gregarius（群れに属する）< grex（群れ・羊の群れ）。字義は「群れに属する → 群れを好む → 社交的な」。羊や鳥が群れで行動するように、人間も社会的に集まりたがる性質を指す。\n\n17世紀に英語に入り gregarious（社交的な・群れを好む）として定着。a gregarious person（社交的な人）、gregarious animals（群れで生活する動物）のように使われる。introvert（内向き）の対義語 extrovert（外向き）と意味が重なる。\n\ngrex 系: aggregate（集合体）、congregate（集まる）、segregate（分離する）。",
+      derivatives: [
+        { word: "gregariously",   desc: "社交的に（副詞）" },
+        { word: "gregariousness", desc: "社交性・群れる習性（名詞）" }
+      ],
+      family: [
+        { word: "aggregate",   desc: "集合体（ad- + gregare）" },
+        { word: "congregate",  desc: "集まる（con- + gregare）" },
+        { word: "segregate",   desc: "分離する（se- + gregare）" },
+        { word: "sociable",    desc: "社交的な（socius：仲間）" }
+      ],
+      compounds: [
+        { phrase: "highly gregarious",     desc: "非常に社交的な" },
+        { phrase: "gregarious by nature",  desc: "生来の社交家" },
+        { phrase: "gregarious personality", desc: "社交的な性格" }
+      ]
+    },
+
+    "hypothesis": {
+      origin: "ギリシャ語 hypothesis（基礎・仮定）< hypo-（下に）+ tithenai（置く）。字義は「下に置かれたもの → 前提・仮説」。科学的方法（scientific method）において、実験・観察によって検証される命題のこと。\n\n16世紀に英語に入り hypothesis（仮説・仮定）として定着。複数形は hypotheses（ハイポシーシーズ）。working hypothesis（作業仮説）、null hypothesis（帰無仮説：統計で棄却すべき仮説）は科学・統計の必須語。\n\ntithenai（置く）系: thesis（論題）、antithesis（対立命題）、synthesis（合成）、parenthesis（挿入句）。hypo-（下に）系: hypodermic（皮下の：皮膚の下）、hypocrite（偽善者：下から演じる）。",
+      derivatives: [
+        { word: "hypothetical",   desc: "仮説上の・仮定の（形容詞）" },
+        { word: "hypothetically", desc: "仮説として・もしもの話として（副詞）" },
+        { word: "hypothesize",    desc: "仮説を立てる（動詞）" },
+        { word: "hypotheses",     desc: "仮説の複数形（名詞）" }
+      ],
+      family: [
+        { word: "thesis",       desc: "論題（tithenai）" },
+        { word: "antithesis",   desc: "対立命題（anti- + tithenai）" },
+        { word: "synthesis",    desc: "合成（syn- + tithenai）" },
+        { word: "assumption",   desc: "仮定（ad- + sumere）" }
+      ],
+      compounds: [
+        { phrase: "working hypothesis",     desc: "作業仮説" },
+        { phrase: "null hypothesis",        desc: "帰無仮説（統計）" },
+        { phrase: "scientific hypothesis",  desc: "科学的仮説" }
+      ]
+    },
+
+    "hyperbole": {
+      origin: "ギリシャ語 hyperbolē（投げ越す・誇張）< hyper-（超えて）+ ballein（投げる）。字義は「限度を超えて投げる → 大げさな表現」。修辞学では実際より大げさに表現する比喩技法を指す。\n\n15世紀に英語に入り hyperbole（誇張法・誇張した表現）として定着。「I've told you a million times」（百万回言った）や「I'm dying of hunger」（腹ぺこで死にそう）などが例。hyperbolic（誇張した）は数学では「双曲線の」という意味も持つ。\n\nballein（投げる）系: ballistic（弾道の）、parabola（放物線：横に投げた）、symbol（一緒に投げたもの → 象徴）。hyper-（超えて）系: hyperactive（過活動の）、hypertension（高血圧）、hyperlink（ハイパーリンク）。",
+      derivatives: [
+        { word: "hyperbolic",    desc: "誇張した；双曲線の（形容詞）" },
+        { word: "hyperbolically", desc: "誇張して（副詞）" }
+      ],
+      family: [
+        { word: "exaggeration",  desc: "誇張（ex- + aggerare）" },
+        { word: "overstatement", desc: "過大表現（over + state）" },
+        { word: "metaphor",      desc: "隠喩（meta- + phora）" }
+      ],
+      compounds: [
+        { phrase: "use hyperbole",        desc: "誇張法を使う" },
+        { phrase: "literary hyperbole",   desc: "文学的誇張法" },
+        { phrase: "deliberate hyperbole", desc: "意図的な誇張" }
+      ]
+    },
+
+    "antipathy": {
+      origin: "ギリシャ語 antipatheia（反感）< anti-（反対）+ pathos（感情・苦しみ）。字義は「逆の感情 → 嫌悪感・反感」。\n\n16世紀に英語に入り antipathy（嫌悪・反感）として定着。have an antipathy toward（～に反感を持つ）、mutual antipathy（互いの反感）のように使われる。sympathy（同情：共に感じる）、empathy（共感：中に感じる）、apathy（無関心：感情なし）と同根の対比が重要。\n\npathos 系: sympathy（同情：syn- + pathos）、empathy（共感：em- + pathos）、apathy（無関心：a- + pathos）、pathology（病理学）。anti-（反対）系: antivirus（ウイルス対策）、antisocial（反社会的な）。",
+      derivatives: [
+        { word: "antipathetic",  desc: "嫌悪感を持つ・反感のある（形容詞）" }
+      ],
+      family: [
+        { word: "sympathy",  desc: "同情（syn- + pathos）" },
+        { word: "empathy",   desc: "共感（em- + pathos）" },
+        { word: "apathy",    desc: "無関心（a- + pathos）" },
+        { word: "aversion",  desc: "嫌悪（a- + vertere）" }
+      ],
+      compounds: [
+        { phrase: "mutual antipathy",    desc: "互いの反感" },
+        { phrase: "deep antipathy",      desc: "深い嫌悪感" },
+        { phrase: "antipathy towards",   desc: "～への反感" }
+      ]
+    },
+
+    "isolate": {
+      origin: "イタリア語 isolare（島にする・孤立させる）< isola（島）< ラテン語 insula（島）。字義は「島のように孤立させる → 隔離する・分離する」。\n\n18世紀に英語に入り isolate（隔離する・孤立させる）として定着。isolate a patient（患者を隔離する）、isolate a variable（変数を分離する）のように使われる。isolation（隔離・孤立）は COVID-19 パンデミックで非常に高頻度となった語。\n\ninsula（島）系: insulate（断熱する：島のように孤立させる）、insulin（インスリン：膵臓の島状の細胞から）、peninsula（半島：paene + insula = ほとんど島）。",
+      derivatives: [
+        { word: "isolation",     desc: "隔離・孤立（名詞）" },
+        { word: "isolated",      desc: "孤立した・隔離された（形容詞）" },
+        { word: "isolationism",  desc: "孤立主義（政治）（名詞）" },
+        { word: "isolationist",  desc: "孤立主義者（名詞）" }
+      ],
+      family: [
+        { word: "insulate",   desc: "断熱する（insula）" },
+        { word: "solitary",   desc: "孤独な（solus）" },
+        { word: "quarantine", desc: "検疫・隔離（quarantina）" },
+        { word: "seclude",    desc: "隔離する（se- + claudere）" }
+      ],
+      compounds: [
+        { phrase: "isolate patients",  desc: "患者を隔離する" },
+        { phrase: "social isolation",  desc: "社会的孤立" },
+        { phrase: "in isolation",      desc: "隔離されて・単独で" }
+      ]
+    },
+
+    "metropolitan": {
+      origin: "ギリシャ語 metropolis（母都市）< mētēr（母）+ polis（都市）。植民地を送り出した本国の都市を「母都市」と呼んだことに由来。そこから「首都・大都市」という意味になった。\n\n16世紀に英語に入り metropolitan（大都市の・首都の）として定着。metropolitan area（大都市圏）、metropolitan city（大都市）のように使われる。また宗教では大主教（archbishop）を metropolitan と呼ぶ。\n\npolis 系: politics（政治）、policy（政策）、police（警察）、cosmopolitan（世界都市的な：kosmos + polis）。mētēr（母）系: maternal（母の）、maternity（母性）、alma mater（母校）。",
+      derivatives: [
+        { word: "metropolis",     desc: "大都市・首都（名詞）" },
+        { word: "metropolitanism", desc: "大都市主義（名詞）" }
+      ],
+      family: [
+        { word: "cosmopolitan",  desc: "世界都市的な（kosmos + polis）" },
+        { word: "police",        desc: "警察（polis）" },
+        { word: "politics",      desc: "政治（polis）" },
+        { word: "urban",         desc: "都市の（urbs：都市）" }
+      ],
+      compounds: [
+        { phrase: "metropolitan area",   desc: "大都市圏" },
+        { phrase: "metropolitan city",   desc: "大都市" },
+        { phrase: "greater metropolitan", desc: "広域大都市圏" }
+      ]
+    },
+
+    "police": {
+      origin: "ギリシャ語 politeia（市政・統治）< polis（都市）。ラテン語 politia、フランス語 police を経て英語に入った。もともとは「都市の行政・統治全般」を指したが、次第に「公共秩序の維持」という意味に絞られた。\n\n15世紀に英語に入り police（警察・取り締まる）として定着。police officer（警察官）、police state（警察国家）のように使われる。動詞として「取り締まる・監視する」という意味でも使われる（police the internet: インターネットを監視する）。\n\npolis 系: politics（政治）、policy（政策）、metropolitan（大都市の）、cosmopolitan（世界都市的な）。同語源で政治（politics）と警察（police）がともに「都市の秩序管理」から来ていることが語源的に興味深い。",
+      derivatives: [
+        { word: "policeman",    desc: "警察官（男性）（名詞）" },
+        { word: "policewoman",  desc: "警察官（女性）（名詞）" },
+        { word: "policing",     desc: "警察活動・取り締まり（名詞）" }
+      ],
+      family: [
+        { word: "metropolitan",   desc: "大都市の（metropolis）" },
+        { word: "politics",       desc: "政治（polis）" },
+        { word: "policy",         desc: "政策（politia）" }
+      ],
+      compounds: [
+        { phrase: "police officer",  desc: "警察官" },
+        { phrase: "police state",    desc: "警察国家" },
+        { phrase: "riot police",     desc: "機動隊" }
+      ]
+    },
+
+    "temperature": {
+      origin: "ラテン語 temperatura（適切な混合・調節）< temperare（適切に混ぜる・和らげる）< tempus（時間・適切な時）。字義は「適切に調節された状態 → 温度・体温」。中世医学では四体液を「適切に混ぜた」状態が健康だとされ、そこから「温度・気温」という意味に発展した。\n\n16世紀に英語に入り temperature（温度・体温）として定着。body temperature（体温）、room temperature（室温）のように使われる。rise in temperature（温度上昇）は気候変動でも頻出語。\n\ntempus 系: temporary（一時的な）、contemporary（現代の）。temperare 系: temper（気質・怒り）、temperate（温帯の・穏やかな）。thermometer はギリシャ語 thermos（温かい）+ metron（計る）で別語源。",
+      derivatives: [
+        { word: "thermal",     desc: "熱の・温度の（形容詞、ギリシャ語 thermos）" },
+        { word: "temperate",   desc: "温帯の・穏やかな（形容詞）" },
+        { word: "temperance",  desc: "節制・禁酒（名詞）" }
+      ],
+      family: [
+        { word: "temper",       desc: "気質・怒り（temperare）" },
+        { word: "temporary",    desc: "一時的な（tempus）" },
+        { word: "contemporary", desc: "現代の（con- + tempus）" }
+      ],
+      compounds: [
+        { phrase: "body temperature",  desc: "体温" },
+        { phrase: "room temperature",  desc: "室温" },
+        { phrase: "temperature rise",  desc: "気温上昇・温度上昇" }
+      ]
+    },
+
+    "temper": {
+      origin: "ラテン語 temperare（適切に混ぜる・和らげる・調節する）< tempus（適切な時）。字義は「適切に調節する → 気質・感情を和らげる → 感情・怒り」。もともとは「混ぜ合わせて均衡をとる」という意味で、気質・脾気は四体液の「混合」によると考えられた中世医学からの意味発展。\n\n14世紀に英語に入り temper（気質・怒り・和らげる）として定着。lose one's temper（かっとなる）、bad temper（悪い気質）のように使われる。tempered steel（焼き入れした鋼鉄）のように金属加工でも使われる（熱処理で鋼を均質化する）。\n\ntemperare 系: temperature（温度）、temperate（温帯の・穏やかな）、temperament（気質）。tempus（時間）系: temporary（一時的な）、contemporary（現代の）。",
+      derivatives: [
+        { word: "temperament",  desc: "気質・性質（名詞）" },
+        { word: "temperate",    desc: "温帯の・穏やかな（形容詞）" },
+        { word: "temperance",   desc: "節制・禁酒（名詞）" },
+        { word: "tempered",     desc: "鍛えられた・和らげた（形容詞）" }
+      ],
+      family: [
+        { word: "temperature",  desc: "温度（temperare）" },
+        { word: "temporary",    desc: "一時的な（tempus）" },
+        { word: "mood",         desc: "気分・感情" }
+      ],
+      compounds: [
+        { phrase: "lose one's temper",  desc: "かっとなる・激怒する" },
+        { phrase: "bad temper",         desc: "短気・悪い気質" },
+        { phrase: "temper tantrum",     desc: "かんしゃく・わがまま" }
+      ]
+    },
+
+    "adversary": {
+      origin: "ラテン語 adversarius（反対の・敵対者）< adversus（向かい合った・反対の）< ad-（に向かって）+ vertere（回す・向ける）。字義は「向きを変えて対峙する者 → 敵対者・反対者」。\n\n13世紀に英語に入り adversary（敵対者・対戦相手）として定着。in adversary proceedings（対審手続きで：法律用語）のように使われる。adversarial（敵対的な）は法律・外交・ゲーム理論で使われる形容詞。adversity（逆境）も同根で「向かい合った困難」という意味。\n\nvertere 系: convert（変換する）、reverse（逆にする）、avert（回避する）、divert（そらす）、versatile（多才な）。adverse（不利な・逆の）、adversity（逆境）が重要な派生語。",
+      derivatives: [
+        { word: "adversarial",  desc: "敵対的な・対立的な（形容詞）" },
+        { word: "adverse",      desc: "不利な・逆の・有害な（形容詞）" },
+        { word: "adversity",    desc: "逆境・困難（名詞）" }
+      ],
+      family: [
+        { word: "avert",       desc: "回避する（a- + vertere）" },
+        { word: "divert",      desc: "そらす（di- + vertere）" },
+        { word: "opponent",    desc: "対戦相手（ob- + ponere）" },
+        { word: "rival",       desc: "ライバル（rivalis）" }
+      ],
+      compounds: [
+        { phrase: "adversarial relationship",  desc: "対立関係" },
+        { phrase: "overcome adversity",        desc: "逆境を乗り越える" },
+        { phrase: "adverse effect",            desc: "悪影響・副作用" }
+      ]
     }
 
   };

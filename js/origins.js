@@ -3532,6 +3532,716 @@
         { phrase: "corporate relocation", desc: "企業移転" },
         { phrase: "be relocated",         desc: "転勤になる" }
       ]
+    },
+
+    // ── nomen / onyma系 ──────────────────────────────────────────────────────
+    "nominate": {
+      origin: "ラテン語 nominare（名前で呼ぶ・名指しする）< nomen（名前）。「名前を挙げて指定する」→「候補者として指名する・推薦する」に特化した。\n\nnomination（ノミネーション）は映画賞・選挙・スポーツ賞の基本語。nominee（被指名者・候補者）は "an Oscar nominee"（アカデミー賞候補）のように使われる。"I nominate X for the award."（X を賞に推薦する）は公式な推薦の定型表現。",
+      derivatives: [
+        { word: "nomination", desc: "指名・推薦・ノミネーション（名詞）" },
+        { word: "nominee",    desc: "被指名者・候補者（名詞）" },
+        { word: "nominative", desc: "主格の・指名の（形容詞）" }
+      ],
+      family: [
+        { word: "anonymous",  desc: "匿名の（an-: 名前がない）" },
+        { word: "synonym",    desc: "同義語（syn-: 同じ名前）" },
+        { word: "pseudonym",  desc: "筆名・ペンネーム（pseudo-: 偽りの名前）" },
+        { word: "pronoun",    desc: "代名詞（pro-: 名前の代わり）" },
+        { word: "denominate", desc: "〜と呼ぶ（de-: 名前を与える）" }
+      ],
+      compounds: [
+        { phrase: "nominate for an award",    desc: "賞にノミネートする" },
+        { phrase: "presidential nomination",  desc: "大統領候補指名" },
+        { phrase: "nominee list",             desc: "候補者リスト" }
+      ]
+    },
+
+    "anonymous": {
+      origin: "ギリシャ語 anōnymos（名前のない）< an-（否定）+ onyma（名前：onoma の変形）。「名前を持たない・名前を明かさない」→「匿名の」に特化した。\n\n著者不明の作品には "Anonymous" または "Anon." と記す。Alcoholics Anonymous（アルコール依存症匿名自助グループ）は自助グループの代名詞的存在として "AA" の略で知られる。ハクティビスト集団 Anonymous（アノニマス）も文化的に有名。",
+      derivatives: [
+        { word: "anonymously",  desc: "匿名で（副詞）" },
+        { word: "anonymity",    desc: "匿名性・匿名（名詞）" },
+        { word: "anonymize",    desc: "匿名化する（動詞）" }
+      ],
+      family: [
+        { word: "nominate",  desc: "指名する（nomen: 名前）" },
+        { word: "synonym",   desc: "同義語（syn-: 同じ名前）" },
+        { word: "pseudonym", desc: "筆名（pseudo-: 偽りの名前）" },
+        { word: "antonym",   desc: "反意語（anti-: 反対の名前）" }
+      ],
+      compounds: [
+        { phrase: "anonymous source",   desc: "匿名の情報源" },
+        { phrase: "remain anonymous",   desc: "匿名のままでいる" },
+        { phrase: "online anonymity",   desc: "オンラインでの匿名性" }
+      ]
+    },
+
+    "synonym": {
+      origin: "ギリシャ語 synōnymos（同じ名前を持つ）< syn-（共に・同じ）+ onyma（名前）。「同じ意味を持つ別の名前（言葉）」→「同義語・同意語」に特化した。\n\nthesaurus（類語辞典）は同義語を集めたもので、語源はギリシャ語 thēsauros（宝庫）。"X is synonymous with Y."（X は Y の代名詞だ）は比喩表現として頻用される。antonym（反意語）は anti-（反対）+ onyma（名前）で対義語。",
+      derivatives: [
+        { word: "synonymous",   desc: "同義の・〜の代名詞である（形容詞）" },
+        { word: "synonymously", desc: "同義的に（副詞）" }
+      ],
+      family: [
+        { word: "nominate",  desc: "指名する（nomen: 名前）" },
+        { word: "anonymous", desc: "匿名の（an-: 名前がない）" },
+        { word: "pseudonym", desc: "筆名（pseudo-: 偽りの名前）" },
+        { word: "antonym",   desc: "反意語（anti-: 反対の名前）" },
+        { word: "homonym",   desc: "同音異義語（homo-: 同じ名前）" }
+      ],
+      compounds: [
+        { phrase: "close synonym",     desc: "ほぼ同じ意味の同義語" },
+        { phrase: "near synonym",      desc: "ほぼ同義語" },
+        { phrase: "synonymous with",   desc: "〜の代名詞である・〜と同義の" }
+      ]
+    },
+
+    "pseudonym": {
+      origin: "ギリシャ語 pseudōnymos（偽りの名前を持つ）< pseudos（偽り）+ onyma（名前）。「本名を隠して使う偽りの名前」→「ペンネーム・筆名・芸名・偽名」に特化した。\n\nエリック・ブレア（George Orwell）、メアリー・アン・エヴァンス（George Eliot）はよく知られた pseudonym の使用例で、当時女性というだけで評価が下がるのを避けるため男性名を使った。現代のSNSアカウント名も一種の pseudonym。",
+      derivatives: [
+        { word: "pseudonymous",   desc: "ペンネームを使った（形容詞）" },
+        { word: "pseudonymously", desc: "ペンネームで（副詞）" }
+      ],
+      family: [
+        { word: "nominate",  desc: "指名する（nomen: 名前）" },
+        { word: "anonymous", desc: "匿名の（an-: 名前がない）" },
+        { word: "synonym",   desc: "同義語（syn-: 同じ名前）" },
+        { word: "antonym",   desc: "反意語（anti-: 反対の名前）" }
+      ],
+      compounds: [
+        { phrase: "write under a pseudonym", desc: "ペンネームで書く" },
+        { phrase: "famous pseudonym",        desc: "有名なペンネーム" },
+        { phrase: "adopt a pseudonym",       desc: "ペンネームを使い始める" }
+      ]
+    },
+
+    // ── corpus系 ─────────────────────────────────────────────────────────────
+    "corporation": {
+      origin: "ラテン語 corporatio（共同体の形成）< corporare（一つの体にする）< corpus（体）。「多くの人が一つの体を成した集合体」→「法人・大企業」に特化した。中世ヨーロッパの同業者組合（guild）が corporatio と呼ばれたのが起源。\n\n法人（corporation）は法律上「一つの体を成した存在」として個人と同じ権利義務を持つ法律的概念。corporate culture（企業文化）・corporate social responsibility（CSR）は現代ビジネスの核心語。",
+      derivatives: [
+        { word: "corporate",    desc: "企業の・法人の（形容詞）" },
+        { word: "corporately",  desc: "企業として・法人として（副詞）" },
+        { word: "corporatism",  desc: "コーポラティズム・組合主義（名詞）" }
+      ],
+      family: [
+        { word: "incorporate", desc: "法人化する・合体させる（in+corpus）" },
+        { word: "corpse",      desc: "死体（corpus: 動かなくなった体）" },
+        { word: "corps",       desc: "部隊・集団（corpus のフランス語形）" },
+        { word: "corporal",    desc: "身体の・上等兵（corpus+al）" },
+        { word: "corpus",      desc: "文書集成・語料（corpus の直系）" }
+      ],
+      compounds: [
+        { phrase: "corporate culture",  desc: "企業文化" },
+        { phrase: "CSR",                desc: "企業の社会的責任" },
+        { phrase: "corporation tax",    desc: "法人税" }
+      ]
+    },
+
+    "incorporate": {
+      origin: "ラテン語 incorporare（体の中に組み込む）< in-（中に）+ corpus（体）の動詞形。「すでにある体（組織・物質）の中に組み込む」→「法人化する・〔要素を〕取り込む」に特化した。\n\n会社名に付く Inc.（Incorporated の略）は「法人化された」の意で、主にアメリカ・カナダで使われる。incorporate feedback（フィードバックを取り込む）・incorporate a new feature（新機能を組み込む）はビジネス・開発文書で頻出。",
+      derivatives: [
+        { word: "incorporated",  desc: "法人化した・組み込まれた（形容詞）" },
+        { word: "incorporation", desc: "法人化・合体・組み込み（名詞）" },
+        { word: "Inc.",          desc: "Incorporated の略（会社名語尾）" }
+      ],
+      family: [
+        { word: "corporation",  desc: "法人・大企業（corporatio）" },
+        { word: "corpse",       desc: "死体（corpus: 動かなくなった体）" },
+        { word: "corps",        desc: "部隊・集団（corpus のフランス語形）" },
+        { word: "corporal",     desc: "身体の・上等兵（corpus+al）" }
+      ],
+      compounds: [
+        { phrase: "incorporate feedback",  desc: "フィードバックを取り込む" },
+        { phrase: "Inc. (Incorporated)",   desc: "法人（会社名後置語）" },
+        { phrase: "incorporate into",      desc: "〜に組み込む" }
+      ]
+    },
+
+    "corpse": {
+      origin: "ラテン語 corpus（体）が古フランス語 cors・corps を経て英語に入り、「死体・遺体」に意味が絞られた形。corpus（体・文書の集成）と同根語で、「動きを失った体」というニュアンスから「死体」に特化した。\n\ncorpse は医学・法医学・犯罪小説の基本語。corpse flower（ショクダイオオコンニャク：死体のような臭いを発する花）はその名の通り。corpse pose（屍のポーズ）はヨガの savasana（大地に横たわる最終ポーズ）の英語名。",
+      derivatives: [
+        { word: "corpse-like", desc: "死体のような（まれ）" }
+      ],
+      family: [
+        { word: "corporation",  desc: "法人・大企業（corpus: 体が集合）" },
+        { word: "incorporate",  desc: "法人化する・取り込む（in+corpus）" },
+        { word: "corps",        desc: "部隊・集団（corpus のフランス語形）" },
+        { word: "corporal",     desc: "身体の・上等兵（corpus+al）" },
+        { word: "corpus",       desc: "文書集成・語料（corpus の直系）" }
+      ],
+      compounds: [
+        { phrase: "corpse flower",    desc: "ショクダイオオコンニャク" },
+        { phrase: "discover a corpse", desc: "死体を発見する" },
+        { phrase: "corpse pose",       desc: "屍のポーズ（ヨガ）" }
+      ]
+    },
+
+    "corps": {
+      origin: "フランス語 corps（体・集団）< ラテン語 corpus（体）。「同じ目的のために体をなす集団」→「軍の部隊・専門職の集団」に特化した。\n\nMarine Corps（海兵隊）・Peace Corps（平和部隊）・press corps（記者団）は corps の代表的使用例。発音は /kɔː/（「コー」）で語末の ps が黙字（フランス語由来のため）。corpse（死体、/kɔːps/）との発音の違いに注意が必要。",
+      derivatives: [
+        { word: "corpsman", desc: "衛生兵（海軍・海兵隊用語）" }
+      ],
+      family: [
+        { word: "corporation",  desc: "法人・大企業（corpus: 体が集合）" },
+        { word: "incorporate",  desc: "法人化する・取り込む（in+corpus）" },
+        { word: "corpse",       desc: "死体（corpus: 動かなくなった体）" },
+        { word: "corporal",     desc: "身体の・上等兵（corpus+al）" }
+      ],
+      compounds: [
+        { phrase: "Marine Corps",  desc: "海兵隊" },
+        { phrase: "Peace Corps",   desc: "平和部隊（米国の国際ボランティア組織）" },
+        { phrase: "press corps",   desc: "記者団" }
+      ]
+    },
+
+    // ── mors / morbus系 ──────────────────────────────────────────────────────
+    "mortal": {
+      origin: "ラテン語 mortalis（死ぬべき運命の）< mors（死）の形容詞形。印欧語根 *mer-（死ぬ）に由来し、murder（殺人）とも同根。「いつかは死ぬ」という人間の本質的条件を表し、神・不死者との対比で使われる。\n\nmortal wound（致命傷）・mortal enemy（不倶戴天の敵）・mortal fear（死を覚悟するほどの恐怖）は強烈な強調表現として使われる。神話・ゲームでは "a mortal"（死すべき人間）が immortals（不死者）と対比される。",
+      derivatives: [
+        { word: "mortality",     desc: "死亡率・死ぬべき運命（名詞）" },
+        { word: "mortally",      desc: "致命的に（副詞）" },
+        { word: "mortal wound",  desc: "致命傷（慣用句）" }
+      ],
+      family: [
+        { word: "immortal",   desc: "不死の（in-: 死から免れた）" },
+        { word: "mortality",  desc: "死亡率（mortalis の名詞）" },
+        { word: "morgue",     desc: "遺体安置所（mors と同根）" },
+        { word: "mortify",    desc: "当惑させる・苦行で抑える（mors+fy）" },
+        { word: "murder",     desc: "殺人（*mer-: 死ぬ と同根）" }
+      ],
+      compounds: [
+        { phrase: "mortal wound",   desc: "致命傷" },
+        { phrase: "mortal enemy",   desc: "不倶戴天の敵" },
+        { phrase: "mortal fear",    desc: "死を覚悟するほどの恐怖" }
+      ]
+    },
+
+    "immortal": {
+      origin: "ラテン語 immortalis（死ぬことのない）< in-（否定）+ mortalis（死ぬべき）< mors（死）。「死の宿命から免れた」→「不死の・不滅の・不朽の」に特化した。\n\n神・英雄・芸術作品の「不朽性」に使われる。"immortal works of art"（不朽の芸術作品）・"immortal words"（不滅の言葉）は格調の高い表現。immortality（不死・不滅）はトランスヒューマニズム研究の中心テーマでもある。",
+      derivatives: [
+        { word: "immortality",   desc: "不死・不滅・永遠（名詞）" },
+        { word: "immortalize",   desc: "不朽のものにする・永遠に記念する（動詞）" },
+        { word: "immortalized",  desc: "不朽のものにされた（形容詞）" }
+      ],
+      family: [
+        { word: "mortal",    desc: "死すべき（mortalis: いつかは死ぬ）" },
+        { word: "mortality", desc: "死亡率・死ぬべき運命（名詞）" },
+        { word: "morgue",    desc: "遺体安置所" },
+        { word: "murder",    desc: "殺人（*mer-: 死ぬ と同根）" }
+      ],
+      compounds: [
+        { phrase: "immortal works",        desc: "不朽の作品" },
+        { phrase: "achieve immortality",   desc: "不滅の名声を得る" },
+        { phrase: "immortal words",        desc: "不滅の言葉" }
+      ]
+    },
+
+    "mortality": {
+      origin: "ラテン語 mortalitas（死ぬべき本質・死亡率）< mortalis（死ぬべき）< mors（死）の名詞形。「すべての人が死を免れないという事実・状態」と「一定期間の死亡者数・死亡率」の両義を持つ。\n\nmortality rate（死亡率）・infant mortality（乳幼児死亡率）は統計・公衆衛生の基本語。human mortality（人間の死ぬべき運命）は哲学・文学で使われる概念。",
+      derivatives: [
+        { word: "mortality rate",  desc: "死亡率（慣用句）" },
+        { word: "immortality",     desc: "不死・不滅（反義語）" }
+      ],
+      family: [
+        { word: "mortal",    desc: "死すべき（mortalis: いつかは死ぬ）" },
+        { word: "immortal",  desc: "不死の（in-: 死から免れた）" },
+        { word: "morgue",    desc: "遺体安置所" },
+        { word: "mortify",   desc: "当惑させる・苦行で抑える" },
+        { word: "murder",    desc: "殺人（*mer-: 死ぬ と同根）" }
+      ],
+      compounds: [
+        { phrase: "mortality rate",    desc: "死亡率" },
+        { phrase: "infant mortality",  desc: "乳幼児死亡率" },
+        { phrase: "human mortality",   desc: "人間の死すべき運命" }
+      ]
+    },
+
+    "morbid": {
+      origin: "ラテン語 morbidus（病気の・不健康な）< morbus（病気）< mors（死）と同じ語根 *mer-（死ぬ）から。「病気に関わる・不健全な」→「死や病に不健全なほど関心を持つ・病的な」に発展した。\n\nmorbid curiosity（病的な好奇心）は「死や不快なものへの抑えられない関心」。morbidity（罹患率）は公衆衛生の専門語。morbid humor（ダークユーモア・黒いジョーク）は英語文化の一ジャンルとして確立している。",
+      derivatives: [
+        { word: "morbidity",   desc: "罹患率・病的状態（名詞）" },
+        { word: "morbidly",    desc: "病的に・異常なほど（副詞）" },
+        { word: "morbidness",  desc: "病的さ（名詞）" }
+      ],
+      family: [
+        { word: "mortal",    desc: "死すべき（mors: 死）" },
+        { word: "immortal",  desc: "不死の（in-: 死から免れた）" },
+        { word: "mortality", desc: "死亡率（mortalis の名詞）" },
+        { word: "morgue",    desc: "遺体安置所（mors と同根）" }
+      ],
+      compounds: [
+        { phrase: "morbid curiosity",  desc: "病的な好奇心" },
+        { phrase: "morbid humor",      desc: "ダークユーモア・黒いジョーク" },
+        { phrase: "morbidity rate",    desc: "罹患率" }
+      ]
+    },
+
+    // ── bene / male系 ────────────────────────────────────────────────────────
+    "benefit": {
+      origin: "ラテン語 beneficium（恩恵・善い行い）< bene（よく・善く）+ facere（行う）の名詞形。「よいことをする・よいことが行われること」→「利益・恩恵・給付金」に発展した。\n\nbenefit of the doubt（疑わしきは善意に解釈すること）は法律・日常の重要慣用句。employee benefits（福利厚生）・health benefits（健康上の利点）はビジネス・医療の基本語。"for the benefit of"（〜のために・〜の利益のために）はフォーマルな表現。",
+      derivatives: [
+        { word: "beneficial",   desc: "有益な・ためになる（形容詞）" },
+        { word: "beneficiary",  desc: "受益者（名詞）" },
+        { word: "beneficially", desc: "有益に（副詞）" }
+      ],
+      family: [
+        { word: "beneficial",   desc: "有益な（bene+facere の形容詞）" },
+        { word: "benevolent",   desc: "親切な・慈悲深い（bene+volens）" },
+        { word: "benefactor",   desc: "恩人・後援者（bene+facere）" },
+        { word: "malicious",    desc: "悪意のある（malus: 悪い）" },
+        { word: "malady",       desc: "病気・不具合（malus+habitus）" }
+      ],
+      compounds: [
+        { phrase: "benefit of the doubt",  desc: "善意に解釈すること" },
+        { phrase: "employee benefits",     desc: "福利厚生" },
+        { phrase: "mutual benefit",        desc: "相互利益" }
+      ]
+    },
+
+    "beneficial": {
+      origin: "ラテン語 beneficialis（恩恵的な）< beneficium（恩恵）< bene（よく）+ facere（行う）の形容詞形。「よいことをもたらす・有益な」が原義で、benefit の形容詞版として多用される。\n\nbeneficial effect（有益な効果）・mutually beneficial（互いに有益な）・beneficial owner（受益所有者：金融・法律）は多様な文脈で使われる。be beneficial to（〜に有益である）は基本構文。beneficial bacteria（有益な細菌）は医学・農業の用語。",
+      derivatives: [
+        { word: "beneficially", desc: "有益に（副詞）" }
+      ],
+      family: [
+        { word: "benefit",     desc: "利益・恩恵（bene+facere の名詞）" },
+        { word: "benevolent",  desc: "親切な・慈悲深い（bene+volens）" },
+        { word: "benefactor",  desc: "恩人・後援者（bene+facere）" },
+        { word: "malicious",   desc: "悪意のある（malus: 悪い）" }
+      ],
+      compounds: [
+        { phrase: "beneficial effect",    desc: "有益な効果" },
+        { phrase: "mutually beneficial",  desc: "互いに有益な" },
+        { phrase: "beneficial to health", desc: "健康に良い" }
+      ]
+    },
+
+    "malicious": {
+      origin: "ラテン語 malitiosus（悪意のある）< malitia（悪意・意地悪）< malus（悪い）の形容詞形。「悪意の意図を持った」→「悪意のある・意地悪な」に特化した。\n\nmalicious software（malware: マルウェア）はサイバーセキュリティの基本語。maliciously（悪意をもって）は法律用語として「故意の悪意」を示す重要副詞。malice aforethought（予謀：殺人罪に問われるための要件）は刑法の重要概念。",
+      derivatives: [
+        { word: "maliciously",   desc: "悪意をもって（副詞）" },
+        { word: "malice",        desc: "悪意・敵意（名詞）" },
+        { word: "maliciousness", desc: "悪意深さ（名詞）" }
+      ],
+      family: [
+        { word: "benefit",     desc: "利益・恩恵（bene: よい）" },
+        { word: "beneficial",  desc: "有益な（bene+facere の形容詞）" },
+        { word: "benevolent",  desc: "親切な（bene+volens）" },
+        { word: "malady",      desc: "病気・不具合（malus+habitus）" },
+        { word: "malevolent",  desc: "悪意のある（male+volens）" }
+      ],
+      compounds: [
+        { phrase: "malicious software",   desc: "悪意あるソフトウェア（マルウェア）" },
+        { phrase: "malicious intent",     desc: "悪意・害意" },
+        { phrase: "malice aforethought",  desc: "予謀（刑法）" }
+      ]
+    },
+
+    "benevolent": {
+      origin: "ラテン語 benevolens（善意を持つ・親切な）< bene（よく）+ volens（望む）< velle（望む）の現在分詞。「よいことを望んでいる」→「親切な・慈悲深い・慈善的な」に特化した。\n\nbenevolent dictator（善意の独裁者）はIT界でオープンソースプロジェクトの中心人物を指す表現 "Benevolent Dictator for Life"（BDFL）として有名。benevolent society（慈善団体）は社会福祉の基本語。",
+      derivatives: [
+        { word: "benevolence",  desc: "善意・慈善（名詞）" },
+        { word: "benevolently", desc: "善意で・慈悲深く（副詞）" },
+        { word: "malevolent",   desc: "悪意のある（反義語: male+volens）" }
+      ],
+      family: [
+        { word: "benefit",    desc: "利益・恩恵（bene+facere の名詞）" },
+        { word: "beneficial", desc: "有益な（bene+facere の形容詞）" },
+        { word: "benefactor", desc: "恩人・後援者（bene+facere）" },
+        { word: "malicious",  desc: "悪意のある（malus: 悪い）" }
+      ],
+      compounds: [
+        { phrase: "benevolent dictator",  desc: "善意の独裁者（BDFL）" },
+        { phrase: "benevolent society",   desc: "慈善団体" },
+        { phrase: "benevolent gesture",   desc: "善意のある行動" }
+      ]
+    },
+
+    "benefactor": {
+      origin: "ラテン語 benefactor（善いことをする人）< bene（よく）+ facere（行う）の動作主名詞形。「他者のために善いことをする人」→「資金援助者・恩人・後援者」に特化した。\n\nschool benefactor（学校への寄付者）・anonymous benefactor（匿名の支援者）は慈善活動の文脈で使われる。beneficiary（受益者）は恩恵を「受ける側」で対になる語。",
+      derivatives: [
+        { word: "beneficiary", desc: "受益者・受取人（名詞）" }
+      ],
+      family: [
+        { word: "benefit",    desc: "利益・恩恵（bene+facere の名詞）" },
+        { word: "beneficial", desc: "有益な（bene+facere の形容詞）" },
+        { word: "benevolent", desc: "親切な・慈悲深い（bene+volens）" },
+        { word: "malicious",  desc: "悪意のある（malus: 悪い）" }
+      ],
+      compounds: [
+        { phrase: "anonymous benefactor",  desc: "匿名の支援者" },
+        { phrase: "school benefactor",     desc: "学校への恩人・寄付者" },
+        { phrase: "generous benefactor",   desc: "気前のよい恩人" }
+      ]
+    },
+
+    // ── magnus / maximus系 ───────────────────────────────────────────────────
+    "magnify": {
+      origin: "ラテン語 magnificare（大きくする・称える）< magnus（大きい）+ facere（行う）に英語の動詞語尾 -fy を付けた形。「大きくして見せる」→「拡大する・誇張する・称える」に発展した。\n\nmagnifying glass（虫眼鏡）は「大きくする」ガラス。magnify a problem（問題を誇張する）は「実際より大きくして見せる」比喩。the Magnificat（マニフィカト: キリスト教讃歌「私の魂は主を賛美する」の冒頭語）も同根。",
+      derivatives: [
+        { word: "magnification", desc: "拡大・誇張（名詞）" },
+        { word: "magnifier",     desc: "拡大鏡（名詞）" }
+      ],
+      family: [
+        { word: "magnificent", desc: "壮大な（magnus+facere: 大きく行う）" },
+        { word: "magnitude",   desc: "規模・大きさ（magnus の名詞）" },
+        { word: "maximum",     desc: "最大（magnus の最上級）" },
+        { word: "majesty",     desc: "威厳・陛下（magnus と同根）" },
+        { word: "major",       desc: "大きい方の・専攻（magnus 比較級）" }
+      ],
+      compounds: [
+        { phrase: "magnifying glass",     desc: "虫眼鏡・拡大鏡" },
+        { phrase: "magnify the problem",  desc: "問題を誇張する" },
+        { phrase: "under magnification",  desc: "拡大して見ると" }
+      ]
+    },
+
+    "magnificent": {
+      origin: "ラテン語 magnificus（大きく立派なことをする・壮大な）< magnus（大きい）+ facere（行う）の形容詞形。「大きく立派なものを作る・並外れた大きさで輝く」→「壮大な・素晴らしい・豪壮な」に特化した。\n\nmagnificence（壮大さ）・magnificently（壮大に）は格調のある表現。"The Magnificent Seven"（荒野の七人）はアメリカ西部劇の名作。ロレンツォ・イル・マニフィコ（Lorenzo the Magnificent: ロレンツォ豪華公）はルネサンスの代表的パトロン。",
+      derivatives: [
+        { word: "magnificence",   desc: "壮大さ・豪華さ（名詞）" },
+        { word: "magnificently",  desc: "壮大に・見事に（副詞）" }
+      ],
+      family: [
+        { word: "magnify",   desc: "拡大する（magnus+facere+fy）" },
+        { word: "magnitude", desc: "規模・大きさ（magnus の名詞）" },
+        { word: "maximum",   desc: "最大（magnus の最上級）" },
+        { word: "majesty",   desc: "威厳・陛下（magnus と同根）" },
+        { word: "major",     desc: "大きい方の・専攻（magnus 比較級）" }
+      ],
+      compounds: [
+        { phrase: "magnificent view",         desc: "壮大な景色" },
+        { phrase: "magnificent achievement",  desc: "素晴らしい業績" },
+        { phrase: "look magnificent",         desc: "見事に見える" }
+      ]
+    },
+
+    "magnitude": {
+      origin: "ラテン語 magnitudo（大きさ・規模）< magnus（大きい）に程度・状態を表す接尾辞 -tudo を付けた形。「大きさ・規模・重要性」を定量的に表す際に使われる科学・数学用語。\n\nearthquake magnitude（地震マグニチュード: リヒタースケール）・order of magnitude（桁・オーダー）・stellar magnitude（星の等級）は科学の基本語。"of great magnitude"（大規模な・重大な）は格調のある表現として使われる。",
+      derivatives: [
+        { word: "magnitudinous", desc: "（まれ）" }
+      ],
+      family: [
+        { word: "magnify",     desc: "拡大する（magnus+facere+fy）" },
+        { word: "magnificent", desc: "壮大な（magnus+facere の形容詞）" },
+        { word: "maximum",     desc: "最大（magnus の最上級）" },
+        { word: "majesty",     desc: "威厳・陛下（magnus と同根）" },
+        { word: "major",       desc: "大きい方の・専攻（magnus 比較級）" }
+      ],
+      compounds: [
+        { phrase: "earthquake magnitude",  desc: "地震マグニチュード" },
+        { phrase: "order of magnitude",    desc: "桁・オーダー（10倍単位）" },
+        { phrase: "of great magnitude",    desc: "大規模な・重大な" }
+      ]
+    },
+
+    "maximum": {
+      origin: "ラテン語 maximus（最も大きい）< magnus（大きい）の最上級形。「それ以上大きいものがない・最大の」が原義で、数学・工学から日常語まで幅広く使われる。\n\nmaximize（最大化する）・maximum capacity（最大収容量）・maximum speed（最高速度）は多様な文脈で使われる。IT・数学では max（maximum の略）と min（minimum の略）が対になる基本略語として使われる。",
+      derivatives: [
+        { word: "maximize",       desc: "最大化する（動詞）" },
+        { word: "maximization",   desc: "最大化（名詞）" },
+        { word: "maximal",        desc: "最大限の（形容詞）" },
+        { word: "maximally",      desc: "最大限に（副詞）" }
+      ],
+      family: [
+        { word: "magnify",     desc: "拡大する（magnus+facere+fy）" },
+        { word: "magnificent", desc: "壮大な（magnus+facere の形容詞）" },
+        { word: "magnitude",   desc: "規模・大きさ（magnus の名詞）" },
+        { word: "majesty",     desc: "威厳・陛下（magnus と同根）" },
+        { word: "major",       desc: "大きい方の・専攻（magnus 比較級）" }
+      ],
+      compounds: [
+        { phrase: "maximum capacity",  desc: "最大収容量・最大処理能力" },
+        { phrase: "maximize profit",   desc: "利益を最大化する" },
+        { phrase: "at maximum speed",  desc: "最高速度で" }
+      ]
+    },
+
+    // ── audire系 ─────────────────────────────────────────────────────────────
+    "audio": {
+      origin: "ラテン語 audire（聞く）の語幹 audi- に由来した現代語。20世紀に「音声・音響・ラジオ・録音」を指す技術用語として英語に定着した。audire 自体は印欧語根 *au-（感知する）に由来し、auditory（聴覚の）・audible（聞こえる）などと同根。\n\naudio equipment（音響機器）・audio file（音声ファイル）・audio guide（音声ガイド）はデジタル時代の基本語。audiophile（音楽愛好家・高音質マニア）は audio + -phile（愛好家）から。",
+      derivatives: [
+        { word: "audiovisual",  desc: "視聴覚の（形容詞）" },
+        { word: "audiophile",   desc: "音楽愛好家・高音質マニア（名詞）" },
+        { word: "audio file",   desc: "音声ファイル（慣用句）" }
+      ],
+      family: [
+        { word: "audience",    desc: "聴衆・観客（audire の名詞）" },
+        { word: "auditorium",  desc: "講堂・ホール（audire の場所名詞）" },
+        { word: "audit",       desc: "監査する（帳簿を聞いて確認する）" },
+        { word: "auditory",    desc: "聴覚の（audire+ory）" },
+        { word: "audible",     desc: "聞こえる（audire+ible）" }
+      ],
+      compounds: [
+        { phrase: "audio guide",        desc: "音声ガイド" },
+        { phrase: "audio file",         desc: "音声ファイル" },
+        { phrase: "audiovisual materials", desc: "視聴覚教材" }
+      ]
+    },
+
+    "audience": {
+      origin: "ラテン語 audientia（聞くこと・聴衆）< audire（聞く）の名詞形。「聞く人々・聴衆」が原義で、「観客・視聴者・読者・（君主との）謁見」に広がった。\n\ntarget audience（ターゲット層）はマーケティングの核心概念。audience reach（リーチ・到達視聴者数）はメディア指標の基本語。"captive audience"（逃げ場のない聴衆）は講義室・飛行機内など「他に選択肢がない聴衆」を皮肉に表す慣用句。",
+      derivatives: [
+        { word: "auditorium",  desc: "（関連）講堂・ホール（audire の場所名詞）" }
+      ],
+      family: [
+        { word: "audio",       desc: "音声・音響（audire の語幹から）" },
+        { word: "auditorium",  desc: "講堂・ホール（audire の場所名詞）" },
+        { word: "audit",       desc: "監査する（帳簿を聞いて確認する）" },
+        { word: "auditory",    desc: "聴覚の（audire+ory）" },
+        { word: "audible",     desc: "聞こえる（audire+ible）" }
+      ],
+      compounds: [
+        { phrase: "target audience",   desc: "ターゲット層" },
+        { phrase: "audience reach",    desc: "到達視聴者数" },
+        { phrase: "captive audience",  desc: "逃げ場のない聴衆" }
+      ]
+    },
+
+    "auditorium": {
+      origin: "ラテン語 auditorium（聞く場所）< audire（聞く）に場所を表す語尾 -torium を付けた形。「音楽・演説・講義を聞くための大きな部屋・ホール」が原義。\n\nschool auditorium（学校の講堂）・concert auditorium（コンサートホール）は教育・音楽の文脈で使われる。auditorium seating（シアター式着席：全員が前を向く会議配置）はビジネスイベントの基本配置スタイルの一つ。",
+      derivatives: [
+        { word: "auditory", desc: "聴覚の（関連形容詞）" }
+      ],
+      family: [
+        { word: "audio",    desc: "音声・音響（audire の語幹から）" },
+        { word: "audience", desc: "聴衆・観客（audire の名詞）" },
+        { word: "audit",    desc: "監査する（帳簿を聞いて確認する）" },
+        { word: "auditory", desc: "聴覚の（audire+ory）" },
+        { word: "audible",  desc: "聞こえる（audire+ible）" }
+      ],
+      compounds: [
+        { phrase: "school auditorium",   desc: "学校の講堂" },
+        { phrase: "fill the auditorium", desc: "会場を満員にする" },
+        { phrase: "auditorium seating",  desc: "シアター式着席" }
+      ]
+    },
+
+    "audit": {
+      origin: "ラテン語 auditus（聞くこと）< audire（聞く）の名詞形。中世の会計では帳簿を朗読して「聞かせながら確認する」ことが検査の方法だったため、「帳簿の監査・監査する」に特化した。\n\nfinancial audit（財務監査）・annual audit（年次監査）・audit trail（監査証跡）は会計・コンプライアンスの基本語。"audit a course"（科目を聴講する）は大学教育での「単位なしで聞く」用法として現代英語に残っている。",
+      derivatives: [
+        { word: "auditor",  desc: "監査人・会計士（名詞）" },
+        { word: "auditing", desc: "監査（名詞）" },
+        { word: "audited",  desc: "監査を受けた（形容詞）" }
+      ],
+      family: [
+        { word: "audio",      desc: "音声・音響（audire の語幹から）" },
+        { word: "audience",   desc: "聴衆・観客（audire の名詞）" },
+        { word: "auditorium", desc: "講堂・ホール（audire の場所名詞）" },
+        { word: "auditory",   desc: "聴覚の（audire+ory）" }
+      ],
+      compounds: [
+        { phrase: "financial audit",  desc: "財務監査" },
+        { phrase: "audit trail",      desc: "監査証跡・操作ログ" },
+        { phrase: "conduct an audit", desc: "監査を実施する" }
+      ]
+    },
+
+    // ── unus / monos系 ───────────────────────────────────────────────────────
+    "unite": {
+      origin: "ラテン語 unire（一つにする）< unus（一つ）から形成した動詞。「バラバラのものを一つにまとめる」→「統合する・団結する」に特化した。\n\nUnited Nations（国際連合: 1945年設立）・United States（合衆国）・United Kingdom（連合王国）は "united" の代表的固有名詞。"United we stand, divided we fall."（団結すれば勝ち、分裂すれば負ける）は有名な格言。",
+      derivatives: [
+        { word: "unity",          desc: "統一・一致・団結（名詞）" },
+        { word: "united",         desc: "統一された・団結した（形容詞）" },
+        { word: "unification",    desc: "統一・統合（名詞）" },
+        { word: "reunite",        desc: "再結合する（動詞）" }
+      ],
+      family: [
+        { word: "unity",    desc: "統一・団結（unus の名詞）" },
+        { word: "uniform",  desc: "制服・均一な（uni+forma: 一つの形）" },
+        { word: "monopoly", desc: "独占（mono-: 一つだけが売る）" },
+        { word: "unique",   desc: "唯一の（uni+que: 一つの）" },
+        { word: "unicorn",  desc: "一角獣（uni+cornu: 一つの角）" }
+      ],
+      compounds: [
+        { phrase: "united front",    desc: "統一戦線・団結した態度" },
+        { phrase: "unite against",   desc: "〜に対して団結する" },
+        { phrase: "United Nations",  desc: "国際連合" }
+      ]
+    },
+
+    "unity": {
+      origin: "ラテン語 unitas（一であること・統一性）< unus（一つ）の名詞形。「バラバラのものが一つにまとまった状態・性質」が原義で、「統一・一致・団結・（数学の）単位元（1）」に使われる。\n\nnational unity（国家統一）・unity of purpose（目的の一致）・unity in diversity（多様性の中の統一）は政治・社会の文脈で使われる。ゲームエンジン Unity はこの語から命名された。",
+      derivatives: [
+        { word: "unify",       desc: "統一する・統合する（動詞）" },
+        { word: "unification", desc: "統一・統合（名詞）" }
+      ],
+      family: [
+        { word: "unite",    desc: "団結する（unus: 一つにする）" },
+        { word: "uniform",  desc: "制服・均一な（uni+forma: 一つの形）" },
+        { word: "monopoly", desc: "独占（mono-: 一つだけが売る）" },
+        { word: "unique",   desc: "唯一の（uni+que: 一つの）" }
+      ],
+      compounds: [
+        { phrase: "national unity",        desc: "国家統一" },
+        { phrase: "unity of purpose",      desc: "目的の一致" },
+        { phrase: "unity in diversity",    desc: "多様性の中の統一" }
+      ]
+    },
+
+    "monopoly": {
+      origin: "ギリシャ語 monopōlion（独占販売権）< mono-（一つ・単独）+ pōlein（売る）。「一社・一者だけが売る権利を持つ」→「独占・一人支配」に特化した。\n\nmonopoly power（独占力）・natural monopoly（自然独占: インフラのように一社独占の方が効率的な産業）・break up a monopoly（独占を解体する）は経済学・競争法の重要語。ボードゲーム Monopoly（モノポリー）は不動産独占をテーマにした世界的なゲーム。",
+      derivatives: [
+        { word: "monopolize",    desc: "独占する（動詞）" },
+        { word: "monopolist",    desc: "独占者（名詞）" },
+        { word: "monopolistic",  desc: "独占的な（形容詞）" }
+      ],
+      family: [
+        { word: "unite",     desc: "団結する（unus: 一つにする）" },
+        { word: "unity",     desc: "統一・団結（unus の名詞）" },
+        { word: "monotone",  desc: "単調な声（mono: 一つの音）" },
+        { word: "monomania", desc: "一つのことへの過度な執着" },
+        { word: "monologue", desc: "独り言・独白（mono+logos）" }
+      ],
+      compounds: [
+        { phrase: "monopoly power",     desc: "独占力" },
+        { phrase: "natural monopoly",   desc: "自然独占" },
+        { phrase: "break up a monopoly", desc: "独占を解体する" }
+      ]
+    },
+
+    "monotone": {
+      origin: "ギリシャ語 monotonos（一つの音・変化のない）< mono-（一つ）+ tonos（音・緊張）。「変化のない一つの音」→「単調な声・単調さ」に特化した。\n\nin a monotone（一本調子で・抑揚なく）は話し方を表す。monotonous（単調な・退屈な）・monotony（単調さ・退屈）は日常でよく使われる。monotone color（モノトーン・単色）はファッション・デザイン用語として黒白灰色の配色を指す。",
+      derivatives: [
+        { word: "monotonous",   desc: "単調な・退屈な（形容詞）" },
+        { word: "monotonously", desc: "単調に・退屈に（副詞）" },
+        { word: "monotony",     desc: "単調さ・退屈（名詞）" }
+      ],
+      family: [
+        { word: "unite",     desc: "団結する（unus: 一つにする）" },
+        { word: "unity",     desc: "統一・団結（unus の名詞）" },
+        { word: "monopoly",  desc: "独占（mono-: 一つだけが売る）" },
+        { word: "monologue", desc: "独り言・独白（mono+logos）" }
+      ],
+      compounds: [
+        { phrase: "in a monotone",       desc: "一本調子で・抑揚なく" },
+        { phrase: "break the monotony",  desc: "単調さを打ち破る" },
+        { phrase: "monotonous routine",  desc: "単調なルーティン" }
+      ]
+    },
+
+    // ── chronos / tempus系 ───────────────────────────────────────────────────
+    "chronology": {
+      origin: "ギリシャ語 chronos（時間）+ logos（学・体系・言葉）を合わせた近代語。「時間の体系・出来事の時間的順序」が原義で、「年代記・年表・時系列」に特化した。\n\nin chronological order（時系列で）は文書・説明の基本的な順序指定。chronological age（暦年齢：実際の誕生年から数えた年齢）は psychological age（心理年齢）と区別される。chronicle（年代記）も同根で、「時間に沿って記録したもの」。",
+      derivatives: [
+        { word: "chronological",   desc: "時系列の・年代順の（形容詞）" },
+        { word: "chronologically", desc: "時系列で・年代順に（副詞）" },
+        { word: "chronicle",       desc: "年代記・記録（名詞・動詞）" },
+        { word: "chronometer",     desc: "精密時計（名詞）" }
+      ],
+      family: [
+        { word: "synchronize",  desc: "同期させる（syn-: 共に時間を合わせる）" },
+        { word: "contemporary", desc: "現代の・同時代の（con+tempus）" },
+        { word: "temporary",    desc: "一時的な（tempus: その時限り）" },
+        { word: "chronic",      desc: "慢性の（khronos: 長い時間続く）" },
+        { word: "anachronism",  desc: "時代錯誤（ana-: 時間に逆らう）" }
+      ],
+      compounds: [
+        { phrase: "in chronological order",  desc: "時系列で・年代順に" },
+        { phrase: "chronological age",       desc: "暦年齢" },
+        { phrase: "geological chronology",   desc: "地質年代学" }
+      ]
+    },
+
+    "synchronize": {
+      origin: "ギリシャ語 synkhronos（同じ時間の）< syn-（共に）+ khronos（時間）から形成した動詞（英語 synchronize）。「同じ時間に合わせる」→「同期させる・タイミングを合わせる」に特化した。\n\nIn sync（同期して）・synchronization（同期）はデジタル技術の基本語。synchronized swimming（アーティスティックスイミング：タイミングを合わせた泳ぎ）は競技名にも使われた。asynchronous（非同期の）は通信・プログラミングの重要語。",
+      derivatives: [
+        { word: "synchronization", desc: "同期・タイミングを合わせること（名詞）" },
+        { word: "synchronized",    desc: "同期した（形容詞）" },
+        { word: "synchronous",     desc: "同期的な（形容詞）" },
+        { word: "asynchronous",    desc: "非同期の（形容詞）" }
+      ],
+      family: [
+        { word: "chronology",   desc: "年代学・時系列（chronos+logos）" },
+        { word: "contemporary", desc: "現代の・同時代の（con+tempus）" },
+        { word: "temporary",    desc: "一時的な（tempus: その時限り）" },
+        { word: "chronic",      desc: "慢性の（長い時間続く）" }
+      ],
+      compounds: [
+        { phrase: "synchronize data",        desc: "データを同期する" },
+        { phrase: "synchronized swimming",   desc: "シンクロナイズドスイミング" },
+        { phrase: "out of sync",             desc: "同期がずれている" }
+      ]
+    },
+
+    "contemporary": {
+      origin: "ラテン語 contemporarius（同じ時代の）< con-（共に）+ tempus（時・時間）に形容詞語尾 -arius を付けた形。「同じ時代を共に生きている」→「現代の・同時代の・同世代の（人）」に特化した。\n\ncontemporary art（現代芸術）・contemporary music（現代音楽）は芸術分野で重要。"one's contemporary"（同世代の人）は社会学・歴史の文脈で使われる。contemporary issues（現代の問題）と contemporary account（当時の記録）で「今の時代」と「同じ時代」の両義で使われる。",
+      derivatives: [
+        { word: "contemporaneous",   desc: "同時代の・同時の（形容詞）" },
+        { word: "contemporaneously", desc: "同時代に・同時に（副詞）" }
+      ],
+      family: [
+        { word: "chronology",  desc: "年代学・時系列（chronos+logos）" },
+        { word: "synchronize", desc: "同期させる（syn+chronos）" },
+        { word: "temporary",   desc: "一時的な（tempus: その時限り）" },
+        { word: "temporal",    desc: "時間の・世俗の（tempus+al）" },
+        { word: "tempo",       desc: "テンポ・拍子（tempus 直系）" }
+      ],
+      compounds: [
+        { phrase: "contemporary art",     desc: "現代芸術" },
+        { phrase: "contemporary issues",  desc: "現代の問題" },
+        { phrase: "one's contemporary",   desc: "同世代の人・同時代の人" }
+      ]
+    },
+
+    "temporary": {
+      origin: "ラテン語 temporarius（その時限りの・一時的な）< tempus（時・時間）に形容詞語尾 -arius を付けた形。「特定の時期のみに属する」→「一時的な・仮の」に特化した。\n\ntemporary worker（臨時雇用者）・temporary solution（一時的な解決策）・temporary accommodation（仮住まい）はビジネス・行政の基本語。contemporary（同時代の）と混同されやすいが、temporary は「期間の短さ・一時性」を強調する。",
+      derivatives: [
+        { word: "temporarily",   desc: "一時的に・仮に（副詞）" },
+        { word: "temporariness", desc: "一時性（名詞）" },
+        { word: "tempo",         desc: "テンポ・拍子（tempus の直系）" }
+      ],
+      family: [
+        { word: "chronology",   desc: "年代学・時系列（chronos+logos）" },
+        { word: "synchronize",  desc: "同期させる（syn+chronos）" },
+        { word: "contemporary", desc: "現代の・同時代の（con+tempus）" },
+        { word: "temporal",     desc: "時間の・世俗の（tempus+al）" }
+      ],
+      compounds: [
+        { phrase: "temporary worker",        desc: "臨時雇用者・派遣社員" },
+        { phrase: "temporary solution",      desc: "一時的な解決策" },
+        { phrase: "on a temporary basis",    desc: "暫定的に・仮の措置として" }
+      ]
+    },
+
+    // ── solus系 ───────────────────────────────────────────────────────────────
+    "solitary": {
+      origin: "ラテン語 solitarius（一人でいる・孤独な）< solus（一人・単独の）の形容詞形。「一人でいることを好む・孤立した」が原義で、「孤独な・たった一つの・単独の」にも使われる。\n\nsolitary confinement（独房禁錮）は刑務所での最も厳しい処罰として知られる。solitary animals（単独生活の動物）は社会性動物の対義として生態学で使われる。a solitary walk（一人散歩）は孤独の肯定的側面を表す。",
+      derivatives: [
+        { word: "solitarily",    desc: "孤独に・ひとりで（副詞）" },
+        { word: "solitariness",  desc: "孤独・単独（名詞）" }
+      ],
+      family: [
+        { word: "solitude",   desc: "孤独・孤立（solus の名詞）" },
+        { word: "isolate",    desc: "孤立させる（insula: 島のように）" },
+        { word: "solo",       desc: "独奏・単独の（solus の直系）" },
+        { word: "sole",       desc: "唯一の（solus の形容詞）" },
+        { word: "soliloquy",  desc: "独り言・独白（solus+loqui: 一人で話す）" }
+      ],
+      compounds: [
+        { phrase: "solitary confinement",  desc: "独房禁錮" },
+        { phrase: "solitary walk",         desc: "一人散歩" },
+        { phrase: "live a solitary life",  desc: "孤独な生活を送る" }
+      ]
+    },
+
+    "solitude": {
+      origin: "ラテン語 solitudo（一人でいること・孤独・荒れた場所）< solus（一人・単独の）の名詞形。「人が一人でいる状態」が原義で、孤独の否定的側面（孤立・寂しさ）と肯定的側面（一人の充実した時間）の両方を表す。\n\n"In solitude the mind gains strength."（孤独の中で心は力を得る）はジョセフ・ルースの言葉。心理学では "solitude vs. loneliness"（望む孤独 vs. 望まぬ孤独）の区別が重要で、solitude は内向型の人が英気を養う積極的な一人の時間を指す。",
+      derivatives: [
+        { word: "solitary", desc: "孤独な・単独の（形容詞）" }
+      ],
+      family: [
+        { word: "solitary",  desc: "孤独な・単独の（solus の形容詞）" },
+        { word: "isolate",   desc: "孤立させる（insula: 島のように）" },
+        { word: "solo",      desc: "独奏・単独の（solus の直系）" },
+        { word: "sole",      desc: "唯一の（solus の形容詞）" },
+        { word: "soliloquy", desc: "独り言・独白（一人で話す）" }
+      ],
+      compounds: [
+        { phrase: "in solitude",        desc: "孤独の中で" },
+        { phrase: "seek solitude",      desc: "一人の時間を求める" },
+        { phrase: "a place of solitude", desc: "孤独を楽しめる場所" }
+      ]
     }
 
   };

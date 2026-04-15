@@ -8007,6 +8007,320 @@
         { phrase: "computer simulation",  desc: "コンピュータシミュレーション" },
         { phrase: "flight simulator",     desc: "フライトシミュレーター" }
       ]
+    },
+
+    // ── sentire残り・sens系 ──
+    "sensitive": {
+      origin: "ラテン語 sensitivus（感じることができる）< sentire（感じる）< sensus（感覚）。「感覚に反応できる・感じやすい」というのが語源的な意味。\n\n14世紀に英語に入り「（1）感受性の強い・繊細な（2）敏感な・傷つきやすい（3）機密の・デリケートな（sensitive information = 機密情報）」という多義形容詞として定着。\n\nemotionally sensitive（感情的に繊細な）という心理的な意味のほか、sensitive skin（敏感肌）という皮膚科的な意味、politically sensitive（政治的にデリケートな）という社会的な意味まで幅広く使われる。",
+      derivatives: [
+        { word: "sensitivity",    desc: "感受性・敏感さ・感度（名詞）" },
+        { word: "insensitive",    desc: "無神経な・鈍感な（in- + sensitive）" },
+        { word: "sensitize",      desc: "感受性を高める・意識させる（動詞）" }
+      ],
+      family: [
+        { word: "sense",          desc: "感覚・感じる（sentire）" },
+        { word: "sensible",       desc: "分別のある・賢明な（sensibilis）" },
+        { word: "sentiment",      desc: "感情・感傷（sentimentum）" },
+        { word: "consent",        desc: "同意する（con- + sentire）" }
+      ],
+      compounds: [
+        { phrase: "sensitive information",  desc: "機密情報・デリケートな情報" },
+        { phrase: "emotionally sensitive",  desc: "感情的に繊細な・傷つきやすい" }
+      ]
+    },
+
+    "sensible": {
+      origin: "ラテン語 sensibilis（感じることができる）< sentire（感じる）+ -ibilis（〜できる）。「感覚で捉えられる＝理性で分かる＝分別のある」という意味が発展した。\n\n14世紀に英語に入り当初は「感覚で知覚できる」という意味だったが、現代では主に「分別のある・賢明な・実際的な（practical）」という意味で使われる。a sensible decision（賢明な決断）、sensible shoes（実用的な靴）のように使われる。\n\n日本語の「センシブル（sensible）」は「感受性の強い（sensitive）」という意味で誤用されることがあるが、英語の sensible は「常識的・実際的」という意味である点に注意が必要。",
+      derivatives: [
+        { word: "sensibly",       desc: "分別よく・賢明に（副詞）" }
+      ],
+      family: [
+        { word: "sense",          desc: "感覚（sentire）" },
+        { word: "sensitive",      desc: "敏感な・繊細な（sensitivus）" },
+        { word: "sentiment",      desc: "感情・感傷（sentimentum）" }
+      ],
+      compounds: [
+        { phrase: "sensible decision",  desc: "分別のある決断・賢明な判断" },
+        { phrase: "be sensible",        desc: "分別を持って行動する" }
+      ]
+    },
+
+    "consensus": {
+      origin: "ラテン語 consensus（共に感じること・合意）< consentire（共に感じる・同意する）< con-（共に）+ sentire（感じる）。「皆が同じように感じる＝全員一致の意見」というのが語源的な意味。\n\n17世紀に英語に入り「（構成員の）総意・コンセンサス・合意形成」という名詞として定着。reach a consensus（コンセンサスに達する）、by consensus（合意のもとに）のように使われる。\n\n民主主義・組織運営では consensus decision-making（コンセンサス方式の意思決定）が重要な概念で、多数決（majority vote）と対比される「全員が受け入れられる解を探す」プロセスを指す。",
+      derivatives: [
+        { word: "consensual",     desc: "合意に基づく・双方同意の（形容詞）" }
+      ],
+      family: [
+        { word: "sense",          desc: "感覚（sentire）" },
+        { word: "consent",        desc: "同意する（con- + sentire）" },
+        { word: "dissent",        desc: "異議を唱える（dis- + sentire）" },
+        { word: "sentiment",      desc: "感情・意見（sentimentum）" }
+      ],
+      compounds: [
+        { phrase: "reach a consensus",   desc: "コンセンサスに達する・合意する" },
+        { phrase: "by consensus",        desc: "合意のもとに・総意として" }
+      ]
+    },
+
+    // ── natura系（自然・生まれた状態）──
+    "nature": {
+      origin: "ラテン語 natura（誕生・自然・本質）< nasci（生まれる）の名詞形 natus。「生まれた状態・万物が生まれながらに持つ本質」というのが語源。「自然（人工でない世界）」と「本性（もともと持っている性質）」の両義を持つ。\n\n13世紀のフランス語経由で英語に入り「（1）自然（環境）（2）本性・天性・性質」という二つの主要な意味で定着。Mother Nature（大自然）、human nature（人間の本性）、by nature（生まれつき）のように使われる。\n\n18世紀の浪漫主義（Romanticism）では nature が理性（reason）に対比する崇高な概念として芸術・哲学の中心に置かれ、現代の環境保護思想の文化的基盤を形成した。",
+      derivatives: [
+        { word: "natural",       desc: "自然の・生まれつきの（形容詞）" },
+        { word: "naturally",     desc: "自然に・当然（副詞）" },
+        { word: "unnatural",     desc: "不自然な（un- + natural）" }
+      ],
+      family: [
+        { word: "nation",        desc: "国家・国民（natio 生まれた集団）" },
+        { word: "native",        desc: "生まれながらの・原住民の（nativus）" },
+        { word: "innate",        desc: "生まれつきの（innatus）" },
+        { word: "renaissance",   desc: "ルネサンス・再生（re- + nasci）" }
+      ],
+      compounds: [
+        { phrase: "human nature",   desc: "人間の本性" },
+        { phrase: "by nature",      desc: "生まれつき・本質的に" },
+        { phrase: "nature vs. nurture", desc: "本性と養育（遺伝か環境かの議論）" }
+      ]
+    },
+
+    "nation": {
+      origin: "ラテン語 natio（生まれた集団・部族）< nasci（生まれる）< natus（生まれた）。「同じ場所・集団から生まれた人々」というのが語源的な意味で、共通の出自・言語・文化を持つ集団を指した。\n\n14世紀に英語に入り「国家・国民・民族集団」という名詞として定着。United Nations（国際連合）、national anthem（国歌）のように政治・外交の基本語。\n\nnation と country と state の区別：nation は「文化・民族的な集団」、country は「地理的な国土・国」、state は「政治的な組織体・国家」というニュアンスの違いがある。",
+      derivatives: [
+        { word: "national",      desc: "国家の・国民の・全国的な（形容詞）" },
+        { word: "nationality",   desc: "国籍・国民性（名詞）" },
+        { word: "nationalism",   desc: "ナショナリズム・国家主義（名詞）" }
+      ],
+      family: [
+        { word: "nature",        desc: "自然・本性（natura）" },
+        { word: "native",        desc: "生まれながらの（nativus）" },
+        { word: "innate",        desc: "生まれつきの（in- + natus）" }
+      ],
+      compounds: [
+        { phrase: "United Nations",   desc: "国際連合（UN）" },
+        { phrase: "national identity", desc: "国民的アイデンティティ" }
+      ]
+    },
+
+    "native": {
+      origin: "ラテン語 nativus（生まれながらの・生来の）< natus（生まれた）< nasci（生まれる）。「ある場所・状況に生まれながらに属している」というのが語源的な意味。\n\n14世紀に英語に入り「（1）出生地の・土着の（2）生まれながらの・生来の（3）原産の」という形容詞として定着。native language（母国語）、native speaker（ネイティブスピーカー）、native species（在来種）のように使われる。\n\n名詞としては「その土地に生まれた人・原住民」を指すが、歴史的に植民地支配の文脈で「native」が使われたことから、indigenous people（先住民）という表現が好まれることも多い。",
+      derivatives: [
+        { word: "nativity",      desc: "誕生・生誕（nativity scene = キリスト降誕のシーン）" }
+      ],
+      family: [
+        { word: "nature",        desc: "自然・本性（natura）" },
+        { word: "nation",        desc: "国家・国民（natio）" },
+        { word: "innate",        desc: "生まれつきの（in- + natus）" },
+        { word: "renaissance",   desc: "再生・ルネサンス（re- + nasci）" }
+      ],
+      compounds: [
+        { phrase: "native speaker",   desc: "ネイティブスピーカー・母国語話者" },
+        { phrase: "native language",  desc: "母国語・第一言語" },
+        { phrase: "native species",   desc: "在来種（その土地に元来いる種）" }
+      ]
+    },
+
+    // ── scire系（知る）──
+    "science": {
+      origin: "ラテン語 scientia（知識・知ること）< scire（知る）。印欧語根 *skei-（切る・区別する）に由来し、「区別することで知る」というのが原義。\n\n14世紀に英語に入り当初は「学識・知識一般」を指したが、17〜18世紀の科学革命以降「観察・実験・論理に基づいた体系的な知識の探求」という現代的な意味に特化した。\n\nGalileo、Newton、Darwin、Einstein らの業績が科学の方法論・概念を確立し、science は「再現可能な実験と論理的推論による知識体系」を指す語として定着。natural science（自然科学）、social science（社会科学）、computer science（計算機科学）のように広く使われる。",
+      derivatives: [
+        { word: "scientific",    desc: "科学的な（形容詞）" },
+        { word: "scientist",     desc: "科学者（名詞）" },
+        { word: "scientifically", desc: "科学的に（副詞）" }
+      ],
+      family: [
+        { word: "conscience",    desc: "良心（con- 共に + scientia）" },
+        { word: "conscious",     desc: "意識のある（con- + scire）" },
+        { word: "omniscient",    desc: "全知の（omni- 全て + scientia）" }
+      ],
+      compounds: [
+        { phrase: "computer science",   desc: "計算機科学・情報工学" },
+        { phrase: "scientific method",  desc: "科学的方法・実験的手法" }
+      ]
+    },
+
+    "conscience": {
+      origin: "ラテン語 conscientia（共に知っていること・内なる知識）< con-（共に）+ scientia（知識）< scire（知る）。「自分が何をしているかを内面で共に知っている声＝良心」というのが語源的な意味。\n\n13世紀のフランス語 conscience を経て英語に入り「道徳的に何が正しいかを判断する内なる声・良心」という意味で定着。a guilty conscience（良心の呵責）、follow your conscience（良心に従う）のように使われる。\n\n哲学・宗教・心理学では consciousness（意識）と conscience（良心）を区別することが重要で、consciousness は「覚醒・認識状態」、conscience は「道徳的判断力」を指す。",
+      derivatives: [
+        { word: "conscientious",  desc: "良心的な・誠実な（形容詞）" },
+        { word: "conscientiously", desc: "良心的に・誠実に（副詞）" }
+      ],
+      family: [
+        { word: "science",        desc: "科学・知識（scientia）" },
+        { word: "conscious",      desc: "意識のある（con- + scire）" },
+        { word: "omniscient",     desc: "全知の（omni- + scientia）" }
+      ],
+      compounds: [
+        { phrase: "guilty conscience",    desc: "良心の呵責・罪悪感" },
+        { phrase: "follow your conscience", desc: "良心に従う" }
+      ]
+    },
+
+    "conscious": {
+      origin: "ラテン語 conscius（共に知っている・意識している）< con-（共に）+ scire（知る）。「自分が何をしているか・何を感じているかを内面で知っている」というのが語源的な意味。\n\n17世紀に英語に入り「（1）意識のある・覚醒した（2）〜を意識している・認識している」という形容詞として定着。self-conscious（自意識過剰の）、environmentally conscious（環境意識の高い）のように幅広く使われる。\n\nconsciousness（意識）は哲学・神経科学で「hard problem of consciousness（意識の難問）」として最も未解明な謎の一つであり、AI と意識の問題を含む広大な研究領域を形成している。",
+      derivatives: [
+        { word: "consciousness",   desc: "意識・覚醒状態（名詞）" },
+        { word: "unconscious",     desc: "無意識の・意識のない（un- + conscious）" },
+        { word: "self-conscious",  desc: "自意識過剰の・はにかんだ（形容詞）" }
+      ],
+      family: [
+        { word: "science",         desc: "科学・知識（scientia）" },
+        { word: "conscience",      desc: "良心（con- + scientia）" },
+        { word: "omniscient",      desc: "全知の（omni- + scientia）" }
+      ],
+      compounds: [
+        { phrase: "self-conscious",        desc: "自意識が強い・他人の目を気にする" },
+        { phrase: "lose consciousness",    desc: "意識を失う" }
+      ]
+    },
+
+    // ── cura系（世話をする）──
+    "curious": {
+      origin: "ラテン語 curiosus（丁寧に世話をする・詮索好きな）< cura（世話・注意・関心）。「細かく注意を払う＝知りたがる」という意味の転義が起きた。\n\n14世紀に英語に入り「（1）知的好奇心の強い・詮索好きな（2）奇妙な・不思議な」という二つの意味で使われる。curiosity（好奇心）is said to kill the cat（猫を殺す）という格言があるが、実際には好奇心は学習・革新の原動力として正面から評価される。\n\n"Curiosity killed the cat, but satisfaction brought it back."（好奇心は猫を殺したが、満足感が猫を生き返らせた）という完全版の格言では、探究することの価値が再評価されている。",
+      derivatives: [
+        { word: "curiosity",     desc: "好奇心・珍しいもの（名詞）" },
+        { word: "curiously",     desc: "好奇心をもって・不思議なことに（副詞）" }
+      ],
+      family: [
+        { word: "accurate",      desc: "正確な（ac- + cura 注意を払った）" },
+        { word: "secure",        desc: "安全な・確保する（se- 心配から + cura）" },
+        { word: "cure",          desc: "治す・治療（cura 世話）" },
+        { word: "care",          desc: "世話・注意（cura の英語形）" }
+      ],
+      compounds: [
+        { phrase: "out of curiosity",      desc: "好奇心から" },
+        { phrase: "intellectual curiosity", desc: "知的好奇心" }
+      ]
+    },
+
+    "accurate": {
+      origin: "ラテン語 accuratus（注意深く仕上げた）< accurare（丁寧に世話をする）< ad-（〜へ）+ cura（注意・世話）。「細心の注意を払って仕上げた＝正確な・誤りのない」というのが語源的な意味。\n\n17世紀に英語に入り「（1）正確な・精密な（2）細部まで誤りがない」という形容詞として定着。accurate information（正確な情報）、accurate measurement（精密な測定）のように使われる。\n\naccuracy（精度・正確さ）は科学・工学・医療・コミュニケーションすべてで重要な概念であり、"accuracy vs. precision"（正確さ vs. 精密さ）の区別は科学実験の基本的な概念として教えられる。",
+      derivatives: [
+        { word: "accuracy",      desc: "正確さ・精度（名詞）" },
+        { word: "accurately",    desc: "正確に・精密に（副詞）" },
+        { word: "inaccurate",    desc: "不正確な（in- + accurate）" }
+      ],
+      family: [
+        { word: "curious",       desc: "好奇心の強い（curiosus）" },
+        { word: "secure",        desc: "安全な（se- + cura）" },
+        { word: "cure",          desc: "治す（cura）" }
+      ],
+      compounds: [
+        { phrase: "highly accurate",   desc: "非常に正確な" },
+        { phrase: "accurate data",     desc: "正確なデータ" }
+      ]
+    },
+
+    "secure": {
+      origin: "ラテン語 securus（心配のない・安全な）< se-（分離・〜から離れて）+ cura（心配・世話）。「心配から切り離された状態＝安全な・安心した」というのが語源的な意味。\n\n15世紀に英語に入り「安全な・確保された（形容詞）」と「確保する・固定する（動詞）」の両義で使われる。secure a deal（取引を確保する）、secure data（データを保護する）のように使われる。\n\nITセキュリティでは secure connection（安全な接続）、cybersecurity（サイバーセキュリティ）のように最重要分野の基本語。attachment theory（애착理論）では secure attachment（安定した愛着）が健全な対人関係の基盤とされている。",
+      derivatives: [
+        { word: "security",      desc: "安全・安心・セキュリティ（名詞）" },
+        { word: "securely",      desc: "安全に・しっかりと（副詞）" },
+        { word: "insecure",      desc: "不安定な・自信のない（in- + secure）" }
+      ],
+      family: [
+        { word: "curious",       desc: "好奇心の強い（cura）" },
+        { word: "accurate",      desc: "正確な（ac- + cura）" },
+        { word: "care",          desc: "世話・気にする（cura から）" }
+      ],
+      compounds: [
+        { phrase: "secure connection",    desc: "安全な接続（https・VPN等）" },
+        { phrase: "national security",    desc: "国家安全保障" }
+      ]
+    },
+
+    // ── mittere残り（送る）──
+    "commit": {
+      origin: "ラテン語 committere（共に置く・委ねる・行う）< com-（共に）+ mittere（送る・置く）。「誰かに完全に委ねる・（行為を）実行する」というのが語源的なニュアンス。\n\n14世紀に英語に入り「（1）（犯罪を）犯す（2）（人を）委託する・収容する（3）自分を約束・義務に縛る」という多義動詞として定着。commit a crime（犯罪を犯す）、commit to doing（〜することを誓約する）、commit someone to a hospital（入院させる）のように文脈によって意味が大きく変わる。\n\nGitHub などのバージョン管理システムでは commit（コミット）が「変更を確定・登録する」という重要な技術操作を指す。",
+      derivatives: [
+        { word: "commitment",    desc: "約束・誓約・献身・義務（名詞）" },
+        { word: "committee",     desc: "委員会（committere 委任された人々）" },
+        { word: "committed",     desc: "献身的な・誓約した（形容詞）" }
+      ],
+      family: [
+        { word: "mission",       desc: "使命・ミッション（mittere）" },
+        { word: "submit",        desc: "提出する（sub- + mittere）" },
+        { word: "admit",         desc: "認める（ad- + mittere）" },
+        { word: "omit",          desc: "省略する（ob- + mittere）" }
+      ],
+      compounds: [
+        { phrase: "commit to",        desc: "〜に誓約する・専念する" },
+        { phrase: "commit a crime",   desc: "犯罪を犯す" }
+      ]
+    },
+
+    "admit": {
+      origin: "ラテン語 admittere（〜の方へ送る・受け入れる）< ad-（〜へ）+ mittere（送る）。「中へ通す・許可して受け入れる」と「認める（情報を中に入れる）」の両義を持つ。\n\n15世紀に英語に入り「（1）入場を許可する・受け入れる（2）（事実・間違いを）認める・白状する」という動詞として定着。admit a mistake（間違いを認める）、admit to a hospital（入院させる・入院を認可する）のように使われる。\n\nadmission（入場許可・入学許可・認めること）という名詞は、college admission（大学入試）、hospital admission（入院）など教育・医療の基本語として重要。",
+      derivatives: [
+        { word: "admission",     desc: "入場・入学・認めること（名詞）" },
+        { word: "admittedly",    desc: "確かに・認めたところで（副詞）" }
+      ],
+      family: [
+        { word: "mission",       desc: "使命（mittere）" },
+        { word: "commit",        desc: "犯す・約束する（com- + mittere）" },
+        { word: "submit",        desc: "提出する（sub- + mittere）" },
+        { word: "omit",          desc: "省略する（ob- + mittere）" }
+      ],
+      compounds: [
+        { phrase: "college admission",   desc: "大学入試・入学審査" },
+        { phrase: "admission fee",       desc: "入場料" }
+      ]
+    },
+
+    "submit": {
+      origin: "ラテン語 submittere（下に送る・服従させる）< sub-（下に）+ mittere（送る）。「下の立場から送り出す＝提出する・服従する」というのが語源的な意味。\n\n14世紀に英語に入り「（1）（書類・申請を）提出する（2）主張を提示する（3）服従する」という動詞として定着。submit an application（申請書を提出する）、submit a report（報告書を提出する）のように使われる。\n\nIT の文脈では「フォームの送信（submit a form）」、「プルリクエストの送信（submit a PR）」など最も頻繁に使われる操作語の一つ。",
+      derivatives: [
+        { word: "submission",    desc: "提出・服従・投稿（名詞）" },
+        { word: "submissive",    desc: "服従的な・従順な（形容詞）" }
+      ],
+      family: [
+        { word: "mission",       desc: "使命（mittere）" },
+        { word: "commit",        desc: "犯す・約束する（com- + mittere）" },
+        { word: "admit",         desc: "認める（ad- + mittere）" },
+        { word: "omit",          desc: "省略する（ob- + mittere）" }
+      ],
+      compounds: [
+        { phrase: "submit an application",  desc: "申請書を提出する" },
+        { phrase: "submit a form",          desc: "フォームを送信する" }
+      ]
+    },
+
+    // ── docere系（教える）──
+    "educate": {
+      origin: "ラテン語 educare（養育する・育て上げる）< e-（外へ）+ ducare / ducere（導く）。「潜在的な能力を外に引き出す」というのが語源的な意味で、「詰め込み」ではなく「引き出す」という教育観が語源に込められている。\n\n15世紀に英語に入り「教育する・訓練する・育てる」という動詞として定着。一般に education は「知識・技術・価値観を伝える組織的な過程」を指す。\n\neducation system（教育制度）、higher education（高等教育）、adult education（成人教育）のように、教育行政・政策の基本語として不可欠。",
+      derivatives: [
+        { word: "education",     desc: "教育・教育制度（名詞）" },
+        { word: "educator",      desc: "教育者・教師（名詞）" },
+        { word: "educational",   desc: "教育的な・教育の（形容詞）" }
+      ],
+      family: [
+        { word: "reduce",        desc: "減らす・縮小する（re- + ducere）" },
+        { word: "conduct",       desc: "導く・実施する（con- + ducere）" },
+        { word: "introduce",     desc: "紹介する（intro- + ducere）" },
+        { word: "produce",       desc: "生産する（pro- + ducere）" }
+      ],
+      compounds: [
+        { phrase: "higher education",  desc: "高等教育・大学以上の教育" },
+        { phrase: "education system",  desc: "教育制度" }
+      ]
+    },
+
+    "produce": {
+      origin: "ラテン語 producere（前に引き出す・生産する）< pro-（前に）+ ducere（導く）。「前に引き出す＝作り出す・もたらす」というのが語源的な意味。農業・工業では「土地・工場から引き出す」という字義がそのまま「生産する」という意味になった。\n\n15世紀に英語に入り「（1）生産する・製造する（2）演出する・制作する（3）提示する・出す（動詞）」と「農産物・新鮮食料品（名詞、/ˈproʊduːs/）」の両義で使われる。アクセントにより動詞（/prəˈduːs/）と名詞（/ˈproʊduːs/）が区別される。\n\nproduction（生産）、productivity（生産性）はビジネス・経済の核心語。",
+      derivatives: [
+        { word: "production",    desc: "生産・制作・演出（名詞）" },
+        { word: "productive",    desc: "生産的な・実りある（形容詞）" },
+        { word: "producer",      desc: "生産者・プロデューサー（名詞）" }
+      ],
+      family: [
+        { word: "reduce",        desc: "減らす（re- + ducere）" },
+        { word: "educate",       desc: "教育する（e- + ducere）" },
+        { word: "conduct",       desc: "導く・実施する（con- + ducere）" },
+        { word: "introduce",     desc: "紹介する（intro- + ducere）" }
+      ],
+      compounds: [
+        { phrase: "mass production",  desc: "大量生産" },
+        { phrase: "gross domestic product", desc: "国内総生産（GDP）" }
+      ]
     }
 
   };

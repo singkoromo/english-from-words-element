@@ -9268,6 +9268,490 @@
         { phrase: "congressional hearing", desc: "議会公聴会" },
         { phrase: "international congress", desc: "国際会議" }
       ]
+    },
+
+    // Batch 20: ten/tin系・crit/krin系・vert/vers残り・cap系残り・fer系残り・manus残り・ject残り・vol系
+
+    "maintain": {
+      origin: "ラテン語 manutenere（手で保持する）< manus（手）+ tenere（保持する）。字義は「手でしっかりつかんでおく → 維持する・主張する」。keep と maintain は重複表現になりやすいほど近い意味を持つ語。\n\n13世紀に英語に入り maintain（維持する・管理する・主張する）として定着。maintain a record（記録を維持する）、maintain order（秩序を保つ）、maintain innocence（無実を主張する）など幅広く使われる。maintenance（維持・整備）が重要な派生語。\n\ntenere 系: contain（含む）、obtain（得る）、retain（保持する）、sustain（持続する）、abstain（控える）、pertain（関係する）。manus 系: manual（手動の）、manuscript（手書き）。",
+      derivatives: [
+        { word: "maintenance",   desc: "維持・保守・整備（名詞）" },
+        { word: "maintainable",  desc: "維持できる（形容詞）" }
+      ],
+      family: [
+        { word: "obtain",    desc: "得る（ob- + tenere）" },
+        { word: "retain",    desc: "保持する（re- + tenere）" },
+        { word: "sustain",   desc: "持続する（sub- + tenere）" },
+        { word: "contain",   desc: "含む（con- + tenere）" }
+      ],
+      compounds: [
+        { phrase: "maintain order",       desc: "秩序を保つ" },
+        { phrase: "maintenance cost",     desc: "維持費・メンテナンス費" },
+        { phrase: "maintain innocence",   desc: "無実を主張する" }
+      ]
+    },
+
+    "obtain": {
+      origin: "ラテン語 obtinere（保持する・占有する）< ob-（に対して）+ tenere（保持する）。字義は「しっかりと保持する・占有する」で、そこから「手に入れる・取得する」という意味になった。\n\n15世紀に英語に入り obtain（得る・取得する）として定着。get より改まったニュアンスを持ち、学術・法律文書で使われる。obtain permission（許可を得る）、obtain a degree（学位を得る）のように正式な文書で頻出する。\n\ntenere 系: maintain（維持する）、retain（保持する）、sustain（持続する）、contain（含む）、abstain（控える）。ob-（に対して）系: object（反対する）、observe（観察する）、obstruct（妨害する）。",
+      derivatives: [
+        { word: "obtainable",    desc: "入手できる（形容詞）" },
+        { word: "unobtainable",  desc: "入手できない（形容詞）" }
+      ],
+      family: [
+        { word: "maintain",  desc: "維持する（manus + tenere）" },
+        { word: "retain",    desc: "保持する（re- + tenere）" },
+        { word: "sustain",   desc: "持続する（sub- + tenere）" },
+        { word: "acquire",   desc: "獲得する（ad- + quaerere）" }
+      ],
+      compounds: [
+        { phrase: "obtain permission",      desc: "許可を得る" },
+        { phrase: "obtain a degree",        desc: "学位を取得する" },
+        { phrase: "readily obtainable",     desc: "容易に入手できる" }
+      ]
+    },
+
+    "retain": {
+      origin: "ラテン語 retinere（引き留める・保持する）< re-（後ろに）+ tenere（保持する）。字義は「後ろに引き留める → 保持する・記憶に留める」。\n\n15世紀に英語に入り retain（保持する・覚えている・雇い続ける）として定着。retain information（情報を記憶する）、retain a lawyer（弁護士を雇い続ける）のように幅広く使われる。retainer（顧問料・矯正保定器）、retention（保持・記憶定着）が派生。\n\ntenere 系: maintain（維持する）、obtain（得る）、sustain（持続する）、contain（含む）。re-（後ろに）系: return（戻る）、reverse（逆にする）、recall（思い出す）。",
+      derivatives: [
+        { word: "retention",  desc: "保持・記憶定着（名詞）" },
+        { word: "retainer",   desc: "顧問料・矯正保定器（名詞）" },
+        { word: "retentive",  desc: "記憶力のよい（形容詞）" }
+      ],
+      family: [
+        { word: "maintain",  desc: "維持する（manus + tenere）" },
+        { word: "obtain",    desc: "得る（ob- + tenere）" },
+        { word: "sustain",   desc: "持続する（sub- + tenere）" },
+        { word: "contain",   desc: "含む（con- + tenere）" }
+      ],
+      compounds: [
+        { phrase: "retain information",  desc: "情報を記憶する" },
+        { phrase: "retain a lawyer",     desc: "弁護士を雇い続ける" },
+        { phrase: "talent retention",    desc: "人材の確保・定着" }
+      ]
+    },
+
+    "sustain": {
+      origin: "ラテン語 sustinere（下から支える・耐える）< sub-（下から）+ tenere（保持する）。字義は「下から支え持つ → 維持する・耐える」。\n\n14世紀に英語に入り sustain（持続する・支える・耐える）として定着。sustain an injury（負傷する）、sustain life（生命を維持する）のように使われる。sustainability（持続可能性）は現代の環境政策・SDGs の核心語として非常に重要。\n\ntenere 系: maintain（維持する）、obtain（得る）、retain（保持する）、contain（含む）。sub-（下から）系: support（支える）、suppress（抑える）、submit（提出する）。",
+      derivatives: [
+        { word: "sustainability",  desc: "持続可能性（名詞）" },
+        { word: "sustainable",     desc: "持続可能な（形容詞）" },
+        { word: "sustainably",     desc: "持続可能な方法で（副詞）" },
+        { word: "sustained",       desc: "継続的な・持続した（形容詞）" }
+      ],
+      family: [
+        { word: "maintain",  desc: "維持する（manus + tenere）" },
+        { word: "retain",    desc: "保持する（re- + tenere）" },
+        { word: "support",   desc: "支える（sub- + portare）" },
+        { word: "endure",    desc: "耐える（in- + durare）" }
+      ],
+      compounds: [
+        { phrase: "sustainable development",  desc: "持続可能な発展" },
+        { phrase: "sustain an injury",         desc: "負傷する" },
+        { phrase: "sustained effort",          desc: "継続的な努力" }
+      ]
+    },
+
+    "continent": {
+      origin: "ラテン語 continens（つながっている・自制した）< con-（共に）+ tenere（保持する）。字義は「まとまって保持されている → 大陸（陸地が続いてつながっている塊）」。形容詞として「自制した・節制した」という意味も持つ（その否定形 incontinent は医学用語）。\n\n14世紀に英語に入り continent（大陸）として定着。七大陸（seven continents）を指す地理名詞として広く使われる。continental（大陸の）、intercontinental（大陸間の）が派生。\n\ntenere 系: contain（含む：continere の変形）、maintain（維持する）、obtain（得る）、retain（保持する）、sustain（持続する）。",
+      derivatives: [
+        { word: "continental",       desc: "大陸の・ヨーロッパの（形容詞）" },
+        { word: "intercontinental",  desc: "大陸間の（形容詞）" },
+        { word: "incontinence",      desc: "失禁（医学）（名詞）" }
+      ],
+      family: [
+        { word: "contain",   desc: "含む（continere）" },
+        { word: "maintain",  desc: "維持する（manus + tenere）" },
+        { word: "retain",    desc: "保持する（re- + tenere）" }
+      ],
+      compounds: [
+        { phrase: "continental drift",       desc: "大陸移動説（地質学）" },
+        { phrase: "intercontinental flight", desc: "大陸間飛行" },
+        { phrase: "continental breakfast",   desc: "コンチネンタルブレックファスト" }
+      ]
+    },
+
+    "abstain": {
+      origin: "ラテン語 abstinere（離れて保つ・控える）< ab-（離れて）+ tenere（保持する）。字義は「（欲しいものを）持たないでいる → 慎む・棄権する」。\n\n14世紀に英語に入り abstain（控える・棄権する）として定着。abstain from alcohol（飲酒を控える）、abstain in a vote（採決で棄権する）のように使われる。abstinence（禁欲・節制）、abstention（棄権票）が派生し、禁欲主義や選挙での棄権を表す重要語。\n\ntenere 系: maintain（維持する）、obtain（得る）、retain（保持する）、sustain（持続する）、pertain（関係する）。ab-（離れて）系: absent（不在の）、abstract（抽象的な）、abandon（見捨てる）。",
+      derivatives: [
+        { word: "abstinence",  desc: "節制・禁欲（名詞）" },
+        { word: "abstention",  desc: "棄権（名詞）" },
+        { word: "abstinent",   desc: "節制した（形容詞）" }
+      ],
+      family: [
+        { word: "maintain",  desc: "維持する（manus + tenere）" },
+        { word: "retain",    desc: "保持する（re- + tenere）" },
+        { word: "refrain",   desc: "控える（re- + frenare）" },
+        { word: "renounce",  desc: "放棄する（re- + nuntiare）" }
+      ],
+      compounds: [
+        { phrase: "abstain from alcohol",  desc: "飲酒を控える" },
+        { phrase: "vote abstention",       desc: "棄権票・投票棄権" }
+      ]
+    },
+
+    "pertain": {
+      origin: "ラテン語 pertinere（及ぶ・関係する）< per-（完全に・通じて）+ tenere（保持する・伸ばす）。字義は「通じて及ぶ → 関係する・属する」。\n\n14世紀に英語に入り pertain（関係する・属する）として定着。pertain to the case（その件に関係する）のように法律・公文書で「～に関連する」という意味で使われる格式語。pertinent（関連した・適切な）、impertinent（不適切な・生意気な）が重要な派生語。\n\ntenere 系: maintain（維持する）、obtain（得る）、retain（保持する）、sustain（持続する）、abstain（控える）。per-（通じて）系: persuade（説得する）、persevere（粘り強い）、perfect（完璧な）。",
+      derivatives: [
+        { word: "pertinent",    desc: "関連した・適切な（形容詞）" },
+        { word: "impertinent",  desc: "不適切な・生意気な（形容詞）" },
+        { word: "pertinence",   desc: "関連性・適切さ（名詞）" }
+      ],
+      family: [
+        { word: "maintain",   desc: "維持する（manus + tenere）" },
+        { word: "retain",     desc: "保持する（re- + tenere）" },
+        { word: "concern",    desc: "関係する（con- + cernere）" }
+      ],
+      compounds: [
+        { phrase: "pertain to",         desc: "～に関係する・関連する" },
+        { phrase: "pertinent question", desc: "適切な質問・的を射た質問" },
+        { phrase: "impertinent remark", desc: "生意気な発言・不適切な発言" }
+      ]
+    },
+
+    "tenure": {
+      origin: "ラテン語 tenura（保有・占有権）< tenere（保持する）。中世封建制度で土地の保有権を指し、そこから「在職期間・終身在職権」という意味になった。\n\n15世紀に英語に入り tenure（在職期間・終身在職権）として定着。academic tenure（アカデミックテニュア：大学教員の終身在職権）はアメリカの大学制度で重要な概念。office tenure（在任期間）、land tenure（土地保有）も重要。tenuous（薄い・希薄な）は同根で「かろうじて保持されている」という意味。\n\ntenere 系: maintain（維持する）、contain（含む）、obtain（得る）、retain（保持する）、sustain（持続する）。",
+      derivatives: [
+        { word: "tenured",   desc: "終身在職権のある（形容詞）" },
+        { word: "tenuous",   desc: "薄い・希薄な・弱い（形容詞）" }
+      ],
+      family: [
+        { word: "maintain",  desc: "維持する（manus + tenere）" },
+        { word: "retain",    desc: "保持する（re- + tenere）" },
+        { word: "term",      desc: "期間・任期（terminus）" }
+      ],
+      compounds: [
+        { phrase: "academic tenure",  desc: "大学教員の終身在職権" },
+        { phrase: "tenure track",     desc: "テニュアトラック（終身職への道）" },
+        { phrase: "land tenure",      desc: "土地保有（制度）" }
+      ]
+    },
+
+    "critical": {
+      origin: "ギリシャ語 kritikos（判断できる）< krinein（分ける・判断する）。字義は「分けることのできる → 批判的な・危機的な」。「批評・評価する能力がある」という肯定的意味と、「危機的な・緊急の・必不可欠の」という意味の両方を持つ。\n\n16世紀に英語に入り critical（批判的な・危機的な）として定着。critical thinking（批判的思考）、critical condition（危篤状態）、critical point（臨界点）、critical role（不可欠な役割）など多義的に使われる高頻度語。\n\nkrinein 系: criterion（判断基準）、crisis（危機）、critic（批評家）、hypocrite（偽善者）、discern（識別する）。critique（批評）はフランス語経由で同根。",
+      derivatives: [
+        { word: "critically",   desc: "批判的に・危機的に（副詞）" },
+        { word: "criticism",    desc: "批判・批評（名詞）" },
+        { word: "critic",       desc: "批評家・批判者（名詞）" },
+        { word: "critique",     desc: "批評・批判文（名詞）" },
+        { word: "criticize",    desc: "批判する・批評する（動詞）" }
+      ],
+      family: [
+        { word: "criterion",  desc: "判断基準（krinein）" },
+        { word: "crisis",     desc: "危機（krinein）" },
+        { word: "discern",    desc: "識別する（dis- + cernere）" }
+      ],
+      compounds: [
+        { phrase: "critical thinking",      desc: "批判的思考" },
+        { phrase: "critical condition",     desc: "危篤状態" },
+        { phrase: "play a critical role",   desc: "重要な役割を果たす" }
+      ]
+    },
+
+    "criterion": {
+      origin: "ギリシャ語 kriterion（判断の基準・尺度）< krinein（分ける・判断する）。字義は「判断するための道具・基準」。哲学・科学では真偽の判断基準を指した。\n\n17世紀に英語に入り criterion（判断基準・評価基準）として定着。複数形は criteria（クライテリア）で、criteria for selection（選考基準）、meet the criteria（基準を満たす）のように使われる。単数 criterion・複数 criteria の区別を誤りやすいので注意。\n\nkrinein 系: critical（批判的な）、crisis（危機）、critic（批評家）、hypocrite（偽善者）、discern（識別する）。",
+      derivatives: [
+        { word: "criteria",  desc: "基準の複数形（名詞）" }
+      ],
+      family: [
+        { word: "critical",    desc: "批判的な（krinein）" },
+        { word: "crisis",      desc: "危機（krinein）" },
+        { word: "standard",    desc: "基準（standart：立てた旗）" },
+        { word: "benchmark",   desc: "基準点・指標" }
+      ],
+      compounds: [
+        { phrase: "selection criterion",    desc: "選考基準" },
+        { phrase: "meet the criteria",      desc: "基準を満たす" },
+        { phrase: "evaluation criteria",    desc: "評価基準" }
+      ]
+    },
+
+    "crisis": {
+      origin: "ギリシャ語 krisis（決定・転換点）< krinein（分ける・判断する）。医学では病気の転換点（悪化か回復か）を指し、ヒポクラテスが初めて医学用語として使った語。そこから「重大な局面・危機」という意味になった。\n\n15世紀に英語に入り crisis（危機・重大局面）として定着。financial crisis（金融危機）、midlife crisis（中年の危機）、identity crisis（アイデンティティの危機）など現代の社会・心理・経済語として非常に重要。複数形は crises（クライシーズ）。\n\nkrinein 系: critical（危機的な）、criterion（基準）、critic（批評家）、hypocrite（偽善者）。日本語の「クライシス」もこれから。",
+      derivatives: [
+        { word: "crises",  desc: "危機の複数形（名詞）" }
+      ],
+      family: [
+        { word: "critical",     desc: "危機的な（krinein）" },
+        { word: "criterion",    desc: "判断基準（krinein）" },
+        { word: "emergency",    desc: "緊急事態（emergere）" },
+        { word: "predicament",  desc: "苦境・窮地" }
+      ],
+      compounds: [
+        { phrase: "financial crisis",   desc: "金融危機" },
+        { phrase: "identity crisis",    desc: "アイデンティティの危機" },
+        { phrase: "midlife crisis",     desc: "中年の危機" }
+      ]
+    },
+
+    "hypocrite": {
+      origin: "ギリシャ語 hypokritēs（舞台俳優）< hypo-（下から・こっそり）+ krinein（分ける・答える）。古代ギリシャ演劇で台の下から答える・仮面の役を演じる人を指し、「本当の自分を隠して演じる → 偽善者」という意味になった。\n\n14世紀に英語に入り hypocrite（偽善者）として定着。hypocrisy（偽善）は「言うことと行うことが違う」という道徳的批判に使われる。You're such a hypocrite.（本当に偽善者だ）のように日常でも使われる強い非難語。\n\nkrinein 系: critical（批判的な）、criterion（基準）、crisis（危機）。hypo-（下から）系: hypothesis（仮説：下に置かれたもの）、hypodermic（皮下の：皮膚の下）。",
+      derivatives: [
+        { word: "hypocrisy",     desc: "偽善（名詞）" },
+        { word: "hypocritical",  desc: "偽善的な（形容詞）" },
+        { word: "hypocritically", desc: "偽善的に（副詞）" }
+      ],
+      family: [
+        { word: "critical",     desc: "批判的な（krinein）" },
+        { word: "hypothesis",   desc: "仮説（hypo- + tithenai）" },
+        { word: "pretender",    desc: "見せかける人（praetendere）" }
+      ],
+      compounds: [
+        { phrase: "moral hypocrite",     desc: "道徳的偽善者" },
+        { phrase: "rank hypocrisy",      desc: "あからさまな偽善" },
+        { phrase: "accuse of hypocrisy", desc: "偽善だと非難する" }
+      ]
+    },
+
+    "avert": {
+      origin: "ラテン語 avertere（そらす・避ける）< a-（離れて）+ vertere（回す・向ける）。字義は「向きを変えて離れる → 回避する・そらす」。\n\n15世紀に英語に入り avert（回避する・そらす）として定着。avert a crisis（危機を回避する）、avert one's eyes（目をそらす）のように使われる。aversion（嫌悪・回避感）が派生し、have an aversion to（～が嫌いだ）という表現で使われる。\n\nvertere 系: convert（変換する）、reverse（逆にする）、introvert（内向きの人）、divert（そらす）、subvert（転覆する）、versatile（多才な）。",
+      derivatives: [
+        { word: "aversion",  desc: "嫌悪・回避（名詞）" },
+        { word: "averse",    desc: "嫌悪している・反対の（形容詞）" },
+        { word: "aversive",  desc: "嫌悪を引き起こす（形容詞）" }
+      ],
+      family: [
+        { word: "convert",    desc: "変換する（con- + vertere）" },
+        { word: "divert",     desc: "そらす（di- + vertere）" },
+        { word: "reverse",    desc: "逆にする（re- + vertere）" },
+        { word: "avoid",      desc: "避ける" }
+      ],
+      compounds: [
+        { phrase: "avert a crisis",   desc: "危機を回避する" },
+        { phrase: "avert one's eyes", desc: "目をそらす" },
+        { phrase: "avert disaster",   desc: "惨事を防ぐ" }
+      ]
+    },
+
+    "divert": {
+      origin: "ラテン語 divertere（わき道にそれる）< di-（離れて）+ vertere（回す・向ける）。字義は「別の方向に向ける」で、注意・交通・資金などを別の方向に向けることを指す。\n\n15世紀に英語に入り divert（転換する・そらす・楽しませる）として定着。divert traffic（交通を迂回させる）、divert attention（注意をそらす）、divert funds（資金を流用する）のように使われる。diversion（気晴らし・迂回路）は交通・軍事・娯楽で幅広く使われる。\n\nvertere 系: convert（変換する）、reverse（逆にする）、avert（回避する）、versatile（多才な）、subvert（転覆する）。",
+      derivatives: [
+        { word: "diversion",      desc: "気晴らし・迂回・転換（名詞）" },
+        { word: "diversionary",   desc: "注意をそらすための（形容詞）" },
+        { word: "diverting",      desc: "楽しい・気晴らしになる（形容詞）" }
+      ],
+      family: [
+        { word: "convert",    desc: "変換する（con- + vertere）" },
+        { word: "avert",      desc: "回避する（a- + vertere）" },
+        { word: "reverse",    desc: "逆にする（re- + vertere）" }
+      ],
+      compounds: [
+        { phrase: "divert traffic",     desc: "交通を迂回させる" },
+        { phrase: "divert attention",   desc: "注意をそらす" },
+        { phrase: "divert funds",       desc: "資金を流用する・転用する" }
+      ]
+    },
+
+    "versatile": {
+      origin: "ラテン語 versatilis（容易に回転する・柔軟な）< versare（頻繁に回す）< vertere（回す・向ける）。字義は「いろいろな方向に回せる → 多用途の・多才な」。\n\n17世紀に英語に入り versatile（多才な・多用途の）として定着。a versatile actor（多才な俳優）、a versatile tool（多用途ツール）のように使われる。versatility（多才さ・応用性）が派生。verse（詩：行を変える）も同根で、詩の「行を返す」という動作から来ている。\n\nvertere 系: convert（変換する）、reverse（逆にする）、avert（回避する）、divert（そらす）。version（版・バージョン：方向を変えたもの）も同根。",
+      derivatives: [
+        { word: "versatility",  desc: "多才さ・多用途性（名詞）" },
+        { word: "versatilely",  desc: "多才に・柔軟に（副詞）" }
+      ],
+      family: [
+        { word: "convert",    desc: "変換する（con- + vertere）" },
+        { word: "divert",     desc: "そらす（di- + vertere）" },
+        { word: "avert",      desc: "回避する（a- + vertere）" },
+        { word: "flexible",   desc: "柔軟な（flectere：曲げる）" }
+      ],
+      compounds: [
+        { phrase: "versatile performer",  desc: "多才なパフォーマー" },
+        { phrase: "versatile material",   desc: "多用途な素材" },
+        { phrase: "show versatility",     desc: "多才さを示す" }
+      ]
+    },
+
+    "capable": {
+      origin: "ラテン語 capabilis（受け入れられる・十分大きい）< capere（取る・保持する・できる）。字義は「十分に持てる → ～する能力がある」。\n\n16世紀に英語に入り capable（能力がある・可能な）として定着。capable of doing（～することができる）、highly capable（非常に有能な）のように使われる。incapable（無能な）はその否定形。capability（能力）は軍事・ビジネスで重要語。\n\ncapere 系: capture（捕まえる）、captive（捕虜）、captivate（魅了する）、concept（概念）、accept（受け入れる）、perceive（知覚する）、intercept（遮る）。",
+      derivatives: [
+        { word: "capability",  desc: "能力・可能性（名詞）" },
+        { word: "incapable",   desc: "無能な・できない（形容詞）" }
+      ],
+      family: [
+        { word: "capture",    desc: "捕まえる（capere）" },
+        { word: "captive",    desc: "捕虜（capere）" },
+        { word: "competent",  desc: "有能な（competere）" },
+        { word: "able",       desc: "できる（habilis）" }
+      ],
+      compounds: [
+        { phrase: "capable of",           desc: "～することができる" },
+        { phrase: "highly capable",       desc: "非常に有能な" },
+        { phrase: "management capability", desc: "マネジメント能力" }
+      ]
+    },
+
+    "capture": {
+      origin: "ラテン語 captura（捕獲・漁獲）< capere（取る・捕まえる）。字義は「取ること・捕まえること」。\n\n16世紀に英語に入り capture（捕まえる・獲得する）として定着。capture a criminal（犯人を捕まえる）、capture market share（市場シェアを獲得する）、capture imagination（想像力を掴む）のように幅広く使われる。デジタル文脈ではデータ収集（data capture）や画像取り込み（screen capture）にも使われる。\n\ncapere 系: capable（能力がある）、captive（捕虜）、captivate（魅了する）、concept（概念）、accept（受け入れる）、intercept（遮る）。",
+      derivatives: [
+        { word: "captive",    desc: "捕虜・囚われた（名詞・形容詞）" },
+        { word: "captivate",  desc: "魅了する（動詞）" },
+        { word: "captor",     desc: "捕まえた人（名詞）" }
+      ],
+      family: [
+        { word: "capable",   desc: "能力がある（capabilis）" },
+        { word: "captive",   desc: "捕虜（captivus）" },
+        { word: "seize",     desc: "つかむ・捕まえる" },
+        { word: "acquire",   desc: "獲得する（ad- + quaerere）" }
+      ],
+      compounds: [
+        { phrase: "screen capture",   desc: "スクリーンキャプチャ" },
+        { phrase: "data capture",     desc: "データ収集" },
+        { phrase: "capture the moment", desc: "瞬間を捉える" }
+      ]
+    },
+
+    "captive": {
+      origin: "ラテン語 captivus（捕まった・囚われた）< capere（取る・捕まえる）。字義は「捕まえられた → 捕虜・囚われ人」。名詞として「捕虜」、形容詞として「囚われた・自由のない」の両義を持つ。\n\n14世紀に英語に入り captive（捕虜・囚われた）として定着。captive audience（逃げられない聴衆：授業中の学生など）、captive market（逃げられない市場）のようにビジネス・マーケティングでも使われる。captivate（魅了する：心を捕まえる）が派生。\n\ncapere 系: capable（能力がある）、capture（捕まえる）、captivate（魅了する）。captivity（幽閉・捕囚状態）も重要。",
+      derivatives: [
+        { word: "captivity",   desc: "幽閉・捕囚（名詞）" },
+        { word: "captivate",   desc: "魅了する・心を奪う（動詞）" },
+        { word: "captivating", desc: "魅力的な・心を奪う（形容詞）" }
+      ],
+      family: [
+        { word: "capable",   desc: "能力がある（capabilis）" },
+        { word: "capture",   desc: "捕まえる（captura）" },
+        { word: "prisoner",  desc: "囚人（prehendere）" }
+      ],
+      compounds: [
+        { phrase: "captive audience",  desc: "逃げられない聴衆" },
+        { phrase: "captive market",    desc: "逃げられない市場" },
+        { phrase: "held captive",      desc: "捕虜として拘束された" }
+      ]
+    },
+
+    "confer": {
+      origin: "ラテン語 conferre（持ち寄る・比較する・授与する）< con-（共に）+ ferre（運ぶ・持つ）。字義は「持ち寄る → 協議する・授与する」。\n\n15世紀に英語に入り confer（協議する・授与する）として定着。confer with colleagues（同僚と協議する）、confer a degree（学位を授与する）のように使われる。conference（会議・協議会）は confer の名詞形で、press conference（記者会見）、video conference（テレビ会議）として日常的に使われる。\n\nferre 系: transfer（移転する）、refer（参照する）、prefer（好む）、differ（異なる）、infer（推測する）、offer（申し出る）、suffer（苦しむ）、fertile（肥沃な）。",
+      derivatives: [
+        { word: "conference",  desc: "会議・協議会（名詞）" },
+        { word: "conferral",   desc: "授与（名詞）" }
+      ],
+      family: [
+        { word: "transfer",  desc: "移転する（trans- + ferre）" },
+        { word: "refer",     desc: "参照する（re- + ferre）" },
+        { word: "prefer",    desc: "好む（pre- + ferre）" },
+        { word: "infer",     desc: "推測する（in- + ferre）" }
+      ],
+      compounds: [
+        { phrase: "confer a degree",   desc: "学位を授与する" },
+        { phrase: "press conference",  desc: "記者会見" },
+        { phrase: "video conference",  desc: "テレビ会議・ビデオ会議" }
+      ]
+    },
+
+    "fertile": {
+      origin: "ラテン語 fertilis（実り多い・肥えた）< ferre（運ぶ・産む・もたらす）。字義は「（実を）産む・もたらす → 肥沃な・多産な」。農地・生物・想像力などに使われる。\n\n16世紀に英語に入り fertile（肥沃な・多産な・豊かな）として定着。fertile soil（肥沃な土壌）、fertile imagination（豊かな想像力）のように使われる。fertilize（肥料を与える・受精させる）、fertility（肥沃さ・生殖能力）が派生。\n\nferre 系: transfer（移転する）、refer（参照する）、prefer（好む）、confer（授与する）。infertile（不妊の）、fertilizer（肥料）も重要語。",
+      derivatives: [
+        { word: "fertility",    desc: "肥沃さ・生殖能力（名詞）" },
+        { word: "fertilize",    desc: "肥料を与える・受精させる（動詞）" },
+        { word: "fertilizer",   desc: "肥料（名詞）" },
+        { word: "infertile",    desc: "不妊の・不毛な（形容詞）" },
+        { word: "infertility",  desc: "不妊・不毛（名詞）" }
+      ],
+      family: [
+        { word: "confer",      desc: "授与する（con- + ferre）" },
+        { word: "productive",  desc: "生産的な（producere）" },
+        { word: "fruitful",    desc: "実り多い（fruit + ful）" }
+      ],
+      compounds: [
+        { phrase: "fertile soil",         desc: "肥沃な土壌" },
+        { phrase: "fertile ground",       desc: "肥沃な土地；有利な環境" },
+        { phrase: "fertility rate",       desc: "出生率・繁殖率" }
+      ]
+    },
+
+    "manufacture": {
+      origin: "ラテン語 manu factura（手で作ること）< manus（手）+ factura（製作）< facere（作る）。字義は「手で作る」で、産業革命以降は機械による大量生産を指すようになった。\n\n16世紀に英語に入り manufacture（製造する・製造業）として定着。manufacturing industry（製造業）、date of manufacture（製造年月日）のように使われる。また「でっちあげる」という否定的な意味でも使われる（manufacture evidence）。\n\nmanus 系: manual（手動の）、manuscript（手書き原稿）、manipulate（操る）、mandate（命令）。facere 系: effect（結果）、affect（影響する）、efficient（効率的な）、factory（工場）。",
+      derivatives: [
+        { word: "manufacturer",   desc: "製造業者・メーカー（名詞）" },
+        { word: "manufacturing",  desc: "製造業・製造の（名詞・形容詞）" },
+        { word: "manufactured",   desc: "製造された・でっちあげの（形容詞）" }
+      ],
+      family: [
+        { word: "manual",      desc: "手動の・マニュアル（manus）" },
+        { word: "factory",     desc: "工場（factum：作られたもの）" },
+        { word: "fabricate",   desc: "製造する・でっちあげる（fabrica）" }
+      ],
+      compounds: [
+        { phrase: "manufacturing industry",  desc: "製造業" },
+        { phrase: "manufacturing process",   desc: "製造工程" },
+        { phrase: "date of manufacture",     desc: "製造年月日" }
+      ]
+    },
+
+    "mandate": {
+      origin: "ラテン語 mandatum（命令・委任）< manus（手）+ dare（与える）。字義は「手に委ねる → 命令・委任する」。\n\n16世紀に英語に入り mandate（命令・委任・使命）として定着。UN mandate（国連の委任）、election mandate（選挙による負託）、government mandate（政府の命令）のように政治・外交文書で使われる。mandatory（義務的な）が重要な派生語で、mandatory attendance（強制出席）のように使われる。\n\nmanus 系: manual（手動の）、manuscript（手書き原稿）、manipulate（操る）、manufacture（製造する）。dare（与える）系: data（与えられたもの）、date（日付）、tradition（伝統：伝え渡すもの）。",
+      derivatives: [
+        { word: "mandatory",    desc: "義務的な・強制的な（形容詞）" },
+        { word: "mandatorily",  desc: "義務として・強制的に（副詞）" }
+      ],
+      family: [
+        { word: "manual",        desc: "手動の・マニュアル（manus）" },
+        { word: "order",         desc: "命令（ordinare）" },
+        { word: "command",       desc: "命令（con- + mandare）" },
+        { word: "instruction",   desc: "指示（instruere）" }
+      ],
+      compounds: [
+        { phrase: "UN mandate",             desc: "国連の委任・任務" },
+        { phrase: "election mandate",       desc: "選挙による国民の負託" },
+        { phrase: "mandatory attendance",   desc: "強制出席" }
+      ]
+    },
+
+    "trajectory": {
+      origin: "ラテン語 trajectio（投げ渡す行為）< trans-（横切って）+ jacere（投げる）。字義は「横切って投げる → 飛行経路・軌跡」。物理学では projectile（飛翔体）の軌跡を指すが、比喩的にも広く使われる。\n\n17世紀に英語に入り trajectory（軌道・軌跡・歩み）として定着。the trajectory of a bullet（弾丸の軌跡）、career trajectory（キャリアの歩み）、economic trajectory（経済の軌跡）のように科学・社会科学で使われる。\n\njacere 系: project（投影する）、object（反対する）、subject（服従させる）、reject（拒否する）、inject（注入する）、eject（追い出す）。trans-（横切って）系: transfer（移転する）、transport（輸送する）、translate（翻訳する）。",
+      derivatives: [
+        { word: "trajectories",  desc: "軌跡の複数形（名詞）" }
+      ],
+      family: [
+        { word: "project",   desc: "投影する（pro- + jacere）" },
+        { word: "inject",    desc: "注入する（in- + jacere）" },
+        { word: "eject",     desc: "追い出す（e- + jacere）" },
+        { word: "path",      desc: "道・軌跡" }
+      ],
+      compounds: [
+        { phrase: "career trajectory",    desc: "キャリアの軌跡・歩み" },
+        { phrase: "flight trajectory",    desc: "飛行軌跡" },
+        { phrase: "economic trajectory",  desc: "経済の軌跡・方向性" }
+      ]
+    },
+
+    "revolt": {
+      origin: "ラテン語 revolvere（巻き戻す）< re-（後ろに）+ volvere（巻く・回す）を語源とするイタリア語 rivoltare（反転する・反乱する）を経て英語に入った語。字義は「もとに向き直る → 反乱を起こす・嫌悪感を覚える」。\n\n16世紀に英語に入り revolt（反乱を起こす・嫌悪感を覚える）として定着。popular revolt（民衆の反乱）、This revolts me.（これは気持ち悪い）のように使われる。revolution（革命）は同じ語根 revolvere から派生した重要語。\n\nvolvere 系: evolve（進化する）、involve（含む）、revolve（回転する）、revolution（革命）。revolt と revolution の違い: revolt は短期的な反乱、revolution はより大規模な体制変革。",
+      derivatives: [
+        { word: "revolting",     desc: "反乱する；気持ち悪い（形容詞）" },
+        { word: "revoltingly",   desc: "ひどく・嫌悪をもよおすほど（副詞）" },
+        { word: "revolution",    desc: "革命・回転（re- + volvere）" }
+      ],
+      family: [
+        { word: "revolve",      desc: "回転する（re- + volvere）" },
+        { word: "involve",      desc: "含む（in- + volvere）" },
+        { word: "revolution",   desc: "革命（revolvere）" },
+        { word: "rebel",        desc: "反乱する（re- + bellum）" }
+      ],
+      compounds: [
+        { phrase: "popular revolt",  desc: "民衆の反乱" },
+        { phrase: "peasant revolt",  desc: "農民反乱" },
+        { phrase: "staging a revolt", desc: "反乱を起こす" }
+      ]
+    },
+
+    "volunteer": {
+      origin: "ラテン語 voluntas（意志・意欲）< velle（望む・意志する）。フランス語 volontaire（自発的な）を経て英語に入った。字義は「自分の意志で行う → 自発的な・ボランティア」。\n\n17世紀に英語に入り volunteer（ボランティア・自発的に申し出る）として定着。volunteer for work（作業に自発的に手を挙げる）、volunteer information（自発的に情報を提供する）のように名詞・動詞・形容詞として使われる。\n\nvelle 系: voluntary（自発的な）、volition（意志・自由意志）、benevolent（善意の：bene + velle）。voluntary と volunteer の違い: voluntary は形容詞「自発的な」、volunteer は名詞・動詞「ボランティア（する）」。",
+      derivatives: [
+        { word: "voluntary",      desc: "自発的な・任意の（形容詞）" },
+        { word: "voluntarily",    desc: "自発的に・任意で（副詞）" },
+        { word: "volunteerism",   desc: "ボランティア精神（名詞）" },
+        { word: "volition",       desc: "意志・自由意志（名詞）" }
+      ],
+      family: [
+        { word: "voluntary",   desc: "自発的な（voluntas）" },
+        { word: "volition",    desc: "意志（velle）" },
+        { word: "benevolent",  desc: "善意の（bene + velle）" }
+      ],
+      compounds: [
+        { phrase: "volunteer work",         desc: "ボランティア活動" },
+        { phrase: "volunteer organization", desc: "ボランティア組織" },
+        { phrase: "volunteer to do",        desc: "自発的に～を申し出る" }
+      ]
     }
 
   };

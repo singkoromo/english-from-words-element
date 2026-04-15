@@ -5285,6 +5285,380 @@
         { phrase: "complete novice",   desc: "全くの初心者・全くの素人" },
         { phrase: "novice level",      desc: "初心者レベル・初級" }
       ]
+    },
+
+    // ── psyche系（心・精神）──
+    "psychology": {
+      origin: "ギリシャ語 psychē（魂・精神・蝶）+ logos（学問）から成る近代造語。psychē は元来「息・命・魂」を意味し、蝶が魂の象徴とされたため蝶をも指した。16世紀に心についての哲学的研究を指す語として登場し、19世紀末にヴィルヘルム・ヴントが実験心理学の研究室を設立（1879年）して以降、独立した科学として確立した。\n\nフロイト、ユング、スキナー、ピアジェらが心理学の各学派を形成し、精神分析・行動主義・認知心理学・発達心理学などの分野に分化。現代では神経科学・人工知能とも融合し、最先端の学際研究が進んでいる。\n\n形容詞 psychological は「心理的な・精神的な」として日常でも広く使われ、psychological pressure（心理的プレッシャー）のように使う。",
+      derivatives: [
+        { word: "psychologist",    desc: "心理学者・心理士" },
+        { word: "psychological",   desc: "心理学的な・精神的な（形容詞）" },
+        { word: "psychologically", desc: "心理学的に・精神的に（副詞）" }
+      ],
+      family: [
+        { word: "psyche",       desc: "魂・精神・心理（psychē）" },
+        { word: "psychiatry",   desc: "精神医学（psychē + iatreia 治療）" },
+        { word: "psychic",      desc: "精神的な・霊能力のある（psychikos）" },
+        { word: "psychosis",    desc: "精神病（psychē + -osis 状態）" }
+      ],
+      compounds: [
+        { phrase: "child psychology",     desc: "児童心理学" },
+        { phrase: "psychological impact", desc: "心理的影響" }
+      ]
+    },
+
+    "psychiatry": {
+      origin: "ギリシャ語 psychē（魂・精神）+ iatreia（医療・治療）< iatros（医師）から成る19世紀の造語。「心の病を医学的に治療する専門分野」として19世紀前半に確立し、精神病院（asylum）の整備とともに近代的な精神医療が発展した。\n\n精神科医（psychiatrist）は医師免許を持ち薬物療法を行う点で、医師免許を必要としない心理士（psychologist）と区別される。20世紀には向精神薬の開発が治療法を大きく変え、入院治療から地域での支援へとパラダイムが移行した。\n\npsychiatry と psychology はどちらも精神・心理を扱うが、psychiatry が医学的・生物学的アプローチを重視するのに対し、psychology は行動・認知・発達など幅広い心理現象を研究する点が異なる。",
+      derivatives: [
+        { word: "psychiatrist",   desc: "精神科医（医師免許保有者）" },
+        { word: "psychiatric",    desc: "精神科の・精神医学の（形容詞）" }
+      ],
+      family: [
+        { word: "psychology",     desc: "心理学（psychē + logos）" },
+        { word: "psyche",         desc: "精神・心理" },
+        { word: "pediatrics",     desc: "小児科（pais 子 + iatreia）" },
+        { word: "geriatrics",     desc: "老年医学（geras 老い + iatreia）" }
+      ],
+      compounds: [
+        { phrase: "psychiatric hospital",  desc: "精神科病院" },
+        { phrase: "psychiatric disorder",  desc: "精神疾患・精神障害" }
+      ]
+    },
+
+    // ── pend / pens系（ぶら下げる・重さをかける）──
+    "depend": {
+      origin: "ラテン語 dependere（ぶら下がる）< de-（下に）+ pendere（ぶら下げる・重さを量る）。「上位のものにぶら下がっている＝それなしには存在できない」というイメージが「依存する」の意味の起源。\n\n14世紀に英語に入り「〜に頼る・〜次第である」という動詞として定着。it depends（場合による）は英語会話で頻出のフレーズ。depend on / upon で「〜に頼る・〜を当てにする」という意味になる。\n\n語根 pend- は「ぶら下げる・重さをかける」というイメージを持ち、suspend（宙づりにする）、pension（年金 ＝ 秤に懸けられた報酬）、expense（費用 ＝ 天秤から外に出したもの）、pendant（ペンダント）など多くの語を形成する。",
+      derivatives: [
+        { word: "dependent",      desc: "依存している・扶養家族の（形容詞・名詞）" },
+        { word: "dependence",     desc: "依存・従属（名詞）" },
+        { word: "dependable",     desc: "頼りになる・信頼できる（形容詞）" },
+        { word: "independent",    desc: "独立した・自立した（in- + dependent）" }
+      ],
+      family: [
+        { word: "suspend",        desc: "宙づりにする・停止する（sub- + pendere）" },
+        { word: "expense",        desc: "費用・経費（ex- 外へ + pendere）" },
+        { word: "pension",        desc: "年金・ペンション（pensio 支払い）" },
+        { word: "pendant",        desc: "ペンダント（pendere からのフランス語）" }
+      ],
+      compounds: [
+        { phrase: "depend on",       desc: "〜に頼る・〜次第である" },
+        { phrase: "it depends",      desc: "場合による・一概には言えない" }
+      ]
+    },
+
+    "suspend": {
+      origin: "ラテン語 suspendere（宙づりにする）< sub-（下から）+ pendere（ぶら下げる）。「何かの下にぶら下げて支える」という字義から「一時停止・猶予・宙ぶらりんの状態」という意味が派生した。\n\n15世紀に英語に入り、「宙づりにする・一時停止する・資格・活動を一時的に剥奪する」という動詞として幅広く使われる。The game was suspended（試合は中断された）、He was suspended from school（学校を停学になった）のように状況に応じた意味を持つ。\n\nsuspense（宙吊り状態＝緊張・ハラハラ）、suspension（停止・サスペンション）など、日本語でも馴染み深い派生語を持つ。",
+      derivatives: [
+        { word: "suspension",   desc: "停止・一時剥奪・サスペンション（名詞）" },
+        { word: "suspense",     desc: "サスペンス・緊張・宙ぶらりん（名詞）" },
+        { word: "suspenseful",  desc: "スリリングな・ハラハラする（形容詞）" }
+      ],
+      family: [
+        { word: "depend",       desc: "依存する（de- + pendere）" },
+        { word: "expense",      desc: "費用（ex- + pendere）" },
+        { word: "pension",      desc: "年金（pensio）" },
+        { word: "append",       desc: "付け加える（ad- + pendere）" }
+      ],
+      compounds: [
+        { phrase: "suspension bridge",  desc: "吊り橋" },
+        { phrase: "in suspense",        desc: "宙ぶらりんで・ハラハラしながら" }
+      ]
+    },
+
+    "expense": {
+      origin: "ラテン語 expensa（外に払い出したもの）< ex-（外へ）+ pendere（量る・支払う）の女性過去分詞 expensa。「重さを量って外に出す＝支払う」という行為が語源で、費用・出費を意味する。\n\n14世紀の英語に入り「費用・出費・経費」という名詞として定着。at the expense of（〜を犠牲にして）は重要なイディオム。business expenses（業務経費）、travel expenses（出張費）のようにビジネスに頻出。\n\n形容詞 expensive（高価な）は「費用がかかる」から転じて「値段が高い」を表す日常語として極めて高頻度。",
+      derivatives: [
+        { word: "expensive",    desc: "値段が高い・費用がかかる（形容詞）" },
+        { word: "inexpensive",  desc: "安価な・費用がかからない（in- + expensive）" }
+      ],
+      family: [
+        { word: "depend",       desc: "依存する（de- + pendere）" },
+        { word: "suspend",      desc: "一時停止する（sub- + pendere）" },
+        { word: "pension",      desc: "年金（pensio 支払い）" },
+        { word: "spend",        desc: "使う・費やす（expendere の短縮形）" }
+      ],
+      compounds: [
+        { phrase: "at the expense of",   desc: "〜を犠牲にして・〜の費用で" },
+        { phrase: "business expense",    desc: "業務経費・事業費" }
+      ]
+    },
+
+    "independent": {
+      origin: "ラテン語 independens（何にもぶら下がっていない）< in-（否定）+ dependens（ぶら下がっている）< dependere（依存する）。「何物にも依存しない・自立した」というのが語源的な意味。\n\n17世紀の英語に入り「独立した・自立した・自由な」という形容詞として定着。政治的文脈では「独立国家・無所属議員」、日常会話では「経済的に自立した」「一人でできる」という意味で使われる。\n\nthe Declaration of Independence（独立宣言）は1776年のアメリカ独立宣言を指し、英語世界で最も有名な政治文書の一つ。",
+      derivatives: [
+        { word: "independence",   desc: "独立・自立・自由（名詞）" },
+        { word: "independently",  desc: "独立して・自立して（副詞）" }
+      ],
+      family: [
+        { word: "depend",         desc: "依存する（de- + pendere）" },
+        { word: "dependent",      desc: "依存した・従属した（形容詞）" },
+        { word: "independence",   desc: "独立（in- + dependence）" }
+      ],
+      compounds: [
+        { phrase: "Declaration of Independence", desc: "独立宣言（米国1776年）" },
+        { phrase: "financially independent",     desc: "経済的に自立した" }
+      ]
+    },
+
+    // ── flex / flect系（曲げる）──
+    "flexible": {
+      origin: "ラテン語 flexibilis（曲げることができる）< flectere（曲げる）の派生形 flexus + -ibilis。「物理的に曲げられる・しなやかな」という意味が、「状況に応じて変化できる・融通の利く」という抽象的な意味に拡張された。\n\n16世紀の英語に入り、当初は素材の「弾力性・しなやかさ」を指したが、現代では柔軟な働き方（flexible working）、柔軟なスケジュール（flexible schedule）のように「状況対応力・融通性」という意味で多用される。\n\n派生語 inflexible（頑固な・融通が利かない）は否定接頭辞 in- を付けた反義語。flexibility（柔軟性）は現代ビジネスで最も重視されるスキル・組織特性の一つとして頻出する。",
+      derivatives: [
+        { word: "flexibility",   desc: "柔軟性・融通性（名詞）" },
+        { word: "inflexible",    desc: "頑固な・融通が利かない（in- + flexible）" },
+        { word: "flexibly",      desc: "柔軟に・融通をもって（副詞）" }
+      ],
+      family: [
+        { word: "reflect",       desc: "反射する・熟考する（re- + flectere）" },
+        { word: "deflect",       desc: "それる・かわす（de- + flectere）" },
+        { word: "inflect",       desc: "屈折させる・格変化させる（in- + flectere）" },
+        { word: "reflex",        desc: "反射・条件反射（reflexus）" }
+      ],
+      compounds: [
+        { phrase: "flexible schedule",   desc: "柔軟なスケジュール・フレックスタイム" },
+        { phrase: "flexible approach",   desc: "柔軟なアプローチ" }
+      ]
+    },
+
+    "reflect": {
+      origin: "ラテン語 reflectere（折り返す・向きを変える）< re-（後ろに・再び）+ flectere（曲げる）。光が表面に当たって「折り返す」イメージが語源の中心にある。\n\n14世紀の英語に入り「光・音・熱を反射する」という物理的意味と、「自分の内面に向けて考える・熟考する」という心理的意味を持つ。reflect on one's actions（自分の行動を振り返る）のように、自己内省のメタファーとして日常的に使われる。\n\nreflection（反射・内省・映り込み）は語義が豊富で、物理・心理・哲学の文脈すべてで使われる多義語である。",
+      derivatives: [
+        { word: "reflection",    desc: "反射・映り込み・内省（名詞）" },
+        { word: "reflective",    desc: "反射的な・思慮深い（形容詞）" },
+        { word: "reflector",     desc: "反射板・リフレクター" }
+      ],
+      family: [
+        { word: "flexible",      desc: "柔軟な（flexibilis）" },
+        { word: "deflect",       desc: "それる・かわす（de- + flectere）" },
+        { word: "reflex",        desc: "反射・条件反射（re- + flexus）" },
+        { word: "inflection",    desc: "語形変化・抑揚（in- + flectere）" }
+      ],
+      compounds: [
+        { phrase: "reflect on",     desc: "〜について振り返る・熟考する" },
+        { phrase: "a reflection of", desc: "〜の表れ・〜を映したもの" }
+      ]
+    },
+
+    // ── vent / ven系（来る）──
+    "adventure": {
+      origin: "ラテン語 adventura（これから起こること）< advenire（近づいてくる）< ad-（〜へ）+ venire（来る）の未来分詞形。「これから来るもの＝未知の出来事」というのが語源的な意味で、中世では「命運・運命」を指した。\n\n13世紀のフランス語 aventure を経て英語に入り、「危険を伴う冒険・スリリングな体験」という意味に発展。中世の騎士物語（chivalric romance）の文脈で広まり、アーサー王伝説などの冒険譚で頻用されることで「冒険」という日常語として定着した。\n\n現代では adventure sports（冒険スポーツ）、adventure travel（冒険的な旅）のほか、ビジネスでも「新しい試みへの挑戦」という前向きな含意で使われる。",
+      derivatives: [
+        { word: "adventurous",   desc: "冒険好きな・スリルを求める（形容詞）" },
+        { word: "adventurer",    desc: "冒険家・山師" },
+        { word: "misadventure",  desc: "不運・不慮の事故（mis- + adventure）" }
+      ],
+      family: [
+        { word: "event",         desc: "出来事・イベント（e- + venire）" },
+        { word: "convention",    desc: "慣習・大会（con- + venire）" },
+        { word: "prevent",       desc: "防ぐ（prae- 前に + venire）" },
+        { word: "invent",        desc: "発明する（in- + venire 発見する）" },
+        { word: "revenue",       desc: "収益（re- + venire 戻ってくるもの）" }
+      ],
+      compounds: [
+        { phrase: "adventure sports",  desc: "冒険スポーツ（ロッククライミングなど）" },
+        { phrase: "sense of adventure", desc: "冒険心・探求心" }
+      ]
+    },
+
+    "convention": {
+      origin: "ラテン語 conventio（共に来ること・合意）< con-（共に）+ venire（来る）。「人々が共に集まる」という原義から「集会・大会」と「共に決めた取り決め・慣習」という二つの意味が発展した。\n\n14世紀の英語に入り、「（1）大規模な集会・会議・党大会」と「（2）社会的慣習・しきたり・国際条約」という二つの主要な意味で使われる。\n\nby convention（慣例によって）、a political convention（政党大会）のように文脈によって意味が異なる。conventional（従来型の・型通りの）は「慣習に従った」という形容詞として頻用される。",
+      derivatives: [
+        { word: "conventional",    desc: "従来の・型通りの・慣習的な（形容詞）" },
+        { word: "unconventional",  desc: "型破りの・慣習にとらわれない" },
+        { word: "conventionally",  desc: "慣習的に・従来通りに（副詞）" }
+      ],
+      family: [
+        { word: "adventure",     desc: "冒険（ad- + venire）" },
+        { word: "event",         desc: "出来事（e- + venire）" },
+        { word: "prevent",       desc: "防ぐ（prae- + venire）" },
+        { word: "invent",        desc: "発明する（in- + venire）" }
+      ],
+      compounds: [
+        { phrase: "political convention",  desc: "党大会・政治集会" },
+        { phrase: "by convention",         desc: "慣例によって・慣習上" }
+      ]
+    },
+
+    "prevent": {
+      origin: "ラテン語 praevenire（先に来る・先手を打つ）< prae-（前に・先に）+ venire（来る）。「問題が来る前に先回りして塞ぐ」というイメージが「防ぐ」の意味の語源。元来は「先に来ること・予防的行動をとること」だった。\n\n15世紀の英語に入り「〜を防ぐ・阻止する・未然に防ぐ」という動詞として定着。prevention（予防）、preventive（予防的な）という派生語も重要で、医療では「予防医学（preventive medicine）」、犯罪では「犯罪予防（crime prevention）」として使われる。\n\n"Prevention is better than cure."（予防は治療に勝る）は有名な諺。",
+      derivatives: [
+        { word: "prevention",    desc: "予防・防止（名詞）" },
+        { word: "preventive",    desc: "予防的な・防止のための（形容詞）" },
+        { word: "preventable",   desc: "防げる・予防可能な（形容詞）" }
+      ],
+      family: [
+        { word: "adventure",     desc: "冒険（ad- + venire）" },
+        { word: "convention",    desc: "慣習・大会（con- + venire）" },
+        { word: "event",         desc: "出来事（e- + venire）" },
+        { word: "invent",        desc: "発明する（in- + venire）" }
+      ],
+      compounds: [
+        { phrase: "prevent a disease",    desc: "病気を予防する" },
+        { phrase: "crime prevention",     desc: "犯罪予防" }
+      ]
+    },
+
+    "invent": {
+      origin: "ラテン語 invenire（見つける・到達する）< in-（中に）+ venire（来る）。「探し求めて中に入っていき、見つける」というのが語源的な意味。当初は「発見する」に近い意味だったが、英語では「新しいものを作り出す・考案する」という意味に特化した。\n\n15世紀の英語に入り「発明する・考案する・創作する」という動詞として定着。invention（発明）、inventor（発明家）、inventory（在庫 ＝ 発見したものの一覧）という重要派生語を持つ。\n\nエジソン、ライト兄弟、テスラなどのinventors（発明家）の物語とともに、創造性・独創性の象徴語として英語文化に深く根付いている。",
+      derivatives: [
+        { word: "invention",    desc: "発明・考案・作り話（名詞）" },
+        { word: "inventor",     desc: "発明家・考案者" },
+        { word: "inventive",    desc: "創意に富む・独創的な（形容詞）" },
+        { word: "inventory",    desc: "在庫・目録（invenire 見つけたものの一覧）" }
+      ],
+      family: [
+        { word: "adventure",    desc: "冒険（ad- + venire）" },
+        { word: "convention",   desc: "慣習・大会（con- + venire）" },
+        { word: "prevent",      desc: "防ぐ（prae- + venire）" },
+        { word: "event",        desc: "出来事（e- + venire）" }
+      ],
+      compounds: [
+        { phrase: "invent a solution",  desc: "解決策を考案する" },
+        { phrase: "patent an invention", desc: "発明に特許を取得する" }
+      ]
+    },
+
+    // ── terrere系（怖がらせる）──
+    "terror": {
+      origin: "ラテン語 terror（恐怖・驚愕）< terrere（震え上がらせる・恐怖を与える）。印欧語根 *tres-（震える）に由来し、地面が震えるほどの恐怖を引き起こすというイメージが原義にある。\n\n14世紀に英語に入り「強烈な恐怖・テロ・恐怖政治」という意味で使われる。フランス革命の「恐怖政治（Reign of Terror, 1793-94年）」は歴史用語として有名で、以降「政治的目的のための暴力と恐怖」という意味での terrorism（テロリズム）が定着した。\n\n現代では international terrorism（国際テロ）、state terror（国家テロ）のように政治・安全保障の核心語であり、counterterrorism（対テロ）も重要語である。",
+      derivatives: [
+        { word: "terrorism",    desc: "テロリズム・恐怖政治" },
+        { word: "terrorist",    desc: "テロリスト・テロ行為者" },
+        { word: "terrify",      desc: "恐怖させる・震え上がらせる（動詞）" },
+        { word: "terrified",    desc: "恐怖した・震え上がった（形容詞）" }
+      ],
+      family: [
+        { word: "terrible",     desc: "ひどい・恐ろしい（terribilis）" },
+        { word: "terrific",     desc: "素晴らしい（元は「恐ろしい」から転じた）" },
+        { word: "deter",        desc: "思いとどまらせる・抑止する（de- + terrere）" }
+      ],
+      compounds: [
+        { phrase: "reign of terror",       desc: "恐怖政治（フランス革命期）" },
+        { phrase: "counterterrorism",      desc: "対テロ（活動・政策）" }
+      ]
+    },
+
+    "terrible": {
+      origin: "ラテン語 terribilis（恐ろしい・震え上がらせる）< terrere（恐怖させる）+ -ibilis（〜できる）。字義通りには「震え上がらせることができる」を意味する。\n\n15世紀の英語に入り当初は「恐ろしい・おぞましい」という強い意味で使われた。しかし現代では口語的に強調表現として使われることが多く、"terrible weather"（ひどい天気）、"I feel terrible"（気分が最悪）のように「非常に悪い・ひどい」という意味で広く用いられる。意味の軽量化（semantic bleaching）の好例。\n\n語根 terr- が「恐怖」のニュアンスを保ちつつも強調語として機能するのは、awful（畏れを感じさせる）や dreadful（おそれをなす）の変化と同じプロセスである。",
+      derivatives: [
+        { word: "terribly",    desc: "ひどく・非常に・恐ろしいほど（副詞）" }
+      ],
+      family: [
+        { word: "terror",      desc: "恐怖・テロ（terror）" },
+        { word: "terrify",     desc: "恐怖させる（terrere + -fy）" },
+        { word: "terrific",    desc: "素晴らしい・ものすごい（口語）" },
+        { word: "deter",       desc: "思いとどまらせる（de- + terrere）" }
+      ],
+      compounds: [
+        { phrase: "terrible mistake",  desc: "ひどいミス・取り返しのつかない過ち" },
+        { phrase: "feel terrible",     desc: "気分が最悪・申し訳なく思う" }
+      ]
+    },
+
+    "deter": {
+      origin: "ラテン語 deterrere（怖がらせて思いとどまらせる）< de-（強調・離れて）+ terrere（恐怖させる）。「恐怖を与えることで行動を思いとどまらせる」という意味が語源。\n\n16世紀の英語に入り「（脅威・罰則によって）〜を思いとどまらせる・抑止する」という動詞として定着。核抑止（nuclear deterrence）、犯罪抑止（crime deterrence）のように安全保障・刑事政策の重要概念として使われる。\n\ndetective（探偵）の「deter-」は語源が異なる（detectere 暴く）ことに注意。deterrent（抑止力）は「抑止のために機能するもの」で、核兵器が deterrent として論じられる文脈が代表的。",
+      derivatives: [
+        { word: "deterrent",    desc: "抑止力・思いとどまらせるもの（名詞・形容詞）" },
+        { word: "deterrence",   desc: "抑止・威嚇（名詞）" }
+      ],
+      family: [
+        { word: "terror",       desc: "恐怖・テロ（terrere）" },
+        { word: "terrible",     desc: "ひどい・恐ろしい（terribilis）" },
+        { word: "terrify",      desc: "恐怖させる（terrere + -fy）" }
+      ],
+      compounds: [
+        { phrase: "nuclear deterrent",  desc: "核抑止力" },
+        { phrase: "deter crime",        desc: "犯罪を抑止する" }
+      ]
+    },
+
+    // ── terra系（大地・土地）──
+    "territory": {
+      origin: "ラテン語 territorium（土地・地域）< terra（大地・土）。terra は印欧語根 *ters-（乾いた）に由来し、「乾いた陸地」というのが語源的な意味。territorium は「ある都市が管轄する土地の範囲」を指した行政用語だった。\n\n14世紀の英語に入り「ある政治体・国・動物が支配・占有する土地の範囲」という意味で定着。国際法では territorial waters（領海）、territorial integrity（領土保全）のように国家主権の地理的範囲を指す重要語。\n\n動物行動学では動物が縄張りとして確保する空間を territory と呼び、territorial behavior（縄張り行動）は多くの動物種で観察される。",
+      derivatives: [
+        { word: "territorial",    desc: "領土の・縄張り的な（形容詞）" },
+        { word: "territorially",  desc: "領土的に（副詞）" }
+      ],
+      family: [
+        { word: "terrain",        desc: "地形・地勢（terra < ラテン語）" },
+        { word: "terrestrial",    desc: "陸上の・地球上の（terrestris）" },
+        { word: "terrace",        desc: "テラス・段状の土地（terra）" },
+        { word: "Mediterranean",  desc: "地中海（medius 中 + terra + aneus）" }
+      ],
+      compounds: [
+        { phrase: "territorial waters",   desc: "領海" },
+        { phrase: "territorial dispute",  desc: "領土紛争" }
+      ]
+    },
+
+    "terrain": {
+      origin: "フランス語 terrain（土地・地勢）< ラテン語 terrenum（土地）< terra（大地）。地勢・地形という物理的な土地の状態を指す語として、軍事・地理・スポーツの文脈で発展した。\n\n18世紀頃に英語に入り、「ある地域の地形・地勢・起伏」を意味する。rough terrain（険しい地形）、difficult terrain（困難な地形）のように地形の特性を表す。比喩的には "uncharted terrain"（未知の領域）のように「まだ探索されていない分野」を指す表現にも使われる。\n\n軍事では terrain analysis（地形分析）が戦略立案の基礎であり、all-terrain vehicle（全地形対応車・ATV）のような複合語も定着している。",
+      derivatives: [
+        { word: "all-terrain",   desc: "全地形対応の（複合形容詞）" }
+      ],
+      family: [
+        { word: "territory",     desc: "領土・縄張り（territorium）" },
+        { word: "terrestrial",   desc: "陸上の・地球上の（terrestris）" },
+        { word: "terrace",       desc: "テラス・段状の土地" },
+        { word: "terra firma",   desc: "堅固な陸地（ラテン語の成句）" }
+      ],
+      compounds: [
+        { phrase: "rough terrain",      desc: "険しい地形・でこぼこ道" },
+        { phrase: "uncharted terrain",  desc: "未知の領域・未踏の地" }
+      ]
+    },
+
+    // ── astro / aster系（星）──
+    "astronomy": {
+      origin: "ギリシャ語 astronomia（星の法則・天文学）< astron（星）+ nomos（法則・管理）。nomos は「慣習・法則」を意味し、英語の norm（規範）や economy（家の法則 < oikos 家 + nomos）と同じ語根を持つ。\n\n古代バビロニアやエジプトの天体観測に始まり、ギリシャのヒッパルコス、プトレマイオスが体系化した天文学は、コペルニクス、ガリレオ、ケプラー、ニュートンを経て近代天文学へと発展した。望遠鏡の発明（1608年）と万有引力の発見（1687年）が革命的転換点となった。\n\nastronomy（天体を観測・記述する科学）と astrology（星占い）は語源を共有するが、現代では厳然と区別される。",
+      derivatives: [
+        { word: "astronomer",    desc: "天文学者" },
+        { word: "astronomical",  desc: "天文学的な・とてつもなく大きい（形容詞）" }
+      ],
+      family: [
+        { word: "astronaut",    desc: "宇宙飛行士（astron + nautēs 船乗り）" },
+        { word: "disaster",     desc: "惨事（dis- + astron 星の配置が悪い）" },
+        { word: "asterisk",     desc: "アスタリスク（asteriskos 小さな星）" },
+        { word: "astrology",    desc: "占星術（astron + logos）" }
+      ],
+      compounds: [
+        { phrase: "astronomical cost",    desc: "天文学的なコスト・莫大な費用" },
+        { phrase: "radio astronomy",      desc: "電波天文学" }
+      ]
+    },
+
+    "astronaut": {
+      origin: "ギリシャ語 astron（星）+ nautēs（船乗り）から成る20世紀の造語。nautēs は naus（船）に由来し、英語の nautical（航海の）、navy（海軍）とも関連する。「星の航海者」という詩的なニュアンスを持つ。\n\n1959年にNASAが宇宙飛行士の正式名称として採用。ソ連は cosmonaut（コスモノート < kosmos 宇宙 + nautēs）、中国は taikonaut（太空人）と異なる語を使う。\n\n1961年のユーリ・ガガーリンの初の有人宇宙飛行、1969年のアポロ11号月面着陸とともに、astronaut は20世紀の技術的偉業を象徴する語として世界に浸透した。",
+      derivatives: [
+        { word: "astronautics",   desc: "宇宙航行学・航宙学" }
+      ],
+      family: [
+        { word: "astronomy",     desc: "天文学（astron + nomos）" },
+        { word: "disaster",      desc: "惨事（dis- + astron）" },
+        { word: "nautical",      desc: "航海の（naus 船）" },
+        { word: "navigate",      desc: "航行する（navis 船 + agere 動かす）" }
+      ],
+      compounds: [
+        { phrase: "mission astronaut",   desc: "ミッション宇宙飛行士" }
+      ]
+    },
+
+    "disaster": {
+      origin: "イタリア語 disastro < dis-（否定・悪い）+ astro（星）< ラテン語 astrum < ギリシャ語 astron（星）。「星の配置が悪い＝不吉な天体の影響による災い」というのが語源で、中世ヨーロッパでは星の位置が人間の運命を左右すると信じられていた。\n\n16世紀に英語に入り「大災害・大惨事」を意味する名詞として定着。自然災害（natural disaster）、man-made disaster（人災）のように使われる。現代では disastrous（壊滅的な・ひどい）、disaster recovery（災害復旧 / IT ではシステム障害回復）のような派生語・複合語も重要。\n\ninfluenza（インフルエンザ）も星の影響（influence of stars）という意味のイタリア語から来ており、disaster と同じく星占いへの信仰が語源に関わる語である。",
+      derivatives: [
+        { word: "disastrous",    desc: "壊滅的な・惨憺たる（形容詞）" },
+        { word: "disastrously",  desc: "壊滅的に・ひどく（副詞）" }
+      ],
+      family: [
+        { word: "astronomy",    desc: "天文学（astron + nomos）" },
+        { word: "astronaut",    desc: "宇宙飛行士（astron + nautēs）" },
+        { word: "asterisk",     desc: "アスタリスク（asteriskos）" }
+      ],
+      compounds: [
+        { phrase: "natural disaster",    desc: "自然災害" },
+        { phrase: "disaster recovery",   desc: "災害復旧・事業継続（BCP）" },
+        { phrase: "recipe for disaster", desc: "失敗への道・惨事を招く要因" }
+      ]
     }
 
   };

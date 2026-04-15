@@ -13603,6 +13603,469 @@
         { phrase: "pragmatic solution",    desc: "現実的な解決策" },
         { phrase: "pragmatic compromise",  desc: "現実的な妥協" }
       ]
+    },
+
+    // ── Batch 29 ──────────────────────────────────────────────────────────
+
+    // sign系
+    "signal": {
+      origin: "ラテン語 signalis（記号の・印に関する）< signum（印・記号・合図）。signum は「識別のための印」を意味し、sign・significant・design などと同根。「識別のための特定の印・合図」という字義。\n\n14世紀にフランス語 signal を経て英語に入り、signal（合図・信号・シグナル）として定着。軍事では「合図・伝達」、電気・通信では「電気的信号」、比喩的には「重要な兆し」という意味で使われる。\n\n現代英語では traffic signal（交通信号）・signal a change（変化を示す）・mixed signals（相反するシグナル）のように日常・科学・比喩の文脈で広く使われ、形容詞では \"a signal achievement\"（著しい達成）のように「顕著な」という意味でも使われる。",
+      derivatives: [
+        { word: "signaling",   desc: "シグナリング・合図すること（名詞）" },
+        { word: "signalize",   desc: "合図する・顕彰する（動詞）" }
+      ],
+      family: [
+        { word: "sign",        desc: "記号・兆候（signum）" },
+        { word: "significant", desc: "重要な（signum）" },
+        { word: "assign",      desc: "割り当てる（ad-+signum）" },
+        { word: "design",      desc: "設計する（de-+signum）" }
+      ],
+      compounds: [
+        { phrase: "traffic signal",  desc: "交通信号" },
+        { phrase: "mixed signals",   desc: "相反するメッセージ" },
+        { phrase: "send a signal",   desc: "シグナルを送る・示す" }
+      ]
+    },
+
+    "significant": {
+      origin: "ラテン語 significans（意味を示している）< significare（意味を示す・表す）< signum（印）+ facere（作る）の現在分詞。「印を作って意味を示している→重要な意味をもつ」という字義から「重要な・著しい」という意味が発展した。\n\n14世紀に英語に入り、significant（重要な・著しい・意味深な）として定着。統計学では「統計的に有意な（statistically significant）」という技術的意味が特に重要で、p 値による判断基準として使われる。\n\n現代英語では significant change（重大な変化）・statistically significant（統計的に有意な）・significant other（重要な他者・パートナー）のように日常・学術・人間関係の文脈で幅広く使われる。",
+      derivatives: [
+        { word: "significance",   desc: "重要性・意味（名詞）" },
+        { word: "significantly",  desc: "著しく・重要なことに（副詞）" },
+        { word: "insignificant",  desc: "重要でない・取るに足らない（形容詞）" }
+      ],
+      family: [
+        { word: "signal",  desc: "合図・信号（signum）" },
+        { word: "sign",    desc: "記号・兆候（signum）" },
+        { word: "assign",  desc: "割り当てる（ad-+signum）" },
+        { word: "design",  desc: "設計する（de-+signum）" }
+      ],
+      compounds: [
+        { phrase: "statistically significant",  desc: "統計的に有意な" },
+        { phrase: "significant other",          desc: "重要な他者・パートナー" },
+        { phrase: "significant change",         desc: "重大な変化" }
+      ]
+    },
+
+    "assign": {
+      origin: "ラテン語 assignare（印をつけて割り当てる）< ad-（～に）+ signare（印をつける）< signum（印）。「特定の印をつけて、誰かに確実に割り当てる」という字義から「割り当てる・配属する」という意味が発展した。\n\n13世紀にフランス語 assigner を経て英語に入り、assign（割り当てる・配属する・指定する）として定着。仕事・課題・所有権・責任の「割り振り」全般に使われる語で、assignment（課題・任務）という名詞形が特に広く使われる。\n\n現代英語では assign a task（タスクを割り当てる）・assignment due tomorrow（明日が締め切りの課題）・be assigned to a project（プロジェクトに配属される）のように教育・ビジネス・法律の文脈で頻出。",
+      derivatives: [
+        { word: "assignment",  desc: "課題・任務・割り当て（名詞）" },
+        { word: "assignee",    desc: "被譲受人・受任者（名詞）" }
+      ],
+      family: [
+        { word: "signal",      desc: "合図・信号（signum）" },
+        { word: "significant", desc: "重要な（signum）" },
+        { word: "resign",      desc: "辞任する（re-+signum）" },
+        { word: "design",      desc: "設計する（de-+signum）" }
+      ],
+      compounds: [
+        { phrase: "assign a task",   desc: "タスクを割り当てる" },
+        { phrase: "assignment due",  desc: "締め切りのある課題" },
+        { phrase: "be assigned to",  desc: "～に配属される" }
+      ]
+    },
+
+    "resign": {
+      origin: "ラテン語 resignare（印を消す・解放する・諦める）< re-（戻して）+ signare（印をつける）< signum（印）。「自分の印を取り消す・権限を返上する」という字義から「辞任する・諦める」という意味が発展した。\n\n14世紀に英語に入り、resign（辞任する・諦めて受け入れる）として定着。resign a position（職を辞する）という意味が主要だが、resign oneself to（～を仕方なく受け入れる）という慣用表現も重要で、「諦めて甘んじる」というニュアンスをもつ。\n\n現代英語では resign from a post（職を辞する）・letter of resignation（辞表）・be resigned to one's fate（運命に甘んじる）のように政治・ビジネス・日常の文脈で広く使われる。",
+      derivatives: [
+        { word: "resignation",  desc: "辞任・辞表・諦め（名詞）" },
+        { word: "resigned",     desc: "諦めた・やむを得ないと受け入れた（形容詞）" }
+      ],
+      family: [
+        { word: "signal",  desc: "合図・信号（signum）" },
+        { word: "assign",  desc: "割り当てる（ad-）" },
+        { word: "design",  desc: "設計する（de-）" },
+        { word: "sign",    desc: "署名する（signum）" }
+      ],
+      compounds: [
+        { phrase: "resign from a post",       desc: "職を辞する" },
+        { phrase: "letter of resignation",    desc: "辞表" },
+        { phrase: "be resigned to",           desc: "～を仕方なく受け入れる" }
+      ]
+    },
+
+    // cog/cogn系
+    "recognize": {
+      origin: "ラテン語 recognoscere（再び知る・調べ直す）< re-（再び）+ cognoscere（知る）< co-（完全に）+ gnoscere（知る）。「一度知っていたものを再び確認する」という字義から「見知る・認識する・承認する」という意味が発展した。\n\n13世紀にフランス語 reconoistre を経て英語に入り、recognize（見覚える・認識する・承認する）として定着。視覚的な「見知る」、知覚的な「認識」、公式的な「承認」という三つの主要な意味をもつ。\n\n現代英語では recognize someone（人を見覚える）・recognize an achievement（功績を認める）・face recognition（顔認証）・internationally recognized（国際的に認められた）のように幅広い文脈で使われる重要語。",
+      derivatives: [
+        { word: "recognition",    desc: "認識・承認・表彰（名詞）" },
+        { word: "recognizable",   desc: "見覚えのある・識別可能な（形容詞）" },
+        { word: "unrecognizable", desc: "見分けがつかない（形容詞）" }
+      ],
+      family: [
+        { word: "cognition",  desc: "認知・認識（cognoscere）" },
+        { word: "cognitive",  desc: "認知の（cognoscere）" },
+        { word: "incognito",  desc: "お忍びで（in-+cognoscere）" },
+        { word: "diagnosis",  desc: "診断（dia-+gnosis）" }
+      ],
+      compounds: [
+        { phrase: "face recognition",         desc: "顔認証・顔認識" },
+        { phrase: "gain recognition",         desc: "認知・評価を得る" },
+        { phrase: "internationally recognized",desc: "国際的に認められた" }
+      ]
+    },
+
+    "cognition": {
+      origin: "ラテン語 cognitio（知ること・認識）< cognoscere（知る）< co-（完全に）+ gnoscere（知る）。gnoscere はギリシャ語 gignoskein（知る）と同根で、diagnosis（di-+gnosis）・agnostic（a-+gnosis）とも関連する。\n\n16世紀に英語に入り、cognition（認知・認識・知識）として定着。哲学では「知識を得るプロセス全体」を指し、心理学・神経科学では「情報処理・思考・問題解決・記憶などの精神的プロセス全体」を意味する技術語。\n\n現代英語では social cognition（社会的認知）・cognitive decline（認知機能の低下）・embodied cognition（身体化認知）のように認知科学・神経科学・教育学で頻出する重要語。",
+      derivatives: [
+        { word: "cognitive",    desc: "認知の・認識の（形容詞）" },
+        { word: "cognitively",  desc: "認知的に（副詞）" }
+      ],
+      family: [
+        { word: "recognize",  desc: "認識する（re-+cognoscere）" },
+        { word: "incognito",  desc: "お忍びで（in-+cognoscere）" },
+        { word: "agnostic",   desc: "不可知論者（a-+gnosis）" },
+        { word: "diagnosis",  desc: "診断（dia-+gnosis）" }
+      ],
+      compounds: [
+        { phrase: "cognitive science",    desc: "認知科学" },
+        { phrase: "cognitive decline",    desc: "認知機能の低下" },
+        { phrase: "social cognition",     desc: "社会的認知" }
+      ]
+    },
+
+    "cognitive": {
+      origin: "ラテン語 cognitivus（知ることに関する）< cognoscere（知る）< co-+gnoscere。「知識・認識のプロセスに関わる」という字義で、思考・学習・記憶・知覚・問題解決などの精神的機能を総称する形容詞として使われる。\n\n17世紀に英語に入り、cognitive（認知の・知的な）として定着。20世紀の認知革命（cognitive revolution）以後、心理学・言語学・哲学・AI の分野で中核的な形容詞となった。\n\n現代英語では cognitive psychology（認知心理学）・cognitive bias（認知バイアス）・cognitive development（認知発達）・cognitive load（認知負荷）のように、現代科学の各分野で最頻出の修飾語の一つとなっている。",
+      derivatives: [
+        { word: "cognitively",      desc: "認知的に（副詞）" },
+        { word: "metacognition",    desc: "メタ認知（思考についての思考）" }
+      ],
+      family: [
+        { word: "cognition",  desc: "認知・認識（cognoscere）" },
+        { word: "recognize",  desc: "認識する（re-）" },
+        { word: "incognito",  desc: "お忍びで（in-）" }
+      ],
+      compounds: [
+        { phrase: "cognitive bias",        desc: "認知バイアス" },
+        { phrase: "cognitive psychology",  desc: "認知心理学" },
+        { phrase: "cognitive load",        desc: "認知負荷" }
+      ]
+    },
+
+    // vent/veni系（残り）
+    "event": {
+      origin: "ラテン語 eventus（起こること・結果）< evenire（外に出て来る・起こる）< e-（外に）+ venire（来る）。「外に出て来るもの」→「起こる出来事・結果」という字義。venire は「来る」という語根で、adventure・convention・prevention などと同根。\n\n14世紀に英語に入り、event（出来事・事件・イベント・競技種目）として定着。元来は「結果・帰結」という意味が強かったが、現代では「特定の出来事・催し物・スポーツの競技種目」という意味が主流。\n\n現代英語では in the event of（～の場合に）・event management（イベント管理）・current events（時事問題）・sporting event（スポーツ競技）のように幅広い文脈で使われる日常語。",
+      derivatives: [
+        { word: "eventful",   desc: "出来事の多い・波乱に富んだ（形容詞）" },
+        { word: "uneventful", desc: "平穏な・変わりない（形容詞）" },
+        { word: "eventual",   desc: "最終的な・結果としての（形容詞）" }
+      ],
+      family: [
+        { word: "adventure",   desc: "冒険（ad-+venire）" },
+        { word: "convention",  desc: "慣習・会議（con-+venire）" },
+        { word: "prevent",     desc: "防ぐ（pre-+venire）" },
+        { word: "venue",       desc: "会場（venire）" }
+      ],
+      compounds: [
+        { phrase: "in the event of",  desc: "～の場合には" },
+        { phrase: "current events",   desc: "時事問題" },
+        { phrase: "event management", desc: "イベント管理" }
+      ]
+    },
+
+    "revenue": {
+      origin: "フランス語 revenu（戻ってきたもの）< revenir（戻ってくる）< re-（戻って）+ venir（来る）< ラテン語 venire（来る）。「投資・事業から戻ってくるお金」という字義から「収入・歳入」という意味が発展した。\n\n15世紀に英語に入り、revenue（収入・歳入・収益）として定着。政府の「税収・歳入（government revenue）」と企業の「売上収益（revenue）」の両方で使われ、利益（profit）とは区別される「売上高・収入」を意味する。\n\n現代英語では revenue growth（収益成長）・tax revenue（税収）・annual revenue（年間収益）のように経済・財政・ビジネスの文脈で頻出。会計では gross revenue（総収益）・net revenue（純収益）という区別が重要。",
+      derivatives: [
+        { word: "revenues",  desc: "収入・歳入（複数形で使うことが多い）" }
+      ],
+      family: [
+        { word: "event",       desc: "出来事（e-+venire）" },
+        { word: "adventure",   desc: "冒険（ad-+venire）" },
+        { word: "convention",  desc: "慣習・会議（con-+venire）" },
+        { word: "prevent",     desc: "防ぐ（pre-+venire）" }
+      ],
+      compounds: [
+        { phrase: "tax revenue",     desc: "税収" },
+        { phrase: "annual revenue",  desc: "年間収益" },
+        { phrase: "revenue model",   desc: "収益モデル" }
+      ]
+    },
+
+    "inventory": {
+      origin: "ラテン語 inventarium（見つけられたものの目録）< invenire（見つける・発明する）< in-（中に）+ venire（来る）。「中に入ってきて見つかったもの」の記録という字義で、所有物の「目録・在庫リスト」を意味する。\n\n15世紀に英語に入り、inventory（在庫・在庫目録・財産目録）として定着。法律では「財産目録（inventory of an estate）」、ビジネスでは「在庫（inventory control）」として重要な語。\n\n現代英語では inventory management（在庫管理）・take inventory（棚卸しする）・inventory level（在庫水準）のようにサプライチェーン・小売・製造の文脈で最重要語の一つ。心理学では「質問紙（personality inventory）」という意味でも使われる。",
+      derivatives: [
+        { word: "inventorize",  desc: "目録を作る（動詞）" }
+      ],
+      family: [
+        { word: "invent",    desc: "発明する（in-+venire）" },
+        { word: "event",     desc: "出来事（e-+venire）" },
+        { word: "revenue",   desc: "収益（re-+venire）" },
+        { word: "convene",   desc: "召集する（con-+venire）" }
+      ],
+      compounds: [
+        { phrase: "inventory management",  desc: "在庫管理" },
+        { phrase: "take inventory",        desc: "棚卸しする・点検する" },
+        { phrase: "inventory control",     desc: "在庫統制" }
+      ]
+    },
+
+    // loqu系
+    "eloquent": {
+      origin: "ラテン語 eloquens（流暢に話す）< eloqui（外に向けて話す）< e-（外に）+ loqui（話す）の現在分詞。「言葉が力強く外に向かって流れ出る」という字義から「雄弁な・表現豊かな」という意味が発展した。\n\n14世紀にフランス語 eloquent を経て英語に入り、eloquent（雄弁な・説得力のある・表現豊かな）として定着。人の話し方・書き方だけでなく、\"an eloquent silence\"（雄弁な沈黙）のように身振りや沈黙を表現するときにも使われる。\n\n現代英語では an eloquent speech（雄弁なスピーチ）・eloquently expressed（うまく表現された）・speak eloquently（流暢に・説得力を持って話す）のように使われ、rhetoric（弁論術）と密接に関わる語。",
+      derivatives: [
+        { word: "eloquence",   desc: "雄弁さ・表現力（名詞）" },
+        { word: "eloquently",  desc: "雄弁に・流暢に（副詞）" }
+      ],
+      family: [
+        { word: "colloquial",  desc: "口語的な（col-+loqui）" },
+        { word: "soliloquy",   desc: "独り言・独白（solus+loqui）" },
+        { word: "loquacious",  desc: "おしゃべりな（loqui）" }
+      ],
+      compounds: [
+        { phrase: "eloquent speech",   desc: "雄弁なスピーチ" },
+        { phrase: "eloquent silence",  desc: "雄弁な沈黙" },
+        { phrase: "speak eloquently",  desc: "雄弁に話す" }
+      ]
+    },
+
+    "colloquial": {
+      origin: "ラテン語 colloquium（会話・対話）< col-（共に）+ loqui（話す）+ -al（形容詞語尾）。「人々が共に話し合う」という字義が「日常的な会話で使われる・口語的な」という意味に発展した。\n\n18世紀に英語に入り、colloquial（口語的な・くだけた話し言葉の）として定着。formal（正式な）・literary（文語的な）に対する「くだけた日常会話の言葉・表現」を表す言語学・文体論の用語として重要。\n\n現代英語では colloquial expression（口語表現）・colloquial English（英語口語）・in colloquial speech（口語では）のように言語学・外国語学習の文脈で使われる。英語学習では「試験では使えないが日常では使われる」という語の分類に重要。",
+      derivatives: [
+        { word: "colloquially",   desc: "口語的に（副詞）" },
+        { word: "colloquialism",  desc: "口語表現・俗語（名詞）" }
+      ],
+      family: [
+        { word: "eloquent",   desc: "雄弁な（e-+loqui）" },
+        { word: "soliloquy",  desc: "独白（solus+loqui）" },
+        { word: "loquacious", desc: "おしゃべりな（loqui）" }
+      ],
+      compounds: [
+        { phrase: "colloquial expression",  desc: "口語表現" },
+        { phrase: "colloquial English",     desc: "英語口語" },
+        { phrase: "highly colloquial",      desc: "非常にくだけた・俗語的な" }
+      ]
+    },
+
+    // sent/sens系（残り）
+    "assent": {
+      origin: "ラテン語 assentire（賛成する・同意する）< ad-（～に向けて）+ sentire（感じる）。「自分の感覚や判断が相手の方向に向く」という字義から「同意する・承認する」という意味が発展した。\n\n13世紀にフランス語 assentir を経て英語に入り、assent（同意する・承認する）として定着。consent（合意）と近い意味だが、assent はより「判断・意見への同意」というニュアンスが強く、主に格調高い・法律的な文脈で使われる。\n\n現代英語では royal assent（国王裁可・議会を通過した法案の君主による承認）という表現が英国政治の文脈で特に重要で、nod in assent（同意して頷く）・withhold assent（同意を留保する）のようにも使われる。",
+      derivatives: [
+        { word: "assenter",  desc: "同意者（名詞）" }
+      ],
+      family: [
+        { word: "consent",  desc: "同意する（con-+sentire）" },
+        { word: "dissent",  desc: "異議を唱える（dis-+sentire）" },
+        { word: "sense",    desc: "感覚（sentire）" },
+        { word: "sentiment",desc: "感情・情緒（sentire）" }
+      ],
+      compounds: [
+        { phrase: "royal assent",    desc: "国王裁可（英国）" },
+        { phrase: "nod in assent",   desc: "同意して頷く" },
+        { phrase: "give assent to",  desc: "～に同意を与える" }
+      ]
+    },
+
+    "sentiment": {
+      origin: "ラテン語 sentimentum（感じること）< sentire（感じる）+ -mentum（状態・結果を示す名詞語尾）。「感覚・感情から生まれた判断や意見」という字義で、純粋な感情（emotion）より「感情を帯びた意見・心情」というニュアンスをもつ。\n\n14世紀に英語に入り、sentiment（感情・情緒・感傷・意見）として定着。哲学・文学では「感情と理性が混じった心の傾向」、金融では「market sentiment（市場心理）」として重要な専門語でもある。\n\n現代英語では popular sentiment（世論・民意）・sentimental value（思い出の価値）・market sentiment（市場センチメント）のように使われ、sentimental（感傷的な）という形容詞も頻出する。",
+      derivatives: [
+        { word: "sentimental",    desc: "感傷的な・情緒的な（形容詞）" },
+        { word: "sentimentality", desc: "感傷性・センチメンタリズム（名詞）" }
+      ],
+      family: [
+        { word: "sense",    desc: "感覚（sentire）" },
+        { word: "consent",  desc: "同意する（con-）" },
+        { word: "dissent",  desc: "異議（dis-）" },
+        { word: "assent",   desc: "同意する（ad-）" }
+      ],
+      compounds: [
+        { phrase: "market sentiment",      desc: "市場センチメント・市場心理" },
+        { phrase: "popular sentiment",     desc: "一般の感情・世論" },
+        { phrase: "sentimental value",     desc: "感傷的な・思い出の価値" }
+      ]
+    },
+
+    // fin系（残り）
+    "final": {
+      origin: "ラテン語 finalis（終わりに関する・目標となる）< finis（終わり・境界・目標）。finis は「端・境界」という語根で、finite・infinite・finish・confine・define などと同根。「最後の・最終的な」という字義。\n\n14世紀にフランス語 final を経て英語に入り、final（最後の・最終的な・決定的な）として定着。形容詞「最終的な（final decision）」・名詞「決勝戦・期末試験（the finals）」・副詞的に「最終的に（finally）」と多様に使われる。\n\n現代英語では final exam（期末試験）・final answer（最終回答）・the finals（決勝・期末試験）・finally（最終的に・ついに）のように最も一般的な語の一つとして日常・学術・スポーツ文脈で使われる。",
+      derivatives: [
+        { word: "finally",    desc: "最終的に・ついに（副詞）" },
+        { word: "finalize",   desc: "最終決定する（動詞）" },
+        { word: "finalist",   desc: "決勝出場者（名詞）" },
+        { word: "finale",     desc: "フィナーレ・最終場面（名詞）" }
+      ],
+      family: [
+        { word: "finite",   desc: "有限の（finis）" },
+        { word: "infinite", desc: "無限の（in-+finis）" },
+        { word: "define",   desc: "定義する（de-+finis）" },
+        { word: "finish",   desc: "終える（finis）" }
+      ],
+      compounds: [
+        { phrase: "final exam",     desc: "期末試験" },
+        { phrase: "final answer",   desc: "最終回答" },
+        { phrase: "grand final",    desc: "決勝戦" }
+      ]
+    },
+
+    "finance": {
+      origin: "フランス語 finance（支払い・清算）< finer（終わらせる・清算する）< ラテン語 finis（終わり・期限）。「借金を終わらせる・清算する」という字義から「お金の管理・資金調達」という現代的意味が発展した。\n\n14世紀に英語に入り、finance（財政・金融・資金）として定着。動詞「資金を提供する（finance a project）」と名詞「財政・金融（personal finance / public finance）」の両用法がある。\n\n現代英語では finance industry（金融業界）・personal finance（個人の財政）・government finance（政府財政）・finance a purchase（購入資金を賄う）のように幅広く使われ、fintech（フィンテック）など金融テクノロジーの分野でも重要語。",
+      derivatives: [
+        { word: "financial",   desc: "財政の・金融の（形容詞）" },
+        { word: "financially", desc: "財政的に（副詞）" },
+        { word: "financier",   desc: "金融家・資本家（名詞）" }
+      ],
+      family: [
+        { word: "final",    desc: "最後の（finis）" },
+        { word: "finite",   desc: "有限の（finis）" },
+        { word: "define",   desc: "定義する（de-+finis）" },
+        { word: "confine",  desc: "閉じ込める（con-+finis）" }
+      ],
+      compounds: [
+        { phrase: "personal finance",   desc: "個人の財務管理" },
+        { phrase: "public finance",     desc: "公共財政" },
+        { phrase: "finance industry",   desc: "金融業界" }
+      ]
+    },
+
+    // pens/pend系
+    "compensate": {
+      origin: "ラテン語 compensare（共に量る・均等にする）< com-（共に）+ pensare（量る・評価する）< pendere（ぶら下げる・量る）。「重さを釣り合わせる→損失を補う」という字義から「補償する・埋め合わせる」という意味が発展した。\n\n15世紀に英語に入り、compensate（補償する・埋め合わせる）として定着。経済的な「損害賠償」から心理的な「コンプレックスを補う行動」まで幅広く使われる。\n\n現代英語では compensate for a loss（損失を補填する）・compensation package（報酬パッケージ）・workers' compensation（労働者補償）・overcompensate（過度に補おうとする）のように法律・ビジネス・心理の文脈で頻出する語。",
+      derivatives: [
+        { word: "compensation",  desc: "補償・報酬・埋め合わせ（名詞）" },
+        { word: "compensatory",  desc: "補償的な・代償の（形容詞）" }
+      ],
+      family: [
+        { word: "pension",    desc: "年金・支払い（pendere）" },
+        { word: "dispense",   desc: "分配する（dis-+pendere）" },
+        { word: "expense",    desc: "費用（ex-+pendere）" },
+        { word: "suspend",    desc: "停止する（sub-+pendere）" }
+      ],
+      compounds: [
+        { phrase: "compensate for",         desc: "～を補填する・埋め合わせる" },
+        { phrase: "compensation package",   desc: "報酬パッケージ" },
+        { phrase: "workers' compensation",  desc: "労働者災害補償" }
+      ]
+    },
+
+    "dispense": {
+      origin: "ラテン語 dispensare（分散して量り出す・管理する）< dis-（分けて）+ pensare（量る）< pendere（ぶら下げる・量る）。「分けて計り与える」という字義から「分配する・調剤する・免除する」という意味が発展した。\n\n13世紀に英語に入り、dispense（分配する・調剤する・免除する）として定着。薬局では「薬を調剤する（dispense medication）」、法律では「免除する（dispense with the rule）」として使われる。dispense with（～なしで済ます）という句動詞が特に重要。\n\n現代英語では dispense medication（薬を調剤する）・dispense with formalities（形式を省く）・vending machine dispenses drinks（自販機が飲み物を出す）のように使われ、dispensary（薬局・医薬品調剤所）という名詞形も重要。",
+      derivatives: [
+        { word: "dispensary",    desc: "薬局・調剤所（名詞）" },
+        { word: "dispensation",  desc: "免除・特別許可・天の配剤（名詞）" }
+      ],
+      family: [
+        { word: "pension",      desc: "年金（pendere）" },
+        { word: "compensate",   desc: "補償する（com-）" },
+        { word: "expense",      desc: "費用（ex-）" },
+        { word: "suspend",      desc: "停止する（sub-）" }
+      ],
+      compounds: [
+        { phrase: "dispense medication",   desc: "薬を調剤する" },
+        { phrase: "dispense with",         desc: "～なしで済ます・省略する" },
+        { phrase: "dispense justice",      desc: "正義を行う・裁く" }
+      ]
+    },
+
+    "indispensable": {
+      origin: "ラテン語 indispensabilis（免除できない）< in-（否定）+ dispensabilis（免除できる）< dispensare（免除する・分配する）< pendere（量る）。「省略・除外することができない」という字義から「不可欠な・必要不可欠な」という意味が発展した。\n\n17世紀に英語に入り、indispensable（欠かせない・必要不可欠な）として定着。「それなしでは機能しない・成り立たない」という意味で、essential・vital・necessary などの類義語の中で最も強い「絶対に欠かせない」というニュアンスをもつ。\n\n現代英語では indispensable to success（成功に欠かせない）・an indispensable tool（必要不可欠なツール）のように強調のために使われ、\"make oneself indispensable\"（自分を必要不可欠な存在にする）というキャリア戦略を表す表現でも頻出。",
+      derivatives: [
+        { word: "indispensably",  desc: "必要不可欠に（副詞）" }
+      ],
+      family: [
+        { word: "dispense",     desc: "分配する・免除する（dis-）" },
+        { word: "compensate",   desc: "補償する（com-）" },
+        { word: "expense",      desc: "費用（ex-）" }
+      ],
+      compounds: [
+        { phrase: "indispensable to",        desc: "～に欠かせない" },
+        { phrase: "make oneself indispensable",desc: "必要不可欠な存在になる" },
+        { phrase: "indispensable tool",      desc: "必要不可欠なツール" }
+      ]
+    },
+
+    "pension": {
+      origin: "ラテン語 pensio（支払い・量り出すこと）< pendere（ぶら下げる・量る・支払う）。「定期的に量り出して支払われるもの」という字義から「年金・定期支払い」という意味が発展した。\n\n14世紀にフランス語 pension を経て英語に入り、pension（年金・退職金・下宿屋）として定着。もともとは「定期的な支払い」全般を指したが、現代では「退職後に定期的に支払われる年金」という意味が主流。フランス語では「下宿屋・ペンション」という意味でも使われる。\n\n現代英語では pension plan（年金制度）・draw a pension（年金を受け取る）・pension fund（年金基金）のように社会保障・金融の文脈で重要な語。\"pension off\"（～を年金退職させる）という句動詞も使われる。",
+      derivatives: [
+        { word: "pensioner",    desc: "年金受給者（名詞）" },
+        { word: "pensionable",  desc: "年金受給資格のある（形容詞）" }
+      ],
+      family: [
+        { word: "expense",      desc: "費用（ex-+pendere）" },
+        { word: "compensate",   desc: "補償する（com-）" },
+        { word: "dispense",     desc: "分配する（dis-）" },
+        { word: "suspend",      desc: "停止する（sub-）" }
+      ],
+      compounds: [
+        { phrase: "pension plan",   desc: "年金制度" },
+        { phrase: "pension fund",   desc: "年金基金" },
+        { phrase: "draw a pension", desc: "年金を受け取る" }
+      ]
+    },
+
+    // fer系（残り）
+    "defer": {
+      origin: "ラテン語 differre（異なった方向に運ぶ・延期する）< dis-（離れて）+ ferre（運ぶ）。「別の時・場所へ運び移す」という字義から「延期する・従う・敬意を示す」という二つの主要な意味が発展した。\n\n14世紀に英語に入り、defer（延期する・敬意を払って従う）として定着。defer a decision（決定を延期する）と defer to someone's judgment（誰かの判断に従う）という二つの用法が中心で、意味がかなり異なる。\n\n現代英語では defer payment（支払いを延期する）・deferred tax（繰延税金）・defer to authority（権威に従う）のように法律・金融・社会的敬意の文脈で使われる。",
+      derivatives: [
+        { word: "deferral",    desc: "延期・猶予（名詞）" },
+        { word: "deference",   desc: "敬意・従順（名詞）" },
+        { word: "deferential", desc: "敬意を示す・従順な（形容詞）" }
+      ],
+      family: [
+        { word: "refer",     desc: "言及する・参照する（re-）" },
+        { word: "prefer",    desc: "好む（pre-）" },
+        { word: "infer",     desc: "推論する（in-）" },
+        { word: "confer",    desc: "相談する（con-）" }
+      ],
+      compounds: [
+        { phrase: "defer a decision",  desc: "決定を延期する" },
+        { phrase: "defer to",          desc: "～の意見・権威に従う" },
+        { phrase: "deferred payment",  desc: "後払い・分割払い" }
+      ]
+    },
+
+    "proliferate": {
+      origin: "ラテン語 proles（子孫・世代）+ ferre（運ぶ・もたらす）を組み合わせた近代語。「子孫を次々と生み出す→急速に増殖する」という字義から「急増する・急速に広まる」という意味が発展した。\n\n19世紀に英語に入り、proliferate（急増する・急速に広まる・増殖する）として定着。核兵器の「核拡散（nuclear proliferation）」という文脈で国際政治の重要語となり、IT の普及などにも使われる。\n\n現代英語では nuclear proliferation（核拡散）・smartphones proliferated（スマートフォンが急速に普及した）・proliferation of misinformation（誤情報の急増）のように政治・技術・情報の文脈で頻出する語。",
+      derivatives: [
+        { word: "proliferation",  desc: "急増・拡散・増殖（名詞）" },
+        { word: "proliferative",  desc: "増殖的な（形容詞）" }
+      ],
+      family: [
+        { word: "offer",   desc: "提供する（ob-+ferre）" },
+        { word: "prefer",  desc: "好む（pre-+ferre）" },
+        { word: "refer",   desc: "言及する（re-+ferre）" },
+        { word: "fertile", desc: "肥沃な（ferre）" }
+      ],
+      compounds: [
+        { phrase: "nuclear proliferation",  desc: "核拡散" },
+        { phrase: "proliferation of",       desc: "～の急増・急速な拡散" },
+        { phrase: "non-proliferation",      desc: "核不拡散" }
+      ]
+    },
+
+    // 重要学術語
+    "ambition": {
+      origin: "ラテン語 ambitio（周りを歩き回ること・票集め）< ambire（周りを回る）< ambi-（両側・周りを）+ ire（行く）。古代ローマで政治家が票を集めるために選挙区を歩き回ったことから、「名声・権力への強い欲望」という意味が発展した。\n\n13世紀に英語に入り、ambition（野心・大志・強い望み）として定着。否定的に「出世欲・名誉欲」を、肯定的に「夢・志」を意味し、文脈によってニュアンスが変わる語。\n\n現代英語では career ambition（出世意欲）・harbor ambition（野心を抱く）・lack of ambition（やる気のなさ）のように使われ、\"ambitious\"（野心的な・意欲的な）という形容詞はビジネス・政治・個人の目標について肯定的に使われることが多い。",
+      derivatives: [
+        { word: "ambitious",   desc: "野心的な・意欲的な（形容詞）" },
+        { word: "ambitiously", desc: "意欲的に（副詞）" }
+      ],
+      family: [
+        { word: "ambiguous",   desc: "曖昧な（ambi-+agere）" },
+        { word: "ambivalent",  desc: "相反する感情の（ambi-）" }
+      ],
+      compounds: [
+        { phrase: "career ambition",   desc: "出世意欲・キャリアの野望" },
+        { phrase: "harbor ambition",   desc: "野心を抱く" },
+        { phrase: "ambitious goal",    desc: "意欲的な・野心的な目標" }
+      ]
+    },
+
+    "subordinate": {
+      origin: "ラテン語 subordinatus（下の秩序に置かれた）< sub-（下に）+ ordinatus < ordinare（整列させる・命じる）< ordo（秩序・列）。「上の秩序の下に置かれた」という字義から「従属的な・下位の」という意味が発展した。\n\n15世紀に英語に入り、subordinate（従属的な・下位の・部下）として定着。形容詞「下位の（subordinate role）」・名詞「部下・下位の人（a subordinate）」・動詞「従属させる（subordinate to）」の三用法がある。\n\n現代英語では subordinate clause（従属節、文法用語）・subordinate goal（二次的な目標）・manage subordinates（部下を管理する）のように文法・組織・優先順位の文脈で広く使われる語。",
+      derivatives: [
+        { word: "subordination",  desc: "従属・下位化（名詞）" },
+        { word: "insubordinate",  desc: "反抗的な・不従順な（形容詞）" }
+      ],
+      family: [
+        { word: "order",     desc: "命令・秩序（ordo）" },
+        { word: "ordinary",  desc: "普通の（ordo）" },
+        { word: "coordinate",desc: "調整する（co-+ordo）" }
+      ],
+      compounds: [
+        { phrase: "subordinate clause",  desc: "従属節（文法）" },
+        { phrase: "subordinate role",    desc: "従属的な役割" },
+        { phrase: "manage subordinates", desc: "部下を管理する" }
+      ]
     }
 
   };

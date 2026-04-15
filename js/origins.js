@@ -16155,6 +16155,390 @@
         { phrase: "online community",   desc: "オンラインコミュニティ" },
         { phrase: "sense of community", desc: "共同体意識" }
       ]
+    },
+
+    // ── Batch 35 ──────────────────────────────────────────────────────────
+
+    "strategy": {
+      origin: "ギリシャ語 strategos（軍の指揮官）< stratos（軍隊・軍勢）+ agein（導く・率いる）+ -ia（名詞接尾辞）。「軍隊を導く技術」が原義で、古代ギリシャの軍事指揮術から始まった。\n\nラテン語 strategia を経て英語には17世紀に軍事用語として採用された。19世紀以降、ビジネス・政治・スポーツなどに広がり、「長期的な計画・目標達成のための方針」という意味で現代の経営学・政策論の核心語となった。\n\n現代英語では business strategy（事業戦略）・military strategy（軍事戦略）・exit strategy（撤退戦略）のように幅広い分野で使われる必須語彙。",
+      derivatives: [
+        { word: "strategic",    desc: "戦略的な・戦略に関わる（形容詞）" },
+        { word: "strategically", desc: "戦略的に（副詞）" },
+        { word: "strategist",   desc: "戦略家（名詞）" },
+        { word: "strategize",   desc: "戦略を立てる（動詞）" }
+      ],
+      family: [
+        { word: "general",    desc: "将軍・一般的な（stratos から転）" },
+        { word: "protagonist", desc: "主人公（protos+agon）" }
+      ],
+      compounds: [
+        { phrase: "business strategy",  desc: "事業戦略" },
+        { phrase: "exit strategy",      desc: "撤退戦略・出口戦略" },
+        { phrase: "strategic planning", desc: "戦略的計画" }
+      ]
+    },
+
+    "institution": {
+      origin: "ラテン語 institutio（設立・教育・制度）< instituere（中に置く・設立する・教育する）< in-（中に）+ statuere（置く・立てる）< stare（立つ）+ -tion（名詞接尾辞）。「中に確固として置かれたもの」が原義。\n\n英語には15世紀に採用され、「制度・機関・慣習」の意味で定着。宗教・法律・政治・金融などの「社会的に確立された組織や慣行」を指す社会科学の核心概念として機能している。\n\n現代英語では financial institution（金融機関）・educational institution（教育機関）・social institution（社会制度）のように政治・経済・社会学で幅広く使われる。",
+      derivatives: [
+        { word: "institutional",    desc: "制度的な・機関の（形容詞）" },
+        { word: "institutionalize", desc: "制度化する（動詞）" },
+        { word: "institute",        desc: "設立する・研究所（動詞・名詞）" }
+      ],
+      family: [
+        { word: "statue",     desc: "彫像（statuere）" },
+        { word: "statute",    desc: "法令・規制（statuere）" },
+        { word: "substitute", desc: "代替する（sub+statuere）" },
+        { word: "constitute", desc: "構成する（con+statuere）" }
+      ],
+      compounds: [
+        { phrase: "financial institution",   desc: "金融機関" },
+        { phrase: "educational institution", desc: "教育機関" },
+        { phrase: "institutional reform",    desc: "制度改革" }
+      ]
+    },
+
+    "implementation": {
+      origin: "ラテン語 implementum（充填物・道具）< implere（満たす）< in-（中に）+ plere（満たす）+ -ment + -ation（名詞接尾辞）。「計画という器を満たして実現すること」が原義。supplement・complete と同根の plere を含む。\n\n英語には19世紀に採用され、「実施・実行・実装」の意味で定着。20世紀後半のソフトウェア工学・プロジェクト管理の文脈で「計画を実際に動作させるプロセス」として重要語となった。\n\n現代英語では implementation of a policy（政策の実施）・software implementation（ソフトウェア実装）・full implementation（完全実施）のように政策・技術・経営の場で広く使われる。",
+      derivatives: [
+        { word: "implement",  desc: "実施する・実装する・道具（動詞・名詞）" }
+      ],
+      family: [
+        { word: "complete",   desc: "完成させる（com+plere）" },
+        { word: "deplete",    desc: "使い果たす（de+plere）" },
+        { word: "supplement", desc: "補足する（sub+plere）" },
+        { word: "replete",    desc: "満ち満ちた（re+plere）" }
+      ],
+      compounds: [
+        { phrase: "policy implementation",   desc: "政策の実施" },
+        { phrase: "software implementation", desc: "ソフトウェア実装" },
+        { phrase: "full implementation",     desc: "完全実施" }
+      ]
+    },
+
+    "assessment": {
+      origin: "ラテン語 assidere（傍らに座る・助ける）< ad-（〜へ）+ sedere（座る）+ -ment（名詞接尾辞）。「判事の傍らに座って査定を助ける」という法廷の実務から「評価・査定」の意味が生まれた。\n\n英語には15世紀に採用され、「査定・評価・課税」の意味で定着。税務査定（tax assessment）から始まり、20世紀以降に教育評価（educational assessment）・リスク評価（risk assessment）へと広がり、現代の様々な専門分野で使われる重要語となった。\n\n現代英語では risk assessment（リスク評価）・performance assessment（業績評価）・self-assessment（自己評価）のように教育・医療・ビジネスで広く使われる。",
+      derivatives: [
+        { word: "assess",     desc: "評価する・査定する（動詞）" },
+        { word: "assessor",   desc: "査定員・アドバイザー（名詞）" }
+      ],
+      family: [
+        { word: "session",   desc: "会議・セッション（sedere）" },
+        { word: "possess",   desc: "所有する（pos+sedere）" },
+        { word: "obsess",    desc: "取り憑く（ob+sedere）" },
+        { word: "preside",   desc: "議長を務める（pre+sedere）" }
+      ],
+      compounds: [
+        { phrase: "risk assessment",        desc: "リスク評価" },
+        { phrase: "self-assessment",        desc: "自己評価" },
+        { phrase: "performance assessment", desc: "業績評価" }
+      ]
+    },
+
+    "consequence": {
+      origin: "ラテン語 consequentia（連続・結論）< consequi（後に続く）< con-（共に）+ sequi（続く・従う）+ -ence（名詞接尾辞）。「後に続いてくるもの」が原義。sequence（順序）・sequel（続編）と同根の sequi を含む。\n\n英語には15世紀に採用され、「結果・重大性・因果関係」の意味で定着。哲学では「前提から必然的に続く帰結」という論理用語として使われ、一般的には「行動の結果・波及効果」を指す。\n\n現代英語では face the consequences（結果に向き合う）・as a consequence（その結果として）・far-reaching consequences（広範な影響）のように論理・倫理・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "consequent",    desc: "結果として生じる・必然的な（形容詞）" },
+        { word: "consequential", desc: "重大な・結果として生じる（形容詞）" },
+        { word: "consequently",  desc: "その結果として・したがって（副詞）" }
+      ],
+      family: [
+        { word: "sequence",  desc: "順序・数列（sequi）" },
+        { word: "sequel",    desc: "続編・後続（sequi）" },
+        { word: "pursue",    desc: "追求する（pro+sequi）" },
+        { word: "subsequent", desc: "後続の（sub+sequi）" }
+      ],
+      compounds: [
+        { phrase: "face the consequences",     desc: "結果に直面する" },
+        { phrase: "far-reaching consequences", desc: "広範な影響・帰結" },
+        { phrase: "as a consequence",          desc: "その結果として" }
+      ]
+    },
+
+    "assumption": {
+      origin: "ラテン語 assumptio（引き上げること・前提）< assumere（引き取る・取り込む）< ad-（〜へ）+ sumere（取る）< sub-（下から）+ emere（取る）+ -tion（名詞接尾辞）。「前提として取り込む」が原義。\n\n英語には15世紀に採用され、「前提・仮定・思い込み」の意味で定着。哲学・論理学では「証明なしに認める前提命題」を指し、日常では「確認せずに真実とみなすこと」を意味する。キリスト教では「聖母被昇天」（Assumption of Mary）でも使われる。\n\n現代英語では make an assumption（仮定する）・underlying assumption（根底にある前提）・challenge assumptions（前提を問い直す）のように論理・科学・ビジネスで幅広く使われる。",
+      derivatives: [
+        { word: "assume",    desc: "仮定する・前提とする・引き受ける（動詞）" },
+        { word: "assuming",  desc: "〜と仮定すれば（接続詞）" }
+      ],
+      family: [
+        { word: "consume",   desc: "消費する（con+sumere）" },
+        { word: "resume",    desc: "再開する（re+sumere）" },
+        { word: "presume",   desc: "推定する・思い込む（pre+sumere）" },
+        { word: "subsume",   desc: "包摂する（sub+sumere）" }
+      ],
+      compounds: [
+        { phrase: "make an assumption",       desc: "仮定する" },
+        { phrase: "underlying assumption",    desc: "根底にある前提" },
+        { phrase: "challenge assumptions",    desc: "前提を問い直す" }
+      ]
+    },
+
+    "substance": {
+      origin: "ラテン語 substantia（本質・実体・財産）< substare（下に立つ）< sub-（下に）+ stare（立つ）+ -tia（名詞接尾辞）。「下に立って支えているもの・実体」が原義。アリストテレスの形而上学で「事物の本質的な基盤」を指す概念として使われた。\n\n英語には14世紀に採用され、「物質・実体・内容・財産」の多義的な意味で定着。哲学では「存在の基盤」、化学では「化学物質」、一般的には「中身・要点」という意味で使われる。\n\n現代英語では substance abuse（薬物乱用）・lack substance（中身がない）・the substance of the argument（論証の実質）のように哲学・化学・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "substantial",   desc: "実質的な・かなりの・堅固な（形容詞）" },
+        { word: "substantially", desc: "実質的に・かなり（副詞）" },
+        { word: "substantiate",  desc: "実証する・裏付ける（動詞）" }
+      ],
+      family: [
+        { word: "status",    desc: "状態・地位（stare）" },
+        { word: "static",    desc: "静的な・静止した（statos）" },
+        { word: "stable",    desc: "安定した（stabilis）" },
+        { word: "obstacle",  desc: "障害物（ob+stare）" }
+      ],
+      compounds: [
+        { phrase: "substance abuse",        desc: "薬物・物質乱用" },
+        { phrase: "lack substance",         desc: "中身が乏しい" },
+        { phrase: "substantial evidence",   desc: "実質的な証拠" }
+      ]
+    },
+
+    "proportion": {
+      origin: "ラテン語 proportio（比・釣り合い）< pro-（〜に対して）+ portio（部分・割り当て）< pars（部分）の対格 portionem + -tion（名詞接尾辞）。「部分に対する相互関係」が原義で、数学・芸術の比例・調和を指した。\n\n英語には15世紀に採用され、「比率・割合・均衡・規模」の意味で定着。数学の「比例」から芸術の「プロポーション」・社会科学の「〜の割合」まで幅広い文脈で使われる多義語。\n\n現代英語では in proportion to（〜に比例して）・out of proportion（不釣り合いに）・proportion of the population（人口の割合）のように科学・芸術・統計で広く使われる。",
+      derivatives: [
+        { word: "proportional",   desc: "比例的な・均衡のとれた（形容詞）" },
+        { word: "proportionate",  desc: "釣り合った（形容詞）" },
+        { word: "disproportionate", desc: "不釣り合いな（形容詞）" }
+      ],
+      family: [
+        { word: "portion",   desc: "部分・割り当て（portio）" },
+        { word: "part",      desc: "部分（pars）" },
+        { word: "partition", desc: "分割（pars+ition）" }
+      ],
+      compounds: [
+        { phrase: "in proportion to",      desc: "〜に比例して" },
+        { phrase: "out of proportion",     desc: "不釣り合いに・誇張して" },
+        { phrase: "disproportionate share", desc: "不均衡に大きな割合" }
+      ]
+    },
+
+    "sustainable": {
+      origin: "ラテン語 sustinere（下から支える・持ちこたえる）< sus-（下から）+ tenere（持つ・保つ）+ -able（可能を示す接尾辞）。「長期間持ちこたえられる状態」が原義。\n\n英語には17世紀に採用されたが、20世紀後半の環境運動とともに重要性が急増した。1987年の「ブルントラント報告」が「持続可能な開発」（sustainable development）を定義して以来、環境・政策の核心概念として世界的に普及した。\n\n現代英語では sustainable development（持続可能な開発）・sustainable agriculture（持続可能農業）・environmentally sustainable（環境的に持続可能）のように環境・経済・政策で不可欠な語彙。",
+      derivatives: [
+        { word: "sustainability",   desc: "持続可能性（名詞）" },
+        { word: "sustainably",      desc: "持続可能な形で（副詞）" },
+        { word: "unsustainable",    desc: "持続不可能な（形容詞）" }
+      ],
+      family: [
+        { word: "sustain",    desc: "支える・持続させる（動詞）" },
+        { word: "maintain",   desc: "維持する（manu+tenere）" },
+        { word: "contain",    desc: "含む・封じ込める（con+tenere）" },
+        { word: "retain",     desc: "保持する（re+tenere）" }
+      ],
+      compounds: [
+        { phrase: "sustainable development",   desc: "持続可能な開発" },
+        { phrase: "sustainable agriculture",   desc: "持続可能農業" },
+        { phrase: "sustainability goals",      desc: "持続可能性目標" }
+      ]
+    },
+
+    "dimension": {
+      origin: "ラテン語 dimensio（測量・寸法）< dimetiri（測り切る）< dis-（完全に）+ metiri（測る）+ -tion（名詞接尾辞）。「完全に測られた長さ」が原義。meter（メートル）・geometry（幾何学）と同根の metiri を含む。\n\n英語には16世紀に採用され、数学・物理学の「次元・寸法」の意味で定着。20世紀以降、比喩的に「側面・局面」の意味が加わり、social dimensions of poverty（貧困の社会的側面）のように社会科学でも重要な語となった。\n\n現代英語では three dimensions（三次元）・political dimension（政治的側面）・add a new dimension（新たな局面を加える）のように科学・社会科学・日常で幅広く使われる。",
+      derivatives: [
+        { word: "dimensional",     desc: "次元の・側面の（形容詞）" },
+        { word: "multidimensional", desc: "多次元の・多面的な（形容詞）" }
+      ],
+      family: [
+        { word: "measure",   desc: "測る・尺度（metiri の転）" },
+        { word: "meter",     desc: "メートル・韻律（metron）" },
+        { word: "geometry",  desc: "幾何学（geo+metria）" }
+      ],
+      compounds: [
+        { phrase: "three dimensions",    desc: "三次元" },
+        { phrase: "political dimension", desc: "政治的側面" },
+        { phrase: "add a dimension",     desc: "新たな局面を加える" }
+      ]
+    },
+
+    "relevance": {
+      origin: "中世ラテン語 relevans（持ち上げる・軽くする・関連する）の現在分詞 < relevare（再び持ち上げる）< re-（再び）+ levare（持ち上げる・軽くする）< levis（軽い）+ -ance（名詞接尾辞）。「重荷を持ち上げて軽くする＝問題に対処できる」から「関連性」へ転じた。\n\n英語には17世紀に法律用語として採用され、「証拠・事実が訴訟に関連すること」を意味した。その後一般化し、「重要性・関係性・適切さ」の意味で広く使われるようになった。\n\n現代英語では relevance to the topic（話題への関連性）・lose relevance（時代遅れになる）・cultural relevance（文化的関連性）のように学術・教育・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "relevant",   desc: "関連する・適切な（形容詞）" },
+        { word: "irrelevant", desc: "無関係な・的外れな（形容詞）" }
+      ],
+      family: [
+        { word: "levitate",  desc: "空中浮揚する（levis）" },
+        { word: "elevate",   desc: "高める・上昇させる（e+levare）" },
+        { word: "alleviate", desc: "和らげる（ad+levare）" },
+        { word: "lever",     desc: "てこ（levare の転）" }
+      ],
+      compounds: [
+        { phrase: "relevance to the topic",  desc: "話題への関連性" },
+        { phrase: "cultural relevance",      desc: "文化的関連性" },
+        { phrase: "lose relevance",          desc: "関連性を失う・時代遅れになる" }
+      ]
+    },
+
+    "circumstance": {
+      origin: "ラテン語 circumstantia（周囲の状況）< circumstare（周りに立つ）< circum-（周りに）+ stare（立つ）+ -ce（名詞接尾辞）。「周りに立つもの＝取り巻く状況・事情」が原義。\n\n英語には14世紀に採用され、「状況・事情・条件」の意味で定着。「人を取り巻く環境・条件の総体」という意味で文学・法律・哲学で広く用いられてきた。\n\n現代英語では under the circumstances（その状況では）・extenuating circumstances（情状酌量すべき事情）・change in circumstances（状況の変化）のように法律・日常・倫理の場で広く使われる。",
+      derivatives: [
+        { word: "circumstantial",   desc: "状況的な・間接的な（形容詞）" },
+        { word: "circumstantiate",  desc: "状況証拠で証明する（動詞）" }
+      ],
+      family: [
+        { word: "circle",    desc: "円（circulus）" },
+        { word: "circuit",   desc: "回路・周回（circuitus）" },
+        { word: "circumference", desc: "円周（circum+ferre）" }
+      ],
+      compounds: [
+        { phrase: "under the circumstances",     desc: "その状況では・事情を考慮すると" },
+        { phrase: "extenuating circumstances",   desc: "情状酌量すべき事情" },
+        { phrase: "circumstantial evidence",     desc: "状況証拠" }
+      ]
+    },
+
+    "comprehensive": {
+      origin: "ラテン語 comprehensivus（把握する・包括する）< comprehendere（つかみ取る・理解する）< com-（共に）+ prehendere（つかむ）+ -ive（形容詞接尾辞）。「全体をまとめてつかみ取る」が原義。\n\n英語には17世紀に採用され、「包括的な・総合的な・広範な」の意味で定着。教育（comprehensive school：総合制学校）・保険（comprehensive coverage：総合補償）・政策（comprehensive plan：総合計画）など様々な文脈で広く使われる形容詞。\n\n現代英語では comprehensive review（総合的な見直し）・comprehensive plan（包括的な計画）・comprehensive insurance（総合保険）のように行政・教育・保険で頻繁に使われる。",
+      derivatives: [
+        { word: "comprehensively",    desc: "包括的に・総合的に（副詞）" },
+        { word: "comprehensiveness",  desc: "包括性・広範さ（名詞）" }
+      ],
+      family: [
+        { word: "comprehend",  desc: "理解する（com+prehendere）" },
+        { word: "apprehend",   desc: "逮捕する・理解する（ad+prehendere）" },
+        { word: "prehensile",  desc: "把握力のある（prehendere）" }
+      ],
+      compounds: [
+        { phrase: "comprehensive review",    desc: "総合的な見直し" },
+        { phrase: "comprehensive plan",      desc: "包括的な計画" },
+        { phrase: "comprehensive insurance", desc: "総合保険・車両保険" }
+      ]
+    },
+
+    "precise": {
+      origin: "ラテン語 praecisus（切り落とされた・簡潔にされた）< praecidere（前もって切る）< prae-（前に）+ caedere（切る）+ -e（形容詞語尾）。「余分なものを前もって切り落として正確にする」が原義。concise（簡潔な）・incise（切り込む）と同根の caedere を含む。\n\n英語には15世紀に採用され、「正確な・精密な・きっかりの」の意味で定着。科学・数学・言語学で「誤差のない正確さ」を指す重要な概念語として機能している。\n\n現代英語では be precise about（〜について正確に述べる）・precise measurement（精密な測定）・precision instrument（精密機器）のように科学・法律・日常で広く使われる。",
+      derivatives: [
+        { word: "precisely",   desc: "正確に・ちょうど（副詞）" },
+        { word: "precision",   desc: "精度・正確さ（名詞）" },
+        { word: "imprecise",   desc: "不正確な・曖昧な（形容詞）" }
+      ],
+      family: [
+        { word: "concise",  desc: "簡潔な（con+caedere）" },
+        { word: "incise",   desc: "切り込む・彫る（in+caedere）" },
+        { word: "decide",   desc: "決断する（de+caedere）" },
+        { word: "scissors", desc: "はさみ（caedere の転）" }
+      ],
+      compounds: [
+        { phrase: "precise measurement",   desc: "精密な測定" },
+        { phrase: "precision instrument",  desc: "精密機器" },
+        { phrase: "be precise about",      desc: "〜について正確に述べる" }
+      ]
+    },
+
+    "consistent": {
+      origin: "ラテン語 consistere（一緒に立つ・持ちこたえる）< con-（共に）+ sistere（立たせる・止まる）< stare（立つ）の使役形 + -ent（形容詞接尾辞）。「共に立って揺るがない」が原義。\n\n英語には17世紀に採用され、「一貫した・矛盾のない・安定した」の意味で定着。論理学で「矛盾を含まない命題の集合」・統計学で「一致推定量」・日常では「ばらつきのない行動・品質」を指す重要語。\n\n現代英語では consistent results（一貫した結果）・consistent with the evidence（証拠と一致する）・remain consistent（一貫し続ける）のように科学・法律・日常で幅広く使われる。",
+      derivatives: [
+        { word: "consistently",    desc: "一貫して・常に（副詞）" },
+        { word: "consistency",     desc: "一貫性・整合性（名詞）" },
+        { word: "inconsistent",    desc: "矛盾した・不安定な（形容詞）" }
+      ],
+      family: [
+        { word: "exist",    desc: "存在する（ex+sistere）" },
+        { word: "insist",   desc: "主張する（in+sistere）" },
+        { word: "persist",  desc: "持続する（per+sistere）" },
+        { word: "resist",   desc: "抵抗する（re+sistere）" }
+      ],
+      compounds: [
+        { phrase: "consistent results",         desc: "一貫した・再現性のある結果" },
+        { phrase: "consistent with evidence",   desc: "証拠と一致している" },
+        { phrase: "remain consistent",          desc: "一貫し続ける" }
+      ]
+    },
+
+    "dynamic": {
+      origin: "ギリシャ語 dynamikos（力強い・能力のある）< dynamis（力・能力）< dynasthai（できる・力を持つ）+ -ic（形容詞接尾辞）。dynasty（王朝）・dynamite（ダイナマイト）と同根で「力」が核心義。\n\nフランス語 dynamique を経て英語には18世紀に物理学用語（動力学 dynamics）として採用された。19世紀以降に「活発な・動的な」という一般的な意味で広まり、現代では「変化し続ける・エネルギッシュな」の意味で多く使われる。\n\n現代英語では dynamic personality（ダイナミックな個性）・power dynamics（力関係）・dynamic market（変化の激しい市場）のように物理・社会・心理の場で広く使われる。",
+      derivatives: [
+        { word: "dynamism",  desc: "活力・ダイナミズム（名詞）" },
+        { word: "dynamics",  desc: "動力学・力学関係（名詞）" }
+      ],
+      family: [
+        { word: "dynasty",   desc: "王朝・支配者一族（dynastes）" },
+        { word: "dynamite",  desc: "ダイナマイト（dynamis）" }
+      ],
+      compounds: [
+        { phrase: "power dynamics",   desc: "力関係・権力構造" },
+        { phrase: "group dynamics",   desc: "集団力学" },
+        { phrase: "dynamic market",   desc: "変化の激しい市場" }
+      ]
+    },
+
+    "subjective": {
+      origin: "ラテン語 subjectus（下に置かれた）< subjicere（下に投げる・提出する）< sub-（下に）+ jacere（投げる）+ -ive（形容詞接尾辞）。哲学では「認識する主体の下に置かれた＝主体に依存する」という意味で使われた。\n\n英語には17世紀に哲学用語として採用され、「主観的な・個人の認識に依存する」の意味で定着。objective（客観的）と対になる重要な認識論の概念として、哲学・心理学・芸術批評で広く使われている。\n\n現代英語では subjective experience（主観的経験）・highly subjective（非常に主観的な）・subjective opinion（主観的な意見）のように哲学・心理学・日常で幅広く使われる。",
+      derivatives: [
+        { word: "subjectivity",   desc: "主観性・主観（名詞）" },
+        { word: "subjectively",   desc: "主観的に（副詞）" }
+      ],
+      family: [
+        { word: "objective",  desc: "客観的な・目的（ob+jacere）" },
+        { word: "subject",    desc: "主題・科目・服従する（sub+jacere）" },
+        { word: "project",    desc: "投影する・計画（pro+jacere）" },
+        { word: "inject",     desc: "注射する（in+jacere）" }
+      ],
+      compounds: [
+        { phrase: "subjective experience",   desc: "主観的経験" },
+        { phrase: "highly subjective",       desc: "非常に主観的な" },
+        { phrase: "subjective vs objective", desc: "主観対客観" }
+      ]
+    },
+
+    "objective": {
+      origin: "ラテン語 objectus（向かって投げられたもの）< objicere（向かって投げる・提示する）< ob-（向かって）+ jacere（投げる）+ -ive（形容詞接尾辞）。「観察者に向かって投げられた＝外在する」から「客観的な」の意味が生まれた。\n\n英語には17世紀に哲学用語として採用され、「客観的な・偏見のない」の形容詞と「目的・目標」の名詞として定着。認識論での subjective（主観的）の対義語として機能し、現代ではビジネス・軍事でも「達成目標」を指す重要語となった。\n\n現代英語では objective analysis（客観的分析）・set an objective（目標を設定する）・achieve the objective（目標を達成する）のように科学・経営・哲学で幅広く使われる。",
+      derivatives: [
+        { word: "objectivity",   desc: "客観性（名詞）" },
+        { word: "objectively",   desc: "客観的に（副詞）" },
+        { word: "objectify",     desc: "物化する・客体化する（動詞）" }
+      ],
+      family: [
+        { word: "subjective", desc: "主観的な（sub+jacere）" },
+        { word: "project",    desc: "投影する・計画（pro+jacere）" },
+        { word: "reject",     desc: "拒絶する（re+jacere）" },
+        { word: "trajectory", desc: "軌跡（trans+jacere）" }
+      ],
+      compounds: [
+        { phrase: "objective analysis",  desc: "客観的分析" },
+        { phrase: "set an objective",    desc: "目標を設定する" },
+        { phrase: "objective evidence",  desc: "客観的証拠" }
+      ]
+    },
+
+    "potential": {
+      origin: "ラテン語 potentialis（力のある）< potentia（力・能力）< potens（力強い）< posse（できる）< pot-（力）+ esse（ある）+ -ial（形容詞接尾辞）。「力として蓄えられた・可能性として存在する」が原義。\n\n英語には15世紀に哲学・物理学用語として採用され、「潜在的な・可能性のある」の意味で定着。アリストテレスの「可能態」（potential）と「現実態」（actual）の対概念として哲学的に重要で、物理学では「位置エネルギー」（potential energy）を指す。\n\n現代英語では have great potential（大きな可能性を持つ）・potential risk（潜在的なリスク）・realize one's potential（潜在能力を発揮する）のように科学・ビジネス・教育で幅広く使われる。",
+      derivatives: [
+        { word: "potentially",  desc: "潜在的に・もしかしたら（副詞）" },
+        { word: "potentiality", desc: "潜在性・可能性（名詞）" }
+      ],
+      family: [
+        { word: "potent",   desc: "強力な・効果的な（potens）" },
+        { word: "power",    desc: "力・権力（posse の転）" },
+        { word: "possible", desc: "可能な（posse）" },
+        { word: "omnipotent", desc: "全能の（omni+potens）" }
+      ],
+      compounds: [
+        { phrase: "realize one's potential", desc: "潜在能力を発揮する" },
+        { phrase: "potential risk",          desc: "潜在的なリスク" },
+        { phrase: "potential energy",        desc: "位置エネルギー（物理学）" }
+      ]
+    },
+
+    "commitment": {
+      origin: "ラテン語 committere（共に送る・任せる・犯す）< com-（共に）+ mittere（送る）+ -ment（名詞接尾辞）。「共に差し出す・委ねる」が原義で、committee（委員会）・commission（委任）と同根の mittere を含む。\n\n英語には14世紀に「収監・委任」の意味で採用された。17世紀以降に「誓約・義務の引き受け・専念」の意味が加わり、現代では個人的・組織的な責任の誓約を表す重要語となった。\n\n現代英語では make a commitment（誓約する）・long-term commitment（長期的な責任）・commitment to quality（品質へのこだわり）のようにビジネス・人間関係・政治の場で幅広く使われる。",
+      derivatives: [
+        { word: "commit",     desc: "約束する・委ねる・犯す（動詞）" },
+        { word: "committee",  desc: "委員会（committere）" },
+        { word: "committed",  desc: "専心した・委ねられた（形容詞）" }
+      ],
+      family: [
+        { word: "mission",   desc: "使命・ミッション（mittere）" },
+        { word: "omit",      desc: "省略する（ob+mittere）" },
+        { word: "submit",    desc: "提出する・服従する（sub+mittere）" },
+        { word: "transmit",  desc: "送信する（trans+mittere）" }
+      ],
+      compounds: [
+        { phrase: "make a commitment",      desc: "誓約する・約束する" },
+        { phrase: "long-term commitment",   desc: "長期的な責任・専念" },
+        { phrase: "commitment to quality",  desc: "品質へのこだわり" }
+      ]
     }
 
   };

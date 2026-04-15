@@ -22900,6 +22900,519 @@
         { phrase: "image stabilization",    desc: "手ぶれ補正" },
         { phrase: "political stabilization", desc: "政治的安定化" }
       ]
+    },
+
+    "tolerate": {
+      origin: "ラテン語 tolerare（耐える・我慢する）< tollere（持ち上げる）の変形。重荷を支える・持ちこたえるが原義で、宗教的寛容（religious tolerance）の文脈で頻出し、啓蒙時代に政治・倫理語彙として確立した語である。\n\n英語には16世紀に採用され、苦痛・困難・他者の異なる意見に対して我慢するの意味で使われた。宗教改革期のロックら思想家が toleration（宗教的黙認）を論じたことで哲学的重みが増した。\n\n現代英語ではtolerate pain（痛みに耐える）・tolerate criticism（批判を受け入れる）・zero tolerance（ゼロ容認政策）のように、医療・教育・社会政策の幅広い場面で使われる。",
+      derivatives: [
+        { word: "tolerance",   desc: "寛容・耐性（名詞）" },
+        { word: "tolerable",   desc: "耐えられる（形容詞）" },
+        { word: "intolerant",  desc: "不寛容な（否定形）" },
+        { word: "toleration",  desc: "黙認・容認（名詞）" }
+      ],
+      family: [
+        { word: "endure",   desc: "耐え忍ぶ（durus）" },
+        { word: "bear",     desc: "担う・耐える（古英語）" },
+        { word: "forbear",  desc: "自制する（for+bear）" }
+      ],
+      compounds: [
+        { phrase: "zero tolerance",       desc: "ゼロ容認・厳格方針" },
+        { phrase: "drug tolerance",       desc: "薬剤耐性" },
+        { phrase: "tolerate differences", desc: "違いを受け入れる" }
+      ]
+    },
+
+    "evacuate": {
+      origin: "ラテン語 evacuare（空にする）< e-（外へ）+ vacuus（空の）< vacare（空である）。vacuum（真空）・vacant（空いている）・vacation（休暇）と同じ vacare を語根に持つ。\n\n英語には16世紀に医学用語として入り、体内から排出するの意で使われた後、17世紀以降に場所を空にする・立ち退くの意味が広まった。軍事・防災語彙として20世紀に特に重要性を増した語である。\n\n現代英語ではevacuate the building（建物を避難させる）・evacuation order（避難命令）・emergency evacuation（緊急避難）のように防災・緊急対応の文脈で欠かせない語として機能する。",
+      derivatives: [
+        { word: "evacuation",  desc: "避難・撤退（名詞）" },
+        { word: "evacuee",     desc: "避難者（名詞）" }
+      ],
+      family: [
+        { word: "vacuum",   desc: "真空（vacare）" },
+        { word: "vacant",   desc: "空いている（vacare）" },
+        { word: "vacation", desc: "休暇・空き時間（vacare）" },
+        { word: "void",     desc: "空虚・無効（vacare の変形）" }
+      ],
+      compounds: [
+        { phrase: "evacuation order",     desc: "避難指示" },
+        { phrase: "evacuate civilians",   desc: "民間人を避難させる" },
+        { phrase: "emergency evacuation", desc: "緊急避難" }
+      ]
+    },
+
+    "decorate": {
+      origin: "ラテン語 decorare（飾る・美しくする）< decus（装飾・名誉）< decere（ふさわしい・似合う）。decent（品のある）・decorum（礼儀）と同根で、ふさわしい美しさを加えるが原義。\n\n英語には16世紀に採用され、まず栄誉を与える・勲章を授けるの意味で用いられ、17世紀以降に装飾する・飾り付けるの意味が主流となった。インテリアデザインの発展とともに日常語になった語である。\n\n現代英語ではdecorate a room（部屋を飾る）・interior decoration（インテリア装飾）・decorated officer（勲章を受けた将校）のように、美的活動と栄誉授与の双方で幅広く使われる。",
+      derivatives: [
+        { word: "decoration",  desc: "装飾・勲章（名詞）" },
+        { word: "decorative",  desc: "装飾的な（形容詞）" },
+        { word: "decorator",   desc: "装飾家（名詞）" }
+      ],
+      family: [
+        { word: "decent",  desc: "品のある（decere）" },
+        { word: "decorum", desc: "礼儀・品位（decus）" },
+        { word: "dignity", desc: "威厳（dignus）" }
+      ],
+      compounds: [
+        { phrase: "interior decoration",    desc: "室内装飾" },
+        { phrase: "decorate for Christmas", desc: "クリスマスの飾り付けをする" },
+        { phrase: "decorated veteran",      desc: "勲章を受けた退役軍人" }
+      ]
+    },
+
+    "examine": {
+      origin: "ラテン語 examinare（量る・調べる）< examen（秤の針）< exigere（計測する）< ex-（外へ）+ agere（動かす）。exact（正確な）・essay（試み）・act（行為）と同根の語族に属する。\n\n英語には14世紀にフランス語 examiner を経て採用され、裁判で尋問するの意味が先行した。教育制度の発展に伴い試験するの意味が16世紀以降に広まり、examination（試験）が重要語となった。\n\n現代英語ではexamine a patient（患者を診察する）・cross-examine（反対尋問する）・medical examination（健康診断）のように医療・法律・教育の重要語として機能する。",
+      derivatives: [
+        { word: "examination",  desc: "試験・診察・尋問（名詞）" },
+        { word: "examiner",     desc: "試験官・審査員（名詞）" },
+        { word: "reexamine",    desc: "再調査する（re-）" }
+      ],
+      family: [
+        { word: "exact",  desc: "正確な（ex+agere）" },
+        { word: "essay",  desc: "試みる・論文（exagium から）" },
+        { word: "act",    desc: "行為（agere）" }
+      ],
+      compounds: [
+        { phrase: "cross-examine",        desc: "反対尋問する" },
+        { phrase: "medical examination",  desc: "健康診断" },
+        { phrase: "examine the evidence", desc: "証拠を調べる" }
+      ]
+    },
+
+    "expand": {
+      origin: "ラテン語 expandere（広げる）< ex-（外へ）+ pandere（広げる・開く）。外側に向けて広げるが原義で、span（幅）と遠縁の語根を持つ。\n\n英語には15世紀に採用され、物理的な広がる・膨張するの意味から、比喩的に事業・影響力・概念を拡大するの意味へと使用域が広がった。科学・経済・数学の重要語となった。\n\n現代英語ではexpand a business（事業を拡大する）・expand one's vocabulary（語彙を広げる）・economic expansion（経済拡大）のように、成長・発展を表す中核的な動詞として機能する。",
+      derivatives: [
+        { word: "expansion",    desc: "拡大・膨張（名詞）" },
+        { word: "expansive",    desc: "広大な・外向的な（形容詞）" },
+        { word: "expansionism", desc: "膨張主義（名詞）" }
+      ],
+      family: [
+        { word: "spread",  desc: "広げる（古英語）" },
+        { word: "extend",  desc: "延ばす（ex+tendere）" },
+        { word: "amplify", desc: "拡大する（amplus）" }
+      ],
+      compounds: [
+        { phrase: "expand a business",     desc: "事業を拡大する" },
+        { phrase: "economic expansion",    desc: "経済拡大" },
+        { phrase: "expand one's horizons", desc: "視野を広げる" }
+      ]
+    },
+
+    "explore": {
+      origin: "ラテン語 explorare（偵察する・調べる）< ex-（外へ）+ plorare（叫ぶ）。元は狩猟で獲物を追い立てるために叫ぶ行為を指したが、転じて未知の場所を調べに行くの意となった。\n\n英語には16世紀に大航海時代の文脈で採用され、未知の土地を探検するの意味で定着した。exploration（探検）・explorer（探検家）とともに地理的発見の語彙として確立し、科学的調査にも拡張された。\n\n現代英語ではexplore new markets（新市場を開拓する）・space exploration（宇宙探査）・explore options（選択肢を検討する）のように、地理・宇宙・ビジネス・哲学の幅広い文脈で使われる。",
+      derivatives: [
+        { word: "exploration",  desc: "探検・探査・調査（名詞）" },
+        { word: "explorer",     desc: "探検家（名詞）" },
+        { word: "exploratory",  desc: "探索的な（形容詞）" }
+      ],
+      family: [
+        { word: "implore",  desc: "懇願する（im+plorare）" },
+        { word: "discover", desc: "発見する（dis+cooperire）" },
+        { word: "venture",  desc: "冒険する（ventura）" }
+      ],
+      compounds: [
+        { phrase: "space exploration",   desc: "宇宙探査" },
+        { phrase: "explore options",     desc: "選択肢を検討する" },
+        { phrase: "exploratory surgery", desc: "試験的手術" }
+      ]
+    },
+
+    "external": {
+      origin: "ラテン語 externus（外側の）< exter（外の）< ex-（外）の拡張形。extra（外側に）・extreme（最果ての）・exterior（外観）と同根で、外を意味する接頭辞 ex- / exter- から派生する。\n\n英語には15世紀にフランス語 externe を経て採用され、外部の・外側にあるの意味で哲学・医学・外交の語彙として確立した。internal（内部の）との対比が意味の核心を形成している。\n\n現代英語ではexternal affairs（外務）・external audit（外部監査）・external factors（外的要因）のように、組織・身体・論理の外側を指す中核的な形容詞として機能する。",
+      derivatives: [
+        { word: "externally",   desc: "外部から・外見上（副詞）" },
+        { word: "externalize",  desc: "外部化する（動詞）" },
+        { word: "externality",  desc: "外部性・外部効果（経済用語）" }
+      ],
+      family: [
+        { word: "exterior",  desc: "外観・外側の（exter）" },
+        { word: "extra",     desc: "外側に・余分な（exter）" },
+        { word: "extreme",   desc: "極端な・最外部の（exter）" },
+        { word: "internal",  desc: "内部の（対義語）" }
+      ],
+      compounds: [
+        { phrase: "external affairs",  desc: "外務・対外関係" },
+        { phrase: "external audit",    desc: "外部監査" },
+        { phrase: "external pressure", desc: "外圧・外部圧力" }
+      ]
+    },
+
+    "extreme": {
+      origin: "ラテン語 extremus（最も外側の）< exter（外の）の最上級形。external（外部の）・exterior（外側の）・extra（余分な）と同根で、外の中でも最も遠いが原義。\n\n英語には14世紀にフランス語 extrême を経て採用され、最端部・最大限度の意味で使われた。16世紀以降に過激な・極端なの意味が広まり、extremism（過激主義）・extremist（過激派）という政治語彙へと発展した。\n\n現代英語ではextreme sports（エクストリームスポーツ）・extreme weather（極端な気象）・go to extremes（極端に走る）のように、危険・過激・最大限を表す形容詞・名詞として多様に使われる。",
+      derivatives: [
+        { word: "extremely",  desc: "非常に・極めて（副詞）" },
+        { word: "extremism",  desc: "過激主義（名詞）" },
+        { word: "extremist",  desc: "過激派（名詞）" },
+        { word: "extremity",  desc: "末端・極限・四肢（名詞）" }
+      ],
+      family: [
+        { word: "exterior",  desc: "外側の（exter）" },
+        { word: "external",  desc: "外部の（exter）" },
+        { word: "extra",     desc: "余分な（exter）" }
+      ],
+      compounds: [
+        { phrase: "extreme sports",  desc: "エクストリームスポーツ" },
+        { phrase: "extreme weather", desc: "異常気象・極端な気象" },
+        { phrase: "go to extremes",  desc: "極端に走る" }
+      ]
+    },
+
+    "fabricate": {
+      origin: "ラテン語 fabricare（製作する）< fabrica（工房・技術）< faber（職人・大工）。fabric（布地・構造）・forge（鍛造する）と同根で、巧みな技術で物を作るが原義。\n\n英語には16世紀に採用され、まず物品を製造するの意味で使われたが、17世紀以降に事実を作り上げる・偽造するの否定的な意味が加わった。現代では製造すると嘘をでっち上げるの二つの意味を持つ多義語である。\n\n現代英語ではfabricate evidence（証拠を捏造する）・prefabricated house（プレハブ住宅）・fabricate a story（話を作る）のように、工業・法律・修辞の文脈で使われる。",
+      derivatives: [
+        { word: "fabrication",  desc: "製造・捏造（名詞）" },
+        { word: "fabric",       desc: "布地・構造・組織（名詞）" },
+        { word: "prefabricate", desc: "プレハブ製造する（動詞）" }
+      ],
+      family: [
+        { word: "forge",    desc: "鍛造する・偽造する（faber から）" },
+        { word: "factory",  desc: "工場（facere）" },
+        { word: "craft",    desc: "工芸・技術（古英語）" }
+      ],
+      compounds: [
+        { phrase: "fabricate evidence",  desc: "証拠を捏造する" },
+        { phrase: "prefabricated house", desc: "プレハブ住宅" },
+        { phrase: "fabrication of lies", desc: "嘘の作り話" }
+      ]
+    },
+
+    "fabric": {
+      origin: "フランス語 fabrique（建物・工房）< ラテン語 fabrica（工房・技術）< faber（職人）。fabricate（製造する）・forge（鍛造する）と同根で、職人が作るもの・構造物が原義。\n\n英語には16世紀に建物・構造の意味で採用され、17世紀に織物・布地の意味に転じた。さらに社会の構造・組織の骨格を表す比喩的用法が確立し、the fabric of society（社会の構造）のような表現が定着した。\n\n現代英語ではfabric of society（社会組織）・cotton fabric（綿生地）・soft fabric（柔らかい布地）のように、物質的・抽象的に組織・構造を表す名詞として多用される。",
+      derivatives: [
+        { word: "fabricate",   desc: "製作する・捏造する（動詞）" },
+        { word: "fabrication", desc: "製造・捏造（名詞）" }
+      ],
+      family: [
+        { word: "forge",     desc: "鍛造する（faber）" },
+        { word: "structure", desc: "構造（structura）" },
+        { word: "texture",   desc: "質感・織り（texere）" }
+      ],
+      compounds: [
+        { phrase: "fabric of society", desc: "社会の構造・組織" },
+        { phrase: "cotton fabric",     desc: "綿生地" },
+        { phrase: "fabric softener",   desc: "柔軟剤" }
+      ]
+    },
+
+    "failure": {
+      origin: "アングロ・フランス語 faillure < 古フランス語 faillir（失敗する）< ラテン語 fallere（欺く・外れる）。fall（落ちる）・false（偽の）・fault（欠陥）・fallacy（誤謬）と同根で、期待から外れるが語根の意味。\n\n英語には17世紀に採用され、fall や fail が既にあったが名詞 failure として独立し、義務・期待に応えられないことの意味で定着した。法律・医学・工学でそれぞれ専門的な用法が発展している。\n\n現代英語ではheart failure（心不全）・engine failure（エンジン故障）・failure to comply（不遵守）のように、医療・工学・法律・ビジネスの必須語彙として機能する。",
+      derivatives: [
+        { word: "fail",    desc: "失敗する・落第する（動詞）" },
+        { word: "failing", desc: "欠点・不足（名詞/形容詞）" }
+      ],
+      family: [
+        { word: "false",      desc: "偽の（fallere）" },
+        { word: "fault",      desc: "欠陥・過失（fallere）" },
+        { word: "fallacy",    desc: "誤謬・詭弁（fallere）" },
+        { word: "infallible", desc: "絶対確実な（in+fallere）" }
+      ],
+      compounds: [
+        { phrase: "heart failure",     desc: "心不全" },
+        { phrase: "failure to comply", desc: "不遵守" },
+        { phrase: "doomed to failure", desc: "失敗が運命づけられた" }
+      ]
+    },
+
+    "familiar": {
+      origin: "ラテン語 familiaris（家族の・親密な）< familia（家族・世帯）< famulus（召使い・家人）。family（家族）と同語族で、家族のように近しいが原義。\n\n英語には14世紀にフランス語 familier を経て採用され、近しい・親密なの意味で使われた。中世には悪魔の使い魔（familiar spirit）という意味もあり、魔女裁判の文書にも登場する語である。\n\n現代英語ではfamiliar face（見慣れた顔）・be familiar with（〜に精通している）・overly familiar（馴れ馴れしい）のように、知識・親密さ・礼儀の文脈で幅広く使われる形容詞である。",
+      derivatives: [
+        { word: "familiarity",  desc: "親密さ・精通（名詞）" },
+        { word: "familiarize",  desc: "慣れさせる（動詞）" },
+        { word: "unfamiliar",   desc: "不慣れな（否定形）" }
+      ],
+      family: [
+        { word: "family",   desc: "家族（familia）" },
+        { word: "fame",     desc: "名声（fama）" },
+        { word: "domestic", desc: "家庭の（domus）" }
+      ],
+      compounds: [
+        { phrase: "be familiar with",   desc: "〜に精通している" },
+        { phrase: "overly familiar",    desc: "馴れ馴れしい" },
+        { phrase: "familiar territory", desc: "慣れ親しんだ領域" }
+      ]
+    },
+
+    "fantasy": {
+      origin: "ギリシャ語 phantasia（現れ・想像）< phainein（現れる・光る）。phenomenon（現象）・phase（位相）・phantom（幻）と同根で、心の中に現れるものが原義。\n\n英語には14世紀にフランス語 fantasie を経て採用され、想像力・幻想・気まぐれの意味で使われた。ロマン主義・心理学の発展とともに意味が深まり、20世紀以降はファンタジー文学のジャンル名として定着した。\n\n現代英語ではfantasy novel（ファンタジー小説）・escape into fantasy（空想に逃げ込む）・fantasy world（幻想の世界）のように、文学・心理学・日常語彙で使われる重要語である。",
+      derivatives: [
+        { word: "fantastic",   desc: "素晴らしい・幻想的な（形容詞）" },
+        { word: "fantasize",   desc: "空想にふける（動詞）" },
+        { word: "fantastical", desc: "非現実的な・奇妙な（形容詞）" }
+      ],
+      family: [
+        { word: "phantom",    desc: "幻・幽霊（phainein）" },
+        { word: "phenomenon", desc: "現象（phainein）" },
+        { word: "fancy",      desc: "空想・好み（fantasy の短縮）" }
+      ],
+      compounds: [
+        { phrase: "fantasy novel",       desc: "ファンタジー小説" },
+        { phrase: "escape into fantasy", desc: "空想の世界に逃げる" },
+        { phrase: "fantasy world",       desc: "幻想の世界" }
+      ]
+    },
+
+    "feature": {
+      origin: "古フランス語 feature（作り・造り）< ラテン語 factura（製作物）< facere（作る）。factory（工場）・fact（事実）・affect（影響する）と同根で、作られた特徴・輪郭が原義。\n\n英語には14世紀に顔の特徴・輪郭の意味で採用され、17世紀以降に特徴・特色の一般的意味が広まった。映画産業（feature film）・ジャーナリズム（feature story）・技術仕様（feature set）へと用法が拡大した。\n\n現代英語ではfeature film（長編映画）・key feature（主要な特徴）・feature article（特集記事）のように、製品・メディア・人物の目立つ特徴を表す中核的な名詞・動詞として機能する。",
+      derivatives: [
+        { word: "featured",    desc: "特集された・主演の（形容詞）" },
+        { word: "featureless", desc: "特徴のない（形容詞）" }
+      ],
+      family: [
+        { word: "fact",   desc: "事実（facere）" },
+        { word: "factor", desc: "要因（facere）" },
+        { word: "affect", desc: "影響する（ad+facere）" }
+      ],
+      compounds: [
+        { phrase: "feature film",    desc: "長編映画" },
+        { phrase: "key feature",     desc: "主要な特徴" },
+        { phrase: "feature article", desc: "特集記事" }
+      ]
+    },
+
+    "focus": {
+      origin: "ラテン語 focus（炉・火床）。燃焼点が原義で、17世紀に数学・光学で焦点の意味に転用された。ケプラーやニュートンが光学的焦点を表すためにこの語を採用し、科学用語として確立した。\n\n英語には17世紀に光学・数学用語として採用され、レンズが光を集める点の意味が先行した。19世紀以降に注意・関心を集中させるの比喩的意味が広まり、20世紀のビジネス・教育語彙として定着した。\n\n現代英語ではfocus on the task（課題に集中する）・out of focus（焦点が合わない）・focus group（フォーカスグループ）のように、光学・心理・マーケティングの重要語として機能する。",
+      derivatives: [
+        { word: "focal",   desc: "焦点の・中心的な（形容詞）" },
+        { word: "focused", desc: "集中した・焦点の絞られた（形容詞）" }
+      ],
+      family: [
+        { word: "hearth",      desc: "炉端（古英語、意味的近縁）" },
+        { word: "concentrate", desc: "集中する（con+centrum）" },
+        { word: "converge",    desc: "収束する（con+vergere）" }
+      ],
+      compounds: [
+        { phrase: "focus on",     desc: "〜に焦点を当てる" },
+        { phrase: "out of focus", desc: "焦点が合わない" },
+        { phrase: "focus group",  desc: "フォーカスグループ（市場調査）" }
+      ]
+    },
+
+    "filter": {
+      origin: "中世ラテン語 filtrum（フェルト・濾布）< フランク語 *filtir（フェルト）。フェルトが液体を濾過する布として使われたことから、濾過する・選別するの意味が生まれた。felt（フェルト）と語源的に同じ素材名に由来する語である。\n\n英語には17世紀に液体を濾す器具・行為の意味で採用され、科学・工業の発展とともに重要語となった。20世紀のデジタル技術革命でフィルター機能が日常化し、SNS・写真・音響の用語としても定着した。\n\n現代英語ではfilter water（水を濾過する）・spam filter（スパムフィルター）・air filter（エアフィルター）のように、科学・技術・デジタルの語彙として幅広く使われる。",
+      derivatives: [
+        { word: "filtration", desc: "濾過（名詞）" },
+        { word: "filtrate",   desc: "濾液（名詞）" }
+      ],
+      family: [
+        { word: "felt",   desc: "フェルト（filter の語源）" },
+        { word: "sieve",  desc: "ふるい（古英語）" },
+        { word: "screen", desc: "選別する・遮る（古英語）" }
+      ],
+      compounds: [
+        { phrase: "spam filter", desc: "迷惑メールフィルター" },
+        { phrase: "air filter",  desc: "エアフィルター" },
+        { phrase: "filter out",  desc: "濾し取る・除外する" }
+      ]
+    },
+
+    "habitat": {
+      origin: "ラテン語 habitat（住む・生息する）< habitare（居住する）< habere（持つ・保つ）の派生形。habit（習慣）・inhabit（居住する）・exhibit（展示する）と同根で、継続的に住み続けるが原義。\n\n英語には18世紀に博物学・生態学の術語として採用され、動植物が自然に生息する環境を指す生態学用語として確立した。20世紀の環境運動の高まりとともに一般語彙にも広まった語である。\n\n現代英語ではnatural habitat（自然の生息地）・habitat destruction（生息地破壊）・wildlife habitat（野生動物の生息環境）のように、生態学・保全生物学・環境政策の中核的な用語として機能する。",
+      derivatives: [
+        { word: "habitation", desc: "居住・住居（名詞）" },
+        { word: "inhabit",    desc: "居住する（in+habitare）" },
+        { word: "inhabitant", desc: "住民・生息者（名詞）" }
+      ],
+      family: [
+        { word: "habit",    desc: "習慣（habere）" },
+        { word: "exhibit",  desc: "展示する（ex+habere）" },
+        { word: "prohibit", desc: "禁止する（pro+habere）" }
+      ],
+      compounds: [
+        { phrase: "natural habitat",     desc: "自然の生息地" },
+        { phrase: "habitat destruction", desc: "生息地破壊" },
+        { phrase: "habitat loss",        desc: "生息地の喪失" }
+      ]
+    },
+
+    "harmony": {
+      origin: "ギリシャ語 harmonia（結合・調和）< harmos（接合部）< arariskein（合わせる）。ぴったり合うことが原義で、ピタゴラスが数理的調和論を唱えたことから宇宙論・哲学の核心概念として発展した。\n\n英語には14世紀に音楽用語として採用され、複数の音が協和する状態を指した。人間関係や社会の調和の比喩的意味が17世紀以降に定着し、現代まで広く使われ続けている重要語である。\n\n現代英語ではharmony in music（音楽的和声）・racial harmony（人種間の調和）・in harmony with nature（自然と調和して）のように、音楽・社会・環境の幅広い文脈で使われる。",
+      derivatives: [
+        { word: "harmonize",  desc: "調和させる・和音をつける（動詞）" },
+        { word: "harmonious", desc: "調和した・仲の良い（形容詞）" },
+        { word: "disharmony", desc: "不調和（否定形）" }
+      ],
+      family: [
+        { word: "chord",   desc: "和音（harmonia から）" },
+        { word: "accord",  desc: "一致・合意（ad+cord）" },
+        { word: "concert", desc: "協調・演奏会（con+certare）" }
+      ],
+      compounds: [
+        { phrase: "racial harmony",    desc: "人種間の調和" },
+        { phrase: "in harmony with",   desc: "〜と調和して" },
+        { phrase: "four-part harmony", desc: "四声部の和声" }
+      ]
+    },
+
+    "honor": {
+      origin: "ラテン語 honos / honor（名誉・栄誉・敬意）。honest（正直な）・honorary（名誉の）・honorable（名誉ある）と同じ語族で、社会的に高く評価される品質が原義。\n\n英語には13世紀にフランス語 honur を経て採用され、封建制度の文脈で貴族の名誉・忠誠の義務を指した。近代以降は個人の誠実さ・社会的尊重の意味が中心となり、honor system・honor roll のような表現が生まれた。\n\n現代英語ではhonor a promise（約束を守る）・guest of honor（主賓）・honor code（名誉規則）のように、社会的倫理・礼儀・尊重を表す多用途な名詞・動詞として機能する。",
+      derivatives: [
+        { word: "honorable", desc: "名誉ある・尊敬すべき（形容詞）" },
+        { word: "honorary",  desc: "名誉の・名誉職の（形容詞）" },
+        { word: "dishonor",  desc: "不名誉・侮辱する（否定形）" }
+      ],
+      family: [
+        { word: "honest",  desc: "正直な（honestus）" },
+        { word: "honesty", desc: "誠実さ（honestus）" },
+        { word: "dignity", desc: "威厳（dignus）" }
+      ],
+      compounds: [
+        { phrase: "honor a promise", desc: "約束を守る" },
+        { phrase: "guest of honor",  desc: "主賓・名誉ゲスト" },
+        { phrase: "honor roll",      desc: "優等生名簿" }
+      ]
+    },
+
+    "humble": {
+      origin: "ラテン語 humilis（低い・地面に近い）< humus（土・地面）。human（人間）・humid（湿った）・exhume（掘り起こす）と同根で、地に這いつくばる・土に近いが原義。\n\n英語には13世紀にフランス語 humble を経て採用され、キリスト教の美徳として高慢の反対・自分を低くする謙虚さの意味で定着した。humiliate（屈辱を与える）・humility（謙遜）が同語族の重要語として並立する。\n\n現代英語ではhumble beginnings（貧しい生い立ち）・eat humble pie（謝って非を認める）・humble opinion（私見・謙遜表現）のように、謙虚・低い地位・自己卑下の文脈で幅広く使われる。",
+      derivatives: [
+        { word: "humility",    desc: "謙虚・謙遜（名詞）" },
+        { word: "humiliate",   desc: "屈辱を与える（動詞）" },
+        { word: "humiliation", desc: "屈辱・恥辱（名詞）" }
+      ],
+      family: [
+        { word: "human",  desc: "人間（humus）" },
+        { word: "humus",  desc: "腐植土（humus）" },
+        { word: "exhume", desc: "掘り起こす（ex+humus）" }
+      ],
+      compounds: [
+        { phrase: "humble beginnings", desc: "貧しい・質素な出発点" },
+        { phrase: "eat humble pie",    desc: "謝って非を認める" },
+        { phrase: "humble opinion",    desc: "私見（謙遜表現）" }
+      ]
+    },
+
+    "ideal": {
+      origin: "ラテン語 idealis（理念の）< idea（形・概念）< ギリシャ語 idein（見る）。idea（考え）・ideology（思想）と同根で、心の中で見た完全な形が原義。プラトン哲学のイデア（完全な形の原型）の概念と直結する語である。\n\n英語には16世紀に哲学用語として採用され、完全・理想的の意味で使われた。18〜19世紀のロマン主義・啓蒙思想の中で idealism（理想主義）・idealist（理想主義者）が政治・芸術の重要語彙となった。\n\n現代英語ではideal situation（理想的な状況）・ideal partner（理想の相手）・live up to one's ideals（理想に生きる）のように、倫理・哲学・日常語彙の中核語として機能する。",
+      derivatives: [
+        { word: "idealism",  desc: "理想主義（名詞）" },
+        { word: "idealist",  desc: "理想主義者（名詞）" },
+        { word: "idealize",  desc: "理想化する（動詞）" },
+        { word: "ideally",   desc: "理想的には（副詞）" }
+      ],
+      family: [
+        { word: "idea",     desc: "考え・概念（idein）" },
+        { word: "ideology", desc: "思想・イデオロギー（idea）" },
+        { word: "utopia",   desc: "理想郷（意味的近縁）" }
+      ],
+      compounds: [
+        { phrase: "ideal situation",   desc: "理想的な状況" },
+        { phrase: "live up to ideals", desc: "理想に生きる・理想を体現する" },
+        { phrase: "ideal candidate",   desc: "理想的な候補者" }
+      ]
+    },
+
+    "grant": {
+      origin: "古フランス語 granter / graanter（保証する・認める）< ラテン語の *guarantare。guarantee（保証）・warrant（保証・令状）と語根的に近く、信頼に基づいて与えるが原義。\n\n英語には13世紀に法的に認める・与えるの意味で採用され、封建法・教会法の文書で頻繁に使われた。take for granted（当然視する）という慣用表現が中世英語から定着し、現代でも日常的に使われている。\n\n現代英語ではresearch grant（研究助成金）・take for granted（当然と思う）・grant permission（許可を与える）のように、法律・財政・日常語彙の幅広い文脈で機能する多義語である。",
+      derivatives: [
+        { word: "granted", desc: "確かに・もっともだが（副詞）" },
+        { word: "grantee", desc: "被付与者（法律用語）" },
+        { word: "grantor", desc: "付与者（法律用語）" }
+      ],
+      family: [
+        { word: "guarantee", desc: "保証する（grant と同語源）" },
+        { word: "warrant",   desc: "保証・令状（guarantee と近縁）" },
+        { word: "credit",    desc: "信用・与信（credere）" }
+      ],
+      compounds: [
+        { phrase: "take for granted", desc: "当然と思う・感謝しない" },
+        { phrase: "research grant",   desc: "研究助成金" },
+        { phrase: "grant permission", desc: "許可を与える" }
+      ]
+    },
+
+    "frame": {
+      origin: "古英語 framian（役立てる・進める）< fram（前へ・有益に）。前に進めるための構造を作るが原義で、中世英語で木材を組み合わせて骨組みを作るの意味が定着した。\n\n英語では14世紀から建築・造船の用語として骨格・枠組みを作るの意味で使われ、17世紀以降に無実の人を陥れる（frame someone）という比喩的意味が生まれた。現代では問題の捉え方・文脈設定の意味がメディア・認知科学で重要になっている。\n\n現代英語ではframe a picture（絵に枠をつける）・frame the debate（議論を方向づける）・framing effect（フレーミング効果）のように、建築・法律・コミュニケーション・心理学で多様に使われる。",
+      derivatives: [
+        { word: "framework", desc: "枠組み・骨格（名詞）" },
+        { word: "framing",   desc: "フレーミング・枠組み設定（名詞）" },
+        { word: "timeframe", desc: "時間枠・期間（名詞）" }
+      ],
+      family: [
+        { word: "structure", desc: "構造（structura）" },
+        { word: "scaffold",  desc: "足場（古フランス語）" },
+        { word: "border",    desc: "境界・縁取り（古フランス語）" }
+      ],
+      compounds: [
+        { phrase: "framework",        desc: "枠組み・フレームワーク" },
+        { phrase: "frame the debate", desc: "議論を方向づける" },
+        { phrase: "time frame",       desc: "時間的枠組み" }
+      ]
+    },
+
+    "found": {
+      origin: "ラテン語 fundare（基礎を置く）< fundus（底・基礎）。fund（資金）・foundation（財団・基盤）・profound（深い）と同根で、底を据えて建物や組織を作るが原義。\n\n英語には13世紀に建物・都市・機関の基礎を築くの意味で採用され、中世の修道院設立や都市建設の文書に頻出した。18世紀以降は慈善財団（foundation）の設立という意味が重要となり、現代のNGO・大学・企業の文脈でも必須語彙である。\n\n現代英語ではfound a company（会社を設立する）・founding father（建国の父）・well-founded concern（根拠のある懸念）のように、制度・組織・論拠の基礎を築く文脈で広く使われる。",
+      derivatives: [
+        { word: "founder",      desc: "創設者（名詞）" },
+        { word: "foundation",   desc: "財団・基盤・基礎（名詞）" },
+        { word: "foundational", desc: "基礎的な・根本的な（形容詞）" }
+      ],
+      family: [
+        { word: "fund",      desc: "資金・基金（fundus）" },
+        { word: "profound",  desc: "深い・深遠な（pro+fundus）" },
+        { word: "fundament", desc: "基盤・根本（fundus）" }
+      ],
+      compounds: [
+        { phrase: "founding father",    desc: "創設者・建国の父" },
+        { phrase: "well-founded",       desc: "根拠のある・正当な" },
+        { phrase: "found a university", desc: "大学を創立する" }
+      ]
+    },
+
+    "grave": {
+      origin: "形容詞 grave はラテン語 gravis（重い・深刻な）< インド・ヨーロッパ語根 *gwer-（重い）。grief（悲嘆）・grieve（嘆く）・aggravate（悪化させる）・gravity（重力）と同根で、重みのある・深刻なが原義。\n\n英語には16世紀にフランス語 grave を経て採用され、深刻な・荘重なの意味で使われた。音楽のグラーヴェ（ゆっくり重く）も同じ語源。名詞の grave（墓）は古英語 graef（掘った穴）に由来する同形異義語で語源は別物である。\n\n現代英語ではgrave mistake（深刻な誤り）・grave concern（重大な懸念）・grave consequences（深刻な結果）のように、重大な・深刻なの意味で警告・報告の文脈で頻用される形容詞である。",
+      derivatives: [
+        { word: "gravely",  desc: "重大に・深刻に（副詞）" },
+        { word: "gravity",  desc: "重力・重大さ（gravis）" },
+        { word: "gravitas", desc: "重み・威厳（ラテン語借用）" }
+      ],
+      family: [
+        { word: "grief",     desc: "悲嘆（gravis）" },
+        { word: "aggravate", desc: "悪化させる（ag+gravis）" },
+        { word: "grieve",    desc: "悲しむ（gravis）" }
+      ],
+      compounds: [
+        { phrase: "grave mistake",      desc: "深刻な誤り" },
+        { phrase: "grave concern",      desc: "重大な懸念" },
+        { phrase: "grave consequences", desc: "深刻な結果" }
+      ]
+    },
+
+    "function": {
+      origin: "ラテン語 functio（履行・遂行）< fungi（遂行する・完了する）。defunct（廃止された）・perfunctory（おざなりの）と同根で、役割を果たしきることが原義。\n\n英語には16世紀にフランス語 fonction を経て採用され、まず職務・役割の意味で使われた。数学では17世紀以降にライプニッツが変数の関係式という技術的意味で使い始め、コンピューターサイエンスの核心語となった。\n\n現代英語ではfunction of the liver（肝臓の機能）・mathematical function（数学的関数）・function call（関数呼び出し）のように、医学・数学・プログラミング・社会学の中核語として機能する。",
+      derivatives: [
+        { word: "functional",    desc: "機能的な・実用的な（形容詞）" },
+        { word: "functionality", desc: "機能性（名詞）" },
+        { word: "dysfunction",   desc: "機能不全（dis+function）" },
+        { word: "malfunction",   desc: "誤作動（mal+function）" }
+      ],
+      family: [
+        { word: "defunct",     desc: "廃止された（de+fungi）" },
+        { word: "perfunctory", desc: "おざなりの（per+fungi）" }
+      ],
+      compounds: [
+        { phrase: "executive function", desc: "実行機能（認知心理学）" },
+        { phrase: "function call",      desc: "関数呼び出し" },
+        { phrase: "cognitive function", desc: "認知機能" }
+      ]
+    },
+
+    "glory": {
+      origin: "ラテン語 gloria（名誉・栄光・名声）。glorious（栄光ある）・glorify（賛美する）・vainglory（虚栄心）と同語族で、人々に認められた輝かしい名誉が原義。\n\n英語には13世紀にフランス語 gloire を経て採用され、キリスト教神学で神の栄光（the glory of God）として核心的な語彙となった。宗教的文脈から世俗的な勝利の輝き・最盛期の意味へと拡張し、in all one's glory という表現が定着した。\n\n現代英語ではglory days（全盛期）・bask in glory（栄光に浸る）・glory of nature（自然の壮観）のように、宗教・スポーツ・自然描写の幅広い文脈で感動的な賞賛を表す語として機能する。",
+      derivatives: [
+        { word: "glorious",   desc: "栄光ある・素晴らしい（形容詞）" },
+        { word: "glorify",    desc: "賛美する・美化する（動詞）" },
+        { word: "gloriously", desc: "見事に・輝かしく（副詞）" }
+      ],
+      family: [
+        { word: "vainglory",   desc: "虚栄心（vanus+gloria）" },
+        { word: "illustrious", desc: "名高い・輝かしい（illustrare）" },
+        { word: "fame",        desc: "名声（fama）" }
+      ],
+      compounds: [
+        { phrase: "glory days",    desc: "全盛期・輝いていた時代" },
+        { phrase: "bask in glory", desc: "栄光に浸る" },
+        { phrase: "morning glory", desc: "朝顔（植物名）" }
+      ]
     }
 
   };

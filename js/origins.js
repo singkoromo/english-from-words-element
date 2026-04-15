@@ -17386,6 +17386,400 @@
         { phrase: "escape mediocrity",     desc: "平凡さから脱する" },
         { phrase: "mediocre at best",      desc: "よくて平凡・せいぜい並" }
       ]
+    },
+
+    // ── Batch 38 ──────────────────────────────────────────────────────────
+
+    "symptom": {
+      origin: "ギリシャ語 symptoma（偶然の出来事・偶発症）< symptiptein（共に落ちる・付随する）< syn-（共に）+ piptein（落ちる）+ -ma（結果を示す名詞接尾辞）。「病気に伴って落ちてくるもの・付随するもの」が原義。\n\nラテン語 symptoma を経て英語には16世紀に採用され、「疾患の徴候・症状」の意味で定着した。医学では「患者が主観的に感じる症状」（symptom）と「客観的に観察される徴候」（sign）を区別するが、一般的にはどちらの意味でも使われる。\n\n現代英語では symptoms of depression（うつ病の症状）・flu symptoms（インフルエンザの症状）・symptom of a deeper problem（より深い問題の表れ）のように医学・比喩的用法で広く使われる。",
+      derivatives: [
+        { word: "symptomatic",   desc: "症状を示す・特徴的な（形容詞）" },
+        { word: "symptomatically", desc: "症状的に（副詞）" }
+      ],
+      family: [
+        { word: "syndrome",  desc: "症候群（syn+dromos）" },
+        { word: "asymptote", desc: "漸近線（数学）（a+syn+piptein）" }
+      ],
+      compounds: [
+        { phrase: "flu symptoms",               desc: "インフルエンザの症状" },
+        { phrase: "symptom of a deeper problem", desc: "より根深い問題の表れ" },
+        { phrase: "present with symptoms",      desc: "症状を呈する" }
+      ]
+    },
+
+    "syndrome": {
+      origin: "ギリシャ語 syndromos（共に走る）< syn-（共に）+ dromos（走ること・競走）< trechein（走る）+ -e（名詞接尾辞）。「複数の症状が共に走る＝一緒に現れる」が原義。dromos はヒポドローム（競馬場）などにも残る語根。\n\n英語には16世紀に医学用語として採用され、「特定の状況に関連して同時に現れる症状の集合」を指す。医学だけでなく、20世紀以降には Stockholm syndrome（ストックホルム症候群）のように心理・社会現象を指す語としても広く使われる。\n\n現代英語では Down syndrome（ダウン症候群）・impostor syndrome（インポスター症候群）・burnout syndrome（燃え尽き症候群）のように医学・心理学・組織研究で広く使われる。",
+      derivatives: [
+        { word: "syndromic",  desc: "症候群の・症候群に関連した（形容詞）" }
+      ],
+      family: [
+        { word: "symptom",     desc: "症状（syn+piptein）" },
+        { word: "hippodrome",  desc: "競馬場（hippos+dromos）" },
+        { word: "palindrome",  desc: "回文（palin+dromos）" }
+      ],
+      compounds: [
+        { phrase: "Down syndrome",       desc: "ダウン症候群" },
+        { phrase: "impostor syndrome",   desc: "インポスター症候群" },
+        { phrase: "burnout syndrome",    desc: "燃え尽き症候群" }
+      ]
+    },
+
+    "therapy": {
+      origin: "ギリシャ語 therapeia（奉仕・世話・治療）< therapeuein（奉仕する・世話をする・治療する）< therapon（侍者・世話人）+ -ia（名詞接尾辞）。「奉仕して世話をすること」から「治療」の意味が生まれた。\n\nラテン語 therapia を経て英語には17世紀に採用され、「治療・療法」の意味で定着。19世紀以降に心理療法（psychotherapy）・物理療法（physical therapy）・音楽療法（music therapy）など様々な専門的文脈に広がった。\n\n現代英語では physical therapy（理学療法）・cognitive behavioral therapy（認知行動療法）・art therapy（芸術療法）のように医学・心理学・リハビリで幅広く使われる。",
+      derivatives: [
+        { word: "therapeutic",   desc: "治療上の・癒しとなる（形容詞）" },
+        { word: "therapist",     desc: "療法士・セラピスト（名詞）" },
+        { word: "therapeutics",  desc: "治療学（名詞）" }
+      ],
+      family: [
+        { word: "psychotherapy",  desc: "心理療法（psyche+therapy）" },
+        { word: "physiotherapy",  desc: "理学療法（physio+therapy）" }
+      ],
+      compounds: [
+        { phrase: "cognitive behavioral therapy", desc: "認知行動療法（CBT）" },
+        { phrase: "physical therapy",             desc: "理学療法" },
+        { phrase: "art therapy",                  desc: "芸術療法" }
+      ]
+    },
+
+    "trauma": {
+      origin: "ギリシャ語 trauma（傷・創傷）< titrouskein（傷つける）+ -ma（結果を示す名詞接尾辞）。「刺し傷・打撃による傷」が原義。古代ギリシャ医学・外科学の術語として使われた。\n\n英語には17世紀に医学用語（身体的外傷）として採用され、19世紀末以降にフロイトらの精神分析で「心的外傷」の意味が加わった。20世紀後半に PTSD（心的外傷後ストレス障害）の概念が広まり、trauma は心理学の核心概念語となった。\n\n現代英語では childhood trauma（幼少期のトラウマ）・trauma survivor（トラウマを経験した人）・traumatic event（心的外傷となる出来事）のように医学・心理学・一般会話で幅広く使われる。",
+      derivatives: [
+        { word: "traumatic",    desc: "外傷性の・ショックを与える（形容詞）" },
+        { word: "traumatize",   desc: "心的外傷を与える・ショックを与える（動詞）" },
+        { word: "traumatized",  desc: "トラウマを負った（形容詞）" }
+      ],
+      family: [
+        { word: "PTSD",  desc: "心的外傷後ストレス障害（trauma から）" }
+      ],
+      compounds: [
+        { phrase: "childhood trauma",   desc: "幼少期のトラウマ" },
+        { phrase: "traumatic event",    desc: "心的外傷となる出来事" },
+        { phrase: "trauma-informed",    desc: "トラウマを考慮した（医療・支援）" }
+      ]
+    },
+
+    "chromosome": {
+      origin: "ギリシャ語 chroma（色）+ soma（体・物体）の合成語。19世紀の細胞学者がアニリン染料でよく染まる細胞核内の構造体を「色のつく体」と命名した（Walther Flemming, 1882年頃）。\n\n英語には19世紀後半に採用され、細胞分裂時に見える糸状の構造体を指す生物学用語として定着した。20世紀にDNAが遺伝情報の担体であることが判明し（1953年ワトソン・クリック）、染色体研究は遺伝学の核心となった。\n\n現代英語では X chromosome（X染色体）・chromosome mutation（染色体突然変異）・human genome（ヒトゲノム）のように生物学・医学・遺伝学で不可欠な語。",
+      derivatives: [
+        { word: "chromosomal",   desc: "染色体の（形容詞）" }
+      ],
+      family: [
+        { word: "chromatic",  desc: "色彩の・半音の（chroma）" },
+        { word: "soma",       desc: "体・細胞体（soma）" },
+        { word: "somatic",    desc: "身体の・体細胞の（somatikos）" }
+      ],
+      compounds: [
+        { phrase: "X chromosome",         desc: "X染色体" },
+        { phrase: "chromosome mutation",  desc: "染色体突然変異" },
+        { phrase: "chromosomal disorder", desc: "染色体異常" }
+      ]
+    },
+
+    "mutation": {
+      origin: "ラテン語 mutatio（変化・変更）< mutare（変える・変化する）+ -tion（名詞接尾辞）。「変えること・変化」が原義。\n\nラテン語 mutare は commute（交換する・通勤する）・transmute（変化させる）と同根。英語には15世紀に採用され、「変化・変容」の意味で定着した。生物学では19世紀後半のダーウィン進化論に影響を受けた遺伝学研究で「遺伝子の変化」を指す専門用語として確立された。\n\n現代英語では genetic mutation（遺伝子突然変異）・cancer mutation（がん変異）・acquire a mutation（突然変異を獲得する）のように生物学・医学・進化論で広く使われる。",
+      derivatives: [
+        { word: "mutate",   desc: "突然変異する・変化する（動詞）" },
+        { word: "mutant",   desc: "突然変異体・ミュータント（名詞）" },
+        { word: "mutable",  desc: "変わりやすい・変化しやすい（形容詞）" }
+      ],
+      family: [
+        { word: "commute",    desc: "通勤する・交換する（com+mutare）" },
+        { word: "transmute",  desc: "変化させる（trans+mutare）" },
+        { word: "immutable",  desc: "不変の（im+mutabilis）" }
+      ],
+      compounds: [
+        { phrase: "genetic mutation",   desc: "遺伝子突然変異" },
+        { phrase: "cancer mutation",    desc: "がん変異" },
+        { phrase: "point mutation",     desc: "点突然変異（一塩基の変化）" }
+      ]
+    },
+
+    "climate": {
+      origin: "ギリシャ語 klima（傾き・斜面・地域）< klinein（傾く）+ -ma（名詞接尾辞）。「太陽光線の傾き（の違いによる）地域・気候帯」が原義で、古代ギリシャ地理学で地球を気候帯（klimata）に分ける概念として使われた。\n\nラテン語 clima を経て英語には14世紀に採用された。当初は「地域・気候帯」の地理的意味だったが、16世紀以降「その地域特有の気象条件」を指し、現代では climate change（気候変動）という文脈で最も重要な語となった。\n\n現代英語では climate change（気候変動）・climate crisis（気候危機）・political climate（政治的雰囲気）のように環境・政治・日常で幅広く使われる。",
+      derivatives: [
+        { word: "climatic",     desc: "気候の・気候上の（形容詞）" },
+        { word: "climatology",  desc: "気候学（名詞）" },
+        { word: "acclimate",    desc: "（気候・環境に）慣れる（動詞）" }
+      ],
+      family: [
+        { word: "incline",    desc: "傾く・傾向がある（in+klinein）" },
+        { word: "decline",    desc: "衰退する・断る（de+klinein）" },
+        { word: "recline",    desc: "もたれかかる（re+klinein）" }
+      ],
+      compounds: [
+        { phrase: "climate change",     desc: "気候変動" },
+        { phrase: "climate crisis",     desc: "気候危機" },
+        { phrase: "political climate",  desc: "政治的雰囲気" }
+      ]
+    },
+
+    "fossil": {
+      origin: "ラテン語 fossilis（掘り起こされた）< fodere（掘る）+ -ilis（可能を示す形容詞接尾辞）。「地面から掘り出されたもの」が原義で、当初は鉱物一般を指した。\n\n英語には16世紀に採用され、当初は「掘り出された鉱物・岩石」を広く指したが、17世紀以降に「地層中に保存された古代生物の遺骸・痕跡」という現代的な意味に絞られた。古生物学（paleontology）の発展とともに重要語となった。\n\n現代英語では fossil fuels（化石燃料）・dinosaur fossil（恐竜の化石）・fossil record（化石記録）のように地質学・古生物学・エネルギー政策で幅広く使われる。",
+      derivatives: [
+        { word: "fossilize",   desc: "化石化する・時代遅れになる（動詞）" },
+        { word: "fossilized",  desc: "化石化した・時代遅れな（形容詞）" }
+      ],
+      family: [
+        { word: "fossa",  desc: "解剖学的な窪み・隆窩（fodere）" }
+      ],
+      compounds: [
+        { phrase: "fossil fuels",    desc: "化石燃料" },
+        { phrase: "fossil record",   desc: "化石記録（進化の証拠）" },
+        { phrase: "living fossil",   desc: "生きた化石（進化的に原始的な生物）" }
+      ]
+    },
+
+    "sovereignty": {
+      origin: "古フランス語 soveraineté < souverain（主権者・最高権力者）< ラテン語 superanus（最も上位の）< super（上に）+ -anus（形容詞接尾辞）+ -ty（名詞接尾辞）。「すべての上に立つ絶対的な権力」が原義。\n\n英語には14世紀に採用され、「主権・最高権力・国家的自律性」の意味で定着。ウェストファリア条約（1648年）以降に「国家の内政不干渉・領域支配権」を意味する国際法の核心概念となり、現代の国際政治で最重要用語の一つ。\n\n現代英語では national sovereignty（国家主権）・parliamentary sovereignty（議会主権）・violate sovereignty（主権を侵害する）のように国際法・政治学・国際関係論で幅広く使われる。",
+      derivatives: [
+        { word: "sovereign",    desc: "主権者・君主・主権を持つ（名詞・形容詞）" },
+        { word: "sovereignly",  desc: "主権をもって（副詞）" }
+      ],
+      family: [
+        { word: "supreme",    desc: "最高の・最上の（supremus）" },
+        { word: "surplus",    desc: "余剰・超過（sur+plus）" },
+        { word: "surmount",   desc: "乗り越える（sur+monter）" }
+      ],
+      compounds: [
+        { phrase: "national sovereignty",     desc: "国家主権" },
+        { phrase: "parliamentary sovereignty", desc: "議会主権" },
+        { phrase: "violate sovereignty",       desc: "主権を侵害する" }
+      ]
+    },
+
+    "diplomatic": {
+      origin: "ラテン語 diploma（二つ折りにされた文書・勅許状）< ギリシャ語 diploma（二重に折られたもの）< diplous（二重の）+ -ma（名詞接尾辞）+ -ic（形容詞接尾辞）。「公式文書に関する」が原義で、条約・外交文書を「折り畳んだ公式文書」と呼んだことから始まった。\n\n英語には18世紀に採用され、「外交上の・如才ない・巧みな」の意味で定着。国際関係における「外交技術・交渉上の機微」を指す語として、modern diplomacy（近代外交）の成立とともに重要語となった。\n\n現代英語では diplomatic relations（外交関係）・diplomatic immunity（外交免除特権）・a diplomatic response（如才ない返答）のように外交・国際関係・日常の場で幅広く使われる。",
+      derivatives: [
+        { word: "diplomacy",    desc: "外交・外交術・如才なさ（名詞）" },
+        { word: "diplomat",     desc: "外交官（名詞）" },
+        { word: "diplomatically", desc: "外交的に・如才なく（副詞）" }
+      ],
+      family: [
+        { word: "diploma",   desc: "卒業証書・学位証（diploma）" },
+        { word: "double",    desc: "二重の（diplous の転）" }
+      ],
+      compounds: [
+        { phrase: "diplomatic relations", desc: "外交関係" },
+        { phrase: "diplomatic immunity", desc: "外交免除特権" },
+        { phrase: "diplomatic solution", desc: "外交的解決" }
+      ]
+    },
+
+    "referendum": {
+      origin: "ラテン語 referendum（問うべきこと）< referre（回付する・問い合わせる）< re-（再び・返して）+ ferre（運ぶ）の動名詞形。「（決定を）市民に返して問い合わせること」が原義。\n\nスイスの州（カントン）制度に由来し、英語には19世紀に採用された。「有権者全体の直接投票による重要問題の決定」を指す民主主義の手続き用語として政治学で重要。Brexit referendum（英国EU離脱国民投票）などで世界的に注目された。\n\n現代英語では hold a referendum（国民投票を実施する）・Brexit referendum（英EU離脱国民投票）・independence referendum（独立国民投票）のように政治・民主主義の文脈で広く使われる。",
+      derivatives: [
+        { word: "referenda",  desc: "referendum の複数形（ラテン語的）" }
+      ],
+      family: [
+        { word: "refer",     desc: "言及する・参照する（re+ferre）" },
+        { word: "prefer",    desc: "好む（pre+ferre）" },
+        { word: "transfer",  desc: "転送する（trans+ferre）" },
+        { word: "confer",    desc: "協議する（con+ferre）" }
+      ],
+      compounds: [
+        { phrase: "hold a referendum",        desc: "国民投票を実施する" },
+        { phrase: "Brexit referendum",        desc: "英国EU離脱国民投票" },
+        { phrase: "independence referendum",  desc: "独立国民投票" }
+      ]
+    },
+
+    "veto": {
+      origin: "ラテン語 veto（私は禁じる）< vetare（禁じる・禁止する）の一人称単数現在形。古代ローマで護民官（tribunus plebis）が元老院の決定に対して「私は禁じる！」と宣言したことに由来する。\n\n英語には17世紀に採用され、「拒否権・拒否権を行使する」の意味で定着。国際政治では国連安全保障理事会常任理事国（米英仏中露）の拒否権として現代政治の重要概念となっている。\n\n現代英語では exercise a veto（拒否権を行使する）・presidential veto（大統領の拒否権）・veto power（拒否権）のように政治・外交・組織管理で幅広く使われる。",
+      derivatives: [
+        { word: "veto power",  desc: "拒否権（名詞句）" }
+      ],
+      family: [
+        { word: "prohibit",  desc: "禁止する（pro+habere）" },
+        { word: "forbid",    desc: "禁じる（Old English）" }
+      ],
+      compounds: [
+        { phrase: "exercise a veto",     desc: "拒否権を行使する" },
+        { phrase: "presidential veto",   desc: "大統領の拒否権" },
+        { phrase: "veto power",          desc: "拒否権" }
+      ]
+    },
+
+    "currency": {
+      origin: "中世ラテン語 currentia（流れること・流通）< currere（走る・流れる）+ -ency（名詞接尾辞）。「流れ・流通するもの」が原義で、「市場を流れ回るもの」として通貨を表した。current（流れ・現在の）・concur（同意する）と同根の currere を含む。\n\n英語には17世紀に採用され、「通貨・流通・普及」の意味で定着。金本位制・ブレトンウッズ体制・電子マネーの登場など経済システムの変化とともに重要語であり続けた。\n\n現代英語では foreign currency（外国通貨）・digital currency（デジタル通貨）・currency exchange（両替）のように経済・金融・国際関係で幅広く使われる。",
+      derivatives: [
+        { word: "current",    desc: "流れの・現在の（形容詞・名詞）" },
+        { word: "currently",  desc: "現在・今（副詞）" }
+      ],
+      family: [
+        { word: "current",   desc: "流れ・電流・現在の（currere）" },
+        { word: "concur",    desc: "同意する・同時に起こる（con+currere）" },
+        { word: "occur",     desc: "起こる（ob+currere）" },
+        { word: "excursion", desc: "遠足・短い旅（ex+currere）" }
+      ],
+      compounds: [
+        { phrase: "foreign currency",   desc: "外国通貨" },
+        { phrase: "digital currency",   desc: "デジタル通貨・暗号通貨" },
+        { phrase: "currency exchange",  desc: "両替・外国為替" }
+      ]
+    },
+
+    "subsidy": {
+      origin: "ラテン語 subsidium（予備軍・支援・援助）< subsidere（下に座る・控えていること）< sub-（下に）+ sedere（座る）。古代ローマ軍で「後ろに控えて戦局を支える予備隊」を指した軍事用語から「支援・補助」の意味が生まれた。\n\n英語には15世紀に採用され、「政府からの補助金・助成金」の意味で定着。経済学では「市場の失敗を補正したり特定産業を支援したりするために政府が行う金銭的支援」として重要な政策概念となっている。\n\n現代英語では agricultural subsidy（農業補助金）・government subsidy（政府補助金）・subsidy cuts（補助金削減）のように経済政策・財政・国際貿易の文脈で広く使われる。",
+      derivatives: [
+        { word: "subsidize",   desc: "補助金を出す・助成する（動詞）" },
+        { word: "subsidized",  desc: "補助金付きの（形容詞）" }
+      ],
+      family: [
+        { word: "reside",    desc: "居住する（re+sedere）" },
+        { word: "preside",   desc: "議長を務める（pre+sedere）" },
+        { word: "assess",    desc: "評価する（ad+sedere）" },
+        { word: "sediment",  desc: "堆積物（sedere）" }
+      ],
+      compounds: [
+        { phrase: "agricultural subsidy",  desc: "農業補助金" },
+        { phrase: "government subsidy",    desc: "政府補助金" },
+        { phrase: "subsidy cuts",          desc: "補助金削減" }
+      ]
+    },
+
+    "succinct": {
+      origin: "ラテン語 succinctus（帯で引き絞られた・準備の整った）< succingere（下から帯で締める）< sub-（下に）+ cingere（帯で締める）+ -ct（過去分詞接尾辞）。「帯でしっかり締めた＝まとまっている・簡潔な」が原義。\n\n英語には16世紀に採用され、「簡潔な・短く的確な」の意味で定着。長々と説明せず、的を射た簡潔な表現を称える語として文章術・論文執筆・コミュニケーションの文脈で重要語となっている。\n\n現代英語では succinct explanation（簡潔な説明）・keep it succinct（簡潔にまとめる）・be succinct（端的に言う）のように文章・プレゼンテーション・学術の場で幅広く使われる。",
+      derivatives: [
+        { word: "succinctly",    desc: "簡潔に・端的に（副詞）" },
+        { word: "succinctness",  desc: "簡潔さ・端的さ（名詞）" }
+      ],
+      family: [
+        { word: "precinct",    desc: "管轄区・構内（prae+cingere）" },
+        { word: "concise",     desc: "簡潔な（con+caedere）" }
+      ],
+      compounds: [
+        { phrase: "succinct explanation",  desc: "簡潔な説明" },
+        { phrase: "keep it succinct",      desc: "簡潔にまとめる" }
+      ]
+    },
+
+    "verbose": {
+      origin: "ラテン語 verbosus（言葉が多い）< verbum（言葉・単語）+ -osus（〜に満ちた・傾向を示す形容詞接尾辞）。「言葉に満ちた・言葉数が多すぎる」が原義。verb（動詞）・verbal（言語的な）・proverb（ことわざ）と同根の verbum を含む。\n\n英語には17世紀に採用され、「くどい・冗長な・言葉数が多すぎる」の否定的な意味で定着。対義語の succinct（簡潔な）・concise（端的な）と対照的に使われる語として文章術・修辞学で重要。\n\n現代英語では verbose writing（冗長な文章）・unnecessarily verbose（不必要に長々とした）・be less verbose（より簡潔にする）のように文章批評・学術・プログラミング（冗長なコード）の場で使われる。",
+      derivatives: [
+        { word: "verbosity",   desc: "冗長さ・多弁（名詞）" },
+        { word: "verbosely",   desc: "冗長に・くどく（副詞）" }
+      ],
+      family: [
+        { word: "verb",     desc: "動詞（verbum）" },
+        { word: "verbal",   desc: "言語的な・口頭の（verbum）" },
+        { word: "proverb",  desc: "ことわざ（pro+verbum）" },
+        { word: "verbatim", desc: "逐語的に・一字一句（verbum）" }
+      ],
+      compounds: [
+        { phrase: "verbose writing",       desc: "冗長な文章" },
+        { phrase: "unnecessarily verbose", desc: "不必要に長々とした" }
+      ]
+    },
+
+    "covenant": {
+      origin: "古フランス語 covenant（合意・取り決め）< convenir（一緒に来る・合意する）< ラテン語 convenire（共に来る・一致する）< con-（共に）+ venire（来る）。「共に集まって取り決めた約束」が原義。convention（慣習）・convenient（都合のよい）と同根の venire を含む。\n\n英語には14世紀に採用され、「（特に宗教的・法的な）厳粛な契約・盟約」の意味で定着。聖書では神と人間の「契約」（コベナント）として中心的概念であり、スコットランド宗教史の「国民盟約（National Covenant, 1638）」でも重要。\n\n現代英語では enter into a covenant（盟約を結ぶ）・restrictive covenant（制限的契約条項）・covenant of marriage（婚姻の誓約）のように法律・宗教・哲学の場で使われる。",
+      derivatives: [
+        { word: "covenantal",  desc: "盟約の・契約上の（形容詞）" }
+      ],
+      family: [
+        { word: "convention",  desc: "慣習・会議・条約（con+venire）" },
+        { word: "convenient",  desc: "都合のよい（con+venire）" },
+        { word: "event",       desc: "出来事・イベント（e+venire）" },
+        { word: "advent",      desc: "到来（ad+venire）" }
+      ],
+      compounds: [
+        { phrase: "enter into a covenant",  desc: "盟約を結ぶ" },
+        { phrase: "restrictive covenant",   desc: "制限的契約条項" },
+        { phrase: "covenant of marriage",   desc: "婚姻の誓約" }
+      ]
+    },
+
+    "immune": {
+      origin: "ラテン語 immunis（義務を免除された・課税を免れた）< im-（否定）+ munus（義務・負担・税）。「義務・負担を免れた状態」が原義。community（共同体）・municipality（自治体）と同根の munus を含む。\n\n英語には16世紀に採用され、当初は「義務を免れた」の意味で使われた。17世紀以降、医学で「病気への抵抗力を持つ」という意味が加わり、ジェンナーの天然痘ワクチン（1796年）以降の免疫学の発展とともに現代的な意味が確立した。\n\n現代英語では immune system（免疫系）・immune response（免疫反応）・immune to criticism（批判に動じない）のように医学・心理・比喩的文脈で幅広く使われる。",
+      derivatives: [
+        { word: "immunity",    desc: "免疫・免除・特権（名詞）" },
+        { word: "immunize",    desc: "免疫をつける・ワクチン接種する（動詞）" },
+        { word: "immunology",  desc: "免疫学（名詞）" }
+      ],
+      family: [
+        { word: "community",    desc: "共同体（communis）" },
+        { word: "municipality", desc: "市区町村・地方自治体（munus）" },
+        { word: "municipal",    desc: "地方自治体の（municeps）" }
+      ],
+      compounds: [
+        { phrase: "immune system",      desc: "免疫系" },
+        { phrase: "immune response",    desc: "免疫反応" },
+        { phrase: "herd immunity",      desc: "集団免疫" }
+      ]
+    },
+
+    "vaccine": {
+      origin: "ラテン語 vaccinus（牛に関する）< vacca（牛）。ジェンナーが天然痘の予防接種に牛痘（cowpox）を使ったことから、フランスの微生物学者パスツールが19世紀にこの治療法全般を表す語として vaccine / vaccination を提案した。\n\n英語には19世紀初頭に採用され、「感染症予防のために接種する製剤」の意味で定着。20世紀の麻疹・ポリオ・インフルエンザのワクチン開発から、21世紀のmRNAワクチン（COVID-19）まで医学の最前線にあり続ける語。\n\n現代英語では vaccine development（ワクチン開発）・COVID-19 vaccine（COVID-19ワクチン）・vaccinate the population（人口にワクチン接種する）のように医学・公衆衛生・政策で不可欠な語。",
+      derivatives: [
+        { word: "vaccinate",    desc: "ワクチン接種する（動詞）" },
+        { word: "vaccination",  desc: "ワクチン接種（名詞）" },
+        { word: "vaccinator",   desc: "ワクチン接種者（名詞）" }
+      ],
+      family: [
+        { word: "bovine",  desc: "牛の（bos/bovis）" },
+        { word: "dairy",   desc: "乳製品（vacca の転）" }
+      ],
+      compounds: [
+        { phrase: "vaccine development",    desc: "ワクチン開発" },
+        { phrase: "mRNA vaccine",           desc: "mRNAワクチン" },
+        { phrase: "vaccination campaign",   desc: "ワクチン接種キャンペーン" }
+      ]
+    },
+
+    "diagnosis": {
+      origin: "ギリシャ語 diagnosis（識別・判断）< diagignoskein（識別する・完全に知る）< dia-（通じて・完全に）+ gignoskein（知る・認識する）。「徹底的に調べて識別する」が原義。\n\nラテン語 diagnosis を経て英語には17世紀に採用され、「医師による病名の判定・診断」の意味で定着。20世紀以降、コンピュータ診断・機械故障診断・心理的・教育的診断など幅広い文脈に広がった。\n\n現代英語では receive a diagnosis（診断を受ける）・differential diagnosis（鑑別診断）・early diagnosis（早期診断）のように医学・心理学・技術の場で幅広く使われる。",
+      derivatives: [
+        { word: "diagnose",      desc: "診断する（動詞）" },
+        { word: "diagnostic",    desc: "診断の・診断法（形容詞・名詞）" },
+        { word: "diagnostics",   desc: "診断学・診断ツール（名詞）" }
+      ],
+      family: [
+        { word: "prognosis",   desc: "予後・予測（pro+gnosis）" },
+        { word: "cognition",   desc: "認知（co+gnoscere）" },
+        { word: "agnostic",    desc: "不可知論者（a+gnosis）" }
+      ],
+      compounds: [
+        { phrase: "differential diagnosis", desc: "鑑別診断" },
+        { phrase: "early diagnosis",        desc: "早期診断" },
+        { phrase: "receive a diagnosis",    desc: "診断を受ける" }
+      ]
+    },
+
+    "pathogen": {
+      origin: "ギリシャ語 pathos（苦しみ・病気）+ gennan（生み出す）< genos（生まれ・種類）+ -en（名詞接尾辞）。「病気を生み出すもの」が原義。19世紀後半の細菌学（コッホ・パスツール）の発展とともに使われるようになった。\n\n英語には19世紀後半に採用され、「病気を引き起こす微生物（細菌・ウイルス・真菌など）」の意味で定着。感染症の原因物質を総称する医学の基本用語として現代の感染症学・免疫学で不可欠な語となっている。\n\n現代英語では identify a pathogen（病原体を同定する）・airborne pathogen（空気感染性病原体）・pathogen transmission（病原体の感染経路）のように医学・公衆衛生・生物学で幅広く使われる。",
+      derivatives: [
+        { word: "pathogenic",    desc: "病原性の・病気を引き起こす（形容詞）" },
+        { word: "pathogenesis",  desc: "病態発生・発病機序（名詞）" }
+      ],
+      family: [
+        { word: "pathology",   desc: "病理学（pathos+logos）" },
+        { word: "empathy",     desc: "共感（em+pathos）" },
+        { word: "apathy",      desc: "無感動（a+pathos）" },
+        { word: "sympathy",    desc: "同情（syn+pathos）" }
+      ],
+      compounds: [
+        { phrase: "identify a pathogen",   desc: "病原体を同定する" },
+        { phrase: "airborne pathogen",     desc: "空気感染性病原体" },
+        { phrase: "pathogen transmission", desc: "病原体の感染経路" }
+      ]
+    },
+
+    "deforestation": {
+      origin: "フランス語 déforestation < de-（除去・剥奪）+ forêt（森林）< 中世ラテン語 forestis（outdoor forest）+ -ation（名詞接尾辞）。「森林を取り除く行為」が原義。\n\n英語には19世紀に採用され、「森林を切り開くこと・森林破壊」の意味で定着。特に20世紀後半の環境運動の台頭とともに、熱帯雨林（tropical rainforest）の破壊・CO2吸収能力の損失・生物多様性への影響として国際的に注目を集める概念語となった。\n\n現代英語では tropical deforestation（熱帯雨林の破壊）・combat deforestation（森林破壊と闘う）・deforestation rate（森林破壊率）のように環境・政策・国際問題の文脈で幅広く使われる。",
+      derivatives: [
+        { word: "deforest",     desc: "森林を伐採する（動詞）" },
+        { word: "reforestation", desc: "植林・再造林（名詞）" }
+      ],
+      family: [
+        { word: "forest",   desc: "森林（forestis）" },
+        { word: "forester", desc: "森林管理者（名詞）" }
+      ],
+      compounds: [
+        { phrase: "tropical deforestation",  desc: "熱帯雨林の破壊" },
+        { phrase: "combat deforestation",    desc: "森林破壊に取り組む" },
+        { phrase: "deforestation rate",      desc: "森林破壊率" }
+      ]
     }
 
   };

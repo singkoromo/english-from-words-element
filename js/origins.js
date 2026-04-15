@@ -10238,6 +10238,485 @@
         { phrase: "overcome adversity",        desc: "逆境を乗り越える" },
         { phrase: "adverse effect",            desc: "悪影響・副作用" }
       ]
+    },
+
+    // Batch 22: rupt系・mem/memor系・ann/enn系・cord/cor系・fin系・innov/renov系・stat系残り・century
+
+    "rupture": {
+      origin: "ラテン語 ruptura（破裂・断絶）< rumpere（割る・破る）。字義は「破ること・破れた状態」。\n\n16世紀に英語に入り rupture（破裂・断絶・断裂）として定着。医学では tendon rupture（腱断裂）、aneurysm rupture（動脈瘤破裂）のように使われる。外交では rupture in relations（関係の断絶）として使われる。動詞としても使われる（The pipe ruptured: パイプが破裂した）。\n\nrumpere 系: interrupt（遮る：inter- + rumpere）、erupt（噴出する：e- + rumpere）、disrupt（乱す：dis- + rumpere）、abrupt（突然の：ab- + rumpere）、corrupt（腐敗した：con- + rumpere）、bankrupt（破産した）。",
+      derivatives: [
+        { word: "ruptured",  desc: "破裂した・断裂した（形容詞）" }
+      ],
+      family: [
+        { word: "interrupt",  desc: "遮る（inter- + rumpere）" },
+        { word: "erupt",      desc: "噴出する（e- + rumpere）" },
+        { word: "disrupt",    desc: "乱す（dis- + rumpere）" },
+        { word: "abrupt",     desc: "突然の（ab- + rumpere）" }
+      ],
+      compounds: [
+        { phrase: "tendon rupture",       desc: "腱断裂（医学）" },
+        { phrase: "rupture of relations", desc: "関係の断絶" },
+        { phrase: "pipe rupture",         desc: "パイプの破裂" }
+      ]
+    },
+
+    "bankrupt": {
+      origin: "イタリア語 banca rotta（壊れた机・破れた銀行台）< banca（机・銀行）+ rotta（割れた）< rumpere（割る）。中世イタリアで両替商が支払い不能になると、その銀行台（banca）を壊す習慣があったことに由来する。\n\n16世紀に英語に入り bankrupt（破産した・行き詰まった）として定着。go bankrupt（破産する）、morally bankrupt（道徳的に破綻した）のように使われる。bankruptcy（破産・倒産）は法律・経済の重要語。Chapter 11 bankruptcy（連邦破産法第11条）はアメリカの企業再生制度。\n\nrumpere 系: rupture（破裂）、interrupt（遮る）、erupt（噴出する）、disrupt（乱す）。bank（銀行）はイタリア語 banca（机・長椅子：両替商が使った台）から。",
+      derivatives: [
+        { word: "bankruptcy",  desc: "破産・倒産（名詞）" }
+      ],
+      family: [
+        { word: "rupture",    desc: "破裂（rumpere）" },
+        { word: "disrupt",    desc: "乱す（dis- + rumpere）" },
+        { word: "insolvent",  desc: "支払い不能の（in- + solvere）" }
+      ],
+      compounds: [
+        { phrase: "go bankrupt",        desc: "破産する・倒産する" },
+        { phrase: "declare bankruptcy",  desc: "破産宣告をする" },
+        { phrase: "morally bankrupt",    desc: "道徳的に破綻した" }
+      ]
+    },
+
+    "memory": {
+      origin: "ラテン語 memoria（記憶・思い出）< memor（心に留めている）< 印欧祖語 men-（考える・思う）。字義は「思い留めていること → 記憶」。\n\n14世紀に英語に入り memory（記憶・思い出）として定着。short-term memory（短期記憶）、long-term memory（長期記憶）は心理学の基本概念。コンピューターの memory（メモリ：情報を記憶する装置）も同じ語源から。\n\nmemoria 系: memorial（記念碑）、memoir（回想録）、commemorate（記念する）、remember（思い出す）、memorize（暗記する）、memorandum（覚書：memento）。",
+      derivatives: [
+        { word: "memorial",    desc: "記念碑・追悼の（名詞・形容詞）" },
+        { word: "memorize",    desc: "暗記する（動詞）" },
+        { word: "memorandum",  desc: "覚書・メモ（名詞）" },
+        { word: "memorable",   desc: "記憶に残る（形容詞）" }
+      ],
+      family: [
+        { word: "memorial",     desc: "記念碑（memoria）" },
+        { word: "commemorate",  desc: "記念する（con- + memorare）" },
+        { word: "remember",     desc: "思い出す（re- + memor）" },
+        { word: "recall",       desc: "思い出す（re- + call）" }
+      ],
+      compounds: [
+        { phrase: "short-term memory",  desc: "短期記憶" },
+        { phrase: "long-term memory",   desc: "長期記憶" },
+        { phrase: "memory loss",        desc: "記憶喪失" }
+      ]
+    },
+
+    "memoir": {
+      origin: "フランス語 mémoire（記憶・回想）< ラテン語 memoria（記憶）< memor（心に留めている）。字義は「記憶に基づく記録 → 回想録・自伝的エッセイ」。\n\n17世紀に英語に入り memoir（回想録・自伝）として定着。autobiography（自伝：生涯全体）より memoir は特定の経験・期間に焦点を当てた個人的記録を指す。複数形 memoirs として書かれることが多い（His memoirs were published posthumously）。\n\nmemoria 系: memory（記憶）、memorial（記念碑）、commemorate（記念する）、remember（思い出す）、memorize（暗記する）。",
+      derivatives: [
+        { word: "memoirist",  desc: "回想録の著者（名詞）" },
+        { word: "memoirs",    desc: "回想録（複数形）" }
+      ],
+      family: [
+        { word: "memory",        desc: "記憶（memoria）" },
+        { word: "autobiography",  desc: "自伝（auto- + bios + graphia）" },
+        { word: "reminiscence",   desc: "回想・追憶（reminisci）" }
+      ],
+      compounds: [
+        { phrase: "write a memoir",    desc: "回想録を書く" },
+        { phrase: "memoir literature", desc: "回想録文学" },
+        { phrase: "war memoirs",       desc: "戦争回想録" }
+      ]
+    },
+
+    "commemorate": {
+      origin: "ラテン語 commemorare（共に記憶する・記念する）< con-（共に）+ memorare（思い出す）< memor（心に留めている）。字義は「みんなで一緒に思い出す → 記念する」。\n\n16世紀に英語に入り commemorate（記念する・追悼する）として定着。commemorate a victory（勝利を記念する）、commemorate the victims（犠牲者を追悼する）のように使われる。commemorative stamp（記念切手）、commemoration（記念式典）が派生。\n\nmemoria 系: memory（記憶）、memorial（記念碑）、memoir（回想録）、remember（思い出す）。con-（共に）系: celebrate（祝う）、honor（称える）、recognize（表彰する）。",
+      derivatives: [
+        { word: "commemorative",   desc: "記念の（形容詞）" },
+        { word: "commemoration",   desc: "記念式典・追悼（名詞）" }
+      ],
+      family: [
+        { word: "memory",   desc: "記憶（memoria）" },
+        { word: "memorial", desc: "記念碑（memorialis）" },
+        { word: "remember", desc: "思い出す（re- + memor）" },
+        { word: "honor",    desc: "称える（honos）" }
+      ],
+      compounds: [
+        { phrase: "commemorative stamp",     desc: "記念切手" },
+        { phrase: "commemoration ceremony",  desc: "記念式典" },
+        { phrase: "commemorate victims",     desc: "犠牲者を追悼する" }
+      ]
+    },
+
+    "memorial": {
+      origin: "ラテン語 memorialis（記憶に関する）< memoria（記憶）< memor（心に留めている）。字義は「記憶に関する → 記念の・追悼の」。\n\n14世紀に英語に入り memorial（記念碑・記念の）として定着。war memorial（戦争記念碑）、memorial service（追悼式）のように使われる。Memorial Day（戦没者追悼記念日）はアメリカの連邦祝日（5月最終月曜日）として重要。\n\nmemoria 系: memory（記憶）、memoir（回想録）、commemorate（記念する）、remember（思い出す）、memorize（暗記する）。",
+      derivatives: [
+        { word: "memorialize",  desc: "記念する・追悼する（動詞）" }
+      ],
+      family: [
+        { word: "memory",       desc: "記憶（memoria）" },
+        { word: "memoir",       desc: "回想録（memoria）" },
+        { word: "monument",     desc: "記念碑（monere：思い出させる）" },
+        { word: "commemorate",  desc: "記念する（con- + memorare）" }
+      ],
+      compounds: [
+        { phrase: "war memorial",      desc: "戦争記念碑" },
+        { phrase: "memorial service",  desc: "追悼式・記念式" },
+        { phrase: "Memorial Day",      desc: "戦没者追悼記念日（米）" }
+      ]
+    },
+
+    "remember": {
+      origin: "ラテン語 rememorari（再び思い出す）< re-（再び）+ memorari（思い出す）< memor（心に留めている）。字義は「再び心に呼び戻す → 思い出す・覚えている」。\n\n14世紀に英語に入り remember（思い出す・覚えている）として定着。英語で最も頻繁に使われる語の一つ。remember + to do（忘れずに～する：未来志向）と remember + doing（～したことを覚えている：過去志向）の構文の区別が重要。\n\nmemoria 系: memory（記憶）、memoir（回想録）、commemorate（記念する）、memorial（記念碑）、memorize（暗記する）。re-（再び）系: recur（再び起こる）、return（戻る）、recall（思い出す）。",
+      derivatives: [
+        { word: "remembrance",  desc: "思い出・追悼（名詞）" }
+      ],
+      family: [
+        { word: "memory",       desc: "記憶（memoria）" },
+        { word: "memorial",     desc: "記念碑（memorialis）" },
+        { word: "recall",       desc: "思い出す（re- + call）" },
+        { word: "recollect",    desc: "思い出す（re- + colligere）" }
+      ],
+      compounds: [
+        { phrase: "remember to do",       desc: "忘れずに～する（未来の行動）" },
+        { phrase: "in remembrance of",    desc: "～を偲んで" },
+        { phrase: "Remembrance Day",      desc: "戦没者追悼記念日（英連邦）" }
+      ]
+    },
+
+    "annual": {
+      origin: "ラテン語 annualis（年の・年ごとの）< annus（年）。字義は「年に一度の・年次の」。\n\n14世紀に英語に入り annual（年次の・毎年の）として定着。annual report（年次報告書）、annual salary（年俸）、annual meeting（年次総会）のように使われる。植物用語では annual（一年生植物：一年で生涯を終える植物）という意味もある（cf. perennial: 多年生植物）。\n\nannus 系: anniversary（記念日：annus + vertere）、perennial（多年生の・永続的な：per + annus）、biennial（二年ごとの：bi + annus）。",
+      derivatives: [
+        { word: "annually",    desc: "年に一度・毎年（副詞）" },
+        { word: "annualize",   desc: "年率換算する（動詞）" },
+        { word: "annuity",     desc: "年金・年金保険（名詞）" }
+      ],
+      family: [
+        { word: "anniversary",  desc: "記念日（annus + vertere）" },
+        { word: "perennial",    desc: "多年生の（per + annus）" },
+        { word: "century",      desc: "世紀・100年（centum）" }
+      ],
+      compounds: [
+        { phrase: "annual report",   desc: "年次報告書" },
+        { phrase: "annual salary",   desc: "年俸" },
+        { phrase: "annual meeting",  desc: "年次総会" }
+      ]
+    },
+
+    "anniversary": {
+      origin: "ラテン語 anniversarius（年ごとに戻る）< annus（年）+ vertere（回る）。字義は「年が回ってくる日 → 記念日・周年」。\n\n13世紀に英語に入り anniversary（記念日・周年）として定着。wedding anniversary（結婚記念日）、the 50th anniversary（50周年）のように使われる。最初は死者を祈る年忌（year's mind）を指した語で、祝日ではなく追悼の意味があった。\n\nannus 系: annual（年次の）、perennial（多年生の）。vertere 系: convert（変換する）、reverse（逆にする）、versatile（多才な）、anniversary（annus + vertere = 年が戻る）。",
+      derivatives: [
+        { word: "anniversaries",  desc: "記念日の複数形（名詞）" }
+      ],
+      family: [
+        { word: "annual",      desc: "年次の（annus）" },
+        { word: "perennial",   desc: "多年生の（per + annus）" },
+        { word: "commemorate", desc: "記念する（con- + memorare）" }
+      ],
+      compounds: [
+        { phrase: "wedding anniversary",    desc: "結婚記念日" },
+        { phrase: "50th anniversary",       desc: "50周年" },
+        { phrase: "anniversary celebration", desc: "周年記念祝賀" }
+      ]
+    },
+
+    "perennial": {
+      origin: "ラテン語 perennis（年中続く・永続する）< per-（通じて・完全に）+ annus（年）。字義は「年を通じて続く → 永続的な・多年生の」。\n\n17世紀に英語に入り perennial（多年生の・永続的な）として定着。植物学では perennial plant（多年生植物：毎年花を咲かせる）として使われる。比喩的に a perennial problem（ずっと続く問題）、a perennial favourite（定番の人気もの）のように使われる。\n\nannus 系: annual（年次の）、anniversary（記念日）、biennial（二年ごとの）。per-（通じて）系: perfect（完璧な）、permanent（永続的な）、persist（粘り続ける）。",
+      derivatives: [
+        { word: "perennially",  desc: "常に・永続的に（副詞）" },
+        { word: "perennials",   desc: "多年生植物の複数形（名詞）" }
+      ],
+      family: [
+        { word: "annual",      desc: "年次の・一年生の（annus）" },
+        { word: "permanent",   desc: "永続的な（per- + manere）" },
+        { word: "persistent",  desc: "しつこい・持続する（per- + sistere）" }
+      ],
+      compounds: [
+        { phrase: "perennial plant",     desc: "多年生植物" },
+        { phrase: "perennial problem",   desc: "永続的な・ずっとある問題" },
+        { phrase: "perennial favourite", desc: "定番の人気もの" }
+      ]
+    },
+
+    "accord": {
+      origin: "ラテン語 accordare（心を合わせる・一致する）< ad-（に向かって）+ cor（心）。字義は「心を向け合わせる → 合意する・一致する」。\n\n13世紀に英語に入り accord（合意・協定・一致する）として定着。名詞（peace accord: 和平合意）と動詞（in accord with: ～と一致して）の両用がある。according to（～によると）も派生。of one's own accord（自発的に：自分の心から）という慣用句が重要。\n\ncor 系: record（記録する）、cordial（心からの）、concord（一致）、discord（不和）。con- + cor から consensus（合意）との語源的つながり。",
+      derivatives: [
+        { word: "accordance",   desc: "一致・調和（名詞）" },
+        { word: "accordingly",  desc: "したがって・その結果（副詞）" },
+        { word: "according",    desc: "～によると（前置詞的）" }
+      ],
+      family: [
+        { word: "record",   desc: "記録する（re- + cor）" },
+        { word: "cordial",  desc: "心からの（cor）" },
+        { word: "concord",  desc: "一致・調和（con- + cor）" },
+        { word: "discord",  desc: "不和（dis- + cor）" }
+      ],
+      compounds: [
+        { phrase: "peace accord",          desc: "和平合意・和平協定" },
+        { phrase: "in accord with",        desc: "～と一致して" },
+        { phrase: "of one's own accord",   desc: "自発的に・自分の意志で" }
+      ]
+    },
+
+    "record": {
+      origin: "ラテン語 recordari（心に呼び戻す・記憶する）< re-（再び）+ cor（心）。字義は「心に呼び戻す → 記録する・思い出す」。もともとは「心で覚えている」という意味だったが、書面・音声に残すという意味に発展した。\n\n13世紀に英語に入り record（記録・レコード・記録する）として定着。名詞（world record: 世界記録）と動詞（record the data: データを記録する）の両用がある。アクセントが名詞（/ˈrekərd/）と動詞（/rɪˈkɔːrd/）で異なる点に注意。\n\ncor 系: accord（合意する）、cordial（心からの）、concord（一致）、discord（不和）。",
+      derivatives: [
+        { word: "recording",  desc: "録音・録画（名詞）" },
+        { word: "recorder",   desc: "録音機・記録者（名詞）" },
+        { word: "recorded",   desc: "録音された・記録された（形容詞）" }
+      ],
+      family: [
+        { word: "accord",    desc: "合意する（ad- + cor）" },
+        { word: "cordial",   desc: "心からの（cor）" },
+        { word: "document",  desc: "文書・記録（documentum）" }
+      ],
+      compounds: [
+        { phrase: "world record",     desc: "世界記録" },
+        { phrase: "criminal record",  desc: "前科・犯罪歴" },
+        { phrase: "record high",      desc: "記録的な高さ" }
+      ]
+    },
+
+    "cordial": {
+      origin: "ラテン語 cordialis（心からの）< cor（心）。字義は「心から来る → 心からの・心温まる」。\n\n14世紀に英語に入り cordial（心からの・温かい）として定着。cordial welcome（温かい歓迎）、cordial relations（友好的な関係）のように使われる。名詞として「コーディアル（甘い果汁飲料）」という意味もある。cordiality（親しみやすさ・温かさ）が派生。\n\ncor 系: accord（合意する）、record（記録する）、concord（一致）、discord（不和）。courage（勇気）も cor（心）から派生した語で、「心の強さ」から来る。",
+      derivatives: [
+        { word: "cordiality",  desc: "親しみやすさ・温かさ（名詞）" },
+        { word: "cordially",   desc: "心から・温かく（副詞）" }
+      ],
+      family: [
+        { word: "accord",    desc: "合意する（ad- + cor）" },
+        { word: "record",    desc: "記録する（re- + cor）" },
+        { word: "concord",   desc: "一致（con- + cor）" },
+        { word: "courage",   desc: "勇気（cor：心の強さ）" }
+      ],
+      compounds: [
+        { phrase: "cordial welcome",    desc: "温かい歓迎" },
+        { phrase: "cordial relations",  desc: "友好的な関係" },
+        { phrase: "cordial invitation", desc: "心からの招待" }
+      ]
+    },
+
+    "concord": {
+      origin: "ラテン語 concordia（一致・調和）< con-（共に）+ cor（心）。字義は「心が共にある → 一致・調和」。アメリカのコンコード（Concord）は独立戦争の最初の戦闘があった地名で、「調和」を願って命名された。\n\n14世紀に英語に入り concord（一致・調和）として定着。文法では concord of subject and verb（主語と動詞の一致）として使われる。音楽では協和音を concord と呼ぶ。対義語は discord（不和・不協和音）。\n\ncor 系: accord（合意する）、record（記録する）、cordial（心からの）、discord（不和）。con-（共に）系: consensus（合意）、cooperation（協力）。",
+      derivatives: [
+        { word: "concordance",  desc: "語句索引・一致（名詞）" },
+        { word: "concordat",    desc: "協定・条約（名詞）" }
+      ],
+      family: [
+        { word: "accord",    desc: "合意する（ad- + cor）" },
+        { word: "record",    desc: "記録する（re- + cor）" },
+        { word: "cordial",   desc: "心からの（cor）" },
+        { word: "discord",   desc: "不和（dis- + cor）" }
+      ],
+      compounds: [
+        { phrase: "in concord",           desc: "一致して・調和して" },
+        { phrase: "subject-verb concord", desc: "主語と動詞の一致（文法）" }
+      ]
+    },
+
+    "define": {
+      origin: "ラテン語 definire（境界を定める・定義する）< de-（完全に）+ finis（境界・終わり）。字義は「境界を定める → 定義する・明確にする」。\n\n14世紀に英語に入り define（定義する・明確にする）として定着。define a word（単語を定義する）、define the problem（問題を明確にする）のように使われる。definition（定義）が重要な派生語。high definition（ハイデフィニション：高精細）は映像技術の重要語。\n\nfinis 系: finite（有限の）、infinite（無限の）、confine（制限する）、refine（精製する）、final（最後の）、finish（終わらせる）。de-（完全に）系: destroy（破壊する）、describe（記述する）、declare（宣言する）。",
+      derivatives: [
+        { word: "definition",   desc: "定義・解像度（名詞）" },
+        { word: "definitive",   desc: "決定的な・最終的な（形容詞）" },
+        { word: "redefine",     desc: "再定義する（動詞）" },
+        { word: "undefined",    desc: "未定義の（形容詞）" }
+      ],
+      family: [
+        { word: "finite",    desc: "有限の（finitus）" },
+        { word: "infinite",  desc: "無限の（in- + finitus）" },
+        { word: "confine",   desc: "制限する（con- + finis）" },
+        { word: "refine",    desc: "精製する（re- + finis）" }
+      ],
+      compounds: [
+        { phrase: "by definition",     desc: "定義上・当然" },
+        { phrase: "working definition", desc: "作業上の定義" },
+        { phrase: "high definition",   desc: "高精細（HD）" }
+      ]
+    },
+
+    "finite": {
+      origin: "ラテン語 finitus（終わった・限りのある）< finis（境界・終わり）の過去分詞。字義は「終わりがある → 有限の」。対義語は infinite（無限の）。\n\n15世紀に英語に入り finite（有限の・限りある）として定着。finite resources（有限な資源）、finite number（有限数）のように使われる。数学・論理学では finite set（有限集合）、finite state machine（有限状態機械）として重要。\n\nfinis 系: define（定義する）、infinite（無限の）、confine（制限する）、refine（精製する）、final（最後の）。",
+      derivatives: [
+        { word: "finitely",    desc: "有限に（副詞）" },
+        { word: "finiteness",  desc: "有限性（名詞）" }
+      ],
+      family: [
+        { word: "define",    desc: "定義する（de- + finis）" },
+        { word: "infinite",  desc: "無限の（in- + finitus）" },
+        { word: "confine",   desc: "制限する（con- + finis）" },
+        { word: "limited",   desc: "限られた（limes：境界）" }
+      ],
+      compounds: [
+        { phrase: "finite resources",     desc: "有限な資源" },
+        { phrase: "finite set",           desc: "有限集合（数学）" },
+        { phrase: "finite state machine", desc: "有限状態機械（情報工学）" }
+      ]
+    },
+
+    "infinite": {
+      origin: "ラテン語 infinitus（終わりのない・無限の）< in-（否定）+ finitus（終わった）< finis（境界・終わり）。字義は「終わりのない → 無限の」。\n\n14世紀に英語に入り infinite（無限の・果てしない）として定着。infinite possibilities（無限の可能性）、infinite patience（無限の忍耐）のように使われる。数学では∞（infinity）を表す概念。神学では神の infinite wisdom（無限の知恵）として使われる。\n\nfinis 系: define（定義する）、finite（有限の）、confine（制限する）、refine（精製する）。in-（否定）系: invisible（見えない）、inevitable（避けられない）、innumerable（無数の）。",
+      derivatives: [
+        { word: "infinity",       desc: "無限・無限大（名詞）" },
+        { word: "infinitely",     desc: "無限に・非常に（副詞）" },
+        { word: "infinitesimal",  desc: "無限小の・極微の（形容詞）" }
+      ],
+      family: [
+        { word: "define",   desc: "定義する（de- + finis）" },
+        { word: "finite",   desc: "有限の（finitus）" },
+        { word: "confine",  desc: "制限する（con- + finis）" },
+        { word: "endless",  desc: "果てしない（end + less）" }
+      ],
+      compounds: [
+        { phrase: "infinite possibilities",  desc: "無限の可能性" },
+        { phrase: "to infinity",             desc: "無限に・果てしなく" },
+        { phrase: "infinite patience",       desc: "無限の忍耐力" }
+      ]
+    },
+
+    "confine": {
+      origin: "ラテン語 confinare（隣接する・制限する）< con-（共に）+ finis（境界）。字義は「境界を共にする → 境界内に閉じ込める → 制限する」。\n\n16世紀に英語に入り confine（制限する・閉じ込める）として定着。confined to bed（床に就いている）、confined space（閉鎖空間）のように使われる。名詞の confines（領域・境界）は within the confines of the law（法の範囲内で）のように使われる。\n\nfinis 系: define（定義する）、finite（有限の）、infinite（無限の）、refine（精製する）。con-（共に・強調）系: contain（含む）、construct（建設する）、constrain（制約する）。",
+      derivatives: [
+        { word: "confinement",  desc: "監禁・制限・産後の床（名詞）" },
+        { word: "confined",     desc: "閉じ込められた・狭い（形容詞）" },
+        { word: "confines",     desc: "領域・境界（名詞複数）" }
+      ],
+      family: [
+        { word: "define",    desc: "定義する（de- + finis）" },
+        { word: "finite",    desc: "有限の（finitus）" },
+        { word: "restrict",  desc: "制限する（re- + strictus）" },
+        { word: "limit",     desc: "制限する（limes：境界）" }
+      ],
+      compounds: [
+        { phrase: "confined to bed",       desc: "床に就いている・寝たきり" },
+        { phrase: "confined space",        desc: "閉鎖空間" },
+        { phrase: "within the confines",   desc: "～の範囲内で" }
+      ]
+    },
+
+    "refine": {
+      origin: "ラテン語 refinare（精製する・洗練する）< re-（完全に）+ finare（終わらせる・最終状態にする）< finis（終わり・最終状態）。字義は「完全に純粋な最終状態にする → 精製する・洗練する」。\n\n16世紀に英語に入り refine（精製する・洗練する）として定着。refine oil（石油を精製する）、refine one's skills（スキルを磨く）のように使われる。refined（洗練された・上品な）は形容詞として重要。refinery（精製所・製油所）が派生。\n\nfinis 系: define（定義する）、finite（有限の）、infinite（無限の）、confine（制限する）。",
+      derivatives: [
+        { word: "refined",      desc: "洗練された・精製された（形容詞）" },
+        { word: "refinement",   desc: "精製・洗練（名詞）" },
+        { word: "refinery",     desc: "精製所・製油所（名詞）" },
+        { word: "unrefined",    desc: "未精製の・粗野な（形容詞）" }
+      ],
+      family: [
+        { word: "define",    desc: "定義する（de- + finis）" },
+        { word: "purify",    desc: "純化する（purus）" },
+        { word: "polish",    desc: "磨く・洗練する（polire）" }
+      ],
+      compounds: [
+        { phrase: "oil refinery",   desc: "石油精製所" },
+        { phrase: "refine skills",  desc: "スキルを磨く・洗練する" },
+        { phrase: "refined taste",  desc: "洗練された趣味・上品な好み" }
+      ]
+    },
+
+    "innovate": {
+      origin: "ラテン語 innovare（新しくする・革新する）< in-（中に・完全に）+ novare（新しくする）< novus（新しい）。字義は「中で新しくする → 革新する・新機軸を打ち出す」。\n\n16世紀に英語に入り innovate（革新する・イノベーションを起こす）として定着。innovation（革新・イノベーション）はビジネス・技術の核心語。disruptive innovation（破壊的イノベーション：既存市場を覆す革新）はシリコンバレーでよく使われる概念。\n\nnovus 系: novel（新しい・小説）、novice（初心者）、renovate（改修する）。in-（完全に）系: insist（主張する）、inspire（鼓舞する）。",
+      derivatives: [
+        { word: "innovation",   desc: "革新・イノベーション（名詞）" },
+        { word: "innovative",   desc: "革新的な・先進的な（形容詞）" },
+        { word: "innovatively",  desc: "革新的に（副詞）" },
+        { word: "innovator",    desc: "革新者・イノベーター（名詞）" }
+      ],
+      family: [
+        { word: "renovate",  desc: "改修する（re- + novus）" },
+        { word: "novel",     desc: "新しい・小説（novus）" },
+        { word: "novice",    desc: "初心者（novus）" },
+        { word: "pioneer",   desc: "開拓者（paionier）" }
+      ],
+      compounds: [
+        { phrase: "drive innovation",        desc: "イノベーションを推進する" },
+        { phrase: "innovative solution",     desc: "革新的な解決策" },
+        { phrase: "disruptive innovation",   desc: "破壊的イノベーション" }
+      ]
+    },
+
+    "renovate": {
+      origin: "ラテン語 renovare（新しくする・刷新する）< re-（再び）+ novare（新しくする）< novus（新しい）。字義は「再び新しくする → 改修する・改装する」。\n\n17世紀に英語に入り renovate（改修する・改装する）として定着。renovate a building（建物を改修する）、renovated kitchen（改装されたキッチン）のように建物の修復・改装によく使われる。renovation（改修工事）が派生し、renovation project（改修プロジェクト）として使われる。\n\nnovus 系: novel（新しい・小説）、novice（初心者）、innovate（革新する）。re-（再び）系: renew（更新する）、restore（復元する）、reconstruct（再建する）。",
+      derivatives: [
+        { word: "renovation",  desc: "改修・改装（名詞）" },
+        { word: "renovated",   desc: "改修された（形容詞）" }
+      ],
+      family: [
+        { word: "innovate",  desc: "革新する（in- + novus）" },
+        { word: "novel",     desc: "新しい・小説（novus）" },
+        { word: "restore",   desc: "復元する（re- + staurare）" },
+        { word: "refurbish",  desc: "改装する・磨き直す" }
+      ],
+      compounds: [
+        { phrase: "renovate a house",    desc: "家を改修する" },
+        { phrase: "renovation project",  desc: "改修プロジェクト" },
+        { phrase: "home renovation",     desc: "住宅リノベーション" }
+      ]
+    },
+
+    "status": {
+      origin: "ラテン語 status（立っている状態・状態）< stare（立つ）。字義は「立っている様子 → 現在の状態・地位・身分」。\n\n17世紀に英語に入り status（状態・地位・身分）として定着。social status（社会的地位）、status quo（現状：ラテン語のまま英語で使われる）のように使われる。status symbol（地位の象徴）、status update（状況更新）など現代語でも頻出。\n\nstare 系: state（状態・国家）、station（駅・位置）、stable（安定した）、statue（彫像：立っているもの）、statute（法律）、institute（設立する）、constitute（構成する）。",
+      derivatives: [
+        { word: "status quo",  desc: "現状（ラテン語：the existing state）" }
+      ],
+      family: [
+        { word: "state",    desc: "状態・国家（stare）" },
+        { word: "station",  desc: "駅・位置（statio）" },
+        { word: "stable",   desc: "安定した（stabilis）" },
+        { word: "statute",  desc: "法律（statutum）" }
+      ],
+      compounds: [
+        { phrase: "social status",   desc: "社会的地位" },
+        { phrase: "status quo",      desc: "現状維持（ラテン語）" },
+        { phrase: "status update",   desc: "状況更新" }
+      ]
+    },
+
+    "stable": {
+      origin: "ラテン語 stabilis（しっかり立っている・安定した）< stare（立つ）。字義は「しっかりと立っている → 安定した・馬小屋」。形容詞「安定した」と名詞「馬小屋」（馬が立って繋がれている場所）の両義を持つ。\n\n13世紀に英語に入り stable（安定した・馬小屋）として定着。stable condition（安定した状態：医学）、stable economy（安定した経済）のように使われる。establish（確立する：しっかりと立てる）、stability（安定性）が重要な派生語。\n\nstare 系: state（状態）、station（駅）、status（地位）、statue（彫像）、statute（法律）、establish（確立する）。",
+      derivatives: [
+        { word: "stability",   desc: "安定性（名詞）" },
+        { word: "stabilize",   desc: "安定させる（動詞）" },
+        { word: "stabilizer",  desc: "安定装置（名詞）" },
+        { word: "unstable",    desc: "不安定な（形容詞）" }
+      ],
+      family: [
+        { word: "status",   desc: "地位・状態（stare）" },
+        { word: "state",    desc: "状態・国家（stare）" },
+        { word: "steady",   desc: "安定した・着実な" },
+        { word: "secure",   desc: "安全な・確実な（securus）" }
+      ],
+      compounds: [
+        { phrase: "stable condition",  desc: "安定した状態（医学）" },
+        { phrase: "stable economy",    desc: "安定した経済" },
+        { phrase: "establish stability", desc: "安定性を確立する" }
+      ]
+    },
+
+    "statute": {
+      origin: "ラテン語 statutum（定められたもの）< statuere（立てる・設立する・定める）< stare（立つ）。字義は「立てられて定められたもの → 法令・成文法」。\n\n14世紀に英語に入り statute（法律・法令）として定着。statute law（成文法：議会が制定した法律）、statute of limitations（時効）のように法律用語として使われる。statutory（法定の）が重要な派生語で、statutory holiday（法定休日）のように使われる。\n\nstare 系: state（状態・国家）、station（駅）、status（地位）、stable（安定した）、statue（彫像）。statuere から: constitution（憲法：共に立てたもの）、institute（設立する）。",
+      derivatives: [
+        { word: "statutory",    desc: "法定の・法律上の（形容詞）" },
+        { word: "statutes",     desc: "法令の複数形（名詞）" }
+      ],
+      family: [
+        { word: "status",   desc: "地位・状態（stare）" },
+        { word: "state",    desc: "状態・国家（stare）" },
+        { word: "law",      desc: "法律（lagu）" },
+        { word: "regulation", desc: "規制（regulare）" }
+      ],
+      compounds: [
+        { phrase: "statute law",            desc: "成文法・制定法" },
+        { phrase: "statute of limitations", desc: "時効（法律）" },
+        { phrase: "statutory requirement",  desc: "法的要件" }
+      ]
+    },
+
+    "century": {
+      origin: "ラテン語 centuria（百人組・百年）< centum（百）。ローマ軍の百人隊（centurion が率いる部隊）を指す語が、「百年間」という意味に転用された。\n\n14世紀に英語に入り century（世紀・100年）として定着。the 21st century（21世紀）のように歴史の時代区分として使われる。cricket では century（センチュリー：100得点）という意味もある。centennial（100周年の）、bicentennial（200周年の）が派生。\n\ncentum 系: percent（百分率）、centimeter（センチメートル：100分の1メートル）、centigrade（摂氏：百分度）、centurion（百人隊長）。cent（セント：1/100ドル）も同根。",
+      derivatives: [
+        { word: "centuries",    desc: "世紀の複数形（名詞）" },
+        { word: "centurion",    desc: "百人隊長（ローマ軍）（名詞）" },
+        { word: "centennial",   desc: "100周年の（形容詞）" }
+      ],
+      family: [
+        { word: "percent",     desc: "パーセント（centum）" },
+        { word: "centimeter",  desc: "センチメートル（centum）" },
+        { word: "decade",      desc: "10年・10（decem）" },
+        { word: "millennium",  desc: "千年（mille）" }
+      ],
+      compounds: [
+        { phrase: "21st century",       desc: "21世紀" },
+        { phrase: "turn of the century", desc: "世紀の変わり目" },
+        { phrase: "century-old",        desc: "100年以上の歴史を持つ" }
+      ]
     }
 
   };

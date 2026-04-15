@@ -74,7 +74,7 @@ function _updateSoundButtons() {
 
   // ── 状態 ─────────────────────────────────────
   let selectedLevel  = profile.selectedLevel || 0;
-  let selectedMode   = "prefix";
+  let selectedMode   = "etymology";
   // 間違えた単語リストの状態
   let _wwlState = { filter: "active", sort: "recent", page: 1 };
   const WWL_PAGE_SIZE = 20;
@@ -119,8 +119,7 @@ function _updateSoundButtons() {
         selectedMode = tab.dataset.mode;
         document.querySelectorAll(".mode-tab").forEach(t => t.classList.remove("active"));
         tab.classList.add("active");
-        $("prefix-grid").classList.toggle("hidden", selectedMode !== "prefix");
-        $("suffix-grid").classList.toggle("hidden", selectedMode !== "suffix");
+        $("etymology-grid").classList.toggle("hidden", selectedMode !== "etymology");
         $("weak-section").classList.toggle("hidden", selectedMode !== "weak");
         selectedAffix = null;
         renderAffixGrid();
@@ -157,25 +156,47 @@ function _updateSoundButtons() {
     });
   }
 
-  // 語根グリッド描画
+  // 語源グリッド描画（接頭語・語根・接尾語を統合）
   async function renderAffixGrid() {
     const allStats = await Storage.getAllAffixStats();
     const statsMap  = {};
     allStats.forEach(s => { statsMap[`${s.mode}:${s.affixKey}`] = s; });
 
-    function renderGrid(containerId, items, mode) {
-      const container = $(containerId);
-      container.innerHTML = "";
-      items.forEach(item => {
-        const stat   = statsMap[`${mode}:${item.key}`];
-        const count  = mode === "prefix"
-          ? WordData.getPrefixWordCount(item.key, selectedLevel)
-          : WordData.getSuffixWordCount(item.key, selectedLevel);
-        if (count === 0) return;
+    const container = $("etymology-grid");
+    container.innerHTML = "";
+
+    // タイプ別ラベル（バッジ表示用）
+    const TYPE_LABEL = { prefix: "接頭語", root: "語根", suffix: "接尾語" };
+
+    // セクション定義: 接頭語 → 語根 → 接尾語 の順
+    const sections = [
+      { title: "接頭語系", items: WordData.PREFIXES, type: "prefix" },
+      { title: "語根系",   items: WordData.ROOTS,    type: "root"   },
+      { title: "接尾語系", items: WordData.SUFFIXES,  type: "suffix" },
+    ];
+
+    sections.forEach(({ title, items, type }) => {
+      // このセクションに単語がある項目だけ絞り込む
+      const visibleItems = items.filter(item =>
+        WordData.getEtymologyWordCount(item.key, selectedLevel) > 0
+      );
+      if (visibleItems.length === 0) return;
+
+      // セクション見出し
+      const heading = document.createElement("div");
+      heading.className = "etym-section-heading";
+      heading.textContent = title;
+      container.appendChild(heading);
+
+      visibleItems.forEach(item => {
+        const count = WordData.getEtymologyWordCount(item.key, selectedLevel);
+        // stats は既存の "prefix:" / "suffix:" / "root:" キーも、新しい "etymology:" キーも両方チェック
+        const stat = statsMap[`etymology:${item.key}`]
+                  || statsMap[`${type}:${item.key}`];
 
         const btn = document.createElement("button");
         btn.className = "affix-btn";
-        if (selectedAffix && selectedAffix.key === item.key && selectedAffix.mode === mode) {
+        if (selectedAffix && selectedAffix.key === item.key) {
           btn.classList.add("selected");
         }
 
@@ -192,18 +213,14 @@ function _updateSoundButtons() {
           <span class="affix-count">${count}語</span>
         `;
         btn.onclick = () => {
-          selectedAffix = { mode, key: item.key, label: item.label };
-          // すべてのボタンのselectedを外す
+          selectedAffix = { mode: "etymology", key: item.key, label: item.label };
           document.querySelectorAll(".affix-btn").forEach(b => b.classList.remove("selected"));
           btn.classList.add("selected");
           showStartArea(item);
         };
         container.appendChild(btn);
       });
-    }
-
-    renderGrid("prefix-grid", WordData.PREFIXES, "prefix");
-    renderGrid("suffix-grid", WordData.SUFFIXES, "suffix");
+    });
 
     // スタートエリアを更新
     const existing = document.querySelector(".affix-start-area");
@@ -218,9 +235,7 @@ function _updateSoundButtons() {
     area.className = "affix-start-area";
     area.innerHTML = `
       <p class="selected-info">「<strong>${item.label}</strong>」を選択中 (${
-        selectedMode === "prefix"
-          ? WordData.getPrefixWordCount(item.key, selectedLevel)
-          : WordData.getSuffixWordCount(item.key, selectedLevel)
+        WordData.getEtymologyWordCount(item.key, selectedLevel)
       }語)</p>
       <button class="btn-primary" id="btn-start-quiz">
         🚀 クイズを始める！
@@ -293,16 +308,16 @@ function _updateSoundButtons() {
       statusEl.textContent = "未完了";
       descEl.textContent = "今日も学習してストリークを伸ばそう！";
       btn.onclick = () => {
-        // 今日のおすすめ接頭語をランダムに選ぶ
+        // 今日のおすすめ語源をランダムに選ぶ（全語源から）
         const today = new Date();
-        const idx   = today.getDate() % WordData.PREFIXES.length;
-        const p     = WordData.PREFIXES[idx];
-        startQuiz("prefix", p.key, p.label, true);
+        const idx   = today.getDate() % WordData.ALL_ETYMOLOGIES.length;
+        const p     = WordData.ALL_ETYMOLOGIES[idx];
+        startQuiz("etymology", p.key, p.label, true);
       };
     }
   }
 
-  // ── クイズ起動（接頭語/接尾語/デイリー） ─────
+  // ── クイズ起動（語源/デイリー） ──────────────
   function startQuiz(mode, affixKey, label, isDaily = false) {
     const quizSize = selectedQuizCount === 0 ? 99999 : selectedQuizCount;
     const result   = Quiz.start(mode, affixKey, selectedLevel, { quizSize });
@@ -688,9 +703,7 @@ function _updateSoundButtons() {
     // ボタン
     $("btn-retry").onclick = () => {
       if (res.mode && res.affixKey && res.mode !== "weak") {
-        const label = res.mode === "prefix"
-          ? WordData.getPrefixInfo(res.affixKey).label
-          : WordData.getSuffixInfo(res.affixKey).label;
+        const label = WordData.getEtymologyInfo(res.affixKey).label;
         startQuiz(res.mode, res.affixKey, label);
       } else {
         // 苦手克服モードの再挑戦
@@ -744,15 +757,15 @@ function _updateSoundButtons() {
     $("ps-total-quizzes").textContent = p.totalQuizzes || 0;
     $("ps-max-combo").textContent   = p.maxCombo || 0;
 
-    // 苦手語根
+    // 苦手語源（全タイプ統合）
     const weakEl = $("weak-roots-list");
-    const weak   = await Storage.getWeakAffixes("prefix", 5);
+    const weak   = await Storage.getWeakAffixes("etymology", 5);
     if (weak.length === 0) {
       weakEl.innerHTML = `<p class="no-data-text">まだデータがありません。クイズをやって実力を測ろう！</p>`;
     } else {
       weakEl.innerHTML = weak.map(s => {
         const pct  = Math.round((s.correct / s.total) * 100);
-        const info = WordData.getPrefixInfo(s.affixKey);
+        const info = WordData.getEtymologyInfo(s.affixKey);
         return `
           <div class="weak-root-item">
             <span class="weak-root-name">${info.label}</span>
@@ -817,8 +830,7 @@ function _updateSoundButtons() {
           t.classList.toggle("active", isWeak);
         });
         selectedMode = "weak";
-        $("prefix-grid").classList.add("hidden");
-        $("suffix-grid").classList.add("hidden");
+        $("etymology-grid").classList.add("hidden");
         $("weak-section").classList.remove("hidden");
         renderWeakSection();
       };

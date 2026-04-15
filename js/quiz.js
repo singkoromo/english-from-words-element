@@ -16,7 +16,9 @@ const Quiz = (function(){
 
     // 問題プール取得
     let pool;
-    if (mode === "prefix") {
+    if (mode === "etymology") {
+      pool = WordData.getWordsByEtymology(affixKey, level);
+    } else if (mode === "prefix") {
       pool = WordData.getWordsByPrefix(affixKey, level);
     } else if (mode === "suffix") {
       pool = WordData.getWordsBySuffix(affixKey, level);

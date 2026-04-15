@@ -397,6 +397,44 @@ const WordData = (function(){
     return { level, currentXp: xp, nextXp: getXpForLevel(level) };
   }
 
+  // ── 語源統合（接頭語 + 語根 + 接尾語 を1つに） ───
+  // type フィールド付きで全語源をまとめたリスト
+  const ALL_ETYMOLOGIES = [
+    ...PREFIXES.map(p => ({ ...p, type: "prefix" })),
+    ...ROOTS.map(r   => ({ ...r, type: "root"   })),
+    ...SUFFIXES.map(s => ({ ...s, type: "suffix" })),
+  ];
+
+  // type から呼び出す関数を選択
+  function _detectType(key) {
+    if (PREFIXES.find(p => p.key === key)) return "prefix";
+    if (ROOTS.find(r => r.key === key))    return "root";
+    if (SUFFIXES.find(s => s.key === key)) return "suffix";
+    return null;
+  }
+
+  function getWordsByEtymology(key, level) {
+    const type = _detectType(key);
+    if (type === "prefix") return getWordsByPrefix(key, level);
+    if (type === "root")   return getWordsByRoot(key, level);
+    if (type === "suffix") return getWordsBySuffix(key, level);
+    return [];
+  }
+
+  function getEtymologyWordCount(key, level) {
+    return getWordsByEtymology(key, level).length;
+  }
+
+  function getEtymologyInfo(key) {
+    const p = PREFIXES.find(p => p.key === key);
+    if (p) return { ...p, type: "prefix" };
+    const r = ROOTS.find(r => r.key === key);
+    if (r) return { ...r, type: "root" };
+    const s = SUFFIXES.find(s => s.key === key);
+    if (s) return { ...s, type: "suffix" };
+    return { key, label: key, meaning: "", color: "#C77DFF", type: "prefix" };
+  }
+
   // ランダムシャッフル（Fisher-Yates）
   function shuffle(arr) {
     const a = arr.slice();
@@ -412,6 +450,7 @@ const WordData = (function(){
     SUFFIXES,
     ROOTS,
     CATEGORIES,
+    ALL_ETYMOLOGIES,
     getWordsByPrefix,
     getWordsBySuffix,
     getAllWords,
@@ -425,6 +464,9 @@ const WordData = (function(){
     getWordsByCategory,
     getCategoryInfo,
     getCategoryWordCount,
+    getWordsByEtymology,
+    getEtymologyWordCount,
+    getEtymologyInfo,
     getLevelName,
     getLevelTitle,
     getXpForLevel,

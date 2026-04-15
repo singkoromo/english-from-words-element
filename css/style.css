@@ -1793,6 +1793,156 @@ body {
 }
 
 /* ============================================
+   単語の成り立ち (origin-box)
+   ============================================ */
+.origin-box {
+  background: linear-gradient(135deg, #FFF8E7, #FFF3CD);
+  border: 1.5px solid #FFD43B;
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.origin-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #9c6f00;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.origin-text {
+  font-size: 13px;
+  color: var(--text-primary);
+  line-height: 1.85;
+}
+
+/* ============================================
+   派生語 (derivatives-box)
+   ============================================ */
+.derivatives-box {
+  margin-bottom: 14px;
+}
+
+.derivatives-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #5c7cfa;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.derivatives-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.derivative-chip {
+  display: inline-block;
+  background: #EDF2FF;
+  color: #3b5bdb;
+  border: 1px solid #BAC8FF;
+  border-radius: 20px;
+  padding: 3px 11px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.derivative-chip--sm {
+  font-size: 11px;
+  padding: 2px 9px;
+}
+
+/* ============================================
+   結果画面 — 間違えリスト内の成り立ち・派生語
+   ============================================ */
+.wrong-origin {
+  margin-top: 6px;
+  padding: 8px 10px;
+  background: #FFF9DB;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid #FFD43B;
+  font-size: 12px;
+  color: var(--text-primary);
+  line-height: 1.7;
+}
+
+.wrong-origin-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  color: #9c6f00;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.wrong-derivatives {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.wrong-deriv-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #5c7cfa;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-right: 2px;
+}
+
+/* ============================================
+   マイページ苦手リスト内の成り立ち・派生語
+   ============================================ */
+.wwl-origin {
+  margin-top: 6px;
+  padding: 8px 10px;
+  background: #FFF9DB;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid #FFD43B;
+  font-size: 12px;
+  color: var(--text-primary);
+  line-height: 1.7;
+}
+
+.wwl-origin-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  color: #9c6f00;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.wwl-derivatives {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.wwl-deriv-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #5c7cfa;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-right: 2px;
+}
+
+/* ============================================
    ホーム画面 — モバイル上部コンパクト化
    ============================================ */
 @media (max-height: 700px) {

@@ -267,10 +267,12 @@ const WordData = (function(){
     const raw = window.WORD_DATA_RAW || [];
     const examples = window.WORD_EXAMPLES || {};
     for (const w of raw) {
-      // 用例データをマージ
+      // 用例・語源ストーリー・派生語データをマージ
       if (examples[w.word]) {
-        w.example   = examples[w.word].example;
-        w.exampleJa = examples[w.word].exampleJa;
+        w.example     = examples[w.word].example     || w.example;
+        w.exampleJa   = examples[w.word].exampleJa   || w.exampleJa;
+        w.origin      = examples[w.word].origin      || null;
+        w.derivatives = examples[w.word].derivatives || null;
       }
       if (w.prefix) {
         if (!_byPrefix[w.prefix]) _byPrefix[w.prefix] = [];

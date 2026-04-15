@@ -450,6 +450,18 @@ function _updateSoundButtons() {
     }
     $("explanation-breakdown").innerHTML = breakdownHTML;
 
+    // 単語の成り立ち（origin データがある場合のみ）
+    const originBox  = $("origin-box");
+    const originText = $("origin-text");
+    if (originBox && originText) {
+      if (res.explanation.origin) {
+        originText.textContent = res.explanation.origin;
+        originBox.style.display = "block";
+      } else {
+        originBox.style.display = "none";
+      }
+    }
+
     // 用例表示（example データがある場合のみ）
     const exBox = $("example-box");
     const exEn  = $("example-en");
@@ -463,6 +475,20 @@ function _updateSoundButtons() {
       exBox.style.display = "block";
     } else if (exBox) {
       exBox.style.display = "none";
+    }
+
+    // 派生語（derivatives データがある場合のみ）
+    const derivBox   = $("derivatives-box");
+    const derivChips = $("derivatives-chips");
+    if (derivBox && derivChips) {
+      if (res.explanation.derivatives && res.explanation.derivatives.length > 0) {
+        derivChips.innerHTML = res.explanation.derivatives
+          .map(d => `<span class="derivative-chip">${d}</span>`)
+          .join("");
+        derivBox.style.display = "block";
+      } else {
+        derivBox.style.display = "none";
+      }
     }
 
     panel.classList.add("show");
@@ -593,13 +619,21 @@ function _updateSoundButtons() {
                <span class="wrong-example-ja">${w.exampleJa}</span>
              </div>`
           : "";
+        const originHtml = w.origin
+          ? `<div class="wrong-origin"><span class="wrong-origin-label">📖 成り立ち</span>${w.origin}</div>`
+          : "";
+        const derivHtml = (w.derivatives && w.derivatives.length > 0)
+          ? `<div class="wrong-derivatives"><span class="wrong-deriv-label">🔗 派生語</span>${w.derivatives.map(d => `<span class="derivative-chip derivative-chip--sm">${d}</span>`).join("")}</div>`
+          : "";
         return `
           <div class="wrong-item">
             <span class="wrong-word">${w.word}</span>
             ${w.pos ? `<span class="wrong-pos">${w.pos}</span>` : ""}
             <span class="wrong-meaning">${w.meaning}</span>
             <span class="wrong-etymology">${w.etymology}</span>
+            ${originHtml}
             ${exHtml}
+            ${derivHtml}
           </div>`;
       }).join("");
       wrongSection.style.display = "block";
@@ -816,6 +850,12 @@ function _updateSoundButtons() {
              ${w.exampleJa ? `<div class="wwl-example-ja">${_escHtml(w.exampleJa)}</div>` : ""}
            </div>`
         : "";
+      const originHtml = w.origin
+        ? `<div class="wwl-origin"><span class="wwl-origin-label">📖 成り立ち</span>${_escHtml(w.origin)}</div>`
+        : "";
+      const derivHtml = (w.derivatives && w.derivatives.length > 0)
+        ? `<div class="wwl-derivatives"><span class="wwl-deriv-label">🔗 派生語</span>${w.derivatives.map(d => `<span class="derivative-chip derivative-chip--sm">${_escHtml(d)}</span>`).join("")}</div>`
+        : "";
 
       return `
         <div class="wwl-item${isGraduated ? " wwl-graduated" : ""}" data-key="${_escHtml(entry.wordKey)}">
@@ -836,7 +876,9 @@ function _updateSoundButtons() {
           </div>
           <div class="wwl-item-body">
             <div class="wwl-etymology">📖 ${_escHtml(w.etymology || "")}</div>
+            ${originHtml}
             ${exHtml}
+            ${derivHtml}
           </div>
         </div>`;
     }).join("");

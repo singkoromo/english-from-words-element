@@ -160,14 +160,16 @@ const Quiz = (function(){
   function _buildExplanation(word, isCorrect) {
     return {
       isCorrect,
-      word:       word.word,
-      meaning:    word.meaning,
-      etymology:  word.etymology,
-      prefix:     word.prefix    || null,
-      suffix:     word.suffix    || null,
-      pos:        word.pos       || null,  // 品詞（設定されている場合）
-      example:    word.example   || null,  // 英文例
-      exampleJa:  word.exampleJa || null,  // 和訳
+      word:        word.word,
+      meaning:     word.meaning,
+      etymology:   word.etymology,
+      prefix:      word.prefix      || null,
+      suffix:      word.suffix      || null,
+      pos:         word.pos         || null,  // 品詞
+      example:     word.example     || null,  // 英文例
+      exampleJa:   word.exampleJa   || null,  // 和訳
+      origin:      word.origin      || null,  // 単語の成り立ち解説
+      derivatives: word.derivatives || null,  // 派生語リスト
     };
   }
 

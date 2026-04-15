@@ -567,6 +567,313 @@
         { phrase: "graduate student",    desc: "大学院生" },
         { phrase: "graduation ceremony", desc: "卒業式" }
       ]
+    },
+
+    // ── movēre系 ─────────────────────────────────────────────────────────────
+    "move": {
+      origin: "ラテン語 movēre（動かす）が古フランス語 mouvoir を経て英語に入った動詞。「移動させる・心を動かす」両義を持つ最も基本的な動詞の一つ。政治的・感情的な文脈でも「動議を提出する」意味を持つ（I move that...）。\n\nこの語根 mov-/mot- はラテン語動詞の完了幹（motum）と現在幹（mov-）の両方が英語に別々に借用され、move（現在幹）と motion/motor（完了幹）が並存している。",
+      derivatives: [
+        { word: "movement", desc: "動き・運動・（社会）運動（名詞）" },
+        { word: "movable",  desc: "動かせる・可動式の（形容詞）" },
+        { word: "mover",    desc: "動かす人・引越し業者（名詞）" }
+      ],
+      family: [
+        { word: "motion",      desc: "動き・動議（motum: 完了幹から）" },
+        { word: "mobile",      desc: "移動式の・携帯電話（mobilis: 動きやすい）" },
+        { word: "emotion",     desc: "感情（emovēre: 外に動かす）" },
+        { word: "remove",      desc: "取り除く（removēre: 離して動かす）" },
+        { word: "promote",     desc: "促進する（prōmovēre: 前へ動かす）" },
+        { word: "motivate",    desc: "動機づける（motum: 完了幹）" }
+      ],
+      compounds: [
+        { phrase: "move forward",  desc: "前進する・話を進める" },
+        { phrase: "move on",       desc: "次へ進む・気持ちを切り替える" },
+        { phrase: "make a move",   desc: "行動を起こす" }
+      ]
+    },
+
+    "motion": {
+      origin: "ラテン語 mōtiō（動き・動作）< movēre の完了幹 motum に由来。英語には古フランス語 motion を経て15世紀に入り、「物体の動き」から「議会の動議」まで幅広く使われる。\n\nmotion picture（映画）という用語は、静止画像が連続的に「動く」ことに由来する。put something in motion（始動させる）は現代でも慣用的に使われる表現。",
+      derivatives: [
+        { word: "motionless", desc: "静止した・動きのない（形容詞）" },
+        { word: "motivate",   desc: "動機づける（motive から）" },
+        { word: "motor",      desc: "モーター・原動力（同根）" }
+      ],
+      family: [
+        { word: "move",       desc: "動かす（mov-: 現在幹）" },
+        { word: "mobile",     desc: "移動式の（mobilis: 動きやすい）" },
+        { word: "emotion",    desc: "感情（emovēre: 外に動かす）" },
+        { word: "motor",      desc: "モーター・原動力（motum の派生）" },
+        { word: "promote",    desc: "促進する（前へ動かす）" },
+        { word: "locomotive", desc: "機関車（loco movēre: 場所を動かす）" }
+      ],
+      compounds: [
+        { phrase: "motion picture", desc: "映画（動く絵）" },
+        { phrase: "in motion",      desc: "動いている最中で" },
+        { phrase: "put in motion",  desc: "始動させる・開始する" }
+      ]
+    },
+
+    "mobile": {
+      origin: "ラテン語 mōbilis（動きやすい・不安定な）< movēre（動かす）。中世では「流動する群衆」を指し、そこから英語 mob（暴徒）が生まれた（mōbilis が縮まって mob に）。\n\n現代英語ではスマートフォンを「モバイル」と呼ぶが、これは mobile phone の略。automobile（自動車）は auto-（自己）+ mobile（動く）で「自分で動くもの」の意。",
+      derivatives: [
+        { word: "mobility",    desc: "移動性・流動性（名詞）" },
+        { word: "mobilize",    desc: "動員する・集結させる（動詞）" },
+        { word: "immobile",    desc: "動けない・固定された（形容詞）" },
+        { word: "automobile",  desc: "自動車（auto-+mobile）" }
+      ],
+      family: [
+        { word: "move",    desc: "動かす（mov-: 現在幹）" },
+        { word: "motion",  desc: "動き・動議（mōtiō: 動作）" },
+        { word: "emotion", desc: "感情（外へ動かす）" },
+        { word: "mob",     desc: "暴徒（mōbilis の短縮形）" },
+        { word: "promote", desc: "促進する（前へ動かす）" }
+      ],
+      compounds: [
+        { phrase: "mobile phone",    desc: "携帯電話" },
+        { phrase: "mobile home",     desc: "移動住宅・トレーラーハウス" },
+        { phrase: "social mobility", desc: "社会的流動性" }
+      ]
+    },
+
+    "emotion": {
+      origin: "ラテン語 ēmōtiō < ēmovēre（外へ動かす）< ex-（外へ）+ movēre（動かす）。もとは「移住・動揺」を指す言葉だったが、17世紀以降「心を外へ揺り動かす感情」の意味に専用化された。\n\n感情は内部に閉じ込められたものではなく、外に「動き出す」エネルギーと捉えたラテン語的世界観が語源に凝縮されている。emotional intelligence（EQ）は1990年代に心理学者ゴールマンが広めた概念。",
+      derivatives: [
+        { word: "emotional",   desc: "感情的な・情緒的な（形容詞）" },
+        { word: "emotionally", desc: "感情的に（副詞）" },
+        { word: "emotionless", desc: "感情のない（形容詞）" },
+        { word: "unemotional", desc: "感情を表さない（形容詞）" }
+      ],
+      family: [
+        { word: "move",   desc: "動かす（mov-: 感情も「動かす」）" },
+        { word: "motion", desc: "動き・動議（mōtiō）" },
+        { word: "mobile", desc: "移動式の（mōbilis）" },
+        { word: "remove", desc: "取り除く（re+movēre）" },
+        { word: "motive", desc: "動機（心を動かすもの）" }
+      ],
+      compounds: [
+        { phrase: "emotional intelligence", desc: "感情知性・EQ" },
+        { phrase: "strong emotion",         desc: "強い感情" },
+        { phrase: "mix of emotions",        desc: "複雑な感情・様々な気持ち" }
+      ]
+    },
+
+    "remove": {
+      origin: "ラテン語 removēre（引き離す・除く）< re-（後ろへ・離して）+ movēre（動かす）。re- には「再び」の他に「離れて・反対方向へ」の意もある。英語には古フランス語 remouvoir を経て14世紀に入った。\n\n名詞 remote（遠隔の）は同根の remotus（遠ざけられた）から来ており、「離して動かされた」が転じて「遠い」になった。リモコン（remote control）の remote も同じ語根。",
+      derivatives: [
+        { word: "removal",     desc: "取り除くこと・除去（名詞）" },
+        { word: "removable",   desc: "取り外せる・着脱可能な（形容詞）" },
+        { word: "irremovable", desc: "取り外せない・不動の（形容詞）" }
+      ],
+      family: [
+        { word: "remote",  desc: "遠い・遠隔の（remotus: 遠ざけられた）" },
+        { word: "move",    desc: "動かす（mov-: 現在幹）" },
+        { word: "motion",  desc: "動き（mōtiō）" },
+        { word: "mobile",  desc: "移動式の（mōbilis）" },
+        { word: "emotion", desc: "感情（外へ動かす）" }
+      ],
+      compounds: [
+        { phrase: "remove from",      desc: "〜から取り除く・〜から外す" },
+        { phrase: "remove obstacles", desc: "障害を取り除く" },
+        { phrase: "stain remover",    desc: "しみ抜き剤" }
+      ]
+    },
+
+    // ── spect系 ───────────────────────────────────────────────────────────────
+    "inspect": {
+      origin: "ラテン語 inspicere（中を見る・調べる）< in-（中へ）+ specere（見る）。specere は印欧語根 *spek-（見る）に由来し、英語の spy（スパイ）とも同根。英語には16世紀にラテン語から直接借用された。\n\n「正式に点検・査察する」という公的な文脈で多用される。inspector は「検査官・警部（イギリス英語）」の意味も持ち、Inspector General（監察総監）のような役職名に使われる。",
+      derivatives: [
+        { word: "inspection",  desc: "検査・査察（名詞）" },
+        { word: "inspector",   desc: "検査官・調査官（名詞）" },
+        { word: "inspectable", desc: "検査可能な（形容詞）" }
+      ],
+      family: [
+        { word: "respect",     desc: "尊重する（re-: 振り返り見る）" },
+        { word: "suspect",     desc: "疑う（sub-: 下から見る）" },
+        { word: "expect",      desc: "予期する（ex-: 外を見張る）" },
+        { word: "perspective", desc: "視点（per-: 通して見る）" },
+        { word: "spectacle",   desc: "見世物・眼鏡（spectāre: 見る）" },
+        { word: "aspect",      desc: "側面・局面（ad-: 〜を見る）" }
+      ],
+      compounds: [
+        { phrase: "conduct an inspection", desc: "検査を実施する" },
+        { phrase: "building inspection",   desc: "建物の検査" },
+        { phrase: "safety inspection",     desc: "安全点検" }
+      ]
+    },
+
+    "respect": {
+      origin: "ラテン語 respectus（振り返り見ること・配慮）< re-（再び・後ろを）+ specere（見る）。「もう一度よく見る」→「じっくり見直すほど価値がある」→「尊重する」という意味の変化をたどった。\n\nself-respect（自尊心）、with respect to（〜に関して）のように多様な文脈で使われる。in all respects（あらゆる点で）の respect は「観点・点」という意味で、「見る視点」から来ている。",
+      derivatives: [
+        { word: "respectful",  desc: "礼儀正しい・敬意ある（形容詞）" },
+        { word: "respectable", desc: "立派な・相当な（形容詞）" },
+        { word: "disrespect",  desc: "無礼・軽視する（名詞・動詞）" },
+        { word: "respective",  desc: "それぞれの（形容詞）" }
+      ],
+      family: [
+        { word: "inspect",     desc: "点検する（in-: 中を見る）" },
+        { word: "suspect",     desc: "疑う（sub-: 下から見る）" },
+        { word: "expect",      desc: "予期する（ex-: 外を見張る）" },
+        { word: "perspective", desc: "視点（per-: 通して見る）" },
+        { word: "aspect",      desc: "側面・局面（ad-: 〜を見る）" }
+      ],
+      compounds: [
+        { phrase: "show respect",    desc: "敬意を示す" },
+        { phrase: "self-respect",    desc: "自尊心" },
+        { phrase: "with respect to", desc: "〜に関して・〜について" }
+      ]
+    },
+
+    "suspect": {
+      origin: "ラテン語 suspicere（下から見上げる・疑いの目で見る）< sub-（下に・こっそり）+ specere（見る）。「陰から横目で見る」イメージが「疑う」に変化した。\n\n名詞・形容詞としての suspect（容疑者・怪しい）と動詞（疑う）で発音が異なる：名詞・形容詞は /ˈsʌspekt/（前強勢）、動詞は /səˈspekt/（後強勢）。この前後強勢の対立は英語動詞・名詞ペアの典型的なパターン。",
+      derivatives: [
+        { word: "suspicion",    desc: "疑い・容疑（名詞）" },
+        { word: "suspicious",   desc: "疑わしい・不審な（形容詞）" },
+        { word: "suspiciously", desc: "疑わしそうに（副詞）" }
+      ],
+      family: [
+        { word: "inspect",     desc: "点検する（in-: 中を見る）" },
+        { word: "respect",     desc: "尊重する（re-: 振り返り見る）" },
+        { word: "expect",      desc: "予期する（ex-: 外を見張る）" },
+        { word: "perspective", desc: "視点（per-: 通して見る）" },
+        { word: "spectacle",   desc: "見世物・眼鏡（見るもの）" }
+      ],
+      compounds: [
+        { phrase: "prime suspect",   desc: "最有力容疑者" },
+        { phrase: "under suspicion", desc: "疑いをかけられている" },
+        { phrase: "suspect A of B",  desc: "A が B をしたと疑う" }
+      ]
+    },
+
+    "expect": {
+      origin: "ラテン語 expectāre / exspectāre（外を見張る・待つ）< ex-（外へ）+ spectāre（見る・注視する）。「目を外に向けてじっと待ち構える」が原義で、「予期する・期待する」に発展した。\n\nexpectation（期待・予想）は「なるだろうと見込むこと」。pregnant woman を an expecting mother と言う（子どもを「待ち望んでいる」）のも同語源。",
+      derivatives: [
+        { word: "expectation",  desc: "期待・予想・見込み（名詞）" },
+        { word: "expectant",    desc: "期待している・妊娠中の（形容詞）" },
+        { word: "unexpected",   desc: "予期しない（形容詞）" },
+        { word: "unexpectedly", desc: "思いがけなく（副詞）" }
+      ],
+      family: [
+        { word: "inspect",     desc: "点検する（in-: 中を見る）" },
+        { word: "respect",     desc: "尊重する（re-: 振り返り見る）" },
+        { word: "suspect",     desc: "疑う（sub-: 下から見る）" },
+        { word: "perspective", desc: "視点（per-: 通して見る）" },
+        { word: "prospect",    desc: "見通し・展望（pro-: 前を見る）" }
+      ],
+      compounds: [
+        { phrase: "beyond expectation",      desc: "期待以上に" },
+        { phrase: "live up to expectations", desc: "期待に応える" },
+        { phrase: "expecting a baby",        desc: "赤ちゃんを待ち望んでいる→妊娠中" }
+      ]
+    },
+
+    "perspective": {
+      origin: "中世ラテン語 perspectiva（光学・見通すもの）< perspicere（透かして見る）< per-（通して・完全に）+ specere（見る）。ルネサンス期の絵画技法「遠近法」を表す術語として広まり、「物の見方・視点」全般に拡張された。\n\nput something in perspective（物事を適切な観点で捉える）は現代英語の重要表現。in perspective とは「遠近法的に正しく見えている」→「バランスよく見ている」状態を指す。",
+      derivatives: [
+        { word: "perspectively", desc: "遠近法的に（まれ）" }
+      ],
+      family: [
+        { word: "inspect",   desc: "点検する（in-: 中を見る）" },
+        { word: "respect",   desc: "尊重する（re-: 振り返り見る）" },
+        { word: "suspect",   desc: "疑う（sub-: 下から見る）" },
+        { word: "expect",    desc: "予期する（ex-: 外を見張る）" },
+        { word: "spectacle", desc: "見世物・眼鏡（見るもの）" },
+        { word: "prospect",  desc: "見通し・展望（pro-: 前を見る）" },
+        { word: "aspect",    desc: "側面・局面（ad-: 〜を見る）" }
+      ],
+      compounds: [
+        { phrase: "put in perspective",          desc: "適切な視点で捉える" },
+        { phrase: "from a different perspective", desc: "異なる視点から" },
+        { phrase: "keep things in perspective",   desc: "物事を冷静に見る" }
+      ]
+    },
+
+    // ── portāre系 ─────────────────────────────────────────────────────────────
+    "export": {
+      origin: "ラテン語 exportāre（外へ運ぶ）< ex-（外へ）+ portāre（運ぶ・担ぐ）。portāre は印欧語根 *per-（運ぶ）に由来する。英語には16世紀に貿易用語として定着した。\n\n「国内生産品を海外へ輸出する」意味で使われる一方、IT用語では「データを別形式で書き出す」意味にも転用されている。名詞・動詞で発音が変わるパターン：名詞 /ˈeksport/、動詞 /ɪkˈspɔːrt/。",
+      derivatives: [
+        { word: "exporter",    desc: "輸出業者・輸出国（名詞）" },
+        { word: "exportable",  desc: "輸出可能な（形容詞）" },
+        { word: "exportation", desc: "輸出（行為）（名詞）" }
+      ],
+      family: [
+        { word: "import",    desc: "輸入する（in-: 中へ運ぶ）" },
+        { word: "report",    desc: "報告する（re-: 持ち帰る）" },
+        { word: "transport", desc: "輸送する（trans-: 超えて運ぶ）" },
+        { word: "portable",  desc: "携帯できる（-able: 運べる）" },
+        { word: "support",   desc: "支える（sub-: 下から担ぐ）" },
+        { word: "port",      desc: "港（船が荷を運び込む場所）" }
+      ],
+      compounds: [
+        { phrase: "export goods",    desc: "輸出品" },
+        { phrase: "export market",   desc: "輸出市場" },
+        { phrase: "export controls", desc: "輸出規制" }
+      ]
+    },
+
+    "import": {
+      origin: "ラテン語 importāre（中へ運び込む・もたらす）< in-（中へ）+ portāre（運ぶ）。転じて「意味をもたらす・重要である」という抽象的な意味も生まれ、importance（重要性）・important（重要な）が派生した。\n\n現代英語では「輸入する」と「重要性をもたらす」の二義が別単語のように使われているが、どちらも同じ importāre から来ている。IT用語では「外部データを取り込む」意味でも使われる。",
+      derivatives: [
+        { word: "importer",    desc: "輸入業者・輸入国（名詞）" },
+        { word: "importation", desc: "輸入（行為）（名詞）" },
+        { word: "important",   desc: "重要な（importāre の分詞形から）" },
+        { word: "importance",  desc: "重要性（名詞）" }
+      ],
+      family: [
+        { word: "export",    desc: "輸出する（ex-: 外へ運ぶ）" },
+        { word: "report",    desc: "報告する（re-: 持ち帰る）" },
+        { word: "transport", desc: "輸送する（trans-: 超えて運ぶ）" },
+        { word: "portable",  desc: "携帯できる（運べる）" },
+        { word: "support",   desc: "支える（下から担ぐ）" }
+      ],
+      compounds: [
+        { phrase: "import tariff", desc: "輸入関税" },
+        { phrase: "import ban",    desc: "輸入禁止" },
+        { phrase: "bulk import",   desc: "大量輸入" }
+      ]
+    },
+
+    "report": {
+      origin: "ラテン語 reportāre（持ち帰る・返し伝える）< re-（戻って）+ portāre（運ぶ）。「情報を元の場所へ運び帰る」が原義で、「報告する・伝える」に特化した。古フランス語 reporter を経て14世紀に英語に入った。\n\nreporter（記者）は「出来事を持ち帰って伝える人」。report card（通知表）は学校から家庭へ成績を「運んで戻す」もの。report to（〜に報告する・〜の部下である）という職場表現にも使われる。",
+      derivatives: [
+        { word: "reporter",   desc: "記者・レポーター（名詞）" },
+        { word: "reportage",  desc: "ルポルタージュ（名詞）" },
+        { word: "unreported", desc: "報道されていない（形容詞）" }
+      ],
+      family: [
+        { word: "export",    desc: "輸出する（ex-: 外へ運ぶ）" },
+        { word: "import",    desc: "輸入する（in-: 中へ運ぶ）" },
+        { word: "transport", desc: "輸送する（trans-: 超えて運ぶ）" },
+        { word: "portable",  desc: "携帯できる（運べる）" },
+        { word: "support",   desc: "支える（下から担ぐ）" }
+      ],
+      compounds: [
+        { phrase: "annual report", desc: "年次報告書" },
+        { phrase: "news report",   desc: "ニュース報道" },
+        { phrase: "report card",   desc: "成績通知表" },
+        { phrase: "report to",     desc: "〜に報告する・〜の部下である" }
+      ]
+    },
+
+    "important": {
+      origin: "ラテン語 importāre の現在分詞 importāns（意味・価値をもたらしている）が形容詞として定着した語。importāre には「持ち込む」の物理的意味に加え「意味・重要性をもたらす」抽象的意味があり、この抽象義が important に引き継がれた。\n\nimportant と import（輸入）は同根語。「重要な情報を持ち込む」→「重要な」という意味の連鎖が語源に凝縮されている。more importantly（さらに重要なことに）は副詞用法の典型表現。",
+      derivatives: [
+        { word: "importance",  desc: "重要性（名詞）" },
+        { word: "importantly", desc: "重要なことに（副詞）" },
+        { word: "unimportant", desc: "重要でない・些細な（形容詞）" }
+      ],
+      family: [
+        { word: "import",    desc: "輸入する・重要性（同根語）" },
+        { word: "export",    desc: "輸出する（ex-: 外へ運ぶ）" },
+        { word: "report",    desc: "報告する（re-: 持ち帰る）" },
+        { word: "transport", desc: "輸送する（trans-: 超えて運ぶ）" },
+        { word: "portable",  desc: "携帯できる（運べる）" }
+      ],
+      compounds: [
+        { phrase: "most important",      desc: "最も重要な" },
+        { phrase: "of great importance", desc: "非常に重要な" },
+        { phrase: "more importantly",    desc: "さらに重要なことに" }
+      ]
     }
 
   };

@@ -12164,6 +12164,486 @@
         { phrase: "profit motive",    desc: "利益動機" },
         { phrase: "motive force",     desc: "原動力" }
       ]
+    },
+
+    // ── Batch 26 ──────────────────────────────────────────────────────────
+
+    // duc/duct系（残り）
+    "seduce": {
+      origin: "ラテン語 seducere（別の方向に引く・誘惑する）< se-（離れて・別方向へ）+ ducere（引く・導く）。「正しい道から別の方向へと引き寄せる」という字義で、誘惑による逸脱を意味する。\n\n15世紀に英語に入り、seduce（誘惑する・誘い込む）として定着。もともとは宗教的・道徳的な「正道から外れさせる誘惑」を指したが、現代では主に性的な誘惑と、比喩的な「魅力で引き込む」という意味で使われる。\n\n現代英語では be seduced by the idea（考えに引き込まれる）のような比喩的用法もあり、形容詞 seductive（魅惑的な・誘惑的な）・名詞 seduction（誘惑）も重要な語族を形成する。",
+      derivatives: [
+        { word: "seduction",  desc: "誘惑・誘惑行為（名詞）" },
+        { word: "seductive",  desc: "誘惑的な・魅惑的な（形容詞）" },
+        { word: "seducer",    desc: "誘惑者（名詞）" }
+      ],
+      family: [
+        { word: "conduct",   desc: "指揮する・行為（con-）" },
+        { word: "induce",    desc: "引き起こす（in-）" },
+        { word: "reduce",    desc: "減少させる（re-）" },
+        { word: "educate",   desc: "教育する（e-）" }
+      ],
+      compounds: [
+        { phrase: "seduce someone",      desc: "人を誘惑する" },
+        { phrase: "seductive offer",     desc: "魅力的な提案" },
+        { phrase: "seduced by power",    desc: "権力に魅了される" }
+      ]
+    },
+
+    "abduct": {
+      origin: "ラテン語 abducere（引き去る・連れ去る）< ab-（離れて・から）+ ducere（引く・導く）。「ある場所から力ずくで引き離す」という字義で、人や肢体の「誘拐・外転」を意味する。\n\n17世紀に英語に入り、abduct（誘拐する・外転させる）として定着。法律では「kidnap（誘拐する）」と近い意味で使われ、解剖学では「肢体を体の中心から離す運動（abduction）」を指す。\n\n現代英語では abduct a child（子どもを誘拐する）・abducted by aliens（宇宙人に誘拐される）のように犯罪・SF の文脈で使われるほか、医学では shoulder abduction（肩の外転）のように筋骨格系の動きを表す術語としても重要。",
+      derivatives: [
+        { word: "abduction",  desc: "誘拐・外転（名詞）" },
+        { word: "abductor",   desc: "誘拐犯・外転筋（名詞）" }
+      ],
+      family: [
+        { word: "conduct",  desc: "指揮する（con-）" },
+        { word: "seduce",   desc: "誘惑する（se-）" },
+        { word: "induce",   desc: "引き起こす（in-）" },
+        { word: "reduce",   desc: "減少させる（re-）" }
+      ],
+      compounds: [
+        { phrase: "abduct a child",   desc: "子どもを誘拐する" },
+        { phrase: "child abduction",  desc: "子どもの誘拐" },
+        { phrase: "alien abduction",  desc: "宇宙人による誘拐（SF）" }
+      ]
+    },
+
+    "deduct": {
+      origin: "ラテン語 deducere（引き下げる・差し引く）< de-（下に・離れて）+ ducere（引く）。「全体から引き離して下に持ち去る」という字義が「差し引く・控除する」という意味に発展した。\n\n15世紀に英語に入り、deduct（差し引く・控除する）として定着。主に金融・税務の文脈で「税控除（tax deduction）」として重要で、「全体から一部を引いた残り」というイメージで使われる。\n\n現代英語では deduct taxes（税を差し引く）・tax-deductible（税控除可能な）のように税務・会計で頻出するほか、論理的な「演繹（deduction）」という哲学・推論の意味でも重要な語族を形成する。",
+      derivatives: [
+        { word: "deduction",    desc: "差し引き・控除・演繹（名詞）" },
+        { word: "deductible",   desc: "控除可能な・控除額（形容詞・名詞）" },
+        { word: "deductive",    desc: "演繹的な（形容詞）" }
+      ],
+      family: [
+        { word: "conduct",  desc: "指揮する（con-）" },
+        { word: "induce",   desc: "引き起こす（in-）" },
+        { word: "reduce",   desc: "減少させる（re-）" },
+        { word: "seduce",   desc: "誘惑する（se-）" }
+      ],
+      compounds: [
+        { phrase: "tax deduction",   desc: "税控除" },
+        { phrase: "tax-deductible",  desc: "税控除可能な" },
+        { phrase: "deductive logic", desc: "演繹的推論" }
+      ]
+    },
+
+    // cred系（残り）
+    "credential": {
+      origin: "中世ラテン語 credentialis（信任の）< credere（信じる）の現在分詞 credens から。「信頼・信任を付与する書類・証明書」という字義で、その人物の資格・権限を証明する文書を指す。\n\n17世紀に英語に入り、credential（信任状・証明書）として定着。外交では「信任状（letters of credence）」として大使の権限を証明し、現代では「資格・学歴・経歴」という広義でも使われる。\n\n現代英語では credentials は常に複数形で「資格・信任の証拠」を指し、check someone's credentials（資格を確認する）・academic credentials（学歴）・digital credentials（デジタル証明書）のように使われる。",
+      derivatives: [
+        { word: "credentialed",   desc: "資格を持った（形容詞）" }
+      ],
+      family: [
+        { word: "credit",    desc: "信用・功績（credere）" },
+        { word: "creed",     desc: "信条（credere）" },
+        { word: "credible",  desc: "信頼できる（credere）" },
+        { word: "incredible",desc: "信じられない（in-+credere）" }
+      ],
+      compounds: [
+        { phrase: "check credentials",      desc: "資格・身元を確認する" },
+        { phrase: "academic credentials",   desc: "学歴・資格" },
+        { phrase: "digital credentials",    desc: "デジタル証明書" }
+      ]
+    },
+
+    "credulous": {
+      origin: "ラテン語 credulus（簡単に信じる）< credere（信じる）+ -ulus（傾向を示す形容詞語尾）。「何でも信じてしまう傾向がある」という字義で、証拠を確認せずに信じる人を描写する。\n\n16世紀に英語に入り、credulous（信じやすい・だまされやすい）として定着。批判的な意味合いを持ち、騙されやすい純朴さや無批判な信頼を表す語として使われる。\n\n現代英語では credulous public（騙されやすい大衆）・credulous acceptance（無批判な受け入れ）のように使われ、反義語の incredulous（信じられないという表情の）とともに使われることが多い。",
+      derivatives: [
+        { word: "credulity",   desc: "信じやすさ・お人好し（名詞）" },
+        { word: "credulously", desc: "信じやすく・単純に（副詞）" }
+      ],
+      family: [
+        { word: "credit",       desc: "信用（credere）" },
+        { word: "credible",     desc: "信頼できる（credere）" },
+        { word: "incredible",   desc: "信じられない（in-）" },
+        { word: "incredulous",  desc: "信じられないという顔の（in-）" }
+      ],
+      compounds: [
+        { phrase: "credulous audience",  desc: "信じやすい観衆" },
+        { phrase: "strain credulity",    desc: "信憑性を疑わせる" }
+      ]
+    },
+
+    "incredulous": {
+      origin: "ラテン語 incredulus（信じない）< in-（否定）+ credulus（信じやすい）< credere（信じる）。「証拠を示されても信じられない・疑いの表情を見せている」という字義で、驚きや不信の感情を表す。\n\n17世紀に英語に入り、incredulous（信じられないといった様子の・懐疑的な）として定着。発話者が驚きで信じられない状態を表す形容詞で、「事実・物が信じられない」を意味する incredible（名詞・事実に使う）と区別される。\n\n現代英語では an incredulous look（信じられないという顔）・an incredulous response（懐疑的な反応）のように人の様子・反応を描写するときに使われる。",
+      derivatives: [
+        { word: "incredulously",  desc: "信じられないといった様子で（副詞）" },
+        { word: "incredulity",    desc: "不信・懐疑（名詞）" }
+      ],
+      family: [
+        { word: "incredible",  desc: "信じられない（事実に使う）" },
+        { word: "credulous",   desc: "信じやすい（credere）" },
+        { word: "credible",    desc: "信頼できる（credere）" },
+        { word: "credential",  desc: "資格・証明書（credere）" }
+      ],
+      compounds: [
+        { phrase: "incredulous look",  desc: "信じられないという表情" },
+        { phrase: "look incredulous",  desc: "信じられないという顔をする" }
+      ]
+    },
+
+    // flu/flux系（残り）
+    "fluctuate": {
+      origin: "ラテン語 fluctuare（波打つ・揺れ動く）< fluctus（波）< fluere（流れる）。fluere は「流れる」を意味する語根で、fluent・influence・fluid などと同根。「流れのように上下に揺れ動く」という字義。\n\n17世紀に英語に入り、fluctuate（変動する・上下する・動揺する）として定着。気温・価格・感情・業績など、安定せず変化し続けるものを表す語として広く使われる。\n\n現代英語では prices fluctuate（価格が変動する）・fluctuate between hope and despair（希望と絶望の間を揺れ動く）のように、数値の増減と感情の揺れ両方に使われる。",
+      derivatives: [
+        { word: "fluctuation",  desc: "変動・波動（名詞）" }
+      ],
+      family: [
+        { word: "fluent",    desc: "流暢な（fluere）" },
+        { word: "influence", desc: "影響（in-+fluere）" },
+        { word: "fluid",     desc: "液体・流動的な（fluere）" },
+        { word: "affluent",  desc: "裕福な（ad-+fluere）" }
+      ],
+      compounds: [
+        { phrase: "price fluctuation",  desc: "価格変動" },
+        { phrase: "currency fluctuation",desc: "為替変動" },
+        { phrase: "fluctuate wildly",   desc: "激しく変動する" }
+      ]
+    },
+
+    "influx": {
+      origin: "ラテン語 influxus（流れ込み）< influere（流れ込む）< in-（中に）+ fluere（流れる）。「外から内へと大量に流れ込む」という字義で、人・物・情報・資本の「大量流入」を表す。\n\n16世紀に英語に入り、influx（流入・殺到）として定着。経済（capital influx / 資本流入）・移民（influx of migrants）・情報（influx of data）など、大量で急速な「入り込み」全般に使われる。\n\n現代英語では massive influx（大規模な流入）・sudden influx of tourists（観光客の急増）のように使われ、反義語は outflow / efflux（流出）。ビジネス・政治・社会問題の文脈で頻出する語。",
+      derivatives: [
+        { word: "outflux",  desc: "流出（反義語）" }
+      ],
+      family: [
+        { word: "fluent",     desc: "流暢な（fluere）" },
+        { word: "influence",  desc: "影響（in-+fluere）" },
+        { word: "fluctuate",  desc: "変動する（fluere）" },
+        { word: "affluent",   desc: "裕福な（ad-+fluere）" }
+      ],
+      compounds: [
+        { phrase: "influx of migrants",  desc: "移民の流入" },
+        { phrase: "capital influx",      desc: "資本流入" },
+        { phrase: "massive influx",      desc: "大規模な流入" }
+      ]
+    },
+
+    // liber系（残り）
+    "deliberate": {
+      origin: "ラテン語 deliberare（よく考える・熟慮する）< de-（完全に）+ librare（秤にかける）< libra（秤・天秤）。「秤で完全に量る→熟慮する」という字義。libra は「天秤座」の語源でもあり、バランスと判断のメタファー。\n\n15世紀に英語に入り、deliberate（熟慮する・意図的な）として定着。形容詞「意図的な・故意の（deliberate action）」と動詞「熟慮する（deliberate over a decision）」の両方で使われる二刀流の語。\n\n現代英語では jury deliberates（陪審員が評議する）・deliberate choice（意図的な選択）のように法律・倫理の文脈で特に重要で、\"with deliberate care\"（細心の注意を払って）という慣用表現も頻出。",
+      derivatives: [
+        { word: "deliberation",   desc: "熟慮・審議（名詞）" },
+        { word: "deliberately",   desc: "故意に・慎重に（副詞）" },
+        { word: "deliberative",   desc: "審議の・熟慮する（形容詞）" }
+      ],
+      family: [
+        { word: "liberal",   desc: "自由な（liber）" },
+        { word: "liberate",  desc: "解放する（liber）" },
+        { word: "liberty",   desc: "自由（liber）" },
+        { word: "equilibrium",desc: "均衡（aequi-+libra）" }
+      ],
+      compounds: [
+        { phrase: "deliberate action",   desc: "意図的な行動" },
+        { phrase: "jury deliberation",   desc: "陪審評議" },
+        { phrase: "deliberate over",     desc: "～についてじっくり考える" }
+      ]
+    },
+
+    // struct系（残り）
+    "infrastructure": {
+      origin: "ラテン語 infra（下に・以下）+ structura（構造・建設）< struere（積み重ねる・建てる）。「上に建てるものを支える下部構造」という字義で、社会・経済の「基盤設備」全体を指す。\n\n20世紀初頭（1927年頃）に軍事・工学用語として英語に登場し、infrastructure（社会基盤・インフラ）として定着。軍事では「補給・通信設備の下部構造」を指したが、やがて「社会を機能させる基盤設備全体」を意味するようになった。\n\n現代英語では roads and infrastructure（道路やインフラ）・digital infrastructure（デジタルインフラ）・infrastructure investment（インフラ投資）のように政策・経済・IT 分野で最重要語の一つとなっている。",
+      derivatives: [
+        { word: "infrastructural",  desc: "インフラの（形容詞）" }
+      ],
+      family: [
+        { word: "structure",   desc: "構造（struct-）" },
+        { word: "construct",   desc: "建設する（con-）" },
+        { word: "instruct",    desc: "指導する（in-）" },
+        { word: "obstruct",    desc: "妨害する（ob-）" }
+      ],
+      compounds: [
+        { phrase: "digital infrastructure",  desc: "デジタルインフラ" },
+        { phrase: "infrastructure investment",desc: "インフラ投資" },
+        { phrase: "critical infrastructure",  desc: "重要インフラ" }
+      ]
+    },
+
+    // quir/quest系（残り）
+    "acquire": {
+      origin: "ラテン語 acquirere（探し求めて得る）< ad-（～に向けて）+ quaerere（求める・探す）。「積極的に求めて自分のものにする」という字義で、物・知識・技能・習慣の「取得・習得」を表す。\n\n14世紀に英語に入り、acquire（取得する・習得する・身につける）として定着。skill acquisition（技能習得）・language acquisition（言語習得）のように学習理論でも重要な語となっている。\n\n現代英語では acquire a taste（好みを身につける）・acquire knowledge（知識を習得する）・acquire a company（会社を買収する）のように幅広く使われ、企業買収（acquisition）は M&A の文脈で最重要語の一つ。",
+      derivatives: [
+        { word: "acquisition",  desc: "取得・習得・買収（名詞）" },
+        { word: "acquisitive",  desc: "物欲の強い（形容詞）" }
+      ],
+      family: [
+        { word: "require",   desc: "必要とする（re-）" },
+        { word: "inquire",   desc: "尋ねる（in-）" },
+        { word: "question",  desc: "質問（quaerere）" },
+        { word: "quest",     desc: "探求（quaerere）" }
+      ],
+      compounds: [
+        { phrase: "language acquisition",  desc: "言語習得" },
+        { phrase: "merger and acquisition",desc: "合併・買収（M&A）" },
+        { phrase: "acquire a skill",       desc: "技能を習得する" }
+      ]
+    },
+
+    "inquisition": {
+      origin: "ラテン語 inquisitio（尋問・調査）< inquirere（中を調べる）< in-（中に）+ quaerere（求める・探す）。「隠されたものを探し求める」という字義で、特に中世カトリック教会の「異端審問」として歴史に刻まれた語。\n\n13世紀に英語に入り、inquisition（異端審問・厳しい尋問）として定着。スペイン異端審問（Spanish Inquisition、1478年設立）は苛酷な尋問・拷問で悪名高く、今日でも「誰も予期しない（Nobody expects the Spanish Inquisition!）」というモンティ・パイソンのギャグで有名。\n\n現代英語では inquisition は主に「徹底した・威圧的な尋問」という比喩的意味で使われ、feel like an inquisition（尋問を受けているよう）・submit to an inquisition（厳しい尋問を受ける）のように使われる。",
+      derivatives: [
+        { word: "inquisitor",    desc: "審問官・尋問者（名詞）" },
+        { word: "inquisitive",   desc: "詮索好きな・好奇心旺盛な（形容詞）" },
+        { word: "inquisitorial", desc: "審問的な・詮索的な（形容詞）" }
+      ],
+      family: [
+        { word: "inquire",   desc: "尋ねる（in-）" },
+        { word: "require",   desc: "必要とする（re-）" },
+        { word: "acquire",   desc: "取得する（ac-）" },
+        { word: "question",  desc: "質問（quaerere）" }
+      ],
+      compounds: [
+        { phrase: "face an inquisition",    desc: "厳しい尋問を受ける" },
+        { phrase: "Spanish Inquisition",    desc: "スペイン異端審問" },
+        { phrase: "inquisitive mind",       desc: "探究心旺盛な精神" }
+      ]
+    },
+
+    // labor系（残り）
+    "elaborate": {
+      origin: "ラテン語 elaborare（入念に仕上げる・苦労して作り上げる）< e-（完全に）+ laborare（働く・苦労する）< labor（労働・苦労）。「労力をかけて細部まで仕上げる」という字義。\n\n15世紀に英語に入り、elaborate（精緻な・念入りな・詳しく説明する）として定着。形容詞「精巧な・手の込んだ（elaborate design）」と動詞「詳しく説明する・肉付けする（elaborate on a point）」の両用法がある。\n\n現代英語では elaborate on（詳しく述べる）・elaborate plan（精巧な計画）・elaborate ceremony（念入りな式典）のように使われ、学術・ビジネス・日常の文脈で幅広く登場する語。",
+      derivatives: [
+        { word: "elaboration",   desc: "精緻化・詳述（名詞）" },
+        { word: "elaborately",   desc: "念入りに・精巧に（副詞）" }
+      ],
+      family: [
+        { word: "labor",      desc: "労働・苦労（labor）" },
+        { word: "collaborate",desc: "協力する（col-+labor）" },
+        { word: "laboratory", desc: "実験室（labor）" }
+      ],
+      compounds: [
+        { phrase: "elaborate on",         desc: "詳しく説明する" },
+        { phrase: "elaborate plan",       desc: "精巧な計画" },
+        { phrase: "elaborate ceremony",   desc: "念入りな式典" }
+      ]
+    },
+
+    "laboratory": {
+      origin: "中世ラテン語 laboratorium（作業場・仕事場）< laborare（働く）< labor（労働・苦労）。「仕事をする場所」という字義から「科学実験を行う専門施設」という意味に特化した語。\n\n17世紀に英語に入り、laboratory（実験室・研究室）として定着。錬金術師の作業場から出発し、近代科学の発展とともに「科学的実験・研究を行う場所」として確立された。\n\n現代英語では lab という略語が日常的に使われ、chemistry lab（化学実験室）・research laboratory（研究所）のほか、比喩的に「実験的に試みる場（a laboratory for ideas）」という意味でも使われる。",
+      derivatives: [
+        { word: "lab",       desc: "laboratory の略語" },
+        { word: "laborious", desc: "骨の折れる・苦労の多い（形容詞）" }
+      ],
+      family: [
+        { word: "labor",      desc: "労働（labor）" },
+        { word: "elaborate",  desc: "精緻な（e-+labor）" },
+        { word: "collaborate",desc: "協力する（col-+labor）" }
+      ],
+      compounds: [
+        { phrase: "research laboratory",  desc: "研究所・研究室" },
+        { phrase: "laboratory experiment",desc: "実験室実験" },
+        { phrase: "laboratory test",      desc: "検査・ラボテスト" }
+      ]
+    },
+
+    // fort系
+    "fortify": {
+      origin: "ラテン語 fortis（強い）+ facere（作る）を組み合わせた後期ラテン語 fortificare（強化する・要塞化する）に由来。「強くする・防御を固める」という字義で、軍事的防御から比喩的な「強化」まで幅広く使われる。\n\n14世紀に英語に入り、fortify（要塞化する・強化する・栄養を添加する）として定着。軍事的な「城壁を築く」から、現代では食品に栄養素を添加する（fortified with vitamins）という意味でも使われる。\n\n現代英語では fortify a position（陣地を固める）・fortify oneself（気力を奮い起こす）・fortified wine（アルコール強化ワイン）のように物理的・比喩的・食品的文脈で多用される語。",
+      derivatives: [
+        { word: "fortification",  desc: "要塞化・防衛工事（名詞）" },
+        { word: "fortified",      desc: "要塞化された・強化された（形容詞）" }
+      ],
+      family: [
+        { word: "force",    desc: "力（fortis）" },
+        { word: "effort",   desc: "努力（ex-+fortis）" },
+        { word: "comfort",  desc: "慰める（com-+fortis）" },
+        { word: "forte",    desc: "得意なこと（fortis）" }
+      ],
+      compounds: [
+        { phrase: "fortify a city",      desc: "都市を要塞化する" },
+        { phrase: "fortified wine",      desc: "アルコール強化ワイン" },
+        { phrase: "fortify oneself",     desc: "気力を奮い起こす" }
+      ]
+    },
+
+    "fortitude": {
+      origin: "ラテン語 fortitudo（精神的強さ・勇気）< fortis（強い）。「精神的に強くある能力・苦難に耐える内的な力」という字義で、古来から美徳（virtue）の一つとして数えられてきた。\n\n14世紀に英語に入り、fortitude（不屈の精神・剛毅）として定着。古代ギリシャの徳（arete）・ローマの virtus（男性的強さ）に対応し、キリスト教神学では四枢要徳（Fortitude / Prudence / Justice / Temperance）の一つ。\n\n現代英語では show great fortitude（大きな不屈の精神を示す）・face adversity with fortitude（逆境に不屈の精神で立ち向かう）のように、苦難に対する精神的強さを賞賛する文脈で使われる文語的な語。",
+      derivatives: [
+        { word: "fortitudinous",  desc: "不屈の・剛毅な（形容詞、稀）" }
+      ],
+      family: [
+        { word: "force",    desc: "力（fortis）" },
+        { word: "effort",   desc: "努力（fortis）" },
+        { word: "fortify",  desc: "強化する（fortis）" },
+        { word: "forte",    desc: "得意なこと（fortis）" }
+      ],
+      compounds: [
+        { phrase: "show fortitude",       desc: "不屈の精神を示す" },
+        { phrase: "moral fortitude",      desc: "道徳的剛毅" },
+        { phrase: "face with fortitude",  desc: "不屈の精神で立ち向かう" }
+      ]
+    },
+
+    // dict系（残り）
+    "abdicate": {
+      origin: "ラテン語 abdicare（放棄する・宣言して手放す）< ab-（離れて）+ dicare（宣言する）< dicere（言う）。「公的に宣言して権力・責任を手放す」という字義で、王位・権力・責任の放棄を意味する。\n\n16世紀に英語に入り、abdicate（（王位・権力・責任を）放棄する）として定着。英国史では1936年にエドワード8世が王位を abdicate（退位）した事件が有名で、責任を「みずから宣言して手放す」という語感が強い。\n\n現代英語では abdicate responsibility（責任を放棄する）・abdicate the throne（王位を退く）のように使われ、権力者が自主的に「逃げる」ニュアンスを含む批判的な文脈でも登場する。",
+      derivatives: [
+        { word: "abdication",  desc: "退位・（責任の）放棄（名詞）" }
+      ],
+      family: [
+        { word: "dictate",     desc: "命じる・書き取らせる（dict-）" },
+        { word: "indicate",    desc: "示す（in-）" },
+        { word: "vindicate",   desc: "正当性を証明する（vind-）" },
+        { word: "dedicate",    desc: "捧げる（de-）" }
+      ],
+      compounds: [
+        { phrase: "abdicate the throne",       desc: "王位を退く" },
+        { phrase: "abdicate responsibility",   desc: "責任を放棄する" },
+        { phrase: "act of abdication",         desc: "退位の行為" }
+      ]
+    },
+
+    "vindicate": {
+      origin: "ラテン語 vindicare（守る・報復する・主張する）< vindex（保証人・仇討ち人）。「正当性を主張して守る」という字義から「無実を証明する・正当性を示す」という意味に発展した。\n\n15世紀に英語に入り、vindicate（無実を証明する・正当性を示す・汚名をそそぐ）として定着。主に「批判・疑惑を受けた後に正しさが証明される」という文脈で使われ、受動的な「vindicated by events（出来事によって正当性が証明された）」の形でよく登場する。\n\n現代英語では feel vindicated（正しかったと証明されてすっきりする）・vindicate one's decision（決断の正しさを証明する）のように使われ、法律・政治・個人の名誉回復の文脈で重要。",
+      derivatives: [
+        { word: "vindication",   desc: "正当性の証明・雪冤（名詞）" },
+        { word: "vindicatory",   desc: "弁護の・正当化する（形容詞）" }
+      ],
+      family: [
+        { word: "indicate",  desc: "示す（in-）" },
+        { word: "dictate",   desc: "命じる（dict-）" },
+        { word: "abdicate",  desc: "放棄する（ab-）" },
+        { word: "verdict",   desc: "評決（verd-）" }
+      ],
+      compounds: [
+        { phrase: "feel vindicated",      desc: "正しかったと証明されてすっきりする" },
+        { phrase: "vindicate one's name", desc: "名誉を回復する" },
+        { phrase: "vindicated by facts",  desc: "事実によって正しさが示される" }
+      ]
+    },
+
+    // norm系
+    "norm": {
+      origin: "ラテン語 norma（大工の定規・規範・規則）。norma はもともと直角を測る定規を指し、「標準・規範・基準」という意味に発展した。normal・enormous（e-+norma、規格外）などと同根。\n\n19世紀に英語に入り、norm（規範・基準・平均値）として定着。社会学では「社会規範（social norms）」、統計では「標準値・平均（the norm）」として使われ、両者を橋渡しする概念語として重要。\n\n現代英語では within the norm（標準の範囲内で）・social norms（社会規範）・become the new norm（新常態になる）のように使われ、特に「当たり前のこと・標準状態」を表す the norm という表現が頻出する。",
+      derivatives: [
+        { word: "normal",    desc: "正常な・標準の（形容詞）" },
+        { word: "abnormal",  desc: "異常な（形容詞）" },
+        { word: "normalize", desc: "正規化する・常態化する（動詞）" }
+      ],
+      family: [
+        { word: "enormous",  desc: "巨大な（e-+norma）" },
+        { word: "normal",    desc: "正常な（norma）" },
+        { word: "uniform",   desc: "均一な（uni-）" }
+      ],
+      compounds: [
+        { phrase: "social norms",   desc: "社会規範" },
+        { phrase: "the new norm",   desc: "新常態" },
+        { phrase: "above the norm", desc: "標準以上" }
+      ]
+    },
+
+    "normal": {
+      origin: "ラテン語 normalis（直角の・規則通りの）< norma（定規・規範）。「定規で測ったように正しい・規則に従っている」という字義から「標準的・通常の」という意味が発展した。\n\n17世紀に英語に入り、normal（正常な・標準的な・法線の）として定着。数学では「法線（normal line）」、統計では「正規分布（normal distribution）」として重要な技術語でもある。\n\n現代英語では最も日常的な語の一つで、normal life（普通の生活）・back to normal（元通りに）・the new normal（新常態）のように使われ、COVID-19 パンデミック後の社会復帰文脈で \"new normal\" が一般語として定着した。",
+      derivatives: [
+        { word: "normally",   desc: "通常は・正常に（副詞）" },
+        { word: "normality",  desc: "正常さ・通常状態（名詞）" },
+        { word: "normalize",  desc: "正規化する（動詞）" }
+      ],
+      family: [
+        { word: "norm",      desc: "規範・標準（norma）" },
+        { word: "abnormal",  desc: "異常な（ab-+normal）" },
+        { word: "enormous",  desc: "巨大な（e-+norma）" }
+      ],
+      compounds: [
+        { phrase: "new normal",         desc: "新常態・ニューノーマル" },
+        { phrase: "normal distribution",desc: "正規分布（統計）" },
+        { phrase: "back to normal",     desc: "元通りになる" }
+      ]
+    },
+
+    "abnormal": {
+      origin: "ラテン語 abnormalis（規範から外れた）< ab-（離れて・から）+ normalis（規則通りの）< norma（定規・規範）。「標準の規範から逸脱した」という字義で、生物学・心理学・医学で「通常と異なる状態」を指す。\n\n19世紀に英語に入り、abnormal（異常な・通常でない）として定着。neutral（中立）な医学用語として使われることが多いが、社会的文脈では「社会規範からの逸脱」という価値判断を含む場合もある。\n\n現代英語では abnormal behavior（異常行動）・abnormal results（異常値）・abnormal psychology（異常心理学）のように使われ、統計では「平均から大きく外れた値」を意味する技術語としても重要。",
+      derivatives: [
+        { word: "abnormally",  desc: "異常に・通常でなく（副詞）" },
+        { word: "abnormality", desc: "異常・異常性（名詞）" }
+      ],
+      family: [
+        { word: "normal",   desc: "正常な（norma）" },
+        { word: "norm",     desc: "規範（norma）" },
+        { word: "enormous", desc: "巨大な（e-+norma）" }
+      ],
+      compounds: [
+        { phrase: "abnormal behavior",    desc: "異常行動" },
+        { phrase: "abnormal psychology",  desc: "異常心理学" },
+        { phrase: "detect abnormalities", desc: "異常を検出する" }
+      ]
+    },
+
+    // alter系
+    "alter": {
+      origin: "ラテン語 alterare（他の状態にする・変化させる）< alter（他の・もう一方の）。alter は「二つのうちのもう一方」を意味し、alternative・alternate・altruism などと同根。「別の状態に変える」という字義。\n\n13世紀に英語に入り、alter（変える・変わる・改変する）として定着。医学では「去勢・不妊手術（alter an animal）」という意味もあるが、主な意味は「（部分的に）変える」で、change が全般的な変化を指すのに対し、alter は「修正・調整」のニュアンス。\n\n現代英語では alter a garment（服の寸法直しをする）・alter one's opinion（意見を変える）・alter the course of history（歴史の流れを変える）のように使われ、alteration（変更）という名詞形も頻出。",
+      derivatives: [
+        { word: "alteration",   desc: "変更・修正（名詞）" },
+        { word: "unalterable",  desc: "変えられない（形容詞）" }
+      ],
+      family: [
+        { word: "alternative",  desc: "代替案・代わりの（alter）" },
+        { word: "alternate",    desc: "交互の・代わりの（alter）" },
+        { word: "altruism",     desc: "利他主義（alter）" },
+        { word: "alien",        desc: "外国の・異質な（alius）" }
+      ],
+      compounds: [
+        { phrase: "alter a garment",     desc: "服を寸法直しする" },
+        { phrase: "alter ego",           desc: "もう一人の自分・分身" },
+        { phrase: "alter the course",    desc: "方向・経過を変える" }
+      ]
+    },
+
+    "alternative": {
+      origin: "ラテン語 alternativus（交互の・代わりの）< alternare（交互にする）< alter（もう一方の）。「二つのうちのもう一方を選ぶ選択肢」という字義から「代替案・代替物」という意味が発展した。\n\n16世紀に英語に入り、alternative（代替案・もう一方の選択肢）として定着。厳密には二択の「もう一方」を指すべきだが、現代では複数の選択肢にも使われる。\n\n現代英語では alternative energy（代替エネルギー）・seek an alternative（代替案を探す）・alternative medicine（代替医療）・no alternative（選択の余地なし）のように、慣習的なものに対する「非主流・代替的なもの」を表す形容詞としても広く使われる。",
+      derivatives: [
+        { word: "alternatively",  desc: "あるいは・代わりに（副詞）" }
+      ],
+      family: [
+        { word: "alter",     desc: "変える（alter）" },
+        { word: "alternate",  desc: "交互の・代替の（alter）" },
+        { word: "altruism",  desc: "利他主義（alter）" }
+      ],
+      compounds: [
+        { phrase: "alternative energy",    desc: "代替エネルギー" },
+        { phrase: "alternative medicine",  desc: "代替医療" },
+        { phrase: "no alternative",        desc: "選択の余地なし" }
+      ]
+    },
+
+    "alternate": {
+      origin: "ラテン語 alternare（交互にする・入れ替える）< alter（もう一方の）。「二つが交互に入れ替わる」という字義で、規則正しいパターンで交互に繰り返すことを意味する。\n\n16世紀に英語に入り、alternate（交互の・代替の・交互に起こる）として定着。形容詞「交互の（alternate days / 1日おき）」と動詞「交互に行う（alternate between two methods）」の両方で使われる。\n\n現代英語ではアメリカ英語で「代替の（alternative）」と同じ意味でも使われる（alternate route = alternative route）。電気では alternating current（AC / 交流電流）の alternate が重要。",
+      derivatives: [
+        { word: "alternation",   desc: "交互・交替（名詞）" },
+        { word: "alternately",   desc: "交互に（副詞）" },
+        { word: "alternating",   desc: "交互の・交流の（形容詞）" }
+      ],
+      family: [
+        { word: "alter",       desc: "変える（alter）" },
+        { word: "alternative", desc: "代替案（alter）" },
+        { word: "altruism",    desc: "利他主義（alter）" }
+      ],
+      compounds: [
+        { phrase: "alternate days",       desc: "1日おき・隔日" },
+        { phrase: "alternating current",  desc: "交流電流（AC）" },
+        { phrase: "alternate routes",     desc: "代替ルート" }
+      ]
+    },
+
+    // vol/volu系（残り）
+    "devolve": {
+      origin: "ラテン語 devolvere（下に転がす・転落させる）< de-（下に）+ volvere（転がす・回す）。volvere は「回転する」を意味する語根で、evolve・revolve・involve などと同根。「上位から下位に権限や責任を移す」という意味に発展した。\n\n17世紀に英語に入り、devolve（権限を委譲する・（悪い方向に）堕落する）として定着。政治用語では「中央から地方へ権限を移す（devolution）」が重要で、英国では Scottish / Welsh devolution（スコットランド・ウェールズへの権限委譲）が20世紀後半の政治的課題だった。\n\n現代英語では devolve power to local authorities（地方自治体に権限を委譲する）・the meeting devolved into chaos（会議が混乱に堕ちた）のように政治・行政・比喩的文脈で使われる。",
+      derivatives: [
+        { word: "devolution",  desc: "権限委譲・退化（名詞）" },
+        { word: "devolved",    desc: "委譲された（形容詞）" }
+      ],
+      family: [
+        { word: "evolve",    desc: "進化する（e-+volvere）" },
+        { word: "revolve",   desc: "回転する（re-+volvere）" },
+        { word: "involve",   desc: "含む（in-+volvere）" },
+        { word: "dissolve",  desc: "溶解する（dis-+volvere系）" }
+      ],
+      compounds: [
+        { phrase: "devolve power",        desc: "権限を委譲する" },
+        { phrase: "devolve into chaos",   desc: "混乱に堕ちる" },
+        { phrase: "devolution of power",  desc: "権限委譲" }
+      ]
     }
 
   };

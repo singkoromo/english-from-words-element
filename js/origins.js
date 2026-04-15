@@ -15790,6 +15790,371 @@
         { phrase: "gain recognition",     desc: "認められる・名声を得る" },
         { phrase: "in recognition of",    desc: "〜を評価して・〜を記念して" }
       ]
+    },
+
+    // ── Batch 34 ──────────────────────────────────────────────────────────
+
+    "transformation": {
+      origin: "ラテン語 transformatio（形を変えること）< transformare（形を変える）< trans-（超えて・向こうへ）+ formare（形にする）< forma（形）+ -tion（名詞接尾辞）。「形をその向こう側へ変える」が原義。\n\n英語には15世紀に採用され、「変容・変化・変換」の意味で定着。数学の座標変換・生物学の変態・組織改革・霊的な生まれ変わりなど幅広い文脈で使われる重要語。\n\n現代英語では digital transformation（デジタル変革）・personal transformation（個人的な変容）・undergo a transformation（変容を遂げる）のように技術・ビジネス・心理学の場で特に頻繁に使われる。",
+      derivatives: [
+        { word: "transform",        desc: "変容させる・変換する（動詞）" },
+        { word: "transformative",   desc: "変容をもたらす・変革的な（形容詞）" },
+        { word: "transformer",      desc: "変圧器・変える人（名詞）" }
+      ],
+      family: [
+        { word: "reform",    desc: "改革する（re+forma）" },
+        { word: "conform",   desc: "従う（con+forma）" },
+        { word: "inform",    desc: "知らせる（in+forma）" },
+        { word: "perform",   desc: "実行する（per+forma）" }
+      ],
+      compounds: [
+        { phrase: "digital transformation",   desc: "デジタル変革" },
+        { phrase: "undergo a transformation", desc: "変容を遂げる" },
+        { phrase: "transformative change",    desc: "変革的な変化" }
+      ]
+    },
+
+    "exploration": {
+      origin: "ラテン語 exploratio（偵察・調査）< explorare（くまなく調べる・偵察する）< ex-（外に）+ plorare（叫ぶ・泣く転じて「声を上げて調べる」）+ -tion（名詞接尾辞）。軍事偵察用語として生まれた。\n\n英語には15世紀に採用され、「探査・探検・探求」の意味で定着。大航海時代の地理的探検に始まり、現代では宇宙探査・科学的探求・自己探求など幅広い文脈で使われる。\n\n現代英語では space exploration（宇宙探査）・oil exploration（石油探索）・self-exploration（自己探求）のように科学・資源・個人的成長の文脈で幅広く使われる。",
+      derivatives: [
+        { word: "explore",     desc: "探索する・探検する（動詞）" },
+        { word: "explorer",    desc: "探検家・探索者（名詞）" },
+        { word: "exploratory", desc: "探索的な・予備的な（形容詞）" }
+      ],
+      family: [
+        { word: "implore",  desc: "嘆願する（im+plorare）" },
+        { word: "deplore",  desc: "嘆く・非難する（de+plorare）" }
+      ],
+      compounds: [
+        { phrase: "space exploration",    desc: "宇宙探査" },
+        { phrase: "oil exploration",      desc: "石油探索" },
+        { phrase: "exploratory research", desc: "予備的・探索的研究" }
+      ]
+    },
+
+    "diversity": {
+      origin: "ラテン語 diversitas（多様性・相違）< diversus（異なった・別方向へ向かった）< di-（別に）+ vertere（向く・回す）+ -ity（名詞接尾辞）。「異なる方向へ向かうことの状態」が原義。\n\n英語には14世紀に採用され、「多様性・相違」の意味で定着。20世紀後半の市民権運動・多文化主義の文脈で social diversity（社会的多様性）・diversity and inclusion（多様性と包摂）という概念が広まり、現代の職場・政策の核心語となった。\n\n現代英語では celebrate diversity（多様性を称える）・diversity and inclusion（D&I）・biodiversity（生物多様性）のように社会・生態系・職場で必須の語彙。",
+      derivatives: [
+        { word: "diverse",    desc: "多様な・異なる（形容詞）" },
+        { word: "diversify",  desc: "多様化する（動詞）" },
+        { word: "diversification", desc: "多角化・多様化（名詞）" }
+      ],
+      family: [
+        { word: "divert",    desc: "そらす・転換する（di+vertere）" },
+        { word: "avert",     desc: "防ぐ・そらす（a+vertere）" },
+        { word: "convert",   desc: "転換する（con+vertere）" },
+        { word: "university", desc: "大学（uni+vertere→全方向へ向かう）" }
+      ],
+      compounds: [
+        { phrase: "diversity and inclusion", desc: "多様性と包摂（D&I）" },
+        { phrase: "celebrate diversity",     desc: "多様性を称える" },
+        { phrase: "biodiversity",            desc: "生物多様性" }
+      ]
+    },
+
+    "flexibility": {
+      origin: "ラテン語 flexibilitas（曲げやすさ）< flexibilis（曲がりやすい）< flectere（曲げる・たわめる）+ -ilis（可能を示す接尾辞）+ -ity（名詞接尾辞）。「曲げることができる性質」が原義。\n\n英語には17世紀に採用され、「柔軟性・融通のきく性質」の意味で定着。当初は物体の物理的なしなやかさを指したが、18世紀以降に「規則や状況への適応力」という比喩的意味が加わり、現代の職場・教育では核心的な概念語となっている。\n\n現代英語では flexibility in the workplace（職場の柔軟性）・cognitive flexibility（認知的柔軟性）・flexible hours（フレックス勤務）のように労働・心理・物理学で幅広く使われる。",
+      derivatives: [
+        { word: "flexible",    desc: "柔軟な・融通のきく（形容詞）" },
+        { word: "inflexible",  desc: "融通のきかない・硬直した（形容詞）" },
+        { word: "flex",        desc: "曲げる・筋肉を緊張させる（動詞）" }
+      ],
+      family: [
+        { word: "reflect",   desc: "反射する・熟考する（re+flectere）" },
+        { word: "deflect",   desc: "そらす・偏向する（de+flectere）" },
+        { word: "inflect",   desc: "屈折する・語形変化させる（in+flectere）" }
+      ],
+      compounds: [
+        { phrase: "flexible hours",          desc: "フレックスタイム勤務" },
+        { phrase: "cognitive flexibility",   desc: "認知的柔軟性" },
+        { phrase: "flexibility in approach", desc: "アプローチの柔軟性" }
+      ]
+    },
+
+    "complexity": {
+      origin: "ラテン語 complexus（抱擁・絡み合い）< complectere（抱きしめる・絡み合う）< com-（共に）+ plectere（編む・絡ませる）+ -ity（名詞接尾辞）。「多くのものが絡み合った状態」が原義。\n\n英語には17世紀に採用され、「複雑さ・複雑性」の意味で定着。20世紀以降のシステム科学・複雑性理論（complexity theory）・コンピュータ計算量理論（computational complexity）の発展とともに理工系の基本用語となった。\n\n現代英語では handle complexity（複雑さに対処する）・complexity of the issue（問題の複雑さ）・computational complexity（計算複雑性）のように科学・哲学・日常で広く使われる。",
+      derivatives: [
+        { word: "complex",      desc: "複雑な・複合体（形容詞・名詞）" },
+        { word: "complexify",   desc: "複雑にする（動詞）" }
+      ],
+      family: [
+        { word: "perplex",    desc: "当惑させる（per+plectere）" },
+        { word: "perplexity", desc: "当惑・困惑（名詞）" },
+        { word: "explicit",   desc: "明示的な（ex+plicare）" },
+        { word: "complicate", desc: "複雑にする（com+plicare）" }
+      ],
+      compounds: [
+        { phrase: "handle complexity",       desc: "複雑さに対処する" },
+        { phrase: "computational complexity", desc: "計算複雑性" },
+        { phrase: "complexity theory",       desc: "複雑性理論" }
+      ]
+    },
+
+    "capacity": {
+      origin: "ラテン語 capacitas（受け入れられる性質・容量）< capax（受け入れられる・容積の大きい）< capere（取る・受け取る）+ -itas（名詞接尾辞）。「受け取れる量・能力」が原義。\n\n英語には15世紀に採用され、「容量・収容能力・資格・能力」の意味で定着。物理的な「容積」から「精神的能力」「法的資格」まで幅広い意味を持つ多義語として機能している。\n\n現代英語では full capacity（満杯・フル稼働）・capacity for learning（学習能力）・in a professional capacity（専門家として）のように工学・法律・心理学で広く使われる。",
+      derivatives: [
+        { word: "capacitate",   desc: "能力を与える・資格を付与する（動詞）" },
+        { word: "incapacity",   desc: "無能力・不能（名詞）" },
+        { word: "capacious",    desc: "広大な・大容量の（形容詞）" }
+      ],
+      family: [
+        { word: "capture",     desc: "捕まえる（capere）" },
+        { word: "capable",     desc: "能力のある（capax）" },
+        { word: "susceptible", desc: "影響を受けやすい（sub+capere）" },
+        { word: "accept",      desc: "受け入れる（ad+capere）" }
+      ],
+      compounds: [
+        { phrase: "full capacity",            desc: "満杯・フル稼働" },
+        { phrase: "capacity for learning",    desc: "学習能力" },
+        { phrase: "in a professional capacity", desc: "専門家として" }
+      ]
+    },
+
+    "intensity": {
+      origin: "ラテン語 intensitas（緊張・強度）< intensus（引き伸ばされた・強い）< intendere（に向けて引き伸ばす）< in-（〜へ）+ tendere（伸ばす・張る）+ -ity（名詞接尾辞）。「限界まで引き伸ばされた状態」が原義。\n\n英語には17世紀に採用され、「強度・強烈さ・集中度」の意味で定着。物理学では光や音の強度を定量化する用語として使われ、心理学・スポーツでは精神的・肉体的な強度を表す語として広く用いられる。\n\n現代英語では intensity of emotion（感情の強烈さ）・high-intensity workout（高強度トレーニング）・light intensity（光の強度）のように物理・スポーツ・感情描写で幅広く使われる。",
+      derivatives: [
+        { word: "intense",    desc: "強烈な・集中した（形容詞）" },
+        { word: "intensify",  desc: "強める・激化する（動詞）" },
+        { word: "intensive",  desc: "集中的な・強度の（形容詞）" }
+      ],
+      family: [
+        { word: "tension",   desc: "緊張（tendere）" },
+        { word: "extend",    desc: "延ばす（ex+tendere）" },
+        { word: "contend",   desc: "争う・主張する（con+tendere）" },
+        { word: "attend",    desc: "出席する（ad+tendere）" }
+      ],
+      compounds: [
+        { phrase: "high-intensity workout",  desc: "高強度トレーニング" },
+        { phrase: "intensity of emotion",    desc: "感情の強烈さ" },
+        { phrase: "intensive care",          desc: "集中治療" }
+      ]
+    },
+
+    "majority": {
+      origin: "ラテン語 majoritas（より大きいこと）< major（より大きい・年長の）< magnus（大きい）の比較級 + -ity（名詞接尾辞）。「より大きい部分」が原義。major は英語の major（主要な）・mayor（市長）とも同根。\n\n英語には15世紀に採用され、「過半数・多数派・成年」の意味で定着。民主主義の意思決定原則として「単純多数決」（simple majority）・「絶対多数」（absolute majority）などの概念と結びついた。\n\n現代英語では majority vote（多数決）・vast majority（大多数）・age of majority（成年年齢）のように政治・法律・統計学で幅広く使われる。",
+      derivatives: [
+        { word: "major",   desc: "主要な・専攻する（形容詞・動詞）" }
+      ],
+      family: [
+        { word: "minor",    desc: "より小さい・未成年の（minor）" },
+        { word: "minority", desc: "少数派・少数（名詞）" },
+        { word: "mayor",    desc: "市長（major から転じた）" },
+        { word: "magnify",  desc: "拡大する（magnus）" }
+      ],
+      compounds: [
+        { phrase: "majority vote",   desc: "多数決" },
+        { phrase: "vast majority",   desc: "大多数・圧倒的多数" },
+        { phrase: "age of majority", desc: "成年年齢" }
+      ]
+    },
+
+    "minority": {
+      origin: "ラテン語 minoritas（より小さいこと）< minor（より小さい・若い）< parvus（小さい）の比較級 + -ity（名詞接尾辞）。「より小さい部分」が原義。minor は音楽の短調（minor key）・未成年者（minor）とも同根。\n\n英語には15世紀に採用され、「少数派・未成年」の意味で定着。20世紀以降の公民権運動・少数民族保護の文脈で minority rights（少数者の権利）・ethnic minority（少数民族）という概念が重要となった。\n\n現代英語では ethnic minority（少数民族）・minority opinion（少数意見）・be in the minority（少数派である）のように政治・社会科学・法律で広く使われる。",
+      derivatives: [
+        { word: "minor",    desc: "小さい・未成年の・短調（形容詞・名詞）" },
+        { word: "minimize",  desc: "最小化する・軽視する（動詞）" }
+      ],
+      family: [
+        { word: "major",    desc: "より大きい・主要な（magnus）" },
+        { word: "majority", desc: "多数派（majoritas）" },
+        { word: "minimum",  desc: "最小値・最低限（minimus）" }
+      ],
+      compounds: [
+        { phrase: "ethnic minority",   desc: "少数民族" },
+        { phrase: "minority rights",   desc: "少数者の権利" },
+        { phrase: "minority opinion",  desc: "少数意見" }
+      ]
+    },
+
+    "equality": {
+      origin: "ラテン語 aequalitas（同等性・均衡）< aequalis（等しい・平らな）< aequus（平らな・公平な）+ -ity（名詞接尾辞）。「平らな状態・均等性」が原義。aequus は equator（赤道）・equitable（公平な）とも同根。\n\n英語には14世紀に採用され、「平等・同等・対等」の意味で定着。啓蒙思想・フランス革命（自由・平等・博愛）・公民権運動を経て、現代の政治・社会の核心概念となった。\n\n現代英語では gender equality（男女平等）・equality before the law（法の下の平等）・racial equality（人種的平等）のように政治・社会・法律で必須の語彙。",
+      derivatives: [
+        { word: "equal",    desc: "等しい・平等な（形容詞）" },
+        { word: "equalize", desc: "均等にする（動詞）" },
+        { word: "equitable", desc: "公平な（形容詞）" },
+        { word: "inequality", desc: "不平等（名詞）" }
+      ],
+      family: [
+        { word: "equity",    desc: "公平・株式（aequus）" },
+        { word: "adequate",  desc: "適切な（ad+aequus）" },
+        { word: "equation",  desc: "方程式（aequare）" }
+      ],
+      compounds: [
+        { phrase: "gender equality",        desc: "男女平等" },
+        { phrase: "equality before the law", desc: "法の下の平等" },
+        { phrase: "racial equality",        desc: "人種的平等" }
+      ]
+    },
+
+    "identity": {
+      origin: "ラテン語 identitas（同一性）< idem（同じ・それ自体）+ -itas（名詞接尾辞）。「それ自体であること・同一であること」が原義。哲学で「事物が時を超えて同一であること」を指す形而上学的概念として使われた。\n\n英語には16世紀に採用され、「同一性・身元・自己」の意味で定着。17〜18世紀にロック・ヒュームが自己同一性（personal identity）を哲学的に論じ、20世紀に心理学・社会科学での「アイデンティティ」概念が確立された。\n\n現代英語では national identity（民族・国家としての自己意識）・identity crisis（アイデンティティの危機）・prove your identity（身分証明をする）のように哲学・社会・法律で幅広く使われる。",
+      derivatives: [
+        { word: "identical",   desc: "同一の・全く同じ（形容詞）" },
+        { word: "identify",    desc: "識別する・同一視する（動詞）" },
+        { word: "identification", desc: "識別・身元確認・ID（名詞）" }
+      ],
+      family: [
+        { word: "idem",   desc: "同じ（ラテン語・引用で使用）" }
+      ],
+      compounds: [
+        { phrase: "identity crisis",   desc: "アイデンティティの危機" },
+        { phrase: "national identity", desc: "民族・国家的自己同一性" },
+        { phrase: "identity theft",    desc: "個人情報の盗用" }
+      ]
+    },
+
+    "security": {
+      origin: "ラテン語 securitas（安全・無心配）< securus（心配のない・安全な）< se-（〜なしで）+ cura（心配・世話・関心）+ -ity（名詞接尾辞）。「心配のない状態」が原義。cura は cure（治療）・accurate（正確な）とも同根。\n\n英語には15世紀に採用され、「安全・安心・保証・担保・警備」の多義的な意味で定着。冷戦期には national security（国家安全保障）が重要概念となり、現代ではサイバーセキュリティ（cybersecurity）も加わって多方面で使われる。\n\n現代英語では national security（国家安全保障）・financial security（経済的安定）・cybersecurity（情報セキュリティ）のように軍事・経済・技術で不可欠な語彙。",
+      derivatives: [
+        { word: "secure",   desc: "安全な・確保する（形容詞・動詞）" },
+        { word: "insecure", desc: "不安定な・自信のない（形容詞）" },
+        { word: "securely", desc: "安全に・確実に（副詞）" }
+      ],
+      family: [
+        { word: "cure",     desc: "治療する・治す（cura）" },
+        { word: "accurate", desc: "正確な（ad+cura）" },
+        { word: "procure",  desc: "調達する（pro+cura）" }
+      ],
+      compounds: [
+        { phrase: "national security",  desc: "国家安全保障" },
+        { phrase: "financial security", desc: "経済的安定" },
+        { phrase: "cybersecurity",      desc: "情報セキュリティ" }
+      ]
+    },
+
+    "priority": {
+      origin: "ラテン語 prioritas（より先のこと）< prior（前の・より重要な）< pro（前に）の比較級 + -ity（名詞接尾辞）。「より前に来るべきもの・優先されるべきもの」が原義。prior は「修道院長」（prior）・「先行する」（prior to）でも使われる。\n\n英語には15世紀に採用され、「優先順位・優先事項」の意味で定着。20世紀後半の経営管理・プロジェクト管理（prioritization）の普及とともに、時間管理・タスク管理の核心用語となった。\n\n現代英語では set priorities（優先順位をつける）・top priority（最優先事項）・priority access（優先的アクセス）のようにビジネス・教育・日常の場で広く使われる。",
+      derivatives: [
+        { word: "prioritize",    desc: "優先順位をつける（動詞）" },
+        { word: "prioritization", desc: "優先順位付け（名詞）" }
+      ],
+      family: [
+        { word: "prior",    desc: "以前の・より重要な（prior）" },
+        { word: "prime",    desc: "主要な・素数（primus）" },
+        { word: "primary",  desc: "第一の・基本的な（primarius）" },
+        { word: "primitive", desc: "原始的な・根本的な（primus）" }
+      ],
+      compounds: [
+        { phrase: "top priority",    desc: "最優先事項" },
+        { phrase: "set priorities",  desc: "優先順位をつける" },
+        { phrase: "priority access", desc: "優先的なアクセス" }
+      ]
+    },
+
+    "vulnerability": {
+      origin: "ラテン語 vulnerabilis（傷つけられやすい）< vulnerare（傷つける）< vulnus（傷・創傷）+ -abilis（可能を示す形容詞）+ -ity（名詞接尾辞）。「傷つけられる性質・弱点」が原義。\n\n英語には17世紀に採用され、「脆弱性・弱点・傷つきやすさ」の意味で定着。20世紀後半にブレネー・ブラウンらの心理学研究で「感情的な脆弱性」が強みとして再評価され、現代のコンピュータセキュリティ（security vulnerability）でも核心用語となった。\n\n現代英語では emotional vulnerability（感情的な脆弱性）・security vulnerability（セキュリティの脆弱性）・reduce vulnerability（脆弱性を軽減する）のように心理・技術・社会科学で広く使われる。",
+      derivatives: [
+        { word: "vulnerable",     desc: "脆弱な・傷つきやすい（形容詞）" },
+        { word: "invulnerable",   desc: "傷つかない・難攻不落の（形容詞）" }
+      ],
+      family: [
+        { word: "wound",    desc: "傷（vulnus の英語転）" },
+        { word: "invulnerable", desc: "傷つかない（in+vulnus）" }
+      ],
+      compounds: [
+        { phrase: "emotional vulnerability",  desc: "感情的な脆弱性" },
+        { phrase: "security vulnerability",   desc: "セキュリティの脆弱性" },
+        { phrase: "vulnerable population",    desc: "脆弱な（支援が必要な）集団" }
+      ]
+    },
+
+    "authority": {
+      origin: "ラテン語 auctoritas（権威・保証・著者としての力）< auctor（創始者・著者・保証人）< augere（増やす・成長させる）+ -itas（名詞接尾辞）。「何かを生み出し増やした者の力」が原義。auctor は author（著者）と同根。\n\n英語には13世紀に採用され、「権威・権限・当局・権威者」の意味で定着。法律・政治・学術の文脈で「権力の正当な根拠」を表す重要概念として機能し、authoritarian（権威主義的）・authorize（権限を与える）など多くの派生語を持つ。\n\n現代英語では political authority（政治的権限）・have authority over（〜に対する権限を持つ）・appeal to authority（権威に訴える）のように政治・法律・論理学で広く使われる。",
+      derivatives: [
+        { word: "authorize",      desc: "権限を与える・許可する（動詞）" },
+        { word: "authoritative",  desc: "権威のある・信頼できる（形容詞）" },
+        { word: "authoritarian",  desc: "権威主義的な（形容詞）" },
+        { word: "authorization",  desc: "承認・認可（名詞）" }
+      ],
+      family: [
+        { word: "author",   desc: "著者（auctor）" },
+        { word: "augment",  desc: "増やす・拡大する（augere）" },
+        { word: "auction",  desc: "競売（auctio ← augere）" }
+      ],
+      compounds: [
+        { phrase: "political authority",  desc: "政治的権限・当局" },
+        { phrase: "appeal to authority",  desc: "権威に訴える（論証）" },
+        { phrase: "have authority over",  desc: "〜に対する権限を持つ" }
+      ]
+    },
+
+    "integrity": {
+      origin: "ラテン語 integritas（完全性・正直さ）< integer（手をつけられていない・無傷の・全体の）< in-（否定）+ tangere（触れる）+ -itas（名詞接尾辞）。「誰にも触れられていない・完全なままの状態」が原義。\n\nintegral（不可欠な）・integrate（統合する）と同根。英語には15世紀に採用され、「誠実さ・高潔さ・完全性」の意味で定着。コンピュータ科学では「データの整合性」（data integrity）という専門用語としても重要。\n\n現代英語では personal integrity（個人的誠実さ）・integrity of data（データの整合性）・act with integrity（誠実に行動する）のように倫理・技術・日常で幅広く使われる核心的な徳目語。",
+      derivatives: [
+        { word: "integral",   desc: "不可欠な・積分の（形容詞）" },
+        { word: "integrate",  desc: "統合する・融合させる（動詞）" },
+        { word: "integer",    desc: "整数（数学）（名詞）" }
+      ],
+      family: [
+        { word: "entire",    desc: "全体の（integer の転）" },
+        { word: "tangent",   desc: "接線・接触する（tangere）" },
+        { word: "tangible",  desc: "触れられる・具体的な（tangere）" },
+        { word: "contact",   desc: "接触（con+tangere）" }
+      ],
+      compounds: [
+        { phrase: "personal integrity",  desc: "個人的な誠実さ・高潔さ" },
+        { phrase: "data integrity",      desc: "データの整合性" },
+        { phrase: "act with integrity",  desc: "誠実に行動する" }
+      ]
+    },
+
+    "responsibility": {
+      origin: "ラテン語 responsus（返答した）< respondere（返答する）< re-（再び・返して）+ spondere（約束する・保証する）+ -ibilis + -ity（名詞接尾辞）。「約束に応えて返す義務」が原義。respond（応答する）と同根。\n\n英語には17世紀に採用され、「責任・義務・責任感」の意味で定着。法律・倫理・心理学で「自らの行動に対して説明できる立場」という概念として重要視され、corporate responsibility（企業責任）など現代のビジネス倫理でも核心語。\n\n現代英語では take responsibility（責任を取る）・corporate social responsibility（企業の社会的責任）・sense of responsibility（責任感）のように法律・倫理・ビジネスで不可欠な語。",
+      derivatives: [
+        { word: "responsible",    desc: "責任のある・原因となる（形容詞）" },
+        { word: "irresponsible",  desc: "無責任な（形容詞）" },
+        { word: "responsibly",    desc: "責任を持って（副詞）" }
+      ],
+      family: [
+        { word: "respond",   desc: "応答する（re+spondere）" },
+        { word: "response",  desc: "反応・返答（名詞）" },
+        { word: "sponsor",   desc: "保証人・スポンサー（spondere）" },
+        { word: "spouse",    desc: "配偶者（spondere の転）" }
+      ],
+      compounds: [
+        { phrase: "take responsibility",              desc: "責任を取る" },
+        { phrase: "corporate social responsibility",  desc: "企業の社会的責任（CSR）" },
+        { phrase: "sense of responsibility",          desc: "責任感" }
+      ]
+    },
+
+    "opportunity": {
+      origin: "ラテン語 opportunitas（適切な時・有利な状況）< opportunus（港に向かって・都合のよい）< ob-（〜へ向かって）+ portus（港・入り口）。「風が港に向かって吹いている」という航海的比喩から「好機」の意味が生まれた。\n\n英語には15世紀に採用され、「機会・好機・チャンス」の意味で定着。port（港）・transport（輸送）・import（輸入）と同根の portus を含む。チャンスが「風がちょうど良く吹いている瞬間」に喩えられた発想が語源に残っている。\n\n現代英語では seize the opportunity（機会をとらえる）・equal opportunity（機会の平等）・opportunity cost（機会費用）のように日常・経済学・政治の場で幅広く使われる。",
+      derivatives: [
+        { word: "opportune",        desc: "好都合な・タイムリーな（形容詞）" },
+        { word: "opportunist",      desc: "日和見主義者・機会主義者（名詞）" },
+        { word: "opportunistic",    desc: "機会主義的な（形容詞）" }
+      ],
+      family: [
+        { word: "port",      desc: "港（portus）" },
+        { word: "transport", desc: "輸送する（trans+portare）" },
+        { word: "import",    desc: "輸入する（im+portare）" },
+        { word: "export",    desc: "輸出する（ex+portare）" }
+      ],
+      compounds: [
+        { phrase: "seize the opportunity",  desc: "機会をとらえる" },
+        { phrase: "opportunity cost",       desc: "機会費用（経済学）" },
+        { phrase: "equal opportunity",      desc: "機会の平等" }
+      ]
+    },
+
+    "community": {
+      origin: "ラテン語 communitas（共有・共同）< communis（共通の・公共の）< com-（共に）+ munus（義務・贈り物・公的奉仕）+ -ity（名詞接尾辞）。「共通の義務・財を持つ集団」が原義。commune・communicate・common と同根。\n\n英語には14世紀に採用され、「共同体・地域社会・コミュニティ」の意味で定着。19世紀の社会科学でコミュニティ vs 社会（Gemeinschaft vs Gesellschaft）の対概念として重要視され、現代のオンライン・コミュニティにまで拡張された。\n\n現代英語では local community（地域社会）・online community（オンラインコミュニティ）・sense of community（共同体意識）のように社会科学・政治・日常で広く使われる。",
+      derivatives: [
+        { word: "communal",   desc: "共同の・コミュニティの（形容詞）" },
+        { word: "communally", desc: "共同で（副詞）" }
+      ],
+      family: [
+        { word: "common",     desc: "共通の（communis）" },
+        { word: "commune",    desc: "共同体・心を通わせる（communis）" },
+        { word: "communicate", desc: "伝える（communicare）" },
+        { word: "communism",  desc: "共産主義（communis）" }
+      ],
+      compounds: [
+        { phrase: "local community",    desc: "地域社会・地元コミュニティ" },
+        { phrase: "online community",   desc: "オンラインコミュニティ" },
+        { phrase: "sense of community", desc: "共同体意識" }
+      ]
     }
 
   };

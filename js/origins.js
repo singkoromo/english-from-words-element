@@ -874,6 +874,362 @@
         { phrase: "of great importance", desc: "非常に重要な" },
         { phrase: "more importantly",    desc: "さらに重要なことに" }
       ]
+    },
+
+    // ── jacere / jectus系 ─────────────────────────────────────────────────────
+    "project": {
+      origin: "ラテン語 prōicere（前に投げる）< prō-（前へ）+ jacere（投げる）。完了分詞 prōjectus から英語に入った。「前方へ投げ出す」→「計画・案（前方へ打ち出すもの）」と「光を投射する・突き出す」の二方向に意味が広がった。\n\n名詞（計画）と動詞（突き出す・投影する）で発音アクセントが変わる：名詞 /ˈprɒdʒekt/（前強勢）、動詞 /prəˈdʒekt/（後強勢）。projectile（発射体）、projector（映写機）も同根。",
+      derivatives: [
+        { word: "projection",  desc: "投影・突出・予測（名詞）" },
+        { word: "projector",   desc: "映写機・プロジェクター（名詞）" },
+        { word: "projectile",  desc: "発射体・飛翔体（名詞）" }
+      ],
+      family: [
+        { word: "inject",   desc: "注射する・注入する（in-: 中へ投げ込む）" },
+        { word: "subject",  desc: "主題・支配下の（sub-: 下に投げる）" },
+        { word: "reject",   desc: "拒絶する（re-: 投げ返す）" },
+        { word: "object",   desc: "反対する・物体（ob-: 前に投げる）" },
+        { word: "eject",    desc: "放出する（ex-: 外へ投げ出す）" },
+        { word: "adjacent", desc: "隣接した（ad+jacere: 傍に置かれた）" }
+      ],
+      compounds: [
+        { phrase: "research project",  desc: "研究プロジェクト" },
+        { phrase: "project deadline",  desc: "プロジェクトの締め切り" },
+        { phrase: "project onto",      desc: "〜に投影する・映し出す" }
+      ]
+    },
+
+    "inject": {
+      origin: "ラテン語 inicere（中へ投げ込む）< in-（中へ）+ jacere（投げる）。「体内に薬液を投げ込む」→「注射する」、転じて「議論に新たな要素を投げ込む」→「注入する」に拡張した。\n\ninjection moulding（射出成形）は溶融プラスチックを型に「射出する」技術。inject capital（資金を注入する）、inject enthusiasm（熱意を吹き込む）のように比喩的にも多用される。",
+      derivatives: [
+        { word: "injection",  desc: "注射・注入（名詞）" },
+        { word: "injectable", desc: "注射可能な（形容詞）" },
+        { word: "injector",   desc: "インジェクター・噴射装置（名詞）" }
+      ],
+      family: [
+        { word: "project",  desc: "計画・投影する（pro-: 前へ投げる）" },
+        { word: "subject",  desc: "主題・支配下の（sub-: 下に投げる）" },
+        { word: "reject",   desc: "拒絶する（re-: 投げ返す）" },
+        { word: "eject",    desc: "放出する（ex-: 外へ投げ出す）" },
+        { word: "object",   desc: "反対する・物体（ob-: 前に投げる）" }
+      ],
+      compounds: [
+        { phrase: "inject a vaccine",  desc: "ワクチンを注射する" },
+        { phrase: "inject capital",    desc: "資金を注入する" },
+        { phrase: "fuel injection",    desc: "燃料噴射" }
+      ]
+    },
+
+    "subject": {
+      origin: "ラテン語 subiectus（下に投げられた・下に置かれた）< sub-（下に）+ jacere（投げる）の完了分詞。「下に置かれたもの」→「（権力の）支配下の者」→「（学習・議論の）下に置かれる題材」→「主語（文の土台）」と多方向に意味が広がった。\n\n名詞（主題）と動詞（〜に従わせる）で発音が異なる：名詞 /ˈsʌbdʒɪkt/、動詞 /səbˈdʒekt/。subject to（〜に従う・〜を受けやすい）という前置詞的用法も重要。",
+      derivatives: [
+        { word: "subjective",    desc: "主観的な（形容詞）" },
+        { word: "subjectively",  desc: "主観的に（副詞）" },
+        { word: "subjectivity",  desc: "主観性（名詞）" }
+      ],
+      family: [
+        { word: "project",  desc: "計画・投影する（pro-: 前へ投げる）" },
+        { word: "inject",   desc: "注射する（in-: 中へ投げ込む）" },
+        { word: "reject",   desc: "拒絶する（re-: 投げ返す）" },
+        { word: "object",   desc: "反対する・物体（ob-: 前に投げる）" },
+        { word: "eject",    desc: "放出する（ex-: 外へ投げ出す）" }
+      ],
+      compounds: [
+        { phrase: "subject matter",   desc: "主題・題材" },
+        { phrase: "subject to",       desc: "〜に従う・〜を受けやすい" },
+        { phrase: "change the subject", desc: "話題を変える" }
+      ]
+    },
+
+    // ── forma系 ───────────────────────────────────────────────────────────────
+    "inform": {
+      origin: "ラテン語 informāre（形を与える・教える）< in-（中に）+ forma（形・型）。「心の中に形を与える」→「知識の形を与える」→「教える・伝える」という意味の変化をたどった。\n\nformal（形式的）・format（書式）・reform・transform もすべて forma を語幹に持つ。information（情報）は「形を与えられたもの」、つまり「意味ある形に整えられたデータ」という本来の意味を今も保っている。",
+      derivatives: [
+        { word: "information",  desc: "情報・知識（名詞）" },
+        { word: "informative",  desc: "有益な・情報量の多い（形容詞）" },
+        { word: "informant",    desc: "情報提供者・密告者（名詞）" },
+        { word: "informal",     desc: "非公式の・くだけた（in-+formal）" }
+      ],
+      family: [
+        { word: "reform",     desc: "改革する（re-: 再び形を作る）" },
+        { word: "transform",  desc: "変容させる（trans-: 形を変える）" },
+        { word: "uniform",    desc: "制服・均一な（uni-: 一つの形）" },
+        { word: "format",     desc: "書式・形式（forma の直系）" },
+        { word: "formal",     desc: "形式的な・正式の（forma＋-al）" },
+        { word: "formula",    desc: "公式・処方（forma の縮小形）" }
+      ],
+      compounds: [
+        { phrase: "inform A of B",    desc: "A に B を知らせる" },
+        { phrase: "keep informed",    desc: "情報を常に把握する" },
+        { phrase: "well-informed",    desc: "情報通の・知識のある" }
+      ]
+    },
+
+    "reform": {
+      origin: "ラテン語 reformāre（再び形を作る）< re-（再び）+ formāre（形を作る）< forma（形）。「古い形を壊して新しい形に作り直す」が原義で、政治・社会・宗教上の「改革」に特化した語として定着した。\n\n宗教改革（the Reformation, 16世紀）はカトリック教会の「形を作り直す」試みを指す。reform school（感化院）は問題を抱えた若者の「人格を作り直す」施設を意味した。",
+      derivatives: [
+        { word: "reformation",  desc: "改革・（宗教）改革（名詞）" },
+        { word: "reformer",     desc: "改革者（名詞）" },
+        { word: "reformist",    desc: "改革主義者・改革派の（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "inform",     desc: "知らせる（in-: 中に形を与える）" },
+        { word: "transform",  desc: "変容させる（trans-: 形を変える）" },
+        { word: "uniform",    desc: "制服・均一な（uni-: 一つの形）" },
+        { word: "format",     desc: "書式・形式（forma の直系）" },
+        { word: "formal",     desc: "形式的な・正式の" }
+      ],
+      compounds: [
+        { phrase: "economic reform",   desc: "経済改革" },
+        { phrase: "health care reform", desc: "医療制度改革" },
+        { phrase: "reform movement",   desc: "改革運動" }
+      ]
+    },
+
+    "transform": {
+      origin: "ラテン語 trānsformāre（別の形に変える）< trāns-（超えて・向こう側へ）+ formāre（形を作る）。「ある形を超えて別の形へ」が原義で、物理的変化から人格・社会の根本的変容まで幅広く使われる。\n\ntransformation は「変身・変容」の意で、数学では「変換」、演劇では「衣装チェンジ」の意味にも使われる。transformer（変圧器）は電圧の「形（レベル）を変える」装置。",
+      derivatives: [
+        { word: "transformation", desc: "変容・変換・変身（名詞）" },
+        { word: "transformer",    desc: "変圧器・トランスフォーマー（名詞）" },
+        { word: "transformative", desc: "変革をもたらす（形容詞）" }
+      ],
+      family: [
+        { word: "inform",   desc: "知らせる（in-: 中に形を与える）" },
+        { word: "reform",   desc: "改革する（re-: 再び形を作る）" },
+        { word: "uniform",  desc: "制服・均一な（uni-: 一つの形）" },
+        { word: "format",   desc: "書式・形式" },
+        { word: "conform",  desc: "従う（con-: 共に形を合わせる）" }
+      ],
+      compounds: [
+        { phrase: "transform into",       desc: "〜に変容する" },
+        { phrase: "digital transformation", desc: "デジタル変革・DX" },
+        { phrase: "transformative change", desc: "根本的な変革" }
+      ]
+    },
+
+    "uniform": {
+      origin: "ラテン語 ūniformis（一つの形をした）< ūni-（一つ）+ forma（形）。「すべてが同じ形・様式」が原義で、名詞としては「制服（みな同じ形の服）」、形容詞としては「均一な・一定の」を意味する。\n\nuniverse（宇宙）も uni- を含む（uni+versus: 一つに向かって）。uniform の反義語は diverse（多様な）。uniform distribution（一様分布）は統計用語としても重要。",
+      derivatives: [
+        { word: "uniformly",   desc: "均一に・一様に（副詞）" },
+        { word: "uniformity",  desc: "均一性・画一性（名詞）" },
+        { word: "non-uniform", desc: "不均一な（形容詞）" }
+      ],
+      family: [
+        { word: "inform",    desc: "知らせる（in-: 中に形を与える）" },
+        { word: "reform",    desc: "改革する（re-: 再び形を作る）" },
+        { word: "transform", desc: "変容させる（trans-: 形を変える）" },
+        { word: "format",    desc: "書式・形式（forma の直系）" },
+        { word: "formal",    desc: "形式的な・正式の" },
+        { word: "formula",   desc: "公式・処方（forma の縮小形）" }
+      ],
+      compounds: [
+        { phrase: "school uniform",      desc: "学校の制服" },
+        { phrase: "uniform standard",    desc: "統一基準" },
+        { phrase: "uniform distribution", desc: "一様分布（統計）" }
+      ]
+    },
+
+    // ── premere / pressus系 ───────────────────────────────────────────────────
+    "express": {
+      origin: "ラテン語 exprimere（外へ押し出す）< ex-（外へ）+ premere（押す）。「内にあるものを外へ押し出す」→「感情・考えを表現する」に発展した。完了分詞 expressus から「明確に押し出された」→「明示的な・急行の」意味も生まれた。\n\nexpress train（急行列車）は「特定の目的地へ直接向かう（押し出す）」イメージから。expression（表現・表情）は「外に押し出されたもの」。",
+      derivatives: [
+        { word: "expression",  desc: "表現・表情・式（名詞）" },
+        { word: "expressive",  desc: "表現力豊かな（形容詞）" },
+        { word: "expressly",   desc: "明示的に・特に（副詞）" },
+        { word: "inexpressible", desc: "言い表せない（形容詞）" }
+      ],
+      family: [
+        { word: "impress",   desc: "感銘を与える（in-: 中へ押し込む）" },
+        { word: "compress",  desc: "圧縮する（com-: 共に押す）" },
+        { word: "suppress",  desc: "抑圧する（sub-: 下へ押さえる）" },
+        { word: "pressure",  desc: "圧力（premere の名詞形）" },
+        { word: "print",     desc: "印刷する（premere の変形）" },
+        { word: "press",     desc: "押す・新聞（premere の直接借用）" }
+      ],
+      compounds: [
+        { phrase: "express oneself",  desc: "自分を表現する" },
+        { phrase: "express train",    desc: "急行列車" },
+        { phrase: "express delivery", desc: "速達・特急便" }
+      ]
+    },
+
+    "impress": {
+      origin: "ラテン語 imprimere（中へ押し込む）< in-（中へ）+ premere（押す）。「型を押し付けて刻印する」が原義で、「心に深く刻み込む」→「感銘を与える」に転じた。完了分詞 impressus から impression（印象・刻印）が派生した。\n\nimpressive（印象的な）は「心にしっかり押し込まれるような」力を持つ意。be impressed by（〜に感銘を受ける）は「心に刻印を受ける」状態を指す。",
+      derivatives: [
+        { word: "impression",  desc: "印象・刷り・圧印（名詞）" },
+        { word: "impressive",  desc: "印象的な・感動的な（形容詞）" },
+        { word: "impressively", desc: "印象的に（副詞）" },
+        { word: "unimpressive", desc: "印象に残らない（形容詞）" }
+      ],
+      family: [
+        { word: "express",   desc: "表現する（ex-: 外へ押し出す）" },
+        { word: "compress",  desc: "圧縮する（com-: 共に押す）" },
+        { word: "suppress",  desc: "抑圧する（sub-: 下へ押さえる）" },
+        { word: "pressure",  desc: "圧力（premere の名詞形）" },
+        { word: "print",     desc: "印刷する（押して刻む）" }
+      ],
+      compounds: [
+        { phrase: "make an impression",  desc: "印象を与える" },
+        { phrase: "first impression",    desc: "第一印象" },
+        { phrase: "be impressed by",     desc: "〜に感銘を受ける" }
+      ]
+    },
+
+    "compress": {
+      origin: "ラテン語 comprimere（共に押し合わせる）< com-（共に・強意）+ premere（押す）。「両側から押してまとめる」が原義で、気体・データ・感情を「小さく押し縮める」意味全般に使われる。\n\nデータ圧縮（data compression）はファイルを「押し縮めて」小さくする。cold compress（冷湿布）は文字通り「押し当てる冷たいもの」。",
+      derivatives: [
+        { word: "compression",  desc: "圧縮・圧迫（名詞）" },
+        { word: "compressor",   desc: "圧縮機・コンプレッサー（名詞）" },
+        { word: "compressed",   desc: "圧縮された（形容詞）" }
+      ],
+      family: [
+        { word: "express",   desc: "表現する（ex-: 外へ押し出す）" },
+        { word: "impress",   desc: "感銘を与える（in-: 中へ押し込む）" },
+        { word: "suppress",  desc: "抑圧する（sub-: 下へ押さえる）" },
+        { word: "pressure",  desc: "圧力（premere の名詞形）" },
+        { word: "depress",   desc: "落ち込ませる（de-: 下へ押す）" }
+      ],
+      compounds: [
+        { phrase: "data compression",  desc: "データ圧縮" },
+        { phrase: "cold compress",     desc: "冷湿布" },
+        { phrase: "compressed air",    desc: "圧縮空気" }
+      ]
+    },
+
+    "suppress": {
+      origin: "ラテン語 supprimere（下へ押さえる）< sub-（下へ）+ premere（押す）。「上から押さえつけて出てこないようにする」が原義で、反乱・情報・感情を「押しつぶして表に出させない」意味で使われる。\n\nsuppression（抑圧・鎮圧）は権力による管理でも個人の心理でも使われる。suppress laughter（笑いをこらえる）は「笑いを下へ押さえつける」生き生きとした表現。",
+      derivatives: [
+        { word: "suppression", desc: "抑圧・鎮圧・抑制（名詞）" },
+        { word: "suppressor",  desc: "抑制するもの・消音器（名詞）" },
+        { word: "suppressive", desc: "抑制的な・鎮圧的な（形容詞）" }
+      ],
+      family: [
+        { word: "express",  desc: "表現する（ex-: 外へ押し出す）" },
+        { word: "impress",  desc: "感銘を与える（in-: 中へ押し込む）" },
+        { word: "compress", desc: "圧縮する（com-: 共に押す）" },
+        { word: "pressure", desc: "圧力（premere の名詞形）" },
+        { word: "depress",  desc: "落ち込ませる・不況にする（de-: 下へ）" },
+        { word: "oppress",  desc: "圧政する（ob-: 〜に対して押す）" }
+      ],
+      compounds: [
+        { phrase: "suppress laughter",  desc: "笑いをこらえる" },
+        { phrase: "suppress information", desc: "情報を隠蔽する" },
+        { phrase: "immune suppression",  desc: "免疫抑制" }
+      ]
+    },
+
+    // ── trahere / tractus系 ───────────────────────────────────────────────────
+    "contract": {
+      origin: "ラテン語 contrahere（共に引き寄せる）< con-（共に）+ trahere（引く）。「双方が引き合って一点に集める」→「契約（合意に引き合わせる行為）」と「収縮する（引き縮める）」の両義を持つ。\n\ncontract の名詞（契約）と動詞（収縮する）は発音アクセントが変わる：名詞 /ˈkɒntrækt/（前強勢）、動詞 /kənˈtrækt/（後強勢）。contractor（請負業者）は「契約で仕事を引き受ける人」。",
+      derivatives: [
+        { word: "contractor",   desc: "請負業者・コントラクター（名詞）" },
+        { word: "contraction",  desc: "収縮・短縮形（名詞）" },
+        { word: "contractual",  desc: "契約上の（形容詞）" }
+      ],
+      family: [
+        { word: "extract",   desc: "抽出する（ex-: 外へ引き出す）" },
+        { word: "attract",   desc: "引き付ける（ad-: 〜へ引く）" },
+        { word: "distract",  desc: "気をそらす（dis-: 別方向へ引く）" },
+        { word: "subtract",  desc: "引き算する（sub-: 下から引く）" },
+        { word: "abstract",  desc: "抽象的な（abs-: 離して引く）" },
+        { word: "tractor",   desc: "トラクター（trahere: 引くもの）" }
+      ],
+      compounds: [
+        { phrase: "sign a contract",    desc: "契約を締結する" },
+        { phrase: "breach of contract", desc: "契約違反" },
+        { phrase: "muscle contraction", desc: "筋肉の収縮" }
+      ]
+    },
+
+    "extract": {
+      origin: "ラテン語 extrahere（外へ引き出す）< ex-（外へ）+ trahere（引く）。「内部にあるものを強引に外へ引き出す」が原義で、歯・成分・情報・引用文を「取り出す」全般に使われる。\n\nextract（抽出物・エキス）は名詞としても使い、vanilla extract（バニラエッセンス）は「引き出された精エキス」。extract from a book（本からの抜粋）も同じ発想。名詞と動詞でアクセントが変わる。",
+      derivatives: [
+        { word: "extraction",  desc: "抽出・採取・抜歯（名詞）" },
+        { word: "extractor",   desc: "抽出装置・換気扇（名詞）" },
+        { word: "extractable", desc: "抽出可能な（形容詞）" }
+      ],
+      family: [
+        { word: "contract",  desc: "契約・収縮する（con-: 共に引く）" },
+        { word: "attract",   desc: "引き付ける（ad-: 〜へ引く）" },
+        { word: "distract",  desc: "気をそらす（dis-: 別方向へ引く）" },
+        { word: "subtract",  desc: "引き算する（sub-: 下から引く）" },
+        { word: "abstract",  desc: "抽象的な（abs-: 離して引く）" },
+        { word: "tractor",   desc: "トラクター（trahere: 引くもの）" }
+      ],
+      compounds: [
+        { phrase: "extract from",     desc: "〜から抽出する・〜からの抜粋" },
+        { phrase: "vanilla extract",  desc: "バニラエッセンス" },
+        { phrase: "tooth extraction", desc: "抜歯" }
+      ]
+    },
+
+    // ── capere / ceptus系 ─────────────────────────────────────────────────────
+    "receive": {
+      origin: "ラテン語 recipere（再び受け取る・受け入れる）< re-（再び・返して）+ capere（取る・つかむ）。古フランス語 receivre を経て英語に入り、「与えられたものを手に受け取る」全般に使われる。\n\nreceive は passive（受動）の基本動詞。receipt（領収書）の p が発音されないのは、ラテン語 receptus に合わせて後から挿入された黙字。receiver（受信機・受け取り人）も同根。",
+      derivatives: [
+        { word: "receiver",   desc: "受取人・受信機・受話器（名詞）" },
+        { word: "receipt",    desc: "領収書・受取（名詞）" },
+        { word: "reception",  desc: "受付・歓迎・受信状況（名詞）" },
+        { word: "receptive",  desc: "受け入れやすい（形容詞）" }
+      ],
+      family: [
+        { word: "perceive",  desc: "知覚する（per-: 完全につかむ）" },
+        { word: "conceive",  desc: "着想する（con-: 共につかむ）" },
+        { word: "deceive",   desc: "だます（de-: 下から取る）" },
+        { word: "capable",   desc: "能力のある（capere: 取れる）" },
+        { word: "capture",   desc: "捕まえる（capere の直系）" },
+        { word: "accept",    desc: "受け入れる（ad+capere: 〜へ取る）" }
+      ],
+      compounds: [
+        { phrase: "receive a call",    desc: "電話を受ける" },
+        { phrase: "receive treatment", desc: "治療を受ける" },
+        { phrase: "on the receiving end", desc: "（批判などを）受ける立場で" }
+      ]
+    },
+
+    "perceive": {
+      origin: "ラテン語 percipere（完全につかみ取る）< per-（完全に・通して）+ capere（取る・つかむ）。「感覚器官を通して完全に取り込む」→「知覚する・認識する」に特化した。\n\nperception（知覚・認識）は心理学・認知科学の核心概念。how something is perceived（どう認識されるか）は評判・イメージ管理でも重要な概念で、"Perception is reality."（認識こそが現実）は広く引用される格言。",
+      derivatives: [
+        { word: "perception",    desc: "知覚・認識・印象（名詞）" },
+        { word: "perceptive",    desc: "知覚力のある・洞察力のある（形容詞）" },
+        { word: "perceptively",  desc: "鋭く・洞察力をもって（副詞）" },
+        { word: "imperceptible", desc: "知覚できない・かすかな（形容詞）" }
+      ],
+      family: [
+        { word: "receive",  desc: "受け取る（re-: 再び受け取る）" },
+        { word: "conceive", desc: "着想する（con-: 共につかむ）" },
+        { word: "deceive",  desc: "だます（de-: 下から取る）" },
+        { word: "capable",  desc: "能力のある（capere: 取れる）" },
+        { word: "capture",  desc: "捕まえる（capere の直系）" }
+      ],
+      compounds: [
+        { phrase: "perceive as",             desc: "〜として認識する" },
+        { phrase: "public perception",       desc: "世間の認識・世論" },
+        { phrase: "perception is reality",   desc: "認識こそが現実（格言）" }
+      ]
+    },
+
+    "conceive": {
+      origin: "ラテン語 concipere（共につかみ取る・受胎する）< con-（共に・完全に）+ capere（取る・つかむ）。「心の中に完全に取り込む」→「着想する・概念化する」と「（子を）胎内に宿す」の両義を持つ。\n\nconcept（概念）・conception（着想・受胎）は同根。inconceivable（想像もできない）は「つかみ取れないほど」の意。",
+      derivatives: [
+        { word: "concept",        desc: "概念・アイデア（名詞）" },
+        { word: "conception",     desc: "着想・構想・受胎（名詞）" },
+        { word: "inconceivable",  desc: "想像もできない（形容詞）" },
+        { word: "conceivable",    desc: "想像できる・あり得る（形容詞）" }
+      ],
+      family: [
+        { word: "receive",  desc: "受け取る（re-: 再び受け取る）" },
+        { word: "perceive", desc: "知覚する（per-: 完全につかむ）" },
+        { word: "deceive",  desc: "だます（de-: 下から取る）" },
+        { word: "capable",  desc: "能力のある（capere: 取れる）" },
+        { word: "capture",  desc: "捕まえる（capere の直系）" },
+        { word: "accept",   desc: "受け入れる（ad+capere）" }
+      ],
+      compounds: [
+        { phrase: "conceive of",           desc: "〜を思い描く・着想する" },
+        { phrase: "conceive a plan",       desc: "計画を立案する" },
+        { phrase: "immaculately conceived", desc: "無原罪の御宿り（宗教用語）" }
+      ]
     }
 
   };

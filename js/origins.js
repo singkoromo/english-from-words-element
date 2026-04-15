@@ -14066,6 +14066,452 @@
         { phrase: "subordinate role",    desc: "従属的な役割" },
         { phrase: "manage subordinates", desc: "部下を管理する" }
       ]
+    },
+
+    // ── Batch 30 ──────────────────────────────────────────────────────────
+
+    // rat/ratio系
+    "rational": {
+      origin: "ラテン語 rationalis（理性に基づく・論理的な）< ratio（理性・計算・割合）< reri（考える・計算する）の過去分詞 ratus。「理性によって計算され、論理に従っている」という字義から「合理的な・理性的な」という意味が発展した。\n\n14世紀にフランス語 rationel を経て英語に入り、rational（合理的な・理性的な）として定着。数学では「有理数（rational number）」として技術的意味をもち、哲学では「感情より理性に基づく判断」という意味で重要な対比概念（rational vs emotional）を形成する。\n\n現代英語では rational thinking（合理的思考）・rational behavior（合理的行動）・rational explanation（論理的説明）のように日常・学術・経済（合理的経済人）の文脈で使われる基本的形容詞。",
+      derivatives: [
+        { word: "rationality",  desc: "合理性・理性（名詞）" },
+        { word: "rationalize",  desc: "合理化する（動詞）" },
+        { word: "rationally",   desc: "合理的に（副詞）" }
+      ],
+      family: [
+        { word: "ratio",      desc: "比率・割合（ratio）" },
+        { word: "irrational", desc: "非合理的な（in-+ratio）" },
+        { word: "reason",     desc: "理由・理性（ratio系）" }
+      ],
+      compounds: [
+        { phrase: "rational thinking",   desc: "合理的思考" },
+        { phrase: "rational number",     desc: "有理数（数学）" },
+        { phrase: "rational decision",   desc: "合理的な決断" }
+      ]
+    },
+
+    "irrational": {
+      origin: "ラテン語 irrationalis（理性に反する）< ir-（否定、in- の変形）+ rationalis（理性の）< ratio（理性・計算）。「理性や論理に反した・筋道が通らない」という字義。数学では「有理数に収まらない数」という技術的意味をもつ。\n\n14世紀に英語に入り、irrational（非合理的な・筋道の通らない）として定着。感情・恐怖・偏見による「非論理的な判断」を批判的に表す語として日常でよく使われる。数学では √2 のような「無理数（irrational number）」が重要な概念。\n\n現代英語では irrational fear（不合理な恐怖）・act irrationally（非合理的に行動する）・irrational number（無理数）のように心理・数学・日常の三文脈で使われる語。",
+      derivatives: [
+        { word: "irrationality",  desc: "非合理性（名詞）" },
+        { word: "irrationally",   desc: "非合理的に（副詞）" }
+      ],
+      family: [
+        { word: "rational",  desc: "合理的な（ratio）" },
+        { word: "ratio",     desc: "比率（ratio）" },
+        { word: "reason",    desc: "理由・理性（ratio系）" }
+      ],
+      compounds: [
+        { phrase: "irrational fear",    desc: "不合理な恐怖" },
+        { phrase: "irrational number",  desc: "無理数（数学）" },
+        { phrase: "irrational behavior",desc: "非合理的な行動" }
+      ]
+    },
+
+    "ratio": {
+      origin: "ラテン語 ratio（計算・割合・理性）< reri（考える・計算する）の過去分詞 ratus。「計算によって得られた二量の関係」という字義で、数学・科学では「二量の比」を指す。rational・reason の語根でもある。\n\n17世紀に英語に入り、ratio（比率・割合）として定着。数学・科学・統計では「二つの量の比較関係（A to B）」として使われ、ビジネスでは財務比率（financial ratios）として重要。\n\n現代英語では ratio of students to teachers（生徒対教師の比率）・debt-to-equity ratio（負債・自己資本比率）・the golden ratio（黄金比）のように科学・ビジネス・芸術の文脈で幅広く使われる。",
+      derivatives: [
+        { word: "ration",    desc: "配給量・割り当てる（ratio）" },
+        { word: "rational",  desc: "合理的な（ratio）" }
+      ],
+      family: [
+        { word: "rational",   desc: "合理的な（ratio）" },
+        { word: "irrational", desc: "非合理的な（in-+ratio）" },
+        { word: "reason",     desc: "理由・理性（ratio系）" }
+      ],
+      compounds: [
+        { phrase: "golden ratio",            desc: "黄金比" },
+        { phrase: "debt-to-equity ratio",    desc: "負債・自己資本比率" },
+        { phrase: "price-to-earnings ratio", desc: "株価収益率（PER）" }
+      ]
+    },
+
+    // rog系
+    "arrogant": {
+      origin: "ラテン語 arrogans（自分のものとして請求する・傲慢な）< arrogare（自分のものと主張する）< ad-（～に向けて）+ rogare（尋ねる・要求する）の現在分詞。「自分のためにあれもこれも要求する人」という字義から「傲慢な・横柄な」という意味が発展した。\n\n14世紀にフランス語 arrogant を経て英語に入り、arrogant（傲慢な・横柄な・自信過剰な）として定着。「自分が他者より優れていると思い込み、礼節を欠く態度」を批判的に描写する形容詞として機能する。\n\n現代英語では arrogant attitude（傲慢な態度）・arrogant behavior（横柄な振る舞い）・arrogance of power（権力の傲慢）のように使われ、confident（自信のある）や assertive（主張が強い）のような肯定的な語とは明確に区別される。",
+      derivatives: [
+        { word: "arrogance",   desc: "傲慢・横柄さ（名詞）" },
+        { word: "arrogantly",  desc: "傲慢に（副詞）" }
+      ],
+      family: [
+        { word: "interrogate",  desc: "尋問する（inter-+rogare）" },
+        { word: "prerogative",  desc: "特権（prae-+rogare）" },
+        { word: "rogation",     desc: "懇願・祈祷（rogare）" }
+      ],
+      compounds: [
+        { phrase: "arrogant attitude",  desc: "傲慢な態度" },
+        { phrase: "arrogance of power", desc: "権力の傲慢" },
+        { phrase: "arrogant assumption",desc: "傲慢な思い込み" }
+      ]
+    },
+
+    "interrogate": {
+      origin: "ラテン語 interrogare（尋ねる・尋問する）< inter-（間に・強意）+ rogare（尋ねる・要求する）。「直接に迫って徹底的に尋ねる」という字義で、特に警察・軍事・法律的な文脈での「尋問」を意味する。\n\n14世紀に英語に入り、interrogate（尋問する・厳しく問いただす）として定着。法律・軍事では「拘束下での尋問」を指し、日常では「執拗に質問する」という比喩的意味でも使われる。\n\n現代英語では interrogate a suspect（容疑者を尋問する）・interrogation room（尋問室）・database interrogation（データベースへの問い合わせ）のように法律・IT の文脈で使われ、水責めなどの「強制尋問（enhanced interrogation）」という政治的に微妙な表現でも登場する語。",
+      derivatives: [
+        { word: "interrogation",  desc: "尋問・尋問室（名詞）" },
+        { word: "interrogator",   desc: "尋問者（名詞）" },
+        { word: "interrogative",  desc: "疑問文の・尋問調の（形容詞）" }
+      ],
+      family: [
+        { word: "arrogant",    desc: "傲慢な（arrogare）" },
+        { word: "prerogative", desc: "特権（prae-+rogare）" },
+        { word: "question",    desc: "質問（quaerere）" }
+      ],
+      compounds: [
+        { phrase: "interrogation room",  desc: "尋問室" },
+        { phrase: "interrogate a witness",desc: "証人を尋問する" },
+        { phrase: "interrogation mark",  desc: "疑問符（?）" }
+      ]
+    },
+
+    // gest系
+    "gesture": {
+      origin: "ラテン語 gestura（身体の動き・ふるまい）< gerere（運ぶ・行う・ふるまう）の過去分詞 gestus。「体を動かすことで行われるふるまい」という字義で、身体的な動作・仕草・好意的な行為を意味する。\n\n14世紀に英語に入り、gesture（身振り・仕草・好意的な行為）として定着。動詞「身振りで示す（gesture toward）」と名詞「仕草・象徴的行為（a gesture of goodwill）」の両方で使われる。\n\n現代英語では make a gesture（身振りをする・好意ある行動をとる）・a gesture of goodwill（善意のジェスチャー）・symbolic gesture（象徴的な行為）のように使われ、政治・外交での「象徴的な行動」という意味でも頻出する語。",
+      derivatives: [
+        { word: "gesticulate",  desc: "身振り手振りをする（動詞）" }
+      ],
+      family: [
+        { word: "digest",    desc: "消化する・要約（di-+gerere）" },
+        { word: "ingest",    desc: "摂取する（in-+gerere）" },
+        { word: "suggest",   desc: "提案する（sub-+gerere）" },
+        { word: "exaggerate",desc: "誇張する（ex-+gerere）" }
+      ],
+      compounds: [
+        { phrase: "make a gesture",      desc: "身振りをする・ジェスチャーをとる" },
+        { phrase: "gesture of goodwill", desc: "善意のジェスチャー" },
+        { phrase: "symbolic gesture",    desc: "象徴的な行為" }
+      ]
+    },
+
+    "digest": {
+      origin: "ラテン語 digerere（分類して整理する・消化する）< di-（離れて・異なった方向に）+ gerere（運ぶ・扱う）。「バラバラに整理して扱う」という字義から「食物を消化する・情報を整理して理解する」という意味が発展した。\n\n14世紀に英語に入り、digest（消化する・理解する・要約）として定着。動詞「食物を消化する・情報を処理する」と名詞「要約・ダイジェスト（a monthly digest）」の両用法がある。\n\n現代英語では digest food（食物を消化する）・take time to digest information（情報を処理する時間をとる）・a digest of the news（ニュースのダイジェスト）のように生物学・情報処理・メディアの文脈で使われる。Reader's Digest（雑誌名）も同語源。",
+      derivatives: [
+        { word: "digestion",    desc: "消化・消化作用（名詞）" },
+        { word: "digestive",    desc: "消化の（形容詞）" },
+        { word: "indigestible", desc: "消化しにくい（形容詞）" }
+      ],
+      family: [
+        { word: "gesture",   desc: "身振り（gerere）" },
+        { word: "suggest",   desc: "提案する（sub-+gerere）" },
+        { word: "ingest",    desc: "摂取する（in-+gerere）" },
+        { word: "congestion",desc: "渋滞・充血（con-+gerere）" }
+      ],
+      compounds: [
+        { phrase: "digestive system",  desc: "消化器系" },
+        { phrase: "monthly digest",    desc: "月刊ダイジェスト" },
+        { phrase: "digest information",desc: "情報を処理・理解する" }
+      ]
+    },
+
+    "congestion": {
+      origin: "ラテン語 congestio（詰め込み・山積み）< congerere（一緒に積み重ねる・詰め込む）< con-（共に）+ gerere（運ぶ・積む）。「一か所に大量に積み重ねられた状態」という字義から「渋滞・充血・混雑」という意味が発展した。\n\n14世紀に英語に入り、congestion（渋滞・混雑・（鼻・肺の）充血）として定着。交通の「渋滞」と医学の「充血・うっ血」という二つの主要な意味をもつ。\n\n現代英語では traffic congestion（交通渋滞）・nasal congestion（鼻づまり・鼻充血）・congestion charge（渋滞税・ロンドンの混雑課金）のように交通・医学・都市政策の文脈で使われる語。",
+      derivatives: [
+        { word: "congested",  desc: "混雑した・充血した（形容詞）" },
+        { word: "decongest",  desc: "混雑を解消する（動詞）" }
+      ],
+      family: [
+        { word: "gesture",   desc: "身振り（gerere）" },
+        { word: "digest",    desc: "消化する（di-+gerere）" },
+        { word: "suggest",   desc: "提案する（sub-+gerere）" },
+        { word: "ingest",    desc: "摂取する（in-+gerere）" }
+      ],
+      compounds: [
+        { phrase: "traffic congestion",  desc: "交通渋滞" },
+        { phrase: "nasal congestion",    desc: "鼻づまり・鼻充血" },
+        { phrase: "congestion charge",   desc: "渋滞税・混雑課金" }
+      ]
+    },
+
+    // vag系
+    "vague": {
+      origin: "ラテン語 vagus（さまよう・不確かな）< vagari（さまよう）。「一か所に定まらずさまよっている」という字義から「曖昧な・漠然とした・不明確な」という意味が発展した。vagrant・extravagant とも同根。\n\n14世紀にフランス語 vague を経て英語に入り、vague（曖昧な・漠然とした・おぼろげな）として定着。意図的に「曖昧にする（be deliberately vague）」という文脈や、記憶・印象が「はっきりしない」という文脈でよく使われる。\n\n現代英語では vague answer（曖昧な答え）・vague memory（おぼろげな記憶）・deliberately vague（意図的に曖昧な）のように使われ、vagueness（曖昧さ）という名詞形とともに日常的に頻出する語。",
+      derivatives: [
+        { word: "vaguely",    desc: "漠然と・曖昧に（副詞）" },
+        { word: "vagueness",  desc: "曖昧さ・漠然さ（名詞）" }
+      ],
+      family: [
+        { word: "vagrant",      desc: "浮浪者・さまよう（vagari）" },
+        { word: "extravagant",  desc: "途方もない・浪費する（extra+vagari）" }
+      ],
+      compounds: [
+        { phrase: "vague answer",     desc: "曖昧な答え" },
+        { phrase: "vague memory",     desc: "おぼろげな記憶" },
+        { phrase: "deliberately vague",desc: "意図的に曖昧な" }
+      ]
+    },
+
+    "extravagant": {
+      origin: "ラテン語 extravagans（外をさまよう）< extra-（外に）+ vagari（さまよう）。「通常の境界の外をさまよっている」という字義から「度を超えた・法外な・浪費する」という意味が発展した。\n\n14世紀に英語に入り、extravagant（度を超えた・法外な・浪費する）として定着。金銭的な「浪費・放漫」と、非金銭的な「誇張・荒唐無稽」という二つの主要な意味をもつ。\n\n現代英語では extravagant spending（浪費）・extravagant claim（誇張した主張）・extravagant lifestyle（ぜいたくな暮らし）のように使われ、extravaganza（豪華な催し・はでなショー）という派生語も頻出する。",
+      derivatives: [
+        { word: "extravagantly",  desc: "浪費して・法外に（副詞）" },
+        { word: "extravagance",   desc: "浪費・法外さ（名詞）" },
+        { word: "extravaganza",   desc: "豪華なショー・大型催し（名詞）" }
+      ],
+      family: [
+        { word: "vague",    desc: "曖昧な（vagus）" },
+        { word: "vagrant",  desc: "浮浪者（vagari）" }
+      ],
+      compounds: [
+        { phrase: "extravagant spending",  desc: "浪費・豪遊" },
+        { phrase: "extravagant claim",     desc: "誇張した主張" },
+        { phrase: "extravagant lifestyle", desc: "ぜいたくな暮らし" }
+      ]
+    },
+
+    // nat系残り
+    "innate": {
+      origin: "ラテン語 innatus（生まれた時から備わった）< in-（中に）+ natus（生まれた）< nasci（生まれる）。「生まれながらにして内部に存在する」という字義で、後天的に習得したのではなく「生来の・先天的な」性質を表す。\n\n17世紀に英語に入り、innate（生まれつきの・先天的な）として定着。哲学では「生得観念（innate ideas）」論争でデカルト・ライプニッツが生得知識を主張し、ロックが経験論的に批判した歴史的論争語でもある。\n\n現代英語では innate talent（生まれつきの才能）・innate curiosity（生来の好奇心）・innate immunity（先天性免疫）のように心理・生物学・免疫学の文脈で使われる。\"Nature vs Nurture\"（先天性対後天性）の議論では核心語。",
+      derivatives: [
+        { word: "innately",  desc: "生まれつき・先天的に（副詞）" }
+      ],
+      family: [
+        { word: "native",   desc: "生まれながらの（nasci）" },
+        { word: "nation",   desc: "国民（nasci）" },
+        { word: "nature",   desc: "自然・本質（nasci）" },
+        { word: "naive",    desc: "純真な（nasci）" }
+      ],
+      compounds: [
+        { phrase: "innate talent",    desc: "生まれつきの才能" },
+        { phrase: "innate immunity",  desc: "先天性免疫（生物学）" },
+        { phrase: "innate curiosity", desc: "生来の好奇心" }
+      ]
+    },
+
+    // rupt系残り
+    "interrupt": {
+      origin: "ラテン語 interrumpere（真ん中で割る・中断させる）< inter-（間に）+ rumpere（割る・破る）。「進行中のものの真ん中に割り込む」という字義で、会話・作業・プロセスの「中断・割り込み」を意味する。\n\n13世紀に英語に入り、interrupt（遮る・中断する・割り込む）として定着。会話を「遮る」、作業を「中断させる」、電力を「遮断する」と多様な文脈で使われる。IT ではプログラムの「割り込み処理（interrupt）」として専門語でもある。\n\n現代英語では interrupt a conversation（会話を遮る）・power interruption（停電・電力遮断）・interrupt handler（割り込みハンドラー、IT）のように日常・技術の両文脈で頻出する語。",
+      derivatives: [
+        { word: "interruption",   desc: "中断・割り込み（名詞）" },
+        { word: "uninterrupted",  desc: "途切れない・連続した（形容詞）" }
+      ],
+      family: [
+        { word: "rupture",  desc: "断裂・破裂（rumpere）" },
+        { word: "corrupt",  desc: "腐敗させる（cor-）" },
+        { word: "disrupt",  desc: "破壊する（dis-）" },
+        { word: "erupt",    desc: "噴出する（e-）" }
+      ],
+      compounds: [
+        { phrase: "interrupt a conversation",  desc: "会話を遮る" },
+        { phrase: "without interruption",      desc: "中断なしに" },
+        { phrase: "power interruption",        desc: "停電・電力遮断" }
+      ]
+    },
+
+    // capt系残り
+    "captivate": {
+      origin: "ラテン語 captivare（捕虜にする・魅了する）< captivus（捕虜・捕まえられた）< capere（捕まえる）。「心や注意を捕まえて放さない」という字義から「魅了する・うっとりさせる」という意味が発展した。\n\n16世紀に英語に入り、captivate（魅了する・うっとりさせる）として定着。人の「注意・心・想像力」を引き付けて放さない状態を表す語で、物語・音楽・人物・自然の美しさなどについて使われる。\n\n現代英語では captivate an audience（観客を魅了する）・captivating story（引き込まれる物語）・captivated by the view（景色に魅了された）のように使われ、captivating（魅惑的な・引き込まれる）という形容詞が特に頻出する。",
+      derivatives: [
+        { word: "captivating",  desc: "魅惑的な・引き込まれる（形容詞）" }
+      ],
+      family: [
+        { word: "captive",  desc: "捕虜・捕らわれた（capere）" },
+        { word: "capture",  desc: "捕まえる（capere）" },
+        { word: "capable",  desc: "能力のある（capere）" },
+        { word: "accept",   desc: "受け入れる（ad-+capere）" }
+      ],
+      compounds: [
+        { phrase: "captivate an audience",  desc: "観客を魅了する" },
+        { phrase: "captivating story",      desc: "引き込まれる物語" },
+        { phrase: "captivate attention",    desc: "注意を引き付ける" }
+      ]
+    },
+
+    // ord/ordin系
+    "extraordinary": {
+      origin: "ラテン語 extraordinarius（通常の秩序を超えた）< extra-（外に・超えて）+ ordinarius（通常の・秩序に従った）< ordo（秩序・列）。「通常の秩序の外にある」という字義から「並外れた・異常な・臨時の」という意味が発展した。\n\n15世紀に英語に入り、extraordinary（並外れた・非凡な・臨時の）として定着。extraordinary talent（並外れた才能）という肯定的な意味と、extraordinary circumstances（異常な状況）という中立的な意味がある。\n\n現代英語では an extraordinary performance（並外れた演技）・extraordinary measures（異例の措置）・extraordinary general meeting（臨時総会）のように広く使われ、\"extra\"を強調する文語的な用法も「それは本当に extraordinary だ」のように残っている。",
+      derivatives: [
+        { word: "extraordinarily",  desc: "並外れて・異常に（副詞）" }
+      ],
+      family: [
+        { word: "ordinary",     desc: "普通の・通常の（ordo）" },
+        { word: "subordinate",  desc: "従属的な（sub-+ordo）" },
+        { word: "coordinate",   desc: "調整する（co-+ordo）" },
+        { word: "order",        desc: "秩序・命令（ordo）" }
+      ],
+      compounds: [
+        { phrase: "extraordinary talent",  desc: "並外れた才能" },
+        { phrase: "extraordinary measures",desc: "異例の措置" },
+        { phrase: "extraordinary meeting", desc: "臨時会議" }
+      ]
+    },
+
+    "coordinate": {
+      origin: "ラテン語 coordinare（共に整列させる）< co-（共に）+ ordinare（整列させる・命じる）< ordo（秩序・列）。「同じ秩序の中に並べて調整する」という字義から「調整する・まとめる・協調させる」という意味が発展した。\n\n17世紀に英語に入り、coordinate（調整する・協調させる）として定着。動詞「調整する」・名詞「座標（coordinates）」・形容詞「同等の（coordinate clause）」という三用法がある。数学・地図・文法で重要な語。\n\n現代英語では coordinate activities（活動を調整する）・GPS coordinates（GPS 座標）・coordinate conjunction（等位接続詞、文法）のように科学・組織・文法の三分野で重要な語として使われる。",
+      derivatives: [
+        { word: "coordination",  desc: "調整・協調・配位（名詞）" },
+        { word: "coordinator",   desc: "コーディネーター（名詞）" }
+      ],
+      family: [
+        { word: "extraordinary",  desc: "並外れた（extra-+ordo）" },
+        { word: "ordinary",       desc: "普通の（ordo）" },
+        { word: "subordinate",    desc: "従属的な（sub-+ordo）" },
+        { word: "order",          desc: "秩序・命令（ordo）" }
+      ],
+      compounds: [
+        { phrase: "coordinate activities",  desc: "活動を調整する" },
+        { phrase: "GPS coordinates",        desc: "GPS 座標" },
+        { phrase: "lack of coordination",   desc: "調整不足・協調不足" }
+      ]
+    },
+
+    // cil/concil系
+    "reconcile": {
+      origin: "ラテン語 reconciliare（再び仲良くさせる）< re-（再び）+ conciliare（集めて結びつける・和解させる）< concilium（集会・評議会）。「一度離れた者を再び集めて結びつける」という字義から「和解させる・調和させる」という意味が発展した。\n\n13世紀に英語に入り、reconcile（和解させる・調和させる・受け入れる）として定着。reconcile A with B（A と B を調和させる）・reconcile oneself to（～を受け入れる）という形が特に重要で、人間関係・矛盾する情報・感情の「折り合い」全般を表す。\n\n現代英語では reconcile differences（違いを調整する）・bank reconciliation（銀行勘定の照合）・reconcile oneself to the situation（状況を受け入れる）のように外交・会計・心理の文脈で使われる重要語。",
+      derivatives: [
+        { word: "reconciliation",  desc: "和解・調整・照合（名詞）" },
+        { word: "irreconcilable",  desc: "和解できない・矛盾した（形容詞）" }
+      ],
+      family: [
+        { word: "council",    desc: "評議会・議会（concilium）" },
+        { word: "conciliate", desc: "宥める（conciliare）" }
+      ],
+      compounds: [
+        { phrase: "reconcile differences",    desc: "違いを調整する" },
+        { phrase: "bank reconciliation",      desc: "銀行勘定照合" },
+        { phrase: "truth and reconciliation", desc: "真実と和解（委員会）" }
+      ]
+    },
+
+    "council": {
+      origin: "ラテン語 concilium（集会・評議会）< con-（共に）+ calare（呼ぶ）。「共に呼ばれた集まり」という字義で、共同で意思決定をする「集会・評議会・議会」を意味する。counsel（助言・弁護士）と発音が同じだが異なる語。\n\n12世紀にフランス語 concile を経て英語に入り、council（評議会・議会・審議会）として定着。宗教では「公会議（council of the Church）」、行政では「地方議会（city council）」、企業では「取締役会」的な組織を指す。\n\n現代英語では city council（市議会）・UN Security Council（国連安全保障理事会）・council meeting（評議会・議会の会合）のように行政・国際機関・宗教の文脈で広く使われる語。counsellor（弁護士・相談員）と区別が重要。",
+      derivatives: [
+        { word: "councillor",  desc: "評議会議員・市議（名詞）" }
+      ],
+      family: [
+        { word: "reconcile",  desc: "和解させる（re-+concilium）" },
+        { word: "conclave",   desc: "密室会議（con-+clavis）" }
+      ],
+      compounds: [
+        { phrase: "city council",             desc: "市議会" },
+        { phrase: "UN Security Council",      desc: "国連安全保障理事会" },
+        { phrase: "council meeting",          desc: "評議会の会合" }
+      ]
+    },
+
+    // ced/cess系残り
+    "succession": {
+      origin: "ラテン語 successio（次に続くこと・継承）< succedere（次に来る・取って代わる）< sub-（次に）+ cedere（行く・譲る）。「前のものの後に来て続く」という字義から「継承・相続・連続」という意味が発展した。\n\n13世紀に英語に入り、succession（継承・連続・相続）として定着。王位・財産・職位の「引き継ぎ（succession of power）」と、連続して起こる出来事の「連続（a succession of events）」という二つの主要な意味をもつ。\n\n現代英語では succession planning（後継者計画）・line of succession（継承順位）・in quick succession（立て続けに）のように組織・政治・日常で頻出する語。生態学では「生態的遷移（ecological succession）」として使われる。",
+      derivatives: [
+        { word: "successive",    desc: "連続する・次々と続く（形容詞）" },
+        { word: "successively",  desc: "連続して・次々に（副詞）" }
+      ],
+      family: [
+        { word: "succeed",     desc: "成功する・継承する（sub-+cedere）" },
+        { word: "precede",     desc: "先行する（prae-+cedere）" },
+        { word: "proceed",     desc: "進む（pro-+cedere）" },
+        { word: "access",      desc: "アクセス（ad-+cedere）" }
+      ],
+      compounds: [
+        { phrase: "succession planning",  desc: "後継者計画" },
+        { phrase: "line of succession",   desc: "継承順位" },
+        { phrase: "in quick succession",  desc: "立て続けに・矢継ぎ早に" }
+      ]
+    },
+
+    "predecessor": {
+      origin: "ラテン語 praedecessor（先に引き下がった者）< prae-（前に）+ decessor（立ち去る者）< decedere（去る）< de-+cedere（行く）。「先に立ち去った人・その地位を前に占めていた人」という字義から「前任者・先代・前身」という意味が発展した。\n\n14世紀に英語に入り、predecessor（前任者・先代・前身）として定着。職位・地位の「前の人」と、技術・物の「以前のバージョン（predecessor model）」という二つの用法がある。successor（後継者）との対比で使われることが多い。\n\n現代英語では the predecessor of the current CEO（現 CEO の前任者）・the predecessor model（先代モデル）・learn from predecessors（先人から学ぶ）のような使い方が典型的。",
+      derivatives: [
+        { word: "predecessors",  desc: "先人たち・前任者たち（複数形）" }
+      ],
+      family: [
+        { word: "succeed",    desc: "成功する・継承する（sub-+cedere）" },
+        { word: "succession", desc: "継承（sub-+cedere）" },
+        { word: "precede",    desc: "先行する（prae-+cedere）" },
+        { word: "access",     desc: "アクセス（ad-+cedere）" }
+      ],
+      compounds: [
+        { phrase: "my predecessor",       desc: "私の前任者" },
+        { phrase: "predecessor model",    desc: "先代モデル" },
+        { phrase: "learn from predecessors",desc: "先人から学ぶ" }
+      ]
+    },
+
+    // scope系残り
+    "horoscope": {
+      origin: "ギリシャ語 horoskopos（時刻を見るもの）< hora（時・季節）+ skopein（見る）。「生まれた時刻の天体配置を見るもの」という字義で、出生時の天体位置から運命を読み解く占星術の図・予言を意味する。\n\n14世紀に英語に入り、horoscope（星占い・天宮図）として定着。西洋占星術では出生時の天体位置を記した「出生ホロスコープ（natal horoscope）」が中心で、各星座の「今週の運勢」という意味でも使われる。\n\n現代英語では read one's horoscope（星占いを見る）・daily horoscope（日刊星占い）・horoscope compatibility（星座の相性）のように使われ、科学的な天文学（astronomy）とは区別される占星術（astrology）の核心語。",
+      derivatives: [
+        { word: "horoscopic",  desc: "ホロスコープの（形容詞）" }
+      ],
+      family: [
+        { word: "telescope",  desc: "望遠鏡（tele-+skopein）" },
+        { word: "microscope", desc: "顕微鏡（mikros+skopein）" },
+        { word: "astronaut",  desc: "宇宙飛行士（astron+nautes）" },
+        { word: "astronomy",  desc: "天文学（astron+nomos）" }
+      ],
+      compounds: [
+        { phrase: "daily horoscope",      desc: "日刊星占い" },
+        { phrase: "birth horoscope",      desc: "出生ホロスコープ" },
+        { phrase: "horoscope sign",       desc: "星座" }
+      ]
+    },
+
+    // 重要学術語
+    "prodigy": {
+      origin: "ラテン語 prodigium（前兆・不思議な徴候）< pro-（前に）+ agere（行う）あるいは aio（言う）に関連するとされる。「普通の秩序を超えた不思議な徴候」という字義から「並外れた才能をもつ人・神童」という意味が発展した。\n\n15世紀に英語に入り、prodigy（不思議なこと・神童・天才）として定着。もともとは「怪異・前兆」を指したが、現代では主に「幼くして並外れた才能をもつ人（child prodigy）」という意味で使われる。\n\n現代英語では child prodigy（神童）・a prodigy at mathematics（数学の天才）・musical prodigy（音楽の天才）のように使われ、prodigious（驚異的な・並外れた）という形容詞も頻出する。",
+      derivatives: [
+        { word: "prodigious",   desc: "驚異的な・並外れた（形容詞）" },
+        { word: "prodigiously", desc: "驚異的に（副詞）" }
+      ],
+      family: [
+        { word: "prodigal",  desc: "浪費する・放蕩な（prodigere）" }
+      ],
+      compounds: [
+        { phrase: "child prodigy",      desc: "神童・天才児" },
+        { phrase: "musical prodigy",    desc: "音楽の天才" },
+        { phrase: "prodigious talent",  desc: "驚異的な才能" }
+      ]
+    },
+
+    "articulate": {
+      origin: "ラテン語 articulare（関節でつなぐ・音節に分ける）< articulus（関節・部分・短い時間）< artus（関節・肢）。「関節でつないで明確に区切る」という字義から「言葉を明確に発音する・考えを明確に表現する」という意味が発展した。\n\n15世紀に英語に入り、articulate（明確に発音する・はっきり表現する・関節のある）として定着。形容詞「表現力のある・言葉が明確な（articulate speaker）」と動詞「はっきりと述べる（articulate one's views）」の両用法がある。\n\n現代英語では an articulate argument（明確な主張）・articulate one's concerns（懸念をはっきり述べる）・well-articulated plan（よく練られた計画）のようにコミュニケーション・プレゼンテーション・文章の文脈で重要語。",
+      derivatives: [
+        { word: "articulation",   desc: "発音・表現・関節（名詞）" },
+        { word: "articulately",   desc: "明確に・はっきりと（副詞）" },
+        { word: "inarticulate",   desc: "表現が苦手な・言葉にならない（形容詞）" }
+      ],
+      family: [
+        { word: "article",  desc: "記事・冠詞・条項（artus）" },
+        { word: "artifact", desc: "人工物（arte+factum）" }
+      ],
+      compounds: [
+        { phrase: "articulate one's views",  desc: "意見をはっきり述べる" },
+        { phrase: "well-articulated",        desc: "よく表現された・明確な" },
+        { phrase: "articulate speaker",      desc: "表現力のある話し手" }
+      ]
+    },
+
+    "paradigm": {
+      origin: "ギリシャ語 paradeigma（模範・典型・お手本）< para-（並べて）+ deiknynai（示す）。「並べて示すことで明確になる模範・典型」という字義で、知識・思考の「枠組み・型」を意味する。\n\n16世紀に英語に入り、paradigm（模範・典型・活用形）として定着。科学哲学者トーマス・クーンが1962年の著作で「パラダイム（科学者集団が共有する信念・価値・技術の体系）」という概念を確立し、「パラダイムシフト（paradigm shift）」が現代語として普及した。\n\n現代英語では paradigm shift（パラダイムシフト・根本的な変化）・a new paradigm（新しい枠組み）・shift a paradigm（パラダイムを転換する）のように科学・ビジネス・文化批評で多用される重要語。",
+      derivatives: [
+        { word: "paradigmatic",  desc: "典型的な・模範的な（形容詞）" }
+      ],
+      family: [
+        { word: "diagram",   desc: "図・図解（dia-+graphein）" },
+        { word: "paradox",   desc: "逆説（para-+doxa）" }
+      ],
+      compounds: [
+        { phrase: "paradigm shift",     desc: "パラダイムシフト・根本的な転換" },
+        { phrase: "new paradigm",       desc: "新しい枠組み" },
+        { phrase: "paradigm change",    desc: "パラダイムの変化" }
+      ]
+    },
+
+    "profound": {
+      origin: "ラテン語 profundus（非常に深い）< pro-（前に・完全に）+ fundus（底）。「底が見えないほど深い」という字義から「深遠な・奥深い・重大な影響をもつ」という意味が発展した。foundation・fundamental の語根 fundus と同根。\n\n14世紀にフランス語 profound を経て英語に入り、profound（深遠な・奥深い・重大な）として定着。profound knowledge（深い知識）・profound impact（深刻な影響）・profound silence（深い沈黙）のように知的・感情的・物理的な「深さ」を表す語として使われる。\n\n現代英語では a profound thinker（深遠な思想家）・profound sadness（深い悲しみ）・profound changes（根本的な変化）のように文語・学術的な文脈で使われる格調高い形容詞。",
+      derivatives: [
+        { word: "profoundly",  desc: "深く・根本的に（副詞）" },
+        { word: "profundity",  desc: "深遠さ・深さ（名詞）" }
+      ],
+      family: [
+        { word: "fundamental",  desc: "根本的な（fundus）" },
+        { word: "foundation",   desc: "基盤・財団（fundus）" },
+        { word: "found",        desc: "創設する（fundus）" }
+      ],
+      compounds: [
+        { phrase: "profound impact",     desc: "深刻な・根本的な影響" },
+        { phrase: "profound knowledge",  desc: "深い知識" },
+        { phrase: "profound changes",    desc: "根本的な変化" }
+      ]
     }
 
   };

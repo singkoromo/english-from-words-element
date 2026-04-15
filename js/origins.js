@@ -19361,6 +19361,517 @@
         { phrase: "collaborative learning", desc: "協調学習" },
         { phrase: "collaborative effort",   desc: "協力的な取り組み" }
       ]
+    },
+
+    "scientific": {
+      origin: "ラテン語 scientia（知識・学問）< scire（知る）< scindere（切り分ける）+ -fic（作る）+ -ic（形容詞接尾辞）。「知識を生み出す・科学の」が原義。science（科学）・conscious（意識的な、con+scire）・prescient（先見の明がある）と同根の scire を共有する。\n\n英語には17世紀に採用され、「自然界を観察・実験・仮説によって系統立てて研究する」という近代科学の方法論を指す核心語として定着。scientific method（科学的方法）・scientific evidence（科学的証拠）のように研究・政策・教育で絶対不可欠な形容詞として機能する。\n\n現代英語では scientific community（科学界）・scientific breakthrough（科学的突破口）・scientific consensus（科学的合意）のように幅広い文脈で使われ、「実証・再現性に基づく知識体系」を示す語として社会全体で高い権威を持つ。",
+      derivatives: [
+        { word: "scientifically",  desc: "科学的に（副詞）" },
+        { word: "scientist",       desc: "科学者（名詞）" },
+        { word: "science",         desc: "科学・学問（名詞）" }
+      ],
+      family: [
+        { word: "conscious",   desc: "意識的な（con+scire）" },
+        { word: "prescient",   desc: "先見の明がある（prae+scire）" },
+        { word: "omniscient",  desc: "全知の（omni+scire）" }
+      ],
+      compounds: [
+        { phrase: "scientific method",    desc: "科学的方法" },
+        { phrase: "scientific evidence",  desc: "科学的証拠" },
+        { phrase: "scientific consensus", desc: "科学的合意" }
+      ]
+    },
+
+    "specify": {
+      origin: "ラテン語 species（種・外見・形）+ facere（作る・する）< specere（見る）。「具体的に示す・明記する」が原義。specific（特定の）・species（種）・specimen（標本）と同根の specere を共有し、「見て区別できる特徴を作り出す」というイメージを持つ。\n\n英語には15世紀に採用され、「詳細・条件を明示する」の意味で定着。法律・契約・工学で「曖昧さを排して要件を明確にする」という意味で使われ、specify requirements（要件を明記する）・specify conditions（条件を指定する）のように正式・技術文書で不可欠な動詞として機能する。\n\n現代英語ではソフトウェア開発の specification（仕様書）・unless otherwise specified（別途指定がない限り）のような法律・技術定型句でも中核語として機能し、「責任の所在を明確にする」ための言語的ツールとして広く使われる。",
+      derivatives: [
+        { word: "specification", desc: "仕様・明細（名詞）" },
+        { word: "specified",     desc: "指定された（形容詞）" },
+        { word: "unspecified",   desc: "未指定の（否定形）" }
+      ],
+      family: [
+        { word: "specific",  desc: "特定の・具体的な（同根）" },
+        { word: "species",   desc: "種（specere）" },
+        { word: "specimen",  desc: "標本・見本（specere）" }
+      ],
+      compounds: [
+        { phrase: "specify requirements",      desc: "要件を明記する" },
+        { phrase: "unless otherwise specified", desc: "別途指定がない限り" }
+      ]
+    },
+
+    "specimen": {
+      origin: "ラテン語 specimen（証拠・見本・標本）< specere（見る・観察する）+ -men（結果・手段を示す名詞接尾辞）。「観察のために見るもの＝標本・見本」が原義。spectacle（見世物）・inspect（検査する）・aspect（側面）と同根の specere を共有する。\n\n英語には16世紀に採用され、科学・医学・法律で「検査・分析のために採取された実物見本」の意味で定着。biology・chemistry・medicine で specimen collection（検体採取）・specimen analysis（標本分析）のように研究・診断の核心語として機能する。\n\n現代英語では medical specimen（医療検体）・geological specimen（地質学的標本）のように科学専門語として使われるほか、a fine specimen of…（〜の見事な例）という比喩的日常語としても幅広く機能する。",
+      derivatives: [
+        { word: "specimens",  desc: "標本の複数形（名詞）" }
+      ],
+      family: [
+        { word: "spectacle", desc: "見世物・光景（specere）" },
+        { word: "inspect",   desc: "検査する（in+specere）" },
+        { word: "aspect",    desc: "側面・外見（ad+specere）" }
+      ],
+      compounds: [
+        { phrase: "specimen collection", desc: "検体採取" },
+        { phrase: "specimen analysis",   desc: "標本分析" },
+        { phrase: "medical specimen",    desc: "医療検体" }
+      ]
+    },
+
+    "spectrum": {
+      origin: "ラテン語 spectrum（幻影・外見・像）< specere（見る）。「見えるもの・光の帯」が原義。17世紀にニュートンが prism を通じた光の分散を表す語として spectrum を用いたことで、「光の連続帯」という意味が確立した。\n\n英語には17世紀に光学用語として採用され、現代では「連続的な範囲・幅」を表す比喩的意味でも広く使われるよう意味が拡大。physics・politics・medicine で political spectrum（政治的スペクトラム）・autism spectrum（自閉症スペクトラム）のように「両極端の間に存在する連続体」を表す核心語として機能する。\n\n現代英語では electromagnetic spectrum（電磁波スペクトラム）・broad spectrum（広域スペクトル）・spectrum of opinions（意見の幅）のように自然科学・社会科学・医学の両方で頻繁に使われる多義的な重要語となっている。",
+      derivatives: [
+        { word: "spectral",  desc: "スペクトルの・幽霊のような（形容詞）" },
+        { word: "spectra",   desc: "スペクトルの複数形（名詞）" }
+      ],
+      family: [
+        { word: "speculate",  desc: "推測する（specere）" },
+        { word: "spectator",  desc: "観客（specere）" },
+        { word: "inspect",    desc: "検査する（in+specere）" }
+      ],
+      compounds: [
+        { phrase: "political spectrum",      desc: "政治的スペクトラム" },
+        { phrase: "autism spectrum",         desc: "自閉症スペクトラム" },
+        { phrase: "electromagnetic spectrum", desc: "電磁波スペクトラム" }
+      ]
+    },
+
+    "consciousness": {
+      origin: "ラテン語 conscientia（共に知ること・良心）< con-（共に）+ scire（知る）+ -ness（状態を示す名詞接尾辞）。「意識・自覚・覚醒状態」が原義。conscience（良心）・conscious（意識的な）と同根で、「自分と自分が共に知っている」という反省的自己認識を含意する。\n\n英語には17世紀に哲学・神学の文脈で採用され、デカルトやロックの近代哲学における「自我・経験の主体」という意味で重要語となった。心理学・哲学・神経科学で stream of consciousness（意識の流れ）・loss of consciousness（意識喪失）のように人間の内的経験を表す核心語として機能する。\n\n現代英語では altered states of consciousness（意識の変容状態）・class consciousness（階級意識）・political consciousness（政治的意識）のように哲学・医学・社会学で幅広く使われ、AI・神経科学における consciousness problem（意識の問題）でも中心的議論の対象となっている。",
+      derivatives: [
+        { word: "conscious",      desc: "意識的な（形容詞）" },
+        { word: "subconscious",   desc: "潜在意識の（形容詞）" },
+        { word: "self-conscious", desc: "自意識過剰な（形容詞）" }
+      ],
+      family: [
+        { word: "conscience",  desc: "良心（con+scire）" },
+        { word: "science",     desc: "科学（scire）" },
+        { word: "prescient",   desc: "先見の明がある（prae+scire）" }
+      ],
+      compounds: [
+        { phrase: "stream of consciousness",  desc: "意識の流れ（文学手法）" },
+        { phrase: "loss of consciousness",    desc: "意識喪失" },
+        { phrase: "class consciousness",      desc: "階級意識" }
+      ]
+    },
+
+    "apology": {
+      origin: "ギリシャ語 apologia（弁明・弁護）< apo-（離れて・から）+ logos（言葉・理）。「自己弁護のための言葉」が原義。プラトンの『ソクラテスの弁明』の原題が Apologia で、「罪を認める謝罪」ではなく「自己弁護のスピーチ」を指した。英語での「謝罪」という意味は後代に発展した。\n\n英語には16世紀に採用され、「非難に対する弁明・謝罪の言葉」として定着。日常語・外交・法律で make an apology（謝罪する）・formal apology（正式な謝罪）のように対人関係・組織コミュニケーションの重要語として機能する。\n\n現代英語では apology to…（〜への謝罪）・public apology（公開謝罪）・owe someone an apology（謝る必要がある）のように日常・メディア・政治で頻用され、apologize（謝罪する）・unapologetic（謝罪しない・開き直った）という派生語も重要語として機能する。",
+      derivatives: [
+        { word: "apologize",     desc: "謝罪する（動詞）" },
+        { word: "apologetic",    desc: "謝罪する様子の（形容詞）" },
+        { word: "unapologetic",  desc: "謝罪しない・開き直った（形容詞）" }
+      ],
+      family: [
+        { word: "prologue",  desc: "序文（pro+logos）" },
+        { word: "analogy",   desc: "類似・アナロジー（ana+logos）" },
+        { word: "dialogue",  desc: "対話（dia+logos）" }
+      ],
+      compounds: [
+        { phrase: "public apology",    desc: "公開謝罪" },
+        { phrase: "formal apology",    desc: "正式な謝罪" },
+        { phrase: "owe an apology",    desc: "謝罪する義務がある" }
+      ]
+    },
+
+    "epilogue": {
+      origin: "ギリシャ語 epilogos（締めくくりの言葉）< epi-（後に・上に）+ logos（言葉・理）。「作品の後に添える言葉＝後記・後日談」が原義。prologue（序文, pro+logos）・dialogue（対話）・monologue（独白）と同根の logos を共有する。\n\n英語には15世紀に演劇用語として採用され、「幕が下りた後に俳優が観客に語りかける締めの言葉」として定着。文学・演劇・映像で作品の締めくくりと後日談を示す標準語として機能し、epilogue chapter（後記章）・brief epilogue（短い後日談）のように使われる。\n\n現代英語では小説・映画・TV ドラマの epilogue が「主要なストーリー解決後の顛末」を示す構造語として確立しており、prologue との対比で作品構成の分析語としても頻用される。",
+      derivatives: [
+        { word: "epilog",  desc: "epilogue の米国つづり（名詞）" }
+      ],
+      family: [
+        { word: "prologue",  desc: "序文・プロローグ（pro+logos）" },
+        { word: "monologue", desc: "独白（mono+logos）" },
+        { word: "dialogue",  desc: "対話（dia+logos）" }
+      ],
+      compounds: [
+        { phrase: "brief epilogue",   desc: "短い後日談" },
+        { phrase: "epilogue chapter", desc: "後記章" }
+      ]
+    },
+
+    "mythology": {
+      origin: "ギリシャ語 mythologia（神話の語り・物語研究）< mythos（神話・物語）+ logos（学・理）+ -y（名詞接尾辞）。「神話の体系・神話学」が原義。myth（神話）・mythical（神話的な）と同根の mythos を含む。\n\n英語には16世紀に採用され、「神話の全体的体系・神話を研究する学問」の意味で定着。古典学・文化研究・文学で Greek mythology（ギリシャ神話）・Norse mythology（北欧神話）のように特定文化の神話体系を指す標準語として機能するとともに、比喩的に「根拠のない俗説」を指す場合もある。\n\n現代英語では popular mythology（世間に広まった俗説）のように比喩的使用も一般化し、mythology surrounding…（〜にまつわる神話・俗説）という表現でメディア・政治でも使われる。",
+      derivatives: [
+        { word: "mythological",  desc: "神話的な（形容詞）" },
+        { word: "mythologist",   desc: "神話学者（名詞）" },
+        { word: "mythologize",   desc: "神話化する（動詞）" }
+      ],
+      family: [
+        { word: "myth",      desc: "神話・俗説（mythos）" },
+        { word: "mythical",  desc: "神話的な・架空の（同根）" },
+        { word: "logos",     desc: "理性・言葉（ギリシャ語）" }
+      ],
+      compounds: [
+        { phrase: "Greek mythology",   desc: "ギリシャ神話" },
+        { phrase: "popular mythology", desc: "世間に広まった俗説" },
+        { phrase: "Norse mythology",   desc: "北欧神話" }
+      ]
+    },
+
+    "terminology": {
+      origin: "ラテン語 terminus（境界・終点・専門語）+ ギリシャ語 logos（学・理）+ -y（名詞接尾辞）。「専門用語の体系・術語論」が原義。term（期間・用語）・terminal（終点・端末）・determine（決定する）と同根の terminus を含む。\n\n英語には19世紀初頭に採用され、「特定の学問・分野で使われる専門語の総体」の意味で定着。科学・法律・医学・技術文書で technical terminology（専門用語）・medical terminology（医学用語）のように「その分野を理解するために必要な語彙体系」を指す重要語として機能する。\n\n現代英語では confusing terminology（わかりにくい専門用語）・standardize terminology（用語を統一する）のように学術・ビジネス・国際標準化で頻用され、「専門知識へのアクセスを左右する言語的障壁」という含意を持つことも多い。",
+      derivatives: [
+        { word: "terminological",   desc: "術語的な（形容詞）" },
+        { word: "terminologically", desc: "術語的に（副詞）" }
+      ],
+      family: [
+        { word: "term",      desc: "用語・期間（terminus）" },
+        { word: "terminal",  desc: "終点・端末（terminus）" },
+        { word: "determine", desc: "決定する（de+terminus）" }
+      ],
+      compounds: [
+        { phrase: "technical terminology", desc: "専門用語" },
+        { phrase: "medical terminology",   desc: "医学用語" },
+        { phrase: "standard terminology",  desc: "標準用語" }
+      ]
+    },
+
+    "autograph": {
+      origin: "ギリシャ語 autographos（自分で書いたもの）< autos（自分）+ graphein（書く）。「自筆・サイン」が原義。automobile（自動車）・autobiography（自叙伝）・photograph（写真）・paragraph（段落）と同根の要素を共有し、「自分の手で書く」というイメージを持つ。\n\n英語には17世紀に採用され、「有名人の自筆署名」の意味で一般化した。スポーツ・芸術・メディアで autograph session（サイン会）・autographed copy（サイン入りコピー）のように使われ、動詞としても「サインする」の意味で機能する。\n\n現代英語ではデジタル署名が普及する前から autograph hunting（サインをもらう趣味）・signed autograph（自筆サイン）という表現が定着しており、athlete's autograph（選手のサイン）のようにスポーツ・エンタメ文化と密接に結びついている。",
+      derivatives: [
+        { word: "autographed",  desc: "自筆サイン入りの（形容詞）" },
+        { word: "autography",   desc: "自筆・自伝（名詞）" }
+      ],
+      family: [
+        { word: "autobiography", desc: "自叙伝（autos+bios+graphein）" },
+        { word: "photograph",    desc: "写真（phos+graphein）" },
+        { word: "paragraph",     desc: "段落（para+graphein）" }
+      ],
+      compounds: [
+        { phrase: "autograph session",   desc: "サイン会" },
+        { phrase: "autographed copy",    desc: "サイン入りコピー" }
+      ]
+    },
+
+    "demography": {
+      origin: "ギリシャ語 demos（民衆・人民）+ graphein（書く・記録する）+ -y（名詞接尾辞）。「人口を記録・研究する学問」が原義。democracy（民主主義, demos+kratia）・epidemic（流行病, epi+demos）と同根の demos を含む。\n\n英語には19世紀半ばに採用され、「人口の規模・構造・変動を統計的に研究する学問」として定着。社会科学・政策・公衆衛生で demographic change（人口動態変化）・aging demography（高齢化する人口構造）のように政策立案・経済計画の基礎データとして使われる。\n\n現代英語では demographics（人口統計データ）という複数名詞形が特に頻用され、marketing demographics（マーケティング対象人口層）・shifting demographics（変化する人口構成）のようにビジネス・政治・メディアで広く機能する。",
+      derivatives: [
+        { word: "demographic",   desc: "人口統計の（形容詞）" },
+        { word: "demographics",  desc: "人口統計データ（名詞複数）" },
+        { word: "demographer",   desc: "人口統計学者（名詞）" }
+      ],
+      family: [
+        { word: "democracy",  desc: "民主主義（demos+kratia）" },
+        { word: "epidemic",   desc: "流行病（epi+demos）" },
+        { word: "pandemic",   desc: "パンデミック（pan+demos）" }
+      ],
+      compounds: [
+        { phrase: "demographic change",   desc: "人口動態変化" },
+        { phrase: "aging demography",     desc: "高齢化する人口構造" },
+        { phrase: "target demographics",  desc: "ターゲット人口層" }
+      ]
+    },
+
+    "graphic": {
+      origin: "ギリシャ語 graphikos（書くことに関わる）< graphein（書く・描く）+ -ic（形容詞接尾辞）。「視覚的な・グラフィックの・生々しい」が原義。calligraphy（書道）・photograph（写真）・paragraph（段落）と同根の graphein を共有する。\n\n英語には17世紀に採用され、「絵・書・視覚表現に関わる」の意味で定着。デザイン・メディア・教育で graphic design（グラフィックデザイン）・graphic novel（グラフィックノベル）のように使われるとともに、「あまりにも生々しい」という批判的含意を持つ形容詞としても機能する。\n\n現代英語では graphic content（過激なコンテンツ）・graphic violence（生々しい暴力描写）のような警告語法と、graphic artist（グラフィックアーティスト）・graphic interface（グラフィカルインターフェース）のようなデザイン専門語の両方で広く使われる。",
+      derivatives: [
+        { word: "graphically",  desc: "視覚的に・生々しく（副詞）" },
+        { word: "graphics",     desc: "グラフィックス・画像（名詞複数）" },
+        { word: "graphical",    desc: "グラフィカルな（形容詞）" }
+      ],
+      family: [
+        { word: "calligraphy",  desc: "書道・美書（kallos+graphein）" },
+        { word: "photography",  desc: "写真術（phos+graphein）" },
+        { word: "geography",    desc: "地理学（ge+graphein）" }
+      ],
+      compounds: [
+        { phrase: "graphic design",   desc: "グラフィックデザイン" },
+        { phrase: "graphic novel",    desc: "グラフィックノベル" },
+        { phrase: "graphic content",  desc: "過激なコンテンツ" }
+      ]
+    },
+
+    "diameter": {
+      origin: "ギリシャ語 diametros（直径の線）< dia-（通って・横断して）+ metron（測る・尺度）。「円を横断して測る長さ＝直径」が原義。perimeter（周囲の長さ, peri+metron）・thermometer（温度計）・geometry（幾何学）と同根の metron を共有する。\n\n英語には14世紀に採用され、数学・幾何学・工学の「円・球の中心を通る直線の長さ」という意味で定着。geometry・engineering・physics で diameter of a circle（円の直径）・inner diameter（内径）のように計測・設計で使われる基本語として機能する。\n\n現代英語ではすべての円形・球形物体の計測に使われ、diameter of a pipe（パイプの直径）・diameter of the Earth（地球の直径）のように日常・科学・工学で幅広く機能する。diametrically opposed（正反対の）という比喩表現でも頻用される。",
+      derivatives: [
+        { word: "diametric",     desc: "直径の・正反対の（形容詞）" },
+        { word: "diametrically", desc: "正反対に（副詞）" }
+      ],
+      family: [
+        { word: "perimeter",   desc: "周囲・境界線（peri+metron）" },
+        { word: "thermometer", desc: "温度計（thermos+metron）" },
+        { word: "parameter",   desc: "パラメータ（para+metron）" }
+      ],
+      compounds: [
+        { phrase: "inner diameter",           desc: "内径" },
+        { phrase: "outer diameter",           desc: "外径" },
+        { phrase: "diametrically opposed",    desc: "正反対の" }
+      ]
+    },
+
+    "parameter": {
+      origin: "ギリシャ語 para-（傍らに・補助として）+ metron（測る・尺度）+ -er（名詞接尾辞）。「補助的な測定基準・変数」が原義。perimeter（周囲）・thermometer（温度計）・metric（測定基準）と同根の metron を共有する。もとは数学で「曲線を定義する定数」を指した専門語。\n\n英語には17世紀に数学・物理学用語として採用され、20世紀のコンピュータ科学の発展とともに「関数に渡す変数・制約条件」という意味でも普及した。数学・プログラミング・政策分析で within the parameters of…（〜の範囲内で）・key parameters（主要なパラメータ）のように「条件・変数・境界」を示す多義語として機能する。\n\n現代英語では beyond the parameters（想定範囲を超えて）のような比喩的日常表現でも使われ、技術専門語から一般語への拡張が顕著な語の一つ。",
+      derivatives: [
+        { word: "parametric",    desc: "パラメトリックな（形容詞）" },
+        { word: "parameterize",  desc: "パラメータ化する（動詞）" }
+      ],
+      family: [
+        { word: "perimeter",   desc: "周囲・境界線（peri+metron）" },
+        { word: "thermometer", desc: "温度計（thermos+metron）" },
+        { word: "diameter",    desc: "直径（dia+metron）" }
+      ],
+      compounds: [
+        { phrase: "key parameters",          desc: "主要なパラメータ" },
+        { phrase: "within the parameters",   desc: "〜の範囲内で" },
+        { phrase: "parametric analysis",     desc: "パラメトリック分析" }
+      ]
+    },
+
+    "geometric": {
+      origin: "ギリシャ語 geometria（土地の測量）< ge（大地）+ metron（測る）+ -ic（形容詞接尾辞）。「幾何学の・規則的な形状の」が原義。geography（地理学）・geology（地質学）と同根の ge と、meter（メートル）・metric（測定基準）と同根の metron を共有する。\n\n英語には14世紀に採用され、「幾何学的性質を持つ・直線・円・多角形からなる」の意味で定着。数学・建築・デザインで geometric pattern（幾何学的模様）・geometric shape（幾何学的形状）のように視覚的規則性を表す形容詞として機能する。\n\n現代英語では geometric growth（幾何学的・指数的成長）・geometric mean（幾何平均）のように数学・経済の技術語としても重要で、geometric sequence（等比数列）・geometric series（等比級数）は高校数学の必須語となっている。",
+      derivatives: [
+        { word: "geometrically",  desc: "幾何学的に（副詞）" },
+        { word: "geometry",       desc: "幾何学（名詞）" },
+        { word: "geometrician",   desc: "幾何学者（名詞）" }
+      ],
+      family: [
+        { word: "geography",  desc: "地理学（ge+graphein）" },
+        { word: "geology",    desc: "地質学（ge+logos）" },
+        { word: "metric",     desc: "測定基準の（metron）" }
+      ],
+      compounds: [
+        { phrase: "geometric pattern",  desc: "幾何学的模様" },
+        { phrase: "geometric growth",   desc: "幾何学的・指数的成長" },
+        { phrase: "geometric mean",     desc: "幾何平均" }
+      ]
+    },
+
+    "symmetric": {
+      origin: "ギリシャ語 symmetria（均整・比例）< syn-（共に・同じ）+ metron（測る・尺度）+ -ic（形容詞接尾辞）。「左右対称の・釣り合いのとれた」が原義。symmetry（対称性）・asymmetric（非対称の）・metric（測定基準）と同根で、「同じ尺度で測れる＝釣り合いがとれている」というイメージを持つ。\n\n英語には17世紀に採用され、数学・芸術・物理学で「一方が他方の鏡像となっている」の意味で定着。mathematics・physics・design で symmetric distribution（対称分布）・symmetric matrix（対称行列）のように正確な対称性を表す重要語として機能する。\n\n現代英語では symmetric relationship（対称的関係）・symmetric encryption（対称暗号）のように数学・コンピュータ科学・社会科学で広く使われ、asymmetric（非対称の）という否定形とともに対比的に頻用される。",
+      derivatives: [
+        { word: "symmetrically",  desc: "対称的に（副詞）" },
+        { word: "symmetry",       desc: "対称性・均整（名詞）" },
+        { word: "asymmetric",     desc: "非対称の（否定形）" }
+      ],
+      family: [
+        { word: "metric",     desc: "測定基準の（metron）" },
+        { word: "geometric",  desc: "幾何学的な（ge+metron）" },
+        { word: "parameter",  desc: "パラメータ（para+metron）" }
+      ],
+      compounds: [
+        { phrase: "symmetric distribution", desc: "対称分布" },
+        { phrase: "symmetric encryption",   desc: "対称暗号" },
+        { phrase: "symmetric matrix",       desc: "対称行列" }
+      ]
+    },
+
+    "physics": {
+      origin: "ギリシャ語 physika（自然のもの）< physis（自然・本性）< phyein（成長させる・生み出す）。「自然界の性質・法則を研究する学問」が原義。physical（物理的な）・physician（医師）・metaphysics（形而上学）と同根の physis を共有し、「成長・生成する自然」というイメージを持つ。\n\n英語には14世紀にアリストテレスの自然哲学を指す語として採用され、16〜17世紀の科学革命を経て「力・運動・エネルギーを扱う自然科学」として現代的意味で定着。quantum physics（量子物理学）・nuclear physics（核物理学）のように現代科学・技術の根幹を成す語として機能する。\n\n現代英語では applied physics（応用物理学）・theoretical physics（理論物理学）・particle physics（素粒子物理学）のように細分化された分野名として使われ、high school physics（高校物理）のように教育文脈でも基本語として機能する。",
+      derivatives: [
+        { word: "physicist",   desc: "物理学者（名詞）" },
+        { word: "physical",    desc: "物理的な・身体の（形容詞）" },
+        { word: "biophysics",  desc: "生物物理学（名詞）" }
+      ],
+      family: [
+        { word: "physician",    desc: "医師（physis）" },
+        { word: "metaphysics",  desc: "形而上学（meta+physis）" },
+        { word: "physiology",   desc: "生理学（physis+logos）" }
+      ],
+      compounds: [
+        { phrase: "quantum physics",      desc: "量子物理学" },
+        { phrase: "applied physics",      desc: "応用物理学" },
+        { phrase: "theoretical physics",  desc: "理論物理学" }
+      ]
+    },
+
+    "physician": {
+      origin: "ギリシャ語 physis（自然・本性）< phyein（成長させる）+ -ian（職業人を示す接尾辞）。「自然の法則で身体を治す者＝医師」が原義。physics（物理学）・physical（物理的な）と同根の physis を含む。かつて「医師」は自然哲学の一部門として身体の自然状態を研究する者を指した。\n\n英語には13世紀に採用され、「正式な医学教育を受けた医師」の意味で定着。法律・医療・保険で physician's order（医師指示）・primary care physician（かかりつけ医）のように公式な職業称号として機能し、surgeon（外科医）・doctor（医師）との使い分けが重要。\n\n現代英語ではアメリカ英語で physician が「医師」の正式称号として doctor より格式のある語として使われ、attending physician（担当医）・physician assistant（医師補助者）のように医療システムの職階を示す語として機能する。",
+      derivatives: [
+        { word: "physician-assisted",  desc: "医師補助の（複合形容詞）" }
+      ],
+      family: [
+        { word: "physics",     desc: "物理学（physis）" },
+        { word: "physical",    desc: "物理的な・身体の（physis）" },
+        { word: "physiology",  desc: "生理学（physis+logos）" }
+      ],
+      compounds: [
+        { phrase: "primary care physician",  desc: "かかりつけ医" },
+        { phrase: "attending physician",     desc: "担当医" },
+        { phrase: "physician assistant",     desc: "医師補助者" }
+      ]
+    },
+
+    "phonetic": {
+      origin: "ギリシャ語 phonetikos（音声の）< phone（音・声）+ -etic（形容詞接尾辞）。「音声の・発音を表す」が原義。telephone（電話, tele+phone）・microphone（マイク, mikros+phone）・euphony（悦耳な音, eu+phone）と同根の phone を共有する。\n\n英語には19世紀に言語学の発展とともに採用され、「言語の音声体系を記述・分析する」の意味で定着。言語学・教育・辞書学で phonetic alphabet（音声アルファベット）・phonetic transcription（音声表記）のように発音学習・言語分析の核心語として機能する。\n\n現代英語では International Phonetic Alphabet（国際音声記号, IPA）との関連で言語教育の必須語となっており、phonetic spelling（音声つづり）・phonetic similarity（音声的類似性）のように外国語教育・音声処理技術で広く使われる。",
+      derivatives: [
+        { word: "phonetically",  desc: "音声的に（副詞）" },
+        { word: "phonetics",     desc: "音声学（名詞）" },
+        { word: "phoneme",       desc: "音素（言語学の単位）" }
+      ],
+      family: [
+        { word: "telephone",   desc: "電話（tele+phone）" },
+        { word: "microphone",  desc: "マイク（mikros+phone）" },
+        { word: "euphony",     desc: "悦耳な音（eu+phone）" }
+      ],
+      compounds: [
+        { phrase: "phonetic alphabet",      desc: "音声アルファベット" },
+        { phrase: "phonetic transcription", desc: "音声表記" },
+        { phrase: "phonetic similarity",    desc: "音声的類似性" }
+      ]
+    },
+
+    "mechanism": {
+      origin: "ギリシャ語 mechane（機械・仕掛け）+ -ism（体系・作用を示す接尾辞）。「機械的な仕組み・作動方式」が原義。machine（機械）・mechanical（機械的な）・mechanic（機械工）と同根の mechane を共有し、「複数の部品が連動して働く仕組み」というイメージを持つ。\n\n英語には17世紀に採用され、「物事が機能する方法・作動プロセス」の意味で定着。科学・生物学・社会学で defense mechanism（防衛機制）・coping mechanism（対処機制）のように比喩的に人間の心理・社会システムを説明する語としても広く機能する。\n\n現代英語では feedback mechanism（フィードバック機構）・market mechanism（市場メカニズム）・biological mechanism（生物学的機構）のように自然科学・社会科学・心理学で幅広く使われ、「なぜそうなるかのプロセス」を説明する際の標準語となっている。",
+      derivatives: [
+        { word: "mechanistic",     desc: "機械論的な（形容詞）" },
+        { word: "mechanistically", desc: "機械論的に（副詞）" }
+      ],
+      family: [
+        { word: "machine",    desc: "機械（mechane）" },
+        { word: "mechanical", desc: "機械的な（mechane）" },
+        { word: "mechanic",   desc: "機械工（mechane）" }
+      ],
+      compounds: [
+        { phrase: "defense mechanism",   desc: "防衛機制" },
+        { phrase: "coping mechanism",    desc: "対処機制" },
+        { phrase: "market mechanism",    desc: "市場メカニズム" }
+      ]
+    },
+
+    "mechanical": {
+      origin: "ギリシャ語 mechane（機械・仕掛け）+ -ical（形容詞接尾辞）。「機械の・機械的な・自動的な」が原義。machine（機械）・mechanism（機構）・mechanic（機械工）と同根の mechane を共有する。もとは「機械職人の・手工業の」という意味で使われた。\n\n英語には15世紀に採用され、「機械に関わる・機械のように自動的に動く」の意味で定着。工学・教育・心理学で mechanical engineering（機械工学）・mechanical skill（機械的技能）のように使われるとともに、「考えずに自動的に行う」という批判的含意を持つ場合もある。\n\n現代英語では mechanical failure（機械的故障）・mechanical advantage（機械的優位性）・mechanical process（機械的プロセス）のように工学・科学で使われるほか、mechanical response（紋切り型の返答）のように「思考を伴わない自動的な」という否定的意味でも使われる。",
+      derivatives: [
+        { word: "mechanically",  desc: "機械的に・自動的に（副詞）" },
+        { word: "mechanics",     desc: "力学・機械工学（名詞複数）" },
+        { word: "mechanic",      desc: "機械工・整備士（名詞）" }
+      ],
+      family: [
+        { word: "machine",     desc: "機械（mechane）" },
+        { word: "mechanism",   desc: "機構・仕組み（mechane）" },
+        { word: "automatical", desc: "自動的な（autos）" }
+      ],
+      compounds: [
+        { phrase: "mechanical engineering",  desc: "機械工学" },
+        { phrase: "mechanical failure",      desc: "機械的故障" },
+        { phrase: "mechanical advantage",    desc: "機械的優位性" }
+      ]
+    },
+
+    "technical": {
+      origin: "ギリシャ語 technikos（技術に関わる）< techne（技術・技芸）+ -ical（形容詞接尾辞）。「技術の・専門的な」が原義。technology（技術）・technique（技法）・architect（建築家、archi+techne）と同根の techne を共有し、「特定の専門技術に関わる知識」というイメージを持つ。\n\n英語には17世紀に採用され、「特定の技術・専門分野に固有の」の意味で定着。工学・コンピュータ科学・法律で technical support（技術サポート）・technical term（専門用語）のように「一般人でなく専門家に固有の知識」を示す形容詞として機能する。\n\n現代英語では technical difficulty（技術的困難）・on a technical ground（技術的理由で）・technical knockout（テクニカルノックアウト）のように日常・スポーツ・法律・工学で広く使われ、technically（厳密に言えば・技術的に）という副詞形も論文・会話で頻用される。",
+      derivatives: [
+        { word: "technically",   desc: "技術的に・厳密に言えば（副詞）" },
+        { word: "technicality",  desc: "技術的細部・形式的理由（名詞）" },
+        { word: "technician",    desc: "技術者・専門家（名詞）" }
+      ],
+      family: [
+        { word: "technology",  desc: "技術・テクノロジー（techne+logos）" },
+        { word: "technique",   desc: "技法・テクニック（techne）" },
+        { word: "architect",   desc: "建築家（archi+techne）" }
+      ],
+      compounds: [
+        { phrase: "technical support",  desc: "技術サポート" },
+        { phrase: "technical term",     desc: "専門用語" },
+        { phrase: "technical difficulty", desc: "技術的困難" }
+      ]
+    },
+
+    "technique": {
+      origin: "ギリシャ語 techne（技術・技芸）+ -ique（フランス語経由の形容詞・名詞接尾辞）。「特定の技術的方法・技法」が原義。technology（技術）・technical（技術的な）・architect（建築家）と同根の techne を含む。フランス語 technique を経由して英語に入り、「特定の分野の実践的な方法」を指す名詞として定着した。\n\n英語には19世紀に採用され、「目的を達成するための体系的な方法・やり方」の意味で定着。芸術・スポーツ・科学で good technique（優れた技法）・negotiation technique（交渉術）のように「実践的なやり方・スキル」を指す語として広く機能する。\n\n現代英語では relaxation technique（リラクゼーション法）・marketing technique（マーケティング手法）・teaching technique（教授法）のように日常・職業・芸術で幅広く使われ、「方法論の実践的側面」を指す标準語となっている。",
+      derivatives: [
+        { word: "technically",  desc: "技術的に（副詞）" }
+      ],
+      family: [
+        { word: "technology",  desc: "技術（techne+logos）" },
+        { word: "technical",   desc: "技術的な（techne）" },
+        { word: "architect",   desc: "建築家（archi+techne）" }
+      ],
+      compounds: [
+        { phrase: "relaxation technique",   desc: "リラクゼーション法" },
+        { phrase: "negotiation technique",  desc: "交渉術" },
+        { phrase: "teaching technique",     desc: "教授法" }
+      ]
+    },
+
+    "genius": {
+      origin: "ラテン語 genius（守護霊・生まれながらの才能・生の力）< gignere（生む・生み出す）。「天才・生まれ持った才能」が原義。generate（生み出す）・genetic（遺伝の）・progeny（子孫）と同根の gignere を共有し、もとはローマ人が「生まれた時からその人に宿る守護霊」を指した語。\n\n英語には16世紀に採用され、「卓越した知的能力・その能力を持つ人」の意味で定着。教育・文化・日常語で creative genius（創造的天才）・pure genius（純粋な天才）のように最高の知的・芸術的卓越性を称える語として機能する。\n\n現代英語では genius bar（アップルストアのサポートデスク）のような商標的使用から、you're a genius!（さすが！）という軽い称賛まで幅広く使われ、stroke of genius（天才的発想）・evil genius（悪の天才）という熟語も定着している。",
+      derivatives: [
+        { word: "genial",    desc: "愉快な・温かい（genius関連）" },
+        { word: "ingenious", desc: "独創的な（in+genius）" },
+        { word: "ingenuous", desc: "無邪気な・率直な（in+genius）" }
+      ],
+      family: [
+        { word: "generate",  desc: "生み出す（gignere）" },
+        { word: "genetic",   desc: "遺伝の（gignere）" },
+        { word: "progeny",   desc: "子孫（pro+gignere）" }
+      ],
+      compounds: [
+        { phrase: "stroke of genius",  desc: "天才的発想" },
+        { phrase: "creative genius",   desc: "創造的天才" },
+        { phrase: "evil genius",       desc: "悪の天才" }
+      ]
+    },
+
+    "creditor": {
+      origin: "ラテン語 creditor（信用を与える者）< credere（信用する・委ねる）+ -or（行為者接尾辞）。「貸し手・債権者」が原義。credit（信用・信用貸し）・credible（信頼できる）・creed（信条）と同根の credere を共有し、「金銭や物を信じて委ねる者」というイメージを持つ。\n\n英語には15世紀に採用され、「金銭を貸し付けた側・返済を受ける権利を持つ側」の意味で法律・金融で定着。bankruptcy proceedings（破産手続き）・debt restructuring（債務再編）のような金融・法律文脈で creditor's rights（債権者の権利）・secured creditor（有担保債権者）として使われる。\n\n現代英語では debt negotiation（債務交渉）・creditor nation（債権国）のように国際金融・政治経済でも使われ、debtor（債務者）との対義語ペアとして金融リテラシーの基本語として機能する。",
+      derivatives: [
+        { word: "creditors",  desc: "債権者たち（複数形）" }
+      ],
+      family: [
+        { word: "credit",    desc: "信用・信用貸し（credere）" },
+        { word: "credible",  desc: "信頼できる（credere）" },
+        { word: "creed",     desc: "信条（credere）" }
+      ],
+      compounds: [
+        { phrase: "secured creditor",    desc: "有担保債権者" },
+        { phrase: "creditor nation",     desc: "債権国" },
+        { phrase: "creditor's rights",   desc: "債権者の権利" }
+      ]
+    },
+
+    "credentials": {
+      origin: "中世ラテン語 credentialis（信頼を示す）< credere（信用する・委ねる）+ -ential（形容詞接尾辞）+ -s（複数形）。「資格・証明書・信任状」が原義。credit（信用）・creditor（債権者）・accredit（認定する）と同根の credere を共有し、「信頼に値することを証明するもの」というイメージを持つ。\n\n英語には16世紀に採用され、「外交使節の信任状・職業的資格・学歴」という意味で定着。外交・教育・ビジネスで present credentials（資格を提示する）・academic credentials（学歴・資格）のように「信頼・権威の証明」として機能する。\n\n現代英語ではデジタル分野で login credentials（ログイン認証情報）・security credentials（セキュリティ認証情報）のような IT 用語としても定着し、「ユーザー名・パスワードの組み合わせ」という意味でも頻用される。",
+      derivatives: [
+        { word: "credential",   desc: "資格・認証（単数形・形容詞）" },
+        { word: "accredited",   desc: "認定された（ad+credere）" },
+        { word: "accreditation", desc: "認定・認証（名詞）" }
+      ],
+      family: [
+        { word: "credit",    desc: "信用（credere）" },
+        { word: "credible",  desc: "信頼できる（credere）" },
+        { word: "creditor",  desc: "債権者（credere）" }
+      ],
+      compounds: [
+        { phrase: "academic credentials",  desc: "学歴・学術資格" },
+        { phrase: "login credentials",     desc: "ログイン認証情報" },
+        { phrase: "present credentials",   desc: "資格を提示する" }
+      ]
+    },
+
+    "memorable": {
+      origin: "ラテン語 memorabilis（記憶に値する）< memoria（記憶）< memor（覚えている）+ -able（可能を示す形容詞接尾辞）。「忘れられない・印象的な」が原義。memory（記憶）・memorial（記念の）・commemorate（記念する）と同根の memor を共有する。\n\n英語には15世紀に採用され、「記憶に残るほど印象深い・忘れがたい」の意味で定着。文学・マーケティング・スピーチで memorable performance（忘れられない演技）・memorable quote（印象的な名言）のように「記憶に刻まれる質の高さ」を称える形容詞として機能する。\n\n現代英語では memorable experience（忘れられない体験）・make it memorable（印象的にする）のようにイベント・旅行・マーケティングで頻用され、「価値ある経験の質」を示す推薦・評価語として広く機能する。",
+      derivatives: [
+        { word: "memorably",    desc: "忘れられないほど（副詞）" },
+        { word: "memorability", desc: "記憶可能性（名詞）" }
+      ],
+      family: [
+        { word: "memory",       desc: "記憶（memor）" },
+        { word: "memorial",     desc: "記念の・記念碑（memor）" },
+        { word: "commemorate",  desc: "記念する（com+memor）" }
+      ],
+      compounds: [
+        { phrase: "memorable experience", desc: "忘れられない体験" },
+        { phrase: "memorable quote",      desc: "印象的な名言" },
+        { phrase: "make it memorable",    desc: "印象的にする" }
+      ]
+    },
+
+    "testify": {
+      origin: "ラテン語 testificari（証言する）< testis（証人）+ facere（する）。「証言する・証拠立てる」が原義。testimony（証言）・attest（証明する）・contest（争う）と同根の testis を共有し、「証人として立つ」というイメージを持つ。testis はまた「睾丸」を意味するラテン語でもあり、古代ローマでは証言時に睾丸に手を当てて誓ったという俗説がある（実際には testis＝見ている者、の意）。\n\n英語には15世紀に採用され、法律で「宣誓のもとに証言する」の意味で定着。裁判・宗教・日常語で testify in court（法廷で証言する）・testify to the truth（真実を証言する）のように「自分が見聞きしたことを正式に述べる」という意味で機能する。\n\n現代英語では testify before Congress（議会で証言する）・testify about one's experience（経験を証言する）のように法律・政治・宗教（信仰の証し）の両方で使われ、幅広い証言行為を指す標準動詞として機能する。",
+      derivatives: [
+        { word: "testimony",     desc: "証言・証拠（名詞）" },
+        { word: "testification", desc: "証言行為（名詞）" }
+      ],
+      family: [
+        { word: "attest",    desc: "証明する（ad+testis）" },
+        { word: "contest",   desc: "争う・競う（con+testis）" },
+        { word: "protest",   desc: "抗議する（pro+testis）" }
+      ],
+      compounds: [
+        { phrase: "testify in court",      desc: "法廷で証言する" },
+        { phrase: "testify before Congress", desc: "議会で証言する" },
+        { phrase: "testify to the truth",  desc: "真実を証言する" }
+      ]
     }
 
   };

@@ -2686,6 +2686,852 @@
         { phrase: "intensive care",     desc: "集中治療（ICU）" },
         { phrase: "intensify efforts",  desc: "努力を強化する" }
       ]
+    },
+
+    // ── volvere / volutus系 ──────────────────────────────────────────────────
+    "evolve": {
+      origin: "ラテン語 evolvere（外へ転がり出す・展開する）< ex-（外へ）+ volvere（転がす・巻く）。「巻かれた巻物を外へ転がして展開する」→「段階的に発展・進化する」に特化した。ダーウィンの進化論（theory of evolution）で一気に重要語となった。\n\nevolution（進化・発展）は生物学だけでなく「技術の進化」「音楽スタイルの変遷」など広く使われる。evolutionary（進化的な）・evolving（進化しつつある）も必須語。software that continues to evolve（進化し続けるソフトウェア）のように現代のビジネス文脈でも頻用される。",
+      derivatives: [
+        { word: "evolution",    desc: "進化・発展・展開（名詞）" },
+        { word: "evolutionary", desc: "進化的な・漸進的な（形容詞）" },
+        { word: "evolving",     desc: "進化しつつある・変化しつつある（形容詞）" }
+      ],
+      family: [
+        { word: "revolve",     desc: "回転する（re-: 転がり戻る）" },
+        { word: "involve",     desc: "巻き込む（in-: 中へ巻く）" },
+        { word: "revolution",  desc: "革命・一回転（re+volvere の名詞）" },
+        { word: "volume",      desc: "巻本・音量（volvere: 巻かれたもの）" },
+        { word: "convolve",    desc: "合成積をとる（数学・信号処理）" }
+      ],
+      compounds: [
+        { phrase: "evolve over time",       desc: "時間とともに進化する" },
+        { phrase: "theory of evolution",    desc: "進化論" },
+        { phrase: "evolutionary process",   desc: "進化のプロセス" }
+      ]
+    },
+
+    "revolve": {
+      origin: "ラテン語 revolvere（転がり戻る・周回する）< re-（再び・戻って）+ volvere（転がす）。「出発点へ転がり戻ってくる＝回転する」が原義で、「軌道を周回する・中心の周りを回る」に特化した。\n\nrevolver（リボルバー拳銃）は弾倉が「回転する」機構から命名。revolving door（回転ドア）は建築用語でも「人材が出入りし続ける組織」の比喩でも使われる。"Everything revolves around money."（すべては金次第）は慣用的な比喩表現。",
+      derivatives: [
+        { word: "revolving",  desc: "回転する・循環する（形容詞）" },
+        { word: "revolver",   desc: "回転式拳銃（名詞）" },
+        { word: "revolution", desc: "一回転・革命（名詞）" }
+      ],
+      family: [
+        { word: "evolve",     desc: "進化する（ex-: 外へ転がり出す）" },
+        { word: "involve",    desc: "巻き込む（in-: 中へ巻く）" },
+        { word: "revolution", desc: "革命・一回転（re+volvere の名詞）" },
+        { word: "volume",     desc: "巻本・音量（巻かれたもの）" }
+      ],
+      compounds: [
+        { phrase: "revolving door",    desc: "回転ドア・出入りが激しい組織（比喩）" },
+        { phrase: "revolve around",    desc: "〜を中心に回る・〜中心に動く" },
+        { phrase: "revolving credit",  desc: "リボルビングクレジット（金融）" }
+      ]
+    },
+
+    "involve": {
+      origin: "ラテン語 involvere（中へ巻き込む・包む）< in-（中へ）+ volvere（巻く・転がす）。「中へ巻き込んで内部の一部にする」→「〜を含む・〜に関与させる・巻き込まれる」に発展した。\n\ninvolvement（関与・参与）は積極的な参加から否定的な「巻き込まれ」まで表す。be involved in（〜に関与している）は職場・事件・恋愛など多様な文脈で使われる重要構文。involved（複雑に絡み合った）は "a complex and involved process"（複雑に絡み合ったプロセス）のように形容詞としても使われる。",
+      derivatives: [
+        { word: "involvement",  desc: "関与・参与・関わり（名詞）" },
+        { word: "involved",     desc: "関与した・複雑な（形容詞）" }
+      ],
+      family: [
+        { word: "evolve",      desc: "進化する（ex-: 外へ転がり出す）" },
+        { word: "revolve",     desc: "回転する（re-: 転がり戻る）" },
+        { word: "revolution",  desc: "革命・一回転（re+volvere の名詞）" },
+        { word: "volume",      desc: "巻本・音量（巻かれたもの）" }
+      ],
+      compounds: [
+        { phrase: "be involved in",      desc: "〜に関与している・〜に巻き込まれている" },
+        { phrase: "get involved",        desc: "関与する・付き合い始める" },
+        { phrase: "community involvement", desc: "地域への関与・地域活動" }
+      ]
+    },
+
+    "revolution": {
+      origin: "ラテン語 revolutio（転がり戻ること・一回転）< revolvere（転がり戻る）の名詞形。「天体が軌道を一周すること（公転）」が原義。コペルニクスが『天球の回転について』（De revolutionibus, 1543）の書名に使った後、「体制を根本から回転させる変革」→「革命」の意味が生まれた。\n\nthe French Revolution（フランス革命）・the Industrial Revolution（産業革命）は固有名詞化した歴史用語。revolutions per minute（rpm: 毎分回転数）はエンジン・モーターの仕様表記で使われる。",
+      derivatives: [
+        { word: "revolutionary",   desc: "革命的な・画期的な（形容詞・名詞）" },
+        { word: "revolutionize",   desc: "革命的に変える（動詞）" },
+        { word: "revolutionist",   desc: "革命家（名詞）" }
+      ],
+      family: [
+        { word: "evolve",   desc: "進化する（ex-: 外へ転がり出す）" },
+        { word: "revolve",  desc: "回転する（re-: 転がり戻る）" },
+        { word: "involve",  desc: "巻き込む（in-: 中へ巻く）" },
+        { word: "volume",   desc: "巻本・音量（巻かれたもの）" }
+      ],
+      compounds: [
+        { phrase: "industrial revolution",   desc: "産業革命" },
+        { phrase: "revolutionary change",    desc: "革命的変化" },
+        { phrase: "revolutions per minute",  desc: "毎分回転数（rpm）" }
+      ]
+    },
+
+    // ── mittere / missus系（残り）────────────────────────────────────────────
+    "mission": {
+      origin: "ラテン語 missio（送ること・放つこと）< mittere（送る・放つ）の名詞形。「使命を帯びて送り出される任務・その任務を担う人々」が原義で、宗教的な「布教活動」から軍事・航空宇宙の「任務」まで広く使われる。\n\nMission Impossible（ミッション：インポッシブル）は不可能な任務の代名詞として文化的に定着した。mission statement（使命声明文）は組織の目的を言語化したもの。missionary（宣教師）は「使命を帯びて送り出された人」が原義。",
+      derivatives: [
+        { word: "missionary",       desc: "宣教師・布教の（名詞・形容詞）" },
+        { word: "mission-critical", desc: "任務遂行に不可欠な（形容詞）" }
+      ],
+      family: [
+        { word: "dismiss",  desc: "解散させる（dis-: バラバラに送る）" },
+        { word: "permit",   desc: "許可する（per-: 通して送る）" },
+        { word: "emit",     desc: "放出する（ex-: 外へ送る）" },
+        { word: "promise",  desc: "約束する（pro-: 前へ送る）" },
+        { word: "submit",   desc: "提出する（sub-: 下へ送る）" },
+        { word: "transmit", desc: "伝達する（trans-: 向こうへ送る）" }
+      ],
+      compounds: [
+        { phrase: "mission statement",   desc: "使命声明文" },
+        { phrase: "on a mission",        desc: "使命に燃えている・任務中で" },
+        { phrase: "mission accomplished", desc: "任務完了" }
+      ]
+    },
+
+    "dismiss": {
+      origin: "ラテン語 dimittere（バラバラに送り出す・解放する）< dis-（バラバラに）+ mittere（送る）。「一か所に集まった人たちをそれぞれの方向へ送り出す」→「解散させる・退場させる・却下する・解雇する」に発展した。\n\ndismiss a class（授業を終える）・dismiss an employee（解雇する）・dismiss a case（訴えを却下する）と多様な「送り出す」文脈で使われる。dismissal（解雇・却下・解散）は法律・人事用語として重要。dismissive（人を見下した・軽視する）は態度を表す形容詞。",
+      derivatives: [
+        { word: "dismissal",   desc: "解雇・却下・解散（名詞）" },
+        { word: "dismissive",  desc: "人を軽視した・見下した（形容詞）" },
+        { word: "dismissively", desc: "軽蔑的に（副詞）" }
+      ],
+      family: [
+        { word: "mission",  desc: "任務・使命（mittere の名詞）" },
+        { word: "permit",   desc: "許可する（per-: 通して送る）" },
+        { word: "emit",     desc: "放出する（ex-: 外へ送る）" },
+        { word: "promise",  desc: "約束する（pro-: 前へ送る）" },
+        { word: "submit",   desc: "提出する（sub-: 下へ送る）" }
+      ],
+      compounds: [
+        { phrase: "dismiss a case",       desc: "訴えを却下する" },
+        { phrase: "dismissive attitude",  desc: "軽視する態度" },
+        { phrase: "summary dismissal",    desc: "即時解雇" }
+      ]
+    },
+
+    "permit": {
+      origin: "ラテン語 permittere（通して送る・通過させる）< per-（通して・完全に）+ mittere（送る）。「通り道を開いて通過させる」→「許可する・許す」に特化した。\n\n名詞と動詞で発音が変わる：名詞（許可証）は /ˈpɜːmɪt/（前強勢）、動詞（許可する）は /pəˈmɪt/（後強勢）。work permit（労働許可証）・building permit（建築許可）は行政手続きの基本語。permission（許可）はより口語的・日常的に使われる名詞形。",
+      derivatives: [
+        { word: "permission",   desc: "許可・承認（名詞）" },
+        { word: "permissive",   desc: "寛大な・放任的な（形容詞）" },
+        { word: "permissible",  desc: "許可できる・許される（形容詞）" }
+      ],
+      family: [
+        { word: "mission",  desc: "任務・使命（mittere の名詞）" },
+        { word: "dismiss",  desc: "解散させる（dis-: バラバラに送る）" },
+        { word: "emit",     desc: "放出する（ex-: 外へ送る）" },
+        { word: "promise",  desc: "約束する（pro-: 前へ送る）" },
+        { word: "submit",   desc: "提出する（sub-: 下へ送る）" },
+        { word: "commit",   desc: "委ねる・約束する（com-: 共に送る）" }
+      ],
+      compounds: [
+        { phrase: "work permit",      desc: "労働許可証" },
+        { phrase: "building permit",  desc: "建築許可" },
+        { phrase: "permit to do",     desc: "〜することを許可する" }
+      ]
+    },
+
+    "emit": {
+      origin: "ラテン語 emittere（外へ送り出す）< ex-（外へ）+ mittere（送る）。「内部から外へ放出する」→「光・熱・音・ガスを放出する・発する」に特化した。\n\nemission（排出・放出）は CO₂ emission（二酸化炭素排出量）として環境問題の核心語。zero-emission vehicle（排出ゼロ車）・emission trading（排出権取引）・carbon emissions（炭素排出量）は気候変動対策の基本語彙として21世紀に重要性が急増した。",
+      derivatives: [
+        { word: "emission",   desc: "排出・放出・放射（名詞）" },
+        { word: "emissions",  desc: "排出量（複数形で慣用）" },
+        { word: "emitter",    desc: "発光体・排出源（名詞）" }
+      ],
+      family: [
+        { word: "mission",  desc: "任務・使命（mittere の名詞）" },
+        { word: "dismiss",  desc: "解散させる（dis-: バラバラに送る）" },
+        { word: "permit",   desc: "許可する（per-: 通して送る）" },
+        { word: "promise",  desc: "約束する（pro-: 前へ送る）" },
+        { word: "submit",   desc: "提出する（sub-: 下へ送る）" },
+        { word: "transmit", desc: "伝達する（trans-: 向こうへ送る）" }
+      ],
+      compounds: [
+        { phrase: "carbon emissions",   desc: "炭素排出量" },
+        { phrase: "emit light",         desc: "光を発する" },
+        { phrase: "zero-emission",      desc: "排出ゼロの" }
+      ]
+    },
+
+    "promise": {
+      origin: "ラテン語 promittere（前へ送り出す・前もって言う）< pro-（前へ）+ mittere（送る）。「将来に向けて言葉を送り出す」→「約束する・確約する」に特化した。\n\npromising（有望な）は「良い未来を前へ送り出している力がある」意。"A promise is a promise."（約束は約束だ）は英語圏でよく使われる表現。the Promised Land（約束の地）は旧約聖書の表現で「神が約束した土地」を指す。",
+      derivatives: [
+        { word: "promising",   desc: "有望な・将来性のある（形容詞）" },
+        { word: "promised",    desc: "約束された（形容詞）" }
+      ],
+      family: [
+        { word: "mission",  desc: "任務・使命（mittere の名詞）" },
+        { word: "dismiss",  desc: "解散させる（dis-: バラバラに送る）" },
+        { word: "permit",   desc: "許可する（per-: 通して送る）" },
+        { word: "emit",     desc: "放出する（ex-: 外へ送る）" },
+        { word: "submit",   desc: "提出する（sub-: 下へ送る）" },
+        { word: "commit",   desc: "委ねる・約束する（com-: 共に送る）" }
+      ],
+      compounds: [
+        { phrase: "keep a promise",   desc: "約束を守る" },
+        { phrase: "break a promise",  desc: "約束を破る" },
+        { phrase: "promising talent", desc: "有望な才能" }
+      ]
+    },
+
+    // ── pellere / pulsus系 ───────────────────────────────────────────────────
+    "compel": {
+      origin: "ラテン語 compellere（共に追い立てる・強制する）< com-（強意・完全に）+ pellere（押す・追い立てる）。「力を集中させて押し動かす」→「強制する・余儀なくさせる」に特化した。\n\ncompelling（説得力のある・強烈な）は「抵抗できない力で押してくる」意で、compelling evidence（圧倒的な証拠）・compelling story（引き込まれる物語）のように肯定的な強さの表現として使われる。compulsory（強制的な・義務的な）は compellere の同根語。",
+      derivatives: [
+        { word: "compelling",   desc: "説得力のある・強烈な（形容詞）" },
+        { word: "compulsion",   desc: "強制・衝動（名詞）" },
+        { word: "compulsory",   desc: "強制的な・義務の（形容詞）" },
+        { word: "compelled",    desc: "余儀なくされた（形容詞）" }
+      ],
+      family: [
+        { word: "expel",    desc: "追放する（ex-: 外へ追い出す）" },
+        { word: "repel",    desc: "撃退する（re-: 押し返す）" },
+        { word: "impulse",  desc: "衝動（in-: 内から押す力）" },
+        { word: "pulse",    desc: "脈拍（pellere: 打ち続ける動き）" },
+        { word: "propel",   desc: "推進する（pro-: 前へ押す）" }
+      ],
+      compounds: [
+        { phrase: "compelling argument",   desc: "説得力のある論拠" },
+        { phrase: "feel compelled to",     desc: "〜せずにはいられない" },
+        { phrase: "compulsory education",  desc: "義務教育" }
+      ]
+    },
+
+    "expel": {
+      origin: "ラテン語 expellere（外へ追い出す）< ex-（外へ）+ pellere（押す・追い立てる）。「押して外へ出す」→「追放する・退学処分にする・気体を排出する」に特化した。\n\nexpulsion（追放・退学・排出）は法律・教育・物理の三文脈で使われる。expel a student（退学にする）・expel a diplomat（外交官を国外追放する）・expel air from the lungs（肺から空気を吐き出す）と多様な「外へ押し出す」文脈で使われる。",
+      derivatives: [
+        { word: "expulsion",  desc: "追放・退学・排出（名詞）" },
+        { word: "expelled",   desc: "追放された・退学になった（形容詞）" }
+      ],
+      family: [
+        { word: "compel",   desc: "強制する（com-: 力を集めて押す）" },
+        { word: "repel",    desc: "撃退する（re-: 押し返す）" },
+        { word: "impulse",  desc: "衝動（in-: 内から押す力）" },
+        { word: "pulse",    desc: "脈拍（pellere: 打ち続ける動き）" },
+        { word: "propel",   desc: "推進する（pro-: 前へ押す）" }
+      ],
+      compounds: [
+        { phrase: "expel from school",  desc: "退学にする" },
+        { phrase: "expel a diplomat",   desc: "外交官を国外追放する" },
+        { phrase: "expulsion order",    desc: "退去命令・退学処分書" }
+      ]
+    },
+
+    "repel": {
+      origin: "ラテン語 repellere（押し返す）< re-（戻して）+ pellere（押す）。「近づいてくるものを押し返す」→「撃退する・はじく・不快感を与える」に特化した。\n\nrepellent（虫除け・忌避剤）は「虫を押し返すもの」。repulsive（嫌悪感を与える）は同根の repulsus（押し返された）から。water-repellent（撥水加工の）は「水を押しのける」材料特性を表し、アウトドア用品の基本スペック語。",
+      derivatives: [
+        { word: "repellent",   desc: "虫除け・忌避剤・不快な（名詞・形容詞）" },
+        { word: "repulsion",   desc: "嫌悪・反発・斥力（名詞）" },
+        { word: "repulsive",   desc: "嫌悪感を与える（形容詞）" }
+      ],
+      family: [
+        { word: "compel",   desc: "強制する（com-: 力を集めて押す）" },
+        { word: "expel",    desc: "追放する（ex-: 外へ追い出す）" },
+        { word: "impulse",  desc: "衝動（in-: 内から押す力）" },
+        { word: "pulse",    desc: "脈拍（pellere: 打ち続ける動き）" },
+        { word: "propel",   desc: "推進する（pro-: 前へ押す）" }
+      ],
+      compounds: [
+        { phrase: "insect repellent",  desc: "虫除け剤" },
+        { phrase: "water-repellent",   desc: "撥水加工の" },
+        { phrase: "find repulsive",    desc: "〜を嫌悪する" }
+      ]
+    },
+
+    "impulse": {
+      origin: "ラテン語 impulsus（内側へ押された力）< impellere（中へ押す）< in-（中へ）+ pellere（押す）の名詞形。「内側から外へ向かって押してくる力・衝撃」が原義で、心理学（衝動）から物理学（力積）・神経科学（神経インパルス）まで使われる。\n\non impulse（衝動的に・突発的に）は日常でよく使われる副詞句。impulse buying（衝動買い）・impulse control（衝動制御）は心理・消費行動の重要語。nerve impulse（神経インパルス）は神経から筋肉への電気的信号を指す。",
+      derivatives: [
+        { word: "impulsive",     desc: "衝動的な（形容詞）" },
+        { word: "impulsively",   desc: "衝動的に（副詞）" },
+        { word: "impulsiveness", desc: "衝動性（名詞）" }
+      ],
+      family: [
+        { word: "compel",  desc: "強制する（com-: 力を集めて押す）" },
+        { word: "expel",   desc: "追放する（ex-: 外へ追い出す）" },
+        { word: "repel",   desc: "撃退する（re-: 押し返す）" },
+        { word: "pulse",   desc: "脈拍（pellere: 打ち続ける動き）" },
+        { word: "propel",  desc: "推進する（pro-: 前へ押す）" }
+      ],
+      compounds: [
+        { phrase: "on impulse",       desc: "衝動的に・とっさに" },
+        { phrase: "impulse buying",   desc: "衝動買い" },
+        { phrase: "impulse control",  desc: "衝動制御" }
+      ]
+    },
+
+    "pulse": {
+      origin: "ラテン語 pulsus（打つこと・脈打ち）< pellere（押す・打つ）の名詞形。「規則的に打ち続ける動き」→「脈拍・鼓動・（音楽の）拍・電気パルス信号」に広がった。\n\ntake a pulse（脈を測る）は医療の基本動作。have one's finger on the pulse（世の動向を把握している）は時代の動きを「脈として感じ取る」慣用句。パルスオキシメーター（pulse oximeter）・パルス信号（pulse signal）は医療・電子工学の基本語。",
+      derivatives: [
+        { word: "pulsate",    desc: "脈打つ・鼓動する（動詞）" },
+        { word: "pulsating",  desc: "脈打つ・鼓動する・活気のある（形容詞）" },
+        { word: "pulsation",  desc: "脈動・鼓動（名詞）" }
+      ],
+      family: [
+        { word: "compel",   desc: "強制する（com-: 力を集めて押す）" },
+        { word: "expel",    desc: "追放する（ex-: 外へ追い出す）" },
+        { word: "repel",    desc: "撃退する（re-: 押し返す）" },
+        { word: "impulse",  desc: "衝動（in-: 内から押す力）" },
+        { word: "propel",   desc: "推進する（pro-: 前へ押す）" }
+      ],
+      compounds: [
+        { phrase: "take a pulse",              desc: "脈を測る" },
+        { phrase: "finger on the pulse",       desc: "世の動向を把握している" },
+        { phrase: "pulse oximeter",            desc: "パルスオキシメーター" }
+      ]
+    },
+
+    // ── vertere / versus系 ───────────────────────────────────────────────────
+    "convert": {
+      origin: "ラテン語 convertere（完全に向き直す）< con-（完全に）+ vertere（向ける・回す）。「完全に別の方向へ向け直す」→「変換する・改宗する・転向する」に特化した。\n\n名詞（改宗者・コンバート選手）は /ˈkɒnvɜːt/（前強勢）、動詞は /kənˈvɜːt/（後強勢）と発音が変わる。currency converter（通貨換算機）・convert a file（ファイルを変換する）はデジタル用語として頻出。conversion rate（コンバージョン率）はマーケティングの核心指標。",
+      derivatives: [
+        { word: "conversion",    desc: "変換・改宗・コンバージョン（名詞）" },
+        { word: "converter",     desc: "変換器・コンバーター（名詞）" },
+        { word: "convertible",   desc: "変換可能な・オープンカー（形容詞・名詞）" }
+      ],
+      family: [
+        { word: "diverse",    desc: "多様な（di-: バラバラに向いた）" },
+        { word: "reverse",    desc: "逆にする（re-: 後ろへ向ける）" },
+        { word: "universe",   desc: "宇宙（uni-: 一つに向かった全体）" },
+        { word: "introvert",  desc: "内向型の人（intro-: 内側へ向ける）" },
+        { word: "divert",     desc: "そらす・転用する（di-: 別の方向へ）" },
+        { word: "avert",      desc: "そらす・防ぐ（a-: 離れる方向へ）" }
+      ],
+      compounds: [
+        { phrase: "convert to",          desc: "〜に変換する・〜に改宗する" },
+        { phrase: "currency converter",  desc: "通貨換算機" },
+        { phrase: "conversion rate",     desc: "コンバージョン率・改宗率" }
+      ]
+    },
+
+    "diverse": {
+      origin: "ラテン語 diversus（異なる方向に向いた）< divertere（別の方向へ向ける）< di-/dis-（バラバラに）+ vertere（向ける）の完了分詞。「それぞれが異なる方向を向いている」→「多様な・さまざまな」に特化した。\n\ndiversity（多様性）・diversify（多様化する）は21世紀の企業・社会政策の核心語。DEI（Diversity, Equity, Inclusion: 多様性・公平性・包括性）の D がこの語。biodiversity（生物多様性）は環境保全の最重要概念。",
+      derivatives: [
+        { word: "diversity",       desc: "多様性（名詞）" },
+        { word: "diversify",       desc: "多様化する・分散させる（動詞）" },
+        { word: "diversification", desc: "多様化・分散投資（名詞）" },
+        { word: "diversely",       desc: "多様に（副詞）" }
+      ],
+      family: [
+        { word: "convert",    desc: "変換する（con-: 完全に向き直す）" },
+        { word: "reverse",    desc: "逆にする（re-: 後ろへ向ける）" },
+        { word: "universe",   desc: "宇宙（uni-: 一つに向かった全体）" },
+        { word: "introvert",  desc: "内向型の人（intro-: 内側へ向ける）" },
+        { word: "divert",     desc: "そらす・転用する（di-: 別の方向へ）" }
+      ],
+      compounds: [
+        { phrase: "diverse range",          desc: "多様な種類" },
+        { phrase: "cultural diversity",     desc: "文化的多様性" },
+        { phrase: "diversify investments",  desc: "投資を分散させる" }
+      ]
+    },
+
+    "reverse": {
+      origin: "ラテン語 reversus（後ろに向けられた）< revertere（後ろへ向き直す）< re-（後ろへ）+ vertere（向ける）の完了分詞。「後ろを向く・逆方向に向ける」→「逆にする・後退する・（判決を）覆す」に発展した。\n\nin reverse（逆に・後退して）・reverse a decision（決定を覆す）・reverse psychology（逆説的説得: 逆のことを言って相手に本来望む行動をとらせる心理技法）は日常・法律・心理学で使われる。",
+      derivatives: [
+        { word: "reversal",     desc: "逆転・撤回（名詞）" },
+        { word: "reversible",   desc: "可逆の・両面使える（形容詞）" },
+        { word: "irreversible", desc: "不可逆の・取り消せない（形容詞）" }
+      ],
+      family: [
+        { word: "convert",    desc: "変換する（con-: 完全に向き直す）" },
+        { word: "diverse",    desc: "多様な（di-: バラバラに向いた）" },
+        { word: "universe",   desc: "宇宙（uni-: 一つに向かった全体）" },
+        { word: "introvert",  desc: "内向型の人（intro-: 内側へ向ける）" },
+        { word: "avert",      desc: "そらす・防ぐ（a-: 離れる方向へ）" }
+      ],
+      compounds: [
+        { phrase: "in reverse",           desc: "逆に・後退して" },
+        { phrase: "reverse a decision",   desc: "決定を覆す" },
+        { phrase: "reverse psychology",   desc: "逆説的説得" }
+      ]
+    },
+
+    "universe": {
+      origin: "ラテン語 universum（すべてのものが一つに向けられたもの）< uni-（一つの）+ versus（向けられた）< vertere（向ける）の完了分詞。「すべてが一つの方向を向いている・すべてが一体となった全体」→「宇宙・万物・全世界」に特化した。\n\nuniversal（普遍的な）・university（大学：すべての学問を収める場所）も同根。parallel universe（平行宇宙）は物理学・SFの重要概念。universe of possibilities（可能性の宇宙）のような比喩的用法も多い。",
+      derivatives: [
+        { word: "universal",    desc: "普遍的な・全員に共通の（形容詞）" },
+        { word: "universally",  desc: "普遍的に・世界中で（副詞）" },
+        { word: "universalize", desc: "普遍化する（動詞）" },
+        { word: "university",   desc: "大学（universum: 全学問の場）" }
+      ],
+      family: [
+        { word: "convert",    desc: "変換する（con-: 完全に向き直す）" },
+        { word: "diverse",    desc: "多様な（di-: バラバラに向いた）" },
+        { word: "reverse",    desc: "逆にする（re-: 後ろへ向ける）" },
+        { word: "introvert",  desc: "内向型の人（intro-: 内側へ向ける）" },
+        { word: "divert",     desc: "そらす・転用する（di-: 別の方向へ）" }
+      ],
+      compounds: [
+        { phrase: "the known universe",        desc: "観測可能な宇宙" },
+        { phrase: "universal design",          desc: "ユニバーサルデザイン" },
+        { phrase: "universe of possibilities", desc: "無限の可能性" }
+      ]
+    },
+
+    "introvert": {
+      origin: "近代ラテン語 introvertere（内側へ向ける）< intrō-（内側へ）+ vertere（向ける）。「意識・関心を内側へ向ける人」→「内向型の人」に特化した心理学用語。スイスの心理学者カール・グスタフ・ユングが1921年に extrovert（外向型）との対比で提唱した概念。\n\nintroversion（内向性）は性格特性の一次元として現代心理学の基礎概念。introvert と shy（内気）は異なり、introvert は刺激を求めない・一人の時間で英気を養う傾向を指す。ambivert（両向型）は近年使われるようになった語。",
+      derivatives: [
+        { word: "introversion",   desc: "内向性（名詞）" },
+        { word: "introverted",    desc: "内向的な（形容詞）" }
+      ],
+      family: [
+        { word: "convert",    desc: "変換する（con-: 完全に向き直す）" },
+        { word: "diverse",    desc: "多様な（di-: バラバラに向いた）" },
+        { word: "reverse",    desc: "逆にする（re-: 後ろへ向ける）" },
+        { word: "universe",   desc: "宇宙（uni-: 一つに向かった全体）" },
+        { word: "extrovert",  desc: "外向型の人（extro-: 外側へ向ける）" }
+      ],
+      compounds: [
+        { phrase: "introvert personality",  desc: "内向型の性格" },
+        { phrase: "introverted behavior",   desc: "内向的な行動" },
+        { phrase: "ambivert",               desc: "両向型（内向と外向の中間）" }
+      ]
+    },
+
+    // ── currere / cursus系 ───────────────────────────────────────────────────
+    "current": {
+      origin: "ラテン語 currens（走っている）< currere（走る）の現在分詞が形容詞・名詞として定着した。「今この瞬間を流れ動いている」→「現在の・最新の」（形容詞）と「水・電気の流れ」（名詞）に発展した。\n\ncurrent events（時事問題）・current account（当座預金・経常収支）・alternating current（交流）・direct current（直流）は多様な「流れ」の概念。currency（通貨・流通）は「現在流れているもの」が原義。",
+      derivatives: [
+        { word: "currency",       desc: "通貨・流通・流行（名詞）" },
+        { word: "currently",      desc: "現在・今のところ（副詞）" },
+        { word: "current affairs", desc: "時事問題（慣用句）" },
+        { word: "undercurrent",   desc: "底流・潜在する傾向（名詞）" }
+      ],
+      family: [
+        { word: "occur",       desc: "起こる（ob-: 向かって走ってくる）" },
+        { word: "recur",       desc: "再発する（re-: 戻って走る）" },
+        { word: "curriculum",  desc: "カリキュラム（走るコース）" },
+        { word: "excursion",   desc: "遠足（ex-: 外へ走り出る）" },
+        { word: "concur",      desc: "同意する（con-: 共に走る）" },
+        { word: "cursor",      desc: "カーソル（currere: 走るもの）" }
+      ],
+      compounds: [
+        { phrase: "current events",      desc: "時事問題" },
+        { phrase: "alternating current", desc: "交流（AC）" },
+        { phrase: "currency exchange",   desc: "両替・外貨交換" }
+      ]
+    },
+
+    "occur": {
+      origin: "ラテン語 occurrere（向かって走ってくる・出会う）< ob-（向かって）+ currere（走る）。「こちらへ向かって走ってくる」→「（出来事が）起こる・（考えが）浮かぶ」に発展した。\n\noccurrence（出来事・発生）は「向かって走ってきたもの」。"It occurs to me that..."（〜と気づく）は「考えが自分の方へ走ってくる」比喩。naturally occurring（自然に発生する）は化学・生物学で頻出の表現。",
+      derivatives: [
+        { word: "occurrence",  desc: "出来事・発生・頻度（名詞）" },
+        { word: "recurring",   desc: "繰り返し発生する（形容詞）" }
+      ],
+      family: [
+        { word: "current",    desc: "現在の・流れ（currens: 走っている）" },
+        { word: "recur",      desc: "再発する（re-: 戻って走る）" },
+        { word: "curriculum", desc: "カリキュラム（走るコース）" },
+        { word: "excursion",  desc: "遠足（ex-: 外へ走り出る）" },
+        { word: "concur",     desc: "同意する（con-: 共に走る）" }
+      ],
+      compounds: [
+        { phrase: "it occurs to me",   desc: "〜と気づく・思いつく" },
+        { phrase: "natural occurrence", desc: "自然発生" },
+        { phrase: "if it occurs",      desc: "それが起きたら" }
+      ]
+    },
+
+    "recur": {
+      origin: "ラテン語 recurrere（戻って走る・繰り返す）< re-（戻って）+ currere（走る）。「同じ場所・状態へ戻って走る」→「繰り返し起こる・再発する」に特化した。\n\nrecurrence（再発・繰り返し）は医学（cancer recurrence: がんの再発）・数学（recurrence relation: 漸化式）で使われる。recurring dream（繰り返し見る夢）・recurring theme（繰り返し出てくるテーマ）は日常でも使われる。",
+      derivatives: [
+        { word: "recurrence",   desc: "再発・繰り返し（名詞）" },
+        { word: "recurring",    desc: "繰り返し発生する（形容詞）" },
+        { word: "recurrent",    desc: "再発性の・繰り返しの（形容詞）" },
+        { word: "recurrently",  desc: "繰り返して（副詞）" }
+      ],
+      family: [
+        { word: "current",    desc: "現在の・流れ（currens: 走っている）" },
+        { word: "occur",      desc: "起こる（ob-: 向かって走ってくる）" },
+        { word: "curriculum", desc: "カリキュラム（走るコース）" },
+        { word: "excursion",  desc: "遠足（ex-: 外へ走り出る）" },
+        { word: "concur",     desc: "同意する（con-: 共に走る）" }
+      ],
+      compounds: [
+        { phrase: "recurring dream",      desc: "繰り返し見る夢" },
+        { phrase: "recurrence rate",      desc: "再発率（医学・統計）" },
+        { phrase: "recurrence relation",  desc: "漸化式（数学）" }
+      ]
+    },
+
+    "curriculum": {
+      origin: "ラテン語 curriculum（走るコース・馬車が走る円形競技場）< currere（走る）の名詞形。「学生が走り抜ける（修了する）学習コース」→「カリキュラム・学習課程」の意味で17世紀に教育用語として英語に借用された。\n\ncurriculum vitae（履歴書、略称 CV）は「人生のコースを歩んできた記録」を意味するラテン語フレーズで、イギリス圏・ヨーロッパでは履歴書の標準呼称。extracurricular（課外の）・core curriculum（中核カリキュラム）も同根。",
+      derivatives: [
+        { word: "curricular",       desc: "カリキュラムの（形容詞）" },
+        { word: "extracurricular",  desc: "課外の（形容詞）" },
+        { word: "co-curricular",    desc: "正課に準じる活動の（形容詞）" }
+      ],
+      family: [
+        { word: "current",    desc: "現在の・流れ（currens: 走っている）" },
+        { word: "occur",      desc: "起こる（ob-: 向かって走ってくる）" },
+        { word: "recur",      desc: "再発する（re-: 戻って走る）" },
+        { word: "excursion",  desc: "遠足（ex-: 外へ走り出る）" },
+        { word: "cursor",     desc: "カーソル（currere: 走るもの）" }
+      ],
+      compounds: [
+        { phrase: "curriculum vitae",         desc: "履歴書（CV）" },
+        { phrase: "core curriculum",          desc: "中核カリキュラム" },
+        { phrase: "extracurricular activities", desc: "課外活動" }
+      ]
+    },
+
+    "excursion": {
+      origin: "ラテン語 excursio（外へ走り出ること）< excurrere（外へ走る）< ex-（外へ）+ currere（走る）の名詞形。「日常の場所から外へ走り出る」→「遠足・小旅行・（話題からの）脱線」に特化した。\n\nday excursion（日帰り旅行）・shore excursion（寄港地観光）はツーリズムの基本語。学術書では excursus（余談・脱線した考察）というラテン語形がそのまま使われることもある。excursionist（遠足参加者・観光客）も派生語。",
+      derivatives: [
+        { word: "excursionist", desc: "遠足参加者・観光客（名詞）" }
+      ],
+      family: [
+        { word: "current",    desc: "現在の・流れ（currens: 走っている）" },
+        { word: "occur",      desc: "起こる（ob-: 向かって走ってくる）" },
+        { word: "recur",      desc: "再発する（re-: 戻って走る）" },
+        { word: "curriculum", desc: "カリキュラム（走るコース）" },
+        { word: "concur",     desc: "同意する（con-: 共に走る）" }
+      ],
+      compounds: [
+        { phrase: "day excursion",    desc: "日帰り旅行" },
+        { phrase: "shore excursion",  desc: "寄港地観光（クルーズ用語）" },
+        { phrase: "go on an excursion", desc: "遠足・小旅行に行く" }
+      ]
+    },
+
+    // ── vocare / vox系 ───────────────────────────────────────────────────────
+    "vocal": {
+      origin: "ラテン語 vocalis（声の・声を出す）< vox（声）の形容詞形。「声に関する・声を使う」が原義で、「（人が意見を）積極的に声に出す・声楽の」に広がった。\n\nvocal cords（声帯）・vocal music（声楽）は音楽・医学の基本語。"Be vocal about your concerns."（懸念を積極的に表明しなさい）のように「声を上げることをためらわない」意味でも使われる。vocalist（ボーカリスト）・vocalize（声にする）も同根。",
+      derivatives: [
+        { word: "vocalist",     desc: "ボーカリスト・歌手（名詞）" },
+        { word: "vocalize",     desc: "声にする・発声する（動詞）" },
+        { word: "vocally",      desc: "声高に・積極的に（副詞）" },
+        { word: "vocalization", desc: "発声・音声化（名詞）" }
+      ],
+      family: [
+        { word: "vocation",  desc: "天職（vocare: 神に呼ばれた職業）" },
+        { word: "evoke",     desc: "呼び起こす（ex-: 外へ呼び出す）" },
+        { word: "provoke",   desc: "挑発する（pro-: 前へ呼び出す）" },
+        { word: "revoke",    desc: "取り消す（re-: 呼び戻す）" },
+        { word: "advocate",  desc: "擁護する（ad-: 〜へ呼ぶ）" },
+        { word: "vocabulary", desc: "語彙（vox: 声・言葉の集まり）" }
+      ],
+      compounds: [
+        { phrase: "vocal cords",    desc: "声帯" },
+        { phrase: "vocal about",    desc: "〜について声高に言う" },
+        { phrase: "lead vocalist",  desc: "リードボーカル" }
+      ]
+    },
+
+    "vocation": {
+      origin: "ラテン語 vocatio（呼ぶこと・召命）< vocare（呼ぶ）の名詞形。「神から呼ばれること・召命」が原義で、宗教的文脈から「天職・使命感を持って向かう職業」に広がった。\n\nvocation と occupation（職業）の違いは、vocation が「使命感・内なる呼び声に従った職業」の内面的側面を強調する点。vocational training（職業訓練）・vocational school（職業学校）は実務教育の用語として重要。",
+      derivatives: [
+        { word: "vocational",   desc: "職業の・職業訓練の（形容詞）" },
+        { word: "vocationally", desc: "職業的に（副詞）" }
+      ],
+      family: [
+        { word: "vocal",      desc: "声の・積極的に意見を言う（vox の形容詞）" },
+        { word: "evoke",      desc: "呼び起こす（ex-: 外へ呼び出す）" },
+        { word: "provoke",    desc: "挑発する（pro-: 前へ呼び出す）" },
+        { word: "revoke",     desc: "取り消す（re-: 呼び戻す）" },
+        { word: "advocate",   desc: "擁護する（ad-: 〜へ呼ぶ）" },
+        { word: "vocabulary", desc: "語彙（vox: 声・言葉の集まり）" }
+      ],
+      compounds: [
+        { phrase: "vocational training",  desc: "職業訓練" },
+        { phrase: "sense of vocation",    desc: "天職意識・使命感" },
+        { phrase: "vocational school",    desc: "職業学校・専門学校" }
+      ]
+    },
+
+    "evoke": {
+      origin: "ラテン語 evocare（外へ呼び出す）< ex-（外へ）+ vocare（呼ぶ）。「内に眠っているものを外へ呼び出す」→「（感情・記憶・イメージを）呼び起こす」に特化した。\n\nevocative（喚起力のある）は「強く呼び起こす力がある」意。evoke memories（記憶を呼び起こす）・evoke a response（反応を引き出す）は文学・心理学・マーケティングで使われる。smell evokes memories（匂いが記憶を呼び起こす）は神経科学的な現象（プルースト効果）としても有名。",
+      derivatives: [
+        { word: "evocative",   desc: "喚起力のある・強く呼び起こす（形容詞）" },
+        { word: "evocatively", desc: "喚起力豊かに（副詞）" },
+        { word: "evocation",   desc: "喚起・呼び起こし（名詞）" }
+      ],
+      family: [
+        { word: "vocal",     desc: "声の・積極的に意見を言う" },
+        { word: "vocation",  desc: "天職（神に呼ばれた職業）" },
+        { word: "provoke",   desc: "挑発する（pro-: 前へ呼び出す）" },
+        { word: "revoke",    desc: "取り消す（re-: 呼び戻す）" },
+        { word: "advocate",  desc: "擁護する（ad-: 〜へ呼ぶ）" }
+      ],
+      compounds: [
+        { phrase: "evoke memories",    desc: "記憶を呼び起こす" },
+        { phrase: "evoke a response",  desc: "反応を引き起こす" },
+        { phrase: "evocative imagery", desc: "喚起力のあるイメージ" }
+      ]
+    },
+
+    "provoke": {
+      origin: "ラテン語 provocare（前へ呼び出す・挑む）< pro-（前へ）+ vocare（呼ぶ）。「相手を前へ呼び出して挑む」→「怒りを引き起こす・(反応・思考を)促す」に発展した。\n\nprovocative（挑発的な・刺激的な）は否定的（provoke anger: 怒りを煽る）にも肯定的（provoke thought: 思考を促す）にも使われる。thought-provoking（示唆に富む・考えさせられる）は文学・ジャーナリズムで重要な複合形容詞。",
+      derivatives: [
+        { word: "provocation",     desc: "挑発・刺激（名詞）" },
+        { word: "provocative",     desc: "挑発的な・刺激的な（形容詞）" },
+        { word: "provocatively",   desc: "挑発的に（副詞）" },
+        { word: "thought-provoking", desc: "示唆に富む・考えさせる（形容詞）" }
+      ],
+      family: [
+        { word: "vocal",    desc: "声の・積極的に意見を言う" },
+        { word: "vocation", desc: "天職（神に呼ばれた職業）" },
+        { word: "evoke",    desc: "呼び起こす（ex-: 外へ呼び出す）" },
+        { word: "revoke",   desc: "取り消す（re-: 呼び戻す）" },
+        { word: "advocate", desc: "擁護する（ad-: 〜へ呼ぶ）" }
+      ],
+      compounds: [
+        { phrase: "provoke a reaction",  desc: "反応を引き起こす" },
+        { phrase: "thought-provoking",   desc: "示唆に富む・考えさせる" },
+        { phrase: "without provocation", desc: "挑発なしに・不当に" }
+      ]
+    },
+
+    "revoke": {
+      origin: "ラテン語 revocare（呼び戻す・取り消す）< re-（戻して）+ vocare（呼ぶ）。「一度声で発したものを呼び戻す」→「取り消す・撤回する・廃止する」に特化した法律・行政用語。\n\n免許・資格・権限・法律を「取り消す」場面で使われる。irrevocable（取り消せない・不可逆の）は法律文書・外交でよく使われる重要形容詞。an irrevocable decision（取り消せない決断）のように重大な判断の最終性を強調する。",
+      derivatives: [
+        { word: "revocation",   desc: "取り消し・廃止（名詞）" },
+        { word: "irrevocable",  desc: "取り消せない・不可逆の（形容詞）" },
+        { word: "irrevocably",  desc: "取り消せないほど（副詞）" }
+      ],
+      family: [
+        { word: "vocal",    desc: "声の・積極的に意見を言う" },
+        { word: "vocation", desc: "天職（神に呼ばれた職業）" },
+        { word: "evoke",    desc: "呼び起こす（ex-: 外へ呼び出す）" },
+        { word: "provoke",  desc: "挑発する（pro-: 前へ呼び出す）" },
+        { word: "advocate", desc: "擁護する（ad-: 〜へ呼ぶ）" }
+      ],
+      compounds: [
+        { phrase: "revoke a license",     desc: "免許を取り消す" },
+        { phrase: "irrevocable decision", desc: "取り消せない決断" },
+        { phrase: "revocation order",     desc: "取り消し命令" }
+      ]
+    },
+
+    // ── gratus系 ─────────────────────────────────────────────────────────────
+    "grateful": {
+      origin: "ラテン語 gratus（喜ばれる・感謝された）< 印欧語根 *gwer-（賛美する・喜ぶ）に由来。gratus に英語の形容詞語尾 -ful を付けた混合形。grace（優雅・神の恵み）も同根で、gratus の「神から好まれた・恵まれた」が転じて「感謝する心」に発展した。\n\n"I'm grateful for..."（〜に感謝している）は日常英語の重要表現。gratefully received（ありがたく受け取る）は改まった文脈で使われる。ungrateful（恩知らずの）は un- で否定した形。",
+      derivatives: [
+        { word: "gratefully",    desc: "感謝して（副詞）" },
+        { word: "gratefulness",  desc: "感謝の気持ち（名詞）" },
+        { word: "ungrateful",    desc: "恩知らずの（形容詞）" },
+        { word: "ungratefully",  desc: "恩知らずに（副詞）" }
+      ],
+      family: [
+        { word: "gratitude",     desc: "感謝（gratus の状態名詞）" },
+        { word: "congratulate",  desc: "祝いを言う（con-: 共に喜ぶ）" },
+        { word: "grace",         desc: "優雅・恵み（gratus と同根）" },
+        { word: "gracious",      desc: "優雅な・親切な（gratia+ous）" },
+        { word: "gratify",       desc: "満足させる・喜ばせる（gratus+fy）" }
+      ],
+      compounds: [
+        { phrase: "grateful for",       desc: "〜に感謝している" },
+        { phrase: "eternally grateful", desc: "永遠に感謝している" },
+        { phrase: "grateful heart",     desc: "感謝の心" }
+      ]
+    },
+
+    "gratitude": {
+      origin: "ラテン語 gratitudo（感謝の気持ちの状態）< gratus（喜ばれる・感謝された）に状態を表す接尾辞 -tudo を付けた形。「感謝している状態・心」が原義で、grateful（形容詞）の名詞形にあたる。\n\ngratitude journal（感謝日記）はポジティブ心理学の実践法として近年注目されている。express gratitude（感謝を表す）・deep gratitude（深い感謝）は書き言葉でよく使われる表現。ingratitude（恩知らず）は in- で否定した形。",
+      derivatives: [
+        { word: "ingratitude", desc: "恩知らず・感謝のなさ（名詞）" }
+      ],
+      family: [
+        { word: "grateful",     desc: "感謝している（gratus+ful）" },
+        { word: "congratulate", desc: "祝いを言う（con-: 共に喜ぶ）" },
+        { word: "grace",        desc: "優雅・恵み（gratus と同根）" },
+        { word: "gracious",     desc: "優雅な・親切な" },
+        { word: "gratify",      desc: "満足させる・喜ばせる" }
+      ],
+      compounds: [
+        { phrase: "express gratitude",  desc: "感謝を表す" },
+        { phrase: "show gratitude",     desc: "感謝を示す" },
+        { phrase: "gratitude journal",  desc: "感謝日記（ポジティブ心理学）" }
+      ]
+    },
+
+    "congratulate": {
+      origin: "ラテン語 congratulari（共に喜ぶ）< con-（共に）+ gratus（喜ばれる）+ -ari（動詞語尾）。「共に喜ぶ・一緒に良かったと思う」が原義で、「祝いを言う・称える」に特化した。\n\ncongratulations!（おめでとう！）は英語圏の祝福の定型表現で、結婚・誕生・昇進・卒業など多様な場面で使われる。congratulatory message（祝辞）・congratulatory speech（お祝いスピーチ）は公式の場での形容詞形として重要。",
+      derivatives: [
+        { word: "congratulations",   desc: "おめでとう（感嘆詞・名詞）" },
+        { word: "congratulatory",    desc: "祝いの・祝賀の（形容詞）" }
+      ],
+      family: [
+        { word: "grateful",   desc: "感謝している（gratus+ful）" },
+        { word: "gratitude",  desc: "感謝（gratus の状態名詞）" },
+        { word: "grace",      desc: "優雅・恵み（gratus と同根）" },
+        { word: "gracious",   desc: "優雅な・親切な" },
+        { word: "gratify",    desc: "満足させる・喜ばせる" }
+      ],
+      compounds: [
+        { phrase: "congratulations!",      desc: "おめでとう！" },
+        { phrase: "congratulatory speech", desc: "お祝いスピーチ" },
+        { phrase: "congratulate on",       desc: "〜を祝う" }
+      ]
+    },
+
+    // ── animus / anima系 ─────────────────────────────────────────────────────
+    "animate": {
+      origin: "ラテン語 animare（命を吹き込む・生かす）< animus（魂・命・心・精神）。「生命・魂を吹き込む」→「生き生きさせる・活気づける・アニメーションを作る」に発展した。アニメーション（animation）の語源でもある。\n\nanimated film（アニメ映画）の「アニメ」は「動きの中に命を吹き込む」技術から命名された。inanimate（生命のない）は in- で否定した形で、inanimate objects（無生物）のように使われる。animated discussion（活発な議論）は感情が吹き込まれた「生き生きした」議論を指す。",
+      derivatives: [
+        { word: "animation",  desc: "アニメーション・活気（名詞）" },
+        { word: "animator",   desc: "アニメーター（名詞）" },
+        { word: "animated",   desc: "アニメの・活発な（形容詞）" },
+        { word: "inanimate",  desc: "生命のない・無生物の（形容詞）" }
+      ],
+      family: [
+        { word: "unanimous",  desc: "満場一致の（uni-: 一つの魂）" },
+        { word: "animal",     desc: "動物（anima: 命あるもの）" },
+        { word: "animosity",  desc: "敵意（animus: 怒った心）" },
+        { word: "magnanimous", desc: "寛大な（magna+animus: 大きな心）" }
+      ],
+      compounds: [
+        { phrase: "animated film",       desc: "アニメ映画" },
+        { phrase: "animated discussion", desc: "活発な議論" },
+        { phrase: "suspend animation",   desc: "仮死状態（SF用語）" }
+      ]
+    },
+
+    "unanimous": {
+      origin: "ラテン語 unanimus（一つの魂を持つ・完全に一致した）< uni-（一つ）+ animus（魂・心）。「全員が一つの心を持っている」→「満場一致の」に特化した。\n\na unanimous decision（満場一致の決定）・unanimous vote（全会一致の投票）は民主的意思決定の最も強力な表現。unanimously（全員一致で）は "the motion was passed unanimously"（動議は全会一致で可決された）のように議事録でよく使われる。",
+      derivatives: [
+        { word: "unanimously", desc: "全員一致で・満場一致で（副詞）" },
+        { word: "unanimity",   desc: "全会一致・満場一致（名詞）" }
+      ],
+      family: [
+        { word: "animate",    desc: "生き生きさせる（animus: 命）" },
+        { word: "animal",     desc: "動物（anima: 命あるもの）" },
+        { word: "animosity",  desc: "敵意（animus: 怒った心）" },
+        { word: "unity",      desc: "統一（uni-: 一つ）" }
+      ],
+      compounds: [
+        { phrase: "unanimous decision",  desc: "満場一致の決定" },
+        { phrase: "voted unanimously",   desc: "全会一致で投票された" },
+        { phrase: "near-unanimous",      desc: "ほぼ全会一致の" }
+      ]
+    },
+
+    // ── vita / vivere系 ──────────────────────────────────────────────────────
+    "vital": {
+      origin: "ラテン語 vitalis（命に関わる）< vita（命・生命）< vivere（生きる）の名詞形に形容詞語尾 -alis を付けた形。「生命に直結する」→「絶対不可欠な・活力ある」に発展した。\n\nvital signs（バイタルサイン：体温・脈拍・血圧・呼吸数など生命の指標）・vital role（不可欠な役割）・it is vital that（〜することが絶対必要だ）は医療・ビジネスの必須表現。vitality（生命力・活力）も同根。",
+      derivatives: [
+        { word: "vitality",    desc: "生命力・活力・活気（名詞）" },
+        { word: "vitalize",    desc: "活力を与える（動詞）" },
+        { word: "vital signs", desc: "バイタルサイン（慣用句）" }
+      ],
+      family: [
+        { word: "survive",    desc: "生き延びる（super+vivere: 超えて生きる）" },
+        { word: "vivid",      desc: "鮮やかな（vividus: 生き生きした）" },
+        { word: "revive",     desc: "蘇る（re+vivere: 再び生きる）" },
+        { word: "vivacious",  desc: "快活な・生き生きした（vivere+ious）" },
+        { word: "vitamin",    desc: "ビタミン（vita+amine: 生命のアミン）" }
+      ],
+      compounds: [
+        { phrase: "vital signs",       desc: "バイタルサイン・生命の徴候" },
+        { phrase: "vital role",        desc: "不可欠な役割" },
+        { phrase: "it is vital that",  desc: "〜することが絶対必要だ" }
+      ]
+    },
+
+    "survive": {
+      origin: "ラテン語 supervivere（上を超えて生き延びる）< super-（超えて）+ vivere（生きる）。「困難・危険を超えて生き続ける」が原義で、「生き延びる・残存する」に特化した。\n\n"survival of the fittest"（最適者生存）はダーウィンの進化論をハーバート・スペンサーが言語化した表現。survivor（生存者）・survival kit（サバイバルキット）・survival skills（生存技術）は現代でも広く使われる。",
+      derivatives: [
+        { word: "survival",      desc: "生存・残存（名詞）" },
+        { word: "survivor",      desc: "生存者・被災者（名詞）" },
+        { word: "survivorship",  desc: "生存率・生き残りの状態（名詞）" }
+      ],
+      family: [
+        { word: "vital",     desc: "不可欠な（vitalis: 命に関わる）" },
+        { word: "vivid",     desc: "鮮やかな（vividus: 生き生きした）" },
+        { word: "revive",    desc: "蘇る（re+vivere: 再び生きる）" },
+        { word: "vivacious", desc: "快活な・生き生きした" },
+        { word: "vitamin",   desc: "ビタミン（vita+amine）" }
+      ],
+      compounds: [
+        { phrase: "survival of the fittest", desc: "最適者生存" },
+        { phrase: "survival kit",            desc: "サバイバルキット" },
+        { phrase: "cancer survivor",         desc: "がんサバイバー" }
+      ]
+    },
+
+    "vivid": {
+      origin: "ラテン語 vividus（活力に満ちた・生き生きした）< vivere（生きる）の形容詞形。「生命力が溢れている」→「（色・記憶・描写が）鮮やかな・生き生きした」に特化した。\n\nvivid color（鮮やかな色）・vivid memory（鮮明な記憶）・vivid description（生き生きした描写）は文学・芸術でよく使われる。vividly recall（鮮明に思い出す）は記憶に関する重要な副詞用法。",
+      derivatives: [
+        { word: "vividly",    desc: "鮮やかに・生き生きと（副詞）" },
+        { word: "vividness",  desc: "鮮やかさ・生き生きとした様子（名詞）" }
+      ],
+      family: [
+        { word: "vital",     desc: "不可欠な（vitalis: 命に関わる）" },
+        { word: "survive",   desc: "生き延びる（super+vivere）" },
+        { word: "revive",    desc: "蘇る（re+vivere: 再び生きる）" },
+        { word: "vivacious", desc: "快活な・生き生きした" },
+        { word: "vitamin",   desc: "ビタミン（vita+amine）" }
+      ],
+      compounds: [
+        { phrase: "vivid color",        desc: "鮮やかな色" },
+        { phrase: "vivid memory",       desc: "鮮明な記憶" },
+        { phrase: "vividly described",  desc: "生き生きと描写された" }
+      ]
+    },
+
+    // ── locus系 ──────────────────────────────────────────────────────────────
+    "location": {
+      origin: "ラテン語 locatio（場所を決めること）< locare（場所に置く）< locus（場所）の名詞形。「特定の場所を定めること・その場所」が原義で、「所在地・場所・撮影現場（on location）」に広がった。\n\non location（ロケ撮影中）は映画・テレビ用語。GPS location（GPS位置情報）・location services（位置情報サービス）はスマートフォン時代の重要語。prime location（一等地）は不動産の基本語。",
+      derivatives: [
+        { word: "locate",    desc: "位置を特定する・設置する（動詞）" },
+        { word: "locator",   desc: "位置特定装置・GPS（名詞）" },
+        { word: "locality",  desc: "地域・所在地（名詞）" },
+        { word: "localized", desc: "限局した・局所的な（形容詞）" }
+      ],
+      family: [
+        { word: "local",      desc: "地元の（locus+al: 場所の）" },
+        { word: "allocate",   desc: "配分する（ad+locare: 場所を割り当てる）" },
+        { word: "relocate",   desc: "移転する（re+locare: 場所を再設定）" },
+        { word: "locomotive", desc: "機関車（loco+movere: 場所を動かす）" },
+        { word: "locus",      desc: "場所・焦点（ラテン語直系）" }
+      ],
+      compounds: [
+        { phrase: "prime location",  desc: "一等地" },
+        { phrase: "on location",     desc: "ロケ撮影中" },
+        { phrase: "GPS location",    desc: "GPS位置情報" }
+      ]
+    },
+
+    "allocate": {
+      origin: "中世ラテン語 allocare（〜の場所を割り当てる）< ad-（〜へ）+ locare（場所に置く）< locus（場所）。「それぞれに適切な場所を割り振る」→「資源・時間・予算を配分する」に特化した。\n\nallocation（配分・割り当て）はリソース管理の核心語。allocate resources（資源を配分する）・budget allocation（予算配分）・time allocation（時間配分）はプロジェクト管理・経済学の基本語。resource allocation problem（資源配分問題）は最適化理論の古典的問題。",
+      derivatives: [
+        { word: "allocation",   desc: "配分・割り当て（名詞）" },
+        { word: "reallocate",   desc: "再配分する（動詞）" },
+        { word: "reallocation", desc: "再配分（名詞）" }
+      ],
+      family: [
+        { word: "location",   desc: "場所・所在地（locus の名詞）" },
+        { word: "local",      desc: "地元の（locus+al: 場所の）" },
+        { word: "relocate",   desc: "移転する（re+locare）" },
+        { word: "locomotive", desc: "機関車（loco+movere）" }
+      ],
+      compounds: [
+        { phrase: "allocate resources",    desc: "資源を配分する" },
+        { phrase: "budget allocation",     desc: "予算配分" },
+        { phrase: "time allocation",       desc: "時間配分" }
+      ]
+    },
+
+    "relocate": {
+      origin: "re-（再び）+ locate（場所を定める）< ラテン語 locare（場所に置く）< locus（場所）。「場所を新たに定め直す」→「（会社・人を）新しい場所へ移転させる」に特化した。\n\nrelocation package（転勤支援パッケージ：引越し費用・住宅手当など）は人事用語として重要。corporate relocation（企業移転）・staff relocation（社員の転勤）はビジネスの文脈で頻出。be relocated（転勤になる）は受動態でよく使われる。",
+      derivatives: [
+        { word: "relocation",          desc: "移転・転勤（名詞）" },
+        { word: "relocation package",  desc: "転勤支援パッケージ（慣用句）" }
+      ],
+      family: [
+        { word: "location",  desc: "場所・所在地（locus の名詞）" },
+        { word: "local",     desc: "地元の（locus+al: 場所の）" },
+        { word: "allocate",  desc: "配分する（ad+locare）" },
+        { word: "locomotive", desc: "機関車（loco+movere）" }
+      ],
+      compounds: [
+        { phrase: "relocation package",   desc: "転勤支援パッケージ" },
+        { phrase: "corporate relocation", desc: "企業移転" },
+        { phrase: "be relocated",         desc: "転勤になる" }
+      ]
     }
 
   };

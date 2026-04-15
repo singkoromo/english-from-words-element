@@ -6694,6 +6694,368 @@
         { phrase: "agricultural revolution", desc: "農業革命" },
         { phrase: "sustainable agriculture", desc: "持続可能な農業" }
       ]
+    },
+
+    // ── quaer / quest系（求める・聞く）──
+    "question": {
+      origin: "ラテン語 quaestio（問い・調査）< quaerere（求める・調査する）。quaerere は印欧語根 *kwes-（求める）に由来し、「答えを求める行為」が「問い」という名詞になった。\n\n13世紀のフランス語経由で英語に入り「疑問・質問・問題・議題」という多義名詞として定着。疑問文（question sentence）、質問する（ask a question）という用法から、「問題に疑念を抱く（call something into question）」という高度な用法まで幅広い。\n\n動詞 question は「〜に疑問を呈する・〜を尋問する」を意味し、question authority（権威に疑問を呈する）は批判的思考の姿勢を表す重要フレーズ。",
+      derivatives: [
+        { word: "questionable",   desc: "疑わしい・問題のある（形容詞）" },
+        { word: "questionnaire",  desc: "アンケート・質問票（名詞）" },
+        { word: "unquestionable", desc: "疑いの余地のない（形容詞）" }
+      ],
+      family: [
+        { word: "quest",          desc: "探求・探索（quaerere）" },
+        { word: "request",        desc: "要請する（re- + quaerere）" },
+        { word: "require",        desc: "必要とする（re- + quaerere）" },
+        { word: "inquire",        desc: "調査する・尋ねる（in- + quaerere）" }
+      ],
+      compounds: [
+        { phrase: "call into question",  desc: "〜に疑問を呈する" },
+        { phrase: "question authority",  desc: "権威に疑問を持つ・批判的に考える" }
+      ]
+    },
+
+    "quest": {
+      origin: "ラテン語 quaesta（求められたもの）< quaerere（求める）の女性過去分詞。中世の騎士物語（chivalric romance）で「聖杯探索（Quest for the Holy Grail）」のように、困難な目的を持った長い旅・探索を指す語として文学的に定着した。\n\n13世紀のフランス語経由で英語に入り、当初は主に文学・騎士物語の文脈で使われたが、現代では「目標に向かった積極的な探求・追求」という意味で使われる。in quest of（〜を探し求めて）は格式ある表現。\n\nモダンな文脈では RPG（ロールプレイングゲーム）のクエスト（特定の目標を持つ任務）として定着し、若い世代に馴染み深い語になっている。",
+      derivatives: [
+        { word: "quest for",     desc: "〜を探し求める（動詞的用法）" }
+      ],
+      family: [
+        { word: "question",      desc: "質問・疑問（quaestio）" },
+        { word: "request",       desc: "要請する（re- + quaerere）" },
+        { word: "require",       desc: "必要とする（re- + quaerere）" },
+        { word: "inquest",       desc: "死因調査・検死（in- + quaesta）" }
+      ],
+      compounds: [
+        { phrase: "in quest of",       desc: "〜を探し求めて" },
+        { phrase: "the quest for",     desc: "〜の探求・〜を追い求めること" }
+      ]
+    },
+
+    "require": {
+      origin: "ラテン語 requirere（再び求める・調査する）< re-（再び）+ quaerere（求める）。「再び求める＝まだ足りないから要求し続ける」というのが語源的なニュアンス。\n\n14世紀の英語に入り「〜を必要とする・〜を要求する・〜を義務づける」という動詞として定着。require a password（パスワードを要求する）、require attention（注意が必要）のように幅広く使われる。\n\nrequirement（要件・必要条件）は IT・ビジネスで非常に重要な概念語で、プロジェクトの requirements gathering（要件定義）はシステム開発の基礎プロセスとして位置づけられる。",
+      derivatives: [
+        { word: "requirement",    desc: "要件・必要条件・要求事項（名詞）" },
+        { word: "required",       desc: "必須の・義務づけられた（形容詞）" }
+      ],
+      family: [
+        { word: "question",       desc: "質問・問題（quaestio）" },
+        { word: "quest",          desc: "探求（quaesta）" },
+        { word: "request",        desc: "要請する（re- + quaerere）" },
+        { word: "inquire",        desc: "調査する（in- + quaerere）" }
+      ],
+      compounds: [
+        { phrase: "as required",     desc: "必要に応じて・要求通りに" },
+        { phrase: "requirements gathering", desc: "要件定義（システム開発）" }
+      ]
+    },
+
+    "inquire": {
+      origin: "ラテン語 inquirere（中に入って調べる）< in-（中に）+ quaerere（求める・調査する）。「詳しく内部まで調べる＝調査する・問い合わせる」というのが語源的な意味。\n\n14世紀の英語に入り「（正式に）調査する・尋ねる・問い合わせる」という動詞として定着。格式ある語であり、investigate よりやや形式的な調査、ask より丁寧な問い合わせを指す。\n\ninquiry（調査・問い合わせ）という名詞が重要で、public inquiry（公的調査）、inquiry letter（問い合わせのメール）のように使われる。スペルは enquire / enquiry（英国英語）と inquire / inquiry（米国英語）の両形がある。",
+      derivatives: [
+        { word: "inquiry",       desc: "調査・問い合わせ・尋問（名詞）" },
+        { word: "inquisitive",   desc: "探求心旺盛な・好奇心の強い（形容詞）" },
+        { word: "inquisition",   desc: "尋問・異端審問（歴史的用語）" }
+      ],
+      family: [
+        { word: "question",      desc: "質問（quaestio）" },
+        { word: "quest",         desc: "探求（quaesta）" },
+        { word: "require",       desc: "必要とする（re- + quaerere）" },
+        { word: "request",       desc: "要請する（re- + quaerere）" }
+      ],
+      compounds: [
+        { phrase: "inquire about",    desc: "〜について問い合わせる" },
+        { phrase: "public inquiry",   desc: "公的調査・公聴会" }
+      ]
+    },
+
+    // ── labor系（働く）──
+    "labor": {
+      origin: "ラテン語 labor（労働・苦労・苦難）< laborare（働く・苦労する）。印欧語根 *lab-（ぐらつく・疲れる）に由来し、労働の「辛さ・苦労」が原義にある。\n\n14世紀に英語に入り「（1）肉体的・精神的な労働・骨折り（2）出産時の陣痛（labor pains）・分娩（3）労働者階級・労働運動」という多義名詞として定着。Labor Day（米国・カナダの労働者の日）は毎年9月第1月曜日。\n\n経済学では labor force（労働力人口）、division of labor（分業）が基礎概念として重要。スペルは英国英語では labour（u あり）。",
+      derivatives: [
+        { word: "laborious",    desc: "骨の折れる・根気のいる（形容詞）" },
+        { word: "laborer",      desc: "肉体労働者・工夫（名詞）" }
+      ],
+      family: [
+        { word: "elaborate",    desc: "詳しく説明する・精巧な（e- + labor）" },
+        { word: "collaborate",  desc: "協力する（col- + labor）" },
+        { word: "laboratory",   desc: "実験室・研究所（laboratorium）" }
+      ],
+      compounds: [
+        { phrase: "labor force",      desc: "労働力人口・労働者集団" },
+        { phrase: "division of labor", desc: "分業" }
+      ]
+    },
+
+    "collaborate": {
+      origin: "ラテン語 collaborare（共に働く）< col-（con- の変形、共に）+ laborare（働く）。「目標に向けて共に骨を折る」というのが語源的な意味。\n\n19世紀に英語に定着し「共同作業する・協力する」という動詞として使われる。特に創造的・知的な仕事での協力を指すことが多く、科学研究、芸術制作、ビジネスプロジェクトでよく使われる。\n\n戦時中には「占領軍に協力する・売国行為をする」という否定的な意味（collaborator = 売国奴）でも使われたが、平時には「共同制作者・コラボレーター」という肯定的な意味が基本。",
+      derivatives: [
+        { word: "collaboration",   desc: "協力・共同作業・コラボ（名詞）" },
+        { word: "collaborative",   desc: "協力的な・共同の（形容詞）" },
+        { word: "collaborator",    desc: "共同制作者・協力者" }
+      ],
+      family: [
+        { word: "labor",           desc: "労働（labor）" },
+        { word: "elaborate",       desc: "精巧な・詳しく説明する（e- + labor）" },
+        { word: "laboratory",      desc: "実験室（laboratorium）" }
+      ],
+      compounds: [
+        { phrase: "collaborate with",    desc: "〜と協力する・〜とコラボする" },
+        { phrase: "collaborative effort", desc: "協力的な取り組み・共同作業" }
+      ]
+    },
+
+    "elaborate": {
+      origin: "ラテン語 elaborare（骨を折って仕上げる）< e-（出て・完全に）+ laborare（働く）。「完全に手を尽くして仕上げた」というのが形容詞の語源で、「丁寧に詳述する」という動詞はそこから派生した。\n\n16世紀に英語に入り「（1）精巧な・詳細な（形容詞）（2）詳しく説明する・精緻化する（動詞）」という二つの用法で使われる。elaborate plan（詳細な計画）、please elaborate（もう少し詳しく話してください）のように、formal なコミュニケーションで重要な語。\n\nプレゼンテーション・議論で "Could you elaborate on that?"（もう少し詳しく説明してもらえますか？）は非常によく使われる質問表現。",
+      derivatives: [
+        { word: "elaborately",    desc: "精巧に・詳細に（副詞）" },
+        { word: "elaboration",    desc: "詳述・精緻化（名詞）" }
+      ],
+      family: [
+        { word: "labor",          desc: "労働（laborare）" },
+        { word: "collaborate",    desc: "協力する（col- + laborare）" },
+        { word: "laboratory",     desc: "実験室（laboratorium）" }
+      ],
+      compounds: [
+        { phrase: "elaborate on",      desc: "〜について詳しく述べる" },
+        { phrase: "elaborate design",  desc: "精巧なデザイン" }
+      ]
+    },
+
+    // ── art系（技術・作る）──
+    "artificial": {
+      origin: "ラテン語 artificialis（技術によって作られた）< artificium（技術・工芸）< ars / artis（技術・芸術）+ facere（作る）。「技術で作られた＝自然でない」というのが語源的な意味で、自然（natural）と対置して使われることが多い。\n\n15世紀に英語に入り「人工の・作りものの・不自然な」という形容詞として定着。artificial light（人工照明）、artificial flavoring（人工香料）のように使われる。\n\nAI（Artificial Intelligence, 人工知能）の「Artificial」まさにこの語であり、20〜21世紀の技術を代表するキーワードになっている。artificial は「本物ではない」という含意があるため、文脈によってはやや否定的なニュアンスを持つ。",
+      derivatives: [
+        { word: "artificially",   desc: "人工的に・不自然に（副詞）" },
+        { word: "artificiality",  desc: "人工性・不自然さ（名詞）" }
+      ],
+      family: [
+        { word: "artifact",       desc: "工芸品・人工物（ars + factum）" },
+        { word: "artisan",        desc: "職人・工芸家（artifex から）" },
+        { word: "art",            desc: "芸術・技術（ars）" },
+        { word: "fact",           desc: "事実（factum 行われたこと）" }
+      ],
+      compounds: [
+        { phrase: "artificial intelligence",  desc: "人工知能（AI）" },
+        { phrase: "artificial flavoring",     desc: "人工香料・合成香料" }
+      ]
+    },
+
+    "artifact": {
+      origin: "ラテン語 arte factum（技術によって作られたもの）< ars / artis（技術）+ facere（作る）の過去分詞 factum。「人間の技術によって意図的に製作された物」というのが語源的な意味。\n\n19世紀に英語で考古学・文化人類学の用語として定着し「（特定の文化や時代の）人工遺物・工芸品・文化財」を指す。ancient artifacts（古代の遺物）、cultural artifact（文化的な人工物）のように使われる。\n\nIT・科学の文脈では「処理の副産物・意図しない産物」という意味でも使われ、image artifact（画像ノイズ）、build artifact（ビルド成果物）のように使われる。",
+      derivatives: [
+        { word: "artifactual",   desc: "人工物の・工芸品の（形容詞・学術語）" }
+      ],
+      family: [
+        { word: "artificial",    desc: "人工の（ars + facere）" },
+        { word: "artisan",       desc: "職人・工芸家（artifex）" },
+        { word: "fact",          desc: "事実・出来事（factum）" },
+        { word: "manufacture",   desc: "製造する（manus + facere）" }
+      ],
+      compounds: [
+        { phrase: "cultural artifact",  desc: "文化的人工物・文化財" },
+        { phrase: "ancient artifact",   desc: "古代の遺物・出土品" }
+      ]
+    },
+
+    // ── clam / claim系（叫ぶ・宣言する）──
+    "claim": {
+      origin: "ラテン語 clamare（大声で叫ぶ・宣言する）< clamor（叫び声）。「大声で言うことで権利を主張する」というのが語源のイメージ。\n\n13世紀のフランス語 clamer を経て英語に入り「（1）権利・所有を主張する（2）〜だと断言する（3）保険金・補償を請求する」という動詞と「主張・請求権」という名詞として広く使われる。\n\nclaim responsibility（責任を認める）、insurance claim（保険請求）、baggage claim（手荷物受け取り所）のように文脈によって意味が大きく変わる多義語。",
+      derivatives: [
+        { word: "claimant",     desc: "請求者・権利を主張する人" },
+        { word: "disclaimer",   desc: "免責事項・責任否認（dis- + claim）" }
+      ],
+      family: [
+        { word: "exclaim",      desc: "叫ぶ（ex- 外へ + clamare）" },
+        { word: "proclaim",     desc: "宣言する（pro- 前に + clamare）" },
+        { word: "reclaim",      desc: "取り戻す・再生する（re- + clamare）" },
+        { word: "acclaim",      desc: "称賛する（ac- + clamare）" }
+      ],
+      compounds: [
+        { phrase: "baggage claim",        desc: "手荷物受け取り所" },
+        { phrase: "insurance claim",      desc: "保険金請求" },
+        { phrase: "claim responsibility", desc: "責任を認める・犯行声明を出す" }
+      ]
+    },
+
+    "exclaim": {
+      origin: "ラテン語 exclamare（外に向かって叫ぶ）< ex-（外へ）+ clamare（叫ぶ）。感情が内から外に向けて爆発するように叫ぶ、という語源的なイメージ。\n\n16世紀に英語に入り「（驚き・感情に突き動かされて）叫ぶ・声を上げる」という動詞として定着。文学・小説では感情の爆発を表現する動詞として用いられる。"Wonderful!"  she exclaimed.（「素晴らしい！」と彼女は叫んだ）のように使われる。\n\nexclamation（感嘆・叫び声）、exclamation mark「!」（感嘆符）という派生語も重要で、英語の句読点・記号の基本語彙に含まれる。",
+      derivatives: [
+        { word: "exclamation",    desc: "感嘆・叫び声（名詞）" },
+        { word: "exclamatory",    desc: "感嘆の・叫ぶような（形容詞）" }
+      ],
+      family: [
+        { word: "claim",          desc: "主張する（clamare）" },
+        { word: "proclaim",       desc: "宣言する（pro- + clamare）" },
+        { word: "acclaim",        desc: "称賛する（ac- + clamare）" },
+        { word: "declaim",        desc: "熱弁をふるう（de- + clamare）" }
+      ],
+      compounds: [
+        { phrase: "exclamation mark", desc: "感嘆符（!）" }
+      ]
+    },
+
+    "proclaim": {
+      origin: "ラテン語 proclamare（前に向けて叫ぶ・公に宣言する）< pro-（前に・公に）+ clamare（叫ぶ）。「多くの人に向けて公式に宣言する」というのが語源的な意味で、王や統治者による公式発表を指した。\n\n14世紀に英語に入り「（公式に・大々的に）宣言する・布告する・表明する」という動詞として定着。proclaim independence（独立を宣言する）、proclaim victory（勝利を宣言する）のように使われる。\n\nproclamation（宣言・布告）という名詞も重要で、Lincoln's Emancipation Proclamation（リンカーンの奴隷解放宣言, 1863年）は英語圏の歴史語彙として必須。",
+      derivatives: [
+        { word: "proclamation",   desc: "宣言・布告・公示（名詞）" }
+      ],
+      family: [
+        { word: "claim",          desc: "主張する（clamare）" },
+        { word: "exclaim",        desc: "叫ぶ（ex- + clamare）" },
+        { word: "acclaim",        desc: "称賛する（ac- + clamare）" }
+      ],
+      compounds: [
+        { phrase: "proclaim independence", desc: "独立を宣言する" },
+        { phrase: "Emancipation Proclamation", desc: "奴隷解放宣言" }
+      ]
+    },
+
+    // ── fort / fortu系（運命・偶然）──
+    "fortune": {
+      origin: "ラテン語 Fortuna（幸運の女神）< fors / fortis（偶然・運命）。Fortuna はローマの運命の女神で、回転する車輪（Wheel of Fortune）を持ち、王を玉座に乗せたかと思えば谷底に突き落とすという気まぐれな存在として描かれた。\n\n13世紀に英語に入り「（1）運命・運・幸運・不運（2）財産・大金（lucky fortune ＝ 幸運から得た富）」という二つの主要な意味で使われる。fortune cookie（フォーチュンクッキー）、Fortune 500（米国の大企業ランキング）など現代文化にも深く根付く。\n\n"Fortune favors the bold."（幸運は勇者に微笑む）はラテン語 Fortuna fortibus favet を起源とする格言で、積極的な行動を促す英語の名言として広く知られる。",
+      derivatives: [
+        { word: "fortunate",    desc: "幸運な・恵まれた（形容詞）" },
+        { word: "unfortunately", desc: "残念ながら・不幸にも（副詞）" },
+        { word: "misfortune",   desc: "不運・不幸（mis- + fortune）" }
+      ],
+      family: [
+        { word: "opportunity",  desc: "機会（ob- + portus 港、偶然舞い込む）" },
+        { word: "force",        desc: "力（fort- とは語源が異なる）" }
+      ],
+      compounds: [
+        { phrase: "small fortune",       desc: "かなりの額のお金" },
+        { phrase: "Fortune 500",         desc: "米フォーチュン誌500社ランキング" },
+        { phrase: "fortune favors the bold", desc: "幸運は勇者に微笑む" }
+      ]
+    },
+
+    "opportunity": {
+      origin: "ラテン語 opportunitas（都合のよい時・好機）< opportunus（港に向かって吹く風・好都合の）< ob-（向かって）+ portus（港）。「港に向かって吹く追い風＝絶好の機会」というのが語源的なイメージ。\n\n15世紀に英語に入り「好機・チャンス・機会」という名詞として定着。seize an opportunity（チャンスをつかむ）、equal opportunity（平等な機会）、job opportunity（就職の機会）のように使われる。\n\n「機会の平等（equal opportunity）」は現代の法律・企業倫理の中心概念であり、equal opportunity employer（機会均等雇用者）は差別のない採用を示すフレーズとして求人に頻出する。",
+      derivatives: [
+        { word: "opportune",        desc: "時機を得た・好都合な（形容詞）" },
+        { word: "opportunism",      desc: "日和見主義・機会主義（名詞）" },
+        { word: "opportunist",      desc: "機会主義者・日和見主義者" }
+      ],
+      family: [
+        { word: "fortune",          desc: "運命・財産（Fortuna）" },
+        { word: "import",           desc: "輸入する（portus 港への）" },
+        { word: "export",           desc: "輸出する（portus から外へ）" }
+      ],
+      compounds: [
+        { phrase: "seize an opportunity",    desc: "機会をつかむ" },
+        { phrase: "equal opportunity",       desc: "機会の平等・均等" },
+        { phrase: "window of opportunity",   desc: "チャンスの窓・限られた好機" }
+      ]
+    },
+
+    // ── grad / gress系（歩む・段階）──
+    "grade": {
+      origin: "ラテン語 gradus（歩み・段・等級）< gradi（歩む・進む）。「歩みの段階」という語源から「等級・程度・成績・勾配」という多義語として英語に定着した。\n\n16世紀に英語に入り「（1）成績・評点（A〜F のグレード）（2）学年・学級（3）等級・品質ランク（4）勾配・傾斜」という意味で使われる。grade school（小学校）、grade point average（GPA・学業成績平均）は米国教育の基本語。\n\ngrade inflation（成績インフレ ＝ 成績の実態以上の高評価）は現代教育問題の一つとして議論される。",
+      derivatives: [
+        { word: "gradual",     desc: "段階的な・緩やかな（gradus から）" },
+        { word: "gradually",   desc: "徐々に・少しずつ（副詞）" },
+        { word: "upgrade",     desc: "格上げする・アップグレード（up- + grade）" }
+      ],
+      family: [
+        { word: "graduate",    desc: "卒業する・大学院生（gradus）" },
+        { word: "degree",      desc: "学位・程度・度（de- + gradus）" },
+        { word: "progress",    desc: "進歩・前進（pro- + gradi）" },
+        { word: "congress",    desc: "議会（con- 共に + gradi）" }
+      ],
+      compounds: [
+        { phrase: "grade point average",  desc: "学業成績平均（GPA）" },
+        { phrase: "grade school",         desc: "小学校（米国）" }
+      ]
+    },
+
+    "graduate": {
+      origin: "ラテン語 graduare（段階を踏む）< gradus（段・等級）。「一段一段を踏んで登りきった」というのが語源的なイメージで、中世の大学では「学位（degree）」を授与されることを指した。\n\n15世紀に英語に入り「卒業する（動詞）・卒業生（名詞）・大学院の（形容詞）」という多義語として定着。graduate student（大学院生）、graduate school（大学院）は現代の学術語として必須。\n\n比喩的には "graduate from A to B"（A から B に進歩する）という表現でも使われ、"She graduated from local gigs to national tours."（地方公演から全国ツアーへと成長した）のように使われる。",
+      derivatives: [
+        { word: "graduation",    desc: "卒業・卒業式（名詞）" },
+        { word: "undergraduate", desc: "学部生（under- + graduate）" },
+        { word: "postgraduate",  desc: "大学院生・修士・博士（post- + graduate）" }
+      ],
+      family: [
+        { word: "grade",         desc: "成績・等級（gradus）" },
+        { word: "degree",        desc: "学位・程度（de- + gradus）" },
+        { word: "progress",      desc: "進歩・前進する（pro- + gradi）" }
+      ],
+      compounds: [
+        { phrase: "graduate school",   desc: "大学院" },
+        { phrase: "graduate student",  desc: "大学院生" }
+      ]
+    },
+
+    "degree": {
+      origin: "ラテン語 de-（下へ）+ gradus（段）から成る合成語。「段を下りた位置」から転じて「（高いものから測った）距離・程度・等級」という意味になった。温度計の「度（degree）」や「円の度（度）」という単位概念も語源は同じ。\n\n14世紀に英語に入り「（1）程度・度合い（to a certain degree）（2）温度・角度などの単位（3）大学の学位（bachelor's/master's/doctoral degree）」という多義語として定着。\n\nby degrees（少しずつ・段階的に）は重要なイディオム。学位名では bachelor's degree（学士号）、master's degree（修士号）、doctoral degree（博士号）が基本。",
+      derivatives: [
+        { word: "degree of",     desc: "〜の程度・〜の度合い" }
+      ],
+      family: [
+        { word: "grade",         desc: "等級・成績（gradus）" },
+        { word: "graduate",      desc: "卒業する（gradus）" },
+        { word: "gradual",       desc: "段階的な（gradus）" },
+        { word: "progress",      desc: "前進する（pro- + gradi）" }
+      ],
+      compounds: [
+        { phrase: "to a certain degree",  desc: "ある程度まで" },
+        { phrase: "by degrees",           desc: "少しずつ・段階的に" },
+        { phrase: "bachelor's degree",    desc: "学士号" }
+      ]
+    },
+
+    // ── migr系（移動する）──
+    "migrate": {
+      origin: "ラテン語 migrare（移動する・移住する）。印欧語根 *mei-（変える）に由来し、場所・状態を変えるという基本概念を持つ。\n\n17世紀に英語に入り「（1）動物が季節的に移動する（渡り鳥・回遊魚など）（2）人間が居住地・国を移す」という動詞として定着。渡り鳥（migratory birds）の研究は生態学の重要分野で、鮭の遡上（salmon migration）なども migration と呼ぶ。\n\nIT の文脈では data migration（データ移行）、cloud migration（クラウドへの移行）が現代の重要プロジェクト概念として使われる。",
+      derivatives: [
+        { word: "migration",     desc: "移動・移住・データ移行（名詞）" },
+        { word: "migratory",     desc: "移動性の・渡りをする（形容詞）" }
+      ],
+      family: [
+        { word: "emigrate",      desc: "（国から）移住する（e- + migrare）" },
+        { word: "immigrate",     desc: "（国に）移住する（im- + migrare）" },
+        { word: "transmigrate",  desc: "（霊魂が）転生する（trans- + migrare）" }
+      ],
+      compounds: [
+        { phrase: "data migration",   desc: "データ移行" },
+        { phrase: "cloud migration",  desc: "クラウド移行" },
+        { phrase: "labor migration",  desc: "労働移住・出稼ぎ" }
+      ]
+    },
+
+    "emigrate": {
+      origin: "ラテン語 emigrare（外に移動する）< e- / ex-（外へ）+ migrare（移動する）。「ある国・地域から外に向けて移住する」というのが語源的な意味。\n\n18世紀に英語に定着し「（自国・故郷から）移住する・移民として出て行く」という動詞として使われる。emigrant（移民・移住者）は「出ていく側」の立場を表す語で、immigrate（入ってくる）と対をなす。\n\n19〜20世紀の大量移民時代（アイルランド飢饉、南欧からアメリカへの移住、ユダヤ難民など）を描く歴史的文脈で頻出する語。同じ人物を送り出す国からは emigrant、受け入れる国からは immigrant と呼ぶ視点の違いがある。",
+      derivatives: [
+        { word: "emigrant",      desc: "移民・出国した移住者（名詞）" },
+        { word: "emigration",    desc: "移民・出国（名詞）" }
+      ],
+      family: [
+        { word: "migrate",       desc: "移動する（migrare）" },
+        { word: "immigrate",     desc: "移住してくる（im- + migrare）" },
+        { word: "expatriate",    desc: "海外居住者（ex- + patria 祖国）" }
+      ],
+      compounds: [
+        { phrase: "emigrate from",   desc: "（国・地域）から移住する" }
+      ]
+    },
+
+    "immigrate": {
+      origin: "ラテン語 immigrare（中に移動してくる）< im-（in- の変形、中に）+ migrare（移動する）。「ある国・地域の中に入ってきて定住する」というのが語源的な意味。\n\n17世紀に英語に定着し「（他国から）移住してくる・入国定住する」という動詞として使われる。immigrate to（〜に移住する）という基本構文を持つ。\n\nimmigrant（移住してきた人・移民）、immigration（移民・入国審査）という派生語がより頻用される。Immigration and Customs Enforcement（ICE, 米国の移民・税関執行局）、immigration policy（移民政策）は現代の政治・社会問題の核心語。",
+      derivatives: [
+        { word: "immigrant",      desc: "移民・移住者（名詞）" },
+        { word: "immigration",    desc: "移民・入国・入国審査（名詞）" }
+      ],
+      family: [
+        { word: "migrate",        desc: "移動する（migrare）" },
+        { word: "emigrate",       desc: "（国から）移住する（e- + migrare）" },
+        { word: "refugee",        desc: "難民（refugium 逃げ場）" }
+      ],
+      compounds: [
+        { phrase: "immigration policy",  desc: "移民政策" },
+        { phrase: "immigration office",  desc: "入国管理局・出入国管理事務所" }
+      ]
     }
 
   };

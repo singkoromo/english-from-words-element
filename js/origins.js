@@ -18874,6 +18874,493 @@
         { phrase: "geographical diversity", desc: "地域的多様性" },
         { phrase: "geopolitical boundaries", desc: "地政学的境界" }
       ]
+    },
+
+    "concurrent": {
+      origin: "ラテン語 concurrere（共に走る・一致する）< con-（共に）+ currere（走る）+ -ent（形容詞接尾辞）。「同時に起こる・並行する」が原義。currency（通貨）・course（コース）・occur（起こる）と同根の currere を共有する。\n\n英語には15世紀に採用され、「同時に存在・進行する」の意味で定着。法律・医学・コンピュータ科学で「並行する・同時進行の」という意味で不可欠な形容詞として機能し、concurrent processes（並行プロセス）・concurrent jurisdiction（競合管轄）のように専門用語でも頻用される。\n\n現代英語では concurrent sessions（並行セッション）・concurrent events（同時イベント）・run concurrently（並行して実行される）のように技術・法律・日常用語で広く使われる。",
+      derivatives: [
+        { word: "concurrently", desc: "同時に・並行して（副詞）" },
+        { word: "concurrence",  desc: "同意・同時発生（名詞）" },
+        { word: "concur",       desc: "同意する・同時に起こる（動詞）" }
+      ],
+      family: [
+        { word: "currency",  desc: "通貨（流通するもの）" },
+        { word: "current",   desc: "現在の・流れ（同根）" },
+        { word: "recurrent", desc: "繰り返す（re+currere）" }
+      ],
+      compounds: [
+        { phrase: "concurrent processes", desc: "並行プロセス" },
+        { phrase: "run concurrently",     desc: "同時に実行する" }
+      ]
+    },
+
+    "interim": {
+      origin: "ラテン語 interim（その間・一方で）< inter-（間に）+ im（時間の指示詞）。「暫定の・過渡的な」が原義。interval（間隔）・international（国際的な）・interact（相互作用する）と同根の inter- を含む。\n\n英語には16世紀に採用され、「一時的な・暫定的な」の意味で定着。法律・政治・ビジネスで「正式決定前の暫定期間の」という意味で重要な形容詞・名詞として機能し、interim government（暫定政府）・interim report（中間報告）のように頻用される。\n\n現代英語では interim measures（暫定措置）・interim CEO（暫定CEO）・in the interim（その間に）のように過渡期や一時的状態を表す表現として広く使われる。",
+      derivatives: [
+        { word: "interimly", desc: "暫定的に（副詞、非公式）" }
+      ],
+      family: [
+        { word: "interval",     desc: "間隔・休止（inter+vallum）" },
+        { word: "intermediate", desc: "中間の（inter+medius）" },
+        { word: "interlude",    desc: "幕間・合間（inter+ludus）" }
+      ],
+      compounds: [
+        { phrase: "interim report",      desc: "中間報告" },
+        { phrase: "interim government",  desc: "暫定政府" },
+        { phrase: "in the interim",      desc: "その間に" }
+      ]
+    },
+
+    "predominant": {
+      origin: "ラテン語 praedominari（支配する・優位に立つ）< prae-（前に・まず）+ dominari（支配する）< dominus（主人・支配者）+ -ant（形容詞接尾辞）。「主要な・優勢な」が原義。dominant（支配的な）・dominate（支配する）・domain（領域）と同根の dominus を共有する。\n\n英語には16世紀に採用され、「他を凌ぐ・圧倒的な」の意味で定着。科学・社会学・ビジネスで「特定の集団・地域で最も影響力を持つ」という意味で頻繁に使われ、predominant culture（主流文化）・predominant factor（主要因）のように統計・分析で重要な形容詞として機能する。\n\n現代英語では predominantly（主に）という副詞形が論文・報告書で特によく使われ、客観的な比率・傾向を述べる際の核心語となっている。",
+      derivatives: [
+        { word: "predominantly",   desc: "主に・大部分は（副詞）" },
+        { word: "predominance",    desc: "優勢・主流（名詞）" },
+        { word: "predominate",     desc: "優位を占める（動詞）" }
+      ],
+      family: [
+        { word: "dominant",  desc: "支配的な（同根）" },
+        { word: "dominate",  desc: "支配する（動詞）" },
+        { word: "domain",    desc: "領域・ドメイン（dominus）" }
+      ],
+      compounds: [
+        { phrase: "predominant factor",  desc: "主要因" },
+        { phrase: "predominant culture", desc: "主流文化" }
+      ]
+    },
+
+    "systematic": {
+      origin: "ギリシャ語 systema（組み合わせ・全体）< syn-（共に）+ histanai（置く・立てる）+ -atikos（形容詞接尾辞）。「体系的な・組織的な」が原義。system（システム）・systemic（全身的な）と同根で、「全体を秩序立てて組み合わせた」というイメージを持つ。\n\n英語には17世紀に採用され、「方法論的・規則に従った」の意味で定着。科学・研究・ビジネスで「個別でなく全体を体系立てて扱う」という意味で重要な形容詞として機能し、systematic approach（体系的アプローチ）・systematic review（系統的レビュー）のように学術・医療分野で必須の語となっている。\n\n現代英語では systematic review（系統的レビュー）が医学研究の最高基準を表す専門用語として確立され、systematic thinking（体系的思考）のようにビジネス・教育でも広く使われる。",
+      derivatives: [
+        { word: "systematically",  desc: "体系的に（副詞）" },
+        { word: "systematize",     desc: "体系化する（動詞）" },
+        { word: "systematization", desc: "体系化（名詞）" }
+      ],
+      family: [
+        { word: "system",   desc: "システム・制度（同根）" },
+        { word: "systemic", desc: "全身的な・根深い（同根）" },
+        { word: "syntax",   desc: "構文（syn+taxis）" }
+      ],
+      compounds: [
+        { phrase: "systematic approach", desc: "体系的アプローチ" },
+        { phrase: "systematic review",   desc: "系統的レビュー（医学）" },
+        { phrase: "systematic error",    desc: "系統誤差" }
+      ]
+    },
+
+    "linguistic": {
+      origin: "ラテン語 lingua（舌・言語）+ -istic（形容詞接尾辞）。「言語の・言語学の」が原義。language（言語）・bilingual（二言語の）と同根の lingua を共有し、「舌で生み出すもの」という身体的メタファーから「言語」を指す語に発展した。\n\n英語には19世紀に linguistics（言語学）の学問分野確立とともに定着。言語学・教育・認知科学で「言語に関わる」という意味で核心的な形容詞として機能し、linguistic analysis（言語分析）・linguistic diversity（言語的多様性）のように学術・政策文脈で頻用される。\n\n現代英語では linguistic relativity（言語相対性）・linguistic competence（言語能力）のような学術専門語から、linguistic barrier（言語的障壁）のような日常的表現まで幅広く使われる。",
+      derivatives: [
+        { word: "linguistically",  desc: "言語的に（副詞）" },
+        { word: "linguistics",     desc: "言語学（名詞）" },
+        { word: "linguist",        desc: "言語学者・多言語使用者（名詞）" }
+      ],
+      family: [
+        { word: "language",   desc: "言語（lingua由来）" },
+        { word: "bilingual",  desc: "二言語話者（bi+lingua）" },
+        { word: "multilingual", desc: "多言語の（multi+lingua）" }
+      ],
+      compounds: [
+        { phrase: "linguistic analysis",  desc: "言語分析" },
+        { phrase: "linguistic diversity", desc: "言語的多様性" }
+      ]
+    },
+
+    "constitutional": {
+      origin: "ラテン語 constitutio（制定・確立）< con-（共に）+ statuere（立てる・定める）< status（状態・立場）+ -al（形容詞接尾辞）。「憲法の・体質的な」が原義。constitution（憲法・体質）・statute（法令）・establish（確立する）と同根の statuere を共有する。\n\n英語には17世紀に採用され、法律・政治・医学で「憲法・体制・体質に関わる」という意味で定着。constitutional rights（憲法上の権利）・constitutional monarchy（立憲君主制）のように政治・法律文脈で頻用されるとともに、constitutional health issue（体質的健康問題）のように医学でも使われる。\n\n現代英語では constitutional amendment（憲法修正）・constitutional court（憲法裁判所）のような政治・法律専門語として特に重要で、unconstitutional（違憲の）という否定形も同様に頻用される。",
+      derivatives: [
+        { word: "constitutionally",   desc: "憲法上・体質的に（副詞）" },
+        { word: "constitutionalism",  desc: "立憲主義（名詞）" },
+        { word: "unconstitutional",   desc: "違憲の（否定形）" }
+      ],
+      family: [
+        { word: "constitution",  desc: "憲法・体質（名詞）" },
+        { word: "statute",       desc: "法令（statuere）" },
+        { word: "establish",     desc: "確立する（e+statuere）" }
+      ],
+      compounds: [
+        { phrase: "constitutional rights",   desc: "憲法上の権利" },
+        { phrase: "constitutional monarchy", desc: "立憲君主制" },
+        { phrase: "constitutional amendment", desc: "憲法修正" }
+      ]
+    },
+
+    "psychological": {
+      origin: "ギリシャ語 psyche（魂・心）+ logos（学・理）+ -ical（形容詞接尾辞）。「心理的な・心の」が原義。psychology（心理学）・psyche（精神）・psychosis（精神病）と同根の psyche を含み、「魂を学問的に研究する」というイメージを持つ。\n\n英語には17世紀末から18世紀にかけて心理学の学問分野確立とともに定着。医療・教育・マーケティングで「心理・精神に関わる」という意味で重要な形容詞として機能し、psychological impact（心理的影響）・psychological safety（心理的安全性）のように現代のビジネス・組織論でも核心語となっている。\n\n現代英語では psychological warfare（心理戦）・psychological disorder（精神障害）・psychological resilience（心理的回復力）のように幅広い文脈で使われ、特にメンタルヘルス分野での重要性が増している。",
+      derivatives: [
+        { word: "psychologically",  desc: "心理的に（副詞）" },
+        { word: "psychology",       desc: "心理学（名詞）" },
+        { word: "psychologist",     desc: "心理学者（名詞）" }
+      ],
+      family: [
+        { word: "psyche",     desc: "精神・魂（同根）" },
+        { word: "psychiatric", desc: "精神医学の（psyche+iatreia）" },
+        { word: "psychosis",   desc: "精神病（psyche+osis）" }
+      ],
+      compounds: [
+        { phrase: "psychological impact",   desc: "心理的影響" },
+        { phrase: "psychological safety",   desc: "心理的安全性" },
+        { phrase: "psychological warfare",  desc: "心理戦" }
+      ]
+    },
+
+    "sociological": {
+      origin: "ラテン語 socius（仲間・社会）+ ギリシャ語 logos（学・理）+ -ical（形容詞接尾辞）。「社会学の・社会的な」が原義。sociology（社会学）・social（社会的な）・associate（連合させる）と同根の socius を含む。\n\n英語には19世紀初頭、オーギュスト・コントが sociologie という学問分野を創始したことで定着。社会科学・研究・政策分析で「社会構造・関係・現象に関わる」という意味で重要な形容詞として機能し、sociological perspective（社会学的視点）・sociological study（社会学的研究）のように学術文脈で頻用される。\n\n現代英語では sociological analysis（社会学的分析）・sociological factors（社会学的要因）のように社会問題・政策・研究で広く使われ、「個人でなく社会全体の構造や関係から考える」という視点を示す語として機能する。",
+      derivatives: [
+        { word: "sociologically",  desc: "社会学的に（副詞）" },
+        { word: "sociology",       desc: "社会学（名詞）" },
+        { word: "sociologist",     desc: "社会学者（名詞）" }
+      ],
+      family: [
+        { word: "social",    desc: "社会的な（socius）" },
+        { word: "society",   desc: "社会（socius）" },
+        { word: "associate", desc: "連合させる（ad+socius）" }
+      ],
+      compounds: [
+        { phrase: "sociological perspective", desc: "社会学的視点" },
+        { phrase: "sociological factors",     desc: "社会学的要因" }
+      ]
+    },
+
+    "economic": {
+      origin: "ギリシャ語 oikonomia（家の管理）< oikos（家・世帯）+ nomos（法・規則）+ -ic（形容詞接尾辞）。「経済の・経済的な」が原義。economy（経済）・ecology（生態学、oikos共有）・autonomy（自治、nomos共有）と同根の要素を含む。\n\n英語には16世紀に採用され、「家政・資源管理」から「国家・社会全体の資源配分」へと意味が拡大して定着。経済学・政策・ビジネスで「経済活動・金融・資源に関わる」という意味で必須の形容詞として機能し、economic growth（経済成長）・economic policy（経済政策）のように政治・ニュースで日常的に使われる。\n\n現代英語では economic development（経済発展）・economic inequality（経済的不平等）・economic recession（景気後退）のように幅広い文脈で使われ、economics（経済学）・economist（経済学者）という派生語を通じて学問分野全体を形成している。",
+      derivatives: [
+        { word: "economically",  desc: "経済的に（副詞）" },
+        { word: "economics",     desc: "経済学（名詞）" },
+        { word: "economist",     desc: "経済学者（名詞）" }
+      ],
+      family: [
+        { word: "economy",   desc: "経済・節約（同根）" },
+        { word: "ecology",   desc: "生態学（oikos+logos）" },
+        { word: "autonomy",  desc: "自治（autos+nomos）" }
+      ],
+      compounds: [
+        { phrase: "economic growth",    desc: "経済成長" },
+        { phrase: "economic policy",    desc: "経済政策" },
+        { phrase: "economic inequality", desc: "経済的不平等" }
+      ]
+    },
+
+    "cultural": {
+      origin: "ラテン語 cultura（耕作・栽培・教育）< colere（耕す・崇める・育てる）+ -al（形容詞接尾辞）。「文化の・文化的な」が原義。culture（文化）・cultivate（栽培する）・agriculture（農業）と同根の colere を共有し、「土地を耕すように人間の精神を育てる」というメタファーを持つ。\n\n英語には17世紀に採用され、「特定の集団が共有する慣習・価値観・芸術に関わる」の意味で定着。人類学・教育・ビジネスで cultural diversity（文化的多様性）・cultural exchange（文化交流）・cultural identity（文化的アイデンティティ）のように現代の国際化・多様性議論の核心語として機能する。\n\n現代英語では cross-cultural communication（異文化コミュニケーション）・cultural competence（文化的能力）・cultural heritage（文化遺産）のようにグローバルビジネス・教育・政策で幅広く使われる。",
+      derivatives: [
+        { word: "culturally",    desc: "文化的に（副詞）" },
+        { word: "culture",       desc: "文化（名詞）" },
+        { word: "multicultural", desc: "多文化の（接頭辞付き）" }
+      ],
+      family: [
+        { word: "cultivate",   desc: "栽培する・養成する（colere）" },
+        { word: "agriculture", desc: "農業（ager+colere）" },
+        { word: "cult",        desc: "崇拝・宗教的集団（colere）" }
+      ],
+      compounds: [
+        { phrase: "cultural diversity",  desc: "文化的多様性" },
+        { phrase: "cultural exchange",   desc: "文化交流" },
+        { phrase: "cross-cultural",      desc: "異文化間の" }
+      ]
+    },
+
+    "statistical": {
+      origin: "ラテン語 status（状態・立場）+ -istic（形容詞接尾辞）+ -al（形容詞接尾辞）。「統計の・統計的な」が原義。statistics（統計学）・state（状態・国家）・estate（財産・地位）と同根の status を共有し、「国家の状態を数値で把握する」ことが統計学の起源と一致している。\n\n英語には18世紀末、ドイツの Statistik（国家の学）概念が英語に輸入され定着。数学・科学・社会科学で「数値データ・確率・推定に関わる」という意味で必須の形容詞として機能し、statistical analysis（統計分析）・statistical significance（統計的有意性）のように研究・報告書で頻繁に使われる。\n\n現代英語では statistical significance（統計的有意性）・statistical model（統計モデル）・statistical error（統計誤差）のように研究・データサイエンスで不可欠な語となっており、big data 時代に重要性が増している。",
+      derivatives: [
+        { word: "statistically",  desc: "統計的に（副詞）" },
+        { word: "statistics",     desc: "統計学・統計（名詞）" },
+        { word: "statistician",   desc: "統計学者（名詞）" }
+      ],
+      family: [
+        { word: "state",   desc: "状態・国家（status）" },
+        { word: "status",  desc: "状況・地位（同根）" },
+        { word: "estate",  desc: "財産・地所（status）" }
+      ],
+      compounds: [
+        { phrase: "statistical analysis",     desc: "統計分析" },
+        { phrase: "statistical significance", desc: "統計的有意性" },
+        { phrase: "statistical model",        desc: "統計モデル" }
+      ]
+    },
+
+    "anthropological": {
+      origin: "ギリシャ語 anthropos（人間）+ logos（学・理）+ -ical（形容詞接尾辞）。「人類学の・人類学的な」が原義。anthropology（人類学）・philanthropy（博愛、philo+anthropos）・misanthropy（人間嫌い）と同根の anthropos を含む。\n\n英語には19世紀初頭、人類学が独立した学問分野として確立されるとともに定着。人類学・考古学・文化研究で「人類の起源・文化・社会構造を学問的に研究する」という意味で重要な形容詞として機能し、anthropological research（人類学的研究）・anthropological perspective（人類学的視点）のように学術文脈で使われる。\n\n現代英語では anthropological fieldwork（人類学的フィールドワーク）・anthropological study（人類学的研究）のように学術専門語として使われ、cultural anthropology（文化人類学）・physical anthropology（自然人類学）という細分野でも中核を成す形容詞として機能する。",
+      derivatives: [
+        { word: "anthropologically",  desc: "人類学的に（副詞）" },
+        { word: "anthropology",       desc: "人類学（名詞）" },
+        { word: "anthropologist",     desc: "人類学者（名詞）" }
+      ],
+      family: [
+        { word: "philanthropy",   desc: "博愛・慈善（philo+anthropos）" },
+        { word: "misanthropy",    desc: "人間嫌い（misos+anthropos）" },
+        { word: "anthropocentric", desc: "人間中心の（anthropos+kentron）" }
+      ],
+      compounds: [
+        { phrase: "anthropological research",   desc: "人類学的研究" },
+        { phrase: "anthropological perspective", desc: "人類学的視点" }
+      ]
+    },
+
+    "ecological": {
+      origin: "ギリシャ語 oikos（家・生息地）+ logos（学・理）+ -ical（形容詞接尾辞）。「生態学の・生態的な」が原義。ecology（生態学）・economy（経済）と同根の oikos を共有し、「生物の住む家＝生態系の学問」というイメージを持つ。\n\n英語には19世紀末、エルンスト・ヘッケルが Ökologie という学問分野を提唱したことで定着。生物学・環境科学・政策で「生物と環境の相互関係に関わる」という意味で重要な形容詞として機能し、ecological balance（生態的バランス）・ecological footprint（生態的フットプリント）のように環境議論の核心語として使われる。\n\n現代英語では ecological crisis（生態的危機）・ecological sustainability（生態的持続可能性）・ecological diversity（生態的多様性）のように環境政策・サステナビリティ分野で特に重要性が増しており、climate change 議論の中心語のひとつとなっている。",
+      derivatives: [
+        { word: "ecologically",  desc: "生態学的に（副詞）" },
+        { word: "ecology",       desc: "生態学（名詞）" },
+        { word: "ecologist",     desc: "生態学者（名詞）" }
+      ],
+      family: [
+        { word: "ecosystem",  desc: "生態系（oikos+systema）" },
+        { word: "economy",    desc: "経済（oikos+nomos）" },
+        { word: "biome",      desc: "バイオーム・生物群系" }
+      ],
+      compounds: [
+        { phrase: "ecological balance",       desc: "生態的バランス" },
+        { phrase: "ecological footprint",     desc: "生態的フットプリント" },
+        { phrase: "ecological sustainability", desc: "生態的持続可能性" }
+      ]
+    },
+
+    "philosophical": {
+      origin: "ギリシャ語 philosophia（知を愛すること）< philos（愛する）+ sophia（知恵）+ -ical（形容詞接尾辞）。「哲学の・哲学的な」が原義。philosophy（哲学）・philology（文献学）・sophomore（二年生、sophos+moros）と同根の要素を含む。\n\n英語には14世紀に採用され、「知的・思索的・哲学に関わる」の意味で定着。学術・倫理学・日常語で「深い思索・原理・価値観に関わる」という意味で使われ、philosophical debate（哲学的議論）・philosophical approach（哲学的アプローチ）のように広い文脈で機能する。\n\n現代英語では philosophical difference（哲学的相違）・philosophical question（哲学的問い）のように学術専門語として使われるとともに、「困難に動じない・超然とした」という日常的意味（be philosophical about failure＝失敗を達観する）でも広く使われる。",
+      derivatives: [
+        { word: "philosophically",  desc: "哲学的に・達観して（副詞）" },
+        { word: "philosophy",       desc: "哲学（名詞）" },
+        { word: "philosopher",      desc: "哲学者（名詞）" }
+      ],
+      family: [
+        { word: "philanthropy",  desc: "博愛（philos+anthropos）" },
+        { word: "philology",     desc: "文献学（philos+logos）" },
+        { word: "sophisticated", desc: "洗練された（sophia）" }
+      ],
+      compounds: [
+        { phrase: "philosophical debate",   desc: "哲学的議論" },
+        { phrase: "philosophical approach", desc: "哲学的アプローチ" },
+        { phrase: "philosophical question", desc: "哲学的問い" }
+      ]
+    },
+
+    "ideological": {
+      origin: "ギリシャ語 idea（形・概念）+ logos（学・理）+ -ical（形容詞接尾辞）。「イデオロギーの・思想的な」が原義。ideology（イデオロギー）・idea（概念）・ideal（理想）と同根の idea を含む。18世紀フランスの哲学者デステュット・ド・トラシが「観念の科学」として idéologie を提唱したことに由来する。\n\n英語には19世紀初頭に採用され、政治・社会・哲学で「特定の思想体系・価値観体系に関わる」の意味で定着。政治学・社会学・メディア研究で ideological conflict（イデオロギー的対立）・ideological stance（思想的立場）のように政治・社会分析で核心語として機能する。\n\n現代英語では ideological divide（思想的分断）・ideological bias（イデオロギー的偏向）のように政治・メディア文脈で頻用され、特に冷戦期以降は左右対立・政治思想分析の必須語となっている。",
+      derivatives: [
+        { word: "ideologically",  desc: "イデオロギー的に（副詞）" },
+        { word: "ideology",       desc: "イデオロギー・思想体系（名詞）" },
+        { word: "ideologue",      desc: "イデオロギスト（名詞）" }
+      ],
+      family: [
+        { word: "idea",   desc: "概念・アイデア（同根）" },
+        { word: "ideal",  desc: "理想・理想的な（同根）" },
+        { word: "idyll",  desc: "牧歌・理想郷（同語源）" }
+      ],
+      compounds: [
+        { phrase: "ideological conflict", desc: "イデオロギー的対立" },
+        { phrase: "ideological divide",   desc: "思想的分断" },
+        { phrase: "ideological bias",     desc: "イデオロギー的偏向" }
+      ]
+    },
+
+    "rhetorical": {
+      origin: "ギリシャ語 rhetorike（弁論術）< rhetor（弁論家・話し手）< rhema（言葉・発言）+ -ical（形容詞接尾辞）。「修辞的な・弁論の」が原義。rhetoric（修辞学）・rhyme（韻）と関連し、「説得のために言葉を巧みに操る技術」というイメージを持つ。\n\n英語には15世紀に採用され、「修辞法・弁論術に関わる」の意味で定着。文学・政治・コミュニケーションで rhetorical question（反語・修辞疑問）・rhetorical device（修辞技法）のように議論・文章分析の重要な形容詞として機能し、「実質より表現を重視した」という批判的含意を持つ場合もある。\n\n現代英語では rhetorical question（答えを期待しない修辞的質問）という表現が特によく使われ、rhetorical strategy（修辞戦略）・rhetorical analysis（修辞分析）のように文学・政治分析で幅広く機能する。",
+      derivatives: [
+        { word: "rhetorically",  desc: "修辞的に（副詞）" },
+        { word: "rhetoric",      desc: "修辞学・美辞麗句（名詞）" },
+        { word: "rhetorician",   desc: "修辞学者・雄弁家（名詞）" }
+      ],
+      family: [
+        { word: "rhetoric",   desc: "修辞学（同根）" },
+        { word: "orator",     desc: "雄弁家（orare由来）" },
+        { word: "eloquent",   desc: "雄弁な（e+loqui）" }
+      ],
+      compounds: [
+        { phrase: "rhetorical question",   desc: "修辞的質問・反語" },
+        { phrase: "rhetorical device",     desc: "修辞技法" },
+        { phrase: "rhetorical analysis",   desc: "修辞分析" }
+      ]
+    },
+
+    "metaphorical": {
+      origin: "ギリシャ語 metaphora（転移・比喩）< meta-（超えて・変えて）+ pherein（運ぶ・もたらす）+ -ical（形容詞接尾辞）。「比喩的な・隠喩の」が原義。metaphor（隠喩）・transfer（転送）・defer（先送りする）と同根の pherein を共有し、「意味を別の場所へ運ぶ」というイメージを持つ。\n\n英語には16世紀に採用され、「直接的でなく比喩・隠喩を用いた」の意味で定着。文学・言語学・認知科学で「非文字通りの意味・連想による表現に関わる」という意味で重要な形容詞として機能し、metaphorical expression（比喩的表現）・metaphorical language（比喩的言語）のように分析・教育で使われる。\n\n現代英語では metaphorical sense（比喩的意味）・in a metaphorical way（比喩的に言えば）という表現が日常でも頻用され、認知言語学では conceptual metaphor（概念メタファー）理論の中核語として機能する。",
+      derivatives: [
+        { word: "metaphorically",  desc: "比喩的に（副詞）" },
+        { word: "metaphor",        desc: "隠喩・メタファー（名詞）" },
+        { word: "metaphorics",     desc: "比喩学（専門語）" }
+      ],
+      family: [
+        { word: "transfer",  desc: "転送・移転（trans+ferre）" },
+        { word: "defer",     desc: "先送りする（de+ferre）" },
+        { word: "simile",    desc: "直喩（similis由来）" }
+      ],
+      compounds: [
+        { phrase: "metaphorical expression", desc: "比喩的表現" },
+        { phrase: "metaphorical language",   desc: "比喩的言語" },
+        { phrase: "metaphorically speaking", desc: "比喩的に言えば" }
+      ]
+    },
+
+    "institutional": {
+      origin: "ラテン語 institutio（制定・教育）< in-（中に）+ statuere（立てる・定める）+ -al（形容詞接尾辞）。「機関の・制度的な」が原義。institution（機関・制度）・constitute（構成する）・statute（法令）と同根の statuere を共有する。\n\n英語には17世紀に採用され、「確立された組織・制度に関わる」の意味で定着。政治・教育・経済で「社会的に認められた組織・制度・慣行に関わる」という意味で使われ、institutional reform（制度改革）・institutional framework（制度的枠組み）のように政策・社会分析で重要な形容詞として機能する。\n\n現代英語では institutional racism（制度的人種差別）・institutional investor（機関投資家）・institutional knowledge（組織知識）のように多様な文脈で使われ、「個人でなく制度・システムレベルの問題」を示す語として特に社会問題分析で頻用される。",
+      derivatives: [
+        { word: "institutionally",    desc: "制度的に（副詞）" },
+        { word: "institutionalize",   desc: "制度化する（動詞）" },
+        { word: "institutionalism",   desc: "制度主義（名詞）" }
+      ],
+      family: [
+        { word: "institution",  desc: "機関・制度（名詞）" },
+        { word: "constitute",   desc: "構成する（con+statuere）" },
+        { word: "statute",      desc: "法令（statuere）" }
+      ],
+      compounds: [
+        { phrase: "institutional reform",   desc: "制度改革" },
+        { phrase: "institutional racism",   desc: "制度的人種差別" },
+        { phrase: "institutional investor", desc: "機関投資家" }
+      ]
+    },
+
+    "sequential": {
+      origin: "ラテン語 sequi（続く・従う）+ -ential（形容詞接尾辞）。「順序の・連続的な」が原義。sequence（順序）・sequel（続編）・consequence（結果）・subsequent（その後の）と同根の sequi を共有し、「後に続くことが自然な流れ」というイメージを持つ。\n\n英語には18世紀に採用され、「一定の順序で続く」の意味で定着。数学・コンピュータ科学・教育で sequential processing（順次処理）・sequential order（順序立て）のように「厳密な順番・段階性」を強調する形容詞として機能し、プログラミングの文脈では並行処理（concurrent）と対比されて使われる。\n\n現代英語では sequential steps（段階的手順）・sequential learning（順序学習）・sequential analysis（逐次分析）のように教育・統計・技術で広く使われ、複数の段階を踏む過程を表す際の核心語として機能する。",
+      derivatives: [
+        { word: "sequentially",  desc: "順序立てて（副詞）" },
+        { word: "sequence",      desc: "順序・連続（名詞）" },
+        { word: "sequencing",    desc: "順序付け・配列決定（名詞）" }
+      ],
+      family: [
+        { word: "sequel",       desc: "続編（sequi）" },
+        { word: "consequence",  desc: "結果（con+sequi）" },
+        { word: "subsequent",   desc: "その後の（sub+sequi）" }
+      ],
+      compounds: [
+        { phrase: "sequential order",    desc: "順序立て" },
+        { phrase: "sequential steps",    desc: "段階的手順" },
+        { phrase: "sequential analysis", desc: "逐次分析" }
+      ]
+    },
+
+    "progressive": {
+      origin: "ラテン語 progredi（前進する）< pro-（前に）+ gradi（歩く・進む）+ -ive（形容詞接尾辞）。「進歩的な・段階的な」が原義。progress（進歩）・congress（議会）・aggression（攻撃）と同根の gradi を共有し、「前に向かって歩む」というイメージを持つ。\n\n英語には15世紀に採用され、「徐々に進む・改革志向の」の意味で定着。政治・教育・医学で「段階的に発展する・社会変革を支持する」という意味で使われ、progressive education（進歩主義教育）・progressive policy（進歩的政策）のように政治・社会文脈で頻用される。\n\n現代英語では progressive disease（進行性疾患）・progressive tax（累進課税）のように「段階的に増える・進む」という技術的意味と、「社会的進歩・改革を重視する」という政治的意味の両方で広く使われる。",
+      derivatives: [
+        { word: "progressively",   desc: "だんだんと・次第に（副詞）" },
+        { word: "progressivism",   desc: "進歩主義（名詞）" },
+        { word: "progressiveness", desc: "進歩性（名詞）" }
+      ],
+      family: [
+        { word: "progress",    desc: "進歩・進捗（pro+gradi）" },
+        { word: "congress",    desc: "議会（con+gradi）" },
+        { word: "aggressive",  desc: "攻撃的な（ad+gradi）" }
+      ],
+      compounds: [
+        { phrase: "progressive disease",    desc: "進行性疾患" },
+        { phrase: "progressive tax",        desc: "累進課税" },
+        { phrase: "progressive education",  desc: "進歩主義教育" }
+      ]
+    },
+
+    "substantial": {
+      origin: "ラテン語 substantia（実体・本質）< sub-（下に・根底に）+ stare（立つ・存在する）+ -al（形容詞接尾辞）。「実質的な・相当な」が原義。substance（物質・実質）・stand（立つ）・understand（理解する）と同根の stare を共有し、「根底にしっかり立っているもの」というイメージを持つ。\n\n英語には14世紀に採用され、「真実の・重要な・大きな」の意味で定着。法律・学術・ビジネスで「量・程度が大きい・内容が充実している」という意味で使われ、substantial evidence（実質的証拠）・substantial improvement（大幅な改善）のように正式な文脈で頻用される。\n\n現代英語では substantial progress（相当な進歩）・substantial amount（相当量）・substantial difference（実質的な差異）のように「量的・質的に相当・十分」という意味で広く使われ、formal writing で significant や considerable の類義語として機能する。",
+      derivatives: [
+        { word: "substantially",    desc: "実質的に・相当に（副詞）" },
+        { word: "substantiate",     desc: "実証する・裏付ける（動詞）" },
+        { word: "substantiality",   desc: "実質性・重要性（名詞）" }
+      ],
+      family: [
+        { word: "substance",   desc: "物質・実質（sub+stare）" },
+        { word: "constant",    desc: "一定の（con+stare）" },
+        { word: "understand",  desc: "理解する（under+stare）" }
+      ],
+      compounds: [
+        { phrase: "substantial evidence",    desc: "実質的証拠" },
+        { phrase: "substantial progress",    desc: "相当な進歩" },
+        { phrase: "substantial improvement", desc: "大幅な改善" }
+      ]
+    },
+
+    "differential": {
+      origin: "ラテン語 differre（異なる・先送りする）< dis-（離れて）+ ferre（運ぶ・もたらす）+ -ential（形容詞接尾辞）。「差異の・微分の」が原義。differ（異なる）・difference（差異）・defer（先送りする）と同根の ferre を共有し、「二つのものを離して運ぶ」というイメージから「差異」を表す語に発展した。\n\n英語には17世紀に採用され、「差を示す・差異に関わる」の意味で定着。数学・経済・生物学で differential equation（微分方程式）・differential pricing（差別価格）・differential diagnosis（鑑別診断）のように「二つ以上のものの差・変化率」を扱う場面で必須の形容詞・名詞として機能する。\n\n現代英語では wage differential（賃金格差）・differential treatment（差別的取扱い）・differential calculus（微分学）のように数学・経済・医療で幅広く使われ、名詞としても「差・格差」を意味する重要語として機能する。",
+      derivatives: [
+        { word: "differentially",   desc: "差異的に（副詞）" },
+        { word: "differentiate",    desc: "区別する・微分する（動詞）" },
+        { word: "differentiation",  desc: "差別化・微分（名詞）" }
+      ],
+      family: [
+        { word: "differ",     desc: "異なる（dis+ferre）" },
+        { word: "defer",      desc: "先送りする（de+ferre）" },
+        { word: "transfer",   desc: "転送する（trans+ferre）" }
+      ],
+      compounds: [
+        { phrase: "differential equation",  desc: "微分方程式" },
+        { phrase: "wage differential",      desc: "賃金格差" },
+        { phrase: "differential diagnosis", desc: "鑑別診断" }
+      ]
+    },
+
+    "hierarchical": {
+      origin: "ギリシャ語 hierarchia（聖職者の支配）< hieros（神聖な）+ archein（支配する・率いる）+ -ical（形容詞接尾辞）。「階層的な・序列の」が原義。hierarchy（階層）・anarchy（無政府）・monarch（君主）と同根の archein を含み、もとはキリスト教の天使・聖職者の位階秩序を指した語が、一般的な「階層構造」を意味するよう拡大した。\n\n英語には15世紀に宗教的階層制から採用され、「上下の順位関係に基づく」の意味で定着。組織論・コンピュータ科学・生物学で hierarchical structure（階層構造）・hierarchical system（階層システム）のように「多段階の上下関係」を表す形容詞として機能する。\n\n現代英語では hierarchical organization（階層的組織）・hierarchical model（階層モデル）・hierarchical data（階層データ）のように企業組織・データベース・生態学で広く使われ、flat organization（フラットな組織）の対義語として組織論で頻用される。",
+      derivatives: [
+        { word: "hierarchically",  desc: "階層的に（副詞）" },
+        { word: "hierarchy",       desc: "階層・ヒエラルキー（名詞）" },
+        { word: "hierarchize",     desc: "階層化する（動詞）" }
+      ],
+      family: [
+        { word: "anarchy",   desc: "無政府（an+archein）" },
+        { word: "monarch",   desc: "君主（mono+archein）" },
+        { word: "oligarchy", desc: "寡頭制（oligos+archein）" }
+      ],
+      compounds: [
+        { phrase: "hierarchical structure", desc: "階層構造" },
+        { phrase: "hierarchical system",    desc: "階層システム" },
+        { phrase: "hierarchical model",     desc: "階層モデル" }
+      ]
+    },
+
+    "categorical": {
+      origin: "ギリシャ語 kategoria（主張・帰属）< kata-（下に・について）+ agoreuein（公に述べる）< agora（広場）+ -ical（形容詞接尾辞）。「絶対的な・カテゴリーの」が原義。category（カテゴリー）・categorize（分類する）と同根で、アリストテレスが事物を述語で分類した「カテゴリー論」に由来する。\n\n英語には16世紀に哲学用語として採用され、「明確な区分に属する・条件なく絶対の」の意味で定着。論理学・倫理学・統計で categorical denial（断固たる否定）・categorical imperative（定言命法）・categorical variable（カテゴリー変数）のように「曖昧さなく明確な」という意味で使われる。\n\n現代英語では categorical statement（断定的発言）・categorical refusal（断固たる拒否）のように「明確・絶対的な」という意味での日常使用と、categorical variable（カテゴリー変数）のような統計用語としての使用が並立している。",
+      derivatives: [
+        { word: "categorically",  desc: "断固として・絶対的に（副詞）" },
+        { word: "categorize",     desc: "分類する（動詞）" },
+        { word: "categorization", desc: "分類・カテゴリー化（名詞）" }
+      ],
+      family: [
+        { word: "category",    desc: "カテゴリー・範疇（名詞）" },
+        { word: "allegory",    desc: "寓意・アレゴリー（allo+agora）" },
+        { word: "panegyric",   desc: "賞賛演説（pan+agora）" }
+      ],
+      compounds: [
+        { phrase: "categorical denial",     desc: "断固たる否定" },
+        { phrase: "categorical imperative", desc: "定言命法（カント）" },
+        { phrase: "categorical variable",   desc: "カテゴリー変数" }
+      ]
+    },
+
+    "contextual": {
+      origin: "ラテン語 contextus（連結・文脈）< con-（共に）+ texere（織る・編む）+ -al（形容詞接尾辞）。「文脈の・状況に応じた」が原義。context（文脈）・text（テキスト）・texture（質感）と同根の texere を共有し、「糸を共に織り合わせるように言葉・意味を結びつける」というイメージを持つ。\n\n英語には17世紀に採用され、「周囲の状況・文脈に関わる」の意味で定着。言語学・教育・ビジネスで「意味や理解が置かれた状況に依存する」という意味で使われ、contextual understanding（文脈的理解）・contextual clues（文脈上のヒント）のように言語教育・分析で頻用される。\n\n現代英語では contextual information（文脈情報）・contextual awareness（文脈的認識）・contextual learning（文脈的学習）のように教育・AI・コミュニケーション分野で広く使われ、「文脈から切り離してはならない」という解釈原則を示す語として機能する。",
+      derivatives: [
+        { word: "contextually",   desc: "文脈的に（副詞）" },
+        { word: "contextualize",  desc: "文脈化する（動詞）" },
+        { word: "contextualization", desc: "文脈化（名詞）" }
+      ],
+      family: [
+        { word: "context",   desc: "文脈・状況（con+texere）" },
+        { word: "text",      desc: "テキスト・文章（texere）" },
+        { word: "texture",   desc: "質感・構造（texere）" }
+      ],
+      compounds: [
+        { phrase: "contextual clues",       desc: "文脈上のヒント" },
+        { phrase: "contextual understanding", desc: "文脈的理解" },
+        { phrase: "contextual information", desc: "文脈情報" }
+      ]
+    },
+
+    "collaborative": {
+      origin: "ラテン語 collaborare（共に働く）< col-（共に）+ laborare（働く・苦労する）+ -ive（形容詞接尾辞）。「協力的な・共同の」が原義。collaborate（協力する）・labor（労働）・elaborate（精巧な）と同根の laborare を共有し、「共に苦労して働く」というイメージを持つ。\n\n英語には19世紀後半に採用され、「他者と協力して取り組む」の意味で定着。ビジネス・教育・科学で「個人でなくチームで取り組む」という意味で使われ、collaborative work（共同作業）・collaborative learning（協調学習）のように現代の組織論・教育理論の核心語として機能する。\n\n現代英語では collaborative effort（協力的な取り組み）・collaborative environment（協力的環境）・collaborative research（共同研究）のように職場・学術・テクノロジー分野で広く使われ、特にリモートワーク・オープンソース文化の発展とともに重要性が増している語である。",
+      derivatives: [
+        { word: "collaboratively",   desc: "協力して（副詞）" },
+        { word: "collaboration",     desc: "協力・共同作業（名詞）" },
+        { word: "collaborator",      desc: "協力者・共同研究者（名詞）" }
+      ],
+      family: [
+        { word: "labor",      desc: "労働・苦労（laborare）" },
+        { word: "elaborate",  desc: "精巧な・詳述する（e+laborare）" },
+        { word: "laborious",  desc: "骨の折れる（laborare）" }
+      ],
+      compounds: [
+        { phrase: "collaborative work",     desc: "共同作業" },
+        { phrase: "collaborative learning", desc: "協調学習" },
+        { phrase: "collaborative effort",   desc: "協力的な取り組み" }
+      ]
     }
 
   };

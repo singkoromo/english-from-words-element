@@ -7666,6 +7666,347 @@
         { phrase: "child neglect",     desc: "育児放棄・子どもへの放置" },
         { phrase: "criminal negligence", desc: "刑事上の過失" }
       ]
+    },
+
+    // ── valere系（強い・価値がある）──
+    "value": {
+      origin: "ラテン語 valere（強い・価値がある・健康である）< 印欧語根 *wal-（強い）。valere から valuta（通貨価値）が生まれ、古フランス語 value を経て13世紀に英語に入った。\n\n「価値」「金額」「重要性」という三つの主要な意味を持つ多義語。material value（物質的価値）、core values（中核的な価値観）、value for money（コストパフォーマンス）のように使われる。\n\n動詞としては「〜を大切にする・〜を高く評価する」という意味になり、"I value your opinion."（あなたの意見を大切にしています）のように使われる。",
+      derivatives: [
+        { word: "valuable",     desc: "価値のある・貴重な（形容詞）" },
+        { word: "invaluable",   desc: "非常に貴重な（in- + valuable の逆説的強調）" },
+        { word: "valuation",    desc: "評価額・鑑定（名詞）" }
+      ],
+      family: [
+        { word: "valid",        desc: "有効な・妥当な（validus 強い）" },
+        { word: "evaluate",     desc: "評価する（e- + valere）" },
+        { word: "equivalent",   desc: "同等の（aequi- + valere）" },
+        { word: "valor",        desc: "勇気・勇敢さ（valor < valere）" }
+      ],
+      compounds: [
+        { phrase: "core values",      desc: "中核的な価値観・コアバリュー" },
+        { phrase: "value for money",  desc: "コスパ・費用対効果" }
+      ]
+    },
+
+    "valid": {
+      origin: "ラテン語 validus（強い・力のある・法的に有効な）< valere（強い・健康である）。「十分に力がある＝法的に効力がある・論理的に正当な」というのが語源的な意味。\n\n16世紀に英語に入り「（1）法的に有効な（2）論理的に正当な・根拠のある」という形容詞として定着。valid passport（有効なパスポート）、valid argument（妥当な論拠）のように使われる。\n\nvalidate（有効性を確認する）、validation（検証・有効確認）はIT・テスト・法律で重要語。"Your feelings are valid."（あなたの気持ちは正当だ）のように「認める・正当化する」という心理的文脈でも使われる。",
+      derivatives: [
+        { word: "validate",      desc: "有効性を確認する・認める（動詞）" },
+        { word: "validity",      desc: "有効性・妥当性（名詞）" },
+        { word: "invalid",       desc: "無効の（in- + valid）" },
+        { word: "validation",    desc: "検証・有効確認・承認（名詞）" }
+      ],
+      family: [
+        { word: "value",         desc: "価値・価値観（valere）" },
+        { word: "evaluate",      desc: "評価する（e- + valere）" },
+        { word: "equivalent",    desc: "同等の（aequi- + valere）" }
+      ],
+      compounds: [
+        { phrase: "valid argument",   desc: "妥当な論拠・有効な論証" },
+        { phrase: "validate input",   desc: "入力値を検証する（IT）" }
+      ]
+    },
+
+    "evaluate": {
+      origin: "フランス語 évaluer（価値を定める）< e-（外へ）+ valuer（価値をつける）< ラテン語 valere（価値がある）。「ある対象の価値・質・量を外に向けて測り出す」というのが語源的な意味。\n\n19世紀に英語に定着し「（客観的に）評価する・査定する」という動詞として幅広く使われる。evaluate performance（業績を評価する）、evaluate risks（リスクを評価する）、evaluate evidence（証拠を評価する）のように、教育・ビジネス・科学・法律のあらゆる分野で重要語。\n\nevaluation（評価・査定）という名詞は、形成的評価（formative evaluation）と総括的評価（summative evaluation）という教育・プログラム評価の重要概念に使われる。",
+      derivatives: [
+        { word: "evaluation",    desc: "評価・査定・アセスメント（名詞）" },
+        { word: "evaluator",     desc: "評価者・審査者（名詞）" }
+      ],
+      family: [
+        { word: "value",         desc: "価値（valere）" },
+        { word: "valid",         desc: "有効な（validus）" },
+        { word: "equivalent",    desc: "同等の（aequi + valere）" }
+      ],
+      compounds: [
+        { phrase: "performance evaluation",  desc: "業績評価・人事考課" },
+        { phrase: "risk evaluation",         desc: "リスク評価" }
+      ]
+    },
+
+    "equivalent": {
+      origin: "ラテン語 aequivalens（等しく価値がある）< aequi-（等しく）+ valere（価値がある・強い）の現在分詞。「同じだけの価値・量・意味を持つ」というのが語源的な意味。\n\n15世紀に英語に入り「同等の・同量の・相当する（形容詞）」と「相当物・等価物（名詞）」として定着。the equivalent of（〜に相当するもの）、fuel equivalent（燃料換算）のように使われる。\n\n数学では equivalence（同値関係）、化学では chemical equivalents（化学当量）として専門的に使われる。",
+      derivatives: [
+        { word: "equivalence",    desc: "同等性・同値（名詞）" },
+        { word: "equivalently",   desc: "同等に・言い換えると（副詞）" }
+      ],
+      family: [
+        { word: "value",          desc: "価値（valere）" },
+        { word: "valid",          desc: "有効な（validus）" },
+        { word: "evaluate",       desc: "評価する（e- + valere）" },
+        { word: "equal",          desc: "等しい（aequalis < aequus）" }
+      ],
+      compounds: [
+        { phrase: "the equivalent of",  desc: "〜に相当するもの・〜の等価物" },
+        { phrase: "full-time equivalent", desc: "フルタイム換算（FTE・人員管理）" }
+      ]
+    },
+
+    // ── liber系（自由）──
+    "liberty": {
+      origin: "ラテン語 libertas（自由）< liber（自由な）。liber の印欧語根 *leudhero-（自由な・成長する）はギリシャ語 eleutheros（自由な）とも関連する。ローマ法では libertas は奴隷の対義語として「自由人の身分」を指した。\n\n14世紀に英語に入り「（政治的）自由・解放・権利」という意味で定着。the Statue of Liberty（自由の女神像、ニューヨーク）、liberty of speech（言論の自由）は重要な文化・政治的象徴語。\n\ntake the liberty of doing（失礼を承知で〜する）は丁寧な英語表現の定型句。freedom より formal・historical な響きを持つ語として、政治的権利の文脈で使われることが多い。",
+      derivatives: [
+        { word: "liberties",     desc: "自由（複数形）・行き過ぎた行動" }
+      ],
+      family: [
+        { word: "liberal",       desc: "自由主義的な・惜しみない（liberalis）" },
+        { word: "liberate",      desc: "解放する（liberare）" },
+        { word: "liberation",    desc: "解放・リベレーション（名詞）" },
+        { word: "deliver",       desc: "届ける・解放する（de- + liberare）" }
+      ],
+      compounds: [
+        { phrase: "take the liberty of",  desc: "失礼を承知で〜する" },
+        { phrase: "civil liberties",      desc: "市民的自由（言論・集会の自由など）" }
+      ]
+    },
+
+    "liberal": {
+      origin: "ラテン語 liberalis（自由な人にふさわしい・寛大な）< liber（自由な）。古典的には「自由市民にふさわしい教育（liberal arts = 自由7科）」を指した。\n\n15世紀の英語に入り当初は「寛大な・気前のよい」という意味で使われたが、18〜19世紀の政治思想の発展とともに「個人の自由・平等・政府の制限を重視する政治的立場（自由主義）」という意味が中心になった。\n\n現代英語では政治的文脈と「寛大な」という一般的文脈で使い分けられる。a liberal arts education（リベラルアーツ教育）は「特定の職業訓練でなく幅広い教養を育む教育」を指す。",
+      derivatives: [
+        { word: "liberalism",    desc: "自由主義・リベラリズム（名詞）" },
+        { word: "liberally",     desc: "惜しみなく・自由主義的に（副詞）" }
+      ],
+      family: [
+        { word: "liberty",       desc: "自由（libertas）" },
+        { word: "liberate",      desc: "解放する（liberare）" },
+        { word: "deliver",       desc: "届ける・解放する（de- + liberare）" }
+      ],
+      compounds: [
+        { phrase: "liberal arts",         desc: "教養課程・リベラルアーツ" },
+        { phrase: "liberal democracy",    desc: "自由民主主義" }
+      ]
+    },
+
+    "liberate": {
+      origin: "ラテン語 liberare（自由にする・解放する）< liber（自由な）。「束縛や制約から解き放つ」というのが語源的な意味。\n\n17世紀に英語に入り「（抑圧・占領・制約から）解放する・自由にする」という動詞として定着。liberate a country（国を解放する）、liberate oneself from（〜から自分を解放する）のように使われる。\n\nliberation（解放）という名詞は女性解放運動（women's liberation）、民族解放運動（national liberation movement）のように20世紀の社会運動の中心語として使われた。",
+      derivatives: [
+        { word: "liberation",    desc: "解放・リベレーション（名詞）" },
+        { word: "liberator",     desc: "解放者・解放者（名詞）" }
+      ],
+      family: [
+        { word: "liberty",       desc: "自由（libertas）" },
+        { word: "liberal",       desc: "自由主義的な（liberalis）" },
+        { word: "deliver",       desc: "届ける・解放する（de- + liberare）" }
+      ],
+      compounds: [
+        { phrase: "national liberation",  desc: "民族解放" },
+        { phrase: "women's liberation",   desc: "女性解放（運動）" }
+      ]
+    },
+
+    // ── fides系（信頼・信仰）──
+    "confident": {
+      origin: "ラテン語 confidens（信頼している）< confidere（完全に信頼する）< con-（強調）+ fidere（信頼する・信じる）< fides（信頼・信仰）。「自分自身に完全に信頼を置いている」というのが語源的な意味で、自己信頼・自信を表す。\n\n16世紀に英語に入り「自信がある・確信している」という形容詞として定着。confident about（〜について自信がある）、confident that（〜であると確信している）が基本構文。\n\nself-confident（自信に満ちた）、confidence（自信・信頼・秘密事項）という派生語も重要。in confidence（内密に）、take someone into one's confidence（〜に打ち明ける）は重要なイディオム。",
+      derivatives: [
+        { word: "confidence",     desc: "自信・信頼・秘密（名詞）" },
+        { word: "confidently",    desc: "自信を持って（副詞）" },
+        { word: "self-confident", desc: "自信に満ちた（複合形容詞）" }
+      ],
+      family: [
+        { word: "confide",        desc: "打ち明ける・信頼する（con- + fidere）" },
+        { word: "fidelity",       desc: "忠実さ・忠誠（fidelitas < fides）" },
+        { word: "fiance",         desc: "婚約者（se fier 信頼する）" },
+        { word: "defiant",        desc: "反抗的な（de- 反対 + fidere）" }
+      ],
+      compounds: [
+        { phrase: "in confidence",         desc: "内密に・秘密として" },
+        { phrase: "confidence interval",   desc: "信頼区間（統計）" }
+      ]
+    },
+
+    "confide": {
+      origin: "ラテン語 confidere（完全に信頼する）< con-（強調）+ fidere（信頼する・信じる）。「完全に信頼を置いて秘密を打ち明ける」というのが語源的な意味。\n\n16世紀に英語に入り「（秘密・心配を）打ち明ける・（〜に）信頼する」という動詞として定着。confide in someone（〜に打ち明ける・〜を信頼する）という構文が基本。\n\nconfidential（機密の・内密の）という形容詞は「打ち明けられた情報を指す」という語源から来ており、confidential document（機密文書）、confidentiality agreement（守秘義務契約）のように法律・ビジネスで重要語。",
+      derivatives: [
+        { word: "confidential",    desc: "機密の・内密の（形容詞）" },
+        { word: "confidentiality", desc: "機密性・守秘義務（名詞）" }
+      ],
+      family: [
+        { word: "confident",      desc: "自信がある（con- + fidere）" },
+        { word: "fidelity",       desc: "忠実さ・忠誠（fides）" },
+        { word: "infidel",        desc: "不信心者・異教徒（in- + fidelis）" }
+      ],
+      compounds: [
+        { phrase: "confide in",          desc: "〜に打ち明ける・〜を信頼する" },
+        { phrase: "confidentiality agreement", desc: "守秘義務契約（NDA）" }
+      ]
+    },
+
+    "fidelity": {
+      origin: "ラテン語 fidelitas（忠実さ・誠実さ）< fidelis（忠実な）< fides（信頼・信仰）。「信頼に応え続ける誠実さ」というのが語源的な意味。\n\n15世紀に英語に入り「（1）忠実さ・誠実さ（2）（音声・映像の）再現の正確さ（high fidelity = hi-fi）」という二つの主要な意味で使われる。marital fidelity（夫婦間の誠実さ）、brand fidelity（ブランドへの忠誠心）のほか、高音質オーディオを hi-fi（high fidelity）と呼ぶ。\n\ninfidelity（不貞・不誠実）は否定接頭辞 in- を付けた反義語で、特に婚姻関係での不貞を指す。",
+      derivatives: [
+        { word: "infidelity",     desc: "不誠実・不貞（in- + fidelity）" }
+      ],
+      family: [
+        { word: "confident",      desc: "自信がある（con- + fidere）" },
+        { word: "confide",        desc: "打ち明ける（con- + fidere）" },
+        { word: "fiancé",         desc: "婚約者（se fier < fides）" },
+        { word: "bona fide",      desc: "真正の・誠実な（bona 良い + fides）" }
+      ],
+      compounds: [
+        { phrase: "high fidelity",  desc: "高忠実度・ハイファイ（hi-fi オーディオ）" },
+        { phrase: "brand fidelity", desc: "ブランド忠誠心" }
+      ]
+    },
+
+    // ── varius系（さまざまな）──
+    "various": {
+      origin: "ラテン語 varius（さまざまな・斑の・多様な）。印欧語根 *wer-（曲がる・変わる）に由来し、色が斑になっているような「変化に富んだ」というのが原義。\n\n14世紀に英語に入り「さまざまな・多様な・いろいろな」という形容詞として定着。"various reasons"（さまざまな理由）、"various options"（いくつかの選択肢）のように、複数の異なるものを列挙する際に使われる。\n\nvary（変化する）、variety（多様性）、variable（変動する）、variation（バリエーション）という関連語を覚えると、「変化・多様性」に関する語彙が体系的に整理できる。",
+      derivatives: [
+        { word: "variously",     desc: "さまざまな形で・いくつかの面で（副詞）" }
+      ],
+      family: [
+        { word: "vary",          desc: "変化する・異なる（variare）" },
+        { word: "variety",       desc: "多様性・種類（varietas）" },
+        { word: "variable",      desc: "変動する・変数（variabilis）" },
+        { word: "variation",     desc: "変化・バリエーション（variatio）" }
+      ],
+      compounds: [
+        { phrase: "various reasons",   desc: "さまざまな理由" },
+        { phrase: "in various ways",   desc: "さまざまな方法で" }
+      ]
+    },
+
+    "variety": {
+      origin: "ラテン語 varietas（多様性・バリエーション）< varius（さまざまな）。「一つのカテゴリー内にある異なる種類・形」を指す名詞として発展した。\n\n15世紀に英語に入り「（1）多様性・変化に富んでいること（2）種類・バリエーション（3）バラエティ（ショー・番組）」という意味で定着。Variety is the spice of life.（変化は人生のスパイス）は英語の有名な格言。\n\na variety of（さまざまな〜）は英語で「複数の異なる種類の〜」を表す頻出表現。品種改良・農業では variety（品種）として使われ、Fuji variety（富士品種）のような用法もある。",
+      derivatives: [
+        { word: "varied",         desc: "多様な・変化に富んだ（形容詞）" }
+      ],
+      family: [
+        { word: "various",        desc: "さまざまな（varius）" },
+        { word: "vary",           desc: "変化する（variare）" },
+        { word: "variable",       desc: "変動する・変数（variabilis）" },
+        { word: "invariable",     desc: "一定の・変わらない（in- + variabilis）" }
+      ],
+      compounds: [
+        { phrase: "a variety of",          desc: "さまざまな〜・多様な〜" },
+        { phrase: "variety show",          desc: "バラエティ番組" }
+      ]
+    },
+
+    // ── gradus / gressus系残り ──
+    "progress": {
+      origin: "ラテン語 progressus（前進）< progredi（前に進む）< pro-（前に）+ gradi（歩む）。「前に向かって歩み続ける」というのが語源的な意味で、time の経過とともに前進するイメージ。\n\n15世紀に英語に入り「（前進・改善という）進歩・進展（名詞）」と「進歩する・前進する（動詞）」の両義で使われる。名詞は /ˈproʊɡres/（プロ'グレス）、動詞は /prəˈɡres/（プログレ'ス）と アクセントが異なる。\n\nin progress（進行中）はプロジェクト管理の重要表現。make progress（進歩を遂げる）、technological progress（技術進歩）のように使われる。",
+      derivatives: [
+        { word: "progressive",    desc: "進歩的な・段階的な（形容詞）" },
+        { word: "progression",    desc: "前進・数列・病気の進行（名詞）" }
+      ],
+      family: [
+        { word: "grade",          desc: "等級・段階（gradus）" },
+        { word: "graduate",       desc: "卒業する（gradus）" },
+        { word: "congress",       desc: "議会（con- 共に + gradi）" },
+        { word: "aggressive",     desc: "攻撃的な（ad- + gradi）" }
+      ],
+      compounds: [
+        { phrase: "in progress",      desc: "進行中・作業中" },
+        { phrase: "make progress",    desc: "進歩する・前進する" }
+      ]
+    },
+
+    "aggressive": {
+      origin: "ラテン語 aggressivus（攻撃的な）< aggredi（攻撃する・接近する）< ad-（〜へ）+ gradi（歩む）。「相手に向かって歩み寄る・攻めかかる」というのが語源的な意味。\n\n17世紀に英語に入り「（1）攻撃的な・好戦的な（2）積極的な・精力的な」という形容詞として定着。軍事・心理学では「攻撃性（aggression）」という否定的な概念として使われる一方、ビジネスでは aggressive sales strategy（積極的な販売戦略）のように肯定的な意味で使われることもある。\n\nthe United States was accused of aggression（米国が侵略と非難された）のように国際政治語彙としても重要。",
+      derivatives: [
+        { word: "aggression",     desc: "攻撃性・侵略行為（名詞）" },
+        { word: "aggressively",   desc: "攻撃的に・積極的に（副詞）" },
+        { word: "aggressor",      desc: "侵略者・攻撃した側（名詞）" }
+      ],
+      family: [
+        { word: "progress",       desc: "進歩（pro- + gradi）" },
+        { word: "congress",       desc: "議会（con- + gradi）" },
+        { word: "grade",          desc: "等級（gradus）" }
+      ],
+      compounds: [
+        { phrase: "aggressive strategy",   desc: "攻撃的な・積極的な戦略" },
+        { phrase: "act of aggression",     desc: "侵略行為" }
+      ]
+    },
+
+    // ── privus系（個別の・独自の）──
+    "private": {
+      origin: "ラテン語 privatus（公的でない・個人の・官職から切り離された）< privare（切り離す）< privus（個人の）。「公から切り離された個人の領域」というのが語源的な意味。\n\n15世紀に英語に入り「（1）個人的な・プライベートな（2）公開されていない・秘密の（3）私立の（private school）（4）一般兵士（二等兵）」という多義語として定着。\n\npublic（公的）の対義語として機能する基本語で、private sector（民間部門）、private school（私立学校）、keep something private（内密にしておく）のように使われる。",
+      derivatives: [
+        { word: "privately",     desc: "個人的に・内密に（副詞）" },
+        { word: "privacy",       desc: "プライバシー・個人の秘密（名詞）" }
+      ],
+      family: [
+        { word: "privilege",     desc: "特権（privata lex 個人の法）" },
+        { word: "deprive",       desc: "奪う（de- + privare）" },
+        { word: "public",        desc: "公共の（対義語）" }
+      ],
+      compounds: [
+        { phrase: "private sector",    desc: "民間部門・民間企業" },
+        { phrase: "private school",    desc: "私立学校" },
+        { phrase: "privacy policy",    desc: "プライバシーポリシー" }
+      ]
+    },
+
+    "privilege": {
+      origin: "ラテン語 privilegium（特定の個人のための法律）< privus（個別の）+ lex / legis（法律）。「ある個人・集団だけに与えられた特別な法的権利」というのが語源的な意味。\n\n13世紀のフランス語経由で英語に入り「特権・特典・恵まれた地位」という名詞として定着。現代では social privilege（社会的特権 ＝ 生まれや属性によって得られる不公平な優遇）という文脈で重要な社会的議論の語になっている。\n\nprivileged（特権を持った・恵まれた）という形容詞は "It's a privilege to meet you."（お会いできて光栄です）という丁寧な表現にも使われる。",
+      derivatives: [
+        { word: "privileged",    desc: "特権を持った・恵まれた（形容詞）" }
+      ],
+      family: [
+        { word: "private",       desc: "個人的な（privus）" },
+        { word: "deprive",       desc: "奪う（de- + privare）" },
+        { word: "legal",         desc: "法的な（lex）" }
+      ],
+      compounds: [
+        { phrase: "social privilege",     desc: "社会的特権・属性による優遇" },
+        { phrase: "privilege to do",      desc: "〜できることは光栄です" }
+      ]
+    },
+
+    "deprive": {
+      origin: "ラテン語 deprivare（完全に切り離す・剥奪する）< de-（完全に・離れて）+ privare（切り離す・個別にする）< privus（個別の）。「何かを（人・場所から）完全に切り離して奪う」というのが語源的なイメージ。\n\n14世紀に英語に入り「（権利・必需品・快適さなどを）剥奪する・奪い去る」という動詞として定着。deprive someone of（〜から〜を奪う）という構文が基本。sleep deprivation（睡眠不足）、sensory deprivation（感覚遮断）のような医学・心理学用語でも重要。\n\ndeprived（貧困・不利な立場の）という形容詞は "a deprived neighborhood"（恵まれない地区）のように使われる社会語彙でもある。",
+      derivatives: [
+        { word: "deprivation",    desc: "剥奪・不足・貧困状態（名詞）" },
+        { word: "deprived",       desc: "恵まれない・貧困状態の（形容詞）" }
+      ],
+      family: [
+        { word: "private",        desc: "個人的な（privus）" },
+        { word: "privilege",      desc: "特権（privus + lex）" }
+      ],
+      compounds: [
+        { phrase: "sleep deprivation",    desc: "睡眠不足・睡眠剥奪" },
+        { phrase: "sensory deprivation",  desc: "感覚遮断" }
+      ]
+    },
+
+    // ── similare系（似ている）──
+    "similar": {
+      origin: "ラテン語 similis（似ている・同じような）< sem-（一つの・同じ）の派生形。印欧語根 *sem-（一つ・同じ）はギリシャ語 homoios（同じような）、英語の same（同じ）とも関連する。\n\n16世紀に英語に入り「似ている・同じような」という形容詞として定着。similar to（〜に似ている）が基本構文。学術ライティングでは "in a similar vein"（同じような文脈で）、"similarly"（同様に）という表現が頻出する。\n\nsimilarity（類似性）は分析・比較の際の重要語で、AI のテキスト処理でも cosine similarity（コサイン類似度）として使われる。",
+      derivatives: [
+        { word: "similarity",    desc: "類似性・共通点（名詞）" },
+        { word: "similarly",     desc: "同様に・同じように（副詞）" },
+        { word: "dissimilar",    desc: "異なる・似ていない（dis- + similar）" }
+      ],
+      family: [
+        { word: "simulate",      desc: "模倣する・シミュレートする（simulare）" },
+        { word: "assimilate",    desc: "同化する・吸収する（ad- + simulare）" },
+        { word: "simultaneous",  desc: "同時の（simul 同時に + -aneous）" },
+        { word: "same",          desc: "同じ（同じ印欧語根 *sem-）" }
+      ],
+      compounds: [
+        { phrase: "similar to",         desc: "〜に似ている" },
+        { phrase: "in a similar vein",  desc: "同様の文脈で・同じような観点で" }
+      ]
+    },
+
+    "simulate": {
+      origin: "ラテン語 simulare（似せる・模倣する・ふりをする）< similis（似ている）。「本物に似せて再現する・模倣する」というのが語源的な意味。\n\n17世紀に英語に入り「（本物のように）模倣する・ふりをする・シミュレートする」という動詞として定着。コンピュータの文脈では simulation（シミュレーション）が航空・宇宙・医療・訓練などあらゆる分野で使われる重要技術語。\n\nflight simulator（フライトシミュレーター）、computer simulation（コンピュータシミュレーション）のように「実際の状況を安全に再現する技術」という意味での使用が現代では最も重要。",
+      derivatives: [
+        { word: "simulation",    desc: "シミュレーション・模擬（名詞）" },
+        { word: "simulator",     desc: "シミュレーター・模擬訓練装置" },
+        { word: "simulated",     desc: "模擬の・シミュレートされた（形容詞）" }
+      ],
+      family: [
+        { word: "similar",       desc: "似ている（similis）" },
+        { word: "assimilate",    desc: "同化する（ad- + simulare）" },
+        { word: "simultaneous",  desc: "同時の（simul）" }
+      ],
+      compounds: [
+        { phrase: "computer simulation",  desc: "コンピュータシミュレーション" },
+        { phrase: "flight simulator",     desc: "フライトシミュレーター" }
+      ]
     }
 
   };

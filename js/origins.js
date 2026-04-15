@@ -1898,6 +1898,794 @@
         { phrase: "knowledge transfer",  desc: "知識移転" },
         { phrase: "transfer to",         desc: "〜へ移転する・〜へ振り込む" }
       ]
+    },
+
+    // ── capere / ceptus系（残り）─────────────────────────────────────────────
+    "accept": {
+      origin: "ラテン語 acceptāre（受け取る・承認する）< ad-（〜へ）+ capere（取る・つかむ）の反復強調形。「相手の方へ手を伸ばして取る」→「受け入れる・承認する」に発展した。receive が一方的に受け取る感覚に対し、accept は「意識的に選んで取る」積極的な承認のニュアンスを持つ。\n\nacceptable（受け入れられる）・unacceptable（受け入れ難い）は倫理・品質基準の議論で頻出。accept responsibility（責任を認める）は謝罪や説明責任の文脈で重要な表現。",
+      derivatives: [
+        { word: "acceptance",    desc: "承認・受け入れ・合格（名詞）" },
+        { word: "acceptable",    desc: "受け入れられる・許容できる（形容詞）" },
+        { word: "unacceptable",  desc: "受け入れられない（形容詞）" },
+        { word: "acceptably",    desc: "許容できる範囲で（副詞）" }
+      ],
+      family: [
+        { word: "except",     desc: "〜を除いて（ex-: 外へ取り出す）" },
+        { word: "intercept",  desc: "横取りする（inter-: 間で取る）" },
+        { word: "concept",    desc: "概念（con-: 共につかみ取る）" },
+        { word: "reception",  desc: "受付・歓迎（re-: 受け取る）" },
+        { word: "capture",    desc: "捕まえる（capere の直系）" },
+        { word: "capable",    desc: "能力のある（取れる力がある）" }
+      ],
+      compounds: [
+        { phrase: "accept responsibility", desc: "責任を認める・受け入れる" },
+        { phrase: "accept an offer",       desc: "申し出を受け入れる" },
+        { phrase: "widely accepted",       desc: "広く受け入れられた" }
+      ]
+    },
+
+    "except": {
+      origin: "ラテン語 excipere（外へ取り出す・例外とする）< ex-（外へ）+ capere（取る）。「全体の集合の中からひとつを外へ取り出す」→「〜を除いて・例外とする」に特化した。前置詞・接続詞・動詞の三役を担う多機能語。\n\nexception（例外）から "the exception that proves the rule"（例外こそが規則を証明する）という成句が生まれた。exceptional（例外的な・卓越した）は「規則の外に出るほど優れた」意で、exceptional talent（卓越した才能）のように肯定的に使われることが多い。",
+      derivatives: [
+        { word: "exception",      desc: "例外（名詞）" },
+        { word: "exceptional",    desc: "例外的な・卓越した（形容詞）" },
+        { word: "exceptionally",  desc: "例外的に・並外れて（副詞）" },
+        { word: "exceptionalism", desc: "例外主義（名詞）" }
+      ],
+      family: [
+        { word: "accept",     desc: "受け入れる（ad-: 〜へ取る）" },
+        { word: "intercept",  desc: "横取りする（inter-: 間で取る）" },
+        { word: "concept",    desc: "概念（con-: 共につかみ取る）" },
+        { word: "reception",  desc: "受付・歓迎（re-: 受け取る）" },
+        { word: "capture",    desc: "捕まえる（capere の直系）" }
+      ],
+      compounds: [
+        { phrase: "except for",        desc: "〜を除いては" },
+        { phrase: "no exception",      desc: "例外なし" },
+        { phrase: "make an exception", desc: "例外を設ける" }
+      ]
+    },
+
+    "intercept": {
+      origin: "ラテン語 intercipere（間で取り捉える・横取りする）< inter-（間で）+ capere（取る）。「目的地へ向かっているものを途中で取り捉える」が原義で、通信・パス・ミサイルを「中間で捕まえる」全般に使われる。\n\n軍事（intercept a missile: ミサイルを迎撃する）・スポーツ（intercept a pass: パスを横取りする）・通信（intercept a message: 通信を傍受する）の三文脈で多用される。interceptor（迎撃機・迎撃ミサイル）は冷戦時代の核心語。",
+      derivatives: [
+        { word: "interception",  desc: "傍受・迎撃・横取り（名詞）" },
+        { word: "interceptor",   desc: "迎撃機・迎撃システム（名詞）" }
+      ],
+      family: [
+        { word: "accept",    desc: "受け入れる（ad-: 〜へ取る）" },
+        { word: "except",    desc: "〜を除いて（ex-: 外へ取り出す）" },
+        { word: "concept",   desc: "概念（con-: 共につかみ取る）" },
+        { word: "reception", desc: "受付・歓迎（re-: 受け取る）" },
+        { word: "capture",   desc: "捕まえる（capere の直系）" }
+      ],
+      compounds: [
+        { phrase: "intercept a message", desc: "通信を傍受する" },
+        { phrase: "intercept a pass",    desc: "パスを横取りする" },
+        { phrase: "missile interceptor", desc: "ミサイル迎撃システム" }
+      ]
+    },
+
+    "concept": {
+      origin: "ラテン語 conceptus（心の中に受け胎したもの）< concipere（共につかみ取る・心に宿す）< con-（完全に）+ capere（取る）の完了分詞。「心の中に完全に取り込んで形成した観念」→「概念・アイデア」に特化した。conceive（着想する）と同根で、concept は動詞 conceive の名詞形にあたる。\n\nconcept car（コンセプトカー: 新しい概念を形にした試作車）、key concept（核心概念）、conceptual framework（概念的枠組み）と多様な文脈で使われる。",
+      derivatives: [
+        { word: "conceptual",     desc: "概念的な（形容詞）" },
+        { word: "conceptualize",  desc: "概念化する（動詞）" },
+        { word: "conceptually",   desc: "概念的に（副詞）" },
+        { word: "preconception",  desc: "先入観（名詞）" }
+      ],
+      family: [
+        { word: "accept",    desc: "受け入れる（ad-: 〜へ取る）" },
+        { word: "except",    desc: "〜を除いて（ex-: 外へ取り出す）" },
+        { word: "intercept", desc: "横取りする（inter-: 間で取る）" },
+        { word: "reception", desc: "受付・歓迎（re-: 受け取る）" },
+        { word: "conceive",  desc: "着想する（con+capere: 同根）" },
+        { word: "capture",   desc: "捕まえる（capere の直系）" }
+      ],
+      compounds: [
+        { phrase: "concept car",            desc: "コンセプトカー" },
+        { phrase: "key concept",            desc: "核心概念・キーコンセプト" },
+        { phrase: "conceptual framework",   desc: "概念的枠組み" }
+      ]
+    },
+
+    "reception": {
+      origin: "ラテン語 receptio（受け取ること・迎えること）< recipere（受け取る）< re-（戻って）+ capere（取る）の名詞形。「戻ってきたものを受け取る場・行為」が原義で、「ホテルの受付・歓迎パーティー・電波の受信状況」へと多方向に広がった。\n\nreception desk（受付）・wedding reception（披露宴）・poor reception（電波が悪い）と全く異なる文脈で使われる多義語。receptionist（受付係）は「受け取る人」、receptive（受け入れやすい）は「取り込む準備ができた」意。",
+      derivatives: [
+        { word: "receptionist", desc: "受付係（名詞）" },
+        { word: "receptive",    desc: "受け入れやすい・柔軟な（形容詞）" },
+        { word: "receptiveness", desc: "受容性（名詞）" }
+      ],
+      family: [
+        { word: "accept",    desc: "受け入れる（ad-: 〜へ取る）" },
+        { word: "except",    desc: "〜を除いて（ex-: 外へ取り出す）" },
+        { word: "intercept", desc: "横取りする（inter-: 間で取る）" },
+        { word: "concept",   desc: "概念（con-: 共につかみ取る）" },
+        { word: "receive",   desc: "受け取る（同根）" }
+      ],
+      compounds: [
+        { phrase: "wedding reception",  desc: "披露宴" },
+        { phrase: "reception desk",     desc: "受付カウンター" },
+        { phrase: "good/poor reception", desc: "電波の良し悪し" }
+      ]
+    },
+
+    // ── vidēre / visus系 ─────────────────────────────────────────────────────
+    "vision": {
+      origin: "ラテン語 visio（見ること・幻視）< vidēre（見る）の名詞形。vidēre は印欧語根 *weid-（見る・知る）に由来し、英語の wit（機知）・wise（賢い）とも遠く同根。「見る行為・視力」から「将来を見通す洞察力・ビジョン」へ拡張された。\n\nvision statement（ビジョンステートメント）は組織が目指す未来の「見通し」を言語化したもの。visionary（先見者）は「他人には見えないものを見る人」。tunnel vision（視野狭窄）・night vision（暗視）は視覚の形態を表す。",
+      derivatives: [
+        { word: "visionary",   desc: "先見者・先見の明がある（名詞・形容詞）" },
+        { word: "visual",      desc: "視覚の・ビジュアル（形容詞・名詞）" },
+        { word: "visualize",   desc: "視覚化する・心に描く（動詞）" },
+        { word: "visibility",  desc: "視認性・見通し（名詞）" }
+      ],
+      family: [
+        { word: "visible",    desc: "見える（visibilis: 見ることができる）" },
+        { word: "evident",    desc: "明らかな（ex+vidēre: 完全に見える）" },
+        { word: "provide",    desc: "提供する（pro+vidēre: 前もって見る）" },
+        { word: "supervise",  desc: "監督する（super+vidēre: 上から見る）" },
+        { word: "advise",     desc: "助言する（ad+vidēre: 〜へ見る）" },
+        { word: "revise",     desc: "改訂する（re+vidēre: 見直す）" }
+      ],
+      compounds: [
+        { phrase: "vision statement", desc: "ビジョンステートメント" },
+        { phrase: "night vision",     desc: "暗視・暗視装置" },
+        { phrase: "field of vision",  desc: "視野" }
+      ]
+    },
+
+    "visible": {
+      origin: "ラテン語 visibilis（見ることができる）< visus（見られたもの）< vidēre（見る）に形容詞語尾 -ibilis を付けた形。「目で知覚できる」状態を表すが、比喩的に「社会的に認知されている・存在感がある」意味でも使われる。\n\ninvisible（見えない）は in- で否定した形。The Invisible Man（透明人間）は文字通り「見えない人」。high-visibility jacket（高視認性ジャケット: 建設現場の蛍光色ジャケット）は visibility の実用的な用法。",
+      derivatives: [
+        { word: "visibility",   desc: "視認性・見通し・知名度（名詞）" },
+        { word: "visibly",      desc: "明らかに・見た目に（副詞）" },
+        { word: "invisible",    desc: "見えない（形容詞）" },
+        { word: "invisibility", desc: "不可視性（名詞）" }
+      ],
+      family: [
+        { word: "vision",    desc: "視力・ビジョン（visio: 見ること）" },
+        { word: "evident",   desc: "明らかな（ex+vidēre）" },
+        { word: "provide",   desc: "提供する（pro+vidēre: 前もって見る）" },
+        { word: "supervise", desc: "監督する（super+vidēre）" },
+        { word: "advise",    desc: "助言する（ad+vidēre）" },
+        { word: "revise",    desc: "改訂する（re+vidēre）" }
+      ],
+      compounds: [
+        { phrase: "highly visible",     desc: "目立つ・存在感の大きい" },
+        { phrase: "make visible",       desc: "見えるようにする・可視化する" },
+        { phrase: "visibility forecast", desc: "視程予報（気象）" }
+      ]
+    },
+
+    "evident": {
+      origin: "ラテン語 evidens（はっきり見える）< ex-（外へ・完全に）+ vidēre（見る）の現在分詞 videns から合成された形容詞。「完全に外から見えている」→「明白な・自明の」に特化した。\n\nevidence（証拠）は「明らかに見えるもの」が原義で、法的証拠から科学的根拠まで広く使われる。"We hold these truths to be self-evident."（これらの真理を自明のものと考える）はアメリカ独立宣言の冒頭で有名な表現。",
+      derivatives: [
+        { word: "evidence",     desc: "証拠・根拠（名詞）" },
+        { word: "evidently",    desc: "明らかに・どうやら（副詞）" },
+        { word: "evidential",   desc: "証拠の・証拠となる（形容詞）" },
+        { word: "self-evident", desc: "自明の（形容詞）" }
+      ],
+      family: [
+        { word: "vision",    desc: "視力・ビジョン（visio: 見ること）" },
+        { word: "visible",   desc: "見える（visibilis）" },
+        { word: "provide",   desc: "提供する（pro+vidēre: 前もって見る）" },
+        { word: "supervise", desc: "監督する（super+vidēre）" },
+        { word: "revise",    desc: "改訂する（re+vidēre）" }
+      ],
+      compounds: [
+        { phrase: "it is evident that",  desc: "〜であることは明白だ" },
+        { phrase: "evidence-based",      desc: "証拠に基づいた（形容詞）" },
+        { phrase: "self-evident truth",  desc: "自明の真理" }
+      ]
+    },
+
+    "provide": {
+      origin: "ラテン語 providēre（前もって見る・備える）< pro-（前に・前もって）+ vidēre（見る）。「先を見越して必要なものを備える」→「供給する・提供する・養う」に発展した。\n\nprovident（先見の明がある）・providence（摂理・神の摂理：神が「前もって見て」備えること）・provision（規定・備蓄：前もって見て用意したもの）は同根。provide for（〜の生活を支える）は家族扶養の文脈で重要表現。",
+      derivatives: [
+        { word: "provider",     desc: "提供者・扶養者・サービス事業者（名詞）" },
+        { word: "provision",    desc: "供給・規定・食料備蓄（名詞）" },
+        { word: "provisional",  desc: "暫定的な・仮の（形容詞）" },
+        { word: "provident",    desc: "先見の明がある・倹約な（形容詞）" }
+      ],
+      family: [
+        { word: "vision",    desc: "視力・ビジョン（visio: 見ること）" },
+        { word: "visible",   desc: "見える（visibilis）" },
+        { word: "evident",   desc: "明らかな（ex+vidēre）" },
+        { word: "supervise", desc: "監督する（super+vidēre）" },
+        { word: "advise",    desc: "助言する（ad+vidēre）" },
+        { word: "revise",    desc: "改訂する（re+vidēre）" }
+      ],
+      compounds: [
+        { phrase: "provide for",      desc: "〜の面倒を見る・養う・〜に備える" },
+        { phrase: "service provider", desc: "サービス提供者・事業者" },
+        { phrase: "provisional plan", desc: "暫定計画" }
+      ]
+    },
+
+    "supervise": {
+      origin: "中世ラテン語 supervidēre（上から見る・監督する）< super-（上に）+ vidēre（見る）。「高い場所から全体を見渡す」→「監督する・管理する」に特化した。\n\nsupervisor（監督者・上司）は「上から見る人」。supervision（監督・指導）は職場・教育・建設現場で使われる。unsupervised learning（教師なし学習）は機械学習で「監督なしに学ぶ」アルゴリズムを指し、AI分野の重要語。",
+      derivatives: [
+        { word: "supervision",   desc: "監督・指導・管理（名詞）" },
+        { word: "supervisor",    desc: "監督者・上司（名詞）" },
+        { word: "supervisory",   desc: "監督の（形容詞）" },
+        { word: "unsupervised",  desc: "監督なしの・教師なしの（形容詞）" }
+      ],
+      family: [
+        { word: "vision",   desc: "視力・ビジョン（visio: 見ること）" },
+        { word: "visible",  desc: "見える（visibilis）" },
+        { word: "evident",  desc: "明らかな（ex+vidēre）" },
+        { word: "provide",  desc: "提供する（pro+vidēre）" },
+        { word: "advise",   desc: "助言する（ad+vidēre）" },
+        { word: "revise",   desc: "改訂する（re+vidēre）" }
+      ],
+      compounds: [
+        { phrase: "under supervision",      desc: "監督下で" },
+        { phrase: "supervisor feedback",    desc: "上司からのフィードバック" },
+        { phrase: "unsupervised learning",  desc: "教師なし学習（機械学習）" }
+      ]
+    },
+
+    "advise": {
+      origin: "古フランス語 aviser（〜に向けて見る・考える）< ラテン語 ad-（〜へ）+ vidēre（見る）が変化した形。「相手のために見てあげる・考えてあげる」→「助言する・勧告する」に特化した。\n\nadvice（助言・名詞）と advise（助言する・動詞）は形が似ているが品詞が異なり、学習者が混乱しやすいペア。advisor / adviser（顧問・アドバイザー）は「見てあげる人」。advisory（諮問の・勧告的な）は advisory board（諮問委員会）で使われる。",
+      derivatives: [
+        { word: "advice",     desc: "助言・アドバイス（名詞）" },
+        { word: "advisor",    desc: "顧問・アドバイザー（名詞）" },
+        { word: "advisory",   desc: "諮問の・勧告的な（形容詞）" },
+        { word: "inadvisable", desc: "勧められない・得策でない（形容詞）" }
+      ],
+      family: [
+        { word: "vision",    desc: "視力・ビジョン（visio: 見ること）" },
+        { word: "visible",   desc: "見える（visibilis）" },
+        { word: "evident",   desc: "明らかな（ex+vidēre）" },
+        { word: "provide",   desc: "提供する（pro+vidēre）" },
+        { word: "supervise", desc: "監督する（super+vidēre）" },
+        { word: "revise",    desc: "改訂する（re+vidēre）" }
+      ],
+      compounds: [
+        { phrase: "advise on",       desc: "〜について助言する" },
+        { phrase: "legal advice",    desc: "法律的助言" },
+        { phrase: "advisory board",  desc: "諮問委員会" }
+      ]
+    },
+
+    "revise": {
+      origin: "ラテン語 revisere（再び見に行く）< re-（再び）+ vidēre（見る）。「書いたものをもう一度見直す」→「修正する・改訂する」に特化した。\n\nrevision（改訂・見直し）はイギリス英語では「試験勉強・復習」の意味もある（"do revision for exams"）。revised edition（改訂版）は書籍でよく使われる。revisionism（修正主義）は歴史解釈の文脈で、established view（通説）を「見直そうとする」立場を指す。",
+      derivatives: [
+        { word: "revision",     desc: "改訂・修正・（英）試験勉強（名詞）" },
+        { word: "revised",      desc: "改訂された・修正された（形容詞）" },
+        { word: "revisionist",  desc: "修正主義者（名詞）" }
+      ],
+      family: [
+        { word: "vision",    desc: "視力・ビジョン（visio: 見ること）" },
+        { word: "visible",   desc: "見える（visibilis）" },
+        { word: "evident",   desc: "明らかな（ex+vidēre）" },
+        { word: "provide",   desc: "提供する（pro+vidēre）" },
+        { word: "supervise", desc: "監督する（super+vidēre）" },
+        { word: "advise",    desc: "助言する（ad+vidēre）" }
+      ],
+      compounds: [
+        { phrase: "revised edition",  desc: "改訂版" },
+        { phrase: "under revision",   desc: "改訂中" },
+        { phrase: "revision guide",   desc: "試験勉強用参考書（英語）" }
+      ]
+    },
+
+    // ── cedere / cessus系 ────────────────────────────────────────────────────
+    "proceed": {
+      origin: "ラテン語 procedere（前へ進む）< pro-（前へ）+ cedere（行く・進む）。「前方へ向かって進む」が原義で、「続ける・進行する・（法的）手続きを取る」に使われる。\n\nproceedings（議事録・訴訟手続き）は「進行したことの記録」。procedure（手順）は「前へ進む方法」を体系化したもの。proceed to do（次に〜する）は段階の順序を示す表現で、proceed to the next step（次のステップへ進む）のように使われる。",
+      derivatives: [
+        { word: "proceedings", desc: "議事録・訴訟手続き（名詞）" },
+        { word: "procedure",   desc: "手順・手続き・手術（名詞）" },
+        { word: "procedural",  desc: "手続き上の（形容詞）" }
+      ],
+      family: [
+        { word: "succeed",   desc: "成功する（sub-: 後に来る）" },
+        { word: "exceed",    desc: "超える（ex-: 外へ出る）" },
+        { word: "access",    desc: "アクセス（ad-: 〜へ近づく）" },
+        { word: "recession", desc: "景気後退（re-: 後退する）" },
+        { word: "process",   desc: "過程・処理する（pro-+cessus）" },
+        { word: "precede",   desc: "先行する（prae-: 前を行く）" }
+      ],
+      compounds: [
+        { phrase: "proceed with",        desc: "〜を続ける・進める" },
+        { phrase: "legal proceedings",   desc: "法的手続き・訴訟" },
+        { phrase: "how to proceed",      desc: "どう進めるか" }
+      ]
+    },
+
+    "succeed": {
+      origin: "ラテン語 succedere（後に来る・後任となる）< sub-（後に・下から）+ cedere（行く）。「前の人・事の後に来る」→「後継ぎになる（succeed to the throne: 王位を継承する）」と「うまく後に来るべき結果に至る（成功する）」の二義を持つ。\n\nsuccessor（後継者）は「後に来る人」の原義を保っている。succession（継承・連続）は王位継承から生態学の「植生遷移」まで使われる。great success（大成功）の success は「うまく後に来るべき結果」そのもの。",
+      derivatives: [
+        { word: "success",      desc: "成功（名詞）" },
+        { word: "successful",   desc: "成功した（形容詞）" },
+        { word: "successfully", desc: "成功裏に（副詞）" },
+        { word: "succession",   desc: "継承・連続（名詞）" },
+        { word: "successor",    desc: "後継者（名詞）" }
+      ],
+      family: [
+        { word: "proceed",   desc: "進む（pro-: 前へ行く）" },
+        { word: "exceed",    desc: "超える（ex-: 外へ出る）" },
+        { word: "access",    desc: "アクセス（ad-: 〜へ近づく）" },
+        { word: "recession", desc: "景気後退（re-: 後退する）" },
+        { word: "process",   desc: "過程・処理する（pro-+cessus）" },
+        { word: "precede",   desc: "先行する（prae-: 前を行く）" }
+      ],
+      compounds: [
+        { phrase: "succeed in",      desc: "〜に成功する" },
+        { phrase: "success story",   desc: "成功談" },
+        { phrase: "succession plan", desc: "後継者育成計画" }
+      ]
+    },
+
+    "exceed": {
+      origin: "ラテン語 excedere（外へ出る・超え出る）< ex-（外へ）+ cedere（行く）。「定められた範囲の外へ出る」→「超える・上回る」に特化した。\n\nexcessive（過度な）は「外へ出すぎた」意。exceed the speed limit（制限速度を超える）は違反の文脈、exceed expectations（期待を上回る）は肯定的な文脈と、方向は反対でも同じ動詞を使う。exceeding（並外れた）はやや格調のある形容詞。",
+      derivatives: [
+        { word: "excess",       desc: "過剰・超過（名詞）" },
+        { word: "excessive",    desc: "過度な・過剰な（形容詞）" },
+        { word: "excessively",  desc: "過度に（副詞）" },
+        { word: "exceedingly",  desc: "非常に・並外れて（副詞）" }
+      ],
+      family: [
+        { word: "proceed",   desc: "進む（pro-: 前へ行く）" },
+        { word: "succeed",   desc: "成功する（sub-: 後に来る）" },
+        { word: "access",    desc: "アクセス（ad-: 〜へ近づく）" },
+        { word: "recession", desc: "景気後退（re-: 後退する）" },
+        { word: "process",   desc: "過程・処理する（pro-+cessus）" }
+      ],
+      compounds: [
+        { phrase: "exceed the limit",    desc: "限度を超える" },
+        { phrase: "exceed expectations", desc: "期待を上回る" },
+        { phrase: "in excess of",        desc: "〜を超えて・〜以上の" }
+      ]
+    },
+
+    "process": {
+      origin: "ラテン語 processus（前進・進行）< procedere（前へ進む）の名詞形。「前へ進んでいく一連の流れ」→「過程・手順・工程」が名詞義で、動詞としては「（データ・食品・申請を）処理する」意。\n\nIT 用語での「データを処理する」意味は20世紀に加わった比較的新しい用法。due process（適正手続き：法の正当な手順）・peace process（和平プロセス）・manufacturing process（製造工程）と多様な分野の核心語として使われる。",
+      derivatives: [
+        { word: "processor",    desc: "処理装置・プロセッサー（名詞）" },
+        { word: "processing",   desc: "処理・加工（名詞）" },
+        { word: "procession",   desc: "行列・行進（名詞）" }
+      ],
+      family: [
+        { word: "proceed",   desc: "進む（pro-: 前へ行く）" },
+        { word: "succeed",   desc: "成功する（sub-: 後に来る）" },
+        { word: "exceed",    desc: "超える（ex-: 外へ出る）" },
+        { word: "access",    desc: "アクセス（ad-: 〜へ近づく）" },
+        { word: "recession", desc: "景気後退（re-: 後退する）" },
+        { word: "procedure", desc: "手順・手術（pro+cedere）" }
+      ],
+      compounds: [
+        { phrase: "manufacturing process", desc: "製造工程" },
+        { phrase: "due process",           desc: "適正手続き（法律）" },
+        { phrase: "work in process",       desc: "仕掛品・進行中の作業" }
+      ]
+    },
+
+    "access": {
+      origin: "ラテン語 accessus（近づくこと）< accedere（〜へ近づく）< ad-（〜へ）+ cedere（行く）の名詞形。「ある場所・情報へ近づく経路・権限」が原義で、物理的アクセスから情報・デジタルアクセスまで使われる。\n\naccess to（〜へのアクセス・利用権）は現代の人権論でも中心語（access to education, access to healthcare）。accessible（近づきやすい・利用可能な）はユニバーサルデザインの核心概念で、wheelchair accessible（車椅子対応）のように使われる。",
+      derivatives: [
+        { word: "accessible",    desc: "アクセス可能な・近づきやすい（形容詞）" },
+        { word: "accessibility", desc: "アクセシビリティ・利用可能性（名詞）" },
+        { word: "inaccessible",  desc: "近づけない・利用できない（形容詞）" }
+      ],
+      family: [
+        { word: "proceed",   desc: "進む（pro-: 前へ行く）" },
+        { word: "succeed",   desc: "成功する（sub-: 後に来る）" },
+        { word: "exceed",    desc: "超える（ex-: 外へ出る）" },
+        { word: "recession", desc: "景気後退（re-: 後退する）" },
+        { word: "process",   desc: "過程・処理する（pro-+cessus）" },
+        { word: "accede",    desc: "同意する・即位する（同根）" }
+      ],
+      compounds: [
+        { phrase: "access to",          desc: "〜へのアクセス・利用権" },
+        { phrase: "internet access",    desc: "インターネット接続" },
+        { phrase: "accessible design",  desc: "アクセシブルデザイン" }
+      ]
+    },
+
+    "recession": {
+      origin: "ラテン語 recessio（後退すること）< recedere（後ろへ引く）< re-（後ろへ）+ cedere（行く）の名詞形。「前進の逆：後退・退縮」が原義で、経済・地理・生物学で使われる。\n\n経済学では「2四半期以上連続の GDP マイナス成長」を recession と定義する。hairline is receding（生え際が後退する）のように日常的な「後退」にも recede を使う。recess（休憩・議会休会・壁のくぼみ）も同根で「引きこもる空間・時間」。",
+      derivatives: [
+        { word: "recede",           desc: "後退する・引く（動詞）" },
+        { word: "recess",           desc: "休憩・休会・くぼみ（名詞）" },
+        { word: "recessionary",     desc: "景気後退の（形容詞）" },
+        { word: "recession-proof",  desc: "不況に強い（形容詞）" }
+      ],
+      family: [
+        { word: "proceed",  desc: "進む（pro-: 前へ行く）" },
+        { word: "succeed",  desc: "成功する（sub-: 後に来る）" },
+        { word: "exceed",   desc: "超える（ex-: 外へ出る）" },
+        { word: "access",   desc: "アクセス（ad-: 〜へ近づく）" },
+        { word: "process",  desc: "過程・処理する" },
+        { word: "concede",  desc: "認める・譲歩する（con-: 共に引く）" }
+      ],
+      compounds: [
+        { phrase: "economic recession",  desc: "経済不況" },
+        { phrase: "in recession",        desc: "不況の最中で" },
+        { phrase: "hit by recession",    desc: "不況に打撃を受ける" }
+      ]
+    },
+
+    // ── sentire / sensus系 ───────────────────────────────────────────────────
+    "sense": {
+      origin: "ラテン語 sensus（感覚・知覚・意味）< sentire（感じる）の名詞形。印欧語根 *sent-（向かう・感じ取る）に由来。「感覚・知覚・常識・意味」と多義的で、英語の中で最も基本的な名詞の一つ。\n\nfive senses（五感）・common sense（常識・これは共通の感覚）・make sense（意味をなす）は日常英語の基本表現。nonsense（無意味なこと）は non-（否定）+ sense。sensory（感覚の）・sensitivity（感受性）も同根。",
+      derivatives: [
+        { word: "sensory",      desc: "感覚の（形容詞）" },
+        { word: "sensible",     desc: "賢明な・分別のある（形容詞）" },
+        { word: "sensitive",    desc: "敏感な・繊細な（形容詞）" },
+        { word: "sensitivity",  desc: "感受性・敏感さ（名詞）" },
+        { word: "sensational",  desc: "センセーショナルな（形容詞）" }
+      ],
+      family: [
+        { word: "consent",   desc: "同意する（con-: 共に感じる）" },
+        { word: "dissent",   desc: "異議を唱える（dis-: 別に感じる）" },
+        { word: "sensation", desc: "感覚・センセーション（sentire の名詞）" },
+        { word: "resent",    desc: "憤慨する（re-: 強く感じ返す）" },
+        { word: "sentiment", desc: "感情・心情（sentire+ment）" }
+      ],
+      compounds: [
+        { phrase: "make sense",    desc: "意味をなす・理解できる" },
+        { phrase: "common sense",  desc: "常識・一般的な感覚" },
+        { phrase: "sense of humor", desc: "ユーモアのセンス" }
+      ]
+    },
+
+    "consent": {
+      origin: "ラテン語 consentire（共に感じる・同意する）< con-（共に）+ sentire（感じる）。「同じ感覚・感情を共有する」→「合意する・同意する」に特化した。単なる「OK」以上の、積極的な同意のニュアンスを持つ。\n\nconsensus（コンセンサス・合意形成）は「共に感じること」の集合状態。informed consent（インフォームド・コンセント）は医療倫理の中心概念で「十分な説明を受けた上での自発的同意」を指し、現代医療の基本原則。",
+      derivatives: [
+        { word: "consensus",   desc: "合意・コンセンサス（名詞）" },
+        { word: "consensual",  desc: "合意に基づいた（形容詞）" }
+      ],
+      family: [
+        { word: "sense",     desc: "感覚・意味（sentire の名詞形）" },
+        { word: "dissent",   desc: "異議を唱える（dis-: 別に感じる）" },
+        { word: "sensation", desc: "感覚・センセーション" },
+        { word: "resent",    desc: "憤慨する（re-: 強く感じ返す）" },
+        { word: "assent",    desc: "同意する（ad-: 〜に向けて感じる）" }
+      ],
+      compounds: [
+        { phrase: "informed consent",   desc: "インフォームド・コンセント" },
+        { phrase: "age of consent",     desc: "性的同意年齢" },
+        { phrase: "by mutual consent",  desc: "相互の同意のもとに" }
+      ]
+    },
+
+    "dissent": {
+      origin: "ラテン語 dissentire（別々に感じる・意見が合わない）< dis-（バラバラに・反対に）+ sentire（感じる）。「主流とは異なる感覚・意見を持つ」→「異議を唱える・反対意見を持つ」に特化した政治・哲学・法律用語。\n\ndissenter（反対意見者）は17世紀イングランドで英国国教会から分かれたピューリタンなどの非国教徒を指した歴史語。裁判では dissenting opinion（反対意見書）として少数意見が記録される。",
+      derivatives: [
+        { word: "dissenter",   desc: "反対意見者・非国教徒（名詞）" },
+        { word: "dissension",  desc: "不和・内紛（名詞）" },
+        { word: "dissident",   desc: "反体制派・反体制の（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "sense",     desc: "感覚・意味（sentire の名詞形）" },
+        { word: "consent",   desc: "同意する（con-: 共に感じる）" },
+        { word: "sensation", desc: "感覚・センセーション" },
+        { word: "resent",    desc: "憤慨する（re-: 強く感じ返す）" },
+        { word: "assent",    desc: "同意する（ad-: 〜に向けて感じる）" }
+      ],
+      compounds: [
+        { phrase: "dissent from",        desc: "〜に異議を唱える" },
+        { phrase: "dissenting opinion",  desc: "反対意見書（法律）" },
+        { phrase: "voice dissent",       desc: "反対意見を表明する" }
+      ]
+    },
+
+    "sensation": {
+      origin: "中世ラテン語 sensatio（感覚体験）< sentire（感じる）の名詞形。「身体的・精神的に強く感じること・感覚体験」が原義で、「世間を騒がせるほど強い感覚」→「センセーション（大評判・衝撃的な出来事）」に比喩的に拡張された。\n\nsensational（センセーショナルな・驚くべき）は「強い感覚を引き起こすほどの」意。sensationalism（センセーショナリズム：刺激的な話題でメディアが視聴者を惹きつける手法）はメディア批判でよく使われる用語。",
+      derivatives: [
+        { word: "sensational",    desc: "センセーショナルな・驚くべき（形容詞）" },
+        { word: "sensationally",  desc: "センセーショナルに（副詞）" },
+        { word: "sensationalism", desc: "センセーショナリズム（名詞）" },
+        { word: "sensationalize", desc: "センセーショナルに扱う（動詞）" }
+      ],
+      family: [
+        { word: "sense",    desc: "感覚・意味（sentire の名詞形）" },
+        { word: "consent",  desc: "同意する（con-: 共に感じる）" },
+        { word: "dissent",  desc: "異議を唱える（dis-: 別に感じる）" },
+        { word: "resent",   desc: "憤慨する（re-: 強く感じ返す）" },
+        { word: "sentiment", desc: "感情・心情（sentire+ment）" }
+      ],
+      compounds: [
+        { phrase: "cause a sensation",   desc: "大評判になる・センセーションを起こす" },
+        { phrase: "sensational news",    desc: "センセーショナルなニュース" },
+        { phrase: "a burning sensation", desc: "灼熱感・ほてり" }
+      ]
+    },
+
+    // ── ponere / positum系 ───────────────────────────────────────────────────
+    "compose": {
+      origin: "ラテン語 componere（共に置く・配置する）< com-（共に）+ ponere（置く）。英語には古フランス語 composer を経て入り、「別々の要素を共に置いて一つにまとめる」→「作曲する・構成する・文章を書く・心を落ち着かせる」に発展した。\n\ncomposer（作曲家）は「音を共に置いて作品にする人」。be composed of（〜から構成される）は受動態で多用される。composure（落ち着き・平静）は「感情を共に置いてまとめた状態」。composite（複合の）は「共に置かれたもの」。",
+      derivatives: [
+        { word: "composer",     desc: "作曲家（名詞）" },
+        { word: "composition",  desc: "作曲・構成・作文（名詞）" },
+        { word: "composure",    desc: "落ち着き・平静心（名詞）" },
+        { word: "composite",    desc: "複合の・合成の（形容詞）" },
+        { word: "decompose",    desc: "分解する・腐敗する（動詞）" }
+      ],
+      family: [
+        { word: "oppose",    desc: "反対する（ob-: 前に置く）" },
+        { word: "expose",    desc: "さらす（ex-: 外に置く）" },
+        { word: "impose",    desc: "課す（in-: 上に置く）" },
+        { word: "component", desc: "構成要素（com+ponere の分詞）" },
+        { word: "dispose",   desc: "処分する（dis-: バラバラに置く）" },
+        { word: "position",  desc: "位置・立場（ponere の名詞）" }
+      ],
+      compounds: [
+        { phrase: "compose music",          desc: "音楽を作曲する" },
+        { phrase: "be composed of",         desc: "〜から構成される" },
+        { phrase: "composure under pressure", desc: "プレッシャー下での冷静さ" }
+      ]
+    },
+
+    "oppose": {
+      origin: "ラテン語 opponere（前に置く・立ちはだかる）< ob-（前に・向かって）+ ponere（置く）。「相手の前に自分を置く」→「反対する・対立する」に特化した。\n\nopponent（対戦相手・反対者）は「前に置かれた人」。opposite（反対側の）・opposition（反対・野党）も同根。the opposition（野党・反対勢力）は議会政治の基本語で、政府と「向かい合うように置かれた勢力」を指す。",
+      derivatives: [
+        { word: "opponent",    desc: "対戦相手・反対者（名詞）" },
+        { word: "opposition",  desc: "反対・野党（名詞）" },
+        { word: "opposite",    desc: "反対の・対面の（形容詞・名詞）" },
+        { word: "opposing",    desc: "対立する・反対の（形容詞）" }
+      ],
+      family: [
+        { word: "compose",   desc: "構成する（com-: 共に置く）" },
+        { word: "expose",    desc: "さらす（ex-: 外に置く）" },
+        { word: "impose",    desc: "課す（in-: 上に置く）" },
+        { word: "component", desc: "構成要素（com+ponere の分詞）" },
+        { word: "dispose",   desc: "処分する（dis-: バラバラに置く）" },
+        { word: "position",  desc: "位置・立場（ponere の名詞）" }
+      ],
+      compounds: [
+        { phrase: "oppose a bill",   desc: "法案に反対する" },
+        { phrase: "opposition party", desc: "野党" },
+        { phrase: "face opposition", desc: "反対に直面する" }
+      ]
+    },
+
+    "expose": {
+      origin: "ラテン語 exponere（外に置く・説明する）< ex-（外へ）+ ponere（置く）。「外に置いて見えるようにする」→「さらす・暴露する・（写真を）露光する」に発展した。\n\nexposure（露出・暴露・被ばく）は写真・医学・ジャーナリズムで使われる。an exposé（暴露記事・スキャンダル報道）はフランス語由来の借用語でアクセント符号を保持。exposition（博覧会・解説・提示部）は「外に置いて見せる」展示の意で、音楽ソナタ形式の「提示部」にも使われる。",
+      derivatives: [
+        { word: "exposure",    desc: "露出・暴露・被ばく（名詞）" },
+        { word: "exposé",      desc: "暴露記事・スキャンダル報道（名詞）" },
+        { word: "exposition",  desc: "博覧会・解説・提示部（名詞）" },
+        { word: "overexpose",  desc: "過剰露出する（動詞）" }
+      ],
+      family: [
+        { word: "compose",   desc: "構成する（com-: 共に置く）" },
+        { word: "oppose",    desc: "反対する（ob-: 前に置く）" },
+        { word: "impose",    desc: "課す（in-: 上に置く）" },
+        { word: "component", desc: "構成要素（com+ponere）" },
+        { word: "dispose",   desc: "処分する（dis-: バラバラに置く）" }
+      ],
+      compounds: [
+        { phrase: "expose to",          desc: "〜にさらす・〜にふれさせる" },
+        { phrase: "media exposure",     desc: "メディア露出・報道" },
+        { phrase: "long exposure",      desc: "長時間露光（写真）" }
+      ]
+    },
+
+    "impose": {
+      origin: "ラテン語 imponere（上に置く・課す）< in-（上に・中に）+ ponere（置く）。「相手の上に重みを置く」→「義務・税・制裁・罰を課す」に特化した。\n\nimpose on（〜に迷惑をかける: 自分の重みを相手の上に置く）・impose sanctions（制裁を課す）・impose a fine（罰金を科す）は政治・外交・法律で頻出。imposing（威圧的な・壮大な）は「見る者の上に圧倒的な重みを置くような」建物・人物を表す形容詞。",
+      derivatives: [
+        { word: "imposition",  desc: "課税・押しつけ・迷惑（名詞）" },
+        { word: "imposing",    desc: "威圧的な・堂々たる（形容詞）" },
+        { word: "imposingly",  desc: "堂々と（副詞）" }
+      ],
+      family: [
+        { word: "compose",   desc: "構成する（com-: 共に置く）" },
+        { word: "oppose",    desc: "反対する（ob-: 前に置く）" },
+        { word: "expose",    desc: "さらす（ex-: 外に置く）" },
+        { word: "component", desc: "構成要素（com+ponere）" },
+        { word: "dispose",   desc: "処分する（dis-: バラバラに置く）" },
+        { word: "position",  desc: "位置・立場（ponere の名詞）" }
+      ],
+      compounds: [
+        { phrase: "impose sanctions",  desc: "制裁を課す" },
+        { phrase: "impose a fine",     desc: "罰金を科す" },
+        { phrase: "impose on someone", desc: "〜に迷惑をかける" }
+      ]
+    },
+
+    "component": {
+      origin: "ラテン語 componere（共に置く・組み立てる）の現在分詞 componens（組み立てている）が名詞化した形。「共に置かれてひとつの全体を成す部品・要素」→「構成要素・成分・コンポーネント」を指す。\n\nelectronic components（電子部品）・key component（重要な構成要素）・chemical components（化学成分）と多分野で使われる。principal component analysis（主成分分析）は統計・機械学習の基本手法。",
+      derivatives: [
+        { word: "componentize", desc: "コンポーネント化する（IT用語）" }
+      ],
+      family: [
+        { word: "compose",  desc: "構成する（com-: 共に置く）" },
+        { word: "oppose",   desc: "反対する（ob-: 前に置く）" },
+        { word: "expose",   desc: "さらす（ex-: 外に置く）" },
+        { word: "impose",   desc: "課す（in-: 上に置く）" },
+        { word: "dispose",  desc: "処分する（dis-: バラバラに置く）" },
+        { word: "position", desc: "位置・立場（ponere の名詞）" }
+      ],
+      compounds: [
+        { phrase: "key component",            desc: "重要な構成要素" },
+        { phrase: "component parts",          desc: "構成部品" },
+        { phrase: "principal component analysis", desc: "主成分分析（統計）" }
+      ]
+    },
+
+    // ── stāre / status系 ─────────────────────────────────────────────────────
+    "state": {
+      origin: "ラテン語 status（立っていること・状態・地位）< stāre（立つ）の名詞形。印欧語根 *stā-（立つ）に由来し、stand（立つ）・stable（安定した）とも同根。「立っている状態・様子」→「状態・地位・国家（固定的に存在するもの）」と「述べる・表明する（立場を明確にする）」に広がった。\n\nstate of the art（現時点で技術が立っている地点→最先端）は重要成句。statement（声明・陳述）は法的・政治的文書で必須語。the State（国家）と state（アメリカの州）は大文字の有無で区別する。",
+      derivatives: [
+        { word: "statement",  desc: "声明・陳述・明細書（名詞）" },
+        { word: "statesman",  desc: "政治家・国家指導者（名詞）" },
+        { word: "statehood",  desc: "州としての地位・独立国家の地位（名詞）" },
+        { word: "stately",    desc: "堂々とした・威厳ある（形容詞）" }
+      ],
+      family: [
+        { word: "station",    desc: "駅・局・拠点（stāre の場所名詞）" },
+        { word: "establish",  desc: "設立する（ex+stabilire: しっかり立てる）" },
+        { word: "constitute", desc: "構成する（con+statuere: 共に立て定める）" },
+        { word: "status",     desc: "地位・状態（stāre の名詞）" },
+        { word: "stable",     desc: "安定した（stabilis: 立ち続ける）" },
+        { word: "distance",   desc: "距離（dis+stāre: 離れて立つ）" }
+      ],
+      compounds: [
+        { phrase: "state of mind",     desc: "精神状態" },
+        { phrase: "state of the art",  desc: "最先端の" },
+        { phrase: "make a statement",  desc: "声明を出す・主張する" }
+      ]
+    },
+
+    "station": {
+      origin: "ラテン語 statio（立っている場所・宿営地）< stāre（立つ）の場所名詞形。「固定して立っている場所」→「駅・放送局・ポスト（職務）・天文台」に広がった。\n\nstation（駅）はもとは「馬を替えるために固定した中継地点（posting station）」を指した。radio station（ラジオ局）・police station（警察署）・space station（宇宙ステーション）と多様な「固定拠点」に使われる。be stationed（駐留する・配属される）は軍事・職場で使われる動詞形。",
+      derivatives: [
+        { word: "stationary",  desc: "静止した・固定した（形容詞）" },
+        { word: "stationery",  desc: "文房具・便箋（名詞; stationary と混同注意）" },
+        { word: "stationed",   desc: "駐留している・配属された（形容詞）" }
+      ],
+      family: [
+        { word: "state",      desc: "状態・国家・述べる（stāre の名詞形）" },
+        { word: "establish",  desc: "設立する（ex+stabilire）" },
+        { word: "constitute", desc: "構成する（con+statuere）" },
+        { word: "status",     desc: "地位・状態（stāre の名詞）" },
+        { word: "stable",     desc: "安定した（stabilis: 立ち続ける）" }
+      ],
+      compounds: [
+        { phrase: "train station",    desc: "鉄道駅" },
+        { phrase: "station yourself", desc: "〜に位置につく・陣取る" },
+        { phrase: "space station",    desc: "宇宙ステーション" }
+      ]
+    },
+
+    "establish": {
+      origin: "ラテン語 stabilire（固定する・安定させる）< stabilis（安定した）< stāre（立つ）に接頭辞 ex-（強意・しっかりと）を加えた形が古フランス語 establir を経て英語に入った。「揺るがないようにしっかりと固定する」→「設立する・確立する・証明する」に発展した。\n\nestablishment（機関・設立）は The Establishment（既成体制・権力機構）という政治的意味も持つ。well-established（確立した・定評のある）・establish a fact（事実を証明する）は学術でも使われる。",
+      derivatives: [
+        { word: "establishment",   desc: "機関・設立・既成体制（名詞）" },
+        { word: "well-established", desc: "確立した・定評のある（形容詞）" },
+        { word: "re-establish",    desc: "再建する・再確立する（動詞）" }
+      ],
+      family: [
+        { word: "state",      desc: "状態・国家・述べる（stāre の名詞形）" },
+        { word: "station",    desc: "駅・拠点（stāre の場所名詞）" },
+        { word: "constitute", desc: "構成する（con+statuere）" },
+        { word: "status",     desc: "地位・状態（stāre の名詞）" },
+        { word: "stable",     desc: "安定した（stabilis）" },
+        { word: "instance",   desc: "事例（in+stāre: 上に立つもの）" }
+      ],
+      compounds: [
+        { phrase: "establish a company",  desc: "会社を設立する" },
+        { phrase: "well-established",     desc: "確立した・定評のある" },
+        { phrase: "the Establishment",    desc: "既成体制・権力機構" }
+      ]
+    },
+
+    "constitute": {
+      origin: "ラテン語 constituere（共に立て定める・設置する）< con-（共に）+ statuere（立てる・定める）< stāre（立つ）。「複数の要素を共に立て定めて全体を構成する」→「構成する・設立する・（法的に）規定する」に特化した。\n\nconstitution（憲法・構成・体質）は「国家を立て定めるもの」。constitutional（憲法上の・体質的な）は法学の基本語。constitute a crime（犯罪を構成する）・constitute a majority（過半数を構成する）は法律・統計の定型表現。",
+      derivatives: [
+        { word: "constitution",      desc: "憲法・構成・体質（名詞）" },
+        { word: "constitutional",    desc: "憲法上の・体質的な（形容詞）" },
+        { word: "unconstitutional",  desc: "違憲の（形容詞）" },
+        { word: "reconstitute",      desc: "再構成する・粉を水で溶く（動詞）" }
+      ],
+      family: [
+        { word: "state",      desc: "状態・国家・述べる（stāre の名詞形）" },
+        { word: "station",    desc: "駅・拠点（stāre の場所名詞）" },
+        { word: "establish",  desc: "設立する（ex+stabilire）" },
+        { word: "status",     desc: "地位・状態（stāre の名詞）" },
+        { word: "institute",  desc: "機関・設立する（in+statuere）" },
+        { word: "statute",    desc: "成文法・制定法（statuere の名詞）" }
+      ],
+      compounds: [
+        { phrase: "constitute a crime",    desc: "犯罪を構成する" },
+        { phrase: "constitution day",      desc: "憲法記念日" },
+        { phrase: "constitutional law",    desc: "憲法学・憲法上の法律" }
+      ]
+    },
+
+    // ── tendere / tensus系 ───────────────────────────────────────────────────
+    "attend": {
+      origin: "ラテン語 attendere（〜へ伸ばす・注意を向ける）< ad-（〜へ）+ tendere（伸ばす・張る）。「注意の糸を相手へ向けて伸ばす」→「出席する・参加する・付き添う」に発展した。\n\nattend と attention は同根で、attention（注意）は「〜へ向けて伸ばされた意識の状態」。attend to（〜に対処する）は緊急の事項への注意を意味する。Pay attention!（注目！）は授業・会議での必須フレーズ。",
+      derivatives: [
+        { word: "attention",   desc: "注意・注目（名詞）" },
+        { word: "attendance",  desc: "出席・出席率（名詞）" },
+        { word: "attendant",   desc: "付き添い人・係員（名詞）" },
+        { word: "attentive",   desc: "注意深い・気配りのある（形容詞）" }
+      ],
+      family: [
+        { word: "extend",   desc: "延長する（ex-: 外へ伸ばす）" },
+        { word: "intend",   desc: "意図する（in-: 中へ向ける）" },
+        { word: "intense",  desc: "強烈な（in+tensus: 強く張られた）" },
+        { word: "contend",  desc: "争う・主張する（con-: 共に張り合う）" },
+        { word: "pretend",  desc: "ふりをする（prae-: 前へ伸ばす）" },
+        { word: "tension",  desc: "緊張・張力（tendere の名詞）" }
+      ],
+      compounds: [
+        { phrase: "attend a meeting",   desc: "会議に出席する" },
+        { phrase: "pay attention",      desc: "注意を払う" },
+        { phrase: "attendance record",  desc: "出席記録" }
+      ]
+    },
+
+    "extend": {
+      origin: "ラテン語 extendere（外へ伸ばす）< ex-（外へ）+ tendere（伸ばす・張る）。「限界の外へ伸ばす」→「延長する・拡大する・（手を）差し伸べる」に発展した。\n\nextension（延長・拡張・電話の内線）・extensive（広範な）・extent（程度・範囲）は同根。to some extent（ある程度）は必須表現。extend a deadline（締め切りを延ばす）・extend an offer（申し出を延長する）は職場で頻出。",
+      derivatives: [
+        { word: "extension",   desc: "延長・拡張・内線・延長コード（名詞）" },
+        { word: "extensive",   desc: "広範な・大規模な（形容詞）" },
+        { word: "extensively", desc: "広範に・大規模に（副詞）" },
+        { word: "extent",      desc: "程度・範囲（名詞）" }
+      ],
+      family: [
+        { word: "attend",   desc: "出席する（ad-: 〜へ伸ばす）" },
+        { word: "intend",   desc: "意図する（in-: 中へ向ける）" },
+        { word: "intense",  desc: "強烈な（in+tensus: 強く張られた）" },
+        { word: "contend",  desc: "争う・主張する（con-: 共に張り合う）" },
+        { word: "tension",  desc: "緊張・張力（tendere の名詞）" }
+      ],
+      compounds: [
+        { phrase: "extend a deadline",    desc: "締め切りを延ばす" },
+        { phrase: "to some extent",       desc: "ある程度" },
+        { phrase: "extensive research",   desc: "広範な調査" }
+      ]
+    },
+
+    "intend": {
+      origin: "ラテン語 intendere（中へ向ける・集中する）< in-（中へ）+ tendere（伸ばす）。「注意の糸を目標に向けて内側へ伸ばす」→「意図する・〜するつもりだ」に特化した。\n\nintention（意図）は行為の法的・道徳的評価で重要（criminal intent: 犯意）。"The road to hell is paved with good intentions."（地獄への道は善意で舗装されている）は有名な格言。intended audience（想定読者・対象者）は文章・マーケティングの基本概念。",
+      derivatives: [
+        { word: "intention",    desc: "意図・目的（名詞）" },
+        { word: "intentional",  desc: "意図的な（形容詞）" },
+        { word: "intentionally", desc: "意図的に（副詞）" },
+        { word: "unintended",   desc: "意図せぬ（形容詞）" },
+        { word: "intended",     desc: "意図した・対象の（形容詞）" }
+      ],
+      family: [
+        { word: "attend",   desc: "出席する（ad-: 〜へ伸ばす）" },
+        { word: "extend",   desc: "延長する（ex-: 外へ伸ばす）" },
+        { word: "intense",  desc: "強烈な（in+tensus: 強く張られた）" },
+        { word: "contend",  desc: "争う・主張する（con-: 共に張り合う）" },
+        { word: "pretend",  desc: "ふりをする（prae-: 前へ伸ばす）" }
+      ],
+      compounds: [
+        { phrase: "intend to do",          desc: "〜するつもりだ" },
+        { phrase: "with good intentions",  desc: "善意で" },
+        { phrase: "intended audience",     desc: "想定読者・対象者" }
+      ]
+    },
+
+    "intense": {
+      origin: "ラテン語 intensus（強く引き伸ばされた）< intendere（内側へ向ける）< in-（中へ）+ tendere（伸ばす）の完了分詞。「弦が限界まで引き伸ばされた」状態から「強烈な・集中した」の意味が生まれた。\n\nintensity（強度・激しさ）・intensive（集中的な）・intensify（強化する）は科学・ビジネス・感情の文脈で広く使われる。intensive care（集中治療）は医療の重要語。intensive farming（集約農業）は食料生産の文脈で使われる。",
+      derivatives: [
+        { word: "intensity",        desc: "強度・激しさ（名詞）" },
+        { word: "intensive",        desc: "集中的な・集約的な（形容詞）" },
+        { word: "intensify",        desc: "強化する・激しくなる（動詞）" },
+        { word: "intensely",        desc: "強烈に・激しく（副詞）" },
+        { word: "intensification",  desc: "強化・激化（名詞）" }
+      ],
+      family: [
+        { word: "attend",   desc: "出席する（ad-: 〜へ伸ばす）" },
+        { word: "extend",   desc: "延長する（ex-: 外へ伸ばす）" },
+        { word: "intend",   desc: "意図する（in-: 中へ向ける）" },
+        { word: "contend",  desc: "争う・主張する（con-: 共に張り合う）" },
+        { word: "tension",  desc: "緊張・張力（tendere の名詞）" },
+        { word: "tense",    desc: "緊張した・時制（tensus の形容詞）" }
+      ],
+      compounds: [
+        { phrase: "intense pressure",   desc: "強烈なプレッシャー" },
+        { phrase: "intensive care",     desc: "集中治療（ICU）" },
+        { phrase: "intensify efforts",  desc: "努力を強化する" }
+      ]
     }
 
   };

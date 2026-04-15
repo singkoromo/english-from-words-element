@@ -7371,6 +7371,301 @@
         { phrase: "declare bankruptcy",   desc: "破産を申告する" },
         { phrase: "customs declaration",  desc: "税関申告書" }
       ]
+    },
+
+    // ── oikos系（家・環境）──
+    "ecology": {
+      origin: "ギリシャ語 oikos（家・家庭・生息地）+ logos（学問）から成る近代造語。ドイツの生物学者エルンスト・ヘッケルが1866年に「生物とその環境の相互関係を研究する科学」として造語した。\n\n日本語「生態学」に相当し、生物と物理的環境（気候・土壌・水）および他の生物との複雑な関係を研究する。食物連鎖（food chain）、生物多様性（biodiversity）、生態系サービス（ecosystem services）などが核心概念。\n\n1960〜70年代の環境運動の台頭とともに、ecology は一般語としても広まり、「自然環境との調和・持続可能性」を訴える概念語として使われる。",
+      derivatives: [
+        { word: "ecological",    desc: "生態的な・生態学の（形容詞）" },
+        { word: "ecologist",     desc: "生態学者・環境保護論者" },
+        { word: "ecosystem",     desc: "生態系（oikos + systema）" }
+      ],
+      family: [
+        { word: "economy",       desc: "経済（oikos + nomos 法則）" },
+        { word: "economics",     desc: "経済学（oikos + nomos + -ics）" },
+        { word: "oecumenical",   desc: "全世界的な・普遍的な（oikos 世界の家）" }
+      ],
+      compounds: [
+        { phrase: "marine ecology",    desc: "海洋生態学" },
+        { phrase: "ecological balance", desc: "生態的バランス・生態系の均衡" }
+      ]
+    },
+
+    "economy": {
+      origin: "ギリシャ語 oikonomia（家の管理・家政）< oikos（家）+ nomos（法則・管理）。「家を上手に管理する」という家政の概念が、国家・社会の資源管理へと拡張された。\n\n16世紀に英語に入り当初は「節約・倹約」を意味したが、17〜18世紀の重商主義・古典派経済学の発展とともに「生産・分配・消費の国家的システム」という現代的な意味に特化した。アダム・スミスの『国富論（The Wealth of Nations, 1776年）』が近代経済学の基礎を築いた。\n\neconomy class（エコノミークラス ＝ 節約の class）のように「費用を抑えた・経済的な」という形容詞的意味でも使われる。",
+      derivatives: [
+        { word: "economics",      desc: "経済学（名詞複数形・学問名）" },
+        { word: "economist",      desc: "経済学者・エコノミスト" },
+        { word: "economic",       desc: "経済的な・経済に関する（形容詞）" }
+      ],
+      family: [
+        { word: "ecology",        desc: "生態学（oikos + logos）" },
+        { word: "autonomous",     desc: "自治の（autos 自分 + nomos）" },
+        { word: "astronomy",      desc: "天文学（astron + nomos）" }
+      ],
+      compounds: [
+        { phrase: "economy class",    desc: "エコノミークラス（節約クラス）" },
+        { phrase: "market economy",   desc: "市場経済" },
+        { phrase: "gig economy",      desc: "ギグエコノミー（単発仕事中心の経済）" }
+      ]
+    },
+
+    // ── polis系（都市・国家）──
+    "politics": {
+      origin: "ギリシャ語 politika（国家に関すること）< polis（都市国家）+ -ikos（〜に関する）。アリストテレスの著作 Politika（政治学）がこの語を学術的に確立した。「人間は本来、政治的（polis に生きる）動物である」というのがアリストテレスの有名な命題。\n\n14世紀の英語に入り「国家・政府・権力に関する活動・考え方・学問」を指す語として定着。現代では politics は選挙・議会・政党活動から、職場政治（office politics）のような日常的な権力関係まで幅広く指す。\n\npolitically correct（政治的に正しい・PC）という概念は、特定の集団に対する偏見や差別を避ける言語・行動の規範として1980〜90年代から広まり、現在も賛否両論の議論が続く重要概念。",
+      derivatives: [
+        { word: "political",       desc: "政治的な・政治に関する（形容詞）" },
+        { word: "politically",     desc: "政治的に（副詞）" },
+        { word: "politician",      desc: "政治家（名詞）" }
+      ],
+      family: [
+        { word: "policy",          desc: "政策・方針（polis から）" },
+        { word: "police",          desc: "警察（polis の管理者）" },
+        { word: "metropolis",      desc: "大都市（mētēr 母 + polis）" },
+        { word: "cosmopolitan",    desc: "世界市民的な（kosmos 世界 + polis）" }
+      ],
+      compounds: [
+        { phrase: "political party",        desc: "政党" },
+        { phrase: "office politics",        desc: "職場の政治・社内の権力ゲーム" },
+        { phrase: "politically correct",    desc: "政治的に正しい（PC）" }
+      ]
+    },
+
+    "policy": {
+      origin: "ラテン語 politia（国家管理・市民の秩序）< ギリシャ語 politeia（国制・市民としての生き方）< polis（都市国家）。「国家・組織のあり方を定めた原則・方針」というのが語源的な意味。\n\n15世紀のフランス語経由で英語に入り「（政府・組織・個人が採用する）政策・方針・規則・保険契約」という多義語として定着。\n\npublic policy（公共政策）、insurance policy（保険証券・保険規約）、company policy（会社方針）のように、「一定のルール・方針を定めたもの」という意味で幅広く使われる。",
+      derivatives: [
+        { word: "policymaker",    desc: "政策立案者・意思決定者" }
+      ],
+      family: [
+        { word: "politics",       desc: "政治（polis + -ikos）" },
+        { word: "police",         desc: "警察（polis の管理者）" },
+        { word: "polite",         desc: "礼儀正しい（politus 洗練された）" }
+      ],
+      compounds: [
+        { phrase: "public policy",     desc: "公共政策" },
+        { phrase: "insurance policy",  desc: "保険証券・保険契約" },
+        { phrase: "company policy",    desc: "会社の方針・社則" }
+      ]
+    },
+
+    // ── auto系（自分・自己）──
+    "autonomous": {
+      origin: "ギリシャ語 autonomos（自分自身の法律を持つ）< autos（自分）+ nomos（法則・法律）。「自分で自分の規則を決める＝自治的な・自律的な」というのが語源的な意味。\n\n18世紀に英語に入り「自治の・独立した・自律的な」という形容詞として定着。政治では autonomous region（自治区）、哲学・倫理学では「自分の意志で行動する自律した存在」、ロボット・AI の文脈では autonomous vehicle（自律走行車）のように使われる。\n\n現代の AI・ロボット工学では autonomous system（自律システム）、autonomous driving（自動運転）が重要な技術トレンドであり、autos が「人間の判断なしに自ら判断・行動する」という意味で使われる。",
+      derivatives: [
+        { word: "autonomy",        desc: "自治権・自律性（名詞）" },
+        { word: "autonomously",    desc: "自律的に・独立して（副詞）" }
+      ],
+      family: [
+        { word: "automatic",       desc: "自動の（autos + maktos 動く）" },
+        { word: "automobile",      desc: "自動車（autos + mobilis 動く）" },
+        { word: "autobiography",   desc: "自伝（autos + bios + graphein）" },
+        { word: "autograph",       desc: "直筆サイン（autos + graphein）" }
+      ],
+      compounds: [
+        { phrase: "autonomous vehicle",   desc: "自律走行車・自動運転車" },
+        { phrase: "autonomous region",    desc: "自治区" }
+      ]
+    },
+
+    "automatic": {
+      origin: "ギリシャ語 automatos（自分で動く）< autos（自分）+ matos（動く・思考する）。「自分の意志で動く・外からの力なしに動く」というのが語源的な意味で、機械が人間の操作なしに自ら動く状態を表す。\n\n18世紀に英語に定着し「自動的な・機械的な・無意識の」という形容詞として使われる。automatic door（自動ドア）、automatic transmission（オートマチック変速機）、automatic pilot（自動操縦）のような機械工学的な用法のほか、automatic response（無意識の反応）のような心理的な意味でも使われる。\n\nautomatically は「自動的に・反射的に・当然の結果として」という意味の副詞として非常に高頻度。",
+      derivatives: [
+        { word: "automatically",   desc: "自動的に・反射的に（副詞）" },
+        { word: "automation",      desc: "自動化・オートメーション（名詞）" }
+      ],
+      family: [
+        { word: "autonomous",      desc: "自律的な（autos + nomos）" },
+        { word: "automobile",      desc: "自動車（autos + mobilis）" },
+        { word: "autopilot",       desc: "自動操縦（autos + pilot）" }
+      ],
+      compounds: [
+        { phrase: "automatic door",   desc: "自動ドア" },
+        { phrase: "on autopilot",     desc: "自動操縦で・無意識に・惰性で" }
+      ]
+    },
+
+    "automobile": {
+      origin: "フランス語 automobile < ギリシャ語 autos（自分）+ ラテン語 mobilis（動ける・移動できる）から成る19世紀の造語。「自ら動く乗り物」というのが語源通りの意味で、馬なしに自走する乗り物として19世紀末に命名された。\n\n1885〜86年にカール・ベンツとゴットリープ・ダイムラーが独立してガソリンエンジン車を発明し、automobile（英・仏）、car（英・米口語）、motor car（英国）、horseless carriage（初期の表現）など様々な呼称で普及した。\n\nフォードの大量生産（1908年〜 T型フォード）が自動車を庶民のものにし、20世紀の社会・都市・経済・文化を根本から変えた。",
+      derivatives: [
+        { word: "automotive",     desc: "自動車の・自動車産業の（形容詞）" }
+      ],
+      family: [
+        { word: "autonomous",     desc: "自律的な（autos + nomos）" },
+        { word: "automatic",      desc: "自動の（autos + matos）" },
+        { word: "mobile",         desc: "移動式の・携帯電話（mobilis）" },
+        { word: "mobility",       desc: "移動性・流動性（mobilis）" }
+      ],
+      compounds: [
+        { phrase: "automobile industry",  desc: "自動車産業" }
+      ]
+    },
+
+    // ── populus系（民衆）──
+    "popular": {
+      origin: "ラテン語 popularis（民衆の・民衆に広く知られた）< populus（民衆・人民）。populusは「特定地域の人々の集合」を意味し、英語の people とも語源的に関連する。\n\n15世紀に英語に入り「（1）民衆に支持された・人気のある（2）一般向けの・大衆の」という形容詞として定着。popular music（大衆音楽・ポップ）、popular vote（一般投票・得票数）のように使われる。\n\npopularity（人気・評判）、popularize（一般向けにする・普及させる）という派生語も重要。unpopular（不人気の）、overpopulated（人口過密の）のような反義・合成語も頻出する。",
+      derivatives: [
+        { word: "popularity",    desc: "人気・評判・普及度（名詞）" },
+        { word: "popularize",    desc: "普及させる・大衆向けにする（動詞）" }
+      ],
+      family: [
+        { word: "population",    desc: "人口（populatio < populus）" },
+        { word: "public",        desc: "公衆・公共の（publicus < populus）" },
+        { word: "republic",      desc: "共和国（res publica 公共の事柄）" },
+        { word: "people",        desc: "人々（populus の英語形）" }
+      ],
+      compounds: [
+        { phrase: "popular vote",       desc: "一般投票・得票数（選挙）" },
+        { phrase: "popular culture",    desc: "大衆文化・ポップカルチャー" }
+      ]
+    },
+
+    "population": {
+      origin: "ラテン語 populatio（民衆の集まり）< populus（民衆）。17世紀に英語で「特定の地域・国に住む人々の総数」という人口統計的な意味で定着した。\n\n生物学では「特定地域の同種の生物の集団」を指し、population genetics（集団遺伝学）は進化論・自然選択を数学的に研究する分野。\n\nworld population（世界人口）は2023年時点で約80億人を超え、population growth（人口増加）、overpopulation（人口過剰）、population aging（高齢化）など、現代社会の最重要課題に直結する語として使われる。",
+      derivatives: [
+        { word: "populate",       desc: "住民が住む・（コンテンツで）満たす（動詞）" },
+        { word: "overpopulation", desc: "人口過剰（over- + population）" }
+      ],
+      family: [
+        { word: "popular",        desc: "人気のある・民衆の（popularis）" },
+        { word: "public",         desc: "公共の（publicus < populus）" },
+        { word: "republic",       desc: "共和国（res publica）" }
+      ],
+      compounds: [
+        { phrase: "world population",    desc: "世界人口" },
+        { phrase: "population growth",   desc: "人口増加" },
+        { phrase: "aging population",    desc: "高齢化した人口・高齢化社会" }
+      ]
+    },
+
+    "public": {
+      origin: "ラテン語 publicus（人民全体の・公共の）< populus（民衆）の形容詞形。「特定の個人や集団ではなく、全ての人々に関わる・開かれた」というのが語源的な意味。\n\n15世紀に英語に入り「公共の・公の・一般向けの」という形容詞と「一般市民・大衆」という名詞として定着。public sector（公共部門）、public health（公衆衛生）、go public（株式を公開する）のように使われる。\n\n「private（私的）」の対義語として機能し、public vs. private の区別は政治・法律・経営のあらゆる分野で基本的な概念軸となっている。",
+      derivatives: [
+        { word: "publicly",       desc: "公に・一般向けに（副詞）" },
+        { word: "publicity",      desc: "宣伝・広報・知名度（名詞）" },
+        { word: "publicize",      desc: "広く知らせる・宣伝する（動詞）" }
+      ],
+      family: [
+        { word: "popular",        desc: "人気のある（popularis）" },
+        { word: "population",     desc: "人口（populatio）" },
+        { word: "republic",       desc: "共和国（res publica）" }
+      ],
+      compounds: [
+        { phrase: "public sector",   desc: "公共部門・官公庁" },
+        { phrase: "public health",   desc: "公衆衛生" },
+        { phrase: "go public",       desc: "株式公開する・公になる" }
+      ]
+    },
+
+    // ── tort系（曲げる）──
+    "torture": {
+      origin: "ラテン語 tortura（ひねり・絞り）< torquere（ねじる・捻る）。「体をねじるような苦痛を与える」というのが語源的な意味で、中世ヨーロッパの拷問台が体を文字通りに「ねじった」ことに由来する。\n\n15世紀に英語に入り「（1）拷問する・極度の苦痛を与える（2）ひどい苦しみ」という動詞・名詞として定着。UN 拷問禁止条約（1984年）など人権・国際法の文脈では重要語。\n\n比喩的には "This math test is pure torture."（この数学テストは純粋な拷問だ）のように「非常につらい・耐え難いもの」という誇張表現でも使われる。",
+      derivatives: [
+        { word: "tortured",      desc: "苦悩した・苦しめられた（形容詞）" },
+        { word: "torturous",     desc: "苦痛な・拷問のような（形容詞）" }
+      ],
+      family: [
+        { word: "distort",       desc: "歪める（dis- + torquere）" },
+        { word: "extort",        desc: "脅迫して奪う（ex- + torquere）" },
+        { word: "contort",       desc: "ひどく歪める（con- + torquere）" },
+        { word: "torque",        desc: "トルク・回転力（torquere）" }
+      ],
+      compounds: [
+        { phrase: "torture chamber",    desc: "拷問部屋" },
+        { phrase: "sheer torture",      desc: "純粋な拷問・非常につらいこと" }
+      ]
+    },
+
+    "distort": {
+      origin: "ラテン語 distorquere（離れた方向にねじる）< dis-（離れて・分離）+ torquere（ねじる）。「本来の形からねじれてしまう＝歪む・歪める」というのが語源的な意味。\n\n15世紀に英語に入り「（1）（形・音・映像を）歪める（2）（事実・意味を）歪曲する」という動詞として定着。物理的な歪み（distorted image ＝ 歪んだ画像）と抽象的な歪曲（distort the truth ＝ 真実を歪める）の両方の意味で使われる。\n\nメディア・政治の文脈では distort the facts（事実を歪曲する）、media distortion（メディアによる歪曲）が重要な社会問題として議論される。",
+      derivatives: [
+        { word: "distortion",    desc: "歪み・歪曲・ひずみ（名詞）" },
+        { word: "distorted",     desc: "歪んだ・歪曲された（形容詞）" }
+      ],
+      family: [
+        { word: "torture",       desc: "拷問する（torquere）" },
+        { word: "extort",        desc: "脅迫して奪う（ex- + torquere）" },
+        { word: "contort",       desc: "ひどく歪める（con- + torquere）" }
+      ],
+      compounds: [
+        { phrase: "distort the truth",  desc: "真実を歪める・事実を歪曲する" },
+        { phrase: "image distortion",   desc: "画像の歪み・レンズ歪み" }
+      ]
+    },
+
+    // ── lect / leg系（集める・読む・選ぶ）──
+    "select": {
+      origin: "ラテン語 seligere（選び出す）< se-（分離・側へ）+ legere（集める・選ぶ・読む）。「多くの中から選んで脇に置く」というのが語源的な意味。\n\n16世紀に英語に入り「慎重に選ぶ・選択する」という動詞と「精選された・エリートの」という形容詞として定着。carefully select（慎重に選ぶ）、select committee（特別委員会 ＝ 選ばれたメンバーの委員会）のように使われる。\n\nselection（選択・選考・品揃え）は生物学では natural selection（自然選択）という Darwin 進化論の核心概念として、ビジネスでは personnel selection（人材選考）として使われる。",
+      derivatives: [
+        { word: "selection",      desc: "選択・選考・品揃え（名詞）" },
+        { word: "selective",      desc: "選択的な・好みがうるさい（形容詞）" },
+        { word: "selectively",    desc: "選択的に（副詞）" }
+      ],
+      family: [
+        { word: "collect",        desc: "集める（col- + legere）" },
+        { word: "elect",          desc: "選出する（e- + legere）" },
+        { word: "neglect",        desc: "怠る（neg- + legere）" },
+        { word: "elegant",        desc: "優雅な（e- + legere 選ばれた）" }
+      ],
+      compounds: [
+        { phrase: "natural selection",  desc: "自然選択（ダーウィン進化論）" },
+        { phrase: "select committee",   desc: "特別委員会・精選委員会" }
+      ]
+    },
+
+    "collect": {
+      origin: "ラテン語 colligere（共に集める）< col-（con- 共に）+ legere（集める）。「散らばったものを共に一箇所に集める」というのが語源的なイメージ。\n\n14世紀に英語に入り「集める・収集する・徴収する」という動詞として定着。collect stamps（切手を集める）、tax collection（税金の徴収）、collect oneself（気持ちを落ち着かせる = 自分を集める）のように使われる。\n\ncollective（集団的な・協同の）という形容詞は collective bargaining（団体交渉）、collective memory（集合的記憶）などの概念語として重要。collection（コレクション・収集品）は美術館・博物館の核心語。",
+      derivatives: [
+        { word: "collection",     desc: "収集・コレクション・徴収（名詞）" },
+        { word: "collector",      desc: "コレクター・収集家" },
+        { word: "collective",     desc: "集団的な・協同の（形容詞）" }
+      ],
+      family: [
+        { word: "select",         desc: "選ぶ（se- + legere）" },
+        { word: "elect",          desc: "選出する（e- + legere）" },
+        { word: "neglect",        desc: "怠る（neg- + legere）" }
+      ],
+      compounds: [
+        { phrase: "collect data",         desc: "データを集める" },
+        { phrase: "collective bargaining", desc: "団体交渉（労使交渉）" }
+      ]
+    },
+
+    "elect": {
+      origin: "ラテン語 eligere（外に選び出す）< e- / ex-（外へ）+ legere（集める・選ぶ）。「多くの中から選び取る」という語源で、政治的な「選挙による選出」という意味に特化した。\n\n15世紀に英語に入り「（投票で）選出する・（より好ましいものを）選ぶ」という動詞として定着。elect a president（大統領を選出する）、elect to do（〜することを選ぶ）という二つの用法がある。\n\nelection（選挙）、electorate（有権者）、electoral college（米国の選挙人団）は民主主義の基本語彙として不可欠。",
+      derivatives: [
+        { word: "election",       desc: "選挙（名詞）" },
+        { word: "electoral",      desc: "選挙の・選挙人の（形容詞）" },
+        { word: "electorate",     desc: "有権者・選挙区（名詞）" }
+      ],
+      family: [
+        { word: "select",         desc: "選ぶ（se- + legere）" },
+        { word: "collect",        desc: "集める（col- + legere）" },
+        { word: "neglect",        desc: "怠る（neg- + legere）" },
+        { word: "elegant",        desc: "優雅な（e- + legere）" }
+      ],
+      compounds: [
+        { phrase: "general election",    desc: "総選挙" },
+        { phrase: "electoral college",   desc: "選挙人団（米国大統領選）" }
+      ]
+    },
+
+    "neglect": {
+      origin: "ラテン語 neglegere（選ばずに放っておく）< neg-（否定）+ legere（集める・選ぶ）。「選んで集めることをしない＝注意を払わない・放置する」というのが語源的な意味。\n\n15世紀に英語に入り「（義務・責任を）怠る・（人・物を）放置する」という動詞と「怠慢・放置」という名詞として定着。neglect one's duties（義務を怠る）、child neglect（育児放棄）のように使われる。\n\nmedical neglect（医療放置）、parental neglect（親の育児放棄）のような文脈では深刻な法的・社会的問題として議論され、abuse（虐待）と並ぶ重要な概念。",
+      derivatives: [
+        { word: "negligent",      desc: "怠慢な・注意を怠った（形容詞）" },
+        { word: "negligence",     desc: "怠慢・過失・ネグリジェンス（名詞）" },
+        { word: "negligible",     desc: "無視できるほど小さい（形容詞）" }
+      ],
+      family: [
+        { word: "select",         desc: "選ぶ（se- + legere）" },
+        { word: "collect",        desc: "集める（col- + legere）" },
+        { word: "elect",          desc: "選出する（e- + legere）" }
+      ],
+      compounds: [
+        { phrase: "child neglect",     desc: "育児放棄・子どもへの放置" },
+        { phrase: "criminal negligence", desc: "刑事上の過失" }
+      ]
     }
 
   };

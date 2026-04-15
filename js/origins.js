@@ -4242,6 +4242,632 @@
         { phrase: "seek solitude",      desc: "一人の時間を求める" },
         { phrase: "a place of solitude", desc: "孤独を楽しめる場所" }
       ]
+    },
+
+    // ── philos系（愛・好む）──
+    "philosophy": {
+      origin: "ギリシャ語 philosophia（知を愛すること）< philos（愛する・友好的な）+ sophia（知恵）。古代ギリシャでソクラテスやプラトンが「知恵そのものではなく、知恵を愛し求める営み」として用いた語。\n\nラテン語 philosophia を経て14世紀の英語に入り、当初は「自然哲学＝科学全般」の意味も持っていた。やがて倫理学・形而上学・認識論などを扱う学問として分化し、現在は「世界・存在・知識の根本を問う学問」を指す。\n\n日常語としては「人生哲学・信念・方針」の意味でも広く使われ、"my philosophy of life"（私の人生哲学）のように個人の指針を語る場面で頻出する。",
+      derivatives: [
+        { word: "philosopher",    desc: "哲学者（philosophia を実践する人）" },
+        { word: "philosophical",  desc: "哲学的な・達観した（形容詞）" },
+        { word: "philosophically", desc: "哲学的に・泰然と（副詞）" },
+        { word: "philosophize",   desc: "哲学する・深く考察する（動詞）" }
+      ],
+      family: [
+        { word: "philanthropy",   desc: "博愛・慈善活動（philos + anthropos 人）" },
+        { word: "philharmonic",   desc: "音楽愛好の（philos + harmonia 調和）" },
+        { word: "bibliophile",    desc: "愛書家（biblio 書物 + philos）" },
+        { word: "sophia",         desc: "知恵（ギリシャ語源、固有名詞にも）" }
+      ],
+      compounds: [
+        { phrase: "philosophy of life",    desc: "人生哲学・生き方の指針" },
+        { phrase: "a philosophical outlook", desc: "物事を冷静に見る姿勢" }
+      ]
+    },
+
+    "philanthropy": {
+      origin: "ギリシャ語 philanthrōpia（人類への愛）< philos（愛する）+ anthrōpos（人間）。元来「人間性・人への親切心」を意味し、ローマ時代には「人類への慈悲」として用いられた。\n\n17世紀の英語に入ると「慈善活動・寄付による社会貢献」という現代的な意味に定着した。近代以降はロックフェラーやカーネギーのような大規模慈善家の活動が philanthropy と呼ばれ、企業・財団が社会課題に投資する行為全般を指すようになった。\n\nphilanthropist（慈善家）は単なる寄付者ではなく、組織的・継続的に社会改善に取り組む人物を指すことが多い。",
+      derivatives: [
+        { word: "philanthropist",  desc: "慈善家・博愛主義者" },
+        { word: "philanthropic",   desc: "慈善的な・博愛的な（形容詞）" }
+      ],
+      family: [
+        { word: "philosophy",      desc: "哲学（philos + sophia 知恵）" },
+        { word: "anthropology",    desc: "人類学（anthrōpos + logos）" },
+        { word: "misanthropy",     desc: "人間嫌い（misos 憎む + anthrōpos）" },
+        { word: "philanthrope",    desc: "博愛家（古語・詩的表現）" }
+      ],
+      compounds: [
+        { phrase: "corporate philanthropy", desc: "企業による慈善・社会貢献活動" },
+        { phrase: "philanthropic foundation", desc: "慈善財団" }
+      ]
+    },
+
+    "philharmonic": {
+      origin: "ギリシャ語 philos（愛する）+ harmonia（調和・音楽）から成る複合語。18世紀のヨーロッパで音楽協会や演奏団体が自らの名称に採用したことで広まった。\n\nハーモニー（harmonia）の語源はギリシャ語で「結合・釘・継ぎ目」を意味し、音楽では「複数の音が調和して一つになる状態」を表す。Philharmonic は「音楽（調和音）を愛する」という形容詞で、通常 philharmonic orchestra（フィルハーモニー管弦楽団）の略として使われる。\n\nベルリン・フィルハーモニー管弦楽団（Berliner Philharmoniker）やニューヨーク・フィルハーモニック（New York Philharmonic）のように、世界有数の交響楽団の固有名詞として定着している。",
+      derivatives: [
+        { word: "harmonic",    desc: "調和的な・倍音の（形容詞）" },
+        { word: "harmonize",   desc: "調和させる・和声をつける" },
+        { word: "harmonious",  desc: "調和のとれた・仲の良い" },
+        { word: "harmony",     desc: "調和・和音・協調" }
+      ],
+      family: [
+        { word: "philosophy",  desc: "哲学（philos + sophia）" },
+        { word: "philanthropy", desc: "慈善（philos + anthrōpos）" },
+        { word: "symphony",    desc: "交響曲（sym- 共に + phōnē 音）" }
+      ],
+      compounds: [
+        { phrase: "philharmonic orchestra", desc: "フィルハーモニー管弦楽団" }
+      ]
+    },
+
+    // ── bi / duo系（2・二重）──
+    "bilingual": {
+      origin: "ラテン語 bi-（二つの）+ lingua（舌・言語）から。lingua はラテン語で「舌」を意味し、転じて「言語」を表す。フランス語 langue、スペイン語 lengua、英語 language もすべてこの語根から来ている。\n\n19世紀に bilingual が英語に定着し、「二言語を話す人・二言語で書かれた文書」を指すようになった。現代では言語習得・教育・神経科学の分野でも重要な概念として研究されている。\n\n二言語以上を操る場合は multilingual（多言語の）、言語そのものへの学術的関心は linguistics（言語学）で扱われる。",
+      derivatives: [
+        { word: "bilingually",   desc: "二言語で（副詞）" },
+        { word: "bilingualism",  desc: "二言語使用・バイリンガリズム" }
+      ],
+      family: [
+        { word: "multilingual",  desc: "多言語の（multi- 多 + lingua）" },
+        { word: "monolingual",   desc: "一言語のみの（mono- 一 + lingua）" },
+        { word: "language",      desc: "言語（lingua の変形）" },
+        { word: "linguistics",   desc: "言語学（lingua + -istics）" },
+        { word: "lingual",       desc: "舌の・言語の（形容詞）" }
+      ],
+      compounds: [
+        { phrase: "bilingual education",  desc: "バイリンガル教育・二言語教育" },
+        { phrase: "bilingual dictionary", desc: "二か国語辞典" }
+      ]
+    },
+
+    "binary": {
+      origin: "ラテン語 binarius（二つを含む）< bini（二つずつ）< bis（二回）。古典ラテン語で「対になったもの・二者からなるもの」を意味し、天文学では binary star（連星）として使われていた。\n\n20世紀にコンピュータ科学が発展すると、0と1の二値で情報を表す binary（2進法）が中心的な技術概念になった。バイナリコード・バイナリファイルなど、現代のデジタル技術を支える基礎概念として不可欠な語である。\n\n社会・文化的文脈では「二項対立・二元的なもの」を指す形容詞としても使われ、gender binary（性別二元論）のように価値観を問う議論にも登場する。",
+      derivatives: [
+        { word: "binaural",   desc: "両耳の・立体音響の（bi- + auris 耳）" }
+      ],
+      family: [
+        { word: "bicycle",    desc: "自転車（bi- + cycle 輪）" },
+        { word: "binocular",  desc: "双眼鏡（bi- + oculus 目）" },
+        { word: "bisect",     desc: "二等分する（bi- + sect 切る）" },
+        { word: "dual",       desc: "二重の・二者の（duo の形容詞）" },
+        { word: "twice",      desc: "二回（bi-/bis- の英語形）" }
+      ],
+      compounds: [
+        { phrase: "binary code",   desc: "2進法のコード" },
+        { phrase: "binary system", desc: "二進法・二元体制" }
+      ]
+    },
+
+    "dual": {
+      origin: "ラテン語 dualis（二を含む）< duo（二）。古典ラテン語の文法用語として「双数形（二つのものを指す格変化）」を表した。ギリシャ語の dyo、サンスクリット語の dvā と同じインド・ヨーロッパ語族の共通語根 *dwo- に由来する。\n\n英語には16世紀に入り、「二重の・二者から成る」という形容詞として定着した。dual nationality（二重国籍）、dual role（二役）のように「一つのものが二つの性質・機能を兼ねる」状況で広く使われる。\n\n語源の duo は英語の duet（二重奏）、duplex（二重の）、doubt（< dubitare 二つに揺れる）などにも受け継がれ、「2」という概念を英語語彙に広く根付かせた。",
+      derivatives: [
+        { word: "duality",    desc: "二重性・二元性" },
+        { word: "dualism",    desc: "二元論（哲学・宗教用語）" },
+        { word: "dualist",    desc: "二元論者" }
+      ],
+      family: [
+        { word: "duo",        desc: "二人組・デュオ" },
+        { word: "duet",       desc: "二重奏・二重唱（duo の縮小形）" },
+        { word: "double",     desc: "二倍の・二重の（duo の変形）" },
+        { word: "binary",     desc: "二進法の・二者の（binarius）" },
+        { word: "doubt",      desc: "疑い（dubitare 二つに揺れる）" }
+      ],
+      compounds: [
+        { phrase: "dual nationality",  desc: "二重国籍" },
+        { phrase: "dual role",         desc: "二役・二重の役割" },
+        { phrase: "dual-purpose",      desc: "二目的兼用の" }
+      ]
+    },
+
+    "duet": {
+      origin: "イタリア語 duetto（二重奏）< duo（二）の縮小形。18世紀の音楽用語として英語に入り、当初は声楽の「二重唱」を指したが、やがて二つの楽器による演奏や、二人の俳優・ダンサーによるパフォーマンス全般に拡張された。\n\n語根 duo はラテン語・ギリシャ語の「2」を表す最も基本的な形で、英語の two もインド・ヨーロッパ語族の同じ語根 *dwo- に遡る。\n\n音楽以外では「息の合った二人組・二人一組でする行為」という比喩的意味でも使われる。",
+      derivatives: [
+        { word: "duo",       desc: "二人組・デュオ（duet の略義形）" }
+      ],
+      family: [
+        { word: "dual",      desc: "二重の（dualis）" },
+        { word: "duo",       desc: "二人組" },
+        { word: "double",    desc: "二倍" },
+        { word: "duplex",    desc: "二重の・二層の（duplex < duo + plex）" },
+        { word: "duplicate", desc: "複製・二重にする（duplicare）" }
+      ],
+      compounds: [
+        { phrase: "piano duet",  desc: "ピアノ連弾・ピアノ二重奏" },
+        { phrase: "vocal duet",  desc: "ボーカル・デュエット" }
+      ]
+    },
+
+    // ── geo系（地球・大地）──
+    "geography": {
+      origin: "ギリシャ語 geōgraphia（大地の描写）< gē（大地・地球）+ graphein（書く・描く）。古代ギリシャの学者エラトステネス（紀元前3世紀）が地球の周長を計算したことで知られ、geographia はまず「地球を記述する学問」として体系化された。\n\nラテン語を経て16世紀に英語に定着。当初は地形・気候・海洋を記述する自然地理学を指したが、やがて人文地理学（人々の分布・文化・経済）も含む広義の地球科学全般を指すようになった。\n\ngeographer（地理学者）、geographic（地理的な）など、現代でも学術・教育・ビジネスの多くの文脈に登場する語根である。",
+      derivatives: [
+        { word: "geographer",    desc: "地理学者" },
+        { word: "geographic",    desc: "地理的な（形容詞）" },
+        { word: "geographical",  desc: "地理上の（形容詞・やや格式）" }
+      ],
+      family: [
+        { word: "geology",       desc: "地質学（gē + logos）" },
+        { word: "geometry",      desc: "幾何学（gē + metron 測定）" },
+        { word: "geopolitics",   desc: "地政学（gē + politics）" },
+        { word: "geothermal",    desc: "地熱の（gē + thermos 熱）" }
+      ],
+      compounds: [
+        { phrase: "physical geography",  desc: "自然地理学" },
+        { phrase: "human geography",     desc: "人文地理学" }
+      ]
+    },
+
+    "geology": {
+      origin: "ギリシャ語 gē（大地）+ logos（学問・論）から成る近代造語。18世紀後半に地球の岩石・地層・歴史を研究する学問として確立し、1778年頃に英語に定着した。\n\n産業革命期に石炭や鉱物資源の探査が盛んになったことで地質学は急速に発展した。ウィリアム・スミスが地層と化石の関係を体系化し（1815年）、チャールズ・ライエルが「現在は過去の鍵である」という斉一説を提唱したことで近代地質学の基礎が築かれた。\n\ngeological time（地質時代）のような概念は「数億年という深い時間スケール」を科学に持ち込み、後のダーウィンの進化論にも影響を与えた。",
+      derivatives: [
+        { word: "geologist",    desc: "地質学者" },
+        { word: "geological",   desc: "地質学的な（形容詞）" }
+      ],
+      family: [
+        { word: "geography",    desc: "地理学（gē + graphein）" },
+        { word: "geometry",     desc: "幾何学（gē + metron）" },
+        { word: "biology",      desc: "生物学（bios + logos）" },
+        { word: "psychology",   desc: "心理学（psychē + logos）" }
+      ],
+      compounds: [
+        { phrase: "geological survey",    desc: "地質調査" },
+        { phrase: "geological time scale", desc: "地質年代表" }
+      ]
+    },
+
+    "geometry": {
+      origin: "ギリシャ語 geōmetria（土地の測量）< gē（大地）+ metrein（測る）。古代エジプトのナイル川氾濫後の農地区画測量から発達したとされる実用的技術が、ギリシャのユークリッドによって公理的な学問として体系化された（紀元前300年頃）。\n\n英語には14世紀に入り、当初は土地測量の実用技術を指したが、やがて「点・線・面・立体の性質を論理的に研究する数学の分野」として抽象化された。ユークリッド幾何学（Euclidean geometry）のほか、非ユークリッド幾何学・解析幾何学・微分幾何学など多様な分野に発展している。\n\n語根 -metry は他にも thermometry（温度測定）、chronometry（時間測定）、optometry（視力測定）など多数の専門語を形成している。",
+      derivatives: [
+        { word: "geometric",    desc: "幾何学的な・幾何学模様の（形容詞）" },
+        { word: "geometrical",  desc: "幾何学的な（形容詞・やや格式）" },
+        { word: "geometrician", desc: "幾何学者" }
+      ],
+      family: [
+        { word: "meter",        desc: "メートル・計測器（metron）" },
+        { word: "thermometer",  desc: "温度計（thermos + metron）" },
+        { word: "symmetry",     desc: "対称性（sym- 共に + metron）" },
+        { word: "parameter",    desc: "パラメータ（para- + metron）" }
+      ],
+      compounds: [
+        { phrase: "plane geometry",    desc: "平面幾何学" },
+        { phrase: "geometric pattern", desc: "幾何学模様" }
+      ]
+    },
+
+    // ── demos系（民衆）──
+    "democracy": {
+      origin: "ギリシャ語 dēmokratia（民衆の支配）< dēmos（民衆・地域住民）+ kratos（力・支配）。古代アテナイで紀元前508年頃クレイステネスが導入した政治制度がその原型で、成人男性市民が直接参加して政策を決定した。\n\nラテン語を経て16世紀の英語に定着。絶対王政に対抗する概念として啓蒙思想家に好まれ、フランス革命やアメリカ独立革命を経て「自由・平等・主権在民」の象徴語となった。\n\n現代では「代議制民主主義（representative democracy）」が主流。democracy は単なる制度名を超え、「公正・透明・参加」を価値とする政治哲学全般を指す語として世界中で使われている。",
+      derivatives: [
+        { word: "democrat",       desc: "民主主義者・民主党員" },
+        { word: "democratic",     desc: "民主主義的な（形容詞）" },
+        { word: "democratize",    desc: "民主化する" },
+        { word: "democratization", desc: "民主化（名詞）" }
+      ],
+      family: [
+        { word: "demographic",    desc: "人口統計的な（dēmos + graphein）" },
+        { word: "epidemic",       desc: "流行病（epi- + dēmos）" },
+        { word: "pandemic",       desc: "世界的流行病（pan- 全て + dēmos）" },
+        { word: "aristocracy",    desc: "貴族政治（aristos 最良 + kratos）" }
+      ],
+      compounds: [
+        { phrase: "liberal democracy",       desc: "自由民主主義" },
+        { phrase: "direct democracy",        desc: "直接民主制" },
+        { phrase: "democratic process",      desc: "民主的プロセス・手続き" }
+      ]
+    },
+
+    "epidemic": {
+      origin: "ギリシャ語 epidēmia（民衆の間に広まること）< epi-（上に・〜の間に）+ dēmos（民衆）。古代ギリシャのヒポクラテスが特定地域で同時に多数の人が同じ病気にかかる状況を opistelai(流行) と呼んだことに由来し、ラテン語 epidemia を経て14世紀に英語に入った。\n\n当初は「ある地域・集団に急速に広まる病気」を指した医学用語だったが、現代では比喩的に「epidemic of violence（暴力の蔓延）」のように社会問題が急増する状況にも使われる。\n\nendemic（特定地域に常在する）、pandemic（世界的規模で流行する）と対比して理解すると整理しやすい。COVID-19のパンデミック以降、これらの用語の正確な使い分けが一般にも広く意識されるようになった。",
+      derivatives: [
+        { word: "epidemiologist", desc: "疫学者" },
+        { word: "epidemiology",   desc: "疫学（流行病の科学的研究）" }
+      ],
+      family: [
+        { word: "pandemic",    desc: "世界的流行病（pan- 全て + dēmos）" },
+        { word: "endemic",     desc: "特定地域に常在する（en- 中に + dēmos）" },
+        { word: "democracy",   desc: "民主主義（dēmos + kratos）" },
+        { word: "demographic", desc: "人口統計的な" }
+      ],
+      compounds: [
+        { phrase: "epidemic disease",  desc: "流行病・伝染病" },
+        { phrase: "epidemic outbreak", desc: "感染爆発・流行の発生" }
+      ]
+    },
+
+    "pandemic": {
+      origin: "ギリシャ語 pandēmos（全ての民衆にわたる）< pan-（全て）+ dēmos（民衆）。英語には17世紀半ばに形容詞として入り、「全住民に影響する」を意味したが、医学的な「世界規模の流行病」という意味は19世紀に確立した。\n\nWHO（世界保健機関）は pandemic を「複数の大陸・地域にまたがって流行する感染症」と定義する。2009年の H1N1 インフルエンザ、2020年の COVID-19 で、この語は一般市民の日常語になった。\n\n語頭の pan-（全て）は panacea（万能薬）、panorama（全景）、pantheism（汎神論）など多くの英語語彙を形成する重要な接頭辞である。",
+      derivatives: [
+        { word: "pan-",        desc: "全ての〜・汎〜（接頭辞）" }
+      ],
+      family: [
+        { word: "epidemic",    desc: "（地域的）流行病（epi- + dēmos）" },
+        { word: "endemic",     desc: "特定地域常在の（en- + dēmos）" },
+        { word: "panacea",     desc: "万能薬（pan- + akos 治療）" },
+        { word: "panorama",    desc: "全景・パノラマ（pan- + horama 景色）" },
+        { word: "democracy",   desc: "民主主義（dēmos + kratos）" }
+      ],
+      compounds: [
+        { phrase: "global pandemic",     desc: "世界的パンデミック" },
+        { phrase: "pandemic response",   desc: "感染症対策・パンデミック対応" }
+      ]
+    },
+
+    "demographic": {
+      origin: "ギリシャ語 dēmos（民衆）+ graphein（書く・描く）に由来する近代語。19世紀に人口統計を科学的に記述・分析する概念として生まれ、「人口の構成や変動を統計的に研究する」という意味で社会科学に定着した。\n\n形容詞として「人口統計的な」を意味するほか、名詞（複数形 demographics）として「対象集団の年齢・性別・収入・地域などの統計データ」を指す。特にマーケティング・政治・メディアの分野で「ターゲット層」を表す重要概念として使われる。\n\n現代のビジネス・政策立案では、データドリブンな意思決定の基礎として demographics の把握が不可欠とされている。",
+      derivatives: [
+        { word: "demographics",   desc: "人口統計データ・ターゲット層（名詞複数）" },
+        { word: "demographer",    desc: "人口学者・人口統計学者" },
+        { word: "demography",     desc: "人口学・人口統計学" }
+      ],
+      family: [
+        { word: "democracy",    desc: "民主主義（dēmos + kratos）" },
+        { word: "epidemic",     desc: "流行病（epi- + dēmos）" },
+        { word: "photograph",   desc: "写真（phōs 光 + graphein）" },
+        { word: "geography",    desc: "地理学（gē + graphein）" }
+      ],
+      compounds: [
+        { phrase: "demographic data",    desc: "人口統計データ" },
+        { phrase: "demographic shift",   desc: "人口構成の変化" },
+        { phrase: "target demographic",  desc: "ターゲット層・対象人口集団" }
+      ]
+    },
+
+    // ── bios系（生命）──
+    "biology": {
+      origin: "ギリシャ語 bios（生命・生活）+ logos（学問・論）から成る近代造語。1800年頃にドイツの科学者ゴットフリート・ラインホルト・トレヴィラヌスとフランスのジャン＝バティスト・ラマルクがほぼ同時に造語し、「生きるものを対象とする総合的な自然科学」として確立させた。\n\n19世紀はダーウィンの進化論（1859年）やメンデルの遺伝法則（1865年）が発表され、生物学が急速に体系化された時代。20世紀にはDNA二重らせん構造の発見（1953年）を機に分子生物学が台頭し、現在ではゲノム科学・合成生物学・神経生物学など多くの分野に分化している。\n\n語根 bio- は biography（伝記）、antibiotic（抗生物質）、biodiversity（生物多様性）など、生命に関わる多数の英語語彙を形成する。",
+      derivatives: [
+        { word: "biologist",    desc: "生物学者" },
+        { word: "biological",   desc: "生物学的な・生物の（形容詞）" },
+        { word: "biologically", desc: "生物学的に（副詞）" }
+      ],
+      family: [
+        { word: "biography",    desc: "伝記（bios + graphein）" },
+        { word: "antibiotic",   desc: "抗生物質（anti- + bios）" },
+        { word: "biodiversity", desc: "生物多様性（bios + diversity）" },
+        { word: "ecosystem",    desc: "生態系（eco < oikos 家 + system）" }
+      ],
+      compounds: [
+        { phrase: "marine biology",    desc: "海洋生物学" },
+        { phrase: "molecular biology", desc: "分子生物学" }
+      ]
+    },
+
+    "biography": {
+      origin: "ギリシャ語 bios（生命・人生）+ graphein（書く）から成る複合語。17世紀の英語に入り、「ある人物の生涯を記述した文章・書物」を意味するようになった。\n\n伝記文学の歴史は古く、古代ギリシャのプルタルコス『英雄伝』（1世紀）が西洋伝記の古典とされる。近代以降はサミュエル・ジョンソン博士の伝記（ジェームズ・ボズウェル著、1791年）が「詳細・客観的な伝記」の規範を確立し、以降の伝記文学に大きな影響を与えた。\n\n現代では autobiography（自伝）、memoir（回想録）、hagiography（聖人伝・美化された伝記）と区別して使われる。",
+      derivatives: [
+        { word: "biographer",      desc: "伝記作家" },
+        { word: "biographical",    desc: "伝記的な・生涯に関する（形容詞）" },
+        { word: "autobiography",   desc: "自伝（auto- 自分自身 + biography）" }
+      ],
+      family: [
+        { word: "biology",         desc: "生物学（bios + logos）" },
+        { word: "antibiotic",      desc: "抗生物質（anti- + bios）" },
+        { word: "photograph",      desc: "写真（phōs 光 + graphein）" },
+        { word: "autograph",       desc: "直筆サイン（auto- + graphein）" }
+      ],
+      compounds: [
+        { phrase: "authorized biography", desc: "公式伝記（本人公認の）" },
+        { phrase: "biographical sketch",  desc: "略歴・人物紹介" }
+      ]
+    },
+
+    "antibiotic": {
+      origin: "ギリシャ語 anti-（対抗する）+ bios（生命）から成る複合語。1942年にセルマン・ワクスマンが細菌を殺す化学物質を指す科学用語として antibiotics を造語し、以来「細菌の生命活動に対抗する薬物」という意味で定着した。\n\nアレクサンダー・フレミングが1928年にペニシリンを発見し、第二次世界大戦中にその大量生産が実現したことで、抗生物質は20世紀医学最大の革新の一つとなった。\n\n現代では抗生物質耐性菌（antibiotic-resistant bacteria）の問題が深刻化しており、抗生物質の不必要な使用を控えることが世界的な公衆衛生課題となっている。",
+      derivatives: [
+        { word: "antibacterial",  desc: "抗菌の・殺菌性の（anti- + bacterial）" },
+        { word: "antiviral",      desc: "抗ウイルスの（anti- + viral）" }
+      ],
+      family: [
+        { word: "biology",        desc: "生物学（bios + logos）" },
+        { word: "biography",      desc: "伝記（bios + graphein）" },
+        { word: "antibiosis",     desc: "拮抗現象（生物同士が互いに阻害し合う）" },
+        { word: "probiotic",      desc: "プロバイオティクス（pro- 促進 + bios）" }
+      ],
+      compounds: [
+        { phrase: "antibiotic resistance",  desc: "抗生物質耐性" },
+        { phrase: "broad-spectrum antibiotic", desc: "広域抗生物質" }
+      ]
+    },
+
+    // ── multi / poly系（多い・多数）──
+    "multiple": {
+      origin: "ラテン語 multiplex（多重の）< multi-（多くの）+ plicare（折る・重ねる）。plicare は英語の fold（折る）と同じインド・ヨーロッパ語族の語根 *plek- に由来する。multiplex はもともと「何重にも折り重なった」を意味した。\n\n英語には14世紀に入り、「多数の・複数の」という形容詞として定着。数学では「倍数」の意味にもなる（a multiple of 3 = 3の倍数）。multiple choice（多肢選択）、multiple sclerosis（多発性硬化症）のように形容詞として幅広く使われる。\n\n語根 multi- はmultitude（多数）、multilingual（多言語の）、multimedia（マルチメディア）など多数の英語語彙を形成する汎用接頭辞である。",
+      derivatives: [
+        { word: "multiply",    desc: "掛け算する・増殖する（multiplier 掛けるもの）" },
+        { word: "multiplier",  desc: "乗数・増幅する要因" },
+        { word: "multiplication", desc: "掛け算・増加（名詞）" }
+      ],
+      family: [
+        { word: "multitude",   desc: "多数・大衆（multitudo）" },
+        { word: "complex",     desc: "複雑な（com- + plex 折り重ねた）" },
+        { word: "duplex",      desc: "二重の（duo + plex）" },
+        { word: "triple",      desc: "三倍の（tri- + plex の変形）" }
+      ],
+      compounds: [
+        { phrase: "multiple choice",   desc: "多肢選択式（試験形式）" },
+        { phrase: "multiple roles",    desc: "複数の役割" }
+      ]
+    },
+
+    "multitude": {
+      origin: "ラテン語 multitudo（多さ・大群）< multus（多くの）の名詞形。multus は英語の much、many とともにインド・ヨーロッパ語族の「多い」を意味する語根に由来する。\n\n14世紀の英語に入り、「非常に多くの人々・大勢の群衆」を指す格調ある表現として定着。聖書の英語訳（the multitude = 群衆）でも頻出し、宗教・文学的な響きを帯びる語でもある。\n\n「a multitude of problems（多数の問題）」のように抽象的な「多さ」にも使われる。cover a multitude of sins（多くの欠点を覆い隠す）は聖書由来の慣用句。",
+      derivatives: [
+        { word: "multitudinous", desc: "非常に多くの・多数からなる（形容詞）" }
+      ],
+      family: [
+        { word: "multiple",    desc: "複数の・多数の（multi- + plex）" },
+        { word: "multiply",    desc: "掛け算する・増殖する" },
+        { word: "multifarious", desc: "多種多様な（multi- + farius）" },
+        { word: "much",        desc: "多くの（同じ語根の英語形）" }
+      ],
+      compounds: [
+        { phrase: "a multitude of",     desc: "多数の〜・大量の〜" },
+        { phrase: "cover a multitude of sins", desc: "多くの欠点を隠す（聖書由来）" }
+      ]
+    },
+
+    "polygon": {
+      origin: "ギリシャ語 polus（多くの）+ gōnia（角・頂点）から成る数学用語。gōnia は「膝・曲がり角」を意味し、英語の knee とも語源が近い（印欧語根 *genu-）。多角形の頂点の数で三角形（triangle）、四角形（quadrangle）、五角形（pentagon）などと分類される。\n\n「polygon」は「多角形の総称」として16世紀に英語に定着した数学・幾何学の基本用語。コンピュータグラフィックスでは三次元オブジェクトをポリゴン（多角形の集合）で表現する手法が標準的で、現代のゲーム・CG制作に不可欠な概念でもある。\n\n語根 poly- はpolyglot（多言語の）、polygon（多角形）、polymath（博識者）、polyphony（多声音楽）など多くの語を形成する。",
+      derivatives: [
+        { word: "polygonal",  desc: "多角形の（形容詞）" }
+      ],
+      family: [
+        { word: "pentagon",   desc: "五角形（penta- 5 + gōnia）" },
+        { word: "hexagon",    desc: "六角形（hexa- 6 + gōnia）" },
+        { word: "diagonal",   desc: "対角線（dia- + gōnia）" },
+        { word: "polyglot",   desc: "多言語の・複数言語を話す人" },
+        { word: "triangle",   desc: "三角形（tri- + angulus）" }
+      ],
+      compounds: [
+        { phrase: "regular polygon",   desc: "正多角形" },
+        { phrase: "polygon mesh",      desc: "ポリゴンメッシュ（CG用語）" }
+      ]
+    },
+
+    "polyglot": {
+      origin: "ギリシャ語 polus（多くの）+ glōtta / glōssa（舌・言語）の複合語。glōssa は「舌」を意味し、英語の gloss（光沢・注釈）や glossary（用語集）の語源でもある。poly- + glōtta で「多くの舌を持つ＝多言語を話す」という意味になる。\n\n17世紀に英語に入り、当初は「複数の言語で書かれた書物（特に聖書）」を指す名詞として使われた。現代では「複数の言語を流暢に話す人」または「多言語の（形容詞）」として使われる。\n\nハイパーポリグロット（hyperpolyglot）は6言語以上を高度に習得した人物を指す現代の用語で、言語習得コミュニティでは憧れの存在とされる。",
+      derivatives: [
+        { word: "polyglotism",  desc: "多言語使用・多言語主義" }
+      ],
+      family: [
+        { word: "polygon",      desc: "多角形（poly- + gōnia）" },
+        { word: "bilingual",    desc: "二言語の（bi- + lingua）" },
+        { word: "multilingual", desc: "多言語の（multi- + lingua）" },
+        { word: "glossary",     desc: "用語集（glōssa 舌・言語）" },
+        { word: "polymath",     desc: "博識者（poly- + math 学ぶ）" }
+      ],
+      compounds: [
+        { phrase: "a polyglot society",  desc: "多言語社会" }
+      ]
+    },
+
+    // ── micro / min系（小さい）──
+    "microscope": {
+      origin: "ギリシャ語 mikros（小さい）+ skopein（見る・観察する）から成る近代造語。オランダの眼鏡職人アントニ・ファン・レーウェンフックが1670年代に高倍率の単式顕微鏡を製作し、細菌・精子・赤血球などを初めて観察したことで科学史上の革命が起きた。\n\n語根 skopein は telescope（遠くを見る）、stethoscope（胸を聴く）、periscope（周囲を見る）など多くの観察機器名を形成する。microscope は「肉眼では見えない小さなものを見る道具」として17世紀に英語に定着した。\n\n現代では光学顕微鏡のほか、電子顕微鏡（electron microscope）、走査型プローブ顕微鏡（scanning probe microscope）など多様な種類に発展し、生物学・材料科学・ナノテクノロジーの基礎装置となっている。",
+      derivatives: [
+        { word: "microscopic",    desc: "顕微鏡的な・非常に小さな（形容詞）" },
+        { word: "microscopically", desc: "顕微鏡的に・微細に（副詞）" },
+        { word: "microbiology",   desc: "微生物学（mikros + bios + logos）" }
+      ],
+      family: [
+        { word: "telescope",    desc: "望遠鏡（tele- 遠くの + skopein）" },
+        { word: "microphone",   desc: "マイク（mikros + phōnē 音）" },
+        { word: "micron",       desc: "マイクロメートル（mikros の単位形）" },
+        { word: "scope",        desc: "範囲・〜を調べる（skopein から）" }
+      ],
+      compounds: [
+        { phrase: "under the microscope", desc: "顕微鏡下で・詳しく調べられて" },
+        { phrase: "electron microscope",  desc: "電子顕微鏡" }
+      ]
+    },
+
+    "diminish": {
+      origin: "ラテン語 deminuere（小さくする・減らす）< de-（下に・離れて）+ minuere（小さくする）< minus（より少ない）。minus は英語の minor（小さい方の）、minute（微小な）、minimum（最小）と共通の語根を持つ。\n\n14世紀の英語に入り「徐々に小さくなる・減少する」を意味する動詞として定着。物理的な縮小（the sound diminished = 音が小さくなった）のほか、「重要性・評判などが低下する」という抽象的意味でも使われる。\n\ndiminished chord（音楽で半音下がった和音）、law of diminishing returns（収穫逓減の法則）のように専門用語にも登場する。",
+      derivatives: [
+        { word: "diminution",    desc: "減少・縮小（名詞）" },
+        { word: "diminutive",    desc: "小型の・縮小辞（文法・形容詞）" },
+        { word: "diminished",    desc: "減少した・縮小された（形容詞）" }
+      ],
+      family: [
+        { word: "minimum",      desc: "最小値（minimus 最も小さい）" },
+        { word: "minor",        desc: "小さい方の・未成年の（minor）" },
+        { word: "minute",       desc: "微小な（minutus 小さくされた）" },
+        { word: "minister",     desc: "奉仕者・大臣（minister 小さい者）" }
+      ],
+      compounds: [
+        { phrase: "diminishing returns",   desc: "収穫逓減（経済学用語）" },
+        { phrase: "diminished capacity",   desc: "限定責任能力（法律用語）" }
+      ]
+    },
+
+    "minute": {
+      origin: "ラテン語 minutus（細かくされた・小さい）< minuere（小さくする）の過去分詞。元来「分割された時間の小片」を意味し、中世の天文学で1時間を60の「pars minuta prima（第一の小部分）」に分けたことが「分（minute）」の語源となった。\n\n英語では14世紀頃から時間の単位として定着。形容詞 minute（マイニュート）は「非常に小さい・細かい」という意味で、同じ綴りながら名詞（ミニット）と発音が異なる。「minute details（細部まで細かい）」のように書き言葉で用いられる。\n\n議事録を「minutes」と呼ぶのも同語源で、会議で「細かく記録されたもの」を意味する。",
+      derivatives: [
+        { word: "minutely",    desc: "詳細に・細かく（副詞）" },
+        { word: "minutiae",    desc: "細かな点・些細なこと（複数形ラテン語）" }
+      ],
+      family: [
+        { word: "minimum",    desc: "最小値（minimus 最も小さい）" },
+        { word: "minor",      desc: "小さい方の・未成年（minor）" },
+        { word: "diminish",   desc: "小さくする・減少する（de- + minuere）" },
+        { word: "second",     desc: "秒（pars minuta secunda 第二の小部分）" }
+      ],
+      compounds: [
+        { phrase: "in a minute",        desc: "すぐに・少し後で" },
+        { phrase: "minute details",     desc: "細部・細かな点（形容詞 minute の用例）" },
+        { phrase: "meeting minutes",    desc: "議事録" }
+      ]
+    },
+
+    "minimum": {
+      origin: "ラテン語 minimus（最も小さい・最少の）< minus（より少ない）の最上級形。minus 自体はインド・ヨーロッパ語根 *mei-（小さい）に由来し、英語の less とも関連する。\n\n英語には17世紀に数学・哲学用語として入り、「ある条件のもとで可能な最小値」を指す。数学では maximum（最大値）と対をなす用語。「minimum wage（最低賃金）」「minimum requirement（最低要件）」のように「これ以下にはできない下限」を表す。\n\n副詞句 at a minimum は「少なくとも・最低でも」という意味の基本フレーズで、英語のビジネス・学術文書に頻出する。",
+      derivatives: [
+        { word: "minimal",      desc: "最小限の・極めて少ない（形容詞）" },
+        { word: "minimize",     desc: "最小化する・過小評価する" },
+        { word: "minimalism",   desc: "ミニマリズム（最小限の美学・様式）" },
+        { word: "minimalist",   desc: "ミニマリスト・最小主義者" }
+      ],
+      family: [
+        { word: "maximum",      desc: "最大値（maximus 最も大きい）" },
+        { word: "minor",        desc: "小さい方の・二次的な（minor）" },
+        { word: "minute",       desc: "微小な（minutus）" },
+        { word: "diminish",     desc: "減少する（de- + minuere）" }
+      ],
+      compounds: [
+        { phrase: "minimum wage",        desc: "最低賃金" },
+        { phrase: "at a minimum",        desc: "少なくとも・最低でも" },
+        { phrase: "bare minimum",        desc: "最低限・必要最小限" }
+      ]
+    },
+
+    // ── graphein / gramma系（書く・記録）──
+    "photograph": {
+      origin: "ギリシャ語 phōs / phōtos（光）+ graphein（書く・描く）から成る19世紀の造語。1839年にルイ・ダゲールが銀板写真術を公開し、同年ジョン・ハーシェルが photography という語を造った。「光で書く（描く）」という詩的な語源は、写真の本質を見事に捉えている。\n\n写真術の発明は芸術・科学・報道・記録のあらゆる分野を変革した。現代では film photography（フィルム写真）から digital photography（デジタル写真）に移行し、スマートフォンが日常的な記録媒体となっている。\n\n語根 photo- は photosynthesis（光合成）、photoelectric（光電効果）など、光に関わる科学語彙を広く形成する。",
+      derivatives: [
+        { word: "photography",   desc: "写真術・写真撮影" },
+        { word: "photographer",  desc: "写真家・カメラマン" },
+        { word: "photographic",  desc: "写真の・写真のように精密な（形容詞）" }
+      ],
+      family: [
+        { word: "photosynthesis", desc: "光合成（phōs + synthesis 合成）" },
+        { word: "autobiography",  desc: "自伝（auto- + bio + graphein）" },
+        { word: "paragraph",      desc: "段落（para- + graphein）" },
+        { word: "autograph",      desc: "直筆サイン（auto- + graphein）" }
+      ],
+      compounds: [
+        { phrase: "aerial photograph", desc: "航空写真" },
+        { phrase: "photographic memory", desc: "映像記憶・ものすごい記憶力" }
+      ]
+    },
+
+    "paragraph": {
+      origin: "ギリシャ語 paragraphos（横に書いたもの）< para-（横に・傍に）+ graphein（書く）。中世の写本では段落の区切りを示すために欄外に小さな記号（¶）を書いていたことが語源で、この記号は今でもピラグラフ記号（pilcrow）と呼ばれる。\n\n16世紀の英語に入り「文章の意味的なまとまりを示す段落」という現代的な意味に定着。一つの主張を述べ・支持し・まとめる文章の基本単位として、英語の学術・ビジネスライティングで重視されている。\n\n語根 para-（横に・傍に）は parallel（並行する）、paradox（逆説・para- 反して + doxa 意見）、paramedic（救急隊員）など多くの語を形成する。",
+      derivatives: [
+        { word: "paragraphing",  desc: "段落分け・段落構成" }
+      ],
+      family: [
+        { word: "photograph",    desc: "写真（phōs + graphein）" },
+        { word: "autograph",     desc: "直筆サイン（auto- + graphein）" },
+        { word: "diagram",       desc: "図解（dia- + graphein）" },
+        { word: "parallel",      desc: "並行の・平行線（para- + allos 他）" }
+      ],
+      compounds: [
+        { phrase: "opening paragraph",  desc: "冒頭の段落・序文" },
+        { phrase: "body paragraph",     desc: "本文の段落（序論・結論以外）" }
+      ]
+    },
+
+    "diagram": {
+      origin: "ギリシャ語 diagramma（線を引いて描いたもの）< dia-（通じて・横切って）+ graphein（書く・描く）。古代ギリシャの数学・論理学で「図形・概念を線で描き示したもの」を意味し、ユークリッド幾何学の証明図などに使われた。\n\n英語には17世紀に入り「図・図解・概念図」を指す。複雑な関係・プロセス・構造を視覚的に表現する手段として、科学・工学・ビジネスに不可欠な語となっている。Venn diagram（ベン図）、flow diagram（流れ図）など多くの複合語を形成する。\n\n動詞としても使え、diagram a sentence（文の構造を図解する）のように用いられる。",
+      derivatives: [
+        { word: "diagrammatic",  desc: "図表の・図解による（形容詞）" },
+        { word: "diagrammatically", desc: "図式的に（副詞）" }
+      ],
+      family: [
+        { word: "paragraph",     desc: "段落（para- + graphein）" },
+        { word: "photograph",    desc: "写真（phōs + graphein）" },
+        { word: "telegram",      desc: "電報（tele- + gramma 書いたもの）" },
+        { word: "diagonal",      desc: "対角線（dia- + gōnia 角）" }
+      ],
+      compounds: [
+        { phrase: "Venn diagram",  desc: "ベン図（集合の関係を示す図）" },
+        { phrase: "flow diagram",  desc: "フロー図・流れ図" }
+      ]
+    },
+
+    "telegram": {
+      origin: "ギリシャ語 tele-（遠くの）+ gramma（書いたもの・文字）から成る19世紀の造語。電信（telegraph）が実用化された1840年代に、電信で送受信される「メッセージ」を指す語として生まれた。\n\nサミュエル・モールスが1844年にモールス信号による電信を実演して以降、電報は19〜20世紀の主要な長距離通信手段となった。「STOP」（ピリオドの代わり）を文末に打つスタイルや、文字数を節約する電報文体が生まれたのもこの時代である。\n\n現代の通信アプリ Telegram はこの語から名前を取り、「素早く・安全にメッセージを届ける」というコンセプトを旧来の電報になぞらえている。",
+      derivatives: [
+        { word: "telegraph",    desc: "電信・電報機（tele- + graphein）" },
+        { word: "telegraphy",   desc: "電信術" },
+        { word: "telegraphic",  desc: "電報式の・簡潔な（形容詞）" }
+      ],
+      family: [
+        { word: "telephone",    desc: "電話（tele- + phōnē 音）" },
+        { word: "television",   desc: "テレビ（tele- + vision 映像）" },
+        { word: "diagram",      desc: "図（dia- + gramma）" },
+        { word: "grammar",      desc: "文法（gramma 書いたもの）" }
+      ],
+      compounds: [
+        { phrase: "send a telegram",   desc: "電報を打つ" }
+      ]
+    },
+
+    // ── logos系（言葉・論理・学問）──
+    "logic": {
+      origin: "ギリシャ語 logikē（論理的思考の技術）< logos（言葉・理性・論理）。アリストテレスが「正しい推論の法則を研究する学問」として体系化し（紀元前4世紀）、演繹法・帰納法・三段論法などの形式を確立した。\n\nラテン語 logica を経て14世紀の英語に入り、当初は哲学の一部門を指す学術語だったが、やがて「理に適った考え方・筋道だった推論」という日常的な意味にも広がった。「the logic of the argument（議論の論理）」「that's not logical（それは論理的でない）」のように使う。\n\n現代では数理論理学・コンピュータ論理（AND/OR/NOT ゲート）など科学技術の基礎をなすほか、「business logic（業務ロジック）」のようにソフトウェア工学でも中心的な概念となっている。",
+      derivatives: [
+        { word: "logical",      desc: "論理的な・筋の通った（形容詞）" },
+        { word: "logically",    desc: "論理的に（副詞）" },
+        { word: "logician",     desc: "論理学者" },
+        { word: "logistics",    desc: "物流・兵站（logistikos 計算の）" }
+      ],
+      family: [
+        { word: "logos",        desc: "言葉・理性・論理（ギリシャ語）" },
+        { word: "dialogue",     desc: "対話（dia- 間で + logos）" },
+        { word: "monologue",    desc: "独白（mono- 一人 + logos）" },
+        { word: "analogy",      desc: "類推・アナロジー（ana- 従って + logos）" }
+      ],
+      compounds: [
+        { phrase: "the logic of",     desc: "〜の論理・〜が理にかなっている根拠" },
+        { phrase: "logical thinking", desc: "論理的思考" }
+      ]
+    },
+
+    "dialogue": {
+      origin: "ギリシャ語 dialogos（対話）< dia-（間で・通じて）+ logos（言葉・論理）。diálegein は「互いに言葉を交わす」を意味し、プラトンの哲学著作が「対話篇（Dialogues）」の形式で書かれたことで文学・哲学の重要なジャンルとなった。\n\nラテン語 dialogus を経て14世紀の英語に定着。文学では「会話・台詞」を指し、政治・外交では「交渉・討議・協調の場」を意味する。inter-cultural dialogue（異文化間対話）、peace dialogue（和平交渉）のように使われる。\n\n語頭 dia- は「通じて・横切って」を意味し、diagonal（対角線）、diagnosis（診断 ＝ 徹底して知ること）、diameter（直径 ＝ 通り抜ける長さ）にも共通する。",
+      derivatives: [
+        { word: "dialogic",    desc: "対話的な（形容詞・バフチン理論で使う）" }
+      ],
+      family: [
+        { word: "monologue",   desc: "独白・一人語り（mono- + logos）" },
+        { word: "prologue",    desc: "序文・前置き（pro- 前 + logos）" },
+        { word: "epilogue",    desc: "後記・後日談（epi- 後 + logos）" },
+        { word: "logic",       desc: "論理（logikē）" },
+        { word: "diagnosis",   desc: "診断（dia- + gnōsis 知ること）" }
+      ],
+      compounds: [
+        { phrase: "open dialogue",    desc: "オープンな対話・率直な議論" },
+        { phrase: "dialogue box",     desc: "ダイアログボックス（UI用語）" }
+      ]
+    },
+
+    "monologue": {
+      origin: "ギリシャ語 monos（一人・単独の）+ logos（言葉）の複合語。16世紀のフランス語を経て英語に入り、「一人で長く話すこと・一人語り」を意味する。演劇では登場人物が舞台上で一人で台詞を述べる形式を指し、シェイクスピアの「To be, or not to be」などが有名なモノローグである。\n\nsoliloquy（< soli- 一人 + loqui 話す）とほぼ同義だが、soliloquy は「自分の心の声を声に出す内省的な独白」、monologue は「他者がいながら一人だけが話し続ける状況」というニュアンスの違いがある。\n\n現代ではコメディアンの stand-up monologue（一人コント）や podcast の語りスタイルなど、エンターテインメント分野でも広く使われる。",
+      derivatives: [
+        { word: "monologue",  desc: "（動詞化）独白する・一人で話し続ける" }
+      ],
+      family: [
+        { word: "dialogue",   desc: "対話（dia- 互いに + logos）" },
+        { word: "prologue",   desc: "序文（pro- 前に + logos）" },
+        { word: "epilogue",   desc: "後記（epi- 後に + logos）" },
+        { word: "monotone",   desc: "単調な声（mono- + tonos 音）" },
+        { word: "monopoly",   desc: "独占（mono- + pōlein 売る）" }
+      ],
+      compounds: [
+        { phrase: "inner monologue",  desc: "内的独白・意識の流れ" },
+        { phrase: "opening monologue", desc: "冒頭の語り・オープニングトーク" }
+      ]
+    },
+
+    "analogy": {
+      origin: "ギリシャ語 analogia（比例・対応）< ana-（従って・比べて）+ logos（理性・論理）。数学・哲学用語として「A対BはC対Dと同じ」という比例関係を表す語だった。アリストテレスが類推による論証の一形式として体系化した。\n\nラテン語 analogia を経て16世紀の英語に入り、「二つの異なるものの間にある構造的・機能的な対応関係」を表す修辞・論理の概念として定着。analogy を使った説明は「複雑な概念を親しみやすいものに例える」という教育・説得の手法として不可欠である。\n\nanalogous（類似した）、analogously（類似した形で）のように派生語も多い。コンピュータ科学では analog（アナログ）と対比されるデジタルの概念にも関わる語根である。",
+      derivatives: [
+        { word: "analogous",     desc: "類似した・対応する（形容詞）" },
+        { word: "analogously",   desc: "類似した形で（副詞）" },
+        { word: "analogize",     desc: "類推する・アナロジーで説明する" }
+      ],
+      family: [
+        { word: "logic",         desc: "論理（logos から）" },
+        { word: "dialogue",      desc: "対話（dia- + logos）" },
+        { word: "analog",        desc: "アナログの（analogia から）" },
+        { word: "catalog",       desc: "目録（kata- 下に + logos）" }
+      ],
+      compounds: [
+        { phrase: "by analogy",         desc: "類推によって・アナロジーとして" },
+        { phrase: "draw an analogy",    desc: "比較する・アナロジーを引く" }
+      ]
     }
 
   };

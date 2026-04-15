@@ -273,6 +273,8 @@ const WordData = (function(){
         w.exampleJa   = examples[w.word].exampleJa   || w.exampleJa;
         w.origin      = examples[w.word].origin      || null;
         w.derivatives = examples[w.word].derivatives || null;
+        w.family      = examples[w.word].family      || null;
+        w.compounds   = examples[w.word].compounds   || null;
       }
       if (w.prefix) {
         if (!_byPrefix[w.prefix]) _byPrefix[w.prefix] = [];

@@ -1820,6 +1820,56 @@ body {
   line-height: 1.85;
 }
 
+.origin-text p,
+.wrong-origin p,
+.wwl-origin p {
+  margin: 0 0 8px;
+}
+
+.origin-text p:last-child,
+.wrong-origin p:last-child,
+.wwl-origin p:last-child {
+  margin-bottom: 0;
+}
+
+/* ============================================
+   語彙アイテム行（word-item） — derivatives / family / compounds 共通
+   ============================================ */
+.word-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.word-item:last-child {
+  border-bottom: none;
+}
+
+.word-item-word {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--text-primary);
+  white-space: nowrap;
+  min-width: 110px;
+}
+
+.word-item-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.word-item--sm .word-item-word {
+  font-size: 12px;
+  min-width: 90px;
+}
+
+.word-item--sm .word-item-desc {
+  font-size: 11px;
+}
+
 /* ============================================
    派生語 (derivatives-box)
    ============================================ */
@@ -1836,10 +1886,16 @@ body {
   text-transform: uppercase;
 }
 
-.derivatives-chips {
+.derivatives-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* 後方互換: string format のチップが混在する場合 */
+.derivatives-list .derivative-chip {
+  align-self: flex-start;
+  margin-bottom: 4px;
 }
 
 .derivative-chip {
@@ -1858,6 +1914,56 @@ body {
 .derivative-chip--sm {
   font-size: 11px;
   padding: 2px 9px;
+}
+
+/* ============================================
+   語源ネットワーク (family-box) — green
+   ============================================ */
+.family-box {
+  background: linear-gradient(135deg, #F3FBF3, #EBFBEE);
+  border: 1.5px solid #69DB7C;
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  margin-bottom: 14px;
+}
+
+.family-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #2f7a3a;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.family-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============================================
+   複合語・フレーズ (compounds-box) — purple
+   ============================================ */
+.compounds-box {
+  background: linear-gradient(135deg, #F8F0FF, #F3F0FF);
+  border: 1.5px solid #B197FC;
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  margin-bottom: 14px;
+}
+
+.compounds-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #6741d9;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.compounds-list {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ============================================
@@ -1901,6 +2007,44 @@ body {
   margin-right: 2px;
 }
 
+.wrong-family {
+  margin-top: 6px;
+  padding: 6px 10px;
+  background: #EBFBEE;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid #69DB7C;
+  font-size: 12px;
+}
+
+.wrong-family-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  color: #2f7a3a;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.wrong-compounds {
+  margin-top: 6px;
+  padding: 6px 10px;
+  background: #F8F0FF;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid #B197FC;
+  font-size: 12px;
+}
+
+.wrong-cmp-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  color: #6741d9;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
 /* ============================================
    マイページ苦手リスト内の成り立ち・派生語
    ============================================ */
@@ -1940,6 +2084,44 @@ body {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-right: 2px;
+}
+
+.wwl-family {
+  margin-top: 6px;
+  padding: 6px 10px;
+  background: #EBFBEE;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid #69DB7C;
+  font-size: 12px;
+}
+
+.wwl-family-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  color: #2f7a3a;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.wwl-compounds {
+  margin-top: 6px;
+  padding: 6px 10px;
+  background: #F8F0FF;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid #B197FC;
+  font-size: 12px;
+}
+
+.wwl-cmp-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  color: #6741d9;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
 }
 
 /* ============================================

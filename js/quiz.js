@@ -170,6 +170,8 @@ const Quiz = (function(){
       exampleJa:   word.exampleJa   || null,  // 和訳
       origin:      word.origin      || null,  // 単語の成り立ち解説
       derivatives: word.derivatives || null,  // 派生語リスト
+      family:      word.family      || null,  // 語源ネットワーク（同根語）
+      compounds:   word.compounds   || null,  // よく使う複合語・フレーズ
     };
   }
 

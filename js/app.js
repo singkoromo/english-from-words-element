@@ -455,7 +455,11 @@ function _updateSoundButtons() {
     const originText = $("origin-text");
     if (originBox && originText) {
       if (res.explanation.origin) {
-        originText.textContent = res.explanation.origin;
+        // \n\n で段落分割
+        originText.innerHTML = res.explanation.origin
+          .split("\n\n")
+          .map(p => `<p>${p}</p>`)
+          .join("");
         originBox.style.display = "block";
       } else {
         originBox.style.display = "none";
@@ -478,16 +482,46 @@ function _updateSoundButtons() {
     }
 
     // 派生語（derivatives データがある場合のみ）
-    const derivBox   = $("derivatives-box");
-    const derivChips = $("derivatives-chips");
-    if (derivBox && derivChips) {
+    const derivBox  = $("derivatives-box");
+    const derivList = $("derivatives-list");
+    if (derivBox && derivList) {
       if (res.explanation.derivatives && res.explanation.derivatives.length > 0) {
-        derivChips.innerHTML = res.explanation.derivatives
-          .map(d => `<span class="derivative-chip">${d}</span>`)
+        derivList.innerHTML = res.explanation.derivatives
+          .map(d => typeof d === "string"
+            ? `<span class="derivative-chip">${d}</span>`
+            : `<div class="word-item"><span class="word-item-word">${d.word}</span><span class="word-item-desc">${d.desc}</span></div>`)
           .join("");
         derivBox.style.display = "block";
       } else {
         derivBox.style.display = "none";
+      }
+    }
+
+    // 語源ネットワーク（family データがある場合のみ）
+    const famBox  = $("family-box");
+    const famList = $("family-list");
+    if (famBox && famList) {
+      if (res.explanation.family && res.explanation.family.length > 0) {
+        famList.innerHTML = res.explanation.family
+          .map(f => `<div class="word-item"><span class="word-item-word">${f.word}</span><span class="word-item-desc">${f.desc}</span></div>`)
+          .join("");
+        famBox.style.display = "block";
+      } else {
+        famBox.style.display = "none";
+      }
+    }
+
+    // 複合語・フレーズ（compounds データがある場合のみ）
+    const cmpBox  = $("compounds-box");
+    const cmpList = $("compounds-list");
+    if (cmpBox && cmpList) {
+      if (res.explanation.compounds && res.explanation.compounds.length > 0) {
+        cmpList.innerHTML = res.explanation.compounds
+          .map(c => `<div class="word-item"><span class="word-item-word">${c.phrase}</span><span class="word-item-desc">${c.desc}</span></div>`)
+          .join("");
+        cmpBox.style.display = "block";
+      } else {
+        cmpBox.style.display = "none";
       }
     }
 
@@ -620,10 +654,18 @@ function _updateSoundButtons() {
              </div>`
           : "";
         const originHtml = w.origin
-          ? `<div class="wrong-origin"><span class="wrong-origin-label">📖 成り立ち</span>${w.origin}</div>`
+          ? `<div class="wrong-origin"><span class="wrong-origin-label">📖 成り立ち</span><div class="origin-paragraphs">${w.origin.split("\n\n").map(p => `<p>${p}</p>`).join("")}</div></div>`
           : "";
         const derivHtml = (w.derivatives && w.derivatives.length > 0)
-          ? `<div class="wrong-derivatives"><span class="wrong-deriv-label">🔗 派生語</span>${w.derivatives.map(d => `<span class="derivative-chip derivative-chip--sm">${d}</span>`).join("")}</div>`
+          ? `<div class="wrong-derivatives"><span class="wrong-deriv-label">🔷 派生語</span>${w.derivatives.map(d => typeof d === "string"
+              ? `<span class="derivative-chip derivative-chip--sm">${d}</span>`
+              : `<div class="word-item word-item--sm"><span class="word-item-word">${d.word}</span><span class="word-item-desc">${d.desc}</span></div>`).join("")}</div>`
+          : "";
+        const famHtml = (w.family && w.family.length > 0)
+          ? `<div class="wrong-family"><span class="wrong-family-label">🌐 語源ネットワーク</span>${w.family.map(f => `<div class="word-item word-item--sm"><span class="word-item-word">${f.word}</span><span class="word-item-desc">${f.desc}</span></div>`).join("")}</div>`
+          : "";
+        const cmpHtml = (w.compounds && w.compounds.length > 0)
+          ? `<div class="wrong-compounds"><span class="wrong-cmp-label">💬 複合語</span>${w.compounds.map(c => `<div class="word-item word-item--sm"><span class="word-item-word">${c.phrase}</span><span class="word-item-desc">${c.desc}</span></div>`).join("")}</div>`
           : "";
         return `
           <div class="wrong-item">
@@ -634,6 +676,8 @@ function _updateSoundButtons() {
             ${originHtml}
             ${exHtml}
             ${derivHtml}
+            ${famHtml}
+            ${cmpHtml}
           </div>`;
       }).join("");
       wrongSection.style.display = "block";
@@ -851,10 +895,18 @@ function _updateSoundButtons() {
            </div>`
         : "";
       const originHtml = w.origin
-        ? `<div class="wwl-origin"><span class="wwl-origin-label">📖 成り立ち</span>${_escHtml(w.origin)}</div>`
+        ? `<div class="wwl-origin"><span class="wwl-origin-label">📖 成り立ち</span><div class="origin-paragraphs">${w.origin.split("\n\n").map(p => `<p>${_escHtml(p)}</p>`).join("")}</div></div>`
         : "";
       const derivHtml = (w.derivatives && w.derivatives.length > 0)
-        ? `<div class="wwl-derivatives"><span class="wwl-deriv-label">🔗 派生語</span>${w.derivatives.map(d => `<span class="derivative-chip derivative-chip--sm">${_escHtml(d)}</span>`).join("")}</div>`
+        ? `<div class="wwl-derivatives"><span class="wwl-deriv-label">🔷 派生語</span>${w.derivatives.map(d => typeof d === "string"
+            ? `<span class="derivative-chip derivative-chip--sm">${_escHtml(d)}</span>`
+            : `<div class="word-item word-item--sm"><span class="word-item-word">${_escHtml(d.word)}</span><span class="word-item-desc">${_escHtml(d.desc)}</span></div>`).join("")}</div>`
+        : "";
+      const famHtml = (w.family && w.family.length > 0)
+        ? `<div class="wwl-family"><span class="wwl-family-label">🌐 語源ネットワーク</span>${w.family.map(f => `<div class="word-item word-item--sm"><span class="word-item-word">${_escHtml(f.word)}</span><span class="word-item-desc">${_escHtml(f.desc)}</span></div>`).join("")}</div>`
+        : "";
+      const cmpHtml = (w.compounds && w.compounds.length > 0)
+        ? `<div class="wwl-compounds"><span class="wwl-cmp-label">💬 複合語</span>${w.compounds.map(c => `<div class="word-item word-item--sm"><span class="word-item-word">${_escHtml(c.phrase)}</span><span class="word-item-desc">${_escHtml(c.desc)}</span></div>`).join("")}</div>`
         : "";
 
       return `
@@ -879,6 +931,8 @@ function _updateSoundButtons() {
             ${originHtml}
             ${exHtml}
             ${derivHtml}
+            ${famHtml}
+            ${cmpHtml}
           </div>
         </div>`;
     }).join("");

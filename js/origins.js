@@ -27091,6 +27091,538 @@
         { phrase: "face-lift",     desc: "顔の整形・改修・刷新" },
         { phrase: "lift off",      desc: "離陸する・発射する" }
       ]
+    },
+
+    "listen": {
+      origin: "古英語 hlysnan（耳を傾ける）< ゲルマン語根 *hlus- < インド・ヨーロッパ語根 *kleu-（聞く・音が聞こえる）に由来する。loud（大きな音の）・list（傾く・耳を傾ける：古語）とも語族をなすとされる。hear（聞こえる）と異なり、listen は意識的・積極的な「耳を傾ける」という行為を表す。\n\n「listen to music（音楽を聴く）」「listen carefully（注意深く聞く）」という用法のほか、「Listen!（聞いてください！）」という注意喚起の間投詞的用法も定着している。Active listening（積極的傾聴）は現代のコミュニケーション・カウンセリングで重要な概念として位置づけられる。\n\n「listen in（盗聴する・傍聴する）」「listen out for（〜に耳を澄ます）」など慣用句も存在し、podcast（ポッドキャスト）の普及とともに listen という行為の重要性が再評価されている。",
+      derivatives: [
+        { word: "listener",   desc: "聴取者・聴衆（名詞）" },
+        { word: "listening",  desc: "傾聴・聴取（名詞）" }
+      ],
+      family: [
+        { word: "hear",    desc: "聞こえる（受動的に音が届く）" },
+        { word: "loud",    desc: "大きな声の（同語根系）" },
+        { word: "heed",    desc: "注意を払う（古英語 hēdan）" }
+      ],
+      compounds: [
+        { phrase: "active listening",  desc: "積極的傾聴" },
+        { phrase: "listen in",         desc: "盗聴する・傍聴する" },
+        { phrase: "listen up",         desc: "よく聞きなさい" }
+      ]
+    },
+
+    "lock": {
+      origin: "古英語 loc（錠・鎖・格子）< ゲルマン語根 *lukam < インド・ヨーロッパ語根 *leug-（曲がる・鉤状になる）に由来するとされる。latch（掛け金）・fluke（錨の鉤）とも語族をなす。\n\n「錠前で閉じる」という物理的な意味から「固定する（lock in place）」「閉じ込める（lock up）」「合意を固める（lock in a deal）」など多様な意味が派生した。また「船のロック（水門）」「銃のロック機構」「レスリングの関節技（lock）」など専門語としても多用される。\n\n「lock and key（錠と鍵）」「lock, stock and barrel（全部・すっかり）」「deadlock（行き詰まり）」「lockdown（ロックダウン）」など多数の慣用句・複合語を形成し、2020年代にはCOVID-19に関連して lockdown が世界的に知られる語となった。",
+      derivatives: [
+        { word: "lockdown",  desc: "ロックダウン・封鎖（名詞）" },
+        { word: "lockout",   desc: "締め出し・ロックアウト（名詞）" },
+        { word: "deadlock",  desc: "行き詰まり・デッドロック（名詞）" },
+        { word: "unlock",    desc: "解錠する・解放する（動詞）" }
+      ],
+      family: [
+        { word: "key",    desc: "鍵（lock の対になるもの）" },
+        { word: "latch",  desc: "掛け金（同語根系）" },
+        { word: "bolt",   desc: "かんぬき・ボルト（類義語）" }
+      ],
+      compounds: [
+        { phrase: "lock in",       desc: "固定する・確保する" },
+        { phrase: "lock up",       desc: "閉じ込める・施錠する" },
+        { phrase: "lockdown",      desc: "封鎖・外出制限" }
+      ]
+    },
+
+    "long": {
+      origin: "古英語 lang（長い・遠い）< ゲルマン語根 *langaz < インド・ヨーロッパ語根 *dlonghos-（長い）に由来する。ドイツ語 lang・ラテン語 longus・ギリシャ語 dolikhos（長い）と同族であり、印欧語族に広く分布する基本形容詞である。\n\n空間的・時間的な「長い」という意味が基本であり、along（沿って）・length（長さ）・longing（渇望）・elongate（伸ばす）など多くの派生語を持つ。動詞としての「long for（〜を強く望む）」は「長く待ち望む」という意味から来る比喩的用法である。\n\n「in the long run（長期的に見て）」「long shot（見込みの薄い試み）」「long-term（長期の）」「as long as（〜である限り）」など多様な慣用表現を形成し、時間・距離・程度を表す中核語として英語に不可欠な存在である。",
+      derivatives: [
+        { word: "length",    desc: "長さ（名詞）" },
+        { word: "lengthen",  desc: "延ばす・長くなる（動詞）" },
+        { word: "longing",   desc: "切望・渇望（名詞）" },
+        { word: "prolong",   desc: "延長する（ラテン語 prolongare）" }
+      ],
+      family: [
+        { word: "tall",   desc: "背が高い（垂直の長さ）" },
+        { word: "far",    desc: "遠い（距離的な長さ）" },
+        { word: "along",  desc: "沿って（long 同根）" }
+      ],
+      compounds: [
+        { phrase: "in the long run",  desc: "長期的に見て" },
+        { phrase: "long shot",        desc: "見込みの薄い試み" },
+        { phrase: "long-term",        desc: "長期的な" }
+      ]
+    },
+
+    "look": {
+      origin: "古英語 lōcian（見る・見つめる）< ゲルマン語根 *lōkjan に由来する。ドイツ語 lugen（のぞき見る）と同族系統とされ、インド・ヨーロッパ語根との正確な対応は議論中である。\n\n「視線を向ける」という原義から「外見・様子（look：名詞）」「〜に見える（look happy）」「探す（look for）」「面倒を見る（look after）」など多義的な語となった。see（見える）と対比すると、look は意図的に視線を向ける能動的行為を表す。\n\n「look out（気をつける）」「look forward to（楽しみにする）」「look up（調べる・上を見る）」「look into（調査する）」「overlook（見落とす・見渡す）」「look-alike（そっくりさん）」など非常に豊富なイディオムを持つ最頻出語のひとつである。",
+      derivatives: [
+        { word: "outlook",   desc: "見通し・展望・世界観（名詞）" },
+        { word: "overlook",  desc: "見落とす・見渡す（動詞）" },
+        { word: "lookout",   desc: "見張り・展望台（名詞）" }
+      ],
+      family: [
+        { word: "see",    desc: "見える（受動的な視覚）" },
+        { word: "watch",  desc: "注意して見る（継続的な観察）" },
+        { word: "gaze",   desc: "じっと見つめる（集中した視線）" }
+      ],
+      compounds: [
+        { phrase: "look forward to",  desc: "〜を楽しみにする" },
+        { phrase: "look into",        desc: "調査する" },
+        { phrase: "look out",         desc: "気をつける・見張る" }
+      ]
+    },
+
+    "lose": {
+      origin: "古英語 losian（滅びる・消える）< ゲルマン語根 *lausjan（失う・解放する）< インド・ヨーロッパ語根 *leu-（切る・分離する）に由来する。loose（ゆるんだ）・loss（損失）・loosen（ゆるめる）と語族をなす。\n\n「所有物・能力・人を失う」という広い意味を持ち、lose a game（試合に負ける）・lose weight（体重が減る）・lose one's temper（怒りを爆発させる）・lose track of（追跡をやめる）など多様な文脈で使われる。\n\n「lose face（面目を失う）」「lose sight of（見失う）」「lose one's mind（正気を失う）」「lose sleep over（〜について眠れないほど心配する）」など慣用句が豊富であり、「win or lose（勝ち負けにかかわらず）」という対比表現もよく使われる。",
+      derivatives: [
+        { word: "loss",     desc: "損失・喪失（名詞）" },
+        { word: "loser",    desc: "負け犬・敗者（名詞）" },
+        { word: "lost",     desc: "失われた・迷った（形容詞）" }
+      ],
+      family: [
+        { word: "loose",   desc: "ゆるんだ・緩める（同語根）" },
+        { word: "release", desc: "解放する（ラテン語 relaxare）" },
+        { word: "miss",    desc: "失う・見逃す（類義語）" }
+      ],
+      compounds: [
+        { phrase: "lose sight of",   desc: "見失う・忘れる" },
+        { phrase: "lose one's temper", desc: "激怒する" },
+        { phrase: "at a loss",       desc: "途方に暮れて" }
+      ]
+    },
+
+    "love": {
+      origin: "古英語 lufu（愛・愛情）< ゲルマン語根 *lubō < インド・ヨーロッパ語根 *leubh-（愛する・望む・好む）に由来する。ドイツ語 Liebe・ゴート語 lubō と同族であり、believe（信じる）・leave（許す：古語）とも語根的に関連するとされる。\n\n英語の love はギリシャ語の eros（肉体的愛）・philos（友愛）・agape（神の愛）を区別せず包括的に表す語として機能し、romantic love・parental love・religious love などすべてに使われる。\n\n「love at first sight（一目惚れ）」「fall in love（恋に落ちる）」「love-hate relationship（愛憎関係）」「make love（愛し合う）」「labor of love（愛の労働：無報酬の献身）」など豊富な慣用表現を持ち、文学・詩・歌詞の核心語として古来より使われ続けている。",
+      derivatives: [
+        { word: "lovely",   desc: "素敵な・愛らしい（形容詞）" },
+        { word: "lover",    desc: "恋人・愛好家（名詞）" },
+        { word: "lovable",  desc: "愛らしい・愛すべき（形容詞）" },
+        { word: "beloved",  desc: "愛される・最愛の（形容詞/名詞）" }
+      ],
+      family: [
+        { word: "like",    desc: "好む（同語根系の弱い感情）" },
+        { word: "adore",   desc: "崇拝する（ラテン語 adorare）" },
+        { word: "cherish", desc: "大切にする（古フランス語 cherir）" }
+      ],
+      compounds: [
+        { phrase: "fall in love",       desc: "恋に落ちる" },
+        { phrase: "love at first sight", desc: "一目惚れ" },
+        { phrase: "labor of love",      desc: "愛のための無償の労働" }
+      ]
+    },
+
+    "mad": {
+      origin: "古英語 gemǣdd（狂った・怒った）< ゲルマン語根 *gamaidaz（変えられた・傷ついた）に由来するとされる。インド・ヨーロッパ語根 *meit-（変える）との関連も議論される。「正常な状態から変えられた」という原義が「精神的に乱れた・狂った」という意味に発展した。\n\n英国英語では「狂気の・気違いな」という意味が主流であり、アメリカ英語では「怒った（angry）」という意味でも一般的に使われる。「mad about（〜に熱狂している）」「mad dash（必死の駆け込み）」「like mad（猛烈に）」など強意的な用法も豊富である。\n\n「method in one's madness（一見狂気のように見える行動の合理性）」「madhouse（精神病院・大混乱）」「drive someone mad（誰かを狂わせる）」など文学・日常語としての多様な用法が定着している。",
+      derivatives: [
+        { word: "madness",  desc: "狂気・熱狂（名詞）" },
+        { word: "madly",    desc: "狂ったように・ひどく（副詞）" },
+        { word: "madman",   desc: "狂人・非常識な人（名詞）" }
+      ],
+      family: [
+        { word: "crazy",   desc: "狂った・熱狂した（アメリカ英語）" },
+        { word: "insane",  desc: "正気でない（ラテン語 insanus）" },
+        { word: "furious", desc: "激怒した（ラテン語 furiosus）" }
+      ],
+      compounds: [
+        { phrase: "mad about",    desc: "〜に夢中な・熱狂した" },
+        { phrase: "like mad",     desc: "猛烈に・すごい勢いで" },
+        { phrase: "madhouse",     desc: "大混乱・精神病院" }
+      ]
+    },
+
+    "make": {
+      origin: "古英語 macian（作る・形成する）< ゲルマン語根 *makōjan < インド・ヨーロッパ語根 *mag-（こねる・形成する）に由来する。ドイツ語 machen・オランダ語 maken と同族であり、mass（塊）・mason（石工）とも語根的に関連するとされる。\n\n英語で最も多義的・最頻出の動詞のひとつであり、make a cake（ケーキを作る）・make a decision（決断する）・make someone happy（誰かを幸せにする）・make sure（確認する）・make do with（〜で間に合わせる）など数十の意味・用法を持つ。\n\n「make or break（成功か失敗か）」「make up（仲直りする・化粧する・でっちあげる）」「make believe（ふりをする）」「make ends meet（収支を合わせる）」など慣用句が非常に豊富であり、英語学習者にとっても最重要語のひとつである。",
+      derivatives: [
+        { word: "maker",   desc: "作り手・メーカー（名詞）" },
+        { word: "makeup",  desc: "化粧・構成（名詞）" },
+        { word: "makeover", desc: "イメージ刷新（名詞）" }
+      ],
+      family: [
+        { word: "do",      desc: "する・行う（類義動詞）" },
+        { word: "create",  desc: "創造する（ラテン語 creare）" },
+        { word: "build",   desc: "建設する（古英語 byldan）" }
+      ],
+      compounds: [
+        { phrase: "make up",        desc: "仲直りする・化粧する・でっちあげる" },
+        { phrase: "make sure",      desc: "確認する" },
+        { phrase: "make ends meet", desc: "収支を合わせる" }
+      ]
+    },
+
+    "match": {
+      origin: "古英語 gemæcca（配偶者・似たもの）< ゲルマン語根 *gamakon（合う・対になる）に由来するとされる。make（作る）と同語根という説もある。中英語期に「一致するもの・対になるもの」という意味が発展した。\n\n「対になる・一致する（colors match）」「試合（tennis match）」「配偶者を選ぶ（matchmaking）」「火をつける道具（matches）」など多義的な語である。なお「マッチ（燐寸）」の match は別語源（古フランス語 meiche）とされる。\n\n「no match for（〜には敵わない）」「match up（一致させる）」「mix and match（ミックスして合わせる）」「meet one's match（好敵手に会う）」など現代英語でも豊富な慣用表現を持つ。",
+      derivatives: [
+        { word: "matching",    desc: "お揃いの・一致した（形容詞）" },
+        { word: "matchmaker",  desc: "縁談を取り持つ人（名詞）" },
+        { word: "mismatch",    desc: "不一致・ミスマッチ（名詞）" }
+      ],
+      family: [
+        { word: "pair",   desc: "一対・ペア（ラテン語 par）" },
+        { word: "fit",    desc: "合う・適合する" },
+        { word: "suit",   desc: "合う・適する（古フランス語）" }
+      ],
+      compounds: [
+        { phrase: "no match for",  desc: "〜には敵わない" },
+        { phrase: "mix and match", desc: "組み合わせ自在で合わせる" },
+        { phrase: "meet one's match", desc: "手強い相手に会う" }
+      ]
+    },
+
+    "mean": {
+      origin: "古英語 mǣnan（意味する・念じる）< ゲルマン語根 *mainjan < インド・ヨーロッパ語根 *meino-（意見・意図）に由来する。ドイツ語 meinen（思う・意味する）と同族である。形容詞「mean（卑劣な・平均の）」は別の語源を持つ同形異義語である。\n\n動詞 mean は「意味する・意図する（What do you mean?）」という認知的な意味が中心であり、「mean business（本気だ）」「mean well（善意でやる）」「well-meaning（善意の）」などの慣用表現も重要である。\n\n形容詞 mean は「平均値（the mean）」という統計学的意味と「卑劣な・ひどい（a mean trick）」という評価的意味を持ち、同形異義語として注意が必要。「golden mean（黄金の中庸）」はアリストテレスの倫理学概念として重要な表現である。",
+      derivatives: [
+        { word: "meaning",    desc: "意味（名詞）" },
+        { word: "meaningful", desc: "意味のある・重要な（形容詞）" },
+        { word: "meaningless", desc: "無意味な（形容詞）" },
+        { word: "meant",      desc: "mean の過去形（動詞）" }
+      ],
+      family: [
+        { word: "intend",   desc: "意図する（ラテン語 intendere）" },
+        { word: "signify",  desc: "意味する・重要である（ラテン語）" },
+        { word: "denote",   desc: "示す・表す（ラテン語 denotare）" }
+      ],
+      compounds: [
+        { phrase: "mean business",  desc: "本気だ・真剣に取り組む" },
+        { phrase: "well-meaning",   desc: "善意の" },
+        { phrase: "golden mean",    desc: "黄金の中庸" }
+      ]
+    },
+
+    "meet": {
+      origin: "古英語 mētan（出会う・遭遇する）< ゲルマン語根 *mōtjan < インド・ヨーロッパ語根 *mod-（出会う）に由来するとされる。moot（討議するべき・未解決の）と同語根とされ、「集まって討議する」という古英語のゲルマン的集会の概念と結びついている。\n\n「人と会う（meet someone）」という物理的な出会いから、「要求を満たす（meet requirements）」「締め切りに間に合う（meet a deadline）」「費用を払う（meet expenses）」など抽象的・機能的な意味が発展した。\n\n「nice to meet you（はじめまして）」という定番フレーズをはじめ、「meeting（会議）」・「meet halfway（妥協する）」・「meeting of minds（意見の一致）」・「meet one's end（最期を迎える）」など多様な慣用表現を持つ最頻出語のひとつである。",
+      derivatives: [
+        { word: "meeting",   desc: "会議・集会（名詞）" },
+        { word: "meetup",    desc: "非公式な集まり（名詞）" }
+      ],
+      family: [
+        { word: "encounter", desc: "遭遇する（古フランス語）" },
+        { word: "greet",     desc: "挨拶する（古英語 grētan）" },
+        { word: "gather",    desc: "集まる（古英語 gaderian）" }
+      ],
+      compounds: [
+        { phrase: "meet the deadline",  desc: "締め切りに間に合う" },
+        { phrase: "meet halfway",       desc: "妥協する・歩み寄る" },
+        { phrase: "meeting of minds",   desc: "意見の一致・同志的な出会い" }
+      ]
+    },
+
+    "miss": {
+      origin: "古英語 missan（的を外す・失う）< ゲルマン語根 *missjan < インド・ヨーロッパ語根 *mei-（変える・外れる）に由来する。mistake（誤り）・mislead（誤導する）と語根的に関連し、「目標から外れる・間違える」という原義を持つ。\n\n「的を外す（miss the target）」から「電車に乗り遅れる（miss the train）」「見逃す（miss a chance）」「恋しく思う（miss someone）」など意味が拡張した。「恋しく思う」という意味は「いなくなったことに気づく」という欠如の感覚から発展した用法である。\n\n「Miss（ミス：未婚女性の敬称）」は別語源（mistress の短縮）であり同形異義語。「near miss（かろうじて外れること）」「miss out on（機会を逃す）」「hit or miss（当たるも八卦）」など慣用表現も多い。",
+      derivatives: [
+        { word: "missing",   desc: "行方不明の・欠けている（形容詞）" },
+        { word: "missal",    desc: "ミサ典書（別語源）" }
+      ],
+      family: [
+        { word: "mistake",  desc: "誤り（mis+take 取り違える）" },
+        { word: "mislead",  desc: "誤った方向に導く（mis+lead）" },
+        { word: "lose",     desc: "失う（類義語）" }
+      ],
+      compounds: [
+        { phrase: "near miss",    desc: "かろうじて避けた事故・惜しくも外れ" },
+        { phrase: "miss out on",  desc: "機会を逃す" },
+        { phrase: "go missing",   desc: "行方不明になる" }
+      ]
+    },
+
+    "mix": {
+      origin: "ラテン語 mixtus（混ぜた）< miscere（混ぜる）の過去分詞形に由来し、中英語を経て15世紀の英語に入った。miscere はインド・ヨーロッパ語根 *meik-（混ぜる）と関連し、meddle（干渉する）・medley（寄せ集め）・miscellaneous（雑多な）とも語族をなす。\n\n「物質を混ぜる（mix ingredients）」から「人々が交流する（mix with people）」「音楽のミキシング（mix tracks）」「混同する（mix up）」など多様な意味が発展した。「mix-up（混乱・取り違え）」は日常英語でも頻繁に使われる。\n\nDJ・音楽制作の「ミックス（mix）」・カクテルの「ミックス」・多文化の「cultural mix（文化的混合）」など、混合・多様性という現代的価値観とも深く結びついており、remix（リミックス）・mixtape（ミックステープ）など音楽文化語としても定着している。",
+      derivatives: [
+        { word: "mixture",   desc: "混合物（名詞）" },
+        { word: "mixer",     desc: "ミキサー・交流好きな人（名詞）" },
+        { word: "remix",     desc: "リミックスする（動詞/名詞）" }
+      ],
+      family: [
+        { word: "blend",        desc: "混ぜ合わせる（古ノルド語）" },
+        { word: "miscellaneous", desc: "雑多な（miscere 同根）" },
+        { word: "meddle",       desc: "干渉する（miscere 同根）" }
+      ],
+      compounds: [
+        { phrase: "mix up",         desc: "混同する・取り違える" },
+        { phrase: "mixed feelings", desc: "複雑な感情" },
+        { phrase: "trial mix",      desc: "お試しセット・ミックス" }
+      ]
+    },
+
+    "narrow": {
+      origin: "古英語 nearu（狭い・圧迫された）< ゲルマン語根 *narwaz < インド・ヨーロッパ語根 *ner-（下・狭める）に由来するとされる。nerve（神経）・nervous（神経質な）と語根的に関連するという説もある。\n\n物理的な「幅が狭い」という意味から「視野が狭い（narrow-minded）」「辛うじて（narrow escape）」「焦点を絞る（narrow down）」など抽象的な意味が発展した。「narrow down（選択肢を絞る）」という表現は現代英語で非常に頻繁に使われる。\n\n「narrow margin（わずかの差）」「a narrow victory（辛勝）」「straight and narrow（正直で真面目な生き方）」など多様な慣用表現を持ち、「幅・範囲の制限」という概念を表す重要な形容詞・動詞である。",
+      derivatives: [
+        { word: "narrowly",   desc: "かろうじて・僅差で（副詞）" },
+        { word: "narrowness", desc: "狭さ・偏狭（名詞）" },
+        { word: "narrow-minded", desc: "偏狭な・視野が狭い（形容詞）" }
+      ],
+      family: [
+        { word: "thin",    desc: "薄い・細い（古英語 þynne）" },
+        { word: "slim",    desc: "細い・わずかな（古ノルド語）" },
+        { word: "limited", desc: "限られた（ラテン語 limitare）" }
+      ],
+      compounds: [
+        { phrase: "narrow down",       desc: "絞り込む" },
+        { phrase: "narrow escape",     desc: "間一髪の脱出" },
+        { phrase: "narrow-minded",     desc: "偏狭な・視野が狭い" }
+      ]
+    },
+
+    "need": {
+      origin: "古英語 nēod/nīed（必要・必要性）< ゲルマン語根 *nauδiz < インド・ヨーロッパ語根 *nāu-（必要・困難）に由来する。ドイツ語 Not（困窮・必要）・ゴート語 nauþs と同族であり、「切迫した必要性」という強い原義を持つ。\n\n名詞「need（必要・ニーズ）」と動詞「need to do（〜しなければならない）」の両形で使われる準助動詞的な特性を持つ。Maslow の欲求階層説（hierarchy of needs）により、needs（ニーズ）は20世紀の心理学・マーケティングの核心概念となった。\n\n「in need（困っている）」「a friend in need（困ったときの友）」「need of（〜を必要とする）」「needless（不必要な）」「needy（貧困な）」など多様な表現を持ち、人間の根本的な欲求と社会的責任を表す重要語である。",
+      derivatives: [
+        { word: "needless",   desc: "不必要な（形容詞）" },
+        { word: "needy",      desc: "貧困な・必要とする（形容詞）" },
+        { word: "needlessly", desc: "不必要に（副詞）" }
+      ],
+      family: [
+        { word: "require",  desc: "必要とする（ラテン語 requirere）" },
+        { word: "demand",   desc: "要求する（ラテン語 demandare）" },
+        { word: "want",     desc: "欲しい・必要とする（古ノルド語）" }
+      ],
+      compounds: [
+        { phrase: "in need",          desc: "困窮した・必要としている" },
+        { phrase: "a friend in need", desc: "困ったときの友" },
+        { phrase: "hierarchy of needs", desc: "欲求階層説" }
+      ]
+    },
+
+    "news": {
+      origin: "中英語 newes（新しい情報）< new（新しい）の名詞化した複数形に由来する。new は古英語 nīwe < ゲルマン語根 *neuja- < インド・ヨーロッパ語根 *newo-（新しい）に由来し、novel（新奇な）・nova（新星）・neo-（新しい）とも同族である。\n\n「新しい情報・報道」という意味で15世紀頃から名詞として固定化し、newspaper（新聞）・news broadcast（ニュース放送）・breaking news（速報）など近代メディアの発展とともに使用頻度が急増した。形式的に複数形だが現代英語では単数扱いが一般的（The news is...）。\n\n「no news is good news（便りのないのは良い知らせ）」という英語のことわざが示すように、news という語は「不安・期待を伴う情報」という心理的含意を持つことが多い。SNS時代には fake news（偽情報）という複合語が特に重要な概念となっている。",
+      derivatives: [
+        { word: "newspaper",  desc: "新聞（名詞）" },
+        { word: "newsworthy", desc: "ニュース価値のある（形容詞）" },
+        { word: "newsy",      desc: "話題豊富な・おしゃべりな（形容詞）" }
+      ],
+      family: [
+        { word: "novel",   desc: "新しい・小説（ラテン語 novus）" },
+        { word: "nova",    desc: "新星（ラテン語 nova）" },
+        { word: "renew",   desc: "更新する（re+new）" }
+      ],
+      compounds: [
+        { phrase: "breaking news", desc: "速報ニュース" },
+        { phrase: "fake news",     desc: "偽情報・フェイクニュース" },
+        { phrase: "newsreel",      desc: "ニュース映画（歴史的映像）" }
+      ]
+    },
+
+    "night": {
+      origin: "古英語 niht（夜）< ゲルマン語根 *naht- < インド・ヨーロッパ語根 *nokwt-（夜）に由来する。ラテン語 nox（夜）・ギリシャ語 nyx（夜の女神）・サンスクリット nakti と同族であり、印欧語族全体に最も広く分布する基本語彙のひとつである。\n\n「夜・夜間」という基本的な時間概念として古英語から継続的に使われ、fortnight（2週間：14夜）・midnight（真夜中）・knight（騎士：古英語では全く別の語）など関連語が発達した。\n\n「night shift（夜勤）」「overnight（一夜で・突然）」「by night（夜に）」「night owl（夜型の人）」「night life（夜の娯楽）」など現代英語でも豊富な複合語・慣用句を持ち、昼と夜の対比は英語の時間表現・比喩の根幹を成している。",
+      derivatives: [
+        { word: "nightly",    desc: "毎晩の・夜ごとの（形容詞/副詞）" },
+        { word: "midnight",   desc: "真夜中（名詞）" },
+        { word: "nightmare",  desc: "悪夢（名詞）" },
+        { word: "overnight",  desc: "一夜で・突然に（副詞/形容詞）" }
+      ],
+      family: [
+        { word: "nocturnal", desc: "夜行性の（ラテン語 nox）" },
+        { word: "equinox",   desc: "昼夜平分時（aequi+nox）" },
+        { word: "fortnight", desc: "2週間（fourteen nights）" }
+      ],
+      compounds: [
+        { phrase: "night shift",  desc: "夜勤" },
+        { phrase: "night owl",    desc: "夜型人間" },
+        { phrase: "overnight",    desc: "一晩で・突然に" }
+      ]
+    },
+
+    "noble": {
+      origin: "ラテン語 nobilis（知られた・著名な・高貴な）< noscere（知る）に由来し、古フランス語 noble を経て13世紀の英語に入った。noscere はインド・ヨーロッパ語根 *gnē-（知る）と関連し、know・notice・cognition・recognize とも語族をなす。\n\n「名の知れた・著名な」という原義から「上流階級の・高貴な」という社会的意味が発展し、さらに「道徳的に高尚な（noble character）」という精神的意味へと広がった。feudal system（封建制度）における noble（貴族）は明確な法的地位を指し、duke・earl・baron などの称号を持つ者を指した。\n\n「noble cause（崇高な理由）」「noble prize（ノーベル賞：nobilis との関連は語源的ではなく姓から）」「noble gas（貴ガス：化学的に安定した）」など多様な専門語でも使われる語である。",
+      derivatives: [
+        { word: "nobility",   desc: "貴族・高貴さ（名詞）" },
+        { word: "nobly",      desc: "高貴に・立派に（副詞）" },
+        { word: "nobleman",   desc: "貴族（名詞）" }
+      ],
+      family: [
+        { word: "know",       desc: "知る（*gnē- 同根）" },
+        { word: "notice",     desc: "気づく・通知（noscere）" },
+        { word: "recognize",  desc: "認識する（re+cognoscere）" }
+      ],
+      compounds: [
+        { phrase: "noble cause",  desc: "崇高な理由・大義" },
+        { phrase: "noble gas",    desc: "貴ガス（化学）" },
+        { phrase: "noble birth",  desc: "名門の出身" }
+      ]
+    },
+
+    "open": {
+      origin: "古英語 openian（開く・開ける）< ゲルマン語根 *upanaz（上に・開かれた）< インド・ヨーロッパ語根 *upo-（下から上へ）に由来する。up（上に）・over（超えて）と語根的に関連し、「上に持ち上げられた＝開かれた」という原義を持つ。\n\n「閉じたものを開く」という物理的な意味から「心を開く（open up）」「議論を始める（open a discussion）」「開放的な（open-minded）」「利用可能な（open to the public）」など多様な意味が発展した。open source（オープンソース）は20世紀後半のソフトウェア文化において特に重要な概念となった。\n\n「open-ended（結論が決まっていない）」「open door policy（門戸開放政策）」「open-minded（偏見のない）」「wide open（大きく開いた）」など、知的・政治的・文化的な「開かれた姿勢」を表す重要な語彙として機能している。",
+      derivatives: [
+        { word: "opener",    desc: "開ける道具・開幕の（名詞）" },
+        { word: "opening",   desc: "開口部・開幕（名詞）" },
+        { word: "openly",    desc: "公然と・率直に（副詞）" },
+        { word: "reopen",    desc: "再開する（動詞）" }
+      ],
+      family: [
+        { word: "up",     desc: "上に（語根 *upo- 同根）" },
+        { word: "over",   desc: "超えて（語根 *upo- 同根）" },
+        { word: "frank",  desc: "率直な・開放的な（類義語）" }
+      ],
+      compounds: [
+        { phrase: "open-minded",    desc: "偏見のない・開放的な" },
+        { phrase: "open source",    desc: "オープンソース" },
+        { phrase: "open door policy", desc: "門戸開放政策" }
+      ]
+    },
+
+    "overcome": {
+      origin: "古英語 ofercuman（乗り越える・打ち勝つ）< ofer-（上に・超えて）+ cuman（来る）< ゲルマン語根に由来する。over（超えて）+ come（来る）という透明な語構成を持つ古英語来の複合動詞であり、「上に来て乗り越える」という原義を持つ。\n\n「困難・障害を乗り越える（overcome difficulties）」という意味が中心であり、個人の成長・戦争・スポーツの文脈で頻繁に使われる。また「圧倒される（overcome with emotion）」という受動的な意味も重要な用法である。\n\n公民権運動の讃美歌 "We Shall Overcome" は20世紀のアメリカで社会変革の象徴的歌詞となり、overcome という語に「正義・困難克服」というポジティブな道徳的含意を与えた重要な文化的文脈である。",
+      derivatives: [
+        { word: "overcoming",  desc: "克服すること（動名詞）" }
+      ],
+      family: [
+        { word: "conquer",   desc: "征服する（ラテン語 conquirere）" },
+        { word: "surmount",  desc: "乗り越える（ラテン語 surmontare）" },
+        { word: "prevail",   desc: "打ち勝つ・蔓延する（ラテン語）" }
+      ],
+      compounds: [
+        { phrase: "overcome obstacles",  desc: "障害を乗り越える" },
+        { phrase: "overcome with grief", desc: "悲しみに打ちひしがれる" },
+        { phrase: "overcome fear",       desc: "恐怖を克服する" }
+      ]
+    },
+
+    "pain": {
+      origin: "ラテン語 poena（刑罰・苦痛）< ギリシャ語 poinē（刑罰・代償）< インド・ヨーロッパ語根 *kwoi-（報酬・刑罰）に由来し、古フランス語 peine を経て13世紀の英語に入った。penalty（刑罰）・penal（刑事上の）・punish（罰する）とも語族をなす。\n\n当初は「刑罰」という法律的な意味だったが、中英語以降「身体的・精神的な苦痛」という感覚的意味が主流となった。「take pains（苦労を惜しまない）」という慣用句は「努力・苦労」という意味で現代英語にも残っている。\n\n「pain in the neck（頭の痛い問題・うっとうしい人）」「growing pains（成長痛）」「pain threshold（痛みの閾値）」「painkiller（鎮痛剤）」など多様な表現を形成し、医療・心理学・日常語として重要な語彙である。",
+      derivatives: [
+        { word: "painful",    desc: "痛い・辛い（形容詞）" },
+        { word: "painless",   desc: "苦痛のない（形容詞）" },
+        { word: "painkiller", desc: "鎮痛剤（名詞）" }
+      ],
+      family: [
+        { word: "penalty",  desc: "刑罰・ペナルティ（poena 同根）" },
+        { word: "punish",   desc: "罰する（poena 同根）" },
+        { word: "ache",     desc: "疼く・痛み（古英語 acan）" }
+      ],
+      compounds: [
+        { phrase: "take pains",      desc: "苦労を惜しまない" },
+        { phrase: "pain in the neck", desc: "頭の痛い問題・厄介者" },
+        { phrase: "growing pains",   desc: "成長痛・発展に伴う困難" }
+      ]
+    },
+
+    "peace": {
+      origin: "ラテン語 pax（平和・和約）< pacere（合意する・取り決める）< インド・ヨーロッパ語根 *pak-（固定する・取り決める）に由来し、古フランス語 pais を経て12世紀の英語に入った。pact（協定）・pacify（なだめる）・appease（なだめる）とも語族をなす。\n\n政治的な「戦争の不在・和約」という意味が最も重要であり、「peace treaty（平和条約）」「world peace（世界平和）」などの表現は国際政治の核心語である。また「inner peace（内的な平和）」「peace of mind（心の平和）」という個人的・精神的な意味も重要である。\n\n「peace and quiet（静寂と平和）」「keep the peace（治安を維持する）」「rest in peace（安らかに眠れ）」「give someone peace（誰かに安心を与える）」など、平和・静寂・和解を表す慣用句が豊富であり、英語の道徳的語彙の中核を担っている。",
+      derivatives: [
+        { word: "peaceful",   desc: "平和な・穏やかな（形容詞）" },
+        { word: "peacefully", desc: "平和に・穏やかに（副詞）" },
+        { word: "peacemaker", desc: "和解者・平和をもたらす人（名詞）" }
+      ],
+      family: [
+        { word: "pact",    desc: "協定（pacere 同根）" },
+        { word: "pacify",  desc: "なだめる・平定する（pax 同根）" },
+        { word: "appease", desc: "なだめる（ad+pax）" }
+      ],
+      compounds: [
+        { phrase: "peace treaty",    desc: "平和条約" },
+        { phrase: "peace of mind",   desc: "心の平和" },
+        { phrase: "rest in peace",   desc: "安らかに眠れ（R.I.P.）" }
+      ]
+    },
+
+    "plant": {
+      origin: "ラテン語 planta（茎・植物・足の裏）< plantare（植える）に由来し、古英語には plante として早くから入っていた。plantare はインド・ヨーロッパ語根 *plat-（平らな）と関連し、「足で踏み込んで植える」という原義を持つとされる。\n\n「植物・草木」という名詞と「植える」という動詞の両用法を持ち、industrial plant（工場・プラント）という意味は「植える（設置する）」という動詞の意味から派生した。また「植え込む（plant evidence：証拠を捏造する）」という比喩的用法も重要である。\n\n「power plant（発電所）」「potted plant（鉢植え）」「plant-based（植物性の）」など現代のエネルギー・食品・環境の文脈でも重要語となっており、植物・機械・工場・陰謀という多義性を持つ語である。",
+      derivatives: [
+        { word: "plantation",  desc: "農園・プランテーション（名詞）" },
+        { word: "transplant",  desc: "移植する・移住させる（動詞）" },
+        { word: "implant",     desc: "埋め込む・植え付ける（動詞）" }
+      ],
+      family: [
+        { word: "flat",   desc: "平らな（planta 語根）" },
+        { word: "plain",  desc: "平原（planus 平らな）" },
+        { word: "plane",  desc: "平面・飛行機（planus）" }
+      ],
+      compounds: [
+        { phrase: "power plant",  desc: "発電所" },
+        { phrase: "plant-based",  desc: "植物性の" },
+        { phrase: "houseplant",   desc: "観葉植物" }
+      ]
+    },
+
+    "please": {
+      origin: "ラテン語 placere（満足させる・喜ばせる）< インド・ヨーロッパ語根 *plak-（穏やかな・平らな）に由来し、古フランス語 plaisir を経て14世紀の英語に入った。placid（穏やかな）・placate（なだめる）・complacent（現状満足した）とも語族をなす。\n\n「誰かを満足させる・喜ばせる」という動詞から、副詞・間投詞としての「please（どうぞ・お願いします）」という礼節表現へと用法が拡張した。現代英語では礼儀の基本語として教育・社会化の文脈で最も重要な語のひとつである。\n\n「please yourself（勝手にしなさい）」「hard to please（なかなか満足しない）」「eager to please（喜ばせようと必死な）」「if you please（よろしければ）」など多様な慣用表現を持ち、対人関係・礼儀・サービスの文脈で不可欠な語である。",
+      derivatives: [
+        { word: "pleasant",   desc: "心地よい・愉快な（形容詞）" },
+        { word: "pleasure",   desc: "喜び・楽しみ（名詞）" },
+        { word: "displease",  desc: "不満を与える（動詞）" },
+        { word: "pleasing",   desc: "喜ばせる・魅力的な（形容詞）" }
+      ],
+      family: [
+        { word: "placid",     desc: "穏やかな（placere 同根）" },
+        { word: "complacent", desc: "自己満足した（com+placere）" },
+        { word: "implacable", desc: "なだめられない（in+placere）" }
+      ],
+      compounds: [
+        { phrase: "hard to please",    desc: "なかなか満足させられない" },
+        { phrase: "eager to please",   desc: "喜ばせようと熱心な" },
+        { phrase: "people-pleaser",    desc: "他人の顔色をうかがう人" }
+      ]
+    },
+
+    "plot": {
+      origin: "古英語 plot（区画の土地）< 語源不詳（ゲルマン語根との関連が議論される）。「陰謀・策略」という意味は16世紀に発展し、「小区画の土地→地図上の点→秘密の計画の概略図」という意味変化をたどったとされる。\n\n「土地の区画（building plot）」「小説・映画の筋（plot of a story）」「陰謀・謀略（plot against someone）」「グラフ・図に描く（plot data）」など多義的な語である。物語論（narratology）では plot（プロット：出来事の配置）は story（ストーリー：時系列の出来事）と区別される重要な概念である。\n\n「plot twist（どんでん返し）」は現代の映画・小説批評で頻繁に使われ、「subplot（サブプロット・脇筋）」「plot device（物語装置）」「lose the plot（意味を見失う・判断を誤る）」など文学・口語表現も豊富である。",
+      derivatives: [
+        { word: "plotter",   desc: "陰謀者・プロッター（名詞）" },
+        { word: "subplot",   desc: "サブプロット・脇筋（名詞）" }
+      ],
+      family: [
+        { word: "scheme",    desc: "計画・陰謀（ギリシャ語 skhema）" },
+        { word: "conspiracy", desc: "陰謀（ラテン語 conspirare）" },
+        { word: "narrative", desc: "物語・筋書き（ラテン語 narrare）" }
+      ],
+      compounds: [
+        { phrase: "plot twist",    desc: "どんでん返し" },
+        { phrase: "lose the plot", desc: "意味を見失う・判断が狂う" },
+        { phrase: "plot device",   desc: "物語的仕掛け" }
+      ]
+    },
+
+    "point": {
+      origin: "ラテン語 punctus（刺された点・点）< pungere（刺す）の過去分詞形に由来し、古フランス語 point を経て13世紀の英語に入った。pungere はインド・ヨーロッパ語根 *peuk-（刺す）と関連し、punctuation（句読点）・pungent（刺激的な）・expunge（削除する）とも語族をなす。\n\n「先端・尖った点」という物理的な意味から「要点（the point）」「観点（point of view）」「得点（score points）」「指差す（point at）」「場所・地点（a meeting point）」など極めて多義的な語となった。\n\n"That's the point!"（それが肝心なことだ）・"miss the point"（要点を外す）・"to the point"（簡潔に要点を押さえた）・"point of no return"（引き返せない地点）など、英語の議論・論理的表現において point は欠かせない語である。",
+      derivatives: [
+        { word: "pointer",      desc: "指示棒・ポインター（名詞）" },
+        { word: "pointless",    desc: "無意味な・無駄な（形容詞）" },
+        { word: "pointed",      desc: "鋭い・明確な（形容詞）" },
+        { word: "checkpoint",   desc: "検問所・確認点（名詞）" }
+      ],
+      family: [
+        { word: "punctuation",  desc: "句読点（pungere 同根）" },
+        { word: "pungent",      desc: "刺激的な・辛い（pungere）" },
+        { word: "compunction",  desc: "良心の呵責（com+pungere）" }
+      ],
+      compounds: [
+        { phrase: "point of view",     desc: "観点・視点" },
+        { phrase: "to the point",      desc: "要領を得た・簡潔な" },
+        { phrase: "point of no return", desc: "引き返せない地点" }
+      ]
+    },
+
+    "pride": {
+      origin: "古英語 prȳde（傲慢・自負心）< prūd（誇り高い・傲慢な）< 古フランス語 prud/prod（勇敢な・誇り高い）に由来する。proud（誇りに思っている）と直接語族をなし、インド・ヨーロッパ語根との正確な対応は議論中である。\n\n中世英語では七つの大罪の筆頭「pride（傲慢）」として道徳的文脈で使われたが、現代英語では正当な自己尊重（take pride in：誇りに思う）という肯定的意味も重要である。\n\n「pride（ライオンの群れ）」という名詞用法も特殊であり、「take pride in（誇りを持つ）」「pride oneself on（〜を自慢する）」「Pride（LGBTQプライドパレード）」など多様な現代的文脈でも使われる語である。",
+      derivatives: [
+        { word: "proud",    desc: "誇りに思っている（形容詞）" },
+        { word: "proudly",  desc: "誇らしげに（副詞）" }
+      ],
+      family: [
+        { word: "arrogance",  desc: "傲慢（ラテン語 arrogantia）" },
+        { word: "vanity",     desc: "虚栄心（ラテン語 vanitas）" },
+        { word: "self-esteem", desc: "自己尊重（心理学用語）" }
+      ],
+      compounds: [
+        { phrase: "take pride in",  desc: "〜に誇りを持つ" },
+        { phrase: "pride and joy",  desc: "誇りと喜びの種・大切なもの" },
+        { phrase: "pride of lions", desc: "ライオンの群れ" }
+      ]
+    },
+
+    "pull": {
+      origin: "古英語 pullian（引く・引き抜く）< ゲルマン語根 *pul- に由来するとされるが、正確な語源は不明である。低地ゲルマン語・オランダ語との関連が議論される。push（押す）と対になる基本動詞として古英語から使われてきた。\n\n「引く・引き抜く」という物理的な意味から「影響力を行使する（pull strings）」「客を引きつける（pull customers）」「筋肉を傷める（pull a muscle）」「注意を引く（pull attention）」など多様な意味が発展した。\n\n「pull off（成し遂げる）」「pull out（撤退する）」「pull together（団結する）」「pull through（乗り越える）」「pull someone's leg（からかう）」など豊富なイディオムを持ち、push と対比して使われる基本動詞として英語の物理的・比喩的表現に不可欠である。",
+      derivatives: [
+        { word: "pullout",  desc: "撤退・引き抜き（名詞）" },
+        { word: "pullover", desc: "プルオーバー・道路脇に寄ること（名詞）" }
+      ],
+      family: [
+        { word: "drag",   desc: "引きずる（より重いものを）" },
+        { word: "tug",    desc: "強く引っ張る（断続的な）" },
+        { word: "haul",   desc: "力強く引く（大きな力で）" }
+      ],
+      compounds: [
+        { phrase: "pull through",    desc: "乗り越える・回復する" },
+        { phrase: "pull together",   desc: "団結する・まとめる" },
+        { phrase: "pull strings",    desc: "裏で手を回す・コネを使う" }
+      ]
     }
 
   };

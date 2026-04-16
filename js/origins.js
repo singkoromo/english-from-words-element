@@ -29010,6 +29010,441 @@
         { phrase: "wear and tear",  desc: "摩耗・消耗" },
         { phrase: "wear off",       desc: "効き目が薄れる" }
       ]
+    },
+
+    "wide": {
+      origin: "古英語 wīd（広い・遠い）< ゲルマン語根 *wīdaz < インド・ヨーロッパ語根 *wi-（離れて・広く）に由来する。ドイツ語 weit・ゴート語 wids と同族であり、width（幅）・widen（広げる）などの派生語を持つ。\n\n「横の広がりが大きい」という空間的な意味が基本で、「wide range（広い範囲）」「wide open（大きく開いた）」「wide awake（完全に覚醒した）」「world-wide（世界規模の）」など多様な文脈で使われる。\n\n「wide of the mark（的外れな）」「cast a wide net（広く網を張る）」「give someone a wide berth（〜を大きく避ける）」「wide-screen（ワイドスクリーン）」など多彩な慣用表現を持ち、空間・範囲の概念を表す核心的な形容詞である。",
+      derivatives: [
+        { word: "widen",    desc: "広げる・広まる（動詞）" },
+        { word: "width",    desc: "幅・横幅（名詞）" },
+        { word: "widely",   desc: "広く・一般的に（副詞）" },
+        { word: "widespread", desc: "広範な・蔓延した（形容詞）" }
+      ],
+      family: [
+        { word: "broad",   desc: "幅広い・おおまかな（古英語）" },
+        { word: "vast",    desc: "広大な（ラテン語 vastus）" },
+        { word: "spacious", desc: "広々とした（ラテン語 spatiosus）" }
+      ],
+      compounds: [
+        { phrase: "wide range",     desc: "広い範囲" },
+        { phrase: "wide open",      desc: "大きく開いた・無防備な" },
+        { phrase: "widespread",     desc: "広範囲にわたる" }
+      ]
+    },
+
+    "wild": {
+      origin: "古英語 wilde（野生の・文明化されていない）< ゲルマン語根 *wilþjaz < インド・ヨーロッパ語根 *ghwelto-（野生の）に由来するとされる。ドイツ語 wild（野生の）・ゴート語 wilþeis と同族であり、wilderness（荒野）・wildlife（野生動物）と語族をなす。\n\n「人間の管理下にない・自然のままの」という基本的な意味から「興奮した（wild with excitement）」「無謀な（wild guess）」「荒れた（wild weather）」など多様な意味が発展した。\n\n「wild goose chase（無駄な追跡）」「wild card（ワイルドカード）」「wild west（西部開拓地）」「beyond one's wildest dreams（想像を超えた）」「run wild（手がつけられなくなる）」など多彩な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "wilderness",  desc: "荒野・混乱状態（名詞）" },
+        { word: "wildlife",    desc: "野生動物（名詞）" },
+        { word: "wildly",      desc: "激しく・荒々しく（副詞）" }
+      ],
+      family: [
+        { word: "feral",   desc: "野生に戻った（ラテン語 ferus）" },
+        { word: "untamed", desc: "未調教の（un+tame）" },
+        { word: "savage",  desc: "野蛮な（古フランス語 sauvage）" }
+      ],
+      compounds: [
+        { phrase: "wild card",          desc: "ワイルドカード・予測不能な要素" },
+        { phrase: "wild goose chase",   desc: "無駄な追跡" },
+        { phrase: "run wild",           desc: "手がつけられなくなる" }
+      ]
+    },
+
+    "win": {
+      origin: "古英語 winnan（戦う・努力する・獲得する）< ゲルマン語根 *wennan < インド・ヨーロッパ語根 *wen-（努力する・望む）に由来する。wish（望む）・wean（乳離れする：慣らす）と語根的に関連し、「努力して獲得する」という原義を持つ。\n\n「競争・戦いに勝つ・獲得する」という意味が現代英語では中心であり、win a game（試合に勝つ）・win support（支持を勝ち取る）・win someone's heart（誰かの心を勝ち取る）など多様な文脈で使われる。\n\n「win-win（双方が利益を得る）」「win the day（難局を乗り切る）」「win over（説得する）」「you can't win them all（全部うまくいくわけではない）」「no-win situation（どう転んでも損な状況）」など多彩な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "winner",    desc: "勝者（名詞）" },
+        { word: "winning",   desc: "勝利の・魅力的な（形容詞）" },
+        { word: "winnable",  desc: "勝てる・可能な（形容詞）" }
+      ],
+      family: [
+        { word: "victory",  desc: "勝利（ラテン語 victoria）" },
+        { word: "triumph",  desc: "大勝利（ラテン語 triumphus）" },
+        { word: "succeed",  desc: "成功する（ラテン語 succedere）" }
+      ],
+      compounds: [
+        { phrase: "win-win",     desc: "双方が利益を得る" },
+        { phrase: "win over",    desc: "説得する・支持を勝ち取る" },
+        { phrase: "win the day", desc: "難局を乗り切る" }
+      ]
+    },
+
+    "wind": {
+      origin: "二つの語源がある。「空気の流れ」の wind は古英語 wind < ゲルマン語根 *windaz < インド・ヨーロッパ語根 *wē-（吹く・風が吹く）に由来し、ventilate（換気する）・weather（天気）と語族をなす。「巻き付ける・曲がりくねる」の wind は古英語 windan < ゲルマン語根 *windanan < インド・ヨーロッパ語根 *wendh-（曲がる・巻く）に由来する別語源の同形異義語である。\n\n「空気の流れ」の wind は trade winds（貿易風）・windmill（風車）・wind power（風力発電）など気象・エネルギーの文脈で重要語であり、「巻き付ける」の wind は wind up（巻き終わる・終わる）・wind down（落ち着く）などの慣用句で使われる。\n\n「get wind of（〜の気配をつかむ）」「throw caution to the wind（慎重さをかなぐり捨てる）」「wind up（結局〜になる）」「second wind（二の足・回復した元気）」など多彩な慣用表現を持つ多義的な語である。",
+      derivatives: [
+        { word: "windy",    desc: "風の強い（形容詞）" },
+        { word: "windmill", desc: "風車（名詞）" },
+        { word: "window",   desc: "窓（風の目：古ノルド語 vindauga）" }
+      ],
+      family: [
+        { word: "ventilate", desc: "換気する（ラテン語 ventus 風）" },
+        { word: "weather",   desc: "天気（同語根系）" },
+        { word: "fan",       desc: "扇風機・ファン（風を起こす）" }
+      ],
+      compounds: [
+        { phrase: "get wind of",     desc: "〜の噂を聞く・気配をつかむ" },
+        { phrase: "second wind",     desc: "回復した元気" },
+        { phrase: "wind up",         desc: "結局〜になる・終わらせる" }
+      ]
+    },
+
+    "word": {
+      origin: "古英語 word（言葉・話・知らせ）< ゲルマン語根 *wurðan < インド・ヨーロッパ語根 *werH-（言う・語る）に由来する。ドイツ語 Wort・ゴート語 waurd と同族であり、verbal（言語の）・verb（動詞）とも語根的に関連するとされる。\n\n「言語の最小単位」という言語学的な意味が基本だが、「言葉・発言（a word of advice）」「約束（keep one's word）」「情報（word got out）」「聖書の言（the Word）」など多義的な語である。\n\n「word of mouth（口コミ）」「give one's word（約束する）」「play on words（言葉遊び）」「get a word in（口をはさむ）」「buzzword（流行語）」「in a word（一言で言えば）」など多彩な慣用表現を持ち、コミュニケーションの根幹をなす概念語である。",
+      derivatives: [
+        { word: "wording",   desc: "言葉の使い方・文言（名詞）" },
+        { word: "wordy",     desc: "冗長な（形容詞）" },
+        { word: "buzzword",  desc: "流行語（名詞）" }
+      ],
+      family: [
+        { word: "verb",    desc: "動詞（ラテン語 verbum）" },
+        { word: "verbal",  desc: "言語の・口頭の（ラテン語）" },
+        { word: "voice",   desc: "声・意見（ラテン語 vox）" }
+      ],
+      compounds: [
+        { phrase: "word of mouth",  desc: "口コミ" },
+        { phrase: "give one's word", desc: "約束する" },
+        { phrase: "in a word",      desc: "一言で言えば" }
+      ]
+    },
+
+    "worry": {
+      origin: "古英語 wyrgan（首を絞める・引き裂く）< ゲルマン語根 *wurgjan < インド・ヨーロッパ語根 *wergh-（締める・ねじる）に由来する。「犬が喉を噛んで動物を引き裂く」という原義から「悩ませる・心配する」という比喩的意味が中英語期に発展した。\n\n「将来への不安・心配」という心理的な意味が現代英語では中心であり、「worry about（〜について心配する）」「not to worry（心配しないで）」「worry oneself sick（病気になるほど心配する）」など日常的に頻用される語である。\n\n「worry beads（ビーズを触ることで不安を和らげる）」「out of one's worries（心配から解放されて）」「economic worries（経済への不安）」「anxiety and worry（不安と心配）」など心理学・日常語として重要であり、精神的健康の文脈でも頻出する語である。",
+      derivatives: [
+        { word: "worried",    desc: "心配している（形容詞）" },
+        { word: "worrying",   desc: "心配な・厄介な（形容詞）" },
+        { word: "worrisome",  desc: "心配な（形容詞）" }
+      ],
+      family: [
+        { word: "anxiety",   desc: "不安（ラテン語 anxietas）" },
+        { word: "concern",   desc: "懸念・関心（ラテン語 concernere）" },
+        { word: "fret",      desc: "いらいらする・心配する" }
+      ],
+      compounds: [
+        { phrase: "worry about",     desc: "〜を心配する" },
+        { phrase: "not to worry",    desc: "心配しないで" },
+        { phrase: "money worries",   desc: "金銭的な心配" }
+      ]
+    },
+
+    "worth": {
+      origin: "古英語 weorþ（価値・値段）< ゲルマン語根 *werþaz < インド・ヨーロッパ語根 *wert-（回る・交換する）に由来する。ward（守る）・worship（崇拝：価値を高める）・worthy（価値ある）と語族をなす。\n\n「価値・値打ち」という経済的・道徳的な概念を表す基本語であり、「be worth doing（〜する価値がある）」「net worth（純資産）」「worth the effort（努力に見合う）」など多様な文脈で使われる。\n\n「it's worth it（それだけの価値がある）」「for what it's worth（参考までに）」「worth one's salt（十分な力量がある）」「put one's money where one's mouth is（口だけでなく実行する）」など価値・努力・報酬に関する重要な慣用表現が豊富な語である。",
+      derivatives: [
+        { word: "worthy",    desc: "価値ある・値する（形容詞）" },
+        { word: "worthless", desc: "価値のない（形容詞）" },
+        { word: "worthwhile", desc: "やりがいのある（形容詞）" }
+      ],
+      family: [
+        { word: "value",     desc: "価値（ラテン語 valere）" },
+        { word: "worship",   desc: "崇拝（worth+ship）" },
+        { word: "worthy",    desc: "値する（worth+y）" }
+      ],
+      compounds: [
+        { phrase: "net worth",     desc: "純資産" },
+        { phrase: "worth it",      desc: "それだけの価値がある" },
+        { phrase: "worth one's salt", desc: "十分な力量がある" }
+      ]
+    },
+
+    "wrap": {
+      origin: "中英語 wrappen（包む）< 語源不詳で、低地ゲルマン語・スカンジナビア語との関連が議論される。インド・ヨーロッパ語根 *werb-（曲がる）との関連も指摘される。15世紀頃から英語に使われている。\n\n「布・紙で包む」という物理的な意味が基本で、「wrap a gift（贈り物を包む）」「wrap up（包み終わる・防寒のため着込む・まとめる）」「gift wrap（ギフトラッピング）」など多様な文脈で使われる。\n\n「wrap up（終わらせる・まとめる）」「under wraps（秘密にされて）」「rap sheet（前科記録：wrapと発音が同じ）」「it's a wrap（撮影終了！映画業界用語）」「wrap one's head around（理解する）」など映画・日常・ビジネスの多彩な表現を持つ語である。",
+      derivatives: [
+        { word: "wrapper",   desc: "包装紙・ラッパー（名詞）" },
+        { word: "wrapping",  desc: "包装・ラッピング（名詞）" },
+        { word: "unwrap",    desc: "包みを開く（動詞）" }
+      ],
+      family: [
+        { word: "fold",   desc: "折る・折りたたむ（古英語）" },
+        { word: "cover",  desc: "覆う（ラテン語系）" },
+        { word: "envelop", desc: "包む（古フランス語）" }
+      ],
+      compounds: [
+        { phrase: "wrap up",          desc: "まとめる・終わらせる" },
+        { phrase: "under wraps",      desc: "秘密にされている" },
+        { phrase: "it's a wrap",      desc: "撮影終了・これで終わり" }
+      ]
+    },
+
+    "yield": {
+      origin: "古英語 gieldan（支払う・返す・産出する）< ゲルマン語根 *geldan < インド・ヨーロッパ語根 *ghel-（支払う）に由来する。guild（ギルド：支払い合う組合）・geld（去勢する：古義の「支払い」から）と語族をなすとされる。\n\n「産出する（crops yield a harvest）」「譲る・屈服する（yield to pressure）」「利回りを生む（yield a return）」など多義的な語であり、農業・金融・道路標識（yield：譲れ）など多様な専門分野で使われる。\n\n「yield ground（地歩を譲る）」「high-yield（高収量・高利回りの）」「yield curve（利回り曲線）」「yield management（収益管理）」など金融・農業・交通の重要語として機能しており、modern English では特に投資・農業・エネルギーの文脈で頻用される。",
+      derivatives: [
+        { word: "yielding",  desc: "柔軟な・産出する（形容詞）" }
+      ],
+      family: [
+        { word: "produce",   desc: "生産する（ラテン語 producere）" },
+        { word: "generate",  desc: "生み出す（ラテン語 generare）" },
+        { word: "surrender", desc: "降伏する（フランス語 surrendre）" }
+      ],
+      compounds: [
+        { phrase: "yield to",       desc: "〜に屈服する・譲る" },
+        { phrase: "high yield",     desc: "高収量・高利回り" },
+        { phrase: "yield curve",    desc: "利回り曲線" }
+      ]
+    },
+
+    "young": {
+      origin: "古英語 ġeong（若い・幼い）< ゲルマン語根 *jungaz < インド・ヨーロッパ語根 *yewng-（若い）に由来する。ドイツ語 jung・ゴート語 juggs と同族であり、juvenile（青少年の）・junior（年下の）・June（6月：若々しい月）ともラテン語系の同語根を共有する。\n\n「年齢が若い」という基本的な意味から「youth（若さ・若者）」「young at heart（心が若い）」「young professional（若い専門職）」など多様な表現が発展した。\n\n「young blood（新鮮な考え・若い人材）」「the young（若者たち）」「young and old（老若男女）」「forever young（永遠に若く）」「generation gap between young and old（世代間格差）」など社会・文化の文脈でも重要語であり、人口統計・政治・マーケティングにおいて「若者世代」を指す核心語となっている。",
+      derivatives: [
+        { word: "youth",     desc: "若さ・若者（名詞）" },
+        { word: "youngster", desc: "若者・子供（名詞）" },
+        { word: "younger",   desc: "より若い（比較級）" }
+      ],
+      family: [
+        { word: "juvenile",  desc: "青少年の（ラテン語 juvenis）" },
+        { word: "junior",    desc: "年下の・下位の（ラテン語 junior）" },
+        { word: "youthful",  desc: "若々しい（youth+ful）" }
+      ],
+      compounds: [
+        { phrase: "young blood",      desc: "新しい人材・若い血" },
+        { phrase: "young at heart",   desc: "心が若い" },
+        { phrase: "young and old",    desc: "老若男女" }
+      ]
+    },
+
+    "zone": {
+      origin: "ラテン語 zona（帯・地帯）< ギリシャ語 zōnē（帯・腰帯）< zōnnynai（腰帯を締める）< インド・ヨーロッパ語根 *yos-（帯・縛る）に由来する。16世紀に英語に入り、当初は地理的な「帯状の地域」を意味した。\n\n「特定の目的・特性を持つ地域」という地理的・行政的な意味が基本で、「time zone（タイムゾーン）」「industrial zone（工業地帯）」「comfort zone（コンフォートゾーン）」「danger zone（危険地帯）」など多様な複合語が発展した。\n\n心理学・スポーツにおける「zone（ゾーン：集中・フロー状態）」は20世紀後半に重要な概念として定着し、「in the zone（絶好調で・完全に集中して）」「comfort zone（安全地帯・慣れた環境）」「push the boundaries of one's zone（自分の限界を押し広げる）」など現代的な表現も豊富である。",
+      derivatives: [
+        { word: "zoning",   desc: "区画整理・ゾーニング（名詞）" },
+        { word: "zonal",    desc: "地帯の・ゾーン別の（形容詞）" }
+      ],
+      family: [
+        { word: "area",      desc: "地域（ラテン語 area）" },
+        { word: "region",    desc: "地方・地域（ラテン語 regio）" },
+        { word: "territory", desc: "領土・縄張り（ラテン語 terra）" }
+      ],
+      compounds: [
+        { phrase: "comfort zone",  desc: "コンフォートゾーン・安全地帯" },
+        { phrase: "time zone",     desc: "タイムゾーン" },
+        { phrase: "in the zone",   desc: "絶好調で・完全集中で" }
+      ]
+    },
+
+    "afraid": {
+      origin: "中英語 afraied（怖がった）< 古フランス語 esfraeer（脅かす）< ラテン語 ex-（外に）+ フランク語 *fridhu（平和）< ゲルマン語根 *friþuz（平和）に由来する。「平和を破られて怖れる」という原義から「恐怖・不安を感じている」という心理的な状態を表す形容詞として定着した。\n\n「怖れている・心配している」という感情的な状態を表す語として古英語以来最も一般的な恐怖の表現のひとつである。「be afraid of（〜が怖い）」「afraid that（〜を心配している）」「I'm afraid（残念ながら・恐れ入りますが）」という丁寧な断りの表現でも重要である。\n\n"I'm afraid so"（残念ながらそうです）・"I'm afraid not"（残念ながら違います）という婉曲的な表現は英語のポライトネス（丁寧さ）の重要な表現パターンであり、文化的な言語知識として不可欠である。",
+      derivatives: [
+        { word: "unafraid",  desc: "怖れない・大胆な（形容詞）" }
+      ],
+      family: [
+        { word: "fear",    desc: "恐怖・恐れる（古英語）" },
+        { word: "scared",  desc: "怖がった（scared の形容詞）" },
+        { word: "timid",   desc: "臆病な（ラテン語 timidus）" }
+      ],
+      compounds: [
+        { phrase: "I'm afraid",      desc: "残念ながら・恐れ入りますが" },
+        { phrase: "afraid of",       desc: "〜が怖い" },
+        { phrase: "afraid to",       desc: "怖くて〜できない" }
+      ]
+    },
+
+    "ahead": {
+      origin: "中英語 ahede（前方に）< a-（〜に向かって）+ head（頭・前部）から形成された複合副詞に由来する。head は古英語 hēafod < ゲルマン語根 *haubudaz < インド・ヨーロッパ語根 *kaput- に由来し、capital（首都・大文字）・chapter（章）とも語根的に関連する。\n\n「前方に・前もって」という空間的・時間的な意味が基本で、「go ahead（進む・どうぞ）」「look ahead（前を見る・先を見越す）」「ahead of time（時間より早く）」「straight ahead（真っ直ぐ前に）」など多様な表現で使われる。\n\n「ahead of the curve（時代の先を行く）」「one step ahead（一歩先んじている）」「full speed ahead（全速前進）」「think ahead（先を考える）」など多彩な慣用表現を持ち、前進・先見性という概念を表す重要語である。",
+      derivatives: [
+        { word: "forehead",  desc: "額（fore+head）" }
+      ],
+      family: [
+        { word: "forward",  desc: "前方へ（fore+ward）" },
+        { word: "onward",   desc: "前進して（on+ward）" },
+        { word: "front",    desc: "前面・前線（ラテン語 frons）" }
+      ],
+      compounds: [
+        { phrase: "go ahead",           desc: "進む・どうぞ" },
+        { phrase: "ahead of the curve", desc: "時代の先を行く" },
+        { phrase: "full speed ahead",   desc: "全速前進" }
+      ]
+    },
+
+    "alarm": {
+      origin: "イタリア語 all'arme（武器へ！）< all'（〜へ）+ arme（武器）< ラテン語 arma（武器）に由来し、16世紀に英語に入った。「攻撃を知らせる叫び声→危険を知らせる合図」という意味が発展し、名詞・動詞両用で使われる。\n\n「危険を知らせる警報・警戒心」という意味が基本で、「fire alarm（火災警報器）」「alarm clock（目覚まし時計）」「sound the alarm（警報を鳴らす）」「cause alarm（警戒心を引き起こす）」など多様な文脈で使われる。\n\n「false alarm（誤警報・杞憂）」「alarm bell（警戒のサイン）」「raise the alarm（警戒を呼びかける）」「smoke alarm（煙感知器）」など安全・防災・日常の文脈で不可欠な語であり、感情的な「驚き・不安」という意味でも使われる。",
+      derivatives: [
+        { word: "alarming",   desc: "不安を与える・警戒すべき（形容詞）" },
+        { word: "alarmed",    desc: "不安になった・警戒した（形容詞）" }
+      ],
+      family: [
+        { word: "alert",   desc: "警戒・注意を促す（類義語）" },
+        { word: "warn",    desc: "警告する（古英語 warnian）" },
+        { word: "notify",  desc: "知らせる（ラテン語 notificare）" }
+      ],
+      compounds: [
+        { phrase: "false alarm",    desc: "誤警報・杞憂" },
+        { phrase: "alarm clock",    desc: "目覚まし時計" },
+        { phrase: "raise the alarm", desc: "警戒を呼びかける" }
+      ]
+    },
+
+    "alert": {
+      origin: "イタリア語 allerta（警戒して）< all'erta（高い場所に：見張りに）< all'（〜の）+ erta（急な斜面・見張り台）< ラテン語 erigere（立てる）の過去分詞形に由来する。erect（直立した）・erect（建てる）と語族をなし、「高い場所に立って見張る」という原義を持つ。\n\n「機敏な・警戒した」という形容詞的意味と「警報・注意」という名詞的意味、「警告する」という動詞的意味が並存する。「be on the alert（警戒している）」「amber alert（アンバーアラート：子供誘拐警報）」「high alert（高度警戒態勢）」など安全保障・防犯の文脈で重要語である。\n\n現代では「push alert（プッシュ通知）」「news alert（ニュースアラート）」などデジタル通知の文脈でも日常的に使われており、リアルタイムの情報伝達という現代的な意味でも重要語となっている。",
+      derivatives: [
+        { word: "alertness",  desc: "機敏さ・警戒心（名詞）" }
+      ],
+      family: [
+        { word: "alarm",   desc: "警報・警戒（類義語）" },
+        { word: "vigilant", desc: "油断のない（ラテン語 vigilans）" },
+        { word: "erect",   desc: "直立した（同語根 erigere）" }
+      ],
+      compounds: [
+        { phrase: "on high alert",  desc: "高度警戒態勢で" },
+        { phrase: "amber alert",    desc: "子供誘拐警報" },
+        { phrase: "news alert",     desc: "ニュース速報通知" }
+      ]
+    },
+
+    "allow": {
+      origin: "古フランス語 allouer（割り当てる・認める）< ラテン語 allocare（配置する）< ad-（〜に）+ locare（置く）< locus（場所）に由来する。また「許可する」という意味はラテン語 allaudare（称賛する）< ad-+ laudare（称える）からの影響もあるとされる。\n\n「〜することを許可する・可能にする」という意味が基本で、「allow access（アクセスを許可する）」「allow for（〜を考慮する）」「not allowed（禁止されている）」など法律・規則・日常会話の文脈で頻繁に使われる。\n\n「allow time for（〜に時間を確保する）」「allow me（お許しください）」「allowance（手当・小遣い）」「disallow（許可しない）」など多様な表現を持ち、許可・承認・余裕という概念を表す基本動詞として英語に不可欠な語である。",
+      derivatives: [
+        { word: "allowance",  desc: "手当・小遣い・余裕（名詞）" },
+        { word: "allowable",  desc: "許容される（形容詞）" },
+        { word: "disallow",   desc: "不許可にする（動詞）" }
+      ],
+      family: [
+        { word: "permit",    desc: "許可する（ラテン語 permittere）" },
+        { word: "enable",    desc: "可能にする（en+able）" },
+        { word: "authorize", desc: "権限を与える（author+ize）" }
+      ],
+      compounds: [
+        { phrase: "allow for",   desc: "〜を考慮する・見込む" },
+        { phrase: "not allowed", desc: "禁止されている" },
+        { phrase: "make allowance", desc: "考慮する・大目に見る" }
+      ]
+    },
+
+    "alone": {
+      origin: "中英語 al one（まったく一人で）< all（完全に）+ one（一つ）の複合語に由来する。「完全に一人の」という原義を持ち、lonely（孤独な）・lonesome（寂しい）とは語源的に異なる。\n\n「他の人がいない状態で・単独で」という物理的な意味と「孤独を感じる」という感情的な意味の両方を持つ。「leave someone alone（〜をそっとしておく）」「stand alone（際立っている）」「go it alone（単独でやる）」など多様な文脈で使われる。\n\n「alone and together（孤独でありながら共に）」「you are not alone（あなたは一人ではない）」「let alone（〜はおろか）」「alone in the dark（暗闇の中で独り）」など哲学的・感情的・慣用的な表現が豊富であり、孤独・独立・個性という現代的テーマとも深く結びついた語である。",
+      derivatives: [
+        { word: "lonely",    desc: "孤独な・さびしい（形容詞）" },
+        { word: "lonesome",  desc: "寂しい・孤独な（形容詞）" }
+      ],
+      family: [
+        { word: "solitary",  desc: "孤独な（ラテン語 solitarius）" },
+        { word: "isolated",  desc: "孤立した（ラテン語 insula）" },
+        { word: "solo",      desc: "独奏の・単独で（ラテン語 solus）" }
+      ],
+      compounds: [
+        { phrase: "let alone",    desc: "〜はおろか・放っておく" },
+        { phrase: "go it alone",  desc: "単独でやる" },
+        { phrase: "leave alone",  desc: "そっとしておく" }
+      ]
+    },
+
+    "angle": {
+      origin: "ラテン語 angulus（角・隅）< インド・ヨーロッパ語根 *ang-（曲がる・折れ曲がる）に由来し、古フランス語 angle を経て14世紀の英語に入った。ankle（足首）・anchor（錨：曲がった金具）とも語族をなす。\n\n「数学的な角度」という幾何学的意味が基本だが、「視点・観点（from a different angle）」「戦略的なアプローチ（angle for something）」「釣りの角（angling：釣り）」など多様な意味が発展した。\n\n「angle of attack（進入角度・攻撃角）」「right angle（直角）」「from every angle（あらゆる角度から）」「spin/angle（問題の切り口・語り方）」など数学・物理・ジャーナリズム・日常語として多面的に使われる語である。",
+      derivatives: [
+        { word: "angular",  desc: "角ばった・尖った（形容詞）" },
+        { word: "angling",  desc: "釣り・角度計測（名詞）" }
+      ],
+      family: [
+        { word: "corner",   desc: "角・隅（同概念）" },
+        { word: "ankle",    desc: "足首（曲がる部位）" },
+        { word: "anchor",   desc: "錨（曲がった金具）" }
+      ],
+      compounds: [
+        { phrase: "right angle",      desc: "直角" },
+        { phrase: "from every angle", desc: "あらゆる角度から" },
+        { phrase: "angle for",        desc: "〜を狙う・巧みに求める" }
+      ]
+    },
+
+    "announce": {
+      origin: "ラテン語 annuntiare（知らせる・告げる）< ad-（〜に）+ nuntiare（メッセージを届ける）< nuntius（使者・メッセージ）に由来し、古フランス語 annoncer を経て15世紀の英語に入った。enunciate（明確に発音する）・denounce（非難する）・renounce（放棄する）と語族をなす。\n\n「公に知らせる・発表する」という意味が基本で、「announce a decision（決定を発表する）」「announce candidacy（立候補を表明する）」「public announcement（公式発表）」など政治・ビジネス・メディアの文脈で重要語である。\n\n「announcement（発表・アナウンス）」「PA system（公共放送：Public Address）」「breaking announcement（重大な発表）」など多様な表現で使われ、現代のマーケティング・広報・メディア関係で不可欠な語となっている。",
+      derivatives: [
+        { word: "announcement", desc: "発表・告知（名詞）" },
+        { word: "announcer",    desc: "アナウンサー・司会者（名詞）" }
+      ],
+      family: [
+        { word: "denounce",  desc: "非難する（de+nuntiare）" },
+        { word: "renounce",  desc: "放棄する（re+nuntiare）" },
+        { word: "enunciate", desc: "明確に発音する（e+nuntiare）" }
+      ],
+      compounds: [
+        { phrase: "public announcement",  desc: "公式発表" },
+        { phrase: "announcement effect",  desc: "発表効果" },
+        { phrase: "make an announcement", desc: "発表する" }
+      ]
+    },
+
+    "apart": {
+      origin: "古フランス語 à part（分かれて・離れて）< ラテン語 ad（〜に）+ partem（部分）< pars（部分）に由来する。part（部分）・partial（部分的な）・partition（分割）と語族をなす。14世紀頃から英語に入った。\n\n「離れて・別々に」という空間的な意味が基本で、「fall apart（崩壊する）」「come apart（バラバラになる）」「set apart（区別する・際立たせる）」「worlds apart（全く違う）」など多様な意味が発展した。\n\n「apart from（〜とは別に）」「torn apart（引き裂かれた）」「poles apart（全く正反対）」「take apart（分解する）」「drift apart（疎遠になる）」など多彩な慣用表現を持ち、分離・区別・独立という概念を表す重要語である。",
+      derivatives: [
+        { word: "apartment", desc: "アパート（別れた部屋）" }
+      ],
+      family: [
+        { word: "separate",  desc: "分ける・分かれた（ラテン語）" },
+        { word: "divide",    desc: "分ける（ラテン語 dividere）" },
+        { word: "isolate",   desc: "孤立させる（ラテン語 insula）" }
+      ],
+      compounds: [
+        { phrase: "apart from",  desc: "〜を除いて・〜とは別に" },
+        { phrase: "fall apart",  desc: "崩壊する・バラバラになる" },
+        { phrase: "worlds apart", desc: "全く違う・隔絶した" }
+      ]
+    },
+
+    "army": {
+      origin: "ラテン語 armata（武装した集団）< armare（武装させる）< arma（武器）に由来し、古フランス語 armée を経て14世紀の英語に入った。arm（腕・武器）・armor（鎧）・armament（軍備）と語族をなす。\n\n「国家の陸上軍事力」という制度的な意味が基本で、「join the army（軍に入る）」「army base（軍事基地）」「army of supporters（大勢の支持者：比喩）」など軍事・比喩の両面で使われる。\n\n「standing army（常備軍）」「Salvation Army（救世軍）」「army of ants（アリの大群）」「an army of volunteers（大勢のボランティア）」など軍事的・比喩的に「大きな組織化された集団」を表す語として機能している。",
+      derivatives: [
+        { word: "military",  desc: "軍の・軍隊（形容詞/名詞）" }
+      ],
+      family: [
+        { word: "arm",      desc: "腕・武器（ラテン語 arma）" },
+        { word: "armor",    desc: "鎧（ラテン語 armatura）" },
+        { word: "armament", desc: "軍備（arma+ment）" }
+      ],
+      compounds: [
+        { phrase: "standing army",   desc: "常備軍" },
+        { phrase: "Salvation Army",  desc: "救世軍" },
+        { phrase: "army base",       desc: "軍事基地" }
+      ]
+    },
+
+    "aside": {
+      origin: "中英語 on side（傍らに）< a-（〜に）+ side（側・傍ら）から形成された複合副詞に由来する。side は古英語 sīde < ゲルマン語根 *sīdō に由来し、「中心から離れた横の位置」という空間的な概念を表す。\n\n「わきに・傍らに」という空間的な意味が基本で、「set aside（取り置く・除外する）」「put aside（脇に置く・貯めておく）」「step aside（脇に退く）」「aside from（〜はさておき）」など多様な文脈で使われる。\n\n舞台用語では「aside（独白：他の登場人物に聞こえないという設定での観客への発言）」という専門的な意味もあり、シェイクスピア劇などで重要な演劇技法として使われている。"Set aside your differences"（意見の違いを脇に置く）など和解・協力の文脈でも重要である。",
+      derivatives: [],
+      family: [
+        { word: "apart",  desc: "離れて（同義副詞）" },
+        { word: "away",   desc: "離れて（距離的）" },
+        { word: "beside", desc: "傍らに（前置詞）" }
+      ],
+      compounds: [
+        { phrase: "set aside",   desc: "取り置く・例外とする" },
+        { phrase: "put aside",   desc: "脇に置く・貯めておく" },
+        { phrase: "aside from",  desc: "〜はさておき・〜以外" }
+      ]
+    },
+
+    "assert": {
+      origin: "ラテン語 asserere（主張する・自由にする）< ad-（〜に向けて）+ serere（つなぐ・組み合わせる）に由来し、古フランス語 asserter を経て15世紀の英語に入った。series（連続）・insert（挿入する）・desert（見捨てる：つながりを切る）と語族をなす。\n\n「事実・権利を積極的に主張する」という意味が基本で、「assert one's rights（権利を主張する）」「assert authority（権威を行使する）」「assertive behavior（積極的な行動）」など法律・心理学・日常の文脈で重要語である。\n\n「assert oneself（自己主張する）」「assertiveness training（自己主張トレーニング）」「make an assertion（主張を行う）」など現代の自己啓発・コミュニケーション教育においても assertive という語が重要なコンセプトとして定着している。",
+      derivatives: [
+        { word: "assertion",  desc: "主張・断言（名詞）" },
+        { word: "assertive",  desc: "積極的な・自己主張する（形容詞）" }
+      ],
+      family: [
+        { word: "claim",   desc: "主張する（古フランス語 clamer）" },
+        { word: "insist",  desc: "主張する・こだわる（ラテン語 insistere）" },
+        { word: "series",  desc: "連続（serere 同根）" }
+      ],
+      compounds: [
+        { phrase: "assert oneself",       desc: "自己主張する" },
+        { phrase: "assertiveness",        desc: "積極性・自己主張力" },
+        { phrase: "assert authority",     desc: "権威を行使する" }
+      ]
+    },
+
+    "attach": {
+      origin: "古フランス語 atachier（固定する・縛る）< a-（〜に）+ tachier（釘で打ち付ける）< ゲルマン語根 *stakka-（杭・釘）に由来する。stack（積む）・stake（杭）と語族をなすとされる。14世紀に英語に入った。\n\n「固定する・取り付ける」という物理的な意味から「感情的に愛着を持つ（attached to someone）」「メールに添付する（attach a file）」「意味を付与する（attach importance）」など多様な意味が発展した。\n\n「no strings attached（条件なしで）」「attached at the hip（いつも一緒で）」「attach great importance to（〜を非常に重視する）」「detach（切り離す）」など多彩な慣用表現を持ち、物理的・感情的・デジタルな「接続」を表す重要語である。",
+      derivatives: [
+        { word: "attachment",  desc: "添付ファイル・愛着（名詞）" },
+        { word: "detach",      desc: "切り離す（de+attach）" },
+        { word: "attached",    desc: "添付された・愛着を持った（形容詞）" }
+      ],
+      family: [
+        { word: "stick",  desc: "くっつける・固着する" },
+        { word: "fasten", desc: "固定する（古英語 fæstnian）" },
+        { word: "stake",  desc: "杭・賭け金（同語根）" }
+      ],
+      compounds: [
+        { phrase: "attach importance",  desc: "重要性を付与する" },
+        { phrase: "no strings attached", desc: "条件なしで" },
+        { phrase: "email attachment",   desc: "メールの添付ファイル" }
+      ]
     }
 
   };

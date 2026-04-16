@@ -27623,6 +27623,324 @@
         { phrase: "pull together",   desc: "団結する・まとめる" },
         { phrase: "pull strings",    desc: "裏で手を回す・コネを使う" }
       ]
+    },
+
+    "push": {
+      origin: "古フランス語 pousser（押す）< ラテン語 pulsare（激しく打つ）< pulsus（打たれた）< pellere（打つ・押す）の過去分詞形に由来する。pellere はインド・ヨーロッパ語根 *pel-（打つ・押す）と関連し、propel（推進する）・compel（強制する）・expel（追い出す）・repel（撃退する）とも語族をなす。\n\n「力で押す」という物理的な意味から「推進する・宣伝する（push a product）」「要求する（push for）」「麻薬を売る（push drugs：俗語）」など多様な意味が発展した。pull（引く）と対比されることが多く、「push and pull（相互に働く力）」という表現も経営・心理学で使われる。\n\n「push through（押し通す）」「push forward（前進する）」「pushover（弱い人・簡単なこと）」「push the envelope（限界に挑戦する）」など慣用句・複合語も豊富であり、近年では「push notification（プッシュ通知）」という IT 語としても重要語となっている。",
+      derivatives: [
+        { word: "pusher",    desc: "押す人・売人（名詞）" },
+        { word: "pushover",  desc: "弱い人・簡単なこと（名詞）" },
+        { word: "pushback",  desc: "反発・抵抗（名詞）" }
+      ],
+      family: [
+        { word: "propel",   desc: "推進する（pro+pellere）" },
+        { word: "compel",   desc: "強制する（com+pellere）" },
+        { word: "expel",    desc: "追い出す（ex+pellere）" },
+        { word: "repel",    desc: "撃退する（re+pellere）" }
+      ],
+      compounds: [
+        { phrase: "push through",       desc: "押し通す・やり遂げる" },
+        { phrase: "push the envelope",  desc: "限界に挑戦する" },
+        { phrase: "push notification",  desc: "プッシュ通知" }
+      ]
+    },
+
+    "quite": {
+      origin: "中英語 quite（完全に・すっかり）< 古フランス語 quite（自由な・解放された）< ラテン語 quietus（静かな・解放された）< quies（休息）に由来する。quiet（静かな）・acquit（無罪放免する）・quit（やめる）と語族をなす。\n\n当初は「完全に・すっかり」という完全性の強意副詞として使われ、現代英語でもアメリカ英語では "That's quite good"（それはとても良い）という強意的用法が一般的である。英国英語では "quite good" が「まあまあ良い」という控えめな意味合いを持つという文化的差異がある。\n\n「quite a few（かなり多くの）」「quite right（まったくその通り）」「quite frankly（率直に言って）」「not quite（まだ十分でない）」など多様な表現で使われ、英米英語の語感の違いを示す興味深い語でもある。",
+      derivatives: [
+        { word: "quiet",   desc: "静かな（quies 同根）" },
+        { word: "quit",    desc: "やめる（同語族）" },
+        { word: "acquit",  desc: "無罪放免する（ad+quietus）" }
+      ],
+      family: [
+        { word: "rather",  desc: "かなり・むしろ（類義副詞）" },
+        { word: "fairly",  desc: "かなり・公平に（類義副詞）" },
+        { word: "pretty",  desc: "かなり（口語的類義副詞）" }
+      ],
+      compounds: [
+        { phrase: "quite a few",   desc: "かなりの数・相当多くの" },
+        { phrase: "quite right",   desc: "まったくその通り" },
+        { phrase: "not quite",     desc: "まだ十分でない・もう少しで" }
+      ]
+    },
+
+    "race": {
+      origin: "二つの語源が合流している。「競走・競争」の意味は古ノルド語 rás（流れ・競走）< インド・ヨーロッパ語根 *er-（動く・流れる）に由来し、13世紀頃から英語に入った。「人種」の意味はフランス語 race < イタリア語 razza（血統）< アラビア語 raas（先祖）に由来し、16世紀頃から使われ始めた。\n\n「競走」の race は the human race（人類）・arms race（軍備競争）・race against time（時間との戦い）など「競争・急行する」という意味で使われる。「人種」の race は人類学・社会学・政治的文脈で重要な概念語であり、race relations（人種関係）・racial discrimination（人種差別）など現代の重要課題と結びついている。\n\n同形異義的な二語が現代英語では密接に共存しており、語の歴史的背景と現代的含意の両方を理解することが重要である。",
+      derivatives: [
+        { word: "racial",   desc: "人種の・人種的な（形容詞）" },
+        { word: "racer",    desc: "レーサー・競走者（名詞）" },
+        { word: "racing",   desc: "競走・レース（名詞）" }
+      ],
+      family: [
+        { word: "run",      desc: "走る・流れる（類義動詞）" },
+        { word: "rush",     desc: "急ぐ・突進する" },
+        { word: "sprint",   desc: "短距離を全力疾走する" }
+      ],
+      compounds: [
+        { phrase: "arms race",        desc: "軍備競争" },
+        { phrase: "race against time", desc: "時間との戦い" },
+        { phrase: "race relations",   desc: "人種間関係" }
+      ]
+    },
+
+    "raise": {
+      origin: "古ノルド語 reisa（立てる・持ち上げる）< ゲルマン語根 *raizjan < インド・ヨーロッパ語根 *rei-（上がる）に由来する。rise（上がる）の他動詞形として機能し、「上げる・立てる・育てる」という意味で13世紀頃から英語に入った。\n\n「物を持ち上げる（raise one's hand）」「育てる（raise children）」「資金を集める（raise funds）」「問題を提起する（raise a question）」「給料を上げる（raise wages）」など非常に多義的な語である。\n\n「raise awareness（認識を高める）」「raise the bar（基準を上げる）」「raise one's voice（声を荒げる）」「raise a toast（乾杯する）」など慣用句も豊富であり、現代の社会運動・ビジネスにおいても raise awareness は最頻出表現のひとつである。",
+      derivatives: [
+        { word: "raise",   desc: "昇給・上げること（名詞）" },
+        { word: "raiser",  desc: "育てる人・資金調達者（名詞）" }
+      ],
+      family: [
+        { word: "rise",    desc: "上がる（raise の自動詞）" },
+        { word: "lift",    desc: "持ち上げる（同義語）" },
+        { word: "elevate", desc: "高める（ラテン語 elevare）" }
+      ],
+      compounds: [
+        { phrase: "raise awareness",  desc: "認識を高める" },
+        { phrase: "raise the bar",    desc: "基準・ハードルを上げる" },
+        { phrase: "raise funds",      desc: "資金を集める" }
+      ]
+    },
+
+    "rather": {
+      origin: "古英語 hraþor（より速く・より早く）< hraþe（速く）< ゲルマン語根 *hraþaz（速い）に由来する。現代英語の rather は「速さ」という原義から「いくぶん・むしろ・かなり」という意味に完全に意味変化した例として興味深い。\n\n「rather than（〜よりもむしろ）」「would rather（〜したい方がよい）」「rather good（かなり良い）」「rather tired（かなり疲れた）」など多様な用法を持ち、especially quite・fairly と意味的に近い副詞として頻繁に使われる。\n\n英国英語では "rather!" という間投詞的用法が「まったくその通り！」という賛意を表す表現として使われており、英国文化的なニュアンスを持つ副詞でもある。",
+      derivatives: [
+        { word: "rather than",  desc: "〜よりもむしろ（接続詞的）" }
+      ],
+      family: [
+        { word: "quite",    desc: "かなり・完全に（類義副詞）" },
+        { word: "fairly",   desc: "かなり・公平に（類義副詞）" },
+        { word: "somewhat", desc: "いくぶん（類義副詞）" }
+      ],
+      compounds: [
+        { phrase: "would rather",   desc: "〜した方がよい" },
+        { phrase: "rather than",    desc: "〜よりもむしろ" },
+        { phrase: "or rather",      desc: "というか・むしろ" }
+      ]
+    },
+
+    "reach": {
+      origin: "古英語 rǣcan（手を伸ばす・届く）< ゲルマン語根 *raikjan < インド・ヨーロッパ語根 *reig-（伸ばす）に由来するとされる。right（正しい：まっすぐ伸びた）・rack（棚：伸ばす道具）との関連も議論される。\n\n「手を伸ばして届く」という物理的な意味から「目標に達する（reach a goal）」「合意に至る（reach an agreement）」「連絡を取る（reach someone）」「視聴者に届く（reach an audience）」など多様な意味が発展した。\n\n「out of reach（手の届かない）」「reach out to（手を差し伸べる・連絡する）」「within easy reach（簡単に届く）」「overreach（力を使いすぎる）」など慣用句も豊富であり、現代のマーケティング・コミュニケーションでは reach（リーチ：届く人数）という専門語としても使われる。",
+      derivatives: [
+        { word: "outreach",   desc: "アウトリーチ・支援活動（名詞）" },
+        { word: "overreach",  desc: "やりすぎる・無理をする（動詞）" }
+      ],
+      family: [
+        { word: "extend",  desc: "伸ばす・拡張する（ラテン語 extendere）" },
+        { word: "stretch", desc: "伸ばす・張る（ゲルマン語）" },
+        { word: "attain",  desc: "達成する（ラテン語 attingere）" }
+      ],
+      compounds: [
+        { phrase: "reach out",     desc: "手を差し伸べる・連絡する" },
+        { phrase: "out of reach",  desc: "手の届かない" },
+        { phrase: "within reach",  desc: "手の届く範囲内の" }
+      ]
+    },
+
+    "read": {
+      origin: "古英語 rǣdan（読む・推測する・助言する）< ゲルマン語根 *rēdan < インド・ヨーロッパ語根 *re(H)dh-（準備する・整える）に由来するとされる。ドイツ語 raten（推測する・助言する）・ Rat（助言）と同族であり、「解釈する・推測する」という原義と「文字を読む」という意味が共存している。\n\n「テキストを読む」という最も一般的な用法のほか、「感情を読む（read someone's emotions）」「理解する（I read you）」「状況を読む（read the room）」など解釈・認識という意味が豊富に発達している。\n\n「read between the lines（行間を読む）」「read into（意味を読み込む）」「well-read（博学な）」「read-only（読み取り専用）」など多様な慣用表現を持ち、文字文化・デジタル時代においても最重要動詞のひとつである。",
+      derivatives: [
+        { word: "reader",    desc: "読者・読む人（名詞）" },
+        { word: "reading",   desc: "読書・解釈（名詞）" },
+        { word: "readable",  desc: "読みやすい（形容詞）" },
+        { word: "unread",    desc: "読まれていない（形容詞）" }
+      ],
+      family: [
+        { word: "riddle",  desc: "謎（read 同語根：解釈する）" },
+        { word: "rede",    desc: "助言（古英語：read の古語）" },
+        { word: "rune",    desc: "ルーン文字（秘密の文字）" }
+      ],
+      compounds: [
+        { phrase: "read between the lines",  desc: "行間を読む" },
+        { phrase: "well-read",               desc: "博学な・読書家の" },
+        { phrase: "read the room",           desc: "場の空気を読む" }
+      ]
+    },
+
+    "ready": {
+      origin: "古英語 ġerǣde（準備ができた・乗馬に適した）< ゲルマン語根 *garaida- < *raidaz（旅・乗馬）に由来する。ride（乗る）・road（道）と語根的に関連し、「馬に乗れる状態にある＝準備ができた」という原義を持つ。\n\n「準備ができた・即座の」という意味が中心で、ready-made（既製の）・ready money（即金）・at the ready（いつでも使える状態で）など実用的な表現が発達した。\n\n"Ready?"（準備はいいか？）・"Get ready!"（準備しなさい）は英語で最も頻繁に使われる指示表現のひとつであり、"ready, set, go!"（位置について・用意・スタート！）というスポーツの出発合図も世界的に定着している。",
+      derivatives: [
+        { word: "readiness",   desc: "準備が整っていること（名詞）" },
+        { word: "already",     desc: "すでに（all+ready）" },
+        { word: "ready-made",  desc: "既製の・すぐ使える（形容詞）" }
+      ],
+      family: [
+        { word: "prepared",   desc: "準備された（ラテン語 praeparare）" },
+        { word: "set",        desc: "準備した・配置された" },
+        { word: "primed",     desc: "準備万端の（ラテン語 primus）" }
+      ],
+      compounds: [
+        { phrase: "ready to go",    desc: "すぐに出発できる" },
+        { phrase: "ready-made",     desc: "既製の・すぐ使える" },
+        { phrase: "get ready",      desc: "準備する" }
+      ]
+    },
+
+    "refuse": {
+      origin: "ラテン語 refundere（注ぎ戻す・返却する）の変形 refusare < re-（戻す）+ fusare（注ぐ）< fundere（注ぐ・流す）に由来するとされる。ただし refus- の語源については諸説あり、re+fuser（断る）という説も有力である。古フランス語 refuser を経て14世紀の英語に入った。\n\n「申し出・要求を断る」という意味が中心で、refuse an offer（申し出を断る）・refuse entry（入場を拒否する）・refuse to comply（従うことを拒む）など法律・外交・日常の文脈で重要語である。\n\n名詞としての refuse は「ごみ・廃棄物」を意味し、refuse collection（ごみ収集）という用法は動詞の refuse と同形異義語（発音も異なる）である。「right to refuse（拒否権）」・「refuse service（サービスを拒否する）」など法的概念としても重要である。",
+      derivatives: [
+        { word: "refusal",    desc: "拒否・断り（名詞）" },
+        { word: "refused",    desc: "拒否された（形容詞）" }
+      ],
+      family: [
+        { word: "reject",   desc: "拒絶する（ラテン語 reicere）" },
+        { word: "decline",  desc: "断る・減少する（ラテン語）" },
+        { word: "deny",     desc: "否定する・断る（ラテン語 denegare）" }
+      ],
+      compounds: [
+        { phrase: "refuse to",       desc: "〜することを拒む" },
+        { phrase: "right to refuse", desc: "拒否権" },
+        { phrase: "blanket refusal", desc: "全面的な拒否" }
+      ]
+    },
+
+    "replace": {
+      origin: "古フランス語 replacer（元の場所に戻す）< re-（再び）+ placer（置く）< ラテン語 platea（広い道・広場）< ギリシャ語 plateia（広い）に由来する。place（場所）・plaza（広場）・piazza（イタリア語：広場）と語族をなす。16世紀に英語に入った。\n\n「元の場所に戻す」という原義から「別のものと取り替える（replace A with B）」「後任となる（replace someone）」という現代的な意味が発展した。AI・テクノロジーが「人間の仕事を代替する（replace human workers）」という議論で21世紀に特に重要な語となっている。\n\n「replace the battery（電池を交換する）」「replace an outdated system（旧式のシステムを更新する）」「replace text（テキストを置換する）」など技術・ビジネス・日常の文脈で非常に頻繁に使われる語である。",
+      derivatives: [
+        { word: "replacement",  desc: "交代・代替品（名詞）" },
+        { word: "replaceable",  desc: "取替可能な（形容詞）" },
+        { word: "irreplaceable", desc: "かけがえのない（形容詞）" }
+      ],
+      family: [
+        { word: "substitute",  desc: "代替する（ラテン語 substituere）" },
+        { word: "supplant",    desc: "取って代わる（ラテン語 supplantare）" },
+        { word: "displace",    desc: "退かせる・移動させる（dis+place）" }
+      ],
+      compounds: [
+        { phrase: "replace with",      desc: "〜と取り替える" },
+        { phrase: "hard to replace",   desc: "代えがたい・かけがえのない" },
+        { phrase: "replacement cost",  desc: "交換費用" }
+      ]
+    },
+
+    "rest": {
+      origin: "古英語 rest（休息・眠り）< ゲルマン語根 *rastō < インド・ヨーロッパ語根 *res-（休む）に由来するとされる。ドイツ語 Rast（休息・停車）と同族である。また「残り・残余」の rest は古フランス語 reste < ラテン語 restare（残る）< re-（後に）+ stare（立つ）に由来し、別語源の同形異義語である。\n\n「体を休める・休息する」という基本的な意味と「残り（the rest）」という二つの主要な意味が並存する多義語である。「rest assured（安心しなさい）」「at rest（静止した）」「rest one's case（弁論を終える）」など法律・医療・日常の慣用表現が豊富である。\n\n「rest in peace（R.I.P.：安らかに眠れ）」「let it rest（もうその話を終わりにする）」「rest on one's laurels（過去の栄光に甘える）」など多様なイディオムを持ち、休息・終了・残余という異なる概念を一語で担う重要語である。",
+      derivatives: [
+        { word: "restful",   desc: "安らかな・くつろいだ（形容詞）" },
+        { word: "restless",  desc: "落ち着きのない（形容詞）" },
+        { word: "arrest",    desc: "逮捕・止める（ad+restare）" }
+      ],
+      family: [
+        { word: "relax",   desc: "リラックスする（ラテン語 relaxare）" },
+        { word: "repose",  desc: "安らぐ・安静（ラテン語 repausare）" },
+        { word: "pause",   desc: "一時停止する（ラテン語 pausa）" }
+      ],
+      compounds: [
+        { phrase: "rest assured",       desc: "安心してください" },
+        { phrase: "rest in peace",      desc: "安らかに眠れ（R.I.P.）" },
+        { phrase: "rest on one's laurels", desc: "過去の栄光に甘える" }
+      ]
+    },
+
+    "rise": {
+      origin: "古英語 rīsan（起き上がる・昇る）< ゲルマン語根 *rīzan < インド・ヨーロッパ語根 *rei-（上がる）に由来する。raise（上げる：他動詞）と対をなす自動詞であり、ドイツ語 reisen（旅行する：かつては「立って出発する」）・rise（上がる）の語族と同族である。\n\n太陽が昇る（the sun rises）・価格が上がる（prices rise）・地位が上昇する（rise in position）・反乱が起こる（uprising）など多様な「上昇・出現・起立」の意味を持つ。\n\n「rise to power（権力の座に上り詰める）」「rise to the occasion（状況に対応する）」「rise and fall（盛衰）」「rise above（〜を超越する）」など政治・歴史・個人の成長を表す慣用句が豊富であり、英語の中で「上昇・台頭」という概念の核心語である。",
+      derivatives: [
+        { word: "rising",    desc: "上昇する・台頭する（形容詞）" },
+        { word: "uprising",  desc: "反乱・蜂起（名詞）" },
+        { word: "sunrise",   desc: "日の出（名詞）" },
+        { word: "arising",   desc: "生じる・起こる（現在分詞）" }
+      ],
+      family: [
+        { word: "raise",   desc: "上げる（rise の他動詞）" },
+        { word: "arise",   desc: "生じる（問題などが）" },
+        { word: "ascend",  desc: "上昇する（ラテン語 ascendere）" }
+      ],
+      compounds: [
+        { phrase: "rise to power",    desc: "権力の座に就く" },
+        { phrase: "rise and fall",    desc: "盛衰" },
+        { phrase: "rise to the occasion", desc: "状況に対処する" }
+      ]
+    },
+
+    "rough": {
+      origin: "古英語 rūh（荒い・毛深い）< ゲルマン語根 *rūhaz < インド・ヨーロッパ語根 *reuk-（荒い・毛深い）に由来するとされる。ドイツ語 rau（荒い）・オランダ語 ruw と同族である。\n\n「表面が荒い・なめらかでない」という物理的な意味から「荒々しい（rough behavior）」「大まかな（rough estimate）」「つらい（rough day）」「海が荒れた（rough sea）」など多様な意味が発展した。rough と smooth は対をなす重要な形容詞対である。\n\n「rough it（不便な環境で暮らす）」「rough draft（下書き）」「diamond in the rough（磨けば光る原石）」「rough justice（大まかな正義）」「rough around the edges（まだ洗練されていない）」など多様な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "roughly",   desc: "おおよそ・荒々しく（副詞）" },
+        { word: "roughen",   desc: "荒くなる・荒くする（動詞）" },
+        { word: "roughness", desc: "荒さ・粗さ（名詞）" }
+      ],
+      family: [
+        { word: "rugged",  desc: "険しい・頑丈な（rough の語族）" },
+        { word: "harsh",   desc: "厳しい・粗野な（類義語）" },
+        { word: "coarse",  desc: "粗い・下品な（ラテン語系）" }
+      ],
+      compounds: [
+        { phrase: "rough draft",           desc: "下書き・草稿" },
+        { phrase: "diamond in the rough",  desc: "磨けば光る原石" },
+        { phrase: "rough estimate",        desc: "大まかな見積もり" }
+      ]
+    },
+
+    "rush": {
+      origin: "中英語 ruschen（激しく動く・突進する）< 古フランス語 ruser（退く・回避する）または低地ゲルマン語 ruscen に由来するとされる。語源については諸説あるが、「素早く激しく動く」という音響的・動的なイメージを持つ擬音的な要素を持つ語と考えられている。\n\n「急いで移動する（rush to work）」「急かせる（rush someone）」「アドレナリンの急増（adrenaline rush）」「突撃する（rush the enemy）」「需要の急増（rush on goods）」など多様な意味が発展した。gold rush（ゴールドラッシュ）という19世紀の歴史的概念も有名である。\n\n"Rush hour"（ラッシュアワー）は20世紀都市生活の象徴的表現として世界的に定着し、"no rush"（急がなくていい）・"in a rush"（急いで）・"rush order"（急注文）など日常・ビジネス語彙としても頻用される。",
+      derivatives: [
+        { word: "rushing",   desc: "急いでいる・突進する（形容詞/名詞）" }
+      ],
+      family: [
+        { word: "hurry",   desc: "急ぐ（古ノルド語 hurra）" },
+        { word: "dash",    desc: "突進する・ダッシュ（ゲルマン語）" },
+        { word: "charge",  desc: "突撃する（古フランス語）" }
+      ],
+      compounds: [
+        { phrase: "rush hour",      desc: "ラッシュアワー" },
+        { phrase: "gold rush",      desc: "ゴールドラッシュ" },
+        { phrase: "adrenaline rush", desc: "アドレナリンの急増・高揚感" }
+      ]
+    },
+
+    "save": {
+      origin: "ラテン語 salvare（救う・保存する）< salvus（安全な・健康な）< インド・ヨーロッパ語根 *sol-（全体・健全）に由来し、古フランス語 sauver を経て13世紀の英語に入った。safe（安全な）・salvation（救済）・sage（賢者：健全な知恵）と語族をなす。\n\n「危険から救う（save someone's life）」「お金を蓄える（save money）」「データを保存する（save a file）」「時間を節約する（save time）」など非常に多義的な語となった。コンピューター時代には「ファイルを保存する」という意味で世界中で使われる語となっている。\n\n「save face（面目を保つ）」「save the day（局面を救う）」「save for a rainy day（雨の日のために蓄える）」「labor-saving（省力化の）」など慣用句・複合語が豊富であり、宗教的な「救済（salvation）」という深い意味的背景も持つ語である。",
+      derivatives: [
+        { word: "savings",   desc: "貯金・節約（名詞複数）" },
+        { word: "savior",    desc: "救済者（名詞）" },
+        { word: "salvation", desc: "救済（名詞）" }
+      ],
+      family: [
+        { word: "safe",    desc: "安全な（salvus 同根）" },
+        { word: "salvage", desc: "救助・回収（salvus）" },
+        { word: "salute",  desc: "敬礼・挨拶（salvus）" }
+      ],
+      compounds: [
+        { phrase: "save face",    desc: "面目を保つ" },
+        { phrase: "save the day", desc: "局面を救う・窮地を救う" },
+        { phrase: "labor-saving", desc: "省力化の" }
+      ]
+    },
+
+    "score": {
+      origin: "古ノルド語 skor（刻み目・20の単位）< skora（刻む・切る）< インド・ヨーロッパ語根 *(s)ker-（切る）に由来する。shear（剪断する）・share（分け合う）・short（短い）と語根的に関連する。\n\n「刻み目（得点を刻む棒の跡）」という原義から「得点・スコア」という意味が発展した。20個を表す古英語的用法（three score and ten＝70）は現代でも詩的な表現として残っている。\n\n「score a goal（得点する）」「know the score（状況を把握している）」「settle a score（恨みを晴らす）」「score points（得点を稼ぐ）」「on that score（その点では）」など多様な慣用表現を持ち、スポーツ・音楽（楽譜：musical score）・映画（サウンドトラック）など多分野で使われる語である。",
+      derivatives: [
+        { word: "scoreboard",  desc: "スコアボード・得点表（名詞）" },
+        { word: "scorer",      desc: "得点者（名詞）" },
+        { word: "underscore",  desc: "強調する・下線（動詞/名詞）" }
+      ],
+      family: [
+        { word: "shear",   desc: "刈り取る・剪断する（*(s)ker- 同根）" },
+        { word: "scar",    desc: "傷跡（刻まれた跡）" },
+        { word: "incise",  desc: "切り込む（ラテン語 incidere）" }
+      ],
+      compounds: [
+        { phrase: "settle a score",  desc: "恨みを晴らす・決着をつける" },
+        { phrase: "know the score",  desc: "状況を把握している" },
+        { phrase: "score points",    desc: "得点を稼ぐ・印象を高める" }
+      ]
+    },
+
+    "send": {
+      origin: "古英語 sendan（送る・出発させる）< ゲルマン語根 *sandjan < インド・ヨーロッパ語根 *sent-（向かう・感じる）に由来するとされる。sense（感じる）・sentence（文章・判決）・consent（同意する）との語根的関連も議論されている。\n\n「物・人・情報を送る」という基本的な意味は古英語から継続的に使われており、「手紙を送る（send a letter）」「メッセージを送る（send a message）」「人を派遣する（send a team）」など通信・輸送の根幹語である。\n\n「send off（見送り・警告して退場させる）」「send out（送り出す）」「send for（〜を呼びに行く）」「send someone to sleep（眠らせる）」「sent from heaven（天からの贈り物）」など多様なイディオムを形成し、デジタル時代にはメール・SNSの "Send" ボタンとして日常的に目にする最頻出語である。",
+      derivatives: [
+        { word: "sender",  desc: "送り主・差出人（名詞）" },
+        { word: "sendoff", desc: "見送り・壮行（名詞）" }
+      ],
+      family: [
+        { word: "dispatch",  desc: "派遣する・送る（dis+patch）" },
+        { word: "transmit",  desc: "伝送する（ラテン語 transmittere）" },
+        { word: "emit",      desc: "放出する（ラテン語 emittere）" }
+      ],
+      compounds: [
+        { phrase: "send off",   desc: "見送る・退場させる" },
+        { phrase: "send out",   desc: "送り出す・発送する" },
+        { phrase: "send for",   desc: "〜を呼びにやる・注文する" }
+      ]
     }
 
   };

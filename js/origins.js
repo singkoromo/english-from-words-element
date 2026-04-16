@@ -26555,6 +26555,542 @@
         { phrase: "forget it",      desc: "忘れろ・気にするな" },
         { phrase: "easy to forget", desc: "忘れやすい" }
       ]
+    },
+
+    "free": {
+      origin: "古英語 frēo（自由な・束縛されていない）< ゲルマン語根 *frijaz < インド・ヨーロッパ語根 *pri-（愛する・喜ぶ）に由来する。ドイツ語 frei・ゴート語 freis と同族であり、friend（友人）・Friday（金曜日：Frigg 女神の日）とも語根的に関連する。\n\n「愛される者＝自由人（奴隷でない）」という古代の社会的意味から「束縛されていない・自由な」という政治的・哲学的意味へと発展した。Magna Carta（1215年）以来、英語圏の政治文化においてfreedomは民主主義の根幹概念として位置づけられてきた。\n\n現代英語では「free speech（言論の自由）」「free trade（自由貿易）」「free will（自由意志）」「for free（無料で）」「free-range（放し飼いの）」など政治・経済・日常のあらゆる文脈で使われる最重要語のひとつである。",
+      derivatives: [
+        { word: "freedom",   desc: "自由（名詞）" },
+        { word: "freely",    desc: "自由に・惜しみなく（副詞）" },
+        { word: "liberate",  desc: "解放する（ラテン語 liberare）" },
+        { word: "freelance", desc: "フリーランス（自由な槍）" }
+      ],
+      family: [
+        { word: "friend",   desc: "友人（愛する人 *pri-)）" },
+        { word: "Friday",   desc: "金曜日（Frigg 女神の日）" },
+        { word: "liberty",  desc: "自由（ラテン語 libertas）" }
+      ],
+      compounds: [
+        { phrase: "free speech",   desc: "言論の自由" },
+        { phrase: "free will",     desc: "自由意志" },
+        { phrase: "free of charge", desc: "無料で" }
+      ]
+    },
+
+    "fresh": {
+      origin: "古英語 fersc（清鮮な・真水の）< ゲルマン語根 *friskaz < インド・ヨーロッパ語根 *preus-（凍る・新鮮な）に由来するとされる。フランス語 frais（涼しい・新鮮な）と語源的に近く、両語はゲルマン語借用として古フランス語に入った形跡がある。\n\n「塩水でない・清潔な・新しい」という物理的な意味から「fresh idea（斬新な考え）」「fresh start（新たな始まり）」「fresh-faced（若々しい顔の）」など比喩的・感情的な意味が発展した。\n\n口語英語では「fresh（生意気な・なれなれしい）」という意味もあり、特にアメリカ英語で「Don't be fresh with me（なれなれしくしないで）」という用法で使われる。「freshwater（淡水）」「refresh（リフレッシュする）」なども重要な派生語である。",
+      derivatives: [
+        { word: "freshen",   desc: "新鮮にする・涼しくなる（動詞）" },
+        { word: "freshly",   desc: "新たに・最近（副詞）" },
+        { word: "refresh",   desc: "リフレッシュする（re+fresh）" },
+        { word: "freshman",  desc: "新入生・新参者（名詞）" }
+      ],
+      family: [
+        { word: "new",    desc: "新しい（古英語 nīwe）" },
+        { word: "novel",  desc: "新しい・小説（ラテン語 novus）" },
+        { word: "crisp",  desc: "パリパリした・新鮮な感触" }
+      ],
+      compounds: [
+        { phrase: "fresh start",    desc: "新たな出発" },
+        { phrase: "freshwater",     desc: "淡水" },
+        { phrase: "fresh air",      desc: "新鮮な空気・気分転換" }
+      ]
+    },
+
+    "gain": {
+      origin: "古フランス語 gaaignier（耕す・獲得する）< フランク語 *waidanjan（牧草地で働く・獲得する）< ゲルマン語根 *waida-（牧草地・狩猟）に由来する。13世紀に英語に入り、当初は「食料を得るために働く」という農業的な意味で使われた。\n\n中英語以降「利益を得る・進歩する」という意味が一般化し、「gain experience（経験を積む）」「gain weight（体重が増える）」「gain momentum（勢いをつける）」などの表現が定着した。名詞としての「gain（利益・増加）」は金融・投資の文脈でも重要語である。\n\n「gain ground（地歩を固める）」「gain the upper hand（優位に立つ）」「capital gain（キャピタルゲイン）」など多様な専門的・慣用的表現を形成している。",
+      derivatives: [
+        { word: "gainful",   desc: "利益になる・有利な（形容詞）" },
+        { word: "regain",    desc: "取り戻す（re+gain）" },
+        { word: "ill-gotten gains", desc: "不正な利益（慣用句）" }
+      ],
+      family: [
+        { word: "profit",  desc: "利益（ラテン語 profectus）" },
+        { word: "benefit", desc: "恩恵・利益（ラテン語 bene+facere）" },
+        { word: "acquire", desc: "獲得する（ラテン語 acquirere）" }
+      ],
+      compounds: [
+        { phrase: "gain ground",     desc: "地歩を固める・勢力を拡大する" },
+        { phrase: "capital gain",    desc: "資本利得・キャピタルゲイン" },
+        { phrase: "gain momentum",   desc: "勢いをつける" }
+      ]
+    },
+
+    "gap": {
+      origin: "古ノルド語 gap（口を開いた空間・裂け目）< gapa（口を開ける）< インド・ヨーロッパ語根 *ghei-（あくびをする・口を開ける）に由来する。gape（口をぽかんと開ける）・yawn（あくびをする）と語族をなす。14世紀頃から英語に入った。\n\n物理的な「隙間・裂け目」から「generation gap（世代間の溝）」「gender gap（男女格差）」「achievement gap（学力格差）」など社会的・抽象的な「差・格差」を表す語として20世紀に急速に普及した。\n\nビジネス・マーケティングでは「gap analysis（ギャップ分析）」「fill the gap（ギャップを埋める）」という表現が重要であり、教育・政策分野でも「gap year（大学入学前の休学年）」「skill gap（スキル格差）」など現代的な複合語が多数生まれている。",
+      derivatives: [
+        { word: "gape",    desc: "口をぽかんと開ける・凝視する（動詞）" },
+        { word: "gaping",  desc: "大きく開いた・口を開けた（形容詞）" }
+      ],
+      family: [
+        { word: "yawn",    desc: "あくびをする（同語根系）" },
+        { word: "chasm",   desc: "深い裂け目（ギリシャ語 khasma）" },
+        { word: "crack",   desc: "亀裂・割れ目（裂け目の類義）" }
+      ],
+      compounds: [
+        { phrase: "generation gap",  desc: "世代間の溝" },
+        { phrase: "gender gap",      desc: "男女格差" },
+        { phrase: "gap year",        desc: "ギャップイヤー（入学前の休暇年）" }
+      ]
+    },
+
+    "gather": {
+      origin: "古英語 gaderian（集める・まとめる）< ゲルマン語根 *gadarōjan < *gadar-（一緒に）+ 動詞化語尾に由来する。together（一緒に）・good（良い）とも語根的に関連するとされる。\n\n物理的な「収穫物を集める」という農業的原義から、「人々が集まる（people gather）」「情報を集める（gather data）」「推測する（I gather that...）」など多様な意味が派生した。特に gather information（情報収集）という用法はジャーナリズム・スパイ活動・研究の文脈で重要である。\n\n「gather speed（速度を増す）」「gather one's thoughts（気持ちをまとめる）」「gathering storm（近づく嵐）」など動的な「集積・強化」を表す表現も豊富であり、harvest（収穫）・collect（集める）と意味的に近い語族を形成している。",
+      derivatives: [
+        { word: "gathering",   desc: "集まり・集会（名詞）" },
+        { word: "together",    desc: "一緒に（同語根）" }
+      ],
+      family: [
+        { word: "collect",  desc: "集める（ラテン語 colligere）" },
+        { word: "assemble", desc: "集合する（ラテン語 assimulare）" },
+        { word: "harvest",  desc: "収穫する（古英語 hærfest）" }
+      ],
+      compounds: [
+        { phrase: "gather speed",        desc: "速度を上げる" },
+        { phrase: "intelligence gathering", desc: "情報収集" },
+        { phrase: "gathering storm",     desc: "迫りつつある嵐・危機" }
+      ]
+    },
+
+    "give": {
+      origin: "古英語 giefan（与える）< ゲルマン語根 *geban < インド・ヨーロッパ語根 *ghabh-（つかむ・与える）に由来する。ドイツ語 geben・オランダ語 geven・ゴート語 giban と同族である。ラテン語 habere（持つ）とも同語根で、「つかんで相手に渡す」という行為の二面性を表している。\n\n英語で最も多義的な動詞のひとつで、give a present（プレゼントを贈る）・give a speech（スピーチをする）・give birth（出産する）・give up（諦める）・give in（降参する）など数十の意味・用法を持つ。\n\n「give and take（与え合うこと・譲り合い）」「give rise to（〜を引き起こす）」「give way（道を譲る・崩れる）」「forgive（許す：完全に与え返す）」など慣用句・派生語も非常に豊富である。",
+      derivatives: [
+        { word: "given",    desc: "与えられた・前提として（形容詞/前置詞）" },
+        { word: "giver",    desc: "与える人・贈り主（名詞）" },
+        { word: "forgive",  desc: "許す（for+give：完全に与え返す）" }
+      ],
+      family: [
+        { word: "gift",    desc: "贈り物（give の名詞形）" },
+        { word: "donate",  desc: "寄付する（ラテン語 donare）" },
+        { word: "grant",   desc: "与える・承認する（古フランス語）" }
+      ],
+      compounds: [
+        { phrase: "give up",       desc: "諦める" },
+        { phrase: "give rise to",  desc: "〜を生じさせる" },
+        { phrase: "give and take", desc: "相互に譲り合うこと" }
+      ]
+    },
+
+    "good": {
+      origin: "古英語 gōd（良い・価値ある）< ゲルマン語根 *gōdaz < インド・ヨーロッパ語根 *ghedh-（合う・合致する）に由来するとされる。ドイツ語 gut・オランダ語 goed・ゴート語 goþs と同族であり、gather（集まる）・together（一緒に）とも関連するとされる。\n\n「適合した・有益な」という原義から道徳的な「善・善良」という意味が発展し、英語の倫理的言説の根幹を成す語となった。「the good（善・善人たち）」「goods（商品）」「goodness（善性）」「goodwill（善意・のれん）」など多様な派生語が存在する。\n\n「goodbye（さようなら：God be with you の短縮）」という起源を持つ慣用表現から「good morning/evening」という挨拶まで、日常英語において good は最頻出語のひとつである。",
+      derivatives: [
+        { word: "goodness",  desc: "善性・よさ（名詞）" },
+        { word: "goodwill",  desc: "善意・のれん（名詞）" },
+        { word: "goods",     desc: "商品・財（名詞複数）" },
+        { word: "goody",     desc: "おいしいもの・お菓子（名詞）" }
+      ],
+      family: [
+        { word: "better",  desc: "より良い（good の比較級）" },
+        { word: "best",    desc: "最良の（good の最上級）" },
+        { word: "well",    desc: "うまく・元気で（good の副詞形）" }
+      ],
+      compounds: [
+        { phrase: "good faith",   desc: "善意・誠意" },
+        { phrase: "for good",     desc: "永遠に・完全に" },
+        { phrase: "goodbye",      desc: "さようなら（God be with you）" }
+      ]
+    },
+
+    "govern": {
+      origin: "ラテン語 gubernare（舵を取る・統治する）< ギリシャ語 kybernan（舵を取る）に由来し、古フランス語 governer を経て13世紀の英語に入った。kybernan はインド・ヨーロッパ語根 *kubh-（曲がる・舵）と関連し、cybernetics（サイバネティクス：制御理論）の語源でもある。\n\n「船の舵を取る→国家・集団を導く」という比喩から「統治する・支配する」という政治的意味が定着した。government（政府）・governor（知事・総督）・governance（統治の仕組み）と語族をなす。\n\n20世紀以降、corporate governance（コーポレートガバナンス）・global governance（グローバル統治）など企業・国際関係の文脈でも govern の語族は重要語となり、「透明な統治」という現代的価値観と結びついている。",
+      derivatives: [
+        { word: "government",  desc: "政府・統治（名詞）" },
+        { word: "governor",    desc: "知事・総督（名詞）" },
+        { word: "governance",  desc: "統治・ガバナンス（名詞）" },
+        { word: "misgovern",   desc: "悪政を行う（動詞）" }
+      ],
+      family: [
+        { word: "cybernetics", desc: "サイバネティクス（kybernan 同根）" },
+        { word: "cyber",       desc: "サイバー（コンピューター制御）" },
+        { word: "rudder",      desc: "舵（ship steering 類義）" }
+      ],
+      compounds: [
+        { phrase: "self-govern",       desc: "自治する" },
+        { phrase: "good governance",   desc: "良い統治" },
+        { phrase: "governing body",    desc: "統治機関・理事会" }
+      ]
+    },
+
+    "grow": {
+      origin: "古英語 grōwan（育つ・成長する）< ゲルマン語根 *grōan < インド・ヨーロッパ語根 *ghre-（成長する・緑になる）に由来する。green（緑）・grass（草）・graze（草を食む）とも語根的に関連し、「植物が育つ・緑になる」という原義を持つ。\n\n植物の成長から人間・組織・経済の成長へと意味が拡張し、growth（成長）・growing（増大する）などとともに経済・ビジネスの核心語となった。「grow up（成長する）」「grow apart（疎遠になる）」「outgrow（大きくなりすぎる）」などイディオムも豊富である。\n\n「grow on you（だんだん好きになる）」「grow into（成長して〜になる）」「growing pains（成長痛・成長の苦労）」など比喩的な用法も日常英語に定着しており、経済成長（economic growth）は現代の政策言語で最も重要な概念のひとつである。",
+      derivatives: [
+        { word: "growth",    desc: "成長・増大（名詞）" },
+        { word: "growing",   desc: "成長中の・増加する（形容詞）" },
+        { word: "grown",     desc: "成長した・大人の（形容詞）" },
+        { word: "outgrow",   desc: "成長して〜に合わなくなる（動詞）" }
+      ],
+      family: [
+        { word: "green",  desc: "緑（同語根 *ghre-）" },
+        { word: "grass",  desc: "草（同語根）" },
+        { word: "grow up", desc: "大人になる（成長する）" }
+      ],
+      compounds: [
+        { phrase: "grow up",         desc: "成長する・大人になる" },
+        { phrase: "economic growth", desc: "経済成長" },
+        { phrase: "growing pains",   desc: "成長の苦労" }
+      ]
+    },
+
+    "guide": {
+      origin: "古フランス語 guider（導く）< フランク語 *witan（注意する・監督する）< ゲルマン語根 *wīdanan に由来するとされる。wit（知恵）・wise（賢い）と語根的に関連し、「知識をもって道案内する」という原義を持つ。14世紀に英語に入った。\n\n「案内人・ガイドブック」という名詞形と「導く」という動詞形が並存し、travel guide（旅行ガイド）・study guide（学習参考書）・user guide（取扱説明書）など多様な専門用語を形成した。\n\n「guided tour（ガイド付き観光）」「missile guidance system（ミサイル誘導システム）」「guiding principle（指導原則）」など現代の軍事・観光・教育・政策分野でも重要語であり、「导 く」という概念の普遍性を示している。",
+      derivatives: [
+        { word: "guidance",  desc: "指導・ガイダンス（名詞）" },
+        { word: "guided",    desc: "ガイド付きの・誘導された（形容詞）" },
+        { word: "misguide",  desc: "誤った方向に導く（動詞）" }
+      ],
+      family: [
+        { word: "lead",   desc: "導く（古英語 lǣdan）" },
+        { word: "direct", desc: "方向を示す（ラテン語 dirigere）" },
+        { word: "wit",    desc: "知恵（同語根系）" }
+      ],
+      compounds: [
+        { phrase: "guided tour",      desc: "ガイド付き見学・観光" },
+        { phrase: "guiding principle", desc: "指導原則" },
+        { phrase: "study guide",      desc: "学習ガイド" }
+      ]
+    },
+
+    "hate": {
+      origin: "古英語 hatian（憎む）< ゲルマン語根 *hatōjan < インド・ヨーロッパ語根 *kAd-（憎しみ・怒り）に由来するとされる。ドイツ語 hassen・オランダ語 haten・ゴート語 hatan と同族であり、ゲルマン語派全体に広く分布する感情動詞である。\n\n「強い嫌悪・憎しみ」という感情を表す基本語として古英語から継続的に使われてきた。「hate crime（ヘイトクライム）」は20世紀後半に重要な法律概念となり、「hate speech（ヘイトスピーチ）」はSNS時代の社会問題として21世紀に特に注目されている。\n\n「I hate to say this（言いたくないけど）」という婉曲表現・「pet hate（特に嫌いなこと）」・「love-hate relationship（愛憎関係）」など感情的な言語表現においても多様に使われる重要語である。",
+      derivatives: [
+        { word: "hatred",   desc: "憎しみ・嫌悪（名詞）" },
+        { word: "hateful",  desc: "憎らしい・ひどい（形容詞）" },
+        { word: "hater",    desc: "嫌悪する人・批判者（名詞）" }
+      ],
+      family: [
+        { word: "loathe",   desc: "ひどく嫌う（古英語 lathian）" },
+        { word: "detest",   desc: "嫌悪する（ラテン語 detestari）" },
+        { word: "abhor",    desc: "ひどく嫌う（ラテン語 abhorrere）" }
+      ],
+      compounds: [
+        { phrase: "hate speech",  desc: "ヘイトスピーチ" },
+        { phrase: "hate crime",   desc: "ヘイトクライム" },
+        { phrase: "love-hate",    desc: "愛憎（複雑な感情）" }
+      ]
+    },
+
+    "have": {
+      origin: "古英語 habban（持つ・保持する）< ゲルマン語根 *haban < インド・ヨーロッパ語根 *kap-（つかむ・取る）に由来する。ラテン語 capere（取る）・ギリシャ語 kaptein とも遠縁であるとされる。ドイツ語 haben・オランダ語 hebben と同族である。\n\n「所有する」という原義から、完了時制の助動詞（have done）・状態の継続（have a cold）・経験（have fun）・強制的受動（have it done）など英語の文法体系の中核を担う多機能語となった。have は英語で最も使用頻度の高い動詞のひとつである。\n\n「have to（〜しなければならない）」「have a say（発言権を持つ）」「have it out（決着をつける）」「haves and have-nots（富裕層と貧困層）」など文法的・慣用的表現が極めて豊富である。",
+      derivatives: [
+        { word: "haven",   desc: "避難所・安全な場所（名詞）" },
+        { word: "behave",  desc: "振る舞う（be+have）" },
+        { word: "haves",   desc: "持てる者・富裕層（名詞複数）" }
+      ],
+      family: [
+        { word: "hold",   desc: "保持する（古英語 healdan）" },
+        { word: "own",    desc: "所有する（古英語 āgan）" },
+        { word: "possess", desc: "所有する（ラテン語 possidere）" }
+      ],
+      compounds: [
+        { phrase: "have to",           desc: "〜しなければならない" },
+        { phrase: "haves and have-nots", desc: "富者と貧者" },
+        { phrase: "have a say",        desc: "発言権を持つ" }
+      ]
+    },
+
+    "heal": {
+      origin: "古英語 hǣlan（治す・健全にする）< ゲルマン語根 *hailjan < *hailaz（健全な）に由来する。health（健康）・whole（全体の）・holy（神聖な）と語根的に関連し、「全体として完全な状態」という原義を持つ。\n\n身体的な「傷が癒える・病気が治る」という意味が中心であったが、「heal the division（分裂を修復する）」「heal the rift（亀裂を修復する）」など社会的・感情的な「回復・和解」という比喩的用法も重要である。\n\nキリスト教的文脈では「faith healing（信仰による癒し）」という伝統的概念があり、現代の心理療法では「healing process（癒しのプロセス）」「wound healing（傷の回復）」など医学・心理学の重要語としても機能している。",
+      derivatives: [
+        { word: "healer",   desc: "治癒者・癒し人（名詞）" },
+        { word: "healing",  desc: "癒し・治癒（名詞/形容詞）" },
+        { word: "health",   desc: "健康（同語根）" }
+      ],
+      family: [
+        { word: "health",  desc: "健康（hǣlan 同根）" },
+        { word: "whole",   desc: "全体の（同語根）" },
+        { word: "holy",    desc: "神聖な（同語根）" },
+        { word: "hale",    desc: "健康な・元気な（古英語 hal）" }
+      ],
+      compounds: [
+        { phrase: "healing process",  desc: "癒しのプロセス" },
+        { phrase: "self-healing",     desc: "自己修復" },
+        { phrase: "faith healing",    desc: "信仰療法" }
+      ]
+    },
+
+    "help": {
+      origin: "古英語 helpan（助ける・支援する）< ゲルマン語根 *helpan < インド・ヨーロッパ語根 *kelb-（助ける・支援する）に由来するとされる。ドイツ語 helfen・ゴート語 hilpan と同族であり、ゲルマン語派に広く分布する基本的な互助動詞である。\n\n「物理的な手助け」から「情報提供（help with information）」「感情的サポート（help someone cope）」まで意味が広く、英語の最頻出語のひとつである。Can I help you?（何かお手伝いしましょうか？）という定番フレーズはサービス業で世界的に定着している。\n\n「can't help doing（〜せずにはいられない）」「help oneself（自分で取る・自立する）」「help out（手伝う・助ける）」「helper（助手）」など文法的・語彙的な派生が豊富であり、社会的協力という人間の基本的価値観を体現する語である。",
+      derivatives: [
+        { word: "helpful",   desc: "役立つ・親切な（形容詞）" },
+        { word: "helpless",  desc: "無力な・どうしようもない（形容詞）" },
+        { word: "helper",    desc: "助け手・補佐（名詞）" },
+        { word: "helping",   desc: "1人分の盛り付け・助けること（名詞）" }
+      ],
+      family: [
+        { word: "assist",   desc: "助ける（ラテン語 assistere）" },
+        { word: "support",  desc: "支援する（ラテン語 supportare）" },
+        { word: "aid",      desc: "援助する（古フランス語 aider）" }
+      ],
+      compounds: [
+        { phrase: "can't help",    desc: "〜せずにはいられない" },
+        { phrase: "self-help",     desc: "自己啓発・セルフヘルプ" },
+        { phrase: "help out",      desc: "手助けする・助け出す" }
+      ]
+    },
+
+    "hide": {
+      origin: "古英語 hȳdan（隠す・隠れる）< ゲルマン語根 *hūdjan < インド・ヨーロッパ語根 *keudh-（隠す・覆う）に由来する。ギリシャ語 keuthein（隠す）と同族とされ、「覆い隠す」という普遍的な動作を表す基本動詞である。\n\n物理的な「隠す・隠れる」から「感情を隠す（hide feelings）」「事実を隠す（hide the truth）」などの比喩的意味が発展した。名詞としての hide は「動物の皮（leather）」という全く別の語であり、同形異義語として注意が必要である。\n\n「hide-and-seek（かくれんぼ）」「hide one's light under a bushel（才能を隠す）」「nothing to hide（やましいことがない）」など慣用表現が豊富であり、秘密・プライバシー・欺瞞という概念と深く結びついた語である。",
+      derivatives: [
+        { word: "hidden",    desc: "隠された・秘密の（形容詞）" },
+        { word: "hiding",    desc: "隠れること・隠れ場所（名詞）" },
+        { word: "hideout",   desc: "隠れ家・潜伏場所（名詞）" }
+      ],
+      family: [
+        { word: "conceal",  desc: "隠す（ラテン語 concelare）" },
+        { word: "covert",   desc: "秘密の・隠密の（cover 同根）" },
+        { word: "lurk",     desc: "潜む・ひそむ（古ノルド語）" }
+      ],
+      compounds: [
+        { phrase: "hide-and-seek",  desc: "かくれんぼ" },
+        { phrase: "in hiding",      desc: "隠れている状態で" },
+        { phrase: "hidden agenda",  desc: "隠された意図" }
+      ]
+    },
+
+    "hold": {
+      origin: "古英語 healdan（保持する・支配する）< ゲルマン語根 *haldan < インド・ヨーロッパ語根 *kel-（監視する・保持する）に由来するとされる。ドイツ語 halten・オランダ語 houden・ゴート語 haldan と同族である。\n\n「つかんで保持する」という原義から「財産を持つ（hold property）」「役職に就く（hold a position）」「会議を開く（hold a meeting）」「意見を持つ（hold an opinion）」など非常に多様な意味が発達した。英語で最も多義的な動詞のひとつとされる。\n\n「hold on（待つ・つかまる）」「hold back（押さえる）」「hold up（遅延させる・支える）」「household（世帯）」「stronghold（要塞）」など複合語・イディオムが極めて豊富であり、「保持・継続・支配」という意味の中核語として機能している。",
+      derivatives: [
+        { word: "holder",    desc: "持ち主・保持者（名詞）" },
+        { word: "holding",   desc: "保有・支持（名詞）" },
+        { word: "household", desc: "世帯・家庭（名詞）" },
+        { word: "stronghold", desc: "要塞・牙城（名詞）" }
+      ],
+      family: [
+        { word: "keep",   desc: "保持する（古英語 cēpan）" },
+        { word: "retain", desc: "保持する（ラテン語 retinere）" },
+        { word: "grip",   desc: "しっかりつかむ（強い保持）" }
+      ],
+      compounds: [
+        { phrase: "hold on",      desc: "待つ・つかまる" },
+        { phrase: "hold back",    desc: "抑える・留まる" },
+        { phrase: "hold up",      desc: "遅らせる・支える" }
+      ]
+    },
+
+    "hope": {
+      origin: "古英語 hopian（望む・期待する）< ゲルマン語根 *hupōn（はずむ・期待する）に由来するとされる。ドイツ語 hoffen・オランダ語 hopen と同族であり、「前向きに期待を抱く」という感情を表す基本語である。\n\n「hope（希望・期待する）」は英語の感情語彙の中で最もポジティブなものの一つであり、宗教的な「希望（theological virtue）」・政治的な「変化への希望（hope for change）」・日常的な「〜だといいな（I hope so）」まで幅広い文脈で使われる。\n\nバラク・オバマの2008年大統領選挙のスローガン「Hope」は、この語が政治的動員力を持つことを示す現代的な例である。「hope against hope（かなわぬとわかりつつ希望を持つ）」「forlorn hope（はかない希望）」など詩的・慣用的表現も豊富である。",
+      derivatives: [
+        { word: "hopeful",    desc: "希望に満ちた・期待できる（形容詞）" },
+        { word: "hopeless",   desc: "絶望的な・見込みのない（形容詞）" },
+        { word: "hopefully",  desc: "うまくいけば・希望を持って（副詞）" }
+      ],
+      family: [
+        { word: "wish",     desc: "望む・願う（古英語 wyscan）" },
+        { word: "desire",   desc: "欲する・望む（ラテン語 desiderare）" },
+        { word: "aspire",   desc: "志望する（ラテン語 aspirare）" }
+      ],
+      compounds: [
+        { phrase: "hope for the best",  desc: "最善を望む" },
+        { phrase: "forlorn hope",       desc: "はかない希望" },
+        { phrase: "high hopes",         desc: "大きな期待・高い望み" }
+      ]
+    },
+
+    "hunt": {
+      origin: "古英語 huntian（狩る・追う）< ゲルマン語根 *huntan < インド・ヨーロッパ語根 *kend-（つかむ・捕える）に由来するとされる。hand（手）・get（得る）との語根的関連も議論される。ゲルマン語派に分布する狩猟の基本語彙である。\n\n「動物を狩る」という原始的な意味から「仕事を探す（job hunt）」「犯人を追う（hunt down）」「宝を探す（treasure hunt）」など「何かを積極的に追い求める」という比喩的意味が広く発達した。\n\n「witch hunt（魔女狩り）」という歴史的概念は現代英語では「政敵への不当な迫害」という比喩として頻繁に使われ、「head-hunter（ヘッドハンター）」「fox hunt（狐狩り）」「scavenger hunt（宝探しゲーム）」など多様な複合語が存在する。",
+      derivatives: [
+        { word: "hunter",   desc: "猟師・ハンター（名詞）" },
+        { word: "hunting",  desc: "狩猟・探求（名詞）" },
+        { word: "huntsman", desc: "猟師（名詞）" }
+      ],
+      family: [
+        { word: "chase",   desc: "追いかける（古フランス語 chasser）" },
+        { word: "pursue",  desc: "追い求める（ラテン語 prosequi）" },
+        { word: "track",   desc: "追跡する（跡をたどる）" }
+      ],
+      compounds: [
+        { phrase: "witch hunt",    desc: "魔女狩り・不当な迫害" },
+        { phrase: "job hunt",      desc: "就職活動" },
+        { phrase: "treasure hunt", desc: "宝探し" }
+      ]
+    },
+
+    "image": {
+      origin: "ラテン語 imago（姿・像・模倣）< imitari（模倣する）に由来し、古フランス語 image を経て13世紀の英語に入った。imitari はインド・ヨーロッパ語根 *aim-（模倣する）と関連し、imitate・imagination・imagine なども同語族である。\n\n「物理的な絵・映像」という意味から「心の中のイメージ（mental image）」「ブランドイメージ（brand image）」「自己イメージ（self-image）」など心理的・社会的な意味へと広く拡張した。写真・映像技術の発展とともに imaging（画像化技術）という専門語も重要となっている。\n\n「image is everything（イメージがすべて）」という現代消費社会の価値観を反映した表現から、「the spitting image of（〜にそっくりな）」という慣用表現まで、image は視覚・認知・アイデンティティの概念と深く結びついている。",
+      derivatives: [
+        { word: "imagine",    desc: "想像する（動詞）" },
+        { word: "imagination", desc: "想像力（名詞）" },
+        { word: "imaginary",  desc: "想像上の・架空の（形容詞）" },
+        { word: "imagery",    desc: "画像・比喩的表現（名詞）" }
+      ],
+      family: [
+        { word: "imitate",   desc: "模倣する（imitari 同根）" },
+        { word: "mirror",    desc: "鏡・反映する（類義語）" },
+        { word: "icon",      desc: "像・アイコン（ギリシャ語 eikon）" }
+      ],
+      compounds: [
+        { phrase: "self-image",   desc: "自己イメージ" },
+        { phrase: "brand image",  desc: "ブランドイメージ" },
+        { phrase: "public image", desc: "世間のイメージ" }
+      ]
+    },
+
+    "improve": {
+      origin: "アングロ・フランス語 emprouwer（利益をもたらす）< en-（中に）+ prou（利益）< 古フランス語 prod/prou（利益・価値）< ラテン語 prodesse（有益である）< pro-（前に）+ esse（ある）に由来するとされる。15世紀に英語に入り「土地を開発する・改善する」という意味で使われた。\n\n当初は「（土地を）有益に使う」という経済的意味だったが、18〜19世紀に「状態・能力・性能を向上させる」という一般的な改善の意味が定着した。continuous improvement（継続的改善）・self-improvement（自己啓発）など産業・教育の文脈で重要語となっている。\n\n「improve on（〜を改善する・上回る）」「room for improvement（改善の余地）」「improvement over（〜より優れた改善）」など現代英語でも頻繁に使われる表現が多い。",
+      derivatives: [
+        { word: "improvement",  desc: "改善・向上（名詞）" },
+        { word: "improved",     desc: "改善された（形容詞）" },
+        { word: "improvable",   desc: "改善可能な（形容詞）" }
+      ],
+      family: [
+        { word: "enhance",   desc: "高める（古フランス語 enhancer）" },
+        { word: "upgrade",   desc: "アップグレードする" },
+        { word: "advance",   desc: "前進する・向上する（ラテン語 abante）" }
+      ],
+      compounds: [
+        { phrase: "room for improvement",  desc: "改善の余地" },
+        { phrase: "self-improvement",      desc: "自己啓発" },
+        { phrase: "continuous improvement", desc: "継続的改善（カイゼン）" }
+      ]
+    },
+
+    "keep": {
+      origin: "古英語 cēpan（保つ・守る・観察する）< ゲルマン語根 *kōpjan に由来するとされるが、正確な語源については議論がある。インド・ヨーロッパ語根 *gab-（つかむ）との関連も指摘される。\n\n英語で最も多義的な動詞のひとつであり、「物を保持する（keep an item）」「状態を維持する（keep clean）」「約束を守る（keep a promise）」「日記をつける（keep a diary）」「育てる（keep animals）」など非常に広範な意味を持つ。\n\n「keep up（維持する・遅れずについていく）」「keep in touch（連絡を取り合う）」「keep an eye on（見張る）」「keep in mind（心に留める）」「keep going（続ける）」などイディオムが非常に豊富であり、日常会話における使用頻度は極めて高い。",
+      derivatives: [
+        { word: "keeper",   desc: "番人・キーパー（名詞）" },
+        { word: "keepsake", desc: "形見・記念品（名詞）" },
+        { word: "upkeep",   desc: "維持・維持費（名詞）" }
+      ],
+      family: [
+        { word: "hold",    desc: "保持する（古英語 healdan）" },
+        { word: "retain",  desc: "保持する（ラテン語 retinere）" },
+        { word: "maintain", desc: "維持する（ラテン語 manu tenere）" }
+      ],
+      compounds: [
+        { phrase: "keep in touch",   desc: "連絡を取り続ける" },
+        { phrase: "keep up with",    desc: "〜に遅れずついていく" },
+        { phrase: "keep in mind",    desc: "心に留める" }
+      ]
+    },
+
+    "kill": {
+      origin: "中英語 killen（打ち倒す・殺す）< 古英語 *cyllan（打つ）または古ノルド語 kyla（打つ）に由来するとされる。正確な語源については諸説あり、quell（鎮圧する）と同語根という説もある。14世紀頃から「殺す」という意味で標準的に使われるようになった。\n\n物理的な「殺す」から「時間を潰す（kill time）」「痛みを和らげる（kill pain）」「笑わせる（this joke kills me）」「提案を葬る（kill a bill）」など多様な比喩的意味が発展した。\n\n「kill two birds with one stone（一石二鳥）」「kill with kindness（過度の親切で困らせる）」「dressed to kill（すばらしく着飾った）」など慣用句も豊富であり、現代英語の口語では強調表現としても多用される語である。",
+      derivatives: [
+        { word: "killer",   desc: "殺人者・ヒット商品（名詞）" },
+        { word: "killing",  desc: "殺害・大儲け（名詞）" },
+        { word: "overkill", desc: "過剰な力・やりすぎ（名詞）" }
+      ],
+      family: [
+        { word: "slay",     desc: "殺す（古英語 slēan）" },
+        { word: "murder",   desc: "殺害する（古英語 morþor）" },
+        { word: "quell",    desc: "鎮圧する（同語根説）" }
+      ],
+      compounds: [
+        { phrase: "kill time",    desc: "暇を潰す" },
+        { phrase: "killer app",   desc: "キラーアプリ・決定的製品" },
+        { phrase: "overkill",     desc: "やりすぎ・過剰" }
+      ]
+    },
+
+    "lack": {
+      origin: "中英語 lak（欠乏・失敗）< 中期低地ドイツ語またはオランダ語 lak（欠如・欠陥）に由来するとされる。インド・ヨーロッパ語根 *lag-（垂れる・弱まる）との関連も議論される。13世紀頃から英語に入り「必要なものが欠けている」という意味で使われてきた。\n\n名詞・動詞両方で使われ、lack of（〜の欠如）という名詞句と「〜が欠けている」という動詞的用法が並存する。「lack of evidence（証拠不足）」「lack confidence（自信がない）」「no lack of（〜には事欠かない）」など否定・欠如の概念を表す重要語である。\n\n「make up for the lack（不足を補う）」「sorely lacking（著しく欠けている）」など、何か重要なものが存在しないことへの言及に頻繁に使われ、特に学術・評価的文脈で重要な語彙として機能する。",
+      derivatives: [
+        { word: "lacking",    desc: "欠乏している・不十分な（形容詞）" },
+        { word: "lackluster", desc: "輝きのない・平凡な（形容詞）" }
+      ],
+      family: [
+        { word: "absence",   desc: "不在・欠如（ラテン語 absentia）" },
+        { word: "deficit",   desc: "赤字・欠乏（ラテン語 deficere）" },
+        { word: "shortage",  desc: "不足（short+age）" }
+      ],
+      compounds: [
+        { phrase: "lack of",       desc: "〜の欠如" },
+        { phrase: "lack of sleep", desc: "睡眠不足" },
+        { phrase: "sorely lacking", desc: "著しく欠けている" }
+      ]
+    },
+
+    "lead": {
+      origin: "古英語 lǣdan（導く・先導する）< ゲルマン語根 *laðjan < インド・ヨーロッパ語根 *leit-（行く・進む）に由来する。ドイツ語 leiten・ゴート語 -laidjan と同族である。金属の鉛（lead）は別語源（古英語 lēad）であり同形異義語である。\n\n「先頭に立って導く」という原義から、leadership（リーダーシップ）・lead character（主役）・lead article（主要記事）・lead time（リードタイム）など多様な専門的意味が発展した。「lead by example（模範を示して導く）」「take the lead（先頭を取る）」「lead the way（道案内をする）」など慣用表現も豊富である。\n\n現代組織論・政治において leadership という概念は中核的であり、servant leadership（サーバントリーダーシップ）・transformational leadership（変革型リーダーシップ）など多様な理論が発展している。",
+      derivatives: [
+        { word: "leader",     desc: "リーダー・指導者（名詞）" },
+        { word: "leadership", desc: "リーダーシップ・指導力（名詞）" },
+        { word: "leading",    desc: "主要な・先頭の（形容詞）" },
+        { word: "mislead",    desc: "誤った方向に導く（動詞）" }
+      ],
+      family: [
+        { word: "guide",   desc: "案内する（古フランス語）" },
+        { word: "direct",  desc: "指揮する（ラテン語）" },
+        { word: "steer",   desc: "操縦する・舵を取る（ゲルマン語）" }
+      ],
+      compounds: [
+        { phrase: "lead by example",  desc: "模範を示して導く" },
+        { phrase: "take the lead",    desc: "先頭に立つ" },
+        { phrase: "lead time",        desc: "リードタイム・所要時間" }
+      ]
+    },
+
+    "lean": {
+      origin: "古英語 hlinian（傾く・寄りかかる）< ゲルマン語根 *hlainjan < インド・ヨーロッパ語根 *klei-（傾く・曲がる）に由来する。ladder（はしご）・decline（傾く）・incline（傾ける）とも語族をなすとされる。\n\n「傾く・寄りかかる」という物理的な意味から「傾向がある（lean toward）」「意見が傾く（lean left/right）」など比喩的意味が発展した。形容詞としての「lean（やせた・贅肉のない）」も同語であり、「lean management（リーン生産方式）」として製造業の文脈で20世紀後半に重要な経営概念となった。\n\n「lean on（頼る・たよりにする）」「lean in（前向きに取り組む：Sheryl Sandberg の著書から）」などの表現は現代英語のビジネス・自己啓発の文脈で特に重要な表現となっている。",
+      derivatives: [
+        { word: "leaning",  desc: "傾き・傾向（名詞）" },
+        { word: "lean-to",  desc: "庇付き小屋（名詞）" }
+      ],
+      family: [
+        { word: "incline",  desc: "傾ける・傾向がある（ラテン語 inclinare）" },
+        { word: "decline",  desc: "傾く・断る（ラテン語 declinare）" },
+        { word: "slope",    desc: "傾斜（傾いた面）" }
+      ],
+      compounds: [
+        { phrase: "lean on",       desc: "頼る・たよりにする" },
+        { phrase: "lean in",       desc: "積極的に関与する" },
+        { phrase: "lean production", desc: "リーン生産方式" }
+      ]
+    },
+
+    "leave": {
+      origin: "古英語 lǣfan（残す・去る）< ゲルマン語根 *laibjan（残す）< インド・ヨーロッパ語根 *leip-（残る・粘着する）に由来する。life（生命）・live（生きる）・believe（信じる）とも語根的に関連するという説がある。\n\n「残す・去る」という二つの対照的な意味を持つ多義語であり、leave a place（場所を去る）・leave a message（メッセージを残す）・leave behind（後に残す）・leave out（省略する）など多様な用法が存在する。\n\n「leave of absence（休暇・休職）」「take leave（離れる・休暇を取る）」「left to one's own devices（自分任せにされた）」「leave no stone unturned（手を尽くす）」など慣用句・法律用語・職場用語としても重要語である。",
+      derivatives: [
+        { word: "leftover",  desc: "残り物・残りの（名詞/形容詞）" },
+        { word: "bereave",   desc: "奪う・死別させる（be+reave 関連）" }
+      ],
+      family: [
+        { word: "remain",   desc: "残る（ラテン語 remanere）" },
+        { word: "depart",   desc: "出発する（ラテン語 departire）" },
+        { word: "abandon",  desc: "見捨てる（古フランス語）" }
+      ],
+      compounds: [
+        { phrase: "leave out",        desc: "省略する・除外する" },
+        { phrase: "leave of absence", desc: "休暇・休職" },
+        { phrase: "leave behind",     desc: "後に残す・置き去りにする" }
+      ]
+    },
+
+    "level": {
+      origin: "ラテン語 libella（水準器・小さな天秤）< libra（天秤・平衡）の指小形に由来し、古フランス語 livel を経て14世紀の英語に入った。libra はインド・ヨーロッパ語根 *lithr-（平衡・重さ）と関連し、Libra（天秤座）・equilibrium（均衡）とも語族をなす。\n\n「水平な・同じ高さの」という物理的な意味から「能力レベル（skill level）」「セキュリティレベル（clearance level）」「同等の立場（on the same level）」など多様な抽象的意味が発展した。動詞としての「level an accusation（非難を向ける）」「level a building（建物を平らにする）」なども重要な用法である。\n\n「level playing field（公平な競争環境）」という表現はスポーツの比喩から生まれ、現代のビジネス・政策論で重要な概念語として定着している。",
+      derivatives: [
+        { word: "level-headed",  desc: "冷静な・思慮深い（形容詞）" },
+        { word: "multilevel",    desc: "多層の（形容詞）" }
+      ],
+      family: [
+        { word: "libra",       desc: "天秤座（ラテン語 libra）" },
+        { word: "equilibrium", desc: "均衡（aequi+libra）" },
+        { word: "flat",        desc: "平らな（類義語）" }
+      ],
+      compounds: [
+        { phrase: "level playing field",  desc: "公平な競争環境" },
+        { phrase: "at a high level",      desc: "高いレベルで・概括的に" },
+        { phrase: "level up",             desc: "レベルアップする" }
+      ]
+    },
+
+    "lift": {
+      origin: "古ノルド語 lypta（持ち上げる）< ゲルマン語根 *luftjan < *luftaz（空気・天空）に由来する。air（空気）という概念と「上に持ち上げる」という動作が語根的に結びついており、loft（屋根裏）とも語族をなす。13世紀頃から英語に入った。\n\n物理的な「持ち上げる」から「精神を高める（lift one's spirits）」「制限を解除する（lift restrictions）」「盗む（lift something：口語）」など多様な意味が派生した。エレベーターを英国英語では lift と呼ぶのもこの語である。\n\n「give someone a lift（車で送る・気持ちを高める）」「face-lift（顔の整形・改修）」「lift off（ロケット発射）」「airlift（空輸）」など多様な複合語・慣用表現を持ち、物理的・感情的な「上昇」という概念を体現する語である。",
+      derivatives: [
+        { word: "liftoff",   desc: "ロケット発射（名詞）" },
+        { word: "airlift",   desc: "空輸（名詞/動詞）" },
+        { word: "shoplifter", desc: "万引き犯（名詞）" }
+      ],
+      family: [
+        { word: "loft",    desc: "屋根裏・ロフト（同語根）" },
+        { word: "aloft",   desc: "高く・空中に（副詞）" },
+        { word: "elevate", desc: "持ち上げる（ラテン語 elevare）" }
+      ],
+      compounds: [
+        { phrase: "give a lift",   desc: "車で送る・気持ちを高める" },
+        { phrase: "face-lift",     desc: "顔の整形・改修・刷新" },
+        { phrase: "lift off",      desc: "離陸する・発射する" }
+      ]
     }
 
   };

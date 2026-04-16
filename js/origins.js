@@ -28467,6 +28467,549 @@
         { phrase: "study abroad",   desc: "留学する" },
         { phrase: "pilot study",    desc: "パイロットスタディ・予備研究" }
       ]
+    },
+
+    "style": {
+      origin: "ラテン語 stilus（書き物の尖筆・文体）< インド・ヨーロッパ語根 *sti-（刺す・尖る）に由来する。「尖ったもので書く→書き方→様式」という意味変化をたどった語であり、stylus（スタイラス）・stiletto（細長い短剣）とも語族をなす。古フランス語 style を経て14世紀の英語に入った。\n\n「書き方の様式」から「芸術的様式（architectural style）」「ファッションスタイル（style sense）」「やり方・個人的な様式（in someone's style）」など多様な意味が発展した。「style over substance（実質より見た目）」という批判的表現や、「in style（流行に乗って）」「cramp one's style（邪魔をする）」など慣用句も豊富である。\n\n21世紀では CSS（Cascading Style Sheets）・style guide（スタイルガイド）・lifestyle（ライフスタイル）など技術・生活の文脈でも非常に重要な語となっている。",
+      derivatives: [
+        { word: "stylish",   desc: "おしゃれな・スタイリッシュな（形容詞）" },
+        { word: "stylize",   desc: "様式化する（動詞）" },
+        { word: "stylist",   desc: "スタイリスト・文体家（名詞）" },
+        { word: "lifestyle", desc: "生活様式（名詞）" }
+      ],
+      family: [
+        { word: "stylus",   desc: "スタイラス（stilus の変形）" },
+        { word: "stiletto", desc: "細いヒール・短剣（stilus 語族）" },
+        { word: "fashion",  desc: "流行・様式（類義語）" }
+      ],
+      compounds: [
+        { phrase: "lifestyle",    desc: "生活様式・ライフスタイル" },
+        { phrase: "in style",     desc: "流行して・格好よく" },
+        { phrase: "house style",  desc: "出版社・会社の文体規定" }
+      ]
+    },
+
+    "swing": {
+      origin: "古英語 swingan（振る・鞭打つ）< ゲルマン語根 *swingwan < インド・ヨーロッパ語根 *sweng-（振る・揺れる）に由来するとされる。swinge（鞭打つ）・swank（見栄を張る）と語族をなす。\n\n「弧を描くように揺れる」という物理的な意味から「音楽のスウィングリズム（swing music）」「世論の変動（swing to the left）」「気分の変動（mood swings）」「野球のスウィング」など多様な意味が発展した。\n\n「get into the swing of things（物事のコツをつかむ）」「in full swing（最高潮に）」「swing the vote（票を動かす）」「swing state（揺れ動く州：米国政治）」「swings and roundabouts（一長一短）」など政治・音楽・日常の多岐にわたる慣用表現を持つ語である。",
+      derivatives: [
+        { word: "swinger",   desc: "スウィングする人（名詞）" },
+        { word: "swinging",  desc: "勢いのある・スウィングする（形容詞）" }
+      ],
+      family: [
+        { word: "sway",     desc: "揺れる（古ノルド語 sveigja）" },
+        { word: "wave",     desc: "波打つ・手を振る" },
+        { word: "oscillate", desc: "振動する（ラテン語 oscillare）" }
+      ],
+      compounds: [
+        { phrase: "in full swing",           desc: "最高潮で・絶好調で" },
+        { phrase: "swing state",             desc: "揺れ動く州（米国政治）" },
+        { phrase: "get into the swing of",   desc: "コツをつかむ" }
+      ]
+    },
+
+    "take": {
+      origin: "古ノルド語 taka（取る・つかむ）< ゲルマン語根 *takan < インド・ヨーロッパ語根 *dag-（手で触れる）に由来するとされる。13世紀頃から英語に入り、古英語の niman（取る）を次第に置き換えた。ドイツ語には対応する語がなく、英語では北欧語からの大規模借用の重要例のひとつである。\n\n英語で最も多義的・最頻出の動詞のひとつであり、take a photo（写真を撮る）・take a break（休憩する）・take responsibility（責任を取る）・take time（時間がかかる）・take place（起こる）など数十の意味・用法を持つ。\n\n「take for granted（当たり前と思う）」「take the plunge（思い切って飛び込む）」「take aback（びっくりさせる）」「take after（〜に似る）」「take off（離陸する・脱ぐ）」など慣用句が非常に豊富であり、英語学習者にとっても最重要語のひとつである。",
+      derivatives: [
+        { word: "intake",    desc: "取り込み・摂取（名詞）" },
+        { word: "undertake", desc: "引き受ける（under+take）" },
+        { word: "overtake",  desc: "追い越す（over+take）" }
+      ],
+      family: [
+        { word: "get",    desc: "得る・手に入れる（類義語）" },
+        { word: "seize",  desc: "つかむ・没収する（古フランス語）" },
+        { word: "grasp",  desc: "つかむ・理解する（ゲルマン語）" }
+      ],
+      compounds: [
+        { phrase: "take for granted",  desc: "当然と思う" },
+        { phrase: "take off",          desc: "離陸する・脱ぐ・急成長する" },
+        { phrase: "take place",        desc: "起こる・行われる" }
+      ]
+    },
+
+    "teach": {
+      origin: "古英語 tǣcan（見せる・指示する・教える）< ゲルマン語根 *taikjan < インド・ヨーロッパ語根 *deik-（指し示す・示す）に由来する。token（証拠・しるし）・diction（言い回し）・index（索引：指し示す）とも語族をなし、「指し示して理解させる」という原義を持つ。\n\n「知識・技術を他者に伝える」という意味が基本で、「teach a class（授業をする）」「teach someone a lesson（教訓を与える）」「teach by example（模範を示して教える）」など教育・道徳の文脈で重要語である。\n\n「those who can, do; those who can't, teach（できる人はやる、できない人は教える：Shaw の風刺）」「teach an old dog new tricks（老犬に新しい芸を教える：無駄）」「self-taught（独学の）」など文化的・慣用的表現も豊富である。",
+      derivatives: [
+        { word: "teacher",    desc: "教師（名詞）" },
+        { word: "teaching",   desc: "教えること・教え（名詞）" },
+        { word: "self-taught", desc: "独学の（形容詞）" }
+      ],
+      family: [
+        { word: "token",  desc: "しるし・証拠（同語根 *deik-）" },
+        { word: "index",  desc: "索引・指差し（ラテン語 index）" },
+        { word: "diction", desc: "言い回し（指し示す語）" }
+      ],
+      compounds: [
+        { phrase: "teach a lesson",   desc: "教訓を与える" },
+        { phrase: "self-taught",      desc: "独学の" },
+        { phrase: "teach by example", desc: "模範を示して教える" }
+      ]
+    },
+
+    "tear": {
+      origin: "二つの語源が合流している。「引き裂く」動詞の tear は古英語 tēran（裂く）< ゲルマン語根 *tēran < インド・ヨーロッパ語根 *der-（皮を剥ぐ・裂く）に由来し、tatter（ぼろ）・deter（抑止する）と語族をなす。「涙」の tear は別語源で古英語 tēar < ゲルマン語根 *tarhwaz に由来する同形異義語である。\n\n「引き裂く」の tear は fabric tears（布が裂ける）・tear apart（ばらばらにする）・tearful separation（涙の別れ）のように使われ、「涙」の tear は tears of joy（喜びの涙）・moved to tears（涙が出るほど感動した）のように使われる。\n\n「wear and tear（摩耗と損傷）」「tear oneself away（〜から離れる）」「tear down（取り壊す）」「crocodile tears（ワニの涙：偽りの涙）」など多様な慣用表現を持つ、二義的に豊かな語である。",
+      derivatives: [
+        { word: "tearful",   desc: "涙ぐんだ（形容詞）" },
+        { word: "teardrop",  desc: "涙の雫（名詞）" },
+        { word: "torn",      desc: "裂けた・葛藤した（形容詞）" }
+      ],
+      family: [
+        { word: "rip",    desc: "引き裂く（古英語 ryppan）" },
+        { word: "tatter", desc: "ぼろ切れ（同語根）" },
+        { word: "weep",   desc: "泣く（涙と関連する動詞）" }
+      ],
+      compounds: [
+        { phrase: "wear and tear",     desc: "摩耗・消耗" },
+        { phrase: "crocodile tears",   desc: "偽りの涙" },
+        { phrase: "tear apart",        desc: "引き裂く・激しく批判する" }
+      ]
+    },
+
+    "test": {
+      origin: "ラテン語 testum（陶器の壺・試金石）< testa（陶器・貝殻）に由来し、古フランス語 test を経て14世紀の英語に入った。「金の純度を陶器の壺で試す」という錬金術的な原義から「試験・検査」という意味が発展した。testify（証言する）・testimony（証言）・testis（証人・睾丸）とも語族をなす。\n\n「能力・品質を試す」という意味が基本で、「pass a test（試験に合格する）」「blood test（血液検査）」「test drive（試乗）」「test the waters（様子を見る）」など多様な文脈で使われる。\n\n「put to the test（試練にさらす）」「test of time（時の試練）」「test case（試験的事例）」「acid test（厳しいテスト：金の試金石から）」など多彩な慣用表現を持ち、科学・教育・医療・法律のあらゆる分野で不可欠な語である。",
+      derivatives: [
+        { word: "testing",   desc: "試験的な・きつい（形容詞）" },
+        { word: "tester",    desc: "検査者・試供品（名詞）" },
+        { word: "testify",   desc: "証言する（testa 同根）" }
+      ],
+      family: [
+        { word: "testimony",  desc: "証言（testa 同根）" },
+        { word: "contest",    desc: "競争する・反論する（共に証明する）" },
+        { word: "protest",    desc: "抗議する（前に証言する）" }
+      ],
+      compounds: [
+        { phrase: "acid test",     desc: "厳しいテスト・最終試験" },
+        { phrase: "test case",     desc: "試験的事例・先例事件" },
+        { phrase: "test the waters", desc: "様子を見る" }
+      ]
+    },
+
+    "thick": {
+      origin: "古英語 þicce（厚い・密な・太い）< ゲルマン語根 *þikwaz < インド・ヨーロッパ語根 *tegu-（厚い・密な）に由来する。ドイツ語 dick・オランダ語 dik と同族であり、物質の「厚み・密度」を表すゲルマン語の基本形容詞である。\n\n「物理的に厚い・密な」という意味が基本で、「thick fog（濃霧）」「thick skin（厚い皮膚→鈍感さ）」「thick accent（強いなまり）」「thick with（〜でいっぱいの）」など多様な意味が発展した。\n\n「through thick and thin（苦楽をともに）」「thick and fast（次々と）」「thick-skinned（鈍感な）」「give someone the thick of it（真っ只中に放り込む）」「in the thick of（〜の真っ最中に）」など多彩な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "thicken",   desc: "厚くなる・濃くなる（動詞）" },
+        { word: "thickness", desc: "厚さ・濃さ（名詞）" },
+        { word: "thicket",   desc: "茂み（名詞）" }
+      ],
+      family: [
+        { word: "dense",  desc: "密な・濃い（ラテン語 densus）" },
+        { word: "fat",    desc: "太った・脂肪分の多い（古英語）" },
+        { word: "broad",  desc: "幅広い（古英語 brād）" }
+      ],
+      compounds: [
+        { phrase: "through thick and thin",  desc: "苦楽をともに" },
+        { phrase: "thick-skinned",           desc: "鈍感な" },
+        { phrase: "in the thick of",         desc: "〜の真っ只中に" }
+      ]
+    },
+
+    "throw": {
+      origin: "古英語 þrāwan（ねじる・回す）< ゲルマン語根 *þrawjan < インド・ヨーロッパ語根 *ter-（回す・ねじる）に由来する。thread（糸：ねじったもの）・through（貫通する）とも語根的に関連するとされる。「投げる」という現代的な意味は中英語期に「ねじって投げる」という原義から発展した。\n\n「物を空中に投げる」という物理的な意味から「パーティーを開く（throw a party）」「混乱させる（throw someone off）」「惜しみなく使う（throw money at a problem）」「何かを言う（throw a comment）」など多様な意味が発展した。\n\n「throw in the towel（タオルを投げる：諦める）」「throw a tantrum（癇癪を起こす）」「throw caution to the wind（慎重さをかなぐり捨てる）」「throw light on（明らかにする）」など豊富な慣用句を持つ語である。",
+      derivatives: [
+        { word: "throw",    desc: "投球・試み（名詞）" },
+        { word: "throwback", desc: "先祖返り・懐古（名詞）" },
+        { word: "overthrow", desc: "打倒する（動詞）" }
+      ],
+      family: [
+        { word: "toss",    desc: "軽く投げる（古ノルド語系）" },
+        { word: "hurl",    desc: "力強く投げる（中英語）" },
+        { word: "launch",  desc: "発射する（古フランス語 lancer）" }
+      ],
+      compounds: [
+        { phrase: "throw in the towel",  desc: "諦める・降参する" },
+        { phrase: "throw a party",       desc: "パーティーを開く" },
+        { phrase: "throw light on",      desc: "〜を明らかにする" }
+      ]
+    },
+
+    "tight": {
+      origin: "中英語 tight（引き締まった・詰まった）< 古ノルド語 þéttr（密な・詰まった）< ゲルマン語根 *þenhtan に由来するとされる。16世紀頃の英語で現在の意味が定着した。\n\n「ぴったり締まった」という物理的な意味から「お金に締まりのある（tight budget）」「競争が接戦の（tight race）」「アルコールで酔っている（tight：俗語）」「時間的に余裕のない（tight schedule）」など多様な意味が発展した。\n\n「sleep tight（ぐっすり眠る）」「tight-lipped（口を固く閉じた）」「in a tight spot（困った状況で）」「tightrope（綱渡り）」「run a tight ship（厳格に管理する）」など多彩な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "tighten",   desc: "締める・引き締める（動詞）" },
+        { word: "tightly",   desc: "ぎっしりと・きつく（副詞）" },
+        { word: "tightness", desc: "きつさ・窮屈さ（名詞）" }
+      ],
+      family: [
+        { word: "taut",   desc: "張り詰めた（古ノルド語系）" },
+        { word: "snug",   desc: "ぴったりした・居心地よい（古ノルド語）" },
+        { word: "firm",   desc: "堅固な・確固とした（ラテン語）" }
+      ],
+      compounds: [
+        { phrase: "tight-lipped",  desc: "口を固く閉じた・秘密主義の" },
+        { phrase: "tightrope",     desc: "綱渡り・危険な状況" },
+        { phrase: "sleep tight",   desc: "ぐっすり眠る" }
+      ]
+    },
+
+    "time": {
+      origin: "古英語 tīma（時間・期間）< ゲルマン語根 *tīman < インド・ヨーロッパ語根 *di-（分ける・区切る）に由来するとされる。tide（潮・時節：tīd は古英語で「時間」）とも語族をなすとされる。\n\n英語で最も使用頻度の高い名詞のひとつで、「時間・時刻・時代・拍子・回数」など多義的な概念を担う。「time flies（時間が経つのは早い）」「kill time（暇を潰す）」「on time（時間通りに）」「in time（間に合って）」「at the same time（同時に）」など日常英語に不可欠な表現が無数に存在する。\n\n「time is money（時は金なり）」「time heals all wounds（時間がすべての傷を癒す）」「a matter of time（時間の問題）」「time out（タイムアウト）」など哲学的・実用的な慣用句が非常に豊富であり、人間の最も根本的な概念のひとつを表す語である。",
+      derivatives: [
+        { word: "timely",    desc: "タイミングの良い・時宜を得た（形容詞）" },
+        { word: "timetable", desc: "時刻表・スケジュール（名詞）" },
+        { word: "overtime",  desc: "残業・延長（名詞）" },
+        { word: "lifetime",  desc: "生涯・一生（名詞）" }
+      ],
+      family: [
+        { word: "tide",    desc: "潮・時節（同語根系）" },
+        { word: "season",  desc: "季節（ラテン語 satio）" },
+        { word: "period",  desc: "期間・時代（ギリシャ語 periodos）" }
+      ],
+      compounds: [
+        { phrase: "on time",      desc: "時間通りに" },
+        { phrase: "in time",      desc: "間に合って・やがて" },
+        { phrase: "time management", desc: "時間管理" }
+      ]
+    },
+
+    "today": {
+      origin: "古英語 tōdæġ（今日）< tō（〜に）+ dæġ（日）から構成された複合語に由来する。day（日）は古英語 dæġ < ゲルマン語根 *dagaz に由来し、ドイツ語 heute（今日：this day）・オランダ語 vandaag（今日：van dag）と同族系統のパターンを示す。\n\n「現在の日・今日」という最も基本的な時間表現として古英語から継続的に使われてきた。tomorrow（明日）・yesterday（昨日）とともに英語の時制感覚の基礎を形成する重要語である。\n\n「today's world（現代世界）」「as of today（本日現在）」「here and now（今ここで：今日に相当）」「live for today（今日を生きる）」など多様な表現で使われ、現在・現代・今という時間的近接性を表す語として日常英語に不可欠である。",
+      derivatives: [
+        { word: "daily",     desc: "毎日の（day の形容詞形）" },
+        { word: "nowadays",  desc: "最近・現代では（now+days）" }
+      ],
+      family: [
+        { word: "yesterday", desc: "昨日（古英語 ġiestrandæġ）" },
+        { word: "tomorrow",  desc: "明日（古英語 tō morgen）" },
+        { word: "nowadays",  desc: "このごろは（now+days）" }
+      ],
+      compounds: [
+        { phrase: "today's world",  desc: "現代世界" },
+        { phrase: "as of today",    desc: "本日現在" },
+        { phrase: "live for today", desc: "今日を精一杯生きる" }
+      ]
+    },
+
+    "trial": {
+      origin: "アングロ・フランス語 trial（試み・法廷審判）< trier（選別する・試す）< ラテン語系の語源に由来し、14世紀の英語に入った。try（試みる）・trier（審査官）と語族をなし、「選別して試す」という原義を持つ。\n\n「試験・試み（trial and error）」と「法廷裁判（criminal trial）」という二つの主要な意味が並存する。「trial period（試用期間）」「on trial（裁判中・試用中）」「clinical trial（臨床試験）」「trial run（試験運転）」など多様な専門文脈で使われる。\n\n「trial and error（試行錯誤）」「trial by jury（陪審裁判）」「fair trial（公平な裁判）」「put on trial（裁判にかける）」など法律・科学・日常の文脈で重要な表現が豊富であり、正義・科学的手法の根幹を担う語彙のひとつである。",
+      derivatives: [
+        { word: "trial-and-error", desc: "試行錯誤（名詞）" }
+      ],
+      family: [
+        { word: "try",      desc: "試みる（trial と同語族）" },
+        { word: "test",     desc: "テストする（類義語）" },
+        { word: "attempt",  desc: "試みる（ラテン語 attemptare）" }
+      ],
+      compounds: [
+        { phrase: "trial and error",  desc: "試行錯誤" },
+        { phrase: "clinical trial",   desc: "臨床試験" },
+        { phrase: "fair trial",       desc: "公平な裁判" }
+      ]
+    },
+
+    "trouble": {
+      origin: "古フランス語 troubler（乱す・かき乱す）< ラテン語 turbulare（乱す）< turba（騒乱・群衆）< インド・ヨーロッパ語根 *twer-（回す・乱す）に由来する。turbulent（激動の）・disturb（乱す）・perturb（動揺させる）と語族をなす。\n\n「問題・困難・苦労」という意味が中心で、「cause trouble（問題を起こす）」「be in trouble（困っている）」「take the trouble（苦労をいとわない）」「trouble yourself（ご面倒をおかけする）」など多様な文脈で使われる。\n\n「double trouble（二重の苦労）」「trouble-maker（厄介者）」「trouble-shoot（問題を解決する）」「don't trouble yourself（ご心配なく）」「it's no trouble（お安い御用です）」など日常会話にも豊富な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "troubled",      desc: "悩んだ・問題のある（形容詞）" },
+        { word: "troublesome",   desc: "厄介な・面倒な（形容詞）" },
+        { word: "troublemaker",  desc: "厄介者・問題児（名詞）" }
+      ],
+      family: [
+        { word: "turbulent",  desc: "激動の（turba 同根）" },
+        { word: "disturb",    desc: "乱す（dis+turba）" },
+        { word: "perturb",    desc: "動揺させる（per+turba）" }
+      ],
+      compounds: [
+        { phrase: "trouble-shoot",  desc: "問題を解決する" },
+        { phrase: "double trouble", desc: "二重の苦労" },
+        { phrase: "in trouble",     desc: "困っている・問題がある" }
+      ]
+    },
+
+    "try": {
+      origin: "古フランス語 trier（選別する・調べる）< ラテン語 tritare（こする・選り分ける）< terere（こする・すり減らす）に由来するとされる。trial（試み・裁判）・trier（審査官）と語族をなす。13世紀に英語に入り、「選別する→試みる」という意味変化をたどった。\n\n「試みる・努力する」という動詞的な意味が基本であり、try to do（〜しようとする）・try something（何かを試す）・try on（試着する）・try out（試してみる）など多様な用法がある。\n\n「try and try again（何度も試みる）」「try one's best（最善を尽くす）」「try one's patience（忍耐を試す）」「give it a try（試してみる）」「tried and tested（実績のある・試み済みの）」など多彩な慣用表現を持ち、英語の最頻出動詞のひとつである。",
+      derivatives: [
+        { word: "trial",    desc: "試み・裁判（try の名詞形）" },
+        { word: "trying",   desc: "大変な・試練の（形容詞）" }
+      ],
+      family: [
+        { word: "attempt", desc: "試みる（ラテン語 attemptare）" },
+        { word: "test",    desc: "試す（ラテン語 testum）" },
+        { word: "strive",  desc: "努力する（古フランス語 estriver）" }
+      ],
+      compounds: [
+        { phrase: "try one's best",   desc: "最善を尽くす" },
+        { phrase: "tried and tested", desc: "実績のある・検証済みの" },
+        { phrase: "give it a try",    desc: "試してみる" }
+      ]
+    },
+
+    "turn": {
+      origin: "古英語 turnian（回す・向きを変える）< ラテン語 tornare（ろくろで削る・丸くする）< tornus（ろくろ）< ギリシャ語 tornos（ろくろ）に由来する。古フランス語 torner も同語源。インド・ヨーロッパ語根 *ter-（回す・ねじる）と関連する。\n\n「回転する・向きを変える」という物理的な意味が基本で、「turn a corner（曲がり角を曲がる）」「turn into（〜に変わる）」「turn down（断る・音量を下げる）」「take turns（交代でする）」など極めて多義的な語である。\n\n「turn the tables（形勢を逆転する）」「turn over a new leaf（心機一転する）」「it's your turn（あなたの番だ）」「turn a blind eye（見て見ぬふりをする）」「turn the tide（潮目を変える）」など英語のイディオムの中でも特に豊富な表現群を持つ語である。",
+      derivatives: [
+        { word: "turning",   desc: "曲がり角・転換点（名詞）" },
+        { word: "turnaround", desc: "転換・好転（名詞）" },
+        { word: "turnover",   desc: "売上高・入れ替わり（名詞）" }
+      ],
+      family: [
+        { word: "rotate",   desc: "回転する（ラテン語 rotare）" },
+        { word: "revolve",  desc: "公転する（ラテン語 revolvere）" },
+        { word: "twist",    desc: "ねじる・曲げる（古英語）" }
+      ],
+      compounds: [
+        { phrase: "turn over a new leaf",  desc: "心機一転する" },
+        { phrase: "turn the tables",       desc: "形勢を逆転する" },
+        { phrase: "turning point",         desc: "転換点" }
+      ]
+    },
+
+    "twist": {
+      origin: "中英語 twisten（ねじる・よる）< ゲルマン語根 *twis-（二重・ねじれ）< インド・ヨーロッパ語根 *dwo-（二つ）に由来するとされる。two（二つ）・twin（双子）・twice（二度）と語根的に関連し、「二つのものをよりあわせる」という原義を持つ。\n\n「ねじる・よりあわせる」という物理的な意味から「意味をゆがめる（twist someone's words）」「ダンスのツイスト（the Twist）」「どんでん返し（plot twist）」など多様な意味が発展した。\n\n「twist of fate（運命のいたずら）」「twist someone's arm（説得する・強制する）」「in a twist（混乱して）」「tongue-twister（言いにくい言葉）」「plot twist（物語のどんでん返し）」など多彩な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "twisted",     desc: "ゆがんだ・病んだ（形容詞）" },
+        { word: "twister",     desc: "竜巻・言いにくい言葉（名詞）" },
+        { word: "tongue-twister", desc: "早口言葉（名詞）" }
+      ],
+      family: [
+        { word: "twine",   desc: "より糸・よりあわせる（同語根）" },
+        { word: "twin",    desc: "双子（二つ組）" },
+        { word: "intertwine", desc: "絡み合う（inter+twist）" }
+      ],
+      compounds: [
+        { phrase: "plot twist",          desc: "物語のどんでん返し" },
+        { phrase: "twist of fate",       desc: "運命のいたずら" },
+        { phrase: "twist someone's arm", desc: "腕をねじって強制する・説得する" }
+      ]
+    },
+
+    "ugly": {
+      origin: "古ノルド語 uggligr（恐ろしい・不快な）< uggr（恐怖・不安）+ -ligr（〜らしい）に由来する。13世紀頃から英語に入り、当初は「恐怖を引き起こす」という意味で使われた。その後「外見が醜い・不愉快な」という意味が主流となった。\n\n「外見が不快な」という視覚的意味が中心で、「ugly truth（醜い真実）」「ugly scene（不快な状況）」「ugly duckling（みにくいアヒルの子）」「rear its ugly head（醜い頭をもたげる：悪いものが出現する）」など比喩的用法も豊富である。\n\n「Ugly Duckling（みにくいアヒルの子：アンデルセン童話）」は英語圏で広く知られた比喩であり、"ugly" が美的・道徳的判断の両方を含む語として使われることを示す重要な文化的表現である。",
+      derivatives: [
+        { word: "ugliness",  desc: "醜さ・不快さ（名詞）" },
+        { word: "uglify",    desc: "醜くする（動詞）" }
+      ],
+      family: [
+        { word: "hideous",  desc: "ぞっとするほど醜い（古フランス語）" },
+        { word: "grotesque", desc: "グロテスクな（イタリア語）" },
+        { word: "repulsive", desc: "嫌悪感を催す（ラテン語）" }
+      ],
+      compounds: [
+        { phrase: "ugly duckling",      desc: "みにくいアヒルの子" },
+        { phrase: "rear its ugly head", desc: "醜い頭をもたげる（悪が表れる）" },
+        { phrase: "ugly truth",         desc: "醜い・不都合な真実" }
+      ]
+    },
+
+    "unless": {
+      origin: "中英語 onlesse（〜でない限り）< on（〜に基づいて）+ less（より少ない）の複合から生まれた接続詞で、15世紀頃から使われている。「より少ない条件において→〜でない限り」という意味が発展し、条件節の否定を表す基本的な接続詞として定着した。\n\n「unless（〜でない限り）」は if not と意味的に重なるが、unless はより強い排除的条件（「この条件が満たされない場合のみ」）を表すとされる。学術英語・法律英語で非常に頻繁に使われ、条件・例外を表す重要な語彙である。\n\n「Unless otherwise stated（別途記載がない限り）」「unless told otherwise（別の指示がない限り）」「unless and until（〜しない限りかつ〜するまで）」など公文書・法律・学術の文脈で重要な表現として定着している。",
+      derivatives: [],
+      family: [
+        { word: "if",       desc: "もし〜なら（条件の基本語）" },
+        { word: "except",   desc: "〜を除いて（ラテン語 excipere）" },
+        { word: "provided", desc: "〜を条件として（条件接続詞）" }
+      ],
+      compounds: [
+        { phrase: "unless otherwise",  desc: "別段の規定がない限り" },
+        { phrase: "unless stated",     desc: "明記されない限り" }
+      ]
+    },
+
+    "urge": {
+      origin: "ラテン語 urgere（押す・急かす・強く勧める）< インド・ヨーロッパ語根 *wreg-（追い立てる）に由来する。15世紀に英語に入り、「強く勧める・刺激する」という意味で使われてきた。\n\n「誰かに強く勧める（urge caution）」「衝動・欲求（a strong urge）」「急かす（urge to hurry）」など、心理的・道徳的な強い促しを表す語として医学・心理学・日常語の文脈で使われる。\n\n「urge on（励ます・駆り立てる）」「creative urge（創造への衝動）」「suppression of urges（衝動の抑制）」など心理学的な「衝動・本能的な強い欲求」という意味が20世紀以降に重要視されており、Freudian psychology（フロイト心理学）における「ドライブ・衝動」という概念とも関連している。",
+      derivatives: [
+        { word: "urgent",   desc: "緊急の・差し迫った（形容詞）" },
+        { word: "urging",   desc: "強い勧告・促し（名詞）" }
+      ],
+      family: [
+        { word: "push",    desc: "押す・促す（類義語）" },
+        { word: "press",   desc: "強く押す・促す（類義語）" },
+        { word: "impel",   desc: "駆り立てる（ラテン語 impellere）" }
+      ],
+      compounds: [
+        { phrase: "urge on",         desc: "励ます・駆り立てる" },
+        { phrase: "creative urge",   desc: "創造への衝動" },
+        { phrase: "irresistible urge", desc: "抗いがたい衝動" }
+      ]
+    },
+
+    "urgent": {
+      origin: "ラテン語 urgens（急いでいる・押し迫っている）< urgere（押す・急かす）の現在分詞形に由来し、urge（強く勧める）と同語族である。15世紀に英語に入り、「今すぐ対応が必要な」という意味で使われてきた。\n\n「緊急を要する・差し迫った」という意味が基本で、「urgent need（緊急の必要）」「urgent care（緊急医療）」「urgent message（至急のメッセージ）」など医療・ビジネス・外交の文脈で重要語である。\n\nWHO（世界保健機関）の「urgent health matter」・国際連合の「urgent resolution（緊急決議）」など国際機関の文書でも頻出語であり、URGENT（至急）という表記はメール・電報・医療の文脈で世界的に使われるシグナルとなっている。",
+      derivatives: [
+        { word: "urgently",  desc: "緊急に・早急に（副詞）" },
+        { word: "urgency",   desc: "緊急性・差し迫った状況（名詞）" }
+      ],
+      family: [
+        { word: "urge",       desc: "強く勧める・衝動（同語根）" },
+        { word: "emergency",  desc: "緊急事態（emerge 同根）" },
+        { word: "critical",   desc: "決定的な・重大な（類義語）" }
+      ],
+      compounds: [
+        { phrase: "urgent care",   desc: "緊急医療・救急ケア" },
+        { phrase: "urgent matter", desc: "緊急の案件" },
+        { phrase: "sense of urgency", desc: "緊迫感" }
+      ]
+    },
+
+    "use": {
+      origin: "ラテン語 usus（使用・慣習）< uti（使う）に由来し、古フランス語 user を経て13世紀の英語に入った。uti はインド・ヨーロッパ語根 *aw-（享受する・使う）と関連し、utensil（器具）・utility（有用性）・utilize（利用する）と語族をなす。\n\n「道具・能力・機会を使う」という基本的な意味から「慣習（it is the use）」「薬物を使用する（drug use）」「活用する（make use of）」など多様な意味が発展した。名詞 use と動詞 use は発音が異なる点も特徴的である（名詞：/juːs/・動詞：/juːz/）。\n\n「use up（使い切る）」「make use of（利用する）」「of use（役に立つ）」「it's no use（無駄だ）」「used to（かつて〜したものだ）」など文法的・慣用的表現が非常に豊富であり、英語の最頻出語のひとつである。",
+      derivatives: [
+        { word: "useful",    desc: "役立つ（形容詞）" },
+        { word: "useless",   desc: "役立たない（形容詞）" },
+        { word: "user",      desc: "使用者・ユーザー（名詞）" },
+        { word: "reuse",     desc: "再使用する（動詞）" }
+      ],
+      family: [
+        { word: "utility",  desc: "有用性（ラテン語 utilitas）" },
+        { word: "utilize",  desc: "利用する（ラテン語 utilizare）" },
+        { word: "utensil",  desc: "器具・道具（uti 同根）" }
+      ],
+      compounds: [
+        { phrase: "make use of",  desc: "〜を利用する" },
+        { phrase: "use up",       desc: "使い切る" },
+        { phrase: "it's no use",  desc: "無駄だ" }
+      ]
+    },
+
+    "usual": {
+      origin: "ラテン語 usualis（習慣的な）< usus（使用・慣習）< uti（使う）に由来し、use（使う）と同語族である。古フランス語 usuel を経て14世紀の英語に入り、「習慣として行われている・普通の」という意味で定着した。\n\n「いつも通り・普通の」という意味が基本で、「the usual（いつものもの）」「as usual（いつものように）」「more than usual（いつもより）」「out of the usual（普通でない）」など日常表現として非常に頻繁に使われる。\n\n「business as usual（通常通りの業務・普段通り）」「unusual（珍しい・異常な）」「unusually（異常に）」など法律・ビジネスの文脈でも重要語であり、「通常・慣例」という概念が社会的・法的に重要な意味を持つ場面で頻出する。",
+      derivatives: [
+        { word: "usually",   desc: "たいてい・普通（副詞）" },
+        { word: "unusual",   desc: "珍しい・異常な（形容詞）" },
+        { word: "unusually", desc: "異常に・珍しく（副詞）" }
+      ],
+      family: [
+        { word: "use",      desc: "使う（same root）" },
+        { word: "custom",   desc: "慣習（類義語）" },
+        { word: "normal",   desc: "正常な（ラテン語 normalis）" }
+      ],
+      compounds: [
+        { phrase: "as usual",           desc: "いつものように" },
+        { phrase: "business as usual",  desc: "通常通りの業務" },
+        { phrase: "out of the usual",   desc: "いつもと違う" }
+      ]
+    },
+
+    "view": {
+      origin: "古フランス語 veue（見ること・眺め）< veoir（見る）< ラテン語 videre（見る）< インド・ヨーロッパ語根 *weid-（見る・知る）に由来する。vision・video・wise（賢い：知る者）・wit（知恵）とも語族をなすとされる。14世紀に英語に入った。\n\n「眺め・景色」という物理的な意味から「観点・見解（point of view）」「概観（overview）」「目的（with a view to）」「視聴（video view）」など多様な意味が発展した。デジタル時代には「再生回数（YouTube views）」という現代的な意味でも日常的に使われる語となっている。\n\n「in view of（〜を考慮して）」「with a view to（〜を目的として）」「bird's eye view（鳥瞰図）」「worldview（世界観）」「overview（概観）」など多彩な複合語・慣用表現を持つ語である。",
+      derivatives: [
+        { word: "viewer",    desc: "視聴者・観察者（名詞）" },
+        { word: "preview",   desc: "試写・プレビュー（名詞）" },
+        { word: "review",    desc: "復習・評価・見直す（名詞/動詞）" },
+        { word: "overview",  desc: "概観・概要（名詞）" }
+      ],
+      family: [
+        { word: "vision",  desc: "視覚・ビジョン（videre 同根）" },
+        { word: "video",   desc: "映像（videre 同根）" },
+        { word: "wise",    desc: "賢い（*weid- 同根）" }
+      ],
+      compounds: [
+        { phrase: "point of view",  desc: "観点・視点" },
+        { phrase: "in view of",     desc: "〜を考慮して" },
+        { phrase: "worldview",      desc: "世界観" }
+      ]
+    },
+
+    "visit": {
+      origin: "ラテン語 visitare（繰り返し見に行く）< visere（見に行く）< videre（見る）の頻度形に由来し、古フランス語 visiter を経て13世紀の英語に入った。vision（視覚）・view（眺め）と同語族であり、「見に行く」という原義を持つ。\n\n「人や場所を訪れる」という基本的な意味から「医師が診察に来る（the doctor visits）」「神が罰を下す（visited upon：聖書語）」「ウェブサイトを閲覧する（visit a website）」など多様な文脈で使われる。\n\n「pay a visit（訪問する）」「return a visit（返礼訪問する）」「official visit（公式訪問）」「visit of condolence（弔問）」「revisit（再訪する・見直す）」など外交・医療・日常のあらゆる場面で使われる重要語である。",
+      derivatives: [
+        { word: "visitor",  desc: "訪問者・観光客（名詞）" },
+        { word: "visitation", desc: "公式訪問・神の罰（名詞）" },
+        { word: "revisit",  desc: "再訪する・見直す（動詞）" }
+      ],
+      family: [
+        { word: "vision",  desc: "視覚（videre 同根）" },
+        { word: "video",   desc: "映像（videre 同根）" },
+        { word: "advise",  desc: "助言する（ad+videre）" }
+      ],
+      compounds: [
+        { phrase: "pay a visit",    desc: "訪問する" },
+        { phrase: "official visit", desc: "公式訪問" },
+        { phrase: "visit a website", desc: "ウェブサイトを閲覧する" }
+      ]
+    },
+
+    "wait": {
+      origin: "古ノルド語 veita（注意する・待ち伏せする）または古フランス語 waiter（見張る・待つ）< ゲルマン語根 *wakt-（目を覚ます・見張る）< インド・ヨーロッパ語根 *weg-（活発な・目を覚ます）に由来する。wake（目を覚ます）・watch（見張る）と語根的に関連するとされる。\n\n「ある事が起こるまでそこにいる」という基本的な意味が中心で、「wait for（〜を待つ）」「wait on（サービスをする）」「wait up（起きて待つ）」「wait and see（様子を見る）」など多様な用法がある。\n\n「wait a moment（少しお待ちを）」「wait for no one（誰も待たない：時間は誰も待たない）」「lie in wait（待ち伏せする）」「waiting list（順番待ちリスト）」「can't wait（待ちきれない）」など多彩な慣用表現を持つ最頻出語のひとつである。",
+      derivatives: [
+        { word: "waiter",   desc: "ウェイター・給仕（名詞）" },
+        { word: "waiting",  desc: "待機・ウェイティング（名詞）" },
+        { word: "waitlist", desc: "順番待ちリスト（名詞）" }
+      ],
+      family: [
+        { word: "wake",    desc: "目を覚ます（同語根系）" },
+        { word: "watch",   desc: "見張る・注視する（同語根系）" },
+        { word: "await",   desc: "待ちわびる（a+wait）" }
+      ],
+      compounds: [
+        { phrase: "wait and see",  desc: "様子を見る" },
+        { phrase: "waiting list",  desc: "順番待ちリスト" },
+        { phrase: "can't wait",    desc: "待ちきれない・楽しみで仕方ない" }
+      ]
+    },
+
+    "walk": {
+      origin: "古英語 wealcan（転がる・動き回る）< ゲルマン語根 *welk- < インド・ヨーロッパ語根 *welg-（回る・転がる）に由来するとされる。waltz（ワルツ：回るダンス）と語根的に関連するという説もある。「二本足でゆっくり移動する」という現代的な意味は中英語期に定着した。\n\n「歩く・散歩する」という基本的な意味から「walk of life（社会的地位・職業）」「walk the talk（言行一致する）」「take someone for a walk（散歩に連れて行く）」など多様な比喩的用法が発展した。\n\n「walk of fame（ウォーク・オブ・フェイム：スターの殿堂）」「sleepwalk（夢遊病）」「boardwalk（木道）」「moonwalk（ムーンウォーク）」「walk a tightrope（綱渡りをする）」など多彩な複合語・慣用表現を持つ英語の基本動詞である。",
+      derivatives: [
+        { word: "walker",    desc: "歩く人・歩行器（名詞）" },
+        { word: "walkway",   desc: "歩道・通路（名詞）" },
+        { word: "walkout",   desc: "ストライキ・退場（名詞）" }
+      ],
+      family: [
+        { word: "stroll",  desc: "そぞろ歩く（ドイツ語系）" },
+        { word: "march",   desc: "行進する（フランス語系）" },
+        { word: "stride",  desc: "大股で歩く（古英語）" }
+      ],
+      compounds: [
+        { phrase: "walk the talk",   desc: "言行一致する" },
+        { phrase: "walk of life",    desc: "社会的地位・職業" },
+        { phrase: "walk away from",  desc: "〜から去る・諦める" }
+      ]
+    },
+
+    "war": {
+      origin: "古ノルド語 werr（混乱・争い）または古フランス語 werre（戦争）< フランク語 *werra（混乱・争い）< ゲルマン語根 *wers-（混ぜる・乱す）に由来する。worst（最悪）・worse（より悪い）と語根的に関連するとされる。11世紀頃から英語に入った。\n\n「国家・集団間の武力衝突」という意味が基本で、「civil war（内戦）」「cold war（冷戦）」「war of words（言葉の戦い）」「declaration of war（宣戦布告）」など政治・外交の核心語である。\n\n「war on drugs（麻薬戦争）」「war on poverty（貧困との戦い）」「star wars（スターウォーズ）」「warmonger（戦争好きな人）」「war games（軍事演習）」など比喩的・文化的用法も非常に豊富であり、人類の最も深刻な問題のひとつを表す重要語である。",
+      derivatives: [
+        { word: "warrior",    desc: "戦士・闘士（名詞）" },
+        { word: "warfare",    desc: "戦争行為・戦闘（名詞）" },
+        { word: "wartime",    desc: "戦時（名詞/形容詞）" },
+        { word: "warmonger",  desc: "戦争屋・好戦家（名詞）" }
+      ],
+      family: [
+        { word: "battle",   desc: "戦闘・戦い（古フランス語 bataille）" },
+        { word: "conflict", desc: "衝突・紛争（ラテン語 conflictus）" },
+        { word: "warfare",  desc: "戦争行為（war+fare）" }
+      ],
+      compounds: [
+        { phrase: "civil war",   desc: "内戦" },
+        { phrase: "cold war",    desc: "冷戦" },
+        { phrase: "war of words", desc: "言葉の戦い・口論" }
+      ]
+    },
+
+    "weak": {
+      origin: "古ノルド語 veikr（弱い・曲がりやすい）< ゲルマン語根 *waikwaz < インド・ヨーロッパ語根 *weik-（曲がる・折れる）に由来する。wicker（バスケットの柳細工：曲げやすい素材）とも語根的に関連する。13世紀頃から英語に入った。\n\n「力・強さが不足している」という物理的な意味が基本で、「weak economy（弱い経済）」「weak argument（弱い論拠）」「weak point（弱点）」「weak-willed（意志の弱い）」など多様な文脈で使われる。\n\n「weak link（弱い環：鎖の最も弱い部分）」「weak spot（弱点）」「turn the other cheek（もう一方の頬を差し出す：弱さの中の強さ）」「weak-kneed（弱腰の）」など多彩な慣用表現を持ち、strong（強い）との対比が英語の道徳的・物理的言説において重要な役割を果たす。",
+      derivatives: [
+        { word: "weaken",   desc: "弱める・弱まる（動詞）" },
+        { word: "weakness", desc: "弱さ・弱点（名詞）" },
+        { word: "weakly",   desc: "弱く・虚弱に（副詞）" }
+      ],
+      family: [
+        { word: "feeble",   desc: "か弱い（ラテン語 flebilis）" },
+        { word: "fragile",  desc: "壊れやすい（ラテン語 fragilis）" },
+        { word: "powerless", desc: "力のない（power+less）" }
+      ],
+      compounds: [
+        { phrase: "weak point",  desc: "弱点" },
+        { phrase: "weak link",   desc: "弱い環・最弱部分" },
+        { phrase: "weak-willed", desc: "意志の弱い" }
+      ]
+    },
+
+    "wear": {
+      origin: "古英語 werian（着る・身に付ける）< ゲルマン語根 *wazjan < インド・ヨーロッパ語根 *wes-（着る・覆う）に由来する。vest（ベスト）・invest（投資する：権威の衣を着せる）・devest（剥奪する）とも語根的に関連する。\n\n「衣類を身に着ける」という基本的な意味から「表情を見せる（wear a smile）」「摩耗する（wear out）」「疲れさせる（it's wearing me out）」など多様な意味が発展した。\n\n「wear and tear（摩耗・消耗）」「wear out（使い古す・疲れ切る）」「wear thin（薄れる・我慢の限界になる）」「wear the trousers（実権を持つ）」「wear off（効き目が薄れる）」など豊富な慣用表現を持つ基本動詞である。",
+      derivatives: [
+        { word: "worn",      desc: "すり減った・疲れ果てた（形容詞）" },
+        { word: "weary",     desc: "疲れた・うんざりした（形容詞）" },
+        { word: "outerwear", desc: "アウターウェア（名詞）" }
+      ],
+      family: [
+        { word: "vest",    desc: "ベスト・チョッキ（wes- 同根）" },
+        { word: "invest",  desc: "投資する（衣を着せる）" },
+        { word: "cloth",   desc: "布・衣類（類義語）" }
+      ],
+      compounds: [
+        { phrase: "wear out",       desc: "使い古す・疲れ切る" },
+        { phrase: "wear and tear",  desc: "摩耗・消耗" },
+        { phrase: "wear off",       desc: "効き目が薄れる" }
+      ]
     }
 
   };

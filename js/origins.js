@@ -26015,6 +26015,546 @@
         { phrase: "pipe dream",       desc: "実現不可能な夢" },
         { phrase: "beyond one's wildest dreams", desc: "想像をはるかに超えて" }
       ]
+    },
+
+    "drift": {
+      origin: "古ノルド語 drift（雪の吹き溜まり・群れ）< drifa（雪が流れる）< ゲルマン語根 *dreib-（押す・追う）に由来する。drive と同根であり、どちらも「力によって動く」という原義を持つ。14世紀頃から英語に入り、当初は「雪・砂の吹き溜まり」を指した。\n\n17世紀以降は「水・風に流される」という動詞用法が発達し、目的なく流れる「漂流」という比喩的意味も生まれた。「continental drift（大陸移動）」は20世紀の地質学用語として定着し、「drift apart（疎遠になる）」「drift off（うとうとする）」などのイディオムも豊富である。\n\n「get the drift（要点をつかむ）」という表現は「流れを読む」という比喩から来ており、口語英語で「あなたの言いたいことはわかります」という意味で使われる慣用句である。",
+      derivatives: [
+        { word: "drifter",   desc: "流れ者・目的なく漂う人（名詞）" },
+        { word: "drifting",  desc: "漂流・ドリフト（名詞/形容詞）" },
+        { word: "adrift",    desc: "漂流して・目標なく（副詞/形容詞）" }
+      ],
+      family: [
+        { word: "drive",   desc: "運転する・追う（同語根）" },
+        { word: "float",   desc: "浮かぶ（水面を流れる）" },
+        { word: "wander",  desc: "さまよう（方向なく移動）" }
+      ],
+      compounds: [
+        { phrase: "continental drift", desc: "大陸移動" },
+        { phrase: "drift apart",       desc: "疎遠になる" },
+        { phrase: "get the drift",     desc: "言いたいことがわかる" }
+      ]
+    },
+
+    "drive": {
+      origin: "古英語 drīfan（追う・押す・運転する）< ゲルマン語根 *dreib-（押す・追う）< インド・ヨーロッパ語根 *dhreibh- に由来する。ドイツ語 treiben（追う・駆り立てる）・オランダ語 drijven と同族であり、「力を与えて動かす」という原義を持つ。\n\n自動車・機械の普及以前は「動物を追う」という農業的文脈で使われ、19世紀の産業革命期以降は「機械を動かす」という意味が加わった。20世紀には自動車運転（drive a car）が主要な意味となったが、「what drives you（何があなたを動機づけるか）」「business driver（事業推進要因）」など心理的・経営的な意味でも頻用される。\n\n「drive someone crazy（誰かを狂わせる）」「drive home（打ち込む・明確にする）」「drive-through（車のまま利用できる）」など多様な複合語・イディオムが発達している。",
+      derivatives: [
+        { word: "driver",    desc: "運転手・推進力（名詞）" },
+        { word: "driving",   desc: "運転・主要な（名詞/形容詞）" },
+        { word: "driven",    desc: "意欲的な・駆り立てられた（形容詞）" },
+        { word: "driveway",  desc: "私道・車道（名詞）" }
+      ],
+      family: [
+        { word: "drift",   desc: "漂う（同語根）" },
+        { word: "thrive",  desc: "繁栄する（同語根系）" },
+        { word: "strive",  desc: "努力する（努力して進む）" }
+      ],
+      compounds: [
+        { phrase: "drive home",       desc: "明確にする・打ち込む" },
+        { phrase: "drive-through",    desc: "ドライブスルー" },
+        { phrase: "test drive",       desc: "試乗する" }
+      ]
+    },
+
+    "drop": {
+      origin: "古英語 dropa（一滴・落下）< ゲルマン語根 *drupon < インド・ヨーロッパ語根 *dhreub-（垂れる・落ちる）に由来する。drip（しずくが垂れる）・droop（垂れ下がる）とも語族をなす。\n\n当初は「液体の一滴」という名詞だったが、中英語期以降「落ちる・落とす」という動詞へと発展した。物理的な落下から「話題を変える（drop the subject）」「やめる（drop a habit）」「見捨てる（drop a friend）」など比喩的用法が多様に発達した。\n\n現代英語では「drop by（立ち寄る）」「drop off（降ろす・居眠りする）」「drop out（脱落する・中退する）」「name drop（有名人の名前を出す）」など非常に豊富なイディオムを形成しており、日常会話において高頻度で使われる語である。",
+      derivatives: [
+        { word: "dropout",   desc: "中退者・脱落者（名詞）" },
+        { word: "droplet",   desc: "小さな水滴（名詞）" },
+        { word: "raindrop",  desc: "雨粒（名詞）" }
+      ],
+      family: [
+        { word: "drip",   desc: "したたる（継続的に落ちる）" },
+        { word: "droop",  desc: "垂れ下がる（重力に屈する）" },
+        { word: "fall",   desc: "落ちる（より一般的な落下）" }
+      ],
+      compounds: [
+        { phrase: "drop out",   desc: "中退する・脱落する" },
+        { phrase: "drop by",    desc: "ちょっと立ち寄る" },
+        { phrase: "drop off",   desc: "降ろす・減少する" }
+      ]
+    },
+
+    "due": {
+      origin: "ラテン語 debitus（負っている・支払うべき）< debere（負う・借りている）< de-（離れて）+ habere（持つ）に由来する。古フランス語 deu/du を経て13世紀の英語に入り、「支払い期限が来た・当然の」という意味が定着した。\n\ndebere から英語には debt（負債）・debit（借方）・due とが派生しており、いずれも「返済義務」という原義を持つ。「due to（〜のせいで・〜に起因する）」という前置詞句は19世紀から頻用されるようになり、現代英語では最も一般的な因果関係の表現のひとつとなっている。\n\n「give someone their due（正当な評価をする）」「in due course（適切な時期に）」「due diligence（デューデリジェンス・適切な注意）」など法律・ビジネスの場でも重要な慣用表現を形成している。",
+      derivatives: [
+        { word: "debt",    desc: "負債・借金（名詞）" },
+        { word: "debit",   desc: "借方・引き落とし（名詞）" },
+        { word: "overdue", desc: "期限超過の・遅れた（形容詞）" }
+      ],
+      family: [
+        { word: "owe",     desc: "〜を負う（義務を持つ）" },
+        { word: "duty",    desc: "義務・関税（due と同根）" },
+        { word: "endow",   desc: "基金を設ける・恵む（en+due）" }
+      ],
+      compounds: [
+        { phrase: "due date",       desc: "締め切り・期限日" },
+        { phrase: "due diligence",  desc: "デューデリジェンス" },
+        { phrase: "in due course",  desc: "適切な時期に" }
+      ]
+    },
+
+    "dull": {
+      origin: "古英語 dol（愚かな・鈍い）< ゲルマン語根 *dulaz に由来する。ドイツ語 toll（すばらしい→かつては「愚かな」）・オランダ語 dol（狂った）と同族系統を持つとされる。インド・ヨーロッパ語根 *dhwel-（煙る・暗くなる）との関連も指摘される。\n\n当初は「知的に鈍い・愚かな」という意味であったが、中英語期以降「刃が鈍い」「色が鈍い」「天気が曇りがちな」「つまらない」など多様な「鋭さのなさ」を表す形容詞として発展した。「dull moment（退屈な瞬間）」「never a dull moment（退屈な瞬間がない）」という慣用句も定着している。\n\n動詞としての「dull pain（痛みを和らげる）」は「感覚を鈍らせる」という意味であり、医療・薬学の文脈でも使われる。日常語としてはつまらなさや活気のなさを表す形容詞が中心的用法である。",
+      derivatives: [
+        { word: "dullness",  desc: "鈍さ・退屈さ（名詞）" },
+        { word: "dully",     desc: "鈍く・退屈に（副詞）" },
+        { word: "dullard",   desc: "鈍い人・馬鹿者（名詞）" }
+      ],
+      family: [
+        { word: "blunt",   desc: "鈍い・率直な（刃の鋭さがない）" },
+        { word: "bland",   desc: "平板な・おとなしい（刺激がない）" },
+        { word: "dim",     desc: "薄暗い・頭の鈍い（光が弱い）" }
+      ],
+      compounds: [
+        { phrase: "dull pain",              desc: "鈍痛" },
+        { phrase: "never a dull moment",    desc: "退屈な瞬間がない" },
+        { phrase: "dull the senses",        desc: "感覚を鈍らせる" }
+      ]
+    },
+
+    "edge": {
+      origin: "古英語 ecg（刃・端・先端）< ゲルマン語根 *agjō < インド・ヨーロッパ語根 *ak-（鋭い・先が尖っている）に由来する。acid（酸）・acne（にきび）・acute（鋭い）・oxygen（酸素）なども同語根とされる。ドイツ語 Ecke（角・隅）と同族である。\n\n「刃・端」という物理的な意味から「競争上の優位（competitive edge）」「神経が尖った状態（on edge）」「際どい状態（on the edge）」など比喩的意味が豊富に発達した。「cutting edge（最先端）」「edge out（わずかに上回る）」「edgy（神経質な・前衛的な）」なども現代英語で頻用される。\n\n技術・ビジネスの文脈では「edge computing（エッジコンピューティング）」「leading edge（最先端技術）」など21世紀的な専門語としても定着しており、語の持つ「先端・境界」というイメージが現代的概念に応用されている。",
+      derivatives: [
+        { word: "edgy",     desc: "神経質な・刺激的・前衛的な（形容詞）" },
+        { word: "edging",   desc: "縁取り・端部（名詞）" },
+        { word: "ledge",    desc: "出っ張り・岩棚（名詞）" }
+      ],
+      family: [
+        { word: "acute",   desc: "鋭い・激しい（*ak- 同根）" },
+        { word: "acid",    desc: "酸・酸っぱい（*ak- 同根）" },
+        { word: "acme",    desc: "頂点・絶頂（ギリシャ語 akme）" }
+      ],
+      compounds: [
+        { phrase: "cutting edge",       desc: "最先端・先進的な" },
+        { phrase: "on the edge",        desc: "際どい状態で・崖っぷちで" },
+        { phrase: "competitive edge",   desc: "競争上の優位性" }
+      ]
+    },
+
+    "emerge": {
+      origin: "ラテン語 emergere（浮かび上がる）< e-（外に）+ mergere（沈む・浸す）に由来する。mergere はインド・ヨーロッパ語根 *mezg-（浸す）と関連し、merge（合併する）・immerse（浸す）・submerge（水没させる）と語族をなす。\n\n16世紀に英語に入り、物理的な「水面に浮かび上がる」から「困難から抜け出る」「新たに現れる」という比喩的意味へと拡張した。20世紀の進化論・システム理論における「emergence（創発）」は「より複雑なものが下位要素から自発的に生じる」という概念として科学哲学に定着した。\n\n「emerging markets（新興市場）」「emerging technologies（新興技術）」など現代ビジネス・経済の文脈でも emerge は重要語であり、「新たに台頭しつつある」という意味合いが特に重視されている。",
+      derivatives: [
+        { word: "emergence",  desc: "出現・創発（名詞）" },
+        { word: "emergency",  desc: "緊急事態（名詞）" },
+        { word: "emergent",   desc: "新興の・創発的な（形容詞）" }
+      ],
+      family: [
+        { word: "merge",    desc: "合併する（mergere 同根）" },
+        { word: "immerse",  desc: "浸す（im+mergere）" },
+        { word: "submerge", desc: "水没させる（sub+mergere）" }
+      ],
+      compounds: [
+        { phrase: "emerge from",        desc: "〜から出現する" },
+        { phrase: "emerging market",    desc: "新興市場" },
+        { phrase: "emergency exit",     desc: "非常口" }
+      ]
+    },
+
+    "enable": {
+      origin: "中英語 enablen < en-（〜にする）+ able（できる）< ラテン語 habilis（扱いやすい）< habere（持つ）に由来する。able はインド・ヨーロッパ語根 *ghabh-（つかむ・持つ）と関連し、have・habit・exhibit とも語族をなす。\n\n「できる状態にする・可能にする」という使役的な意味で15世紀頃から使われ始め、技術・社会制度・政策などの文脈で「〜を可能にする条件を作る」という意味が重要になった。コンピューター・ソフトウェアの文脈では「機能を有効にする（enable a feature）」という専門的な意味でも広く使われる。\n\n「enabling legislation（授権立法）」「enabling environment（促進環境）」などの専門語彙は政策・国際開発の文脈で重要であり、また「enabler（問題行動を助長する人）」という心理学・家族療法の用語としての用法も現代英語では重要な意味を持つ。",
+      derivatives: [
+        { word: "enabler",    desc: "可能にする人・助長者（名詞）" },
+        { word: "enabling",   desc: "可能にする・授権の（形容詞）" },
+        { word: "disabled",   desc: "無効にされた・障害のある（形容詞）" }
+      ],
+      family: [
+        { word: "able",     desc: "できる（able の基本語）" },
+        { word: "ability",  desc: "能力（able の名詞形）" },
+        { word: "capable",  desc: "有能な（cap+able）" },
+        { word: "disable",  desc: "無効にする（dis+enable）" }
+      ],
+      compounds: [
+        { phrase: "enable access",   desc: "アクセスを可能にする" },
+        { phrase: "tech-enabled",    desc: "技術により可能にされた" }
+      ]
+    },
+
+    "encounter": {
+      origin: "ラテン語 incontrare（向かって進む）< in-（中に）+ contra（向かって・反対に）に由来し、古フランス語 encontrer を経て13世紀の英語に入った。contra はインド・ヨーロッパ語根 *kom（共に）+ *ter-（超えて）と関連し、contrary・contrast・contradict なども同語根系統である。\n\n当初は「敵と遭遇する・戦う」という軍事的な文脈で使われ、その後「偶然の出会い」「予期しない遭遇」という一般的な意味へと拡張した。「encounter difficulties（困難に遭遇する）」「close encounter（至近での遭遇）」「encounter a problem（問題に直面する）」など現代英語でも頻繁に使われる。\n\nSF・天文学では「close encounter of the third kind（第三種接近遭遇）」というスティーヴン・スピルバーグの映画タイトルが文化的に定着しており、「encounter」が異文化・異種間の出会いを象徴する語としても機能している。",
+      derivatives: [
+        { word: "encountering", desc: "遭遇すること（動名詞）" }
+      ],
+      family: [
+        { word: "contrary",     desc: "反対の・逆の（contra 同根）" },
+        { word: "contrast",     desc: "対比・対照（contra+stare）" },
+        { word: "contradict",   desc: "矛盾する（contra+dicere）" },
+        { word: "confront",     desc: "対面する・直面する（con+frons）" }
+      ],
+      compounds: [
+        { phrase: "chance encounter",   desc: "偶然の出会い" },
+        { phrase: "close encounter",    desc: "接近遭遇" },
+        { phrase: "encounter resistance", desc: "抵抗に遭う" }
+      ]
+    },
+
+    "energy": {
+      origin: "ギリシャ語 energeia（活動・実働）< en-（中に）+ ergon（仕事・働き）に由来する。ergon はインド・ヨーロッパ語根 *werg-（行う・働く）と関連し、work・ergonomics・surgery（手術）・organ（器官）なども同語根系統である。ラテン語 energia を経て16世紀の英語に入った。\n\n哲学・神学的な「活力・実働」という意味で使われた後、19世紀の物理学において「エネルギー（仕事を行う能力）」という科学的定義が確立し、thermodynamics（熱力学）の中核概念となった。20世紀以降は renewable energy（再生可能エネルギー）・energy policy（エネルギー政策）など社会的・政治的な語彙としても重要性が増している。\n\n日常語としての「She has a lot of energy（活力がある）」という用法と物理量としての「energy（J：ジュール）」という用法が並存しており、語の守備範囲が非常に広い。",
+      derivatives: [
+        { word: "energize",   desc: "活力を与える・エネルギー化する（動詞）" },
+        { word: "energetic",  desc: "精力的な・活動的な（形容詞）" },
+        { word: "energetics", desc: "エネルギー論（名詞）" }
+      ],
+      family: [
+        { word: "work",       desc: "仕事（*werg- 同根）" },
+        { word: "ergonomics", desc: "人間工学（ergon 同根）" },
+        { word: "organ",      desc: "器官（働くもの）" },
+        { word: "surgery",    desc: "外科手術（手の仕事）" }
+      ],
+      compounds: [
+        { phrase: "renewable energy",  desc: "再生可能エネルギー" },
+        { phrase: "energy efficiency", desc: "エネルギー効率" },
+        { phrase: "energy drink",      desc: "エナジードリンク" }
+      ]
+    },
+
+    "engage": {
+      origin: "フランス語 engager（誓約する・従事させる）< en-（中に）+ gage（担保・誓約）< フランク語 *waddi（担保）に由来する。gage はゲルマン語根 *wad-（誓い）と関連し、wage（賃金）・wager（賭ける）と語族をなす。16世紀に英語に入った。\n\n「誓約・担保を入れる」という法律的原義から「雇用する（engage staff）」「戦闘を開始する（engage the enemy）」「関与する（engage with stakeholders）」「魅了する（engaging personality）」など多様な意味が発達した。\n\n20世紀以降、経営学・マーケティングにおいて「employee engagement（従業員エンゲージメント）」「customer engagement（顧客エンゲージメント）」という概念が重要視され、engage は組織論・デジタルマーケティングの核心語となった。",
+      derivatives: [
+        { word: "engagement",  desc: "婚約・従事・エンゲージメント（名詞）" },
+        { word: "engaged",     desc: "従事している・婚約中の（形容詞）" },
+        { word: "engaging",    desc: "魅力的な・人を引きつける（形容詞）" },
+        { word: "disengage",   desc: "離脱する・外す（動詞）" }
+      ],
+      family: [
+        { word: "wage",   desc: "賃金（担保として与えるもの）" },
+        { word: "wager",  desc: "賭け（担保を置く）" },
+        { word: "pledge", desc: "誓約・担保（gage 類義語）" }
+      ],
+      compounds: [
+        { phrase: "engage with",          desc: "〜に関与する・取り組む" },
+        { phrase: "employee engagement",  desc: "従業員エンゲージメント" },
+        { phrase: "re-engage",            desc: "再び関与する" }
+      ]
+    },
+
+    "ensure": {
+      origin: "古フランス語 enseürer（保証する・確実にする）< en-（強意）+ seür（安全な）< ラテン語 securus（安全な）< se-（分離・安心）+ cura（心配・管理）に由来する。insure・assure・secure と語族をなし、いずれも「確実性・安全性を保証する」という概念を共有する。\n\n15世紀に英語に入り、「〜を確実にする・保証する」という意味で用いられてきた。insure（保険をかける）と語義が近いが、ensure は「確実に起こるようにする」、insure は「損失に対して保険をかける」という意味的な分化が現代英語では一般的である。\n\n「ensure success（成功を確実にする）」「ensure compliance（法規遵守を徹底する）」など、ビジネス・法律・品質管理の文脈で重要な動詞として機能している。",
+      derivatives: [
+        { word: "assure",   desc: "保証する・安心させる（動詞）" },
+        { word: "insure",   desc: "保険をかける・保証する（動詞）" },
+        { word: "secure",   desc: "安全な・確保する（形容詞/動詞）" }
+      ],
+      family: [
+        { word: "sure",    desc: "確かな（securus の短縮）" },
+        { word: "safe",    desc: "安全な（類義語）" },
+        { word: "certain", desc: "確実な（cernere から）" },
+        { word: "guarantee", desc: "保証（ゲルマン語根）" }
+      ],
+      compounds: [
+        { phrase: "ensure compliance",  desc: "法規遵守を確保する" },
+        { phrase: "ensure safety",      desc: "安全を確保する" }
+      ]
+    },
+
+    "evil": {
+      origin: "古英語 yfel（悪い・有害な）< ゲルマン語根 *ubilaz < インド・ヨーロッパ語根 *upélo-（超えた・度を越した）に由来するとされる。ドイツ語 übel（悪い・気分が悪い）・オランダ語 euvel と同族であり、「限度を超えた・過剰な」という原義が「道徳的悪」へと転義した。\n\n古英語・中英語では「悪い・有害な」という形容詞として広く使われたが、現代英語では宗教的・哲学的な「evil（悪・邪悪）」という意味が中心となり、口語では bad・wrong の方が一般的になっている。「the evil of slavery（奴隷制の悪）」「lesser of two evils（二悪のうちのマシな方）」などは道徳的議論で頻出する表現である。\n\n「evil eye（邪視・悪意のある視線）」「axis of evil（悪の枢軸）」などの表現は政治的・文化的言説においても重要語として機能している。",
+      derivatives: [
+        { word: "evildoer",  desc: "悪人・悪を行う者（名詞）" },
+        { word: "evilly",    desc: "邪悪に（副詞）" },
+        { word: "evilness",  desc: "邪悪さ（名詞）" }
+      ],
+      family: [
+        { word: "wicked",   desc: "邪悪な（古英語 wicca より）" },
+        { word: "bad",      desc: "悪い（古英語 bæddel）" },
+        { word: "malice",   desc: "悪意（ラテン語 malus）" }
+      ],
+      compounds: [
+        { phrase: "evil eye",    desc: "邪視・悪意ある目" },
+        { phrase: "lesser evil", desc: "まだマシな悪" },
+        { phrase: "pure evil",   desc: "純粋な悪" }
+      ]
+    },
+
+    "exhaust": {
+      origin: "ラテン語 exhaurire（汲み尽くす・使い果たす）< ex-（完全に外へ）+ haurire（汲む・引き出す）に由来する。haurire はインド・ヨーロッパ語根 *heus-（汲む）と関連するとされる。16世紀に英語に入り「使い尽くす・疲弊させる」という意味で定着した。\n\n工学的な「排気（exhaust gas）」という意味は産業革命以降に発展し、エンジン・工場の「排気管（exhaust pipe）」という用法が生まれた。身体的・精神的な「疲れ果てる（exhausted）」という用法は感情的な「使い果たし」の比喩であり、現代英語では非常に頻繁に使われる。\n\n「exhaust all options（すべての選択肢を使い果たす）」「exhaust one's patience（忍耐を尽かせる）」のように「完全に使い切る」という原義が保持されており、exhaustive（網羅的な）・inexhaustible（尽きない）など派生語も重要である。",
+      derivatives: [
+        { word: "exhausted",    desc: "疲れ果てた・使い尽くされた（形容詞）" },
+        { word: "exhaustion",   desc: "疲労困憊・消耗（名詞）" },
+        { word: "exhaustive",   desc: "網羅的な・徹底的な（形容詞）" },
+        { word: "inexhaustible", desc: "尽きることのない（形容詞）" }
+      ],
+      family: [
+        { word: "drain",    desc: "排水する・消耗させる（類義語）" },
+        { word: "deplete",  desc: "枯渇させる（de+plere 満たされた→空に）" },
+        { word: "fatigue",  desc: "疲労（ラテン語 fatigare）" }
+      ],
+      compounds: [
+        { phrase: "exhaust pipe",     desc: "排気管" },
+        { phrase: "exhaust fumes",    desc: "排気ガス" },
+        { phrase: "exhaust all options", desc: "すべての手段を尽くす" }
+      ]
+    },
+
+    "face": {
+      origin: "ラテン語 facies（形・面・顔）< facere（作る・形成する）に由来し、古フランス語 face を経て13世紀の英語に入った。facere はインド・ヨーロッパ語根 *dheH1-（置く・作る）に由来し、fact・factory・affect・surface と語族をなす。\n\n「顔・表面」という物理的な意味から「直面する（face a problem）」「向き合う（face north）」など動詞的意味が発達した。「lose face（面目を失う）」は東洋文化から英語に取り込まれた概念であり、「save face（面目を保つ）」という表現と対をなす。\n\n現代英語では「face time（対面時間）」「face mask（フェイスマスク）」「face value（額面・表面上の価値）」「face-to-face（対面の）」などの複合語が日常的に使われ、SNS・会議の文脈では新しい用法も生まれている。",
+      derivatives: [
+        { word: "facial",   desc: "顔の・フェイシャル（形容詞/名詞）" },
+        { word: "surface",  desc: "表面（sur+face 上の顔）" },
+        { word: "efface",   desc: "消し去る・目立たなくする（ex+face）" }
+      ],
+      family: [
+        { word: "fact",     desc: "事実（作られたもの）" },
+        { word: "factory",  desc: "工場（作る場所）" },
+        { word: "affect",   desc: "影響する（ad+facere）" }
+      ],
+      compounds: [
+        { phrase: "face to face",   desc: "対面で" },
+        { phrase: "lose face",      desc: "面目を失う" },
+        { phrase: "face value",     desc: "額面・見かけの価値" }
+      ]
+    },
+
+    "fair": {
+      origin: "古英語 fæger（美しい・好ましい）< ゲルマン語根 *fagraz < インド・ヨーロッパ語根 *pek-（美しい・好ましい）に由来する。ドイツ語 fein（上品な）・ゴート語 fagrs（適切な）と同族である。\n\n古英語では「美しい・明るい」という意味が中心だったが、中英語以降「公平な・正当な」という道徳的意味が発達した。「fair weather（晴天）」という気象的意味・「county fair（地方博覧会）」という名詞の「市・フェア」は異なる語源から合流した可能性がある（後者はラテン語 feria 祭り）。\n\n「fair and square（正々堂々と）」「fair game（格好の標的）」「fair play（フェアプレー）」「it's not fair（不公平だ）」など多様な慣用表現を持ち、英語の道徳的・法律的言説において重要な語である。",
+      derivatives: [
+        { word: "fairness",  desc: "公平さ・公正（名詞）" },
+        { word: "fairly",    desc: "かなり・公平に（副詞）" },
+        { word: "unfair",    desc: "不公平な（形容詞）" }
+      ],
+      family: [
+        { word: "just",     desc: "公正な（ラテン語 justus）" },
+        { word: "equitable", desc: "公平な（ラテン語 aequus）" },
+        { word: "impartial", desc: "偏らない（im+partial）" }
+      ],
+      compounds: [
+        { phrase: "fair play",       desc: "フェアプレー・公正な行為" },
+        { phrase: "fair and square", desc: "正々堂々と" },
+        { phrase: "fair enough",     desc: "まあそうだね・納得できる" }
+      ]
+    },
+
+    "faith": {
+      origin: "ラテン語 fides（信頼・誠実さ・信仰）< fidere（信頼する）< インド・ヨーロッパ語根 *bheidh-（信頼する・説得する）に由来する。古フランス語 feid/feit を経て13世紀の英語に入った。confide（打ち明ける）・fidelity（誠実さ）・defiance（反抗）とも語族をなす。\n\n宗教的な「信仰・信念」という意味が中心であったが、「faith in humanity（人類への信頼）」「keep faith（約束を守る）」「act in good faith（誠意を持って行動する）」のように世俗的な「信頼・誠実さ」という意味も重要である。\n\n「blind faith（盲目的な信仰）」「leap of faith（信仰への跳躍）」「article of faith（信条・信仰箇条）」など哲学・神学・心理学の文脈でも重要な語であり、英語の道徳的・宗教的語彙の中核を担っている。",
+      derivatives: [
+        { word: "faithful",   desc: "忠実な・信仰深い（形容詞）" },
+        { word: "faithless",  desc: "不誠実な・信仰のない（形容詞）" },
+        { word: "faithfully", desc: "忠実に・誠実に（副詞）" }
+      ],
+      family: [
+        { word: "confide",   desc: "打ち明ける（con+fidere）" },
+        { word: "fidelity",  desc: "誠実さ・忠実度（fides 同根）" },
+        { word: "fiancé",    desc: "婚約者（信頼で結ばれた人）" },
+        { word: "defiant",   desc: "反抗的な（de+fides）" }
+      ],
+      compounds: [
+        { phrase: "good faith",    desc: "誠意・善意" },
+        { phrase: "leap of faith", desc: "信仰への跳躍・思い切った決断" },
+        { phrase: "blind faith",   desc: "盲目的な信仰" }
+      ]
+    },
+
+    "fall": {
+      origin: "古英語 feallan（落ちる・倒れる）< ゲルマン語根 *fallan < インド・ヨーロッパ語根 *phol-（落ちる）に由来するとされる。ドイツ語 fallen・オランダ語 vallen・ゴート語 fallan と同族であり、ゲルマン語派全体に分布する基本動詞である。\n\n物理的な「落下」から「事業の失敗（fall of a business）」「国家の崩壊（fall of Rome）」「価格の下落（prices fall）」「季節の秋（American English: fall）」など多様な意味が発展した。秋（autumn）をアメリカ英語で fall と呼ぶのは「葉が落ちる季節」という原義から来ている。\n\n「fall in love（恋に落ちる）」「fall asleep（眠りに落ちる）」「fall apart（崩壊する）」「fall behind（遅れをとる）」など動詞句・イディオムが非常に豊富であり、英語の最頻出動詞のひとつである。",
+      derivatives: [
+        { word: "fallen",    desc: "堕落した・倒れた（形容詞）" },
+        { word: "downfall",  desc: "没落・失敗（名詞）" },
+        { word: "rainfall",  desc: "降水量（名詞）" },
+        { word: "shortfall", desc: "不足（名詞）" }
+      ],
+      family: [
+        { word: "drop",   desc: "落とす・落ちる（類義語）" },
+        { word: "tumble", desc: "転げ落ちる（古ノルド語）" },
+        { word: "plunge", desc: "急落する（古フランス語 plonger）" }
+      ],
+      compounds: [
+        { phrase: "fall in love",   desc: "恋に落ちる" },
+        { phrase: "fall behind",    desc: "遅れをとる" },
+        { phrase: "fall apart",     desc: "崩壊する・バラバラになる" }
+      ]
+    },
+
+    "fashion": {
+      origin: "ラテン語 factio（作ること・派閥）< facere（作る）に由来し、古フランス語 façon（形・やり方）を経て13世紀の英語に入った。facere はインド・ヨーロッパ語根 *dheH1-（置く・作る）に由来し、fact・face・factory と語族をなす。\n\n当初は「形・やり方・様式」という意味で使われ、その後「当世風の服装・流行」という意味が17〜18世紀のヨーロッパ宮廷文化とともに定着した。「in fashion（流行している）」「out of fashion（時代遅れ）」という表現は現代英語でも活発に使われる。\n\n動詞としての「fashion（形作る・作り上げる）」は「fashion a solution（解決策を打ち出す）」のように抽象的な意味でも使われ、「fashion oneself on（〜を手本にする）」という用法も持つ。",
+      derivatives: [
+        { word: "fashionable",   desc: "流行の・おしゃれな（形容詞）" },
+        { word: "fashionista",   desc: "ファッショニスタ・流行に敏感な人（名詞）" },
+        { word: "unfashionable", desc: "時代遅れの（形容詞）" }
+      ],
+      family: [
+        { word: "fact",    desc: "事実（作られたもの）" },
+        { word: "factory", desc: "工場（作る場所）" },
+        { word: "faction", desc: "派閥（factio 直接の同根）" }
+      ],
+      compounds: [
+        { phrase: "in fashion",        desc: "流行している" },
+        { phrase: "fashion designer",  desc: "ファッションデザイナー" },
+        { phrase: "out of fashion",    desc: "時代遅れの" }
+      ]
+    },
+
+    "fear": {
+      origin: "古英語 fǣr（危険・突然の危難）< ゲルマン語根 *fēraz（危険）< インド・ヨーロッパ語根 *per-（試みる・危険を冒す）に由来するとされる。fēran（怖がらせる）という動詞形も古英語にあり、現代の fear はこの名詞・動詞体系を引き継いでいる。\n\n「恐怖・畏れ」という心理的意味は古英語から一貫して中心的であり、宗教的な「神への畏れ（fear of God）」という用法も長い歴史を持つ。「for fear of（〜を恐れて）」「in fear（恐怖の中で）」「fearless（勇敢な）」など多様な表現が発達した。\n\n心理学では「fear response（恐怖反応）」「irrational fear（不合理な恐怖）」「phobia（恐怖症）」との関係が研究され、fear は人間の最も根本的な感情のひとつとして認知科学・神経科学の重要概念でもある。",
+      derivatives: [
+        { word: "fearful",   desc: "恐ろしい・怖がっている（形容詞）" },
+        { word: "fearless",  desc: "勇敢な・恐れを知らない（形容詞）" },
+        { word: "fearsome",  desc: "恐ろしい・手強い（形容詞）" }
+      ],
+      family: [
+        { word: "dread",     desc: "恐怖・恐れる（古英語 draedan）" },
+        { word: "terror",    desc: "恐怖・テロ（ラテン語 terror）" },
+        { word: "fright",    desc: "驚き・恐怖（ゲルマン語）" }
+      ],
+      compounds: [
+        { phrase: "for fear of",   desc: "〜を恐れて" },
+        { phrase: "fear factor",   desc: "恐怖の要素" },
+        { phrase: "fight or flight (fear)", desc: "闘争か逃走か反応" }
+      ]
+    },
+
+    "feel": {
+      origin: "古英語 fēlan（触れる・感じる）< ゲルマン語根 *fōljan < インド・ヨーロッパ語根 *pal-（触れる）に由来するとされる。ドイツ語 fühlen（感じる）・オランダ語 voelen と同族である。\n\n触覚的な「触れる・感じる」から感情的な「気持ちを感じる」へと意味が拡張し、「feel happy（幸せを感じる）」「feel the pressure（プレッシャーを感じる）」「feel like（〜したい気がする）」など感情・認知の語として広く使われる。\n\nゲルマン語派の feel に対し、ラテン語系では sense・perceive・experience がほぼ同義で使われるが、feel は特に直接的・身体的な感覚の語として口語では最頻出である。「get the feel of（コツをつかむ）」「feel for（共感する）」などイディオムも豊富。",
+      derivatives: [
+        { word: "feeling",   desc: "気持ち・感覚（名詞）" },
+        { word: "felt",      desc: "feel の過去形（動詞）" },
+        { word: "feelgood",  desc: "気持ちよくなる（形容詞）" }
+      ],
+      family: [
+        { word: "touch",   desc: "触れる（より表面的な接触）" },
+        { word: "sense",   desc: "感じる（ラテン語 sentire）" },
+        { word: "perceive", desc: "知覚する（ラテン語 percipere）" }
+      ],
+      compounds: [
+        { phrase: "feel like",   desc: "〜したい気がする・〜のようだ" },
+        { phrase: "gut feeling", desc: "直感" },
+        { phrase: "feel for",    desc: "〜に共感する" }
+      ]
+    },
+
+    "field": {
+      origin: "古英語 feld（開けた土地・野原）< ゲルマン語根 *felþuz < インド・ヨーロッパ語根 *pelH2-（平らな・広い）に由来する。ドイツ語 Feld・オランダ語 veld（ベルド：南アフリカの平原）と同族であり、「開けた平らな場所」という原義を持つ。\n\n農業・軍事・スポーツなど「開けた場所での活動」という文脈で古英語から継続的に使われてきた。20世紀以降は「field of study（研究分野）」「magnetic field（磁場）」「oil field（油田）」「field trip（校外学習）」など比喩的・専門的用法が急増した。\n\n物理学では「field theory（場の理論）」、コンピューターサイエンスでは「input field（入力フィールド）」など最先端技術の文脈でも重要語であり、語の意味の拡張は止まっていない。",
+      derivatives: [
+        { word: "fielder",   desc: "野手（名詞）" },
+        { word: "outfield",  desc: "外野（名詞）" },
+        { word: "minefield", desc: "地雷原・危険な状況（名詞）" }
+      ],
+      family: [
+        { word: "plain",  desc: "平野（ラテン語 planus 平らな）" },
+        { word: "floor",  desc: "床・底（平らな面）" },
+        { word: "flat",   desc: "平らな（ゲルマン語）" }
+      ],
+      compounds: [
+        { phrase: "field of study",  desc: "研究分野" },
+        { phrase: "field trip",      desc: "校外学習・現地調査" },
+        { phrase: "magnetic field",  desc: "磁場" }
+      ]
+    },
+
+    "fine": {
+      origin: "ラテン語 finis（終わり・境界）< finire（終わらせる）に由来し、古フランス語 fin を経て13世紀の英語に入った。finis はインド・ヨーロッパ語根 *dhigh-（固定する・境界を設ける）と関連するとされ、final・finish・define・infinite と語族をなす。\n\n「境界が定まった＝精製された・高品質の」という意味の発展から「fine art（美術）」「fine wine（上質なワイン）」「fine detail（細部）」という用法が生まれた。また「罰金（fine）」という法律的な意味は「支払いで問題を終わらせる」という原義から来ている。\n\n日常英語では「I'm fine（元気です）」という表現が最頻出であり、良い状態・許容できる状態を示す多機能語となっている。「fine-tune（微調整する）」「fine print（細かい字の条件）」なども現代英語で重要な複合語である。",
+      derivatives: [
+        { word: "refine",   desc: "精製する・洗練する（re+fine）" },
+        { word: "define",   desc: "定義する（de+fine 境界を設ける）" },
+        { word: "final",    desc: "最終の（finis から）" },
+        { word: "finish",   desc: "終わらせる（finis から）" }
+      ],
+      family: [
+        { word: "infinite",  desc: "無限の（in+finis）" },
+        { word: "confine",   desc: "限定する・閉じ込める（con+fine）" },
+        { word: "finance",   desc: "財政（finis 精算・決済）" }
+      ],
+      compounds: [
+        { phrase: "fine art",     desc: "美術・芸術" },
+        { phrase: "fine-tune",    desc: "微調整する" },
+        { phrase: "fine print",   desc: "細かい字の条件・但し書き" }
+      ]
+    },
+
+    "fit": {
+      origin: "起源については議論があり、古ノルド語 fit（区画・綱）または低地ゲルマン語 *fitt- に由来するとされる。形容詞 fit（適した）は15世紀頃から記録され、動詞 fit（合わせる・フィットする）はその後に発達した。インド・ヨーロッパ語根 *ped-（足）との関連も指摘される。\n\n「適している・健康な・フィットした」という形容詞的意味と「合わせる・収まる」という動詞的意味が並存する。健康・運動の文脈では「physically fit（体が健康な）」「fitness（フィットネス）」という用法が20世紀後半に著しく増加した。\n\n「survival of the fittest（最適者生存）」はダーウィンの進化論を表すハーバート・スペンサーの造語として19世紀に定着し、fit という語を進化生物学の核心語として位置づけた重要な表現である。",
+      derivatives: [
+        { word: "fitness",    desc: "健康・適性（名詞）" },
+        { word: "fitting",    desc: "適切な・試着（形容詞/名詞）" },
+        { word: "outfit",     desc: "服装・装備する（out+fit）" },
+        { word: "misfit",     desc: "場違いな人・不適合（名詞）" }
+      ],
+      family: [
+        { word: "suitable",  desc: "適切な（ラテン語 sequi 従う）" },
+        { word: "proper",    desc: "適切な（ラテン語 proprius）" },
+        { word: "apt",       desc: "適切な・傾向がある（ラテン語 aptus）" }
+      ],
+      compounds: [
+        { phrase: "survival of the fittest", desc: "最適者生存" },
+        { phrase: "fit in",                  desc: "溶け込む・時間を作る" },
+        { phrase: "health and fitness",      desc: "健康とフィットネス" }
+      ]
+    },
+
+    "fix": {
+      origin: "ラテン語 fixus（固定された）< figere（刺す・固定する）の過去分詞形に由来し、中世ラテン語 fixare を経て15世紀の英語に入った。figere はインド・ヨーロッパ語根 *dhigh-（刺す・固定する）と関連し、affix・suffix・prefix・crucify とも語族をなす。\n\n「固定する」という原義から「修理する（fix a broken machine）」「準備する（fix dinner）」「解決する（fix a problem）」「不正操作する（fix a game）」など多義的な語となった。口語では「fix（窮地・苦境）」という名詞的用法（in a fix）もある。\n\n「fix one's eyes on（〜から目が離せない）」「fix up（修繕する・手配する）」「quick fix（応急処置）」「fix-it（修理屋）」など現代英語でもイディオムが豊富であり、特に口語・アメリカ英語で活発に使われる語である。",
+      derivatives: [
+        { word: "fixation",  desc: "固定・執着（名詞）" },
+        { word: "fixed",     desc: "固定された・一定の（形容詞）" },
+        { word: "fixture",   desc: "固定設備・定番（名詞）" }
+      ],
+      family: [
+        { word: "affix",   desc: "添付する・接辞（ad+figere）" },
+        { word: "prefix",  desc: "接頭辞（pre+figere）" },
+        { word: "suffix",  desc: "接尾辞（sub+figere）" },
+        { word: "crucify", desc: "十字架にかける（crux+figere）" }
+      ],
+      compounds: [
+        { phrase: "quick fix",    desc: "応急処置・その場しのぎ" },
+        { phrase: "in a fix",     desc: "困った状況にある" },
+        { phrase: "fix up",       desc: "修繕する・手配する" }
+      ]
+    },
+
+    "flee": {
+      origin: "古英語 flēon（逃げる）< ゲルマン語根 *fleuhan < インド・ヨーロッパ語根 *pleuk-（飛ぶ・流れる）に由来する。ドイツ語 fliehen・ゴート語 þliuhan と同族であり、fly（飛ぶ）とも語根的に関連すると考えられている。\n\n「危険・脅威から素早く逃げる」という意味で古英語から継続的に使われており、特に戦争・迫害・自然災害などの文脈で「難民（refugee）」の移動を表す語としても重要である。flight（逃走・飛行）は flee と語源が重なる。\n\n「flee from persecution（迫害を逃れる）」「flee the country（国外に逃れる）」など歴史的・人道的な文脈で重要であり、現代では「climate refugee（気候難民）」が flee の新しい文脈として注目されている。",
+      derivatives: [
+        { word: "flight",   desc: "逃走・飛行（flee の名詞形）" },
+        { word: "fugitive", desc: "逃亡者（ラテン語 fugere）" }
+      ],
+      family: [
+        { word: "fly",      desc: "飛ぶ（同語根系）" },
+        { word: "escape",   desc: "逃げる・逃れる（古フランス語）" },
+        { word: "retreat",  desc: "退却する（ラテン語 retrahere）" }
+      ],
+      compounds: [
+        { phrase: "flee from",       desc: "〜から逃げる" },
+        { phrase: "flee the country", desc: "国外に逃れる" },
+        { phrase: "take flight",     desc: "逃走する・飛び立つ" }
+      ]
+    },
+
+    "flow": {
+      origin: "古英語 flōwan（流れる）< ゲルマン語根 *flōanan < インド・ヨーロッパ語根 *plou-（流れる・浮かぶ）に由来する。flood（洪水）・float（浮かぶ）・fleet（艦隊）と語族をなすとされる。\n\n「液体が流れる」という物理的な意味から「情報が流れる（information flow）」「交通の流れ（traffic flow）」「お金の流れ（cash flow）」「感情の流れ（flow of emotions）」など多様な比喩的意味が発展した。\n\n心理学者ミハイ・チクセントミハイが提唱した「flow state（フロー状態）」は「完全没入・完全集中の最適体験」を表す概念として20世紀後半に定着し、flow という語に新しい心理学的意味を付け加えた。",
+      derivatives: [
+        { word: "flowing",  desc: "流れるような・流暢な（形容詞）" },
+        { word: "overflow", desc: "溢れる・オーバーフロー（動詞/名詞）" },
+        { word: "inflow",   desc: "流入（名詞）" },
+        { word: "outflow",  desc: "流出（名詞）" }
+      ],
+      family: [
+        { word: "flood",  desc: "洪水（flow の語族）" },
+        { word: "float",  desc: "浮かぶ（流れる水面に）" },
+        { word: "fluent", desc: "流暢な（ラテン語 fluere）" }
+      ],
+      compounds: [
+        { phrase: "cash flow",    desc: "キャッシュフロー" },
+        { phrase: "flow state",   desc: "フロー状態・没入体験" },
+        { phrase: "go with the flow", desc: "流れに乗る・成り行きに任せる" }
+      ]
+    },
+
+    "forget": {
+      origin: "古英語 forgietan（忘れる）< for-（完全に失う）+ gietan（つかむ・得る）に由来する。get と同語根のゲルマン語根 *getan（つかむ）が否定的接頭辞 for- と組み合わさり、「完全につかみ損なう＝忘れる」という意味を形成した。\n\nドイツ語 vergessen（忘れる）・オランダ語 vergeten も同様の構造を持ち、ゲルマン語派における「忘却」の概念が「つかみ損なう」という身体的な比喩から来ていることが見て取れる。\n\n「forget-me-not（勿忘草）」という花の名は中世から使われる感傷的な語であり、「Forget it（気にするな）」「I forgot（忘れた）」など日常会話での使用頻度も非常に高い。「forgetful（物忘れが激しい）」・「unforgettable（忘れられない）」など派生語も重要である。",
+      derivatives: [
+        { word: "forgetful",     desc: "物忘れが激しい（形容詞）" },
+        { word: "forgetfulness", desc: "忘れっぽさ（名詞）" },
+        { word: "unforgettable", desc: "忘れられない（形容詞）" }
+      ],
+      family: [
+        { word: "get",    desc: "得る（forget の語源の後半部分）" },
+        { word: "remember", desc: "思い出す（対義語）" },
+        { word: "recall", desc: "思い出す（ラテン語 re+calare）" }
+      ],
+      compounds: [
+        { phrase: "forget-me-not",  desc: "勿忘草" },
+        { phrase: "forget it",      desc: "忘れろ・気にするな" },
+        { phrase: "easy to forget", desc: "忘れやすい" }
+      ]
     }
 
   };

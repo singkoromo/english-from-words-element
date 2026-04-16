@@ -30055,6 +30055,606 @@
         { phrase: "digital divide", desc: "デジタルデバイド（情報格差）" },
         { phrase: "divide and conquer", desc: "分割統治" }
       ]
+    },
+
+    "doubt": {
+      origin: "ラテン語 dubitare（迷う、疑う）に由来し、duo（二つ）と bitare（歩む）から「二つの方向の間で揺れる」というイメージが原義にあるとされる。duo はインド・ヨーロッパ語根 *dwō-（二）に遡り、英語の two、twelve、twin などと同語族。古フランス語 douter を経て13世紀に英語に入った。
+
+中英語では douten と綴られ、「疑う」だけでなく「恐れる」という意味も持っていた。語中の b はラテン語 dubitare に回帰させるため16〜17世紀の学者たちが挿入した黙字（silent letter）で、発音されない。この種の語源的綴り直しを「ラテン語化」と呼ぶ。
+
+現代英語では doubt（名詞・動詞）、in doubt（疑わしい）、beyond doubt（疑いなく）、no doubt（おそらく）など多様な表現が使われ、哲学（Cartesian doubt デカルト的懐疑）から日常会話まで幅広く活用される。",
+      derivatives: [
+        { word: "doubtful", desc: "疑わしい（形容詞）" },
+        { word: "doubtless", desc: "疑いなく（副詞）" },
+        { word: "undoubtedly", desc: "間違いなく（副詞）" }
+      ],
+      family: [
+        { word: "dubious", desc: "疑わしい（ラテン語 dubium 系）" },
+        { word: "dual", desc: "二重の（duo 系）" },
+        { word: "two", desc: "二（同語根）" }
+      ],
+      compounds: [
+        { phrase: "beyond doubt", desc: "疑いの余地なく" },
+        { phrase: "no doubt", desc: "おそらく、疑いなく" }
+      ]
+    },
+
+    "dozen": {
+      origin: "中英語 doseine に由来し、古フランス語 dozaine（12の単位）から来ている。ラテン語 duodecim（12）が語源で、duo（二）と decem（十）から成る「2+10=12」という構成である。duo はインド・ヨーロッパ語根 *dwō-（二）、decem は *dekm（十）に遡る。
+
+12という数は古代からの度量衡・商取引の基準単位で、1ダース（dozen）は英米の商取引で卵・ビール・鉛筆など多くの商品の基本単位として長く使われた。12進法は60進法（時間・角度）と並び西洋文化に深く根付いた数体系である。
+
+現代英語では a dozen（12個）、dozens of（多数の）として使われ、baker's dozen（13個、パン屋の慣習）という表現も知られる。a dime a dozen（ありふれた、安価な）は比喩的慣用表現として定着している。",
+      derivatives: [
+        { word: "dozens", desc: "多数（複数形）" }
+      ],
+      family: [
+        { word: "dual", desc: "二重の（duo 系）" },
+        { word: "December", desc: "12月（decem 系）" },
+        { word: "decade", desc: "10年（decem 系）" },
+        { word: "twelve", desc: "12（同概念語）" }
+      ],
+      compounds: [
+        { phrase: "baker's dozen", desc: "13個（パン屋のダース）" },
+        { phrase: "a dime a dozen", desc: "ありふれた、安物の" }
+      ]
+    },
+
+    "drag": {
+      origin: "古英語 dragan（引く、運ぶ）またはノルド語 draga（引く）に由来し、ゲルマン語根 *dragan（引く）に遡る。インド・ヨーロッパ語根 *dhrāgh-（引きずる）と関連し、draw（描く・引く）と同語族である。元来は重いものを地面に引きずる動作を指した。
+
+中英語では drag と draw が密接に関連して使われ、両語は同語根から分岐した語である。drag が「重いものを引きずる・遅くする」、draw が「線を引く・引き寄せる」という意味分化が進んだ。「妨げ」という意味（a drag on progress）は物理的な引き抵抗から生まれた比喩である。
+
+現代英語では物理的動作（drag a chair）、航空・流体力学の抵抗力（aerodynamic drag）、コンピュータ操作（drag and drop）、俗語（drag 退屈なもの、in drag 異性装して）など多様な意味を持つ。",
+      derivatives: [
+        { word: "dragging", desc: "引きずる、だらだらした（形容詞）" },
+        { word: "dragnet", desc: "大規模捜査（名詞）" }
+      ],
+      family: [
+        { word: "draw", desc: "引く、描く（同語根）" },
+        { word: "draft", desc: "下書き、徴兵（同語根）" },
+        { word: "dray", desc: "荷馬車（同語根）" }
+      ],
+      compounds: [
+        { phrase: "drag and drop", desc: "ドラッグアンドドロップ" },
+        { phrase: "drag race", desc: "直線加速レース" }
+      ]
+    },
+
+    "dust": {
+      origin: "古英語 dūst（粉塵、ちり）に由来し、ゲルマン語根 *dunstaz（蒸気、霧、粉）に遡る。インド・ヨーロッパ語根 *dheu-（吹く、煙る、舞い上がる）と関連し、dusk（薄暮）とも語族をなす。元来は非常に細かい乾いた粒子が空気中に舞い上がった状態を指した。
+
+中英語では宗教的文脈で「塵（ちり）」として「人間の死すべき性質・無常」を象徴する語でもあった（You are dust, and to dust you shall return 旧約聖書）。「ほこり払い・掃除」の意もこの時代から確認される。
+
+現代英語では物理的な埃（dust the shelves）から「金粉・花粉」（gold dust, pollen）などの微粒子、比喩的な「忘却・陳腐化」（gather dust 埃をかぶる、dust something off 久しぶりに取り出す）、コンピュータ分野（dust bunny 埃の塊）まで幅広く使われる。",
+      derivatives: [
+        { word: "dusty", desc: "ほこりだらけの（形容詞）" },
+        { word: "duster", desc: "はたき、ダスターコート（名詞）" },
+        { word: "dustbin", desc: "ゴミ箱（英）（名詞）" }
+      ],
+      family: [
+        { word: "dusk", desc: "薄暮（同語根）" },
+        { word: "dew", desc: "露（*dheu- 語根）" }
+      ],
+      compounds: [
+        { phrase: "gold dust", desc: "金粉、貴重なもの" },
+        { phrase: "gather dust", desc: "埃をかぶる、使われなくなる" }
+      ]
+    },
+
+    "eager": {
+      origin: "中英語 egre（鋭い、熱烈な）に由来し、古フランス語 aigre（鋭い、酸っぱい）から来ている。ラテン語 acer（鋭い、熱心な）に遡り、インド・ヨーロッパ語根 *ak-（鋭い、尖った）と関連する。ラテン語 acumen（鋭さ）、acid（酸）、acute（鋭い）なども同語根である。
+
+中英語では「鋭い・厳しい・酸っぱい」という感覚的意味から「熱心な・激しい」という意欲的な意味に転じた。語義の転換は「刃の鋭さ」が「欲望・意欲の鋭さ」に比喩的に応用されたことによる。
+
+現代英語では eager to help（喜んで助けようとする）、eager learner（熱心な学習者）など「意欲的な、熱望する」の意で使われ、enthusiastic よりやや素朴・純粋なニュアンスを持つ。eager beaver（仕事熱心な人、でしゃばり屋）は動物の行動から生まれた慣用表現として広く知られる。",
+      derivatives: [
+        { word: "eagerly", desc: "熱心に（副詞）" },
+        { word: "eagerness", desc: "熱意（名詞）" }
+      ],
+      family: [
+        { word: "acute", desc: "鋭い、急性の（*ak- 語根）" },
+        { word: "acid", desc: "酸（*ak- 語根）" },
+        { word: "acumen", desc: "鋭敏さ（*ak- 語根）" }
+      ],
+      compounds: [
+        { phrase: "eager beaver", desc: "働き者、でしゃばり" },
+        { phrase: "eager to please", desc: "喜ばせようと熱心な" }
+      ]
+    },
+
+    "earn": {
+      origin: "古英語 earnian（稼ぐ、報酬を得る）に由来し、ゲルマン語根 *aznōjanan（稼ぐ）に遡る。インド・ヨーロッパ語根 *es-（収穫する、存在する）と関連するとされる。古英語では労働・奉仕の対価として何かを得ることを意味し、merit（値する）に近い概念で使われた。
+
+中英語を経て「労働によってお金・給料を得る」という経済的意味が中心となり、earn a wage（賃金を得る）、earn a living（生計を立てる）という用法が定着した。さらに「努力・行動によって信頼・名声などを獲得する」という抽象的意味も発展した。
+
+現代英語では earn money/salary（収入を得る）から earn respect（信頼を得る）、well-earned（当然の、苦労して得た）など多様な文脈で使われる。earnings（収入・利益）はビジネス・財務の重要用語で、quarterly earnings（四半期収益）などで頻出する。",
+      derivatives: [
+        { word: "earnings", desc: "収入、利益（名詞複数）" },
+        { word: "earner", desc: "稼ぎ手（名詞）" }
+      ],
+      family: [
+        { word: "harvest", desc: "収穫（同語族）" },
+        { word: "merit", desc: "値する（類義語）" }
+      ],
+      compounds: [
+        { phrase: "earn a living", desc: "生計を立てる" },
+        { phrase: "well-earned", desc: "当然の、苦労して得た" }
+      ]
+    },
+
+    "east": {
+      origin: "古英語 ēast（東）に由来し、ゲルマン語根 *austan-（東、日の出の方向）に遡る。インド・ヨーロッパ語根 *aus-（輝く、夜明け）と関連し、ラテン語 aurora（曙光）、ギリシャ語 ēōs（暁の女神）と同語族。「太陽が昇る方向」が「東」という意味の起源である。
+
+キリスト教の普及とともに east は宗教的意味（the East 聖地・エルサレムの方向、東方）も帯びた。中世以降は「東洋・アジア」を指す地政学的語彙としても使われ、東西対立・文明論的文脈でも重要な語となった。
+
+現代英語では方角（go east）、地理（the Middle East 中東、the Far East 極東）、文化的対比（East vs West 東西）として多様に使われる。easter（復活祭）、Easter（イースター）は夜明け・春の女神の名から来ており、east と同語根である。",
+      derivatives: [
+        { word: "eastern", desc: "東の（形容詞）" },
+        { word: "eastward", desc: "東へ（副詞）" },
+        { word: "northeast", desc: "北東（名詞）" }
+      ],
+      family: [
+        { word: "Easter", desc: "復活祭（夜明けの女神名から）" },
+        { word: "aurora", desc: "曙光（ラテン語同語根）" }
+      ],
+      compounds: [
+        { phrase: "Middle East", desc: "中東" },
+        { phrase: "Far East", desc: "極東" }
+      ]
+    },
+
+    "easy": {
+      origin: "中英語 esy に由来し、古フランス語 aisié（楽な、快適な）から来ている。古フランス語 aise（楽、快適）はラテン語 adjacens（隣接した、都合のよい）またはゲルマン語の *ansia（余裕）に由来するとされ、語源には諸説ある。「快適で余裕がある状態」が原義にある。
+
+中英語では「楽な、心地よい、穏やかな」という感覚的・状態的な意味で使われ、14〜15世紀には「困難でない」という課題の難易度を表す現代的意味が定着した。take it easy（楽にする）など、のんびりした姿勢を示す表現も早くから使われた。
+
+現代英語では形容詞（easy task）、副詞（take it easy）として活用され、easy-going（のんびりした）、uneasy（不安な）、easily（簡単に）などの派生語・反義語も豊富。over easy（半熟目玉焼き）という料理用語も特徴的な用法である。",
+      derivatives: [
+        { word: "easily", desc: "簡単に（副詞）" },
+        { word: "easiness", desc: "容易さ（名詞）" },
+        { word: "uneasy", desc: "不安な（形容詞）" },
+        { word: "ease", desc: "楽にする、容易さ（動詞・名詞）" }
+      ],
+      family: [
+        { word: "ease", desc: "楽（語根語）" },
+        { word: "disease", desc: "病気（dis + ease）" }
+      ],
+      compounds: [
+        { phrase: "take it easy", desc: "気楽にする、ゆっくり休む" },
+        { phrase: "easy-going", desc: "のんびりした" }
+      ]
+    },
+
+    "engine": {
+      origin: "ラテン語 ingenium（天賦の才、知性、工夫）に由来し、in-（中に）と gignere（生み出す）から成る。「生まれながらの内なる力・才能」が原義で、インド・ヨーロッパ語根 *genH-（生む、生まれる）に遡る。同語根から generate（生み出す）、genius（天才）、gender（性別）なども生まれている。
+
+古フランス語 engin（知恵、道具、機械）を経て中英語に入り、中世では「知略・巧みな装置」を意味した。軍事用機械装置（siege engine 攻城器械）として使われた後、産業革命期に蒸気機関（steam engine）を指す語として採用され、動力機械の総称となった。
+
+現代英語では内燃機関（car engine）から検索エンジン（search engine）、経済の原動力（engine of growth 成長エンジン）まで幅広く用いられる。engineer（技術者）、engineering（工学）はこの語族の重要な派生語である。",
+      derivatives: [
+        { word: "engineer", desc: "技術者、エンジニア（名詞）" },
+        { word: "engineering", desc: "工学（名詞）" }
+      ],
+      family: [
+        { word: "genius", desc: "天才（ingenium 同語根）" },
+        { word: "generate", desc: "生み出す（gignere 系）" },
+        { word: "ingenious", desc: "独創的な（ingenium 系）" }
+      ],
+      compounds: [
+        { phrase: "search engine", desc: "検索エンジン" },
+        { phrase: "engine of growth", desc: "成長エンジン、成長の原動力" }
+      ]
+    },
+
+    "enjoy": {
+      origin: "中英語 enjoien に由来し、古フランス語 enjoir（楽しむ）から来ている。ラテン語 in-（中に）と gaudere（喜ぶ）から構成され、「喜びの中に入る」というイメージが原義にある。gaudere はインド・ヨーロッパ語根 *gāu-（喜ぶ）に遡り、joy（喜び）も同語族である。
+
+14世紀に英語に入り、「喜びを感じる、楽しむ」という現在と同様の意味で使われた。法律用語では「財産・権利を享受する」（enjoy property 財産を所有・享受する）という意味でも使われ、enjoyment は法律用語として「享受」の意を持つ。
+
+enjoy oneself（楽しむ）という再帰動詞用法や命令形 enjoy!（楽しんで！）は現代英語で口語的に非常に多く使われる。enjoyable（楽しい）、enjoyment（喜び・享受）が主要な派生語で、日常会話・サービス業・観光の文脈で欠かせない語彙を形成する。",
+      derivatives: [
+        { word: "enjoyable", desc: "楽しい（形容詞）" },
+        { word: "enjoyment", desc: "楽しみ、享受（名詞）" },
+        { word: "enjoyably", desc: "楽しく（副詞）" }
+      ],
+      family: [
+        { word: "joy", desc: "喜び（gaudere 系）" },
+        { word: "rejoice", desc: "喜ぶ（re + joy）" },
+        { word: "joyful", desc: "喜びに満ちた（joy 系）" }
+      ],
+      compounds: [
+        { phrase: "enjoy oneself", desc: "楽しむ" },
+        { phrase: "enjoy the benefits", desc: "恩恵を享受する" }
+      ]
+    },
+
+    "entire": {
+      origin: "ラテン語 integer（無傷の、完全な、誠実な）に由来し、in-（否定）と tangere（触れる）から「何にも触れられていない、無傷の」というイメージが原義にある。tangere はインド・ヨーロッパ語根 *tag-（触れる）に遡り、英語の tangible（触れられる）、contact（接触）とも語族をなす。
+
+古フランス語 entier（完全な）を経て14世紀に英語に入り、「傷つけられていない、完全な」という意味から「全体の、一切の」という現代的意味に定着した。integrate（統合する）、integrity（誠実さ、完全性）も integer と同語根で、「欠けのない完全な状態」という概念を共有する。
+
+現代英語では entire day（一日中）、entire population（全人口）のように名詞の前に置く形容詞として最も頻繁に使われ、entirely（副詞：完全に）とともに強調・包括を表す重要語彙となっている。",
+      derivatives: [
+        { word: "entirely", desc: "完全に、全く（副詞）" },
+        { word: "entirety", desc: "全体（名詞）" }
+      ],
+      family: [
+        { word: "integer", desc: "整数（同語根）" },
+        { word: "integrity", desc: "誠実さ（同語根）" },
+        { word: "integrate", desc: "統合する（同語根）" },
+        { word: "tangible", desc: "実体のある（tangere 系）" }
+      ],
+      compounds: [
+        { phrase: "in its entirety", desc: "全体として、丸ごと" },
+        { phrase: "entirely up to", desc: "完全に～次第で" }
+      ]
+    },
+
+    "equal": {
+      origin: "ラテン語 aequalis（平等な、同等の）に由来し、aequus（平らな、公平な）と接尾辞 -alis から成る。aequus はインド・ヨーロッパ語根 *aik-（平らな）に遡るとされ、「平坦で偏りのない状態」が「平等」の原義にある。adequate（適切な）、equity（公平性）、equation（方程式）なども同語根に由来する。
+
+ラテン語を経て14世紀に英語に入り、数学（equal in value 等価）、法律（equal rights 平等な権利）、哲学（equal treatment 平等な扱い）の文脈で重要語彙として定着した。近代の民主主義・人権思想の発展とともにその重要性が飛躍的に高まった。
+
+現代英語では形容詞（equal pay）、動詞（two plus two equals four）、名詞（treat someone as an equal）として活用され、gender equality（男女平等）、equal opportunity（機会均等）など社会・政治分野でも中核的な語彙を形成する。",
+      derivatives: [
+        { word: "equality", desc: "平等（名詞）" },
+        { word: "equally", desc: "等しく（副詞）" },
+        { word: "inequality", desc: "不平等（名詞）" },
+        { word: "equalize", desc: "平等にする（動詞）" }
+      ],
+      family: [
+        { word: "adequate", desc: "十分な（ad + aequus）" },
+        { word: "equity", desc: "公平性、株式（aequitas 系）" },
+        { word: "equation", desc: "方程式（aequatio 系）" }
+      ],
+      compounds: [
+        { phrase: "equal opportunity", desc: "機会均等" },
+        { phrase: "equal pay", desc: "同一賃金" }
+      ]
+    },
+
+    "escape": {
+      origin: "中英語 escapen に由来し、古北フランス語 escaper（逃げる）から来ている。ラテン語後期 *excappare（マントから逃げる）から発展した語で、ex-（外へ）と cappa（マント、頭巾）から「マントをつかまれた状態から身を引き抜いて逃げる」というイメージが原義とされる。
+
+14世紀に英語に入り、「捕まえられた状態・危険から逃れる」という物理的意味で使われた。その後「不快な現実・義務から逃れる」という精神的意味（escape from reality 現実逃避）が生まれ、20世紀にはエンタメ・娯楽文脈でも使われるようになった（escapism 逃避主義）。
+
+現代英語では escape（動詞・名詞）として多様な文脈で活用され、fire escape（非常口）、escape key（ESCキー）、narrow escape（かろうじての脱出）、escape room（謎解き脱出ゲーム）など日常・IT・エンタメの語彙として定着している。",
+      derivatives: [
+        { word: "escapism", desc: "現実逃避（名詞）" },
+        { word: "inescapable", desc: "避けられない（形容詞）" },
+        { word: "escaped", desc: "逃走した（形容詞）" }
+      ],
+      family: [
+        { word: "cape", desc: "岬、ケープ（cappa 語根）" },
+        { word: "cap", desc: "帽子（cappa 系）" }
+      ],
+      compounds: [
+        { phrase: "escape room", desc: "脱出ゲーム" },
+        { phrase: "narrow escape", desc: "かろうじての脱出" }
+      ]
+    },
+
+    "exam": {
+      origin: "ラテン語 examen（重さを量る棒、吟味・試験）に由来し、examinare（試験する、精査する）の短縮形 examination がさらに口語で exam と略されたものである。examen はラテン語 exigere（追い出す、試す、計量する）から来て、ex-（外へ）と agere（動かす、する）から成る。
+
+examinare はもともと「天秤の針が正確な目盛りを指すよう調べる」という精密な計量行為を指した。法律・哲学では「証拠・主張を精査する」の意、教育では「知識を試す」の意が発展し、学校での「試験」を指す語として17世紀に定着した。exam という略形は19世紀の英国の大学で広く使われ始めた。
+
+現代英語では exam（試験）と examination（精査・試験・検査）が共存し、後者は医学検査（medical examination）、法的尋問（cross-examination）など改まった文脈で使われる。",
+      derivatives: [
+        { word: "examination", desc: "試験、検査（名詞）" },
+        { word: "examine", desc: "調べる（動詞）" },
+        { word: "examiner", desc: "試験官（名詞）" }
+      ],
+      family: [
+        { word: "exact", desc: "正確な（ex + agere）" },
+        { word: "essay", desc: "試みる、エッセイ（exigere 系）" },
+        { word: "agent", desc: "行為者（agere 系）" }
+      ],
+      compounds: [
+        { phrase: "final exam", desc: "期末試験" },
+        { phrase: "cross-examination", desc: "反対尋問" }
+      ]
+    },
+
+    "expert": {
+      origin: "ラテン語 expertus（経験した、試みた）の過去分詞に由来し、experiri（試みる、経験する）から来ている。ex-（完全に、外へ）と periri（試みる、危険を冒す）から成り、periculum（危険、試み）、peril（危険）とも語族をなす。「完全に試み経験した人」が「熟練者・専門家」の意につながった。
+
+インド・ヨーロッパ語根 *per-（試みる、危険を冒す、通り抜ける）は非常に多産な語根で、experience（経験）、experiment（実験）、peril（危険）、pirate（海賊）、fear（恐怖）なども同語族に含まれる。expert は14〜15世紀に英語に入り、「実地経験を積んだ人」の意で使われた。
+
+現代英語では名詞（a tax expert 税の専門家）と形容詞（expert advice 専門的なアドバイス）の両方で活用され、expertise（専門的知識・技能）という名詞も重要。subject matter expert（特定分野の専門家）はビジネス・学術分野でよく使われる表現である。",
+      derivatives: [
+        { word: "expertise", desc: "専門的知識・技能（名詞）" },
+        { word: "expertly", desc: "巧みに（副詞）" }
+      ],
+      family: [
+        { word: "experience", desc: "経験（experiri 系）" },
+        { word: "experiment", desc: "実験（experiri 系）" },
+        { word: "peril", desc: "危険（periculum 系）" }
+      ],
+      compounds: [
+        { phrase: "subject matter expert", desc: "特定分野の専門家" },
+        { phrase: "expert witness", desc: "専門家証人" }
+      ]
+    },
+
+    "fact": {
+      origin: "ラテン語 factum（行われたこと、行為）に由来し、facere（する、作る）の過去分詞形である。facere はインド・ヨーロッパ語根 *dhē- / *dho-（置く、作る）に遡り、英語の do（する）と遠く同語族である。ラテン語 factum は「行為の結果として残ったもの」を意味し、それが「確認された事実」へと意味が転化した。
+
+16世紀に英語に入り、法律用語として「犯された行為・犯罪事実（fact of a crime）」を指した。その後「議論の余地なく存在する事実・現実」という認識論的意味が定着し、opinion（意見）との対比で「客観的事実」を意味する語として重要性を増した。
+
+現代英語では in fact（実際には）、as a matter of fact（実を言えば）、fact-check（事実確認）など様々なコンテクストで使われ、ポストトゥルース時代には fact vs. opinion の区別が社会的・政治的に重要な概念となっている。",
+      derivatives: [
+        { word: "factual", desc: "事実に基づく（形容詞）" },
+        { word: "factor", desc: "要因（facere 系）" },
+        { word: "factory", desc: "工場（facere 系）" }
+      ],
+      family: [
+        { word: "make", desc: "作る（*dhē- 語根）" },
+        { word: "manufacture", desc: "製造する（manu + facere）" },
+        { word: "artifact", desc: "人工物（arti + factum）" }
+      ],
+      compounds: [
+        { phrase: "in fact", desc: "実際には、それどころか" },
+        { phrase: "fact-check", desc: "事実確認する" }
+      ]
+    },
+
+    "fail": {
+      origin: "ラテン語 fallere（欺く、失望させる、不足する）に由来し、古フランス語 faillir（失敗する、欠ける）を経て13世紀に英語に入った。fallere はインド・ヨーロッパ語根 *ghwel-（誤る、失う）に関連するとされ、false（偽の）、fallacy（誤謬）、fault（欠陥）とも語族をなす。
+
+中英語では「不足する、欠ける」という欠如の意味と「欺く、裏切る」という信頼の喪失の意味が共存していた。「課題・試験に失敗する」という現代的な教育文脈での用法は17〜18世紀ごろから定着した。
+
+現代英語では fail（試験に落ちる・失敗する）から fail-safe（フェイルセーフ）、without fail（必ず・欠かさず）など多様な表現が使われる。シリコンバレー文化では「失敗から学ぶ」というポジティブな文脈で fail fast（早く失敗せよ）という言葉も広まっている。",
+      derivatives: [
+        { word: "failure", desc: "失敗（名詞）" },
+        { word: "failing", desc: "欠点、不合格の（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "false", desc: "偽の（fallere 系）" },
+        { word: "fault", desc: "欠陥（fallere 系）" },
+        { word: "fallacy", desc: "誤謬（fallere 系）" }
+      ],
+      compounds: [
+        { phrase: "without fail", desc: "必ず、欠かさず" },
+        { phrase: "fail-safe", desc: "フェイルセーフ（安全側に故障）" }
+      ]
+    },
+
+    "false": {
+      origin: "ラテン語 falsus（偽りの、誤った）の過去分詞に由来し、fallere（欺く）と同語根。fallere はインド・ヨーロッパ語根 *ghwel-（誤る）に遡る。古英語 fals、古フランス語 fals を経て10世紀ごろに英語に入り、「真実でない、欺瞞的な」という意味で定着した。
+
+中英語では法律・宗教・道徳の文脈で「不誠実な・裏切りの」という意味が重視された（false witness 偽証）。近代科学の台頭とともに「命題・情報が事実でない」という論理的な意味も前面に出た。
+
+現代英語では false alarm（誤報）、false start（フライング、不発の試み）、false impression（誤った印象）など数多くの複合表現が使われる。コンピュータ・論理学では true/false（真偽値）として二値論理の基本概念となっており、プログラミングにおいて欠かせない語彙である。",
+      derivatives: [
+        { word: "falsely", desc: "偽って（副詞）" },
+        { word: "falsify", desc: "偽造する（動詞）" },
+        { word: "falsehood", desc: "嘘、虚偽（名詞）" }
+      ],
+      family: [
+        { word: "fail", desc: "失敗する（fallere 系）" },
+        { word: "fault", desc: "欠点（fallere 系）" },
+        { word: "fallacy", desc: "誤謬（fallere 系）" }
+      ],
+      compounds: [
+        { phrase: "false alarm", desc: "誤報、から騒ぎ" },
+        { phrase: "false start", desc: "フライング、失敗に終わった試み" }
+      ]
+    },
+
+    "fame": {
+      origin: "ラテン語 fama（評判、噂、名声）に由来し、fari（語る）から来ている。インド・ヨーロッパ語根 *bhā-（語る、輝く）に遡り、ギリシャ語 phēmē（声、予言）、英語の ban（禁止令、公告）とも語族をなす。「人々に語られること」が「名声・評判」の原義である。
+
+ラテン語 fama は神話では Fama（噂の女神）として擬人化され、ウェルギリウス『アエネイス』では翼のある怪物として描かれた。古フランス語 fame を経て13世紀に英語に入り、「広く知られた評判」という意味で使われた。
+
+現代英語では famous（有名な）、infamous（悪名高い）、defame（中傷する）などの語族が活発で、Hall of Fame（殿堂）、fame and fortune（名声と富）など文化・エンターテインメントの分野で頻用される。",
+      derivatives: [
+        { word: "famous", desc: "有名な（形容詞）" },
+        { word: "infamous", desc: "悪名高い（形容詞）" },
+        { word: "defame", desc: "中傷する（動詞）" }
+      ],
+      family: [
+        { word: "fable", desc: "寓話（fari 系）" },
+        { word: "fate", desc: "運命（fari 系）" },
+        { word: "prophet", desc: "予言者（ギリシャ語 phēmē 系）" }
+      ],
+      compounds: [
+        { phrase: "Hall of Fame", desc: "殿堂" },
+        { phrase: "claim to fame", desc: "名声の根拠、売り" }
+      ]
+    },
+
+    "famous": {
+      origin: "ラテン語 famosus（よく知られた、名高い）に由来し、fama（評判、名声）と形容詞語尾 -osus（に満ちた）から成る。fama は fari（語る）から来て、インド・ヨーロッパ語根 *bhā-（語る）に遡る。「評判・語り草に満ちた」ことが「有名な」の意味にあたる。
+
+古フランス語 fameus を経て14世紀に英語に入り、「広く名が知られた」という意味で使われた。ラテン語 famosus はもともと「評判が良い」「評判が悪い」両方の意味を持っていたが、英語では肯定的な意味が主流となり、否定的意味は infamous に分化した。
+
+現代英語では famous for（～で有名な）という前置詞句を伴う用法が最も典型的で、world-famous（世界的に有名な）、famous last words（結果的に間違いだったあの言葉）など多様な用法がある。",
+      derivatives: [
+        { word: "famously", desc: "有名なことに、見事に（副詞）" },
+        { word: "fame", desc: "名声（語根語）" }
+      ],
+      family: [
+        { word: "notorious", desc: "悪名高い（notus 系）" },
+        { word: "renowned", desc: "名高い（re + name 系）" },
+        { word: "infamous", desc: "悪名高い（in + famous）" }
+      ],
+      compounds: [
+        { phrase: "world-famous", desc: "世界的に有名な" },
+        { phrase: "famous last words", desc: "後から間違いとわかった言葉" }
+      ]
+    },
+
+    "fancy": {
+      origin: "中英語 fantasie の短縮形で、ギリシャ語 phantasia（現れ、想像、幻）から来ている。ギリシャ語 phainein（見せる、輝く）に由来し、インド・ヨーロッパ語根 *bhā-（輝く、見せる）に遡る。「心に現れるイメージ、想像力が作り出すもの」が原義である。
+
+15世紀に fantasy から short form として fancy が定着し、「想像・気まぐれ・好み」という意味で使われた。18〜19世紀には「装飾的な、豪華な」という形容詞用法が発展し（fancy dress 仮装衣装）、さらに「好む、気に入る」という動詞用法（fancy someone 誰かを好きになる）も生まれた。
+
+現代英語では fancy（形容詞：豪華な、fancy restaurant 高級レストラン）、動詞（I fancy a coffee コーヒーが飲みたい、British英語）、名詞（take a fancy to 気に入る）と多機能で使われる。",
+      derivatives: [
+        { word: "fanciful", desc: "想像的な、空想的な（形容詞）" },
+        { word: "fancifully", desc: "空想的に（副詞）" }
+      ],
+      family: [
+        { word: "fantasy", desc: "幻想（phantasia 系）" },
+        { word: "phantom", desc: "幻、幽霊（phainein 系）" },
+        { word: "phenomenon", desc: "現象（phainein 系）" }
+      ],
+      compounds: [
+        { phrase: "fancy dress", desc: "仮装衣装（英）" },
+        { phrase: "take a fancy to", desc: "気に入る" }
+      ]
+    },
+
+    "farm": {
+      origin: "中英語 ferme（貸借りされた土地、土地からの収入）に由来し、中世ラテン語 firma（固定された支払い、契約）から古フランス語 ferme を経て英語に入った。ラテン語 firmare（固める）から来て、firmus（堅固な）と同語根であり、firm（会社、固い）と語族をなす。「固定した賃料で借りた土地」が農場の原義である。
+
+中英語では「固定賃料」「その賃料で借りた土地」を指し、14世紀ごろから「農地、農場」という現代的な意味が定着した。「農業を営む」という動詞用法（to farm）も中英語から確認される。
+
+現代英語では farm（農場・農地・農業を営む）から farm out（外注する）という比喩的用法も発展している。factory farm（工場型農場）、wind farm（風力発電所）、fish farm（養殖場）など farm の意味が多様な生産施設に拡張されている点が特徴的。",
+      derivatives: [
+        { word: "farmer", desc: "農家（名詞）" },
+        { word: "farming", desc: "農業（名詞）" },
+        { word: "farmland", desc: "農地（名詞）" }
+      ],
+      family: [
+        { word: "firm", desc: "会社、固い（firmus 系）" },
+        { word: "affirm", desc: "肯定する（ad + firmare）" },
+        { word: "confirm", desc: "確認する（con + firmare）" }
+      ],
+      compounds: [
+        { phrase: "wind farm", desc: "風力発電所" },
+        { phrase: "farm out", desc: "外注する" }
+      ]
+    },
+
+    "fate": {
+      origin: "ラテン語 fatum（言われたこと、定め）に由来し、fari（語る）の過去分詞である。インド・ヨーロッパ語根 *bhā-（語る、輝く）に遡り、fame（名声）、fable（寓話）と同語族。「神々によって語られ定められたもの」が「運命」の原義にある。
+
+ローマ神話では Fata（複数形：運命の女神たち、Parcae）が人間の生死の糸を紡ぎ、その長さで寿命を決めた。14世紀に古フランス語 fate を経て英語に入り、「不可避な運命」「最期・結末」（the fate of the project）という意味で使われた。
+
+現代英語では twist of fate（運命の皮肉）、tempt fate（運命を試す、無謀なことをする）、seal one's fate（運命を決定する）などの慣用表現が豊富。形容詞 fatal（致命的な）、fateful（運命的な）も重要な語族を形成する。",
+      derivatives: [
+        { word: "fatal", desc: "致命的な（形容詞）" },
+        { word: "fateful", desc: "運命的な（形容詞）" },
+        { word: "fatality", desc: "死亡事故、宿命（名詞）" }
+      ],
+      family: [
+        { word: "fame", desc: "名声（fari 系）" },
+        { word: "fable", desc: "寓話（fari 系）" },
+        { word: "infant", desc: "幼児（in + fans 語れない）" }
+      ],
+      compounds: [
+        { phrase: "twist of fate", desc: "運命の皮肉" },
+        { phrase: "tempt fate", desc: "運を天に任せる、無謀なことをする" }
+      ]
+    },
+
+    "fault": {
+      origin: "ラテン語 fallere（欺く、失望させる）の過去分詞 falsus に由来し、古フランス語 faute（欠陥、過ち）を経て中英語に入った。インド・ヨーロッパ語根 *ghwel-（誤る）に遡り、fail（失敗する）、false（偽の）と同語族をなす。語中の l はラテン語的綴りに戻すために後から挿入された黙字（中英語では faute だった）。
+
+中英語 faute は「欠如、過ち」を意味し、法律・宗教・道徳の文脈で「罪・責任」の概念を表した（at fault 責任がある）。地質学では19世紀に断層（geological fault）という専門用語として採用され、テクトニックプレートのずれを指す語として定着した。
+
+現代英語では fault-tolerant（耐障害性のある）、at fault（責任がある）、find fault（欠点を探す）、no-fault（過失のない）など多様な複合表現を持つ。テニスの fault（サービスの失敗）など競技用語でも使われる。",
+      derivatives: [
+        { word: "faulty", desc: "欠陥のある（形容詞）" },
+        { word: "faultless", desc: "完璧な（形容詞）" },
+        { word: "default", desc: "デフォルト、債務不履行（de + fault）" }
+      ],
+      family: [
+        { word: "fail", desc: "失敗する（同語根）" },
+        { word: "false", desc: "偽の（同語根）" },
+        { word: "fallacy", desc: "誤謬（同語根）" }
+      ],
+      compounds: [
+        { phrase: "at fault", desc: "責任がある、誤っている" },
+        { phrase: "geological fault", desc: "断層" }
+      ]
+    },
+
+    "feed": {
+      origin: "古英語 fēdan（食物を与える、育てる）に由来し、インド・ヨーロッパ語根 *pā-（食べさせる、守る）に遡る。同語根からラテン語 pascere（牧草を食べさせる）、pabulum（食べ物）、英語の food（食物）、fodder（家畜の飼料）なども生まれている。「食物を提供して育てる」が原義で、農業・牧畜社会の基本的な行為を表す語だった。
+
+古英語では人・動物への食物供給だけでなく「火に燃料を供給する」「川が湖に注ぐ」なども feed で表した。この「入力・供給」という意味はコンピュータ時代に「データを入力する・フィードを送る」（newsfeed ニュースフィード）という IT 用語として発展した。
+
+現代英語では feed a baby（赤ちゃんに食べさせる）から feed data（データを入力する）、social media feed（ソーシャルメディアのフィード）、feedback（フィードバック）まで幅広く活用される。",
+      derivatives: [
+        { word: "feeding", desc: "給餌、授乳（名詞）" },
+        { word: "feedback", desc: "フィードバック（名詞）" },
+        { word: "overfeed", desc: "食べさせすぎる（動詞）" }
+      ],
+      family: [
+        { word: "food", desc: "食物（同語根）" },
+        { word: "fodder", desc: "家畜の飼料（同語根）" },
+        { word: "foster", desc: "養育する（fōdor 系）" }
+      ],
+      compounds: [
+        { phrase: "news feed", desc: "ニュースフィード" },
+        { phrase: "feedback loop", desc: "フィードバックループ" }
+      ]
+    },
+
+    "female": {
+      origin: "中英語 femelle に由来し、古フランス語 femelle、ラテン語 femella（少女、若い女性）から来ている。ラテン語 femina（女性）の指小形で、femina はインド・ヨーロッパ語根 *dhē-（授乳する、吸う）に遡り、「授乳する存在」が原義にある。fetus（胎児）、fellate なども同語根系に含まれる。
+
+中英語では femelle という綴りが使われていたが、male（男性）との語形的類似から 15〜16世紀ごろに female という綴りに変化した。ただし male と female は語源的には無関係で、male はラテン語 masculus（男性）から来ており、形が似ているのは偶然の類似である。
+
+現代英語では生物学・医学・社会科学で female（女性の、雌の）という性別を示す語として中立的に使われ、woman / girl よりも科学的・分類的なニュアンスを持つ。female connector（めす側端子）など工学用語での用法も興味深い。",
+      derivatives: [
+        { word: "feminine", desc: "女性的な（形容詞）" },
+        { word: "feminism", desc: "フェミニズム（名詞）" },
+        { word: "feminist", desc: "フェミニスト（名詞）" }
+      ],
+      family: [
+        { word: "femme", desc: "女性（フランス語同語根）" },
+        { word: "fetus", desc: "胎児（*dhē- 語根）" }
+      ],
+      compounds: [
+        { phrase: "female lead", desc: "女性主人公" },
+        { phrase: "female connector", desc: "めすコネクタ（工学）" }
+      ]
+    },
+
+    "fence": {
+      origin: "中英語 fens（囲い、防御）に由来し、defence（防御）の短縮形として発展した語である。defence はラテン語 defensio（防衛）から来て、de-（離れて）と fendere（打つ、守る）から成る。fendere はインド・ヨーロッパ語根 *gwhen-（打つ）に遡り、offend（侵害する）とも語族をなす。
+
+15世紀ごろ defence から fence が独立した語として使われ始め、「囲い・垣根」という物理的な防御構造を指す名詞として定着した。剣術（the art of fence フェンシング）の意味もこの時期から確認され、現代の fencing（フェンシング競技）へとつながった。
+
+現代英語では fence（垣根・柵）という物理的意味から sit on the fence（どちらにも賭けない、日和見主義）という比喩表現、あるいは盗品の売買仲介人（a fence 贓物売買人）という俗語的意味まで多彩な用法を持つ。",
+      derivatives: [
+        { word: "fencing", desc: "フェンシング、フェンス設置（名詞）" },
+        { word: "fenced", desc: "囲まれた（形容詞）" }
+      ],
+      family: [
+        { word: "defend", desc: "守る（de + fendere）" },
+        { word: "offend", desc: "侵害する（ob + fendere）" },
+        { word: "defense", desc: "防衛（de + fendere）" }
+      ],
+      compounds: [
+        { phrase: "sit on the fence", desc: "どちらにも与しない、日和見する" },
+        { phrase: "fence post", desc: "柵の支柱" }
+      ]
+    },
+
+    "fight": {
+      origin: "古英語 feohtan（戦う）に由来し、ゲルマン語根 *fehtanan（戦う）に遡る。インド・ヨーロッパ語根 *pek-（引っ張る、剪る）と関連するとされ、羊毛を引っ張り合うような格闘の原義があるとも言われる。ドイツ語 fechten（フェンシングする）とも同系である。
+
+古英語から現代にほぼ変わらない「戦う・格闘する」の意味で使われており、英語の最古の基本語彙の一つである。中世では騎士・戦士の戦闘行為を指す語として使われ、近代以降「理念・目的のために戦う」（fight for rights 権利のために戦う）という比喩的意味が発展した。
+
+現代英語では fight（戦い・口論・試合）と多義的に使われ、fight back（反撃する）、fight off（撃退する）、fight for（～のために戦う）など多数のフレーズ動詞を形成する。boxer・wrestler の試合から抽象的な「論戦・社会運動」まで幅広く使われる。",
+      derivatives: [
+        { word: "fighter", desc: "戦士、格闘家（名詞）" },
+        { word: "fighting", desc: "戦闘、闘争（名詞・形容詞）" }
+      ],
+      family: [
+        { word: "fist", desc: "こぶし（同語族）" },
+        { word: "feud", desc: "確執、抗争（同語族）" }
+      ],
+      compounds: [
+        { phrase: "fight back", desc: "反撃する" },
+        { phrase: "fight for", desc: "～のために戦う" }
+      ]
     }
 
   };

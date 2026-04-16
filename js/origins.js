@@ -29445,6 +29445,616 @@
         { phrase: "no strings attached", desc: "条件なしで" },
         { phrase: "email attachment",   desc: "メールの添付ファイル" }
       ]
+    },
+
+    "aware": {
+      origin: "古英語 gewær（警戒している）に由来し、接頭辞 ge-（完了・強調）と wær（注意深い、用心深い）が結合した語である。wær はインド・ヨーロッパ語根 *wer-（見る、気をつける）に遡り、ラテン語 vereri（畏れる）やギリシャ語 horān（見る）と同根である。
+
+中英語では iwar・aware の形で「警戒した状態にある」という意味で使われ、危険や脅威に対する注意を指した。近代英語以降は「何かを知っている・認識している」という認知的な意味合いが強まり、自己認識（self-aware）など心理・哲学的文脈でも広く使われるようになった。
+
+現代英語では be aware of（～に気づいている）、make someone aware（誰かに知らせる）などの形で日常的に用いられ、意識・認識・注意の概念を表す基本語として定着している。",
+      derivatives: [
+        { word: "awareness", desc: "意識、認識（名詞）" },
+        { word: "unaware", desc: "気づいていない（形容詞）" },
+        { word: "beware", desc: "用心する（動詞）" }
+      ],
+      family: [
+        { word: "wary", desc: "用心深い（同じ wær 語根）" },
+        { word: "ward", desc: "守る・病棟（*wer- 語根）" },
+        { word: "guard", desc: "守衛（ゲルマン語系同源）" }
+      ],
+      compounds: [
+        { phrase: "self-aware", desc: "自己認識のある" },
+        { phrase: "socially aware", desc: "社会意識のある" }
+      ]
+    },
+
+    "awful": {
+      origin: "古英語 egeful（畏怖を起こす）が変化した語で、awe（畏敬、恐怖）と -ful（～に満ちた）から成る。awe はノルド語 agi（恐怖）に由来し、さらにインド・ヨーロッパ語根 *agh-（恐怖）に遡る。中英語では aweful という形で「神への畏れを感じさせる」「畏敬の念を起こさせる」という肯定的な意味を持っていた。
+
+17〜18世紀ごろから意味の弱化（意味的下落 pejoration）が起き、「非常に」という強調副詞的用法に転じ始め、さらに「ひどい・不快な」という否定的な意味へと変化した。この意味変化は terrific・tremendous など他の「畏怖」系語彙と同様のプロセスである。
+
+現代英語では「ひどい、最悪の」（an awful day）が主流であるが、文語・宗教的文脈では「畏敬の念を起こさせる」という古義も残る。awful silence（重苦しい沈黙）のように強調用法でも頻用される。",
+      derivatives: [
+        { word: "awfully", desc: "ひどく、非常に（副詞）" },
+        { word: "awfulness", desc: "ひどさ、恐ろしさ（名詞）" }
+      ],
+      family: [
+        { word: "awe", desc: "畏敬・恐怖（語根語）" },
+        { word: "awesome", desc: "すごい、畏敬を起こす（awe + -some）" },
+        { word: "awestruck", desc: "畏怖に打たれた（合成語）" }
+      ],
+      compounds: [
+        { phrase: "awful lot", desc: "非常にたくさん" },
+        { phrase: "awful mess", desc: "ひどい混乱" }
+      ]
+    },
+
+    "basis": {
+      origin: "ラテン語 basis（土台、基礎）から来ており、さらにギリシャ語 basis（歩み、土台）に由来する。ギリシャ語 bainein（歩く、踏む）がその語源で、インド・ヨーロッパ語根 *gwā-（行く、来る）に遡る。元来は「足が踏む場所」すなわち「足場・土台」の意で、建築や物理的基盤を指す語だった。
+
+ラテン語を経て英語に入ったのは16世紀で、哲学・論理学・数学において「議論・主張の根拠となるもの」という抽象的意味で使われた。科学革命期には実験や理論の基盤を指す用語として定着し、近代的な学術語彙の一部となった。
+
+現代英語では on the basis of（～を根拠として）、on a daily basis（日常的に）など前置詞句として極めて多く使われる。複数形は bases（バシーズ）で、base（塩基、基地）と語源を共有する。",
+      derivatives: [
+        { word: "base", desc: "基礎、基地（関連語）" },
+        { word: "basic", desc: "基本的な（形容詞）" },
+        { word: "basically", desc: "基本的に（副詞）" },
+        { word: "database", desc: "データベース（合成語）" }
+      ],
+      family: [
+        { word: "base", desc: "土台（同語根）" },
+        { word: "baseline", desc: "基準線（合成語）" },
+        { word: "come", desc: "来る（*gwā- 語根）" }
+      ],
+      compounds: [
+        { phrase: "on a daily basis", desc: "毎日、日常的に" },
+        { phrase: "on the basis of", desc: "～を根拠として" },
+        { phrase: "knowledge base", desc: "知識基盤" }
+      ]
+    },
+
+    "block": {
+      origin: "中英語 blok（丸太、塊）に由来し、古フランス語 bloc、さらに中オランダ語 bloc（丸太）から借用した語である。ゲルマン語根 *blukka-（丸太）に遡るとされ、物理的に切り取られた木材の塊を指す語として出発した。建材・処刑台・印刷の版木など多様な物体に使われた。
+
+17世紀には「障害物・妨害」の意が生まれ、さらに「街区（city block）」「グループ・一まとめ」へと意味が拡張した。印刷技術では活版印刷の金属ブロックを指し、コンピュータ時代にはデータのブロック、ブロックチェーンへと概念が引き継がれた。
+
+現代英語では名詞・動詞双方で広く使われ、block（塞ぐ）、writer's block（書けない状態）、block chain、road block（障害）など非常に多様な派生用法を持つ。",
+      derivatives: [
+        { word: "blockade", desc: "封鎖（名詞・動詞）" },
+        { word: "blocker", desc: "妨害するもの（名詞）" },
+        { word: "blocking", desc: "妨害、ブロッキング（名詞）" }
+      ],
+      family: [
+        { word: "bulk", desc: "大量・塊（同系ゲルマン語）" },
+        { word: "log", desc: "丸太（類義語）" }
+      ],
+      compounds: [
+        { phrase: "road block", desc: "道路障害、検問所" },
+        { phrase: "writer's block", desc: "執筆不能状態" },
+        { phrase: "block chain", desc: "ブロックチェーン" }
+      ]
+    },
+
+    "born": {
+      origin: "古英語 boren（beran の過去分詞、運ぶ・産む）に由来し、インド・ヨーロッパ語根 *bher-（運ぶ、産む）に遡る。同じ語根からラテン語 ferre（運ぶ）、ギリシャ語 pherein（運ぶ）が生まれており、英語の bear（産む、耐える）と直接つながっている。
+
+古英語・中英語では「産まれた」（be born）の受動的意味が中心で、生命誕生の瞬間を表す語として定着した。near modern English では「生まれながらの～」（born leader, born talent）という天性・素質を示す形容詞用法が発展した。
+
+現代英語では be born（生まれる）が最も基本的な形で、生年月日の表現（born in 1990）や出身地の表現（born in Japan）に不可欠である。born-again（生まれ変わった）、newborn（新生児）など複合語も豊富で、renewal や origin を表す文脈で幅広く使われる。",
+      derivatives: [
+        { word: "newborn", desc: "新生児（形容詞・名詞）" },
+        { word: "firstborn", desc: "長子（名詞）" },
+        { word: "reborn", desc: "生まれ変わった（形容詞）" }
+      ],
+      family: [
+        { word: "bear", desc: "産む、耐える（動詞原形）" },
+        { word: "birth", desc: "誕生（同語根名詞）" },
+        { word: "burden", desc: "重荷（*bher- 語根）" },
+        { word: "fertile", desc: "肥沃な（ラテン語 ferre 系）" }
+      ],
+      compounds: [
+        { phrase: "born leader", desc: "生まれながらのリーダー" },
+        { phrase: "born again", desc: "再生した、生まれ変わった" }
+      ]
+    },
+
+    "bound": {
+      origin: "英語の bound には二つの独立した語源がある。第一は古英語 bunden（bind の過去分詞、縛られた）で、インド・ヨーロッパ語根 *bhendh-（縛る）に由来する。第二はノルド語 búinn（準備ができた）から来る bound（向かっている）で、homeward bound（帰路についている）のような用法がこちら。
+
+「縛られた」義から「義務を負った」（duty-bound, bound by contract）、「確実に～する」（bound to fail）という拘束・必然性の意が発展した。「向かっている」義では north-bound（北行き）、outbound（外向き）など方向を示す形容詞として交通・旅行の分野で定着した。
+
+現代英語ではこれら複数の意味が共存し、文脈によって使い分けられる。また名詞 bound は「境界、跳躍」の意もあり（out of bounds, by leaps and bounds）、さらに多義的な語として機能する。",
+      derivatives: [
+        { word: "boundary", desc: "境界線（名詞）" },
+        { word: "unbounded", desc: "無限の（形容詞）" },
+        { word: "outbound", desc: "外向きの（形容詞）" }
+      ],
+      family: [
+        { word: "bind", desc: "縛る（動詞原形）" },
+        { word: "bond", desc: "絆、結合（同語根）" },
+        { word: "bundle", desc: "束（同語根）" }
+      ],
+      compounds: [
+        { phrase: "out of bounds", desc: "境界外、禁止区域" },
+        { phrase: "bound to happen", desc: "必ず起きる" }
+      ]
+    },
+
+    "brand": {
+      origin: "古英語 brand（燃える木、剣）に由来し、ゲルマン語根 *brandaz（燃やすもの）に遡る。インド・ヨーロッパ語根 *gwher-（熱い、燃える）と関連し、fire（火）や burn（燃える）と語族をなす。元来は燃える松明や剣を指す語だった。
+
+中世から近代にかけて「家畜や罪人に焼き印を押す」行為を表すようになり、所有者の印・識別マークとしての「烙印」の意が生まれた。18〜19世紀の商業化に伴い、製品に押された製造者の印が「ブランド（商標）」として定着し、現代マーケティングの核概念となった。
+
+現代英語では brand identity（ブランドアイデンティティ）、brand loyalty（ブランド忠誠度）、brand new（真新しい、焼きたての新品）など商業・日常語彙に幅広く使われ、動詞 brand（烙印を押す、ブランド化する）としても活発に用いられる。",
+      derivatives: [
+        { word: "branding", desc: "ブランディング（名詞）" },
+        { word: "branded", desc: "ブランド品の、烙印を押された（形容詞）" },
+        { word: "rebranding", desc: "ブランド刷新（名詞）" }
+      ],
+      family: [
+        { word: "burn", desc: "燃える（同語根）" },
+        { word: "fire", desc: "火（*gwher- 語根）" },
+        { word: "sword", desc: "剣（古義の同系語）" }
+      ],
+      compounds: [
+        { phrase: "brand new", desc: "真新しい" },
+        { phrase: "brand awareness", desc: "ブランド認知度" }
+      ]
+    },
+
+    "breath": {
+      origin: "古英語 brǣþ（蒸気、香り、においのある空気）に由来し、ゲルマン語根 *brēþaz（蒸気）に遡る。インド・ヨーロッパ語根 *bhreu-（沸く、湧き上がる）と関連し、熱や蒸気が湧き出すイメージが原義にある。古英語では必ずしも「呼吸」ではなく「鼻や口から出る蒸気・においのある空気」を指した。
+
+中英語以降に「呼吸、息吹き」という生理的意味が前面に出て、breathe（動詞）、breathing（名詞）などの派生語が生まれた。さらに「生命・活力」（breath of life）、「きわめてわずかな量」（a breath of air）という比喩的用法も発展した。
+
+現代英語では take a breath（息を吸う）、catch one's breath（息を整える）、out of breath（息切れして）など慣用表現が豊富で、生命・瞬間・微量という幅広い概念に応用されている。",
+      derivatives: [
+        { word: "breathe", desc: "呼吸する（動詞）" },
+        { word: "breathless", desc: "息切れした、息をのむ（形容詞）" },
+        { word: "breathtaking", desc: "息をのむほどの（形容詞）" }
+      ],
+      family: [
+        { word: "breeze", desc: "そよ風（同語族）" },
+        { word: "broth", desc: "スープ（*bhreu- 語根）" }
+      ],
+      compounds: [
+        { phrase: "out of breath", desc: "息切れして" },
+        { phrase: "breath of fresh air", desc: "新鮮な空気、気分転換" }
+      ]
+    },
+
+    "brief": {
+      origin: "ラテン語 brevis（短い）に由来し、古フランス語 bref を経て中英語に入った。インド・ヨーロッパ語根 *mregh-u-（短い）に遡り、ギリシャ語 brakhus（短い）と同根で、英語の brachy-（短い）という学術接頭辞もこの系統である。
+
+ラテン語 brevis から派生した abbreviare（短くする）は abbreviate の語源となり、breve（短音符）は音楽・言語学で使われる。法律用語としての brief（準備書面、briefing）は中世ラテン語 breve（短い書類）から来て、英米法制度で重要な用語として定着した。
+
+現代英語では形容詞（a brief meeting 短い会議）、名詞（in brief 要するに、legal brief 準備書面）、動詞（brief someone 事前に説明する）として幅広く使われ、brevity（簡潔さ）という対応名詞も文章術・雄弁術の文脈で頻用される。",
+      derivatives: [
+        { word: "briefly", desc: "簡潔に、手短に（副詞）" },
+        { word: "brevity", desc: "簡潔さ（名詞）" },
+        { word: "abbreviate", desc: "省略する（動詞）" },
+        { word: "briefing", desc: "事前説明会（名詞）" }
+      ],
+      family: [
+        { word: "breve", desc: "短音符（音楽用語）" },
+        { word: "brachy-", desc: "短い（学術接頭辞）" },
+        { word: "abridge", desc: "要約する（ab- + brev）" }
+      ],
+      compounds: [
+        { phrase: "in brief", desc: "要するに、簡単に言えば" },
+        { phrase: "press briefing", desc: "記者発表会" }
+      ]
+    },
+
+    "bring": {
+      origin: "古英語 bringan（持ってくる、連れてくる）に由来し、インド・ヨーロッパ語根 *bhrenk-（持ってくる）に遡るとされる。ゲルマン語族内の固有語で、ゴート語 briggan、古高ドイツ語 bringan などと同系である。古英語時代からほぼ現在と同じ意味で使われており、英語の最も基本的な動詞の一つである。
+
+変化形は不規則で bring-brought-brought であり、この過去形 brought はゲルマン語の強変化動詞から発展したものである。日本語の「持ってくる」に相当するが、英語では目的地が話者・相手のいる場所に向かう動作を指す（take との対比）。
+
+フレーズ動詞として bring about（引き起こす）、bring up（育てる、話題にする）、bring out（明らかにする）、bring forward（前倒しにする）など多数あり、英語の日常的・論理的表現に欠かせない語である。",
+      derivatives: [
+        { word: "brought", desc: "持ってきた（過去形）" },
+        { word: "bringer", desc: "もたらすもの（名詞）" }
+      ],
+      family: [
+        { word: "take", desc: "持っていく（対義語）" },
+        { word: "fetch", desc: "取ってくる（類義語）" }
+      ],
+      compounds: [
+        { phrase: "bring about", desc: "引き起こす" },
+        { phrase: "bring up", desc: "育てる、話題にする" },
+        { phrase: "bring out", desc: "引き出す、出版する" }
+      ]
+    },
+
+    "busy": {
+      origin: "古英語 bisig（活動的な、熱心な）に由来し、ゲルマン語の bisigian（忙しく使う）と関連する。オランダ語 bezig、低ドイツ語 besig と同系のゲルマン語固有語で、ラテン語やフランス語からの借用語ではない。古英語では「活発な、勤勉な」という肯定的なニュアンスが強かった。
+
+中英語以降、「多くの仕事・活動に従事している」という「忙しい」の意が定着し、否定的なニュアンス（時間がない、手が離せない）も加わった。16世紀ごろ「立ち入りすぎる、おせっかいな」という意味（busybody）も派生した。
+
+現代英語では busy schedule（忙しいスケジュール）、busy signal（電話の話し中音）など日常用語に欠かせない。動詞用法（busy oneself with 〜に没頭する）や合成語 busywork（雑務）、busybody（おせっかいな人）も活発に用いられる。",
+      derivatives: [
+        { word: "busily", desc: "せわしなく（副詞）" },
+        { word: "business", desc: "事業、ビジネス（名詞）" },
+        { word: "busybody", desc: "おせっかいな人（名詞）" }
+      ],
+      family: [
+        { word: "business", desc: "busy + -ness の変化形" },
+        { word: "occupied", desc: "使用中の、忙しい（類義語）" }
+      ],
+      compounds: [
+        { phrase: "busy schedule", desc: "忙しいスケジュール" },
+        { phrase: "busy signal", desc: "話し中（電話）" }
+      ]
+    },
+
+    "calm": {
+      origin: "古フランス語 calme（静けさ、平穏）、さらにラテン語後期 cauma（日中の暑い時間、昼の休息時間）に由来し、ギリシャ語 kauma（灼熱、暑さ）に遡る。元々「日中の暑さで活動が止まる」という地中海的な「真昼の静けさ」のイメージが原義にあった。語根はギリシャ語 kaiein（燃やす）と関連する。
+
+14世紀ごろ英語に入った際は海上の無風状態（calm sea）を指す航海語彙として使われた。気象・海事用語として「風のない静かな状態」の意が定着した後、「心の静けさ、落ち着き」という精神的・感情的な意味へと比喩が拡張した。
+
+現代英語では形容詞（calm weather, calm person）、名詞（the calm before the storm）、動詞（calm down 落ち着く）として多用される。keep calm（冷静を保つ）は特に英国文化で著名なフレーズとして定着している。",
+      derivatives: [
+        { word: "calmly", desc: "落ち着いて（副詞）" },
+        { word: "calmness", desc: "平静さ（名詞）" },
+        { word: "calming", desc: "落ち着かせる（形容詞）" }
+      ],
+      family: [
+        { word: "quiet", desc: "静かな（類義語）" },
+        { word: "serene", desc: "穏やかな（類義語・ラテン系）" }
+      ],
+      compounds: [
+        { phrase: "calm down", desc: "落ち着く、落ち着かせる" },
+        { phrase: "calm before the storm", desc: "嵐の前の静けさ" }
+      ]
+    },
+
+    "chaos": {
+      origin: "ギリシャ語 khaos（巨大な空虚、混沌）に由来し、ラテン語 chaos を経て16世紀に英語に入った。ギリシャ語 khainein（口を開ける、あくびをする）と関連し、インド・ヨーロッパ語根 *ghē-（あく、開く）に遡る。ギリシャ神話では宇宙の始まりにある「原初の空虚・闇」を指すコスモゴニー（宇宙創生論）の概念だった。
+
+ヘシオドス『神統記』ではカオスが最初に存在し、そこからガイア（大地）などが生まれたとされる。英語に入った当初も「宇宙開闢前の混沌」という神学・哲学的意味が中心だったが、17世紀以降「無秩序な混乱状態」という一般的意味に広がった。
+
+現代英語では日常的に「混乱、無秩序」（chaos in the office 職場の混乱）の意で使われる。数学・物理学では chaos theory（カオス理論）として複雑系の非線形ダイナミクスを表す専門用語となり、20世紀後半に広く知られるようになった。",
+      derivatives: [
+        { word: "chaotic", desc: "混乱した（形容詞）" },
+        { word: "chaotically", desc: "混乱した状態で（副詞）" }
+      ],
+      family: [
+        { word: "chasm", desc: "深い割れ目（同語根）" },
+        { word: "gas", desc: "気体（khaos の変形、ヴァン・ヘルモント造語）" }
+      ],
+      compounds: [
+        { phrase: "chaos theory", desc: "カオス理論" },
+        { phrase: "utter chaos", desc: "完全な混乱" }
+      ]
+    },
+
+    "clean": {
+      origin: "古英語 clǣne（清潔な、純粋な）に由来し、ゲルマン語根 *klainijaz（清潔な、きれいな）に遡る。古高ドイツ語 kleini（小さい、繊細な、きれいな）、オランダ語 klein（小さい）と同系で、元来「小さく、細かく、きちんとした」というニュアンスを含んでいた。宗教的文脈での「儀式的な清らかさ」も古英語から存在する。
+
+中英語では物理的清潔さとともに道徳的・宗教的純粋さを表す語として定着し、「罪のない、无垢な」という精神的意味でも頻用された。近代に入り衛生観念の発達とともに物理的な清潔さの意味が前景化し、cleaning industry（清掃業）など実用的な文脈で活用されるようになった。
+
+現代英語では形容詞（clean water）、動詞（clean the room）、副詞（cut clean through まっすぐに切る）として使われ、clean energy（クリーンエネルギー）、come clean（白状する）など多様な派生用法を持つ。",
+      derivatives: [
+        { word: "cleanse", desc: "浄化する（動詞）" },
+        { word: "cleaner", desc: "清掃業者、洗浄剤（名詞）" },
+        { word: "cleanly", desc: "きれいに（副詞）" },
+        { word: "cleanliness", desc: "清潔さ（名詞）" }
+      ],
+      family: [
+        { word: "clear", desc: "澄んだ、明確な（類義語）" },
+        { word: "pure", desc: "純粋な（ラテン系類義語）" }
+      ],
+      compounds: [
+        { phrase: "clean energy", desc: "クリーンエネルギー" },
+        { phrase: "come clean", desc: "白状する" }
+      ]
+    },
+
+    "click": {
+      origin: "16世紀ごろ登場した擬音語（onomatopoeia）で、カチッという短い機械音を模した語である。中オランダ語 klikken（カチッと鳴る）と関連するとされるが、本質的には音を模倣した自然発生的な語彙である。鍵・錠前・時計の機構音を指す語として金属加工・時計製造の文脈で使われた。
+
+産業革命以降、機械部品の噛み合わせ音（click into place）を表す語として工業語彙に定着した。20世紀後半のコンピュータ革命でマウスのクリック動作を表す語として採用され、デジタル時代の基本動作を示す術語となった。さらに「うまくかみ合う、理解できる」（it clicked）という比喩的用法も生まれた。
+
+現代英語ではコンピュータ操作（click on a link）、感情的な瞬間（we clicked right away 意気投合した）、理解の瞬間（it clicked 腑に落ちた）など多義的に使われる非常に活用頻度の高い語である。",
+      derivatives: [
+        { word: "clicker", desc: "クリッカー、リモコン（名詞）" },
+        { word: "clickable", desc: "クリック可能な（形容詞）" },
+        { word: "clickbait", desc: "クリックベイト（名詞）" }
+      ],
+      family: [
+        { word: "clack", desc: "カタカタ音（擬音語同系）" },
+        { word: "clock", desc: "時計（鐘の音から）" }
+      ],
+      compounds: [
+        { phrase: "double-click", desc: "ダブルクリック" },
+        { phrase: "click rate", desc: "クリック率" }
+      ]
+    },
+
+    "cloud": {
+      origin: "古英語 clūd（岩の塊、丘）に由来し、13世紀ごろに「雲」の意味へと転じた語である。元の意味は「岩山・塊状のもの」で、空に浮かぶ塊状の雲が岩山に見立てられたことで意味が変化したとされる。インド・ヨーロッパ語根 *gleu-（塊、球）と関連するとされ、clod（土くれ）とも同系である。
+
+中英語で clud から cloud へと発展し、気象語彙として定着した。詩的・宗教的文脈では「神の臨在を覆うもの」（a cloud of glory）、「悲しみや不幸」（under a cloud 疑いの目で見られて）など比喩的用法も生まれた。
+
+21世紀にはクラウドコンピューティング（cloud computing）という概念が登場し、インターネット上の分散した計算資源・記憶域を「雲」に喩えた。現代英語では天気予報からテクノロジー、比喩表現まで極めて幅広く使われる多義語となっている。",
+      derivatives: [
+        { word: "cloudy", desc: "曇った（形容詞）" },
+        { word: "overcast", desc: "曇天の（類義語）" },
+        { word: "cloudless", desc: "雲一つない（形容詞）" }
+      ],
+      family: [
+        { word: "clod", desc: "土くれ（同語根）" },
+        { word: "cluster", desc: "塊、群れ（同系語）" }
+      ],
+      compounds: [
+        { phrase: "cloud computing", desc: "クラウドコンピューティング" },
+        { phrase: "under a cloud", desc: "疑われて、不遇で" }
+      ]
+    },
+
+    "cold": {
+      origin: "古英語 cald / ceald（寒い、冷たい）に由来し、ゲルマン語根 *kaldaz（冷たい）に遡る。インド・ヨーロッパ語根 *gel-（寒い）と関連し、ラテン語 gelu（霜、氷）、gelidus（氷のように冷たい）と語族をなす。英語の gel（ゼリー状物質）もこの語根系である。
+
+古英語・中英語では気温・物体の温度を指す基本語として定着しており、健康との関連（catch a cold 風邪をひく）も古くから認識されていた。中世の体液医学では「冷・乾」の気質（melancholic）を特徴付ける語でもあった。
+
+現代英語では物理的な低温（cold weather）から感情的な冷淡さ（cold response 冷ややかな反応）、病気（the common cold 風邪）、準備なしの状態（cold call コールドコール、in cold blood 冷血に）まで多様な意味を持つ。",
+      derivatives: [
+        { word: "coldly", desc: "冷たく（副詞）" },
+        { word: "coldness", desc: "冷たさ（名詞）" },
+        { word: "coldhearted", desc: "冷酷な（形容詞）" }
+      ],
+      family: [
+        { word: "cool", desc: "涼しい（同語根）" },
+        { word: "chill", desc: "冷え（同語根変形）" },
+        { word: "gel", desc: "ゲル（ラテン語 gelu 系）" }
+      ],
+      compounds: [
+        { phrase: "cold call", desc: "飛び込み電話・訪問" },
+        { phrase: "in cold blood", desc: "冷血に、計画的に" }
+      ]
+    },
+
+    "concern": {
+      origin: "ラテン語 concernere（混ぜる、ふるいにかける、関係する）に由来し、con-（共に）と cernere（ふるいにかける、識別する、決定する）から成る。cernere はインド・ヨーロッパ語根 *krei-（ふるいにかける、識別する）に遡り、crime（罪）、crisis（危機）、certain（確かな）とも語族をなす。
+
+中世ラテン語で concernere が「関係する」の意に転じ、古フランス語を経て15世紀に英語に入った。当初は「～に関する」（concerning）という中立的な関係性を示す語だったが、17世紀以降「心配・懸念」という感情的な意味が強まった。
+
+現代英語では名詞（public concern 社会的懸念）、動詞（this concerns me 私にとって関係がある・心配だ）、形容詞（concerned about health 健康を心配して）として活用され、ビジネス（going concern 継続企業）でも重要な専門用語を形成する。",
+      derivatives: [
+        { word: "concerned", desc: "心配した、関係する（形容詞）" },
+        { word: "concerning", desc: "～に関して（前置詞・形容詞）" },
+        { word: "unconcerned", desc: "無関心な（形容詞）" }
+      ],
+      family: [
+        { word: "certain", desc: "確かな（*krei- 語根）" },
+        { word: "crime", desc: "犯罪（*krei- 語根）" },
+        { word: "discern", desc: "識別する（dis + cernere）" }
+      ],
+      compounds: [
+        { phrase: "going concern", desc: "継続企業（会計用語）" },
+        { phrase: "of concern", desc: "懸念される、重要な" }
+      ]
+    },
+
+    "constant": {
+      origin: "ラテン語 constans（変わらない、堅固な）の現在分詞形に由来し、con-（共に、完全に）と stare（立つ）から成る。stare はインド・ヨーロッパ語根 *stā-（立つ）に遡り、英語の stand、station、stable などと同語族。「完全に立ち続けている」というイメージが「不変・継続」の意味を生んだ。
+
+14世紀に古フランス語 constant を経て英語に入り、「揺るぎない、誠実な」という道徳的・性格的な意味と「変化しない、絶え間ない」という物理的・時間的意味で使われた。科学革命以降、物理学・数学での「定数」という専門的意味が加わった。
+
+現代英語では形容詞（constant noise 絶え間ない騒音）、名詞（mathematical constant 数学定数）として活用され、速度・温度・圧力など物理量の不変値を表す数学・物理学の基本用語でもある。constantly（副詞）は日常会話でも頻用される。",
+      derivatives: [
+        { word: "constantly", desc: "絶えず（副詞）" },
+        { word: "constancy", desc: "不変性、誠実さ（名詞）" },
+        { word: "inconstant", desc: "不安定な（形容詞）" }
+      ],
+      family: [
+        { word: "stand", desc: "立つ（*stā- 語根）" },
+        { word: "station", desc: "駅、立場（同語根）" },
+        { word: "stable", desc: "安定した（同語根）" },
+        { word: "circumstance", desc: "状況（circum + stare）" }
+      ],
+      compounds: [
+        { phrase: "constant speed", desc: "一定速度" },
+        { phrase: "gravitational constant", desc: "重力定数" }
+      ]
+    },
+
+    "core": {
+      origin: "中英語 core（リンゴの芯）の語源は諸説あるが、ラテン語 cor（心臓）に由来するという説が有力で、古フランス語 cor / coeur（心、中心）を経て英語に入ったとされる。cor はインド・ヨーロッパ語根 *kerd-（心臓）に遡り、ギリシャ語 kardia（心臓）、英語 heart（古英語 heorte）と語族をなす。
+
+果実の中心部・種のある部分を「芯」と呼ぶ用法は14世紀ごろから確認され、そこから「中心、核心」という抽象的意味が発展した。地質学では地球の中心部（Earth's core）、核物理学では原子核・核反応炉の中心部（reactor core）という専門用語として採用された。
+
+現代英語では core values（中核的価値）、core curriculum（必修科目）、core strength（体幹力）など「中心的・根本的な」という形容詞的用法が活発で、IT分野でも CPU core（プロセッサの中核）として広く使われる。",
+      derivatives: [
+        { word: "corer", desc: "芯抜き器（名詞）" },
+        { word: "hardcore", desc: "コアな、骨の髄からの（形容詞）" }
+      ],
+      family: [
+        { word: "heart", desc: "心臓（*kerd- 語根）" },
+        { word: "cardiac", desc: "心臓の（ギリシャ語 kardia 系）" },
+        { word: "courage", desc: "勇気（cor 心臓 から）" }
+      ],
+      compounds: [
+        { phrase: "core values", desc: "中核的価値観" },
+        { phrase: "core strength", desc: "体幹力" }
+      ]
+    },
+
+    "country": {
+      origin: "中英語 contree に由来し、中世ラテン語 contrata（広がる土地、地域）から古フランス語 contrée（地方、地域）を経て英語に入った。contra（向かい側、反対に）から来ており、「眼前に広がる土地」すなわち「眼に見える地域」というイメージが原義にある。ラテン語 contra はインド・ヨーロッパ語根 *kom-（共に、against）の変形。
+
+中英語では「地方、郊外」の意が主で、都市（city）に対する農村地帯を指すニュアンスを持っていた。近代国家の形成とともに「国家・国」という政治的意味が前景化し、「国」という概念を表す中心的な語になった。
+
+現代英語では country（国）と countryside（田舎・農村地帯）が使い分けられ、country music（カントリーミュージック）、country house（地方の邸宅）など、いまも農村・自然のニュアンスを持つ用法と、developing country（発展途上国）など「国家」としての用法が共存している。",
+      derivatives: [
+        { word: "countryside", desc: "田舎、農村地帯（名詞）" },
+        { word: "countrywide", desc: "全国的な（形容詞）" },
+        { word: "countryman", desc: "同国人（名詞）" }
+      ],
+      family: [
+        { word: "county", desc: "郡、州（同語根）" },
+        { word: "counter", desc: "反対、カウンター（contra 系）" },
+        { word: "encounter", desc: "遭遇する（en + contra）" }
+      ],
+      compounds: [
+        { phrase: "developing country", desc: "発展途上国" },
+        { phrase: "country music", desc: "カントリーミュージック" }
+      ]
+    },
+
+    "decade": {
+      origin: "ラテン語 decas（10の単位）に由来し、ギリシャ語 dekas（10の集まり）から来ている。ギリシャ語 deka（10）はインド・ヨーロッパ語根 *dekm（10）に遡り、ラテン語 decem（10）、英語 ten（古英語 tēn）とも同語族。デカ（10倍を表すSI接頭辞）もこの語根に由来する。
+
+ラテン語 decas がフランス語 décade を経て英語に入ったのは17世紀で、「10年間」を意味する語として定着した。もともとは「10の集まり」という汎用的な数学的単位だったが、英語では主に「10年間」の意で使われるようになった。
+
+現代英語では for decades（数十年にわたって）、over the past decade（過去10年間で）のように歴史・統計・社会学の文脈で頻用される。decimal（十進法の）、December（12月、元は10番目の月）、decathlon（十種競技）も同語根を持つ。",
+      derivatives: [
+        { word: "decennial", desc: "10年ごとの（形容詞）" },
+        { word: "decadal", desc: "10年の（形容詞）" }
+      ],
+      family: [
+        { word: "decimal", desc: "十進法の（decem 系）" },
+        { word: "December", desc: "12月（元は10番目の月）" },
+        { word: "decathlon", desc: "十種競技（deka + athlon）" },
+        { word: "ten", desc: "10（同語根）" }
+      ],
+      compounds: [
+        { phrase: "past decade", desc: "過去10年間" },
+        { phrase: "for decades", desc: "数十年にわたって" }
+      ]
+    },
+
+    "decide": {
+      origin: "ラテン語 decidere（切り離す、決定する）に由来し、de-（離れて、完全に）と caedere（切る）から成る。「切り落として決着をつける」というイメージが「決定する」の意味につながった。caedere はインド・ヨーロッパ語根 *kāid-（打つ、切る）に遡り、英語の scissors（はさみ、caedere 系）や concise（簡潔な、con + caedere 系）とも語族をなす。
+
+14世紀ごろに古フランス語 décider を経て英語に入り、法律・論争の裁定を下す意味で使われた。その後「個人が選択・判断を行う」という日常的な意味へと広がり、「決める」という最も基本的な動詞の一つとして定着した。
+
+現代英語では decide to do（～することに決める）、decide on（～に決める）など非常に多く使われる。decision（名詞）、decisive（形容詞：決定的な）、undecided（未決の）などの派生語も日常・ビジネス・政治の場で欠かせない語彙を形成している。",
+      derivatives: [
+        { word: "decision", desc: "決定（名詞）" },
+        { word: "decisive", desc: "決定的な（形容詞）" },
+        { word: "undecided", desc: "未決の（形容詞）" },
+        { word: "decided", desc: "明確な（形容詞）" }
+      ],
+      family: [
+        { word: "scissors", desc: "はさみ（caedere 系）" },
+        { word: "concise", desc: "簡潔な（con + caedere）" },
+        { word: "precise", desc: "正確な（prae + caedere）" }
+      ],
+      compounds: [
+        { phrase: "decision maker", desc: "意思決定者" },
+        { phrase: "split-second decision", desc: "瞬時の判断" }
+      ]
+    },
+
+    "delay": {
+      origin: "中英語 delaien に由来し、古フランス語 delayer（遅らせる）から来ている。語源はラテン語 dilatus（de-latus、広げられた、引き延ばされた）の影響を受けているが、直接の語源はフランス語 de-（離れて、除いて）と layer（置く、残す）という構成とも解析される。ゲルマン語 *lagjanan（置く、横たえる）も関与している。
+
+14世紀に英語に入り、もともと「残しておく、据え置く」から「時間を引き延ばす」という意味が生まれた。法律・行政・交通の文脈で「猶予、延期」を意味する公的な語彙として定着した。
+
+現代英語では交通（flight delay フライト遅延）、IT（network delay ネットワーク遅延）、ビジネス（delay in delivery 配送の遅れ）など広範な文脈で使われ、名詞・動詞双方として活用される。without delay（遅滞なく）は文語的な定型表現である。",
+      derivatives: [
+        { word: "delayed", desc: "遅延した（形容詞）" },
+        { word: "delaying", desc: "遅らせる（形容詞・動名詞）" }
+      ],
+      family: [
+        { word: "late", desc: "遅い（類義語）" },
+        { word: "postpone", desc: "延期する（ラテン系類義語）" }
+      ],
+      compounds: [
+        { phrase: "without delay", desc: "遅滞なく" },
+        { phrase: "delay tactics", desc: "時間稼ぎ戦術" }
+      ]
+    },
+
+    "desire": {
+      origin: "ラテン語 desiderare（星々を惜しむ、熱望する）に由来し、de-（離れて）と sidus/sideris（星）から成る。語源的には「（指針となる）星が見えなくなった状態、星を望む」から「強く望む、切望する」の意が生まれたとされる。sidus と同系の consider（考慮する、con + sidus 星を観察する）も同語根をもつ。
+
+古フランス語 desirer を経て13世紀に英語に入り、「強い望み、欲求」を表す語として文学・哲学・宗教の文脈で使われた。恋愛感情（sexual desire）から野心（desire for power）まで幅広い欲望を表す語として定着した。
+
+現代英語では動詞（desire to achieve）、名詞（a strong desire 強い欲求）として使われ、wish（希望する）や want（欲しい）より文語・改まった語感を持つ。leave something to be desired（もっとよくなってほしいという点がある、不十分である）は慣用表現として重要。",
+      derivatives: [
+        { word: "desirable", desc: "望ましい（形容詞）" },
+        { word: "desirous", desc: "熱望する（形容詞）" },
+        { word: "undesirable", desc: "望ましくない（形容詞）" }
+      ],
+      family: [
+        { word: "consider", desc: "熟考する（con + sidus）" },
+        { word: "sidereal", desc: "星の（sidus 系）" }
+      ],
+      compounds: [
+        { phrase: "leave much to be desired", desc: "改善の余地が大いにある" },
+        { phrase: "burning desire", desc: "燃えるような欲望" }
+      ]
+    },
+
+    "destroy": {
+      origin: "ラテン語 destruere（取り壊す、破壊する）に由来し、de-（離れて、下に）と struere（積み上げる、建てる）から成る。「積み上げたものを崩す」というイメージが「破壊する」の意につながった。struere はインド・ヨーロッパ語根 *streu-（広げる、積む）に遡り、structure（構造）、construct（建設する）、instruct（指示する）と同語族。
+
+古フランス語 destruire を経て13世紀に英語に入り、物理的破壊（destroy a building）から組織・制度・感情の壊滅（destroy confidence）まで幅広い意味で使われるようになった。戦争・自然災害・政治的文脈で頻出する強い語彙である。
+
+現代英語では destroy（動詞）、destruction（名詞）、destructive（形容詞）、indestructible（破壊不可能な）などの語族が形成されており、mass destruction（大量破壊）、weapon of mass destruction（大量破壊兵器）などの政治・軍事的表現でも中心的に使われる。",
+      derivatives: [
+        { word: "destruction", desc: "破壊（名詞）" },
+        { word: "destructive", desc: "破壊的な（形容詞）" },
+        { word: "indestructible", desc: "破壊できない（形容詞）" },
+        { word: "destroyer", desc: "破壊者、駆逐艦（名詞）" }
+      ],
+      family: [
+        { word: "structure", desc: "構造（struere 系）" },
+        { word: "construct", desc: "建設する（con + struere）" },
+        { word: "instruct", desc: "指示する（in + struere）" }
+      ],
+      compounds: [
+        { phrase: "mass destruction", desc: "大量破壊" },
+        { phrase: "self-destruct", desc: "自己破壊する" }
+      ]
+    },
+
+    "device": {
+      origin: "ラテン語 divisum（divisus の中性形、分割されたもの）に由来し、古フランス語 devis（計画、分割）・devise（考案する）を経て中英語 devise として英語に入った。ラテン語 dividere（分ける）と同語族で、de-（離れて）と videre（見る、分ける）から成る。「分けて見る」から「計画・工夫・考案」の意が生まれた。
+
+中英語では「工夫、計略、意図」という抽象的な意味で使われ、16世紀ごろから「発明品、装置」という具体的な物を指す意味へと移行した。紋章学では個人の象徴的なデザイン・意匠を「device」と呼ぶ用法も残っている。
+
+現代英語では電子機器・機械装置（electronic device）を指す語として定着し、スマートフォン・コンピュータなどを「デバイス」と呼ぶIT用法が世界的に普及している。literary device（文学的手法）のように比喩的用法も維持されている。",
+      derivatives: [
+        { word: "devise", desc: "考案する（動詞）" },
+        { word: "devices", desc: "装置、機器（複数形）" }
+      ],
+      family: [
+        { word: "divide", desc: "分ける（dividere 系）" },
+        { word: "division", desc: "分割（同語根）" },
+        { word: "individual", desc: "個人（dividere 系）" }
+      ],
+      compounds: [
+        { phrase: "electronic device", desc: "電子機器" },
+        { phrase: "literary device", desc: "文学的手法" }
+      ]
+    },
+
+    "divide": {
+      origin: "ラテン語 dividere（分ける、分割する）に由来し、di-（別々に）と videre（分ける）、あるいは *widh-（分ける）から成るとされる。インド・ヨーロッパ語根 *weidh-（分ける、分かれる）に遡り、widow（未亡人、夫と死別した人）とも語族関係が指摘される。
+
+古フランス語 diviser を経て14世紀に英語に入り、数学の「割り算（division）」、土地・財産の「分割（division of property）」など法律・数学・地理の分野で重要語彙として定着した。さらに「意見の分裂・対立」（divide opinion）という社会的意味も発展した。
+
+現代英語では数学操作（divide by 2 2で割る）から政治・社会的分断（digital divide デジタルデバイド、racial divide 人種的分断）まで幅広く使われる。名詞 divide は「分水嶺（continental divide）」のような地理用語、また「格差・隔たり」という意味で社会科学でも頻用される。",
+      derivatives: [
+        { word: "division", desc: "分割、除算、師団（名詞）" },
+        { word: "divisive", desc: "分裂を招く（形容詞）" },
+        { word: "dividend", desc: "配当金、被除数（名詞）" },
+        { word: "divisor", desc: "除数（名詞）" }
+      ],
+      family: [
+        { word: "device", desc: "装置（dividere 系）" },
+        { word: "individual", desc: "個人（in + dividere）" },
+        { word: "widow", desc: "未亡人（*weidh- 語根）" }
+      ],
+      compounds: [
+        { phrase: "digital divide", desc: "デジタルデバイド（情報格差）" },
+        { phrase: "divide and conquer", desc: "分割統治" }
+      ]
     }
 
   };

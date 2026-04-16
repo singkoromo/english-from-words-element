@@ -27941,6 +27941,532 @@
         { phrase: "send out",   desc: "送り出す・発送する" },
         { phrase: "send for",   desc: "〜を呼びにやる・注文する" }
       ]
+    },
+
+    "shake": {
+      origin: "古英語 scacan（激しく動く・震える）< ゲルマン語根 *skakan < インド・ヨーロッパ語根 *(s)keg-（激しく動く）に由来するとされる。ドイツ語 schütteln（振る）・ゴート語 skakul（轅）と同族系統とされる。\n\n「激しく振る・震わせる」という物理的な意味が基本であり、「握手する（shake hands）」「確信を揺るがす（shake one's confidence）」「驚かせる（shaken by the news）」など多様な意味が発展した。\n\n「shake off（振り払う）」「shake up（激しく揺さぶる・大幅に変える）」「milk shake（ミルクシェイク）」「no great shakes（大したことない）」「shake the foundations（根底を揺るがす）」など多様な慣用句・複合語を持つ語である。",
+      derivatives: [
+        { word: "shaky",     desc: "不安定な・震えた（形容詞）" },
+        { word: "shakeup",   desc: "大規模な変更・刷新（名詞）" },
+        { word: "handshake", desc: "握手（名詞）" }
+      ],
+      family: [
+        { word: "tremble",  desc: "震える（ラテン語 tremere）" },
+        { word: "quake",    desc: "揺れる（古英語 cwacian）" },
+        { word: "vibrate",  desc: "振動する（ラテン語 vibrare）" }
+      ],
+      compounds: [
+        { phrase: "shake hands",   desc: "握手する" },
+        { phrase: "shake up",      desc: "激しく揺さぶる・大きく変える" },
+        { phrase: "shake off",     desc: "振り払う・払い除ける" }
+      ]
+    },
+
+    "shape": {
+      origin: "古英語 sceap/gesceap（形・運命・作られたもの）< ゲルマン語根 *skapaz < インド・ヨーロッパ語根 *skab-（切る・削る・形作る）に由来する。scape（風景：shaped scene）・landscape（地形）・mishap（不運：悪く形作られたこと）とも語族をなす。\n\n「物の形・外形」という物理的な意味から「状態（in good shape）」「形作る（shape someone's character）」「将来を決定する（shape the future）」など比喩的意味が発展した。\n\n「shape up（状況がよくなる・やる気を出す）」「out of shape（体型が崩れた）」「in shape（状態が良い）」「take shape（形になってくる）」「lick into shape（鍛えて一人前にする）」など慣用表現も多い。",
+      derivatives: [
+        { word: "shapely",    desc: "スタイルの良い（形容詞）" },
+        { word: "reshape",    desc: "形を変える・再構成する（動詞）" },
+        { word: "shapeless",  desc: "形のない（形容詞）" }
+      ],
+      family: [
+        { word: "form",   desc: "形・形作る（ラテン語 forma）" },
+        { word: "mold",   desc: "型・形成する（ラテン語 modulus）" },
+        { word: "create", desc: "創造する（ラテン語 creare）" }
+      ],
+      compounds: [
+        { phrase: "take shape",    desc: "形になってくる" },
+        { phrase: "in shape",      desc: "体の状態がよい" },
+        { phrase: "shape up",      desc: "改善する・まとまってくる" }
+      ]
+    },
+
+    "share": {
+      origin: "古英語 scearu（分け前・分割）< ゲルマン語根 *skarō < インド・ヨーロッパ語根 *(s)ker-（切る）に由来する。shear（剪断する）・shore（岸：切られた土地）・score（刻み目）とも語族をなし、「切り分ける」という原義を持つ。\n\n「等分に分け合う」という社会的な行為を表す語として古英語から使われており、「share profits（利益を分配する）」「share ideas（考えを共有する）」「share a meal（食事を共にする）」など多様な文脈で使われる。\n\n21世紀のデジタル革命により「SNSでシェアする（share on social media）」という意味が爆発的に普及し、share economy（シェアリングエコノミー）・car share（カーシェアリング）など新しい経済概念と結びついた語となっている。",
+      derivatives: [
+        { word: "shareholder",  desc: "株主（名詞）" },
+        { word: "sharing",      desc: "共有・シェアリング（名詞）" },
+        { word: "share",        desc: "株式（名詞としての用法）" }
+      ],
+      family: [
+        { word: "divide",  desc: "分ける（ラテン語 dividere）" },
+        { word: "portion", desc: "部分・分け前（ラテン語 portio）" },
+        { word: "allocate", desc: "割り当てる（ラテン語 allocare）" }
+      ],
+      compounds: [
+        { phrase: "share economy",  desc: "シェアリングエコノミー" },
+        { phrase: "market share",   desc: "市場占有率" },
+        { phrase: "share price",    desc: "株価" }
+      ]
+    },
+
+    "sharp": {
+      origin: "古英語 scearp（鋭い・尖った）< ゲルマン語根 *skarpaz < インド・ヨーロッパ語根 *(s)ker-（切る・削る）に由来する。scrape（こする）・harvest（収穫：刈り取り）・carpet（絨毯：刈り取ったもの）とも遠縁とされる。\n\n「刃が鋭い」という物理的な意味から「鋭い洞察力（sharp mind）」「痛烈な（sharp criticism）」「ファッショナブルな（sharp dresser）」「音楽の半音上（sharp：#）」など多様な意味が発展した。\n\n「sharp practice（不正な商習慣）」「keep a sharp eye（よく見張る）」「sharp turn（急カーブ）」「at three o'clock sharp（3時ちょうどに）」など多様な慣用表現を持ち、鋭さ・正確さ・機敏さを表す形容詞・副詞として英語に不可欠な語である。",
+      derivatives: [
+        { word: "sharpen",   desc: "鋭くする・研ぐ（動詞）" },
+        { word: "sharply",   desc: "鋭く・急激に（副詞）" },
+        { word: "sharpness", desc: "鋭さ（名詞）" }
+      ],
+      family: [
+        { word: "keen",  desc: "鋭い・熱心な（古英語 cēne）" },
+        { word: "acute", desc: "鋭い・深刻な（ラテン語 acutus）" },
+        { word: "edge",  desc: "刃・鋭さ（同語根系）" }
+      ],
+      compounds: [
+        { phrase: "sharp turn",   desc: "急カーブ" },
+        { phrase: "at _ sharp",   desc: "〜時ちょうどに" },
+        { phrase: "sharp mind",   desc: "鋭い頭脳" }
+      ]
+    },
+
+    "shift": {
+      origin: "古英語 sciftan（分ける・配置する）< ゲルマン語根 *skiftjan < インド・ヨーロッパ語根 *(s)kei-（切る・分ける）に由来するとされる。ship（船：積み荷を分けて運ぶ）との関連も議論される。\n\n「位置・方向を変える」という動詞的意味と「交代勤務（work shift）」という名詞的意味が並存する。コンピューターキーボードの「シフトキー」は文字の上下段を切り替えるという原義から来ている。\n\n「paradigm shift（パラダイムシフト）」は1960年代にトーマス・クーンが提唱した科学哲学の重要概念として定着し、「gear shift（変速）」「shift work（交代勤務）」「make a shift（変化をもたらす）」「shift the blame（責任を転嫁する）」など多様な表現が使われる。",
+      derivatives: [
+        { word: "shifty",    desc: "ずる賢い・信頼できない（形容詞）" },
+        { word: "shifting",  desc: "変化する・移動する（形容詞）" }
+      ],
+      family: [
+        { word: "change",   desc: "変化する（古フランス語）" },
+        { word: "move",     desc: "移動する（ラテン語 movere）" },
+        { word: "transfer", desc: "転移する（ラテン語 transferre）" }
+      ],
+      compounds: [
+        { phrase: "paradigm shift",  desc: "パラダイムシフト" },
+        { phrase: "shift work",      desc: "交代勤務" },
+        { phrase: "shift blame",     desc: "責任を転嫁する" }
+      ]
+    },
+
+    "shine": {
+      origin: "古英語 scīnan（輝く・光る）< ゲルマン語根 *skīnan < インド・ヨーロッパ語根 *ski-（輝く・光る）に由来するとされる。ドイツ語 scheinen（輝く・見える）と同族であり、sheen（光沢）とも関連する。\n\n「光を発する・輝く」という物理的な意味から「才能を発揮する（shine at mathematics）」「靴を磨く（shine shoes）」など多様な用法が発展した。\n\n「rain or shine（晴雨にかかわらず）」「shine a light on（〜に光を当てる）」「time to shine（活躍する時）」「take a shine to（〜を好きになる）」「moonshine（密造酒・月明かり）」など多彩な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "shiny",      desc: "光り輝く・新品の（形容詞）" },
+        { word: "sunshine",   desc: "日光・陽光（名詞）" },
+        { word: "moonshine",  desc: "月明かり・密造酒（名詞）" }
+      ],
+      family: [
+        { word: "glow",    desc: "光る・輝く（古英語）" },
+        { word: "gleam",   desc: "かすかに光る（古英語）" },
+        { word: "bright",  desc: "明るい（古英語 beorht）" }
+      ],
+      compounds: [
+        { phrase: "sunshine",        desc: "日光・明るさ" },
+        { phrase: "take a shine to", desc: "〜を好きになる" },
+        { phrase: "shine a light on", desc: "〜に光を当てる・明らかにする" }
+      ]
+    },
+
+    "shoot": {
+      origin: "古英語 scēotan（射る・素早く動く）< ゲルマン語根 *skeutan < インド・ヨーロッパ語根 *(s)keud-（投げる・押す）に由来する。shot（撮影・射撃）・shuttle（シャトル：素早く往復する）・scout（偵察：素早く動く人）とも語根的に関連する。\n\n「弓矢・銃で射る」という原義から「写真・映像を撮影する（shoot a film）」「素早く動く（shoot up）」「バスケットボールでシュートする」「植物が芽を出す（shoots）」など多義的な語となった。\n\n「shoot for the stars（星を目指す）」「shoot down（撃墜する・却下する）」「shoot up（急上昇する）」「troubleshoot（問題を解決する）」「photo shoot（撮影会）」など多様な複合語・慣用句を持つ語である。",
+      derivatives: [
+        { word: "shooter",      desc: "射撃者・撮影者（名詞）" },
+        { word: "shooting",     desc: "射撃・撮影（名詞）" },
+        { word: "troubleshoot", desc: "問題を解決する（動詞）" }
+      ],
+      family: [
+        { word: "shot",    desc: "撮影・射撃（shoot の名詞）" },
+        { word: "shuttle", desc: "シャトル（同語根）" },
+        { word: "dart",    desc: "素早く動く・投げ矢（類義）" }
+      ],
+      compounds: [
+        { phrase: "shoot for",     desc: "〜を目指す" },
+        { phrase: "photo shoot",   desc: "写真撮影・フォトシュート" },
+        { phrase: "shoot down",    desc: "撃墜する・却下する" }
+      ]
+    },
+
+    "show": {
+      origin: "古英語 scēawian（見る・見せる）< ゲルマン語根 *skawōjan < インド・ヨーロッパ語根 *skeu-（注意して見る）に由来する。ドイツ語 schauen（見る）と同族であり、「注意深く見る→見せる」という意味から発展した。\n\n「見せる・示す」という基本的な意味から「ショー・公演（show）」「証明する（show evidence）」「案内する（show someone around）」「感情を表す（show emotion）」など多義的な語となった。\n\n「show off（見せびらかす）」「show up（現れる）」「showdown（決着・対決）」「show business（芸能界）」「it shows（見てわかる）」など多様なイディオム・複合語を持ち、エンターテインメント・メディアの文脈でも核心語である。",
+      derivatives: [
+        { word: "showroom",  desc: "展示室・ショールーム（名詞）" },
+        { word: "showcase",  desc: "陳列ケース・紹介する（名詞/動詞）" },
+        { word: "showdown",  desc: "対決・決着（名詞）" }
+      ],
+      family: [
+        { word: "display",  desc: "展示する（ラテン語 displicare）" },
+        { word: "exhibit",  desc: "展示する（ラテン語 exhibere）" },
+        { word: "reveal",   desc: "明かす（ラテン語 revelare）" }
+      ],
+      compounds: [
+        { phrase: "show off",    desc: "見せびらかす" },
+        { phrase: "show up",     desc: "現れる・姿を見せる" },
+        { phrase: "show of hands", desc: "挙手" }
+      ]
+    },
+
+    "side": {
+      origin: "古英語 sīde（側・脇腹・側面）< ゲルマン語根 *sīdō < インド・ヨーロッパ語根 *sē(i)-（長い・広い）に由来するとされる。ドイツ語 Seite（側・ページ）と同族であり、「物の横面・側面」という空間的な意味が基本である。\n\n「物の横の面」という物理的な意味から「陣営・派閥（which side are you on?）」「料理の付け合わせ（side dish）」「側面的な（side effect）」「サイドビジネス（side job）」など多様な意味が発展した。\n\n「take sides（一方の味方をする）」「look on the bright side（明るい面を見る）」「side by side（並んで）」「flip side（裏面・別の側面）」「side effect（副作用）」など多彩な慣用表現を持つ英語の基本語彙である。",
+      derivatives: [
+        { word: "sidewalk",  desc: "歩道（名詞：米国英語）" },
+        { word: "sideline",  desc: "傍観・副業（名詞）" },
+        { word: "sideways",  desc: "横に・斜めに（副詞）" }
+      ],
+      family: [
+        { word: "flank",   desc: "側面（フランス語系）" },
+        { word: "lateral", desc: "横の・側面の（ラテン語 latus）" },
+        { word: "edge",    desc: "端・側面（古英語）" }
+      ],
+      compounds: [
+        { phrase: "side by side",   desc: "並んで・協力して" },
+        { phrase: "side effect",    desc: "副作用・副次的影響" },
+        { phrase: "look on the bright side", desc: "明るい面を見る" }
+      ]
+    },
+
+    "silent": {
+      origin: "ラテン語 silens（静かにしている）< silere（黙る・静かにする）の現在分詞形に由来し、古フランス語を経て15世紀の英語に入った。silence（沈黙）・silhouette（シルエット：影のように黙っている形）と語族をなす。\n\n「音を発しない・静かな」という意味が基本で、「silent witness（物言わぬ証人）」「silent majority（声なき多数派）」「silent treatment（無視・沈黙で罰すること）」など社会的・政治的な文脈でも重要な語として使われる。\n\n「silence is golden（沈黙は金）」ということわざは英語文化における沈黙の価値を表し、「silent partner（名義だけの共同経営者）」「silent film（無声映画）」「moment of silence（黙祷）」など多様な表現が存在する。",
+      derivatives: [
+        { word: "silence",   desc: "沈黙・静寂（名詞）" },
+        { word: "silently",  desc: "静かに・沈黙して（副詞）" },
+        { word: "silencer",  desc: "消音器・黙らせるもの（名詞）" }
+      ],
+      family: [
+        { word: "quiet",   desc: "静かな（ラテン語 quietus）" },
+        { word: "mute",    desc: "無音の・黙らせる（ラテン語 mutus）" },
+        { word: "hush",    desc: "静かにさせる（擬音語系）" }
+      ],
+      compounds: [
+        { phrase: "silent majority",  desc: "声なき多数派" },
+        { phrase: "silent partner",   desc: "陰のパートナー" },
+        { phrase: "moment of silence", desc: "黙祷の時" }
+      ]
+    },
+
+    "simple": {
+      origin: "ラテン語 simplus（一重の・単純な）< semel（一度）+ -plus（折り畳み）に由来し、古フランス語 simple を経て13世紀の英語に入った。single（一つの）・similar（似た）・same（同じ）とも語根的に関連する。\n\n「複雑でない・単純な」という意味が基本で、「a simple question（簡単な質問）」「keep it simple（シンプルに保つ）」「simple lifestyle（シンプルな生活）」など多様な文脈で使われる。\n\n「simple-minded（単純な考えの）」「simplicity is beauty（シンプルさは美しい）」「pure and simple（純粋に・ただ単に）」など哲学的・美的文脈でも重要語であり、デザイン・テクノロジーにおける「simplicity（シンプルさ）」という美的価値観とも深く結びついている。",
+      derivatives: [
+        { word: "simplify",   desc: "簡略化する（動詞）" },
+        { word: "simplicity", desc: "単純さ・簡素（名詞）" },
+        { word: "simply",     desc: "単に・簡単に（副詞）" }
+      ],
+      family: [
+        { word: "single",    desc: "単一の（semel 同根系）" },
+        { word: "similar",   desc: "似た（sem- 同根）" },
+        { word: "complex",   desc: "複雑な（simple の対義語）" }
+      ],
+      compounds: [
+        { phrase: "keep it simple",  desc: "シンプルに保つ" },
+        { phrase: "pure and simple", desc: "純粋に・まさに" },
+        { phrase: "simple-minded",   desc: "単純な・純真な" }
+      ]
+    },
+
+    "slave": {
+      origin: "中世ラテン語 sclavus（スラブ人）< 中世ギリシャ語 Sklabos（スラブ人）に由来する。9〜10世紀のヨーロッパでスラブ民族が大量に奴隷にされた歴史的事実を反映しており、民族名が奴隷制の普通名詞となった語史を持つ。\n\n「奴隷」という歴史的意味は大西洋奴隷貿易（transatlantic slave trade）の文脈で最も重要であり、奴隷制廃止（abolition of slavery）は19世紀の最大の道徳的課題のひとつであった。現代では「現代版奴隷制（modern slavery）」が人権問題として重要視されている。\n\n比喩的には「slave to fashion（ファッションの奴隷）」「slave away（奴隷のように働く）」「slavery（奴隷制・奴隷状態）」など比較的一般的な表現でも使われるが、語の歴史的重みを常に意識する必要がある語である。",
+      derivatives: [
+        { word: "slavery",   desc: "奴隷制・奴隷状態（名詞）" },
+        { word: "slavish",   desc: "盲目的に従う・奴隷的な（形容詞）" },
+        { word: "enslave",   desc: "奴隷にする（動詞）" }
+      ],
+      family: [
+        { word: "bondage",  desc: "束縛・奴隷状態（bond の名詞）" },
+        { word: "serf",     desc: "農奴（ラテン語 servus）" },
+        { word: "servant",  desc: "使用人・奉仕者（ラテン語 servire）" }
+      ],
+      compounds: [
+        { phrase: "slave trade",  desc: "奴隷貿易" },
+        { phrase: "modern slavery", desc: "現代版奴隷制" },
+        { phrase: "slave to",     desc: "〜の奴隷・〜に支配される" }
+      ]
+    },
+
+    "slip": {
+      origin: "中英語 slippen（滑る・こっそり動く）< 低地ゲルマン語 *slipan または古ノルド語 slippa（滑る・逃げる）に由来するとされる。インド・ヨーロッパ語根 *sleib-（滑る・なめらかな）と関連し、slippery（滑りやすい）・sleeve（袖：滑り通す）と語族をなす。\n\n「足が滑る」という物理的な意味から「うっかりミスをする（Freudian slip）」「見落とす（slip one's mind）」「静かに去る（slip away）」「品質が落ちる（standards slip）」など多様な意味が発展した。\n\n「slip of the tongue（言い間違い）」「Freudian slip（フロイトの言い間違い：無意識の本音）」「slip through the cracks（見落とされる）」「let it slip（うっかり漏らす）」「pink slip（解雇通知書）」など多彩な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "slippery",  desc: "滑りやすい・不誠実な（形容詞）" },
+        { word: "slip-up",   desc: "うっかりミス（名詞）" },
+        { word: "slipper",   desc: "スリッパ（名詞）" }
+      ],
+      family: [
+        { word: "slide",   desc: "滑らかに動く（古英語）" },
+        { word: "glide",   desc: "滑空する・滑らかに動く" },
+        { word: "skid",    desc: "横滑りする（古ノルド語）" }
+      ],
+      compounds: [
+        { phrase: "slip of the tongue",  desc: "言い間違い" },
+        { phrase: "Freudian slip",       desc: "フロイトの言い間違い" },
+        { phrase: "slip through",        desc: "すり抜ける・見落とされる" }
+      ]
+    },
+
+    "slow": {
+      origin: "古英語 slāw（怠惰な・鈍い）< ゲルマン語根 *slawaz < インド・ヨーロッパ語根 *slē-（のろい・弛緩した）に由来するとされる。ドイツ語 schläfrig（眠い）・sloth（ナマケモノ・怠惰）と同族系統とされる。\n\n「速度が遅い」という意味が基本であり、「slow traffic（渋滞）」「slow learner（学習が遅い人）」「slow down（速度を落とす）」「go slow（ゆっくり進む）」など多様な文脈で使われる。\n\n「slow and steady wins the race（遅くても着実な者が勝つ）」「slow burn（じわじわ燃える・ゆっくりとした感情の高まり）」「slow food（スローフード）」「slowdown（景気後退・速度低下）」など文化的・経済的な重要表現も持つ語である。",
+      derivatives: [
+        { word: "slowly",    desc: "ゆっくりと（副詞）" },
+        { word: "slowdown",  desc: "減速・景気後退（名詞）" },
+        { word: "slowness",  desc: "遅さ・鈍さ（名詞）" }
+      ],
+      family: [
+        { word: "sluggish",  desc: "のろのろした・不活発な（形容詞）" },
+        { word: "gradual",   desc: "緩やかな・段階的な（ラテン語）" },
+        { word: "sloth",     desc: "怠惰・ナマケモノ（同語根）" }
+      ],
+      compounds: [
+        { phrase: "slow down",      desc: "速度を落とす" },
+        { phrase: "slow burn",      desc: "じわじわとした感情" },
+        { phrase: "slow and steady", desc: "遅くても着実な" }
+      ]
+    },
+
+    "smart": {
+      origin: "古英語 smeortan（鋭く痛む・ひりひりする）< ゲルマン語根 *smartaz < インド・ヨーロッパ語根 *smerd-（痛む）に由来するとされる。「痛みを感じる」という原義から「刺激的・鋭い→頭が切れる」という比喩的転義が起きた興味深い例である。\n\n当初は「痛む」という動詞・「鋭い痛み」という名詞として使われたが、「鋭い→賢い」という意味変化により形容詞としての「smart（頭の切れる・賢い）」という意味が発展した。20世紀後半のテクノロジー革命により smart phone・smart TV・smart city など「IoT・AI 機能を持つ」という意味が急速に普及した。\n\n「smart aleck（生意気な人）」「street smart（世知に長けた）」「look smart（洗練されて見える）」「smarten up（賢くなる・身なりを整える）」など多様な慣用表現を持つ。",
+      derivatives: [
+        { word: "smartly",   desc: "賢く・きびきびと（副詞）" },
+        { word: "smarten",   desc: "賢くなる・洗練される（動詞）" },
+        { word: "smartphone", desc: "スマートフォン（名詞）" }
+      ],
+      family: [
+        { word: "clever",    desc: "賢い・器用な（古英語）" },
+        { word: "intelligent", desc: "知性のある（ラテン語）" },
+        { word: "sharp",     desc: "鋭い・賢い（類義語）" }
+      ],
+      compounds: [
+        { phrase: "smart phone",   desc: "スマートフォン" },
+        { phrase: "street smart",  desc: "世知に長けた" },
+        { phrase: "smart city",    desc: "スマートシティ" }
+      ]
+    },
+
+    "smile": {
+      origin: "中英語 smilen（微笑む）< 古ノルド語 smīla（微笑む）または低地ゲルマン語 *smīlan に由来するとされる。インド・ヨーロッパ語根 *smei-（微笑む・驚く）と関連し、wonder（驚く）・marvel（驚異）とも語根的に関連するとされる。\n\n「顔の表情で喜びを表す」という意味が基本で、「smile at（〜に向かって微笑む）」「forced smile（作り笑い）」「smile through tears（涙をこらえて微笑む）」など感情・対人関係の文脈で重要語である。\n\n「fortune smiles on（幸運が微笑む）」「Mona Lisa smile（謎めいた微笑み）」「smile for the camera（カメラに向かって笑う）」「when you're smiling（笑顔のとき）」など文化的・感情的な表現が豊富であり、人間のコミュニケーションの普遍的要素を表す語である。",
+      derivatives: [
+        { word: "smiling",   desc: "微笑んでいる（形容詞）" },
+        { word: "smiley",    desc: "笑顔の・スマイリー（名詞/形容詞）" }
+      ],
+      family: [
+        { word: "grin",    desc: "にやりと笑う（より大きな笑い）" },
+        { word: "laugh",   desc: "笑う（声を出して）" },
+        { word: "beam",    desc: "にこにこする（光り輝くように）" }
+      ],
+      compounds: [
+        { phrase: "smile at",             desc: "〜に微笑む" },
+        { phrase: "Mona Lisa smile",      desc: "謎めいた微笑み" },
+        { phrase: "fortune smiles on",    desc: "幸運が微笑む" }
+      ]
+    },
+
+    "stay": {
+      origin: "古フランス語 ester（立つ・留まる）< ラテン語 stare（立つ）< インド・ヨーロッパ語根 *stā-（立つ・固定する）に由来する。stand・station・stable・state と語族をなし、「立ったまま留まる」という原義を持つ。\n\n「ある場所に留まる」という基本的な意味から「宿泊する（stay at a hotel）」「病気の進行を食い止める（stay the disease）」「状態を保つ（stay healthy）」「延期・中断（stay of execution）」など多様な意味が発展した。\n\n「stay tuned（引き続きご視聴ください）」「stay put（その場に留まる）」「stay up（起きている）」「come to stay（定着する）」「overstay（滞在を延ばしすぎる）」など慣用句も豊富であり、滞在・継続・維持という概念の中核語である。",
+      derivatives: [
+        { word: "staying",   desc: "留まること・継続力（名詞）" },
+        { word: "overstay",  desc: "滞在を延ばしすぎる（動詞）" }
+      ],
+      family: [
+        { word: "remain",  desc: "残る・留まる（ラテン語 remanere）" },
+        { word: "stand",   desc: "立つ・立場（同語根 *stā-）" },
+        { word: "stable",  desc: "安定した（同語根）" }
+      ],
+      compounds: [
+        { phrase: "stay tuned",   desc: "引き続きご視聴ください" },
+        { phrase: "stay up",      desc: "夜更かしする・起きている" },
+        { phrase: "stay put",     desc: "その場に留まる" }
+      ]
+    },
+
+    "steal": {
+      origin: "古英語 stelan（盗む）< ゲルマン語根 *stelan < インド・ヨーロッパ語根 *ster-（奪う・盗む）に由来するとされる。ドイツ語 stehlen・ゴート語 stilan と同族であり、ゲルマン語派全体に分布する「盗む」の基本語彙である。\n\n「物を盗む」という法律的な意味が基本で、「steal a glance（ちらりと盗み見る）」「steal someone's heart（誰かの心を盗む）」「steal the show（喝采を一手に集める）」など比喩的・感情的な用法も豊富に発達した。\n\n「steal a base（盗塁する）」「stealth（ステルス・こっそり動く）」「steel（鋼鉄：発音が同じ同音異義語）」など多様な関連語・表現があり、「identity theft（なりすまし犯罪）」はデジタル時代の重要概念として定着している。",
+      derivatives: [
+        { word: "stealth",   desc: "ステルス・秘密裏の行動（名詞）" },
+        { word: "thief",     desc: "泥棒（steal の語族）" },
+        { word: "theft",     desc: "窃盗（steal の名詞形）" }
+      ],
+      family: [
+        { word: "rob",     desc: "奪う・略奪する（ゲルマン語）" },
+        { word: "pilfer",  desc: "こっそり盗む（古フランス語）" },
+        { word: "snatch",  desc: "ひったくる（古英語）" }
+      ],
+      compounds: [
+        { phrase: "steal the show",   desc: "喝采を一手に集める" },
+        { phrase: "identity theft",   desc: "なりすまし犯罪" },
+        { phrase: "steal a march on", desc: "〜より先手を打つ" }
+      ]
+    },
+
+    "step": {
+      origin: "古英語 steppan（歩む・踏む）< ゲルマン語根 *stapjan < インド・ヨーロッパ語根 *stebh-（踏む・支える）に由来するとされる。stamp（踏みつける）・stump（切り株：踏みつけられた）と同族系統とされる。\n\n「一歩踏み出す」という物理的な意味から「段階・ステップ（step by step）」「措置を取る（take steps）」「一歩進む（step up）」「立場を降りる（step down）」など多様な意味が発展した。\n\n「step by step（一歩一歩・段階的に）」「step up（昇進する・強化する）」「step down（辞任する）」「step out（外出する）」「keep in step（歩調を合わせる）」「doorstep（玄関の段）」など豊富な慣用表現を持つ基本語彙である。",
+      derivatives: [
+        { word: "stepmother",  desc: "継母（名詞）" },
+        { word: "doorstep",    desc: "玄関の段・敷居（名詞）" },
+        { word: "footstep",    desc: "足音・足取り（名詞）" }
+      ],
+      family: [
+        { word: "walk",   desc: "歩く（ゲルマン語）" },
+        { word: "pace",   desc: "歩調・歩幅（ラテン語 passus）" },
+        { word: "stride", desc: "大股で歩く（古英語 strīdan）" }
+      ],
+      compounds: [
+        { phrase: "step by step",  desc: "一歩一歩・段階的に" },
+        { phrase: "step up",       desc: "強化する・昇進する" },
+        { phrase: "step down",     desc: "辞任する・一段降りる" }
+      ]
+    },
+
+    "stick": {
+      origin: "古英語 stician（刺す・固着する）< ゲルマン語根 *stikōjan < インド・ヨーロッパ語根 *steig-（刺す・突く）に由来する。stitch（縫い目）・stigma（烙印）・instinct（本能：刺激されたもの）とも語族をなす。\n\n「突き刺す」という原義から「固着する（stick together）」「くっつける（stick a stamp）」「困難に直面する（be stuck）」「義理堅く続ける（stick to a plan）」など多義的な語となった。\n\n「stick to（〜に固執する）」「stick out（突き出る・目立つ）」「stick with（〜から離れない）」「stick around（そこにいる）」「get stuck（行き詰まる）」「make it stick（定着させる）」など豊富なイディオムを持つ最頻出語のひとつである。",
+      derivatives: [
+        { word: "sticky",   desc: "べたべたした・厄介な（形容詞）" },
+        { word: "unstuck",  desc: "離れた・失敗した（形容詞）" },
+        { word: "sticker",  desc: "シール・ステッカー（名詞）" }
+      ],
+      family: [
+        { word: "sting",    desc: "刺す・刺痛（stikōjan 同根系）" },
+        { word: "stigma",   desc: "烙印・汚名（ギリシャ語 stigma）" },
+        { word: "instinct", desc: "本能（in+stinguere 刺激する）" }
+      ],
+      compounds: [
+        { phrase: "stick to",      desc: "〜に固執する・守る" },
+        { phrase: "stick out",     desc: "突き出る・目立つ" },
+        { phrase: "get stuck",     desc: "行き詰まる・立ち往生する" }
+      ]
+    },
+
+    "still": {
+      origin: "古英語 stille（静止した・静かな）< ゲルマン語根 *stillaz < インド・ヨーロッパ語根 *stel-（立つ・固定する）に由来する。stall（馬小屋：固定された場所）・install（設置する）・stallion（種馬）とも語族をなすとされる。\n\n形容詞「静止した・静かな」・副詞「まだ・依然として」という二つの主要な意味が並存する多義語である。still water（静かな水）・still life（静物画）など物理的な静止を表す用法と、still going（まだ続いている）・still believe（依然として信じる）という時間的継続を表す用法が英語に不可欠である。\n\n「stand still（静止する）」「be still（静かにしていなさい）」「still waters run deep（静かな水は深い：物静かな人は侮れない）」「still and all（それでもやはり）」など多様な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "stillness",  desc: "静寂・静止（名詞）" },
+        { word: "stillborn",  desc: "死産の・失敗した（形容詞）" }
+      ],
+      family: [
+        { word: "calm",    desc: "穏やかな・落ち着かせる（類義語）" },
+        { word: "quiet",   desc: "静かな（類義語）" },
+        { word: "yet",     desc: "まだ・しかし（副詞的類義）" }
+      ],
+      compounds: [
+        { phrase: "stand still",          desc: "静止する・動かない" },
+        { phrase: "still life",           desc: "静物（画）" },
+        { phrase: "still waters run deep", desc: "静かな水は深い（物静かな人は侮れない）" }
+      ]
+    },
+
+    "stop": {
+      origin: "古英語 -stoppian（塞ぐ）< ラテン語 stuppare（麻屑で塞ぐ）< stuppa（麻屑）< ギリシャ語 stuppē に由来し、「穴を塞ぐ」という原義を持つ。全体的に止める（cease）という意味は中英語期に発展した。\n\n「動作・進行を終わらせる・止まる」という意味が現代英語では主流であり、「stop doing（〜することをやめる）」「stop by（立ち寄る）」「stop over（途中停泊する）」「bus stop（バス停）」など多様な文脈で使われる。\n\n「full stop（ピリオド：英国英語）」「non-stop（ノンストップ）」「stop at nothing（手段を選ばない）」「the buck stops here（責任は私が取る）」「put a stop to（〜に終止符を打つ）」など多彩な慣用表現を持つ最頻出語のひとつである。",
+      derivatives: [
+        { word: "stopover",   desc: "途中停泊・乗り継ぎ（名詞）" },
+        { word: "nonstop",    desc: "ノンストップ・直行の（形容詞/副詞）" },
+        { word: "stoppage",   desc: "中断・目詰まり（名詞）" }
+      ],
+      family: [
+        { word: "halt",   desc: "停止する（ゲルマン語 haltan）" },
+        { word: "cease",  desc: "やめる（ラテン語 cessare）" },
+        { word: "pause",  desc: "一時停止する（ラテン語 pausa）" }
+      ],
+      compounds: [
+        { phrase: "put a stop to",    desc: "〜に終止符を打つ" },
+        { phrase: "stop at nothing",  desc: "手段を選ばない" },
+        { phrase: "stop over",        desc: "途中停泊する" }
+      ]
+    },
+
+    "storm": {
+      origin: "古英語 storm（嵐・騒乱）< ゲルマン語根 *sturmaz < インド・ヨーロッパ語根 *stur-（回転する・かき乱す）に由来するとされる。stir（かき混ぜる・騒動）・disturb（乱す）と語根的に関連する。ドイツ語 Sturm（嵐・突撃）と同族である。\n\n「激しい嵐」という自然現象から「激しい感情（a storm of protests）」「攻撃・突撃（storm a castle）」「嵐のように素早く通り過ぎる（storm out）」など多様な意味が発展した。\n\n「brainstorm（ブレインストーミング）」「storm in a teacup（些細なことでの大騒ぎ）」「perfect storm（最悪の状況の重なり）」「take by storm（一気に席巻する）」「calm before the storm（嵐の前の静けさ）」など多彩な慣用表現を持つ語である。",
+      derivatives: [
+        { word: "stormy",      desc: "嵐の・荒々しい（形容詞）" },
+        { word: "brainstorm",  desc: "ブレインストーミング（名詞/動詞）" }
+      ],
+      family: [
+        { word: "tempest",   desc: "嵐（ラテン語 tempestas）" },
+        { word: "thunder",   desc: "雷・雷鳴（古英語 þunor）" },
+        { word: "hurricane", desc: "ハリケーン（タイノ語 hurakán）" }
+      ],
+      compounds: [
+        { phrase: "perfect storm",      desc: "最悪の状況の重なり" },
+        { phrase: "brainstorm",         desc: "ブレインストーミングする" },
+        { phrase: "take by storm",      desc: "一気に席巻する" }
+      ]
+    },
+
+    "strange": {
+      origin: "ラテン語 extraneus（外の・異質な）< extra（外に）に由来し、古フランス語 estrange を経て13世紀の英語に入った。extra（追加の）・extreme（極端な）・exterior（外部の）と語族をなし、「外から来た→見慣れない→奇妙な」という意味変化をたどった。\n\n「見慣れない・奇妙な」という意味が主流で、「stranger（見知らぬ人）」「strange behavior（奇妙な行動）」「feel strange（変な感じがする）」などの表現が一般的である。\n\n「stranger than fiction（小説よりも奇妙な）」「strange bedfellows（奇妙な組み合わせ）」「stranger danger（知らない人の危険：子供への警告）」など慣用表現も存在し、「外の世界→見知らぬ→奇妙」という概念の連続性が語り手にも感じられる語である。",
+      derivatives: [
+        { word: "strangely",  desc: "奇妙に・不思議なことに（副詞）" },
+        { word: "stranger",   desc: "見知らぬ人・よそ者（名詞）" },
+        { word: "estrange",   desc: "疎遠にする（動詞）" }
+      ],
+      family: [
+        { word: "foreign",   desc: "外国の（ラテン語 foranus 外の）" },
+        { word: "alien",     desc: "異質な・外国人（ラテン語 alienus）" },
+        { word: "exotic",    desc: "異国的な（ギリシャ語 exōtikos）" }
+      ],
+      compounds: [
+        { phrase: "stranger danger",      desc: "知らない人の危険（子供への警告）" },
+        { phrase: "strange bedfellows",   desc: "奇妙な組み合わせ" },
+        { phrase: "stranger than fiction", desc: "小説より奇なり" }
+      ]
+    },
+
+    "strength": {
+      origin: "古英語 strengþu（力・強さ）< strong（強い）+ 名詞化語尾 -þu に由来する。strong 自体は古英語 strang < ゲルマン語根 *strangaz < インド・ヨーロッパ語根 *strenk-（固い・緊張した）に由来し、string（弦：張り詰めたもの）とも語族をなす。\n\n「物理的な力・強さ」という意味が基本であり、「strengths and weaknesses（強みと弱み）」「strength training（筋力トレーニング）」「in strength（大勢で）」「tower of strength（頼りになる人）」など多様な文脈で使われる。\n\nSWOT 分析（Strengths, Weaknesses, Opportunities, Threats）では strengths（強み）は経営戦略の核心概念として位置づけられており、現代のビジネス・スポーツ科学において最重要語のひとつとなっている。",
+      derivatives: [
+        { word: "strengthen",  desc: "強化する・強くなる（動詞）" },
+        { word: "strong",      desc: "強い（形容詞：同語根）" },
+        { word: "strongly",    desc: "強く・強固に（副詞）" }
+      ],
+      family: [
+        { word: "force",  desc: "力・強制する（ラテン語 fortis）" },
+        { word: "power",  desc: "力・権力（ラテン語 potere）" },
+        { word: "string", desc: "弦（同語根 *strenk-）" }
+      ],
+      compounds: [
+        { phrase: "strengthen",            desc: "強化する" },
+        { phrase: "tower of strength",     desc: "頼りになる人" },
+        { phrase: "from strength to strength", desc: "ますます発展して" }
+      ]
+    },
+
+    "strike": {
+      origin: "古英語 strīcan（なでる・進む）< ゲルマン語根 *strīkan < インド・ヨーロッパ語根 *streig-（こする・触れる）に由来する。stroke（なでる・ストローク）・streak（線・縞）と語族をなす。\n\n「打つ・ぶつかる」という物理的な意味から「労働者がストライキをする（workers strike）」「金を掘り当てる（strike gold）」「印象を与える（it strikes me）」「点火する（strike a match）」「時計が鳴る（the clock strikes）」など非常に多義的な語となった。\n\n「strike a balance（均衡を保つ）」「strike while the iron is hot（鉄は熱いうちに打て）」「lightning strike（落雷）」「hunger strike（ハンストライキ）」「bowling strike（ストライク）」など多分野にわたる慣用表現を持つ語である。",
+      derivatives: [
+        { word: "striker",    desc: "ストライカー・ストライキ参加者（名詞）" },
+        { word: "striking",   desc: "印象的な・目立つ（形容詞）" },
+        { word: "stroke",     desc: "なでること・脳卒中（同語根）" }
+      ],
+      family: [
+        { word: "stroke",  desc: "なでる・ストローク（同語根）" },
+        { word: "streak",  desc: "縞・一閃（同語根）" },
+        { word: "smite",   desc: "打つ（古英語 smītan）" }
+      ],
+      compounds: [
+        { phrase: "strike a balance",  desc: "バランスをとる" },
+        { phrase: "hunger strike",     desc: "ハンガーストライキ" },
+        { phrase: "strike while the iron is hot", desc: "鉄は熱いうちに打て" }
+      ]
+    },
+
+    "struggle": {
+      origin: "中英語 strogelen（もがく・争う）< 語源不明であるが、低地ゲルマン語・スカンジナビア語との関連が議論される。インド・ヨーロッパ語根 *strug-（ねじる・もがく）との関連も指摘されるが確定していない。\n\n「困難に対して懸命に戦う・もがく」という意味が中心であり、「struggle with poverty（貧困と戦う）」「struggle to survive（生き残ろうともがく）」「inner struggle（内的葛藤）」など個人的・社会的な「困難への対処」を表す重要語である。\n\n「power struggle（権力闘争）」「class struggle（階級闘争）」「struggle for freedom（自由のための闘い）」など政治・社会運動の文脈でも核心語であり、マルクス主義の「階級闘争」概念を通じて歴史的・政治的な重みを持つ語となっている。",
+      derivatives: [
+        { word: "struggler",   desc: "もがく人・奮闘する人（名詞）" },
+        { word: "struggling",  desc: "奮闘している・苦しんでいる（形容詞）" }
+      ],
+      family: [
+        { word: "fight",    desc: "戦う（古英語 feohtan）" },
+        { word: "strive",   desc: "努力する（古フランス語 estriver）" },
+        { word: "wrestle",  desc: "もがく・格闘する（古英語）" }
+      ],
+      compounds: [
+        { phrase: "power struggle",   desc: "権力闘争" },
+        { phrase: "class struggle",   desc: "階級闘争" },
+        { phrase: "uphill struggle",  desc: "困難な闘い" }
+      ]
+    },
+
+    "study": {
+      origin: "ラテン語 studium（熱心・勤勉・学問への熱中）< studere（熱心に取り組む・学ぶ）< インド・ヨーロッパ語根 *(s)teu-（押す・打つ：熱心に）に由来する。student（学生）・studio（スタジオ：学ぶ場所）・studious（勉強熱心な）と語族をなす。\n\n「学問を学ぶ」という意味が基本であり、「study hard（一生懸命勉強する）」「case study（ケーススタディ）」「study abroad（留学する）」「feasibility study（実行可能性調査）」など教育・研究・ビジネスの文脈で重要語である。\n\n「brown study（物思いにふけった状態）」「studies show（研究は示している）」「in a study（書斎で）」など研究・学問の場を表す表現も多く、学術英語において study は最も使用頻度の高い語彙のひとつである。",
+      derivatives: [
+        { word: "student",   desc: "学生・勉強する人（名詞）" },
+        { word: "studious",  desc: "勉強熱心な（形容詞）" },
+        { word: "studio",    desc: "スタジオ・アトリエ（名詞）" }
+      ],
+      family: [
+        { word: "learn",    desc: "学ぶ（古英語 leornian）" },
+        { word: "research", desc: "研究する（re+search）" },
+        { word: "pursue",   desc: "追求する（ラテン語 prosequi）" }
+      ],
+      compounds: [
+        { phrase: "case study",     desc: "ケーススタディ・事例研究" },
+        { phrase: "study abroad",   desc: "留学する" },
+        { phrase: "pilot study",    desc: "パイロットスタディ・予備研究" }
+      ]
     }
 
   };

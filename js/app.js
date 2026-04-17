@@ -158,6 +158,10 @@ function _updateSoundButtons() {
 
   // 語源グリッド描画（接頭語・語根・接尾語を統合）
   async function renderAffixGrid() {
+    // 古いスタートエリアを await の前に即座に削除（Bug2対策）
+    const existingBeforeAwait = document.querySelector(".affix-start-area");
+    if (existingBeforeAwait) existingBeforeAwait.remove();
+
     const allStats = await Storage.getAllAffixStats();
     const statsMap  = {};
     allStats.forEach(s => { statsMap[`${s.mode}:${s.affixKey}`] = s; });
@@ -222,9 +226,6 @@ function _updateSoundButtons() {
       });
     });
 
-    // スタートエリアを更新
-    const existing = document.querySelector(".affix-start-area");
-    if (existing) existing.remove();
   }
 
   function showStartArea(item) {
@@ -245,7 +246,9 @@ function _updateSoundButtons() {
     const section = document.querySelector(".section:nth-child(2)");
     section.appendChild(area);
 
-    $("btn-start-quiz").onclick = () => startQuiz(selectedMode, item.key, item.label);
+    // selectedMode を呼び出し時点でキャプチャ（Bug1対策: async待機中のモード変更を防ぐ）
+    const capturedMode = selectedMode;
+    $("btn-start-quiz").onclick = () => startQuiz(capturedMode, item.key, item.label);
   }
 
   // ── 苦手克服セクション ────────────────────────
@@ -411,10 +414,11 @@ function _updateSoundButtons() {
       btn.onclick     = () => handleAnswer(i);
     });
 
-    // 解説パネル非表示
+    // 解説パネル非表示・btn-next テキストリセット（Bug2対策: 前回クイズのテキストが残らないよう）
     const panel = $("explanation-panel");
     panel.classList.remove("show", "wrong-panel");
     panel.style.display = "none";
+    $("btn-next").textContent = "次の問題 →";
 
     // 問題カードアニメーション再発火
     const card = $("question-card");
@@ -579,7 +583,11 @@ function _updateSoundButtons() {
   $("quiz-back-btn").onclick = () => {
     if (confirm("クイズを中断しますか？")) {
       Quiz.reset();
+      // 古いスタートエリアを即座に削除してからホームへ（Bug2対策）
+      const existing = document.querySelector(".affix-start-area");
+      if (existing) existing.remove();
       showScreen("screen-home");
+      initHome();
     }
   };
 
@@ -711,6 +719,9 @@ function _updateSoundButtons() {
       }
     };
     $("btn-home-from-result").onclick = () => {
+      // 古いスタートエリアを即座に削除してからホームへ（Bug2対策）
+      const existing = document.querySelector(".affix-start-area");
+      if (existing) existing.remove();
       showScreen("screen-home");
       initHome();
     };

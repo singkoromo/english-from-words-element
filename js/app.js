@@ -244,6 +244,7 @@ function _updateSoundButtons() {
     `;
 
     const section = document.querySelector(".section:nth-child(2)");
+    if (!section) return; // null安全対策
     section.appendChild(area);
 
     // selectedMode を呼び出し時点でキャプチャ（Bug1対策: async待機中のモード変更を防ぐ）
@@ -284,12 +285,12 @@ function _updateSoundButtons() {
     }
 
     const quizSize = selectedQuizCount === 0 ? 99999 : selectedQuizCount;
+    _isDaily = false; // エラー時も確実にリセット（前回のデイリー状態が残らないよう）
     const result   = Quiz.startWithWords(wordPool, quizSize);
     if (result.error) {
       alert(result.error);
       return;
     }
-    _isDaily = false;
     showScreen("screen-quiz");
     $("quiz-mode-label").textContent = "苦手克服";
     renderQuestion();
@@ -572,7 +573,9 @@ function _updateSoundButtons() {
 
   $("btn-next").onclick = () => {
     window.scrollTo({ top: 0, behavior: "instant" });
-    const { done } = Quiz.next();
+    const nextResult = Quiz.next();
+    if (!nextResult) return; // クイズ状態が無効な場合は何もしない（null安全対策）
+    const { done } = nextResult;
     if (done) {
       showResult();
     } else {

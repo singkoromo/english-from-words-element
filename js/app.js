@@ -475,11 +475,7 @@ function _updateSoundButtons() {
     const originText = $("origin-text");
     if (originBox && originText) {
       if (res.explanation.origin) {
-        // \n\n で段落分割
-        originText.innerHTML = res.explanation.origin
-          .split("\n\n")
-          .map(p => `<p>${p}</p>`)
-          .join("");
+        originText.innerHTML = _buildOriginHtml(res.explanation.origin);
         originBox.style.display = "block";
       } else {
         originBox.style.display = "none";
@@ -680,7 +676,7 @@ function _updateSoundButtons() {
              </div>`
           : "";
         const originHtml = w.origin
-          ? `<div class="wrong-origin"><span class="wrong-origin-label">📖 成り立ち</span><div class="origin-paragraphs">${w.origin.split("\n\n").map(p => `<p>${p}</p>`).join("")}</div></div>`
+          ? `<div class="wrong-origin"><span class="wrong-origin-label">📖 成り立ち</span>${_buildOriginHtml(w.origin)}</div>`
           : "";
         const derivHtml = (w.derivatives && w.derivatives.length > 0)
           ? `<div class="wrong-derivatives"><span class="wrong-deriv-label">🔷 派生語</span>${w.derivatives.map(d => typeof d === "string"
@@ -921,7 +917,7 @@ function _updateSoundButtons() {
            </div>`
         : "";
       const originHtml = w.origin
-        ? `<div class="wwl-origin"><span class="wwl-origin-label">📖 成り立ち</span><div class="origin-paragraphs">${w.origin.split("\n\n").map(p => `<p>${_escHtml(p)}</p>`).join("")}</div></div>`
+        ? `<div class="wwl-origin"><span class="wwl-origin-label">📖 成り立ち</span>${_buildOriginHtml(w.origin, _escHtml)}</div>`
         : "";
       const derivHtml = (w.derivatives && w.derivatives.length > 0)
         ? `<div class="wwl-derivatives"><span class="wwl-deriv-label">🔷 派生語</span>${w.derivatives.map(d => typeof d === "string"
@@ -1008,6 +1004,41 @@ function _updateSoundButtons() {
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
   }
+
+  // origin テキストを「第1文＋展開ボタン」形式の HTML に変換する
+  // escFn: オプションのエスケープ関数（wwl など HTML エスケープが必要な箇所で渡す）
+  function _buildOriginHtml(text, escFn) {
+    var esc = escFn || function(s) { return s; };
+    var paragraphs = text.split("\n\n").filter(function(p) { return p.trim(); });
+    if (!paragraphs.length) return "";
+    var firstPara = paragraphs[0];
+    var dotIdx = firstPara.indexOf("。");
+    var hasMoreInPara = dotIdx !== -1 && dotIdx < firstPara.length - 1 && firstPara.slice(dotIdx + 1).trim().length > 0;
+    var hasMoreParas = paragraphs.length > 1;
+
+    // 短い（1文のみ）場合はそのまま全文表示
+    if (dotIdx === -1 || (!hasMoreInPara && !hasMoreParas)) {
+      return paragraphs.map(function(p) { return "<p>" + esc(p) + "</p>"; }).join("");
+    }
+
+    // 第1文と残りを分割
+    var firstSentence = firstPara.slice(0, dotIdx + 1);
+    var restOfFirstPara = firstPara.slice(dotIdx + 1).trim();
+    var restParts = [];
+    if (restOfFirstPara) restParts.push("<p>" + esc(restOfFirstPara) + "</p>");
+    paragraphs.slice(1).forEach(function(p) { restParts.push("<p>" + esc(p) + "</p>"); });
+
+    return "<p>" + esc(firstSentence) + "</p>" +
+      "<div class=\"origin-rest-block\">" + restParts.join("") + "</div>" +
+      "<button class=\"origin-toggle-btn\" onclick=\"toggleOriginExpand(this)\">▼ 詳しく見る</button>";
+  }
+
+  // 展開/折りたたみ切り替え（inline onclick から呼ばれる）
+  window.toggleOriginExpand = function(btn) {
+    var restBlock = btn.previousElementSibling;
+    var expanded = restBlock.classList.toggle("expanded");
+    btn.textContent = expanded ? "▲ 閉じる" : "▼ 詳しく見る";
+  };
 
   // ── データリセット ───────────────────────────
   $("btn-reset-data").onclick = () => {

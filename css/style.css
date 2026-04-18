@@ -1850,6 +1850,37 @@ body {
   margin-bottom: 0;
 }
 
+/* origin 展開/折りたたみ */
+.origin-rest-block {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.32s ease, opacity 0.25s ease;
+}
+.origin-rest-block.expanded {
+  max-height: 800px;
+  opacity: 1;
+}
+.origin-toggle-btn {
+  display: inline-block;
+  margin-top: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #9c6f00;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 0;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  -webkit-tap-highlight-color: transparent;
+}
+.origin-toggle-btn:hover,
+.origin-toggle-btn:active {
+  color: #7a5800;
+}
+
 /* ============================================
    語彙アイテム行（word-item） — derivatives / family / compounds 共通
    ============================================ */

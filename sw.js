@@ -1,7 +1,7 @@
 /**
  * sw.js — Service Worker（オフライン対応）
  */
-const CACHE_NAME = "etymology-v433";
+const CACHE_NAME = "etymology-v434";
 const ASSETS = [
   "/",
   "/index.html",

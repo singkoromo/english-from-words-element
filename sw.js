@@ -1,7 +1,7 @@
 /**
  * sw.js — Service Worker（オフライン対応）
  */
-const CACHE_NAME = "etymology-v393";
+const CACHE_NAME = "etymology-v394";
 const ASSETS = [
   "/",
   "/index.html",
@@ -122,6 +122,20 @@ const ASSETS = [
   "/js/data-mixed-36.js",
   "/js/data-mixed-37.js",
   "/js/data-mixed-38.js",
+  // origins.js由来語彙 (13ファイル)
+  "/js/data-mixed-39.js",
+  "/js/data-mixed-40.js",
+  "/js/data-mixed-41.js",
+  "/js/data-mixed-42.js",
+  "/js/data-mixed-43.js",
+  "/js/data-mixed-44.js",
+  "/js/data-mixed-45.js",
+  "/js/data-mixed-46.js",
+  "/js/data-mixed-47.js",
+  "/js/data-mixed-48.js",
+  "/js/data-mixed-49.js",
+  "/js/data-mixed-50.js",
+  "/js/data-mixed-51.js",
 ];
 
 self.addEventListener("install", e => {

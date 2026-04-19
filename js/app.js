@@ -596,11 +596,28 @@ function _updateSoundButtons() {
     disableSwipe();
     $("swipe-hint").style.display = "none";
 
-    // 現在のコンテンツを左へスライドアウト（scrollTo はアニメ完了後）
+    // touchmove で設定された drag offset を読み取る
+    const mX = /translateX\((-?[\d.]+)px\)/.exec(content.style.transform || "");
+    const dragX = mX ? parseFloat(mX[1]) : 0;
+
+    // scrollTo(0,0) と translateY(-scrollY) を同一フレームで適用：
+    // ブラウザは両変更を1回の描画にまとめるため、ユーザーにはスクロールジャンプが見えない
+    const scrollY = window.scrollY || 0;
+    if (scrollY > 0) {
+      window.scrollTo({ top: 0, behavior: "instant" });
+      content.style.transition = "none";
+      content.style.transform  = dragX !== 0
+        ? `translateX(${dragX}px) translateY(-${scrollY}px)`
+        : `translateY(-${scrollY}px)`;
+    }
+
+    // 現在位置（translateY補正済み）から左へスライドアウト
+    const tyPart = scrollY > 0 ? ` translateY(-${scrollY}px)` : "";
+    void content.getBoundingClientRect();
     content.style.willChange = "transform";
-    content.style.transition = "transform 0.18s ease-in";
-    void content.getBoundingClientRect(); // establish "before" state for transition
-    content.style.transform  = "translateX(-100%)";
+    content.style.transition  = "transform 0.18s ease-in";
+    void content.getBoundingClientRect();
+    content.style.transform   = `translateX(-100%)${tyPart}`;
 
     setTimeout(() => {
       const nextResult = Quiz.next();
@@ -615,7 +632,7 @@ function _updateSoundButtons() {
         content.style.willChange = "";
         content.style.transition = "";
         content.style.transform  = "";
-        window.scrollTo({ top: 0, behavior: "instant" });
+        // scrollY はすでに 0（先頭でリセット済み）
         showResult().catch(e => {
           console.error("[App] showResult error:", e);
           showScreen("screen-home");
@@ -624,19 +641,17 @@ function _updateSoundButtons() {
         return;
       }
 
-      // スライドアウト完了後にスクロールリセット → 新カードを右端に配置してレンダリング
-      window.scrollTo({ top: 0, behavior: "instant" });
+      // scrollY=0 確定。translateY 不要で右端に新カードを配置
       content.style.transition = "none";
       content.style.transform  = "translateX(100%)";
-      _skipCardAnim = true;       // question-card の bounce アニメを抑制
-      renderQuestion();           // DOM 更新（同期・高速）
+      _skipCardAnim = true;
+      renderQuestion();
 
-      // 強制リフロー後にスライドイン
-      void content.getBoundingClientRect(); // flush transition:none + transform:100%
+      void content.getBoundingClientRect();
       content.style.willChange = "transform";
-      content.style.transition = "transform 0.18s ease-out";
-      void content.getBoundingClientRect(); // establish "before" state for slide-in
-      content.style.transform  = "";
+      content.style.transition  = "transform 0.18s ease-out";
+      void content.getBoundingClientRect();
+      content.style.transform   = "";
 
       setTimeout(() => {
         content.style.willChange = "";

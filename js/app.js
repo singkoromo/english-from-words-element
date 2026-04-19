@@ -2,6 +2,33 @@
  * app.js — メインアプリロジック
  */
 
+// ── 効果音 ───────────────────────────────────
+let _audioCtx = null;
+
+function playSound(correct) {
+  try {
+    if (!_audioCtx) _audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    const ctx  = _audioCtx;
+    const osc  = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    gain.gain.setValueAtTime(0.3, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.2);
+    if (correct) {
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(660, ctx.currentTime);
+      osc.frequency.linearRampToValueAtTime(880, ctx.currentTime + 0.12);
+    } else {
+      osc.type = "square";
+      osc.frequency.setValueAtTime(300, ctx.currentTime);
+      osc.frequency.linearRampToValueAtTime(180, ctx.currentTime + 0.15);
+    }
+    osc.start(ctx.currentTime);
+    osc.stop(ctx.currentTime + 0.2);
+  } catch (e) { /* マナーモード等では無音で続行 */ }
+}
+
 // ── 音声管理 ─────────────────────────────────
 const SoundManager = {
   enabled: localStorage.getItem('soundEnabled') !== 'false',
@@ -460,6 +487,8 @@ function _updateSoundButtons() {
       else if (i === choiceIndex && !res.isCorrect) btn.classList.add("wrong");
     });
 
+    playSound(res.isCorrect);
+
     if (res.isCorrect) {
       showCorrectEffect(res.xp);
       if (res.combo >= 3) showComboEffect(res.combo);
@@ -820,6 +849,7 @@ function _updateSoundButtons() {
     await Storage.checkAndAwardBadges(updatedP);
 
     showScreen("screen-result");
+    window.scrollTo(0, 0);
 
     // 絵文字・タイトル
     let emoji = "😊", title = "クイズ完了！";

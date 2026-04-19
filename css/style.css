@@ -936,8 +936,6 @@ body {
   display: none;
   animation: explainSlideUp 0.4s var(--bounce) both;
   border-top: 4px solid var(--mint);
-  will-change: transform;
-  touch-action: pan-y;
 }
 .explanation-panel.is-swiping { animation: none !important; }
 

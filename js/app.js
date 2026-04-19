@@ -609,72 +609,67 @@ function _updateSoundButtons() {
   function enableSwipe() {
     if (_swipeEnabled) return;
     _swipeEnabled = true;
-    const panel = $("explanation-panel");
-    const THRESHOLD = 50;
-    let startX = 0, startY = 0, active = false;
 
-    function onStart(x, y) {
-      startX = x; startY = y; active = true;
-      panel.style.transition = "none";
+    let startX = 0, startY = 0;
+    let mouseStartX = 0, mouseStartY = 0, mouseActive = false;
+
+    function onTouchStart(e) {
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
     }
-    function onMove(x, y) {
-      if (!active) return;
-      const dx = x - startX, dy = y - startY;
-      if (dx < 0 && Math.abs(dx) > Math.abs(dy)) {
-        panel.classList.add("is-swiping");
-        const ratio = Math.min(Math.abs(dx) / 200, 1);
-        panel.style.transform = `translateX(${dx}px)`;
-        panel.style.opacity = 1 - ratio * 0.5;
-      }
-    }
-    function onEnd(x, y) {
-      if (!active) return;
-      active = false;
-      panel.classList.remove("is-swiping");
-      const dx = x - startX;
-      if (dx < -THRESHOLD) {
-        panel.style.transition = "transform 0.25s ease-out, opacity 0.25s ease-out";
-        panel.style.transform = "translateX(-110%)";
-        panel.style.opacity = "0";
-        let done = false;
-        const advance = () => { if (!done) { done = true; doNext(); } };
-        panel.addEventListener("transitionend", advance, { once: true });
-        setTimeout(advance, 400);
-      } else {
-        panel.style.transition = "transform 0.3s cubic-bezier(0.34,1.56,0.64,1), opacity 0.3s ease";
-        panel.style.transform = "";
-        panel.style.opacity = "";
-        panel.addEventListener("transitionend", () => { panel.style.transition = ""; }, { once: true });
+
+    function onTouchEnd(e) {
+      const dx = e.changedTouches[0].clientX - startX;
+      const dy = e.changedTouches[0].clientY - startY;
+      if (dx < -50 && Math.abs(dx) > Math.abs(dy)) {
+        _triggerSwipeNext();
       }
     }
 
-    function onTouchStart(e) { onStart(e.touches[0].clientX, e.touches[0].clientY); }
-    function onTouchMove(e) {
-      const dx = e.touches[0].clientX - startX;
-      const dy = e.touches[0].clientY - startY;
-      if (active && Math.abs(dx) > Math.abs(dy) && dx < 0) e.preventDefault();
-      onMove(e.touches[0].clientX, e.touches[0].clientY);
+    function onMouseDown(e) {
+      mouseStartX = e.clientX;
+      mouseStartY = e.clientY;
+      mouseActive = true;
     }
-    function onTouchEnd(e) { onEnd(e.changedTouches[0].clientX, e.changedTouches[0].clientY); }
-    function onMouseDown(e) { onStart(e.clientX, e.clientY); }
-    function onMouseMove(e) { if (active) onMove(e.clientX, e.clientY); }
-    function onMouseUp(e) { if (active) onEnd(e.clientX, e.clientY); }
 
-    panel.addEventListener("touchstart", onTouchStart, { passive: true });
-    panel.addEventListener("touchmove", onTouchMove, { passive: false });
-    panel.addEventListener("touchend", onTouchEnd);
-    panel.addEventListener("mousedown", onMouseDown);
-    window.addEventListener("mousemove", onMouseMove);
-    window.addEventListener("mouseup", onMouseUp);
+    function onMouseUp(e) {
+      if (!mouseActive) return;
+      mouseActive = false;
+      const dx = e.clientX - mouseStartX;
+      const dy = e.clientY - mouseStartY;
+      if (dx < -50 && Math.abs(dx) > Math.abs(dy)) {
+        _triggerSwipeNext();
+      }
+    }
+
+    document.addEventListener("touchstart", onTouchStart, { passive: true });
+    document.addEventListener("touchend",   onTouchEnd,   { passive: true });
+    document.addEventListener("mousedown",  onMouseDown);
+    document.addEventListener("mouseup",    onMouseUp);
 
     _swipeCleanup = () => {
-      panel.removeEventListener("touchstart", onTouchStart);
-      panel.removeEventListener("touchmove", onTouchMove);
-      panel.removeEventListener("touchend", onTouchEnd);
-      panel.removeEventListener("mousedown", onMouseDown);
-      window.removeEventListener("mousemove", onMouseMove);
-      window.removeEventListener("mouseup", onMouseUp);
+      document.removeEventListener("touchstart", onTouchStart);
+      document.removeEventListener("touchend",   onTouchEnd);
+      document.removeEventListener("mousedown",  onMouseDown);
+      document.removeEventListener("mouseup",    onMouseUp);
     };
+  }
+
+  function _triggerSwipeNext() {
+    const panel = $("explanation-panel");
+    if (panel) {
+      panel.style.transition = "opacity 0.15s ease-out, transform 0.15s ease-out";
+      panel.style.opacity = "0";
+      panel.style.transform = "translateX(-60px)";
+    }
+    setTimeout(() => {
+      if (panel) {
+        panel.style.transition = "";
+        panel.style.opacity = "";
+        panel.style.transform = "";
+      }
+      doNext();
+    }, 170);
   }
 
   function disableSwipe() {

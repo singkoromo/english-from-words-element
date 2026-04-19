@@ -595,9 +595,8 @@ function _updateSoundButtons() {
     if (!content) return;
     disableSwipe();
     $("swipe-hint").style.display = "none";
-    window.scrollTo({ top: 0, behavior: "instant" });
 
-    // 現在のコンテンツを左へスライドアウト
+    // 現在のコンテンツを左へスライドアウト（scrollTo はアニメ完了後）
     content.style.willChange = "transform";
     content.style.transition = "transform 0.18s ease-in";
     void content.getBoundingClientRect(); // establish "before" state for transition
@@ -616,6 +615,7 @@ function _updateSoundButtons() {
         content.style.willChange = "";
         content.style.transition = "";
         content.style.transform  = "";
+        window.scrollTo({ top: 0, behavior: "instant" });
         showResult().catch(e => {
           console.error("[App] showResult error:", e);
           showScreen("screen-home");
@@ -624,7 +624,8 @@ function _updateSoundButtons() {
         return;
       }
 
-      // コンテンツを右端へジャンプ（アニメなし）してから次の問題を描画
+      // スライドアウト完了後にスクロールリセット → 新カードを右端に配置してレンダリング
+      window.scrollTo({ top: 0, behavior: "instant" });
       content.style.transition = "none";
       content.style.transform  = "translateX(100%)";
       _skipCardAnim = true;       // question-card の bounce アニメを抑制

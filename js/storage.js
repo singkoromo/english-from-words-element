@@ -85,7 +85,7 @@ const Storage = (function(){
     currentStreak: 0,
     lastPlayDate: null,
     totalDays: 0,
-    selectedLevel: 0, // 0=初級...3=マスター
+    selectedLevel: 4, // 1=英検5-4級 ... 7=TOEFL/GRE（デフォルト: 4=英検2級）
     badges: [],
   };
 

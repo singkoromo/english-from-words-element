@@ -2,6 +2,33 @@
  * app.js — メインアプリロジック
  */
 
+// ── 効果音 ───────────────────────────────────
+let _audioCtx = null;
+
+function playSound(correct) {
+  try {
+    if (!_audioCtx) _audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    const ctx  = _audioCtx;
+    const osc  = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    gain.gain.setValueAtTime(0.3, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.2);
+    if (correct) {
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(660, ctx.currentTime);
+      osc.frequency.linearRampToValueAtTime(880, ctx.currentTime + 0.12);
+    } else {
+      osc.type = "square";
+      osc.frequency.setValueAtTime(300, ctx.currentTime);
+      osc.frequency.linearRampToValueAtTime(180, ctx.currentTime + 0.15);
+    }
+    osc.start(ctx.currentTime);
+    osc.stop(ctx.currentTime + 0.2);
+  } catch (e) { /* マナーモード等では無音で続行 */ }
+}
+
 // ── 音声管理 ─────────────────────────────────
 const SoundManager = {
   enabled: localStorage.getItem('soundEnabled') !== 'false',
@@ -80,7 +107,9 @@ function _updateSoundButtons() {
   }, 2000);
 
   // ── 状態 ─────────────────────────────────────
-  let selectedLevel  = profile.selectedLevel || 0;
+  // 旧レベル(0-3)から新レベル(1-7)へのマイグレーション
+  let selectedLevel = profile.selectedLevel;
+  if (!selectedLevel || selectedLevel < 1 || selectedLevel > 7) selectedLevel = 4;
   let selectedMode   = "etymology";
   // 間違えた単語リストの状態
   let _wwlState = { filter: "active", sort: "recent", page: 1 };
@@ -111,11 +140,12 @@ function _updateSoundButtons() {
 
     // 難易度ボタン
     document.querySelectorAll(".difficulty-btn").forEach(btn => {
-      btn.classList.toggle("active", btn.dataset.level === ["beginner","intermediate","advanced","master"][selectedLevel]);
+      btn.classList.toggle("active", parseInt(btn.dataset.level) === selectedLevel);
       btn.onclick = () => {
-        selectedLevel = ["beginner","intermediate","advanced","master"].indexOf(btn.dataset.level);
+        selectedLevel = parseInt(btn.dataset.level);
         document.querySelectorAll(".difficulty-btn").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
+        Storage.getProfile().then(p => Storage.saveProfile({ ...p, selectedLevel }));
         renderAffixGrid();
       };
     });
@@ -459,6 +489,8 @@ function _updateSoundButtons() {
       if (i === res.correctIndex) btn.classList.add("correct");
       else if (i === choiceIndex && !res.isCorrect) btn.classList.add("wrong");
     });
+
+    playSound(res.isCorrect);
 
     if (res.isCorrect) {
       showCorrectEffect(res.xp);
@@ -820,6 +852,7 @@ function _updateSoundButtons() {
     await Storage.checkAndAwardBadges(updatedP);
 
     showScreen("screen-result");
+    window.scrollTo(0, 0);
 
     // 絵文字・タイトル
     let emoji = "😊", title = "クイズ完了！";

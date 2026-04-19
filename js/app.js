@@ -415,11 +415,13 @@ function _updateSoundButtons() {
       btn.onclick     = () => handleAnswer(i);
     });
 
-    // 解説パネル非表示・btn-next テキストリセット（Bug2対策: 前回クイズのテキストが残らないよう）
+    // 解説パネル非表示・スワイプ無効化
     const panel = $("explanation-panel");
     panel.classList.remove("show", "wrong-panel");
     panel.style.display = "none";
     $("btn-next").textContent = "次の問題 →";
+    disableSwipe();
+    $("swipe-hint").style.display = "none";
 
     // 問題カードアニメーション再発火
     const card = $("question-card");
@@ -545,11 +547,13 @@ function _updateSoundButtons() {
     if (!res.isCorrect) panel.classList.add("wrong-panel");
     panel.style.display = "block";
 
-    // 解説パネル表示後、「次の問題」ボタンが見える位置に自動スクロール
+    // 解説パネル表示後、スワイプヒントが見える位置に自動スクロール
+    enableSwipe();
+    $("swipe-hint").style.display = "flex";
     requestAnimationFrame(() => {
-      const nextBtn = $("btn-next");
-      if (nextBtn) {
-        nextBtn.scrollIntoView({ behavior: "smooth", block: "center" });
+      const hint = $("swipe-hint");
+      if (hint) {
+        hint.scrollIntoView({ behavior: "smooth", block: "center" });
       }
     });
 
@@ -567,17 +571,108 @@ function _updateSoundButtons() {
     }
   }
 
-  $("btn-next").onclick = () => {
+  let _swipeEnabled = false;
+  let _swipeCleanup = null;
+
+  function doNext() {
     window.scrollTo({ top: 0, behavior: "instant" });
     const nextResult = Quiz.next();
-    if (!nextResult) return; // クイズ状態が無効な場合は何もしない（null安全対策）
+    if (!nextResult) return;
     const { done } = nextResult;
     if (done) {
       showResult();
     } else {
       renderQuestion();
     }
-  };
+  }
+
+  function enableSwipe() {
+    if (_swipeEnabled) return;
+    _swipeEnabled = true;
+    const panel = $("explanation-panel");
+    const THRESHOLD = 50;
+    let startX = 0, startY = 0, dragging = false, horizontal = false;
+
+    function onStart(x, y) {
+      startX = x; startY = y; dragging = true; horizontal = false;
+      panel.style.transition = "none";
+    }
+    function onMove(x, y) {
+      if (!dragging) return;
+      const dx = x - startX, dy = y - startY;
+      if (!horizontal && Math.abs(dx) < 5 && Math.abs(dy) < 5) return;
+      if (!horizontal) {
+        horizontal = Math.abs(dx) > Math.abs(dy);
+        if (!horizontal) { dragging = false; return; }
+        panel.classList.add("is-swiping");
+      }
+      if (dx < 0) {
+        const ratio = Math.min(Math.abs(dx) / 200, 1);
+        panel.style.transform = `translateX(${dx}px)`;
+        panel.style.opacity = 1 - ratio * 0.5;
+      }
+    }
+    function onEnd(x) {
+      if (!dragging) return;
+      dragging = false;
+      panel.classList.remove("is-swiping");
+      const dx = x - startX;
+      if (dx < -THRESHOLD) {
+        panel.style.transition = "transform 0.25s ease-out, opacity 0.25s ease-out";
+        panel.style.transform = "translateX(-110%)";
+        panel.style.opacity = "0";
+        panel.addEventListener("transitionend", () => {
+          panel.style.transition = "";
+          panel.style.transform = "";
+          panel.style.opacity = "";
+          doNext();
+        }, { once: true });
+      } else {
+        panel.style.transition = "transform 0.3s cubic-bezier(0.34,1.56,0.64,1), opacity 0.3s ease";
+        panel.style.transform = "";
+        panel.style.opacity = "";
+        panel.addEventListener("transitionend", () => {
+          panel.style.transition = "";
+        }, { once: true });
+      }
+    }
+
+    function onTouchStart(e) { onStart(e.touches[0].clientX, e.touches[0].clientY); }
+    function onTouchMove(e) {
+      const dx = e.touches[0].clientX - startX;
+      const dy = e.touches[0].clientY - startY;
+      if (dragging && horizontal) e.preventDefault();
+      onMove(e.touches[0].clientX, e.touches[0].clientY);
+    }
+    function onTouchEnd(e) { onEnd(e.changedTouches[0].clientX); }
+    function onMouseDown(e) { onStart(e.clientX, e.clientY); }
+    function onMouseMove(e) { if (dragging) onMove(e.clientX, e.clientY); }
+    function onMouseUp(e) { if (dragging) onEnd(e.clientX); }
+
+    panel.addEventListener("touchstart", onTouchStart, { passive: true });
+    panel.addEventListener("touchmove", onTouchMove, { passive: false });
+    panel.addEventListener("touchend", onTouchEnd);
+    panel.addEventListener("mousedown", onMouseDown);
+    window.addEventListener("mousemove", onMouseMove);
+    window.addEventListener("mouseup", onMouseUp);
+
+    _swipeCleanup = () => {
+      panel.removeEventListener("touchstart", onTouchStart);
+      panel.removeEventListener("touchmove", onTouchMove);
+      panel.removeEventListener("touchend", onTouchEnd);
+      panel.removeEventListener("mousedown", onMouseDown);
+      window.removeEventListener("mousemove", onMouseMove);
+      window.removeEventListener("mouseup", onMouseUp);
+    };
+  }
+
+  function disableSwipe() {
+    if (!_swipeEnabled) return;
+    _swipeEnabled = false;
+    if (_swipeCleanup) { _swipeCleanup(); _swipeCleanup = null; }
+  }
+
+  $("btn-next").onclick = doNext;
 
   $("quiz-back-btn").onclick = () => {
     if (confirm("クイズを中断しますか？")) {

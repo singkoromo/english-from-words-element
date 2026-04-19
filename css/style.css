@@ -896,7 +896,10 @@ body {
   display: none;
   animation: explainSlideUp 0.4s var(--bounce) both;
   border-top: 4px solid var(--mint);
+  will-change: transform;
+  touch-action: pan-y;
 }
+.explanation-panel.is-swiping { animation: none !important; }
 
 .explanation-panel.show { display: block; }
 .explanation-panel.wrong-panel { border-top-color: var(--coral); }
@@ -947,6 +950,28 @@ body {
   box-shadow: var(--shadow-pink);
 }
 .btn-next:active { transform: scale(0.97); }
+
+/* --- スワイプヒント --- */
+.swipe-hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 600;
+}
+.swipe-hint-arrow {
+  font-size: 20px;
+  animation: swipeArrow 1.2s ease-in-out infinite;
+  color: var(--pink);
+}
+.swipe-hint-arrow:last-child { animation-delay: 0.3s; }
+@keyframes swipeArrow {
+  0%, 100% { transform: translateX(0); opacity: 0.4; }
+  50% { transform: translateX(-8px); opacity: 1; }
+}
 
 /* ============================================
    結果画面

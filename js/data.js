@@ -257,6 +257,7 @@ const WordData = (function(){
   let _bySuffix = null;
   let _byRoot = null;
   let _byCategory = null;
+  let _uniqueWords = null; // 重複除去済みの全単語キャッシュ
 
   function _buildIndex() {
     if (_byPrefix) return;
@@ -264,9 +265,22 @@ const WordData = (function(){
     _bySuffix = {};
     _byRoot = {};
     _byCategory = {};
+
+    // 重複除去: 同じ word が複数ファイルに存在する場合は最初のエントリのみ使用
+    const seen = new Set();
     const raw = window.WORD_DATA_RAW || [];
     const examples = window.WORD_EXAMPLES || {};
+    const unique = [];
     for (const w of raw) {
+      const key = w.word.toLowerCase().trim();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      unique.push(w);
+    }
+    _uniqueWords = unique;
+    // console.log(`[WordData] total=${raw.length} unique=${unique.length} dupes removed=${raw.length - unique.length}`);
+
+    for (const w of unique) {
       // 用例・語源ストーリー・派生語データをマージ
       if (examples[w.word]) {
         w.example     = examples[w.word].example     || w.example;
@@ -322,9 +336,10 @@ const WordData = (function(){
   }
 
   function getAllWords(level) {
-    const raw = window.WORD_DATA_RAW || [];
-    if (level === undefined) return raw;
-    return raw.filter(w => w.level <= level);
+    _buildIndex(); // _uniqueWords を確保
+    const words = _uniqueWords || [];
+    if (level === undefined) return words;
+    return words.filter(w => w.level <= level);
   }
 
   function getPrefixInfo(key) {

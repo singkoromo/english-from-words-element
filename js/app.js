@@ -493,7 +493,7 @@ function _updateSoundButtons() {
       const word = res.explanation.word;
       const re   = new RegExp(`(${word})`, "gi");
       exEn.innerHTML = res.explanation.example.replace(re, `<span class="example-highlight">$1</span>`);
-      exJa.textContent = res.explanation.exampleJa;
+      exJa.textContent = res.explanation.exampleJa || "";
       exBox.style.display = "block";
     } else if (exBox) {
       exBox.style.display = "none";
@@ -521,7 +521,9 @@ function _updateSoundButtons() {
     if (famBox && famList) {
       if (res.explanation.family && res.explanation.family.length > 0) {
         famList.innerHTML = res.explanation.family
-          .map(f => `<div class="word-item"><span class="word-item-word">${f.word}</span><span class="word-item-desc">${f.desc}</span></div>`)
+          .map(f => typeof f === "string"
+            ? `<span class="derivative-chip">${f}</span>`
+            : `<div class="word-item"><span class="word-item-word">${f.word}</span><span class="word-item-desc">${f.desc}</span></div>`)
           .join("");
         famBox.style.display = "block";
       } else {
@@ -535,7 +537,9 @@ function _updateSoundButtons() {
     if (cmpBox && cmpList) {
       if (res.explanation.compounds && res.explanation.compounds.length > 0) {
         cmpList.innerHTML = res.explanation.compounds
-          .map(c => `<div class="word-item"><span class="word-item-word">${c.phrase}</span><span class="word-item-desc">${c.desc}</span></div>`)
+          .map(c => typeof c === "string"
+            ? `<span class="derivative-chip">${c}</span>`
+            : `<div class="word-item"><span class="word-item-word">${c.phrase}</span><span class="word-item-desc">${c.desc}</span></div>`)
           .join("");
         cmpBox.style.display = "block";
       } else {
@@ -761,7 +765,7 @@ function _updateSoundButtons() {
         const exHtml = w.example
           ? `<div class="wrong-example">
                <span class="wrong-example-en">${w.example.replace(re, `<span class="example-highlight">$1</span>`)}</span>
-               <span class="wrong-example-ja">${w.exampleJa}</span>
+               <span class="wrong-example-ja">${w.exampleJa || ""}</span>
              </div>`
           : "";
         const originHtml = w.origin
@@ -773,10 +777,14 @@ function _updateSoundButtons() {
               : `<div class="word-item word-item--sm"><span class="word-item-word">${d.word}</span><span class="word-item-desc">${d.desc}</span></div>`).join("")}</div>`
           : "";
         const famHtml = (w.family && w.family.length > 0)
-          ? `<div class="wrong-family"><span class="wrong-family-label">🌐 語源ネットワーク</span>${w.family.map(f => `<div class="word-item word-item--sm"><span class="word-item-word">${f.word}</span><span class="word-item-desc">${f.desc}</span></div>`).join("")}</div>`
+          ? `<div class="wrong-family"><span class="wrong-family-label">🌐 語源ネットワーク</span>${w.family.map(f => typeof f === "string"
+              ? `<span class="derivative-chip derivative-chip--sm">${f}</span>`
+              : `<div class="word-item word-item--sm"><span class="word-item-word">${f.word}</span><span class="word-item-desc">${f.desc}</span></div>`).join("")}</div>`
           : "";
         const cmpHtml = (w.compounds && w.compounds.length > 0)
-          ? `<div class="wrong-compounds"><span class="wrong-cmp-label">💬 複合語</span>${w.compounds.map(c => `<div class="word-item word-item--sm"><span class="word-item-word">${c.phrase}</span><span class="word-item-desc">${c.desc}</span></div>`).join("")}</div>`
+          ? `<div class="wrong-compounds"><span class="wrong-cmp-label">💬 複合語</span>${w.compounds.map(c => typeof c === "string"
+              ? `<span class="derivative-chip derivative-chip--sm">${c}</span>`
+              : `<div class="word-item word-item--sm"><span class="word-item-word">${c.phrase}</span><span class="word-item-desc">${c.desc}</span></div>`).join("")}</div>`
           : "";
         return `
           <div class="wrong-item">
@@ -1014,10 +1022,14 @@ function _updateSoundButtons() {
             : `<div class="word-item word-item--sm"><span class="word-item-word">${_escHtml(d.word)}</span><span class="word-item-desc">${_escHtml(d.desc)}</span></div>`).join("")}</div>`
         : "";
       const famHtml = (w.family && w.family.length > 0)
-        ? `<div class="wwl-family"><span class="wwl-family-label">🌐 語源ネットワーク</span>${w.family.map(f => `<div class="word-item word-item--sm"><span class="word-item-word">${_escHtml(f.word)}</span><span class="word-item-desc">${_escHtml(f.desc)}</span></div>`).join("")}</div>`
+        ? `<div class="wwl-family"><span class="wwl-family-label">🌐 語源ネットワーク</span>${w.family.map(f => typeof f === "string"
+            ? `<span class="derivative-chip derivative-chip--sm">${_escHtml(f)}</span>`
+            : `<div class="word-item word-item--sm"><span class="word-item-word">${_escHtml(f.word)}</span><span class="word-item-desc">${_escHtml(f.desc)}</span></div>`).join("")}</div>`
         : "";
       const cmpHtml = (w.compounds && w.compounds.length > 0)
-        ? `<div class="wwl-compounds"><span class="wwl-cmp-label">💬 複合語</span>${w.compounds.map(c => `<div class="word-item word-item--sm"><span class="word-item-word">${_escHtml(c.phrase)}</span><span class="word-item-desc">${_escHtml(c.desc)}</span></div>`).join("")}</div>`
+        ? `<div class="wwl-compounds"><span class="wwl-cmp-label">💬 複合語</span>${w.compounds.map(c => typeof c === "string"
+            ? `<span class="derivative-chip derivative-chip--sm">${_escHtml(c)}</span>`
+            : `<div class="word-item word-item--sm"><span class="word-item-word">${_escHtml(c.phrase)}</span><span class="word-item-desc">${_escHtml(c.desc)}</span></div>`).join("")}</div>`
         : "";
 
       return `

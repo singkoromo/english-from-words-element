@@ -699,6 +699,9 @@ function _updateSoundButtons() {
     const res = Quiz.getResult();
     if (!res) return;
 
+    // 広告：クイズ完了をカウント（5回に1回インタースティシャル表示）
+    if (typeof AdsManager !== "undefined") AdsManager.onQuizComplete();
+
     if (_isDaily) await Storage.completeDailyChallenge();
 
     // 苦手単語リスト更新（間違えた単語を追加、正解した苦手単語のストリーク更新）

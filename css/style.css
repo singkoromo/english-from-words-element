@@ -165,6 +165,46 @@ body {
   padding-bottom: 24px;
 }
 
+/* --- バナー広告プレースホルダー --- */
+.ad-banner-placeholder {
+  height: 50px;
+  background: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--gray-200);
+}
+.ad-banner-placeholder.loaded {
+  background: transparent;
+  border-top: none;
+}
+.ad-label {
+  font-size: 11px;
+  color: var(--gray-400);
+  letter-spacing: 0.05em;
+}
+
+/* --- ホームフッター --- */
+.home-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: white;
+  border-top: 1px solid var(--gray-200);
+}
+.footer-link {
+  font-size: 11px;
+  color: var(--gray-400);
+  text-decoration: none;
+}
+.footer-link:hover { color: var(--pink); }
+.footer-sep {
+  font-size: 11px;
+  color: var(--gray-300);
+}
+
 .home-header {
   display: flex;
   align-items: center;

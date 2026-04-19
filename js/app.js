@@ -600,6 +600,7 @@ function _updateSoundButtons() {
     // 現在のコンテンツを左へスライドアウト
     content.style.willChange = "transform";
     content.style.transition = "transform 0.18s ease-in";
+    void content.getBoundingClientRect(); // establish "before" state for transition
     content.style.transform  = "translateX(-100%)";
 
     setTimeout(() => {
@@ -630,9 +631,10 @@ function _updateSoundButtons() {
       renderQuestion();           // DOM 更新（同期・高速）
 
       // 強制リフロー後にスライドイン
-      content.offsetHeight;
+      void content.getBoundingClientRect(); // flush transition:none + transform:100%
       content.style.willChange = "transform";
       content.style.transition = "transform 0.18s ease-out";
+      void content.getBoundingClientRect(); // establish "before" state for slide-in
       content.style.transform  = "";
 
       setTimeout(() => {

@@ -220,9 +220,16 @@ const Quiz = (function(){
     if (_state) _state.hintsUsed++;
   }
 
+  function peek() {
+    if (!_state) return null;
+    const nextIdx = _state.current + 1;
+    if (nextIdx >= _state.questions.length || _state.lives <= 0) return null;
+    return _state.questions[nextIdx];
+  }
+
   function isActive() { return _state !== null; }
 
   function reset() { _state = null; }
 
-  return { start, startWithWords, getCurrentQuestion, answer, next, getResult, useHint, isActive, reset };
+  return { start, startWithWords, getCurrentQuestion, answer, next, peek, getResult, useHint, isActive, reset };
 })();

@@ -738,6 +738,11 @@ body {
 }
 
 /* --- クイズコンテンツ --- */
+#quiz-swipe-viewport {
+  overflow: hidden;
+  position: relative;
+}
+
 .quiz-content {
   padding: 16px;
   display: flex;

@@ -430,11 +430,14 @@ function _updateSoundButtons() {
     disableSwipe();
     $("swipe-hint").style.display = "none";
 
-    // 問題カードアニメーション再発火
-    const card = $("question-card");
-    card.style.animation = "none";
-    card.offsetHeight;
-    card.style.animation = "";
+    // 問題カードアニメーション再発火（スワイプ遷移中はスキップ）
+    if (!_skipCardAnim) {
+      const card = $("question-card");
+      card.style.animation = "none";
+      card.offsetHeight;
+      card.style.animation = "";
+    }
+    _skipCardAnim = false;
 
     // 単語クリック / ボタンで発音
     const speakWord = () => SoundManager.speak(q.word.word);
@@ -584,6 +587,60 @@ function _updateSoundButtons() {
 
   let _swipeEnabled = false;
   let _swipeCleanup = null;
+  let _skipCardAnim  = false;
+
+  // スワイプ確定後のスライド遷移
+  function _triggerSlideNext() {
+    const content = document.getElementById("quiz-content");
+    if (!content) return;
+    disableSwipe();
+    $("swipe-hint").style.display = "none";
+    window.scrollTo({ top: 0, behavior: "instant" });
+
+    // 現在のコンテンツを左へスライドアウト
+    content.style.willChange = "transform";
+    content.style.transition = "transform 0.18s ease-in";
+    content.style.transform  = "translateX(-100%)";
+
+    setTimeout(() => {
+      const nextResult = Quiz.next();
+      if (!nextResult) {
+        content.style.willChange = "";
+        content.style.transition = "";
+        content.style.transform  = "";
+        return;
+      }
+
+      if (nextResult.done) {
+        content.style.willChange = "";
+        content.style.transition = "";
+        content.style.transform  = "";
+        showResult().catch(e => {
+          console.error("[App] showResult error:", e);
+          showScreen("screen-home");
+          initHome();
+        });
+        return;
+      }
+
+      // コンテンツを右端へジャンプ（アニメなし）してから次の問題を描画
+      content.style.transition = "none";
+      content.style.transform  = "translateX(100%)";
+      _skipCardAnim = true;       // question-card の bounce アニメを抑制
+      renderQuestion();           // DOM 更新（同期・高速）
+
+      // 強制リフロー後にスライドイン
+      content.offsetHeight;
+      content.style.willChange = "transform";
+      content.style.transition = "transform 0.18s ease-out";
+      content.style.transform  = "";
+
+      setTimeout(() => {
+        content.style.willChange = "";
+        content.style.transition = "";
+      }, 180);
+    }, 180);
+  }
 
   async function doNext() {
     window.scrollTo({ top: 0, behavior: "instant" });
@@ -610,66 +667,74 @@ function _updateSoundButtons() {
     if (_swipeEnabled) return;
     _swipeEnabled = true;
 
-    let startX = 0, startY = 0;
-    let mouseStartX = 0, mouseStartY = 0, mouseActive = false;
+    let startX = 0, startY = 0, dir = null, tracking = false;
 
     function onTouchStart(e) {
-      startX = e.touches[0].clientX;
-      startY = e.touches[0].clientY;
+      startX   = e.touches[0].clientX;
+      startY   = e.touches[0].clientY;
+      dir      = null;
+      tracking = true;
+      const c = document.getElementById("quiz-content");
+      if (c) { c.style.willChange = "transform"; c.style.transition = "none"; }
+    }
+
+    function onTouchMove(e) {
+      if (!tracking) return;
+      const dx = e.touches[0].clientX - startX;
+      const dy = e.touches[0].clientY - startY;
+      if (!dir) {
+        if (Math.abs(dx) < 5 && Math.abs(dy) < 5) return;
+        dir = Math.abs(dx) > Math.abs(dy) ? "h" : "v";
+      }
+      if (dir === "v") return;
+      e.preventDefault();
+      if (dx < 0) {
+        const c = document.getElementById("quiz-content");
+        if (c) c.style.transform = `translateX(${dx}px)`;
+      }
     }
 
     function onTouchEnd(e) {
+      if (!tracking) return;
+      tracking = false;
       const dx = e.changedTouches[0].clientX - startX;
-      const dy = e.changedTouches[0].clientY - startY;
-      if (dx < -50 && Math.abs(dx) > Math.abs(dy)) {
-        _triggerSwipeNext();
+      const c  = document.getElementById("quiz-content");
+      if (dir === "h" && dx < -60) {
+        _triggerSlideNext();
+      } else {
+        if (c) {
+          c.style.willChange = "transform";
+          c.style.transition = "transform 0.25s cubic-bezier(0.34,1.56,0.64,1)";
+          c.style.transform  = "";
+          setTimeout(() => { c.style.willChange = ""; c.style.transition = ""; }, 250);
+        }
       }
+      dir = null;
     }
 
-    function onMouseDown(e) {
-      mouseStartX = e.clientX;
-      mouseStartY = e.clientY;
-      mouseActive = true;
-    }
-
+    // デスクトップ用マウス操作
+    let msx = 0, msy = 0, mdown = false;
+    function onMouseDown(e) { msx = e.clientX; msy = e.clientY; mdown = true; }
     function onMouseUp(e) {
-      if (!mouseActive) return;
-      mouseActive = false;
-      const dx = e.clientX - mouseStartX;
-      const dy = e.clientY - mouseStartY;
-      if (dx < -50 && Math.abs(dx) > Math.abs(dy)) {
-        _triggerSwipeNext();
-      }
+      if (!mdown) return;
+      mdown = false;
+      const dx = e.clientX - msx, dy = e.clientY - msy;
+      if (dx < -50 && Math.abs(dx) > Math.abs(dy)) _triggerSlideNext();
     }
 
     document.addEventListener("touchstart", onTouchStart, { passive: true });
+    document.addEventListener("touchmove",  onTouchMove,  { passive: false });
     document.addEventListener("touchend",   onTouchEnd,   { passive: true });
     document.addEventListener("mousedown",  onMouseDown);
     document.addEventListener("mouseup",    onMouseUp);
 
     _swipeCleanup = () => {
       document.removeEventListener("touchstart", onTouchStart);
+      document.removeEventListener("touchmove",  onTouchMove);
       document.removeEventListener("touchend",   onTouchEnd);
       document.removeEventListener("mousedown",  onMouseDown);
       document.removeEventListener("mouseup",    onMouseUp);
     };
-  }
-
-  function _triggerSwipeNext() {
-    const panel = $("explanation-panel");
-    if (panel) {
-      panel.style.transition = "opacity 0.15s ease-out, transform 0.15s ease-out";
-      panel.style.opacity = "0";
-      panel.style.transform = "translateX(-60px)";
-    }
-    setTimeout(() => {
-      if (panel) {
-        panel.style.transition = "";
-        panel.style.opacity = "";
-        panel.style.transform = "";
-      }
-      doNext();
-    }, 170);
   }
 
   function disableSwipe() {

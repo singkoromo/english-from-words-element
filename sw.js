@@ -1,7 +1,7 @@
 /**
  * sw.js — Service Worker（オフライン対応）
  */
-const CACHE_NAME = "etymology-v562";
+const CACHE_NAME = "etymology-v563";
 const ASSETS = [
   "/",
   "/index.html",
@@ -152,6 +152,12 @@ const ASSETS = [
   "/js/data-mixed-63.js",
   "/js/data-mixed-64.js",
   "/js/data-mixed-65.js",
+  "/js/data-mixed-66.js",
+  "/js/data-mixed-67.js",
+  "/js/data-mixed-68.js",
+  "/js/data-mixed-69.js",
+  "/js/data-mixed-70.js",
+  "/js/data-mixed-71.js",
 ];
 
 self.addEventListener("install", e => {

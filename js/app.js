@@ -107,7 +107,9 @@ function _updateSoundButtons() {
   }, 2000);
 
   // ── 状態 ─────────────────────────────────────
-  let selectedLevel  = profile.selectedLevel || 0;
+  // 旧レベル(0-3)から新レベル(1-7)へのマイグレーション
+  let selectedLevel = profile.selectedLevel;
+  if (!selectedLevel || selectedLevel < 1 || selectedLevel > 7) selectedLevel = 4;
   let selectedMode   = "etymology";
   // 間違えた単語リストの状態
   let _wwlState = { filter: "active", sort: "recent", page: 1 };
@@ -138,11 +140,12 @@ function _updateSoundButtons() {
 
     // 難易度ボタン
     document.querySelectorAll(".difficulty-btn").forEach(btn => {
-      btn.classList.toggle("active", btn.dataset.level === ["beginner","intermediate","advanced","master"][selectedLevel]);
+      btn.classList.toggle("active", parseInt(btn.dataset.level) === selectedLevel);
       btn.onclick = () => {
-        selectedLevel = ["beginner","intermediate","advanced","master"].indexOf(btn.dataset.level);
+        selectedLevel = parseInt(btn.dataset.level);
         document.querySelectorAll(".difficulty-btn").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
+        Storage.getProfile().then(p => Storage.saveProfile({ ...p, selectedLevel }));
         renderAffixGrid();
       };
     });

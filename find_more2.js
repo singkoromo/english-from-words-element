@@ -1,0 +1,29 @@
+const fs = require('fs');
+const ex = new Set(fs.readFileSync('existing_words.txt','utf8').split('\n').map(w=>w.trim()).filter(Boolean));
+
+const c4 = [
+// 心理学・精神医学（詳細）
+'abreaction','acrophobia','agoraphobia','alexithymia','ambivalence','anaclitic','anthropophobia','attachment','avoidance','claustrophobia','codependency','compulsive','conditioning','countertransference','defenses','depersonalization','derealization','disorganized','dissociation','dysmorphia','dysthymia','egocentrism','emotive','empathy','envy','estrangement','euphoria','existential','extroversion','flashback','folie','gaslighting','grandiosity','grounding','guilt','hallucination','hypochondria','idealization','impulsivity','insecurity','internalize','introversion','jealousy','limerence','locus','maladaptive','manipulation','masochism','melancholy','narcissistic','neurotic','nihilism','numbing','obsessive','paranoia','passivity','pathological','perseveration','phobia','psychopathy','PTSD','regression','rumination','sadism','schizoid','self-harm','self-pity','self-sabotage','shame','social-anxiety','somatization','splitting','suppression','transference','trauma','trichotillomania','vulnerability','worthlessness',
+// 経営・組織
+'accountability','agile','alignment','attrition','benchmarking','brainstorm','breakeven','budgeting','burnout','capacity','centralize','collaboration','competency','compliance','confidentiality','consolidate','contingency','coordination','corporate','delegation','deliverable','disruption','diversification','downsize','efficiency','engagement','escalation','execution','exit-strategy','feasibility','forecasting','governance','headcount','hierarchy','implementation','incentive','initiative','integration','KPI','lateralize','lean','leverage','lifecycle','mandate','merger','metrics','milestone','mitigation','monetize','onboard','optimize','outcome','outsource','performance','pipeline','pivot','procurement','profitability','prototype','redundancy','reengineering','retention','risk-averse','roadmap','rollout','scalability','scope','silos','sprint','stakeholder','strategy','succession','synergy','target','throughput','timeline','transparency','turnaround','unicorn','utilization','velocity','venture','viability','workflow','workstream',
+// 地理・地学
+'alluvial','alpine','antipode','archipelago','arid','atoll','badlands','caldera','canyon','cape','cartography','chasm','cirque','confluence','continental','coordinates','crevasse','datum','delta','demography','depression','doline','dune','escarpment','estuary','fjord','foothills','geomorphology','geopolitics','gorge','gradient','gulf','headland','hemisphere','highlands','humidity','isthmus','karst','lagoon','latitude','leeward','levee','longitude','lowlands','meander','meridian','mesa','monsoon','morraine','oasis','peninsula','piedmont','plain','plateau','polar','promontory','ravine','ridge','rift','sandbar','savanna','scarp','shoal','steppe','strait','terrace','topography','tributary','tropics','tundra','valley','volcano','watershed','windward','zenith',
+// 法学（詳細）
+'acquittal','affidavit','allegation','amnesty','amicus','appeal','arraign','arbitration','bail','barrister','brief','burden','certiorari','civil','claimant','codicil','collusion','commutation','complicity','contempt','contractual','conviction','counsel','culpable','damages','depose','detention','discovery','disposition','dissent','docket','eminent','enactment','estoppel','evidence','extradite','felony','filibuster','forensic','immunity','indictment','injunction','jurisprudence','lien','litigant','malicious','malpractice','malfeasance','misdemeanor','nullify','parole','perjure','plaintiff','precedent','probate','prosecution','recuse','referendum','statute','subpoena','tort','tribunal','verdict','waiver','warrant',
+// 現代語・新語
+'algorithm','algorithmic','API','app','avatar','bandwidth','bigdata','biohacking','chatbot','clickbait','cloud','crowdfund','cryptocurrency','cyberattack','cybersecurity','dashboard','datafication','deepfake','digitize','drone','doomscrolling','echo-chamber','edtech','fintech','gamify','ghosting','gig-economy','glassdoor','greentech','hashtag','healthtech','infographic','innovation','IoT','livestream','metadata','microchip','mindfulness','nanomaterial','niche','open-source','paywall','platform','podcast','quantum-computing','ransomware','repost','selfie','social-media','startup','stealth-mode','streaming','surveillance','sustainability','technocracy','telemedicine','unfollow','upskill','virtual','viral','webinar','wearable',
+// 人類学・社会学（詳細）
+'acculturation','agency','alienation','anomie','anthropology','assimilation','autonomy','caste','civil-society','collectivism','colonialism','communitarianism','cosmopolitanism','cultural','diaspora','discourse','discrimination','egalitarian','emancipation','eminent','enculturation','ethnicity','ethos','exclusion','functionalism','globalization','hegemony','hybridization','identity','ideology','inclusion','indigenism','inequality','integration','intersectionality','kinship','liberalization','marginalization','modernization','multiculturalism','nativism','normalization','oppression','patriarchy','postcolonial','postmodernism','prejudice','proletariat','radicalization','rationalization','secularization','segregation','socialization','solidarity','sovereignty','stereotype','stratification','subculture','systemic','tokenism','tribalism','xenophobia',
+];
+
+const missing = [...new Set(c4)].filter(w => !ex.has(w));
+console.log('New missing from batch4:', missing.length);
+const prev = fs.readFileSync('missing_candidates.txt','utf8').split('\n').filter(Boolean);
+const all = [...new Set([...prev, ...missing])];
+console.log('Total combined:', all.length);
+fs.writeFileSync('missing_candidates.txt', all.join('\n'));
+// 1000語を超えた場合は最初の1000語を選択
+if (all.length >= 1000) {
+  fs.writeFileSync('final_1000.txt', all.slice(0,1000).join('\n'));
+  console.log('Saved final_1000.txt with', Math.min(all.length,1000), 'words');
+}

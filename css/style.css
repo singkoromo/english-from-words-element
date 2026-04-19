@@ -334,17 +334,22 @@ body {
 
 /* --- 難易度ボタン --- */
 .difficulty-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 6px;
+  scrollbar-width: none;
 }
+.difficulty-grid::-webkit-scrollbar { display: none; }
 
 .difficulty-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
-  padding: 14px 10px;
+  gap: 3px;
+  padding: 10px 8px;
+  flex: 0 0 68px;
   border: 2px solid var(--gray-200);
   border-radius: var(--radius-md);
   background: white;
@@ -355,17 +360,26 @@ body {
 
 .difficulty-btn:active { transform: scale(0.96); }
 
+/* レベル別カラー */
+.difficulty-btn[data-level="1"] { --lv-color: #74C0FC; --lv-bg: #e7f5ff; }
+.difficulty-btn[data-level="2"] { --lv-color: #51CF66; --lv-bg: #ebfbee; }
+.difficulty-btn[data-level="3"] { --lv-color: #94D82D; --lv-bg: #f4fce3; }
+.difficulty-btn[data-level="4"] { --lv-color: #FFD43B; --lv-bg: #fff9db; }
+.difficulty-btn[data-level="5"] { --lv-color: #FFA94D; --lv-bg: #fff4e6; }
+.difficulty-btn[data-level="6"] { --lv-color: #FF6B6B; --lv-bg: #fff5f5; }
+.difficulty-btn[data-level="7"] { --lv-color: #CC5DE8; --lv-bg: #f8f0fc; }
+
 .difficulty-btn.active {
-  border-color: var(--pink);
-  background: var(--pink-pale);
-  box-shadow: var(--shadow-pink);
+  border-color: var(--lv-color, var(--pink));
+  background: var(--lv-bg, var(--pink-pale));
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--lv-color, var(--pink)) 35%, transparent);
 }
 
-.diff-icon { font-size: 24px; }
-.diff-name { font-size: 14px; font-weight: 700; color: var(--text-primary); }
-.diff-desc { font-size: 10px; color: var(--text-secondary); }
+.diff-icon { font-size: 20px; }
+.diff-name { font-size: 13px; font-weight: 700; color: var(--text-primary); }
+.diff-desc { font-size: 9px; color: var(--text-secondary); text-align: center; line-height: 1.2; }
 
-.difficulty-btn.active .diff-name { color: var(--pink); }
+.difficulty-btn.active .diff-name { color: var(--lv-color, var(--pink)); }
 
 /* --- モードタブ --- */
 .mode-tabs {

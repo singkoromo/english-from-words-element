@@ -236,8 +236,8 @@ const WordData = (function(){
     { key:"Academic", label:"学術2",       meaning:"学術英語",           color:"#FFA94D" },
   ];
 
-  // レベル名
-  const LEVEL_NAMES = ["初級", "中級", "上級", "マスター"];
+  // レベル名 (index 1-7; 0 は未使用)
+  const LEVEL_NAMES = [null, "英検5-4級", "英検3級", "英検準2級", "英検2級", "英検準1級", "英検1級", "TOEFL/GRE"];
   const LEVEL_TITLES = [
     ["ビギナー","初心者","見習い","探求者"],
     ["語学ファン","単語マスター","語彙戦士","英語の達人"],

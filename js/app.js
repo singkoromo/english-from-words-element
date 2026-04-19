@@ -36,8 +36,15 @@ function _updateSoundButtons() {
 
 (async function(){
   // ── DB 初期化 ────────────────────────────────
-  await Storage.init();
-  const profile = await Storage.updateStreak();
+  let profile;
+  try {
+    await Storage.init();
+    profile = await Storage.updateStreak();
+  } catch(e) {
+    console.error("[App] Storage init failed:", e);
+    // IndexedDB 不可環境でも読み取り専用として動作させる（データは保存されない）
+    profile = { id:"main", totalXp:0, level:1, streak:0, selectedLevel:0, totalQuizzes:0, badges:[] };
+  }
 
   // ── 画面管理 ─────────────────────────────────
   function showScreen(id) {
@@ -578,13 +585,22 @@ function _updateSoundButtons() {
   let _swipeEnabled = false;
   let _swipeCleanup = null;
 
-  function doNext() {
+  async function doNext() {
     window.scrollTo({ top: 0, behavior: "instant" });
     const nextResult = Quiz.next();
     if (!nextResult) return;
     const { done } = nextResult;
     if (done) {
-      showResult();
+      try {
+        await showResult();
+      } catch(e) {
+        console.error("[App] showResult error:", e);
+        disableSwipe();
+        const existing = document.querySelector(".affix-start-area");
+        if (existing) existing.remove();
+        showScreen("screen-home");
+        initHome();
+      }
     } else {
       renderQuestion();
     }
@@ -822,6 +838,7 @@ function _updateSoundButtons() {
       initHome();
     };
 
+    disableSwipe();
     Quiz.reset();
   }
 

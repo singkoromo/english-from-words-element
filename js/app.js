@@ -591,49 +591,40 @@ function _updateSoundButtons() {
     _swipeEnabled = true;
     const panel = $("explanation-panel");
     const THRESHOLD = 50;
-    let startX = 0, startY = 0, dragging = false, horizontal = false;
+    let startX = 0, startY = 0, active = false;
 
     function onStart(x, y) {
-      startX = x; startY = y; dragging = true; horizontal = false;
+      startX = x; startY = y; active = true;
       panel.style.transition = "none";
     }
     function onMove(x, y) {
-      if (!dragging) return;
+      if (!active) return;
       const dx = x - startX, dy = y - startY;
-      if (!horizontal && Math.abs(dx) < 5 && Math.abs(dy) < 5) return;
-      if (!horizontal) {
-        horizontal = Math.abs(dx) > Math.abs(dy);
-        if (!horizontal) { dragging = false; return; }
+      if (dx < 0 && Math.abs(dx) > Math.abs(dy)) {
         panel.classList.add("is-swiping");
-      }
-      if (dx < 0) {
         const ratio = Math.min(Math.abs(dx) / 200, 1);
         panel.style.transform = `translateX(${dx}px)`;
         panel.style.opacity = 1 - ratio * 0.5;
       }
     }
-    function onEnd(x) {
-      if (!dragging) return;
-      dragging = false;
+    function onEnd(x, y) {
+      if (!active) return;
+      active = false;
       panel.classList.remove("is-swiping");
       const dx = x - startX;
       if (dx < -THRESHOLD) {
         panel.style.transition = "transform 0.25s ease-out, opacity 0.25s ease-out";
         panel.style.transform = "translateX(-110%)";
         panel.style.opacity = "0";
-        panel.addEventListener("transitionend", () => {
-          panel.style.transition = "";
-          panel.style.transform = "";
-          panel.style.opacity = "";
-          doNext();
-        }, { once: true });
+        let done = false;
+        const advance = () => { if (!done) { done = true; doNext(); } };
+        panel.addEventListener("transitionend", advance, { once: true });
+        setTimeout(advance, 400);
       } else {
         panel.style.transition = "transform 0.3s cubic-bezier(0.34,1.56,0.64,1), opacity 0.3s ease";
         panel.style.transform = "";
         panel.style.opacity = "";
-        panel.addEventListener("transitionend", () => {
-          panel.style.transition = "";
-        }, { once: true });
+        panel.addEventListener("transitionend", () => { panel.style.transition = ""; }, { once: true });
       }
     }
 
@@ -641,13 +632,13 @@ function _updateSoundButtons() {
     function onTouchMove(e) {
       const dx = e.touches[0].clientX - startX;
       const dy = e.touches[0].clientY - startY;
-      if (dragging && horizontal) e.preventDefault();
+      if (active && Math.abs(dx) > Math.abs(dy) && dx < 0) e.preventDefault();
       onMove(e.touches[0].clientX, e.touches[0].clientY);
     }
-    function onTouchEnd(e) { onEnd(e.changedTouches[0].clientX); }
+    function onTouchEnd(e) { onEnd(e.changedTouches[0].clientX, e.changedTouches[0].clientY); }
     function onMouseDown(e) { onStart(e.clientX, e.clientY); }
-    function onMouseMove(e) { if (dragging) onMove(e.clientX, e.clientY); }
-    function onMouseUp(e) { if (dragging) onEnd(e.clientX); }
+    function onMouseMove(e) { if (active) onMove(e.clientX, e.clientY); }
+    function onMouseUp(e) { if (active) onEnd(e.clientX, e.clientY); }
 
     panel.addEventListener("touchstart", onTouchStart, { passive: true });
     panel.addEventListener("touchmove", onTouchMove, { passive: false });

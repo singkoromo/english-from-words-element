@@ -165,6 +165,11 @@ const ASSETS = [
   "/js/data-mixed-76.js",
   "/js/data-mixed-77.js",
   "/js/data-mixed-78.js",
+  "/js/data-mixed-79.js",
+  "/js/data-mixed-80.js",
+  "/js/data-mixed-81.js",
+  "/js/data-mixed-82.js",
+  "/js/data-mixed-83.js",
 ];
 
 self.addEventListener("install", e => {

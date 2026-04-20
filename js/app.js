@@ -349,11 +349,7 @@ function _updateSoundButtons() {
       statusEl.textContent = "未完了";
       descEl.textContent = "今日も学習してストリークを伸ばそう！";
       btn.onclick = () => {
-        // 今日のおすすめ語源をランダムに選ぶ（全語源から）
-        const today = new Date();
-        const idx   = today.getDate() % WordData.ALL_ETYMOLOGIES.length;
-        const p     = WordData.ALL_ETYMOLOGIES[idx];
-        startQuiz("etymology", p.key, p.label, true);
+        startQuiz("random", null, "デイリーチャレンジ", true);
       };
     }
   }

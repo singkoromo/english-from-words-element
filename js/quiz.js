@@ -25,6 +25,8 @@ const Quiz = (function(){
     } else if (mode === "weak") {
       // 苦手モード: 全レベルからランダム（startWithWords 推奨）
       pool = WordData.getAllWords(level);
+    } else if (mode === "random") {
+      pool = WordData.getAllWords(level);
     } else {
       pool = WordData.getAllWords(level);
     }

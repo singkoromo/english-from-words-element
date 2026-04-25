@@ -8,7 +8,7 @@ const AdsManager = (() => {
   const CONFIG = {
     // 広告ユニットID（ユニットIDは後で本番IDに差し替える）
     banner:          "ca-app-pub-6632544968825889/8471654056",
-    interstitial:    "ca-app-pub-3940256099942544/1033173712",
+    interstitial:    "ca-app-pub-6632544968825889/3654441648",
     rewarded:        "ca-app-pub-3940256099942544/5224354917",
     // 本番アプリID
     appId:           "ca-app-pub-6632544968825889~5233762950",

@@ -334,24 +334,15 @@ function _updateSoundButtons() {
   }
 
   async function renderDailyChallenge() {
-    const status = await Storage.getDailyChallengeStatus();
     const descEl = $("dc-desc");
     const statusEl = $("dc-status");
     const btn = $("btn-daily-challenge");
 
-    if (status.completed) {
-      statusEl.textContent = "✅ 完了！";
-      statusEl.classList.add("completed");
-      descEl.textContent = "今日のチャレンジ達成！また明日来てね 🎉";
-      btn.textContent = "✅ クリア済み";
-      btn.disabled = true;
-    } else {
-      statusEl.textContent = "未完了";
-      descEl.textContent = "今日も学習してストリークを伸ばそう！";
-      btn.onclick = () => {
-        startQuiz("random", null, "デイリーチャレンジ", true);
-      };
-    }
+    statusEl.textContent = "挑戦可能";
+    descEl.textContent = "今日も学習してストリークを伸ばそう！何度でも挑戦できます。";
+    btn.onclick = () => {
+      startQuiz("random", null, "デイリーチャレンジ", true);
+    };
   }
 
   // ── クイズ起動（語源/デイリー） ──────────────
@@ -828,7 +819,6 @@ function _updateSoundButtons() {
     // 広告：クイズ完了をカウント（5回に1回インタースティシャル表示）
     if (typeof AdsManager !== "undefined") AdsManager.onQuizComplete();
 
-    if (_isDaily) await Storage.completeDailyChallenge();
 
     // 苦手単語リスト更新（間違えた単語を追加、正解した苦手単語のストリーク更新）
     if (res.wrong && res.wrong.length > 0) {

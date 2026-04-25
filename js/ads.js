@@ -6,10 +6,12 @@
 
 const AdsManager = (() => {
   const CONFIG = {
-    // Google公式テストID（本番リリース前に差し替える）
+    // 広告ユニットID（ユニットIDは後で本番IDに差し替える）
     banner:          "ca-app-pub-3940256099942544/6300978111",
     interstitial:    "ca-app-pub-3940256099942544/1033173712",
     rewarded:        "ca-app-pub-3940256099942544/5224354917",
+    // 本番アプリID
+    appId:           "ca-app-pub-6632544968825889~5233762950",
     // インタースティシャルを表示するクイズ完了回数の間隔
     interstitialEvery: 5,
   };

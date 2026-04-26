@@ -2,7 +2,9 @@
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
-        "package_name": "site.etymology_english.tw",
-        "sha256_cert_fingerprints": ["D7:D0:D9:70:C0:CA:80:A7:EF:43:07:46:92:73:6C:4F:40:75:13:9C:05:82:48:4A:12:4A:21:9F:5A:17:3F:C7"]
+        "package_name": "com.etymology_english.app",
+        "sha256_cert_fingerprints": [
+          "D7:D0:D9:70:C0:CA:80:A7:EF:43:07:46:92:73:6C:4F:40:75:13:9C:05:82:48:4A:12:4A:21:9F:5A:17:3F:C7"
+        ]
       }
     }]

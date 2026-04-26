@@ -4,7 +4,8 @@
         "namespace": "android_app",
         "package_name": "com.etymology_english.app",
         "sha256_cert_fingerprints": [
-          "D7:D0:D9:70:C0:CA:80:A7:EF:43:07:46:92:73:6C:4F:40:75:13:9C:05:82:48:4A:12:4A:21:9F:5A:17:3F:C7"
+          "D7:D0:D9:70:C0:CA:80:A7:EF:43:07:46:92:73:6C:4F:40:75:13:9C:05:82:48:4A:12:4A:21:9F:5A:17:3F:C7",
+          "47:80:06:69:D9:98:04:19:C3:D3:26:B9:B8:C8:84:B3:26:F3:6B:E1:B0:2C:C7:29:B1:95:05:74:A1:12:99:8E"
         ]
       }
     }]
